@@ -53,7 +53,8 @@ Actions 页面 → 「每日 AI 日报」→ Run workflow，可填回溯小时�
 ## 本地跑
 
 ```bash
-node src/build.mjs          # 产物写到 digest/
+node src/build.mjs              # 生成日报，产物写到 digest/
+node plugin/self-test.mjs       # 用桩 PluginAPI 验证插件：投一条 / 同日不重复 / 断网不炸
 ```
 
 无需 `npm install`，只用 Node 内置能力（≥20）。注意在中国大陆网络下 `huggingface.co`、`news.google.com` 直连不通，本地跑这三个源会失败并在日报末尾标注，Actions 上不受影响。
