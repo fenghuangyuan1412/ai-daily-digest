@@ -1,14 +1,10 @@
 {
   "date": "2026-09-23",
-  "generatedAt": "2026-09-22T20:43:15.414Z",
+  "generatedAt": "2026-09-22T20:48:08.892Z",
   "windowHours": 36,
   "sourcesTotal": 13,
-  "sourcesOk": 10,
-  "sourcesFailed": [
-    "Hugging Face",
-    "Google News",
-    "Google 新闻中文"
-  ],
+  "sourcesOk": 13,
+  "sourcesFailed": [],
   "itemCount": 22,
   "sections": [
     {
@@ -22,7 +18,7 @@
           "alsoOn": [],
           "summary": "",
           "published": "2026-09-22T18:00:34.000Z",
-          "points": 756,
+          "points": 773,
           "discussion": "https://news.ycombinator.com/item?id=49805509"
         },
         {
@@ -32,7 +28,7 @@
           "alsoOn": [],
           "summary": "",
           "published": "2026-09-22T16:29:05.000Z",
-          "points": 850,
+          "points": 856,
           "discussion": "https://news.ycombinator.com/item?id=49803892"
         },
         {
@@ -61,6 +57,16 @@
       "key": "research",
       "label": "🔬 研究前沿",
       "items": [
+        {
+          "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+          "url": "https://huggingface.co/blog/evaleval-aisi",
+          "source": "Hugging Face",
+          "alsoOn": [],
+          "summary": "",
+          "published": "2026-09-22T00:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
         {
           "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
           "url": "https://arxiv.org/abs/2609.20971",
@@ -97,16 +103,6 @@
           "source": "arXiv cs.AI",
           "alsoOn": [],
           "summary": "Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background clutter, and human-in-the-loop assessment. We adapt DINOv3 Vision Transformer (ViT) models to underwater SAS ATR using a three-stage parameter-efficient framework. Stage 1 uses Low-Rank Adaptation (LoRA) while freezing the ViT backbone, bridging the gap between natural-image pretraining and underwater acoustic propagation. Stage 2 uses hard-negative mining to strengthen the decision boundary against acoustic mimics, including rocks and sediment formations resembling man-made targets. Stage 3 uses Supervised Contrastive Learning (SupCon) to separate target and clutter representations. We evaluate at-sea SAS data using a mission-level geographic split, compare all arms at 85 percent test recall, and repeat each comparison over three random seeds. LoRA accounts for the primary effect, increasing area under the precision-recall curve (AUPRC) from 0.300 to 0.679 +/- 0.027 using the same frozen backbone. Rank 4 achieves this result while training only 0.26 percent of weights. Neither refinement stage exceeds its matched control: hard-negative mining changes AUPRC by -0.0045 +/- 0.0119 versus an equal-size random curriculum, and SupCon changes AUPRC by +0.0002 +/- 0.0096 versus the preceding stage. These null results indicate that mining occurred on data the encoder had already fit and that supervised stages had already imposed most target-clutter geometry. One efficient adaptation stage is sufficient; stacked refinement is not.",
-          "published": "2026-09-22T04:00:00.000Z",
-          "points": 0,
-          "discussion": ""
-        },
-        {
-          "title": "Detecting Hallucination in LLMs: Tracing the Topological Signatures of Impaired Context Sharing",
-          "url": "https://arxiv.org/abs/2609.21096",
-          "source": "arXiv cs.AI",
-          "alsoOn": [],
-          "summary": "In this work, we examine the topology of information flow patterns within attention graphs to effectively distinguish hallucinated from non-hallucinated responses. We analyze the Forman-Ricci curvature to identify structural patterns indicating information bottlenecks in attention graphs. We then introduce a method that captures both semi-local and global information-flow characteristics of attention heads associated with hallucinated responses. We evaluate our approach extensively across several LLMs and established benchmarks. Empirical results demonstrate that our proposed single-pass approach provides consistent improvements over existing attention-based and multi-response baselines across two hallucination-detection benchmarks, while achieving competitive performance across diverse LLM architectures. Further analysis reveals that impaired context sharing among tokens during causal generation is strongly associated with hallucination occurrences in LLMs. In particular, hallucinated responses are consistently characterized by an over-reliance on self-attention, diffused context retrieval from earlier tokens, or information over-squashing, especially in the final transformer layer.",
           "published": "2026-09-22T04:00:00.000Z",
           "points": 0,
           "discussion": ""
@@ -180,7 +176,7 @@
           "alsoOn": [],
           "summary": "",
           "published": "2026-09-22T14:42:59.000Z",
-          "points": 211,
+          "points": 215,
           "discussion": "https://news.ycombinator.com/item?id=49802161"
         },
         {
@@ -190,7 +186,7 @@
           "alsoOn": [],
           "summary": "",
           "published": "2026-09-22T19:03:38.000Z",
-          "points": 216,
+          "points": 218,
           "discussion": "https://news.ycombinator.com/item?id=49806430"
         },
         {
@@ -210,7 +206,7 @@
           "alsoOn": [],
           "summary": "https://github.com/unreallabsai/unreal-agent",
           "published": "2026-09-22T18:15:53.000Z",
-          "points": 48,
+          "points": 50,
           "discussion": "https://news.ycombinator.com/item?id=49805748"
         },
         {
@@ -262,5 +258,5 @@
       ]
     }
   ],
-  "markdown": "# 📰 AI 日报 · 2026-09-23\n\n> 22 条 · 10/13 个源正常 · 覆盖最近 36 小时\n\n## 🚀 模型与产品发布\n\n**1. GPT-6 Sol and Luna**\n\nHacker News · 3 小时前 · ▲756 · [原文](<https://openai.com/index/introducing-gpt-6-sol-and-luna/>)\n\n**2. Claude Opus 5.5**\n\nHacker News · 4 小时前 · ▲850 · [原文](<https://www.anthropic.com/claude-opus-5-5>)\n\n**3. Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)**\n\nHacker News · 4 小时前 · ▲159 · [原文](<https://artificialanalysis.ai/models/claude-opus-5-5>)\n\n**4. Better prompt caching for GPT-6**\n\nOpenAI · 刚刚 · [原文](<https://openai.com/index/better-prompt-caching-for-gpt-6>)\n\n_Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs._\n\n## 🔬 研究前沿\n\n**1. RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models**\n\narXiv cs.AI · 17 小时前 · [原文](<https://arxiv.org/abs/2609.20971>)\n\n_Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a block…_\n\n**2. Attention-Aware Routing: Coupling Routing and Attention in MoEs**\n\narXiv cs.AI · 17 小时前 · [原文](<https://arxiv.org/abs/2609.20974>)\n\n_In Mixture-of-Experts language models, the router typically selects and weights experts based on the token's hidden state, utilizing limited contextual information. We propose Attention-Aware Routing (AAR), which…_\n\n**3. CaLR: Causal Latent Revision for Robust Diffusion Reasoning**\n\narXiv cs.AI · 17 小时前 · [原文](<https://arxiv.org/abs/2609.20981>)\n\n_Autoregressive (AR) models suffer from local greediness, while diffusion language models (DLMs) often lack the strict causal structure required for reasoning. To combine the advantages and overcome the drawbacks of the…_\n\n**4. LoRA Enhanced Contrastive Learning with SAS Vision Transformers**\n\narXiv cs.AI · 17 小时前 · [原文](<https://arxiv.org/abs/2609.21061>)\n\n_Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background clutter, and human-in-the-loop…_\n\n**5. Detecting Hallucination in LLMs: Tracing the Topological Signatures of Impaired Context Sharing**\n\narXiv cs.AI · 17 小时前 · [原文](<https://arxiv.org/abs/2609.21096>)\n\n_In this work, we examine the topology of information flow patterns within attention graphs to effectively distinguish hallucinated from non-hallucinated responses. We analyze the Forman-Ricci curvature to identify…_\n\n## 🏢 公司与行业动向\n\n**1. Microsoft disrupts AI-assisted platform that compromised 12,000 accounts**\n\nArs Technica AI · 刚刚 · [原文](<https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/>)\n\n_EvilTokens provided an end-to-end platform that makes mass compromises faster and easier._\n\n**2. Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting**\n\nArs Technica AI · 1 小时前 · [原文](<https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/>)\n\n_British Columbia sues OpenAI, demands Tumbler Ridge shooter’s ChatGPT logs._\n\n**3. Meta admits Muse’s likeness to OpenClaw isn’t a coincidence**\n\nTechCrunch AI · 2 小时前 · [原文](<https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/>)\n\n_Meta says Muse was built from scratch, but acknowledges the AI assistant was \"heavily inspired\" by OpenClaw — down to some of its workspace filenames and content._\n\n**4. Qualcomm launches two new smartphone chips with emphasis on AI**\n\nTechCrunch AI · 刚刚 · [原文](<https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/>)\n\n_Qualcomm said that its new top chip can run 30B mixture-of-expert model locally._\n\n**5. Toyota orders workers to train humanoid robots but says humans won't be replaced**\n\nArs Technica AI · 4 小时前 · [原文](<https://arstechnica.com/ai/2026/09/toyota-claims-plan-for-400000-factory-robots-wont-replace-human-workers/>)\n\n_Toyota's push comes as automakers race to develop and deploy humanoid robots._\n\n## 🛠 工程与开源工具\n\n**1. OpenAI is well positioned to fast-follow Jev**\n\nHacker News · 6 小时前 · ▲211 · [原文](<https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/>)\n\n**2. Overreliance on AI contributed to missile strike on Iran school – Pentagon**\n\nHacker News · 2 小时前 · ▲216 · [原文](<https://www.bloomberg.com/graphics/2026-iran-school-attack/>)\n\n**3. Stanford R&DE Uses AI to Race Swap Students for Advertising**\n\nHacker News · 7 小时前 · ▲81 · [原文](<https://stanfordreview.org/stanford-r-de-uses-ai-to-race-swap-students-for-advertising/>)\n\n**4. Unreal Agent**\n\nHacker News · 2 小时前 · ▲48 · [原文](<https://unreallabs.ai/blog/unreal-agent/>)\n\n_https://github.com/unreallabsai/unreal-agent_\n\n**5. Quoting @therealcornpop**\n\nSimon Willison · 3 小时前 · [原文](<https://simonwillison.net/2026/Sep/22/therealcornpop/>)\n\n_Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird…_\n\n## 💭 观点与深度\n\n**1. The Download: why AI’s latest breakthroughs and fears may be more hype than reality**\n\nMIT Tech Review · 9 小时前 · [原文](<https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/>)\n\n_This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Don’t be fooled by this summer of AI hype —Timnit Gebru, executive director of…_\n\n**2. Don’t be fooled by this summer of AI hype**\n\nMIT Tech Review · 10 小时前 · [原文](<https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/>)\n\n_It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face…_\n\n**3. 4 ways to address the failures we found along the US border’s “virtual wall”**\n\nMIT Tech Review · 33 小时前 · [原文](<https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/>)\n\n_MIT Technology Review today published our investigation into how many people have died near the “virtual wall” of surveillance towers that the US government has installed along the US-Mexico border. We found cases of…_\n\n---\n\n⚠️ 拉取失败的源：Hugging Face、Google News、Google 新闻中文\n"
+  "markdown": "# 📰 AI 日报 · 2026-09-23\n\n> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时\n\n## 🚀 模型与产品发布\n\n**1. GPT-6 Sol and Luna**\n\nHacker News · 3 小时前 · ▲773 · [原文](<https://openai.com/index/introducing-gpt-6-sol-and-luna/>)\n\n**2. Claude Opus 5.5**\n\nHacker News · 4 小时前 · ▲856 · [原文](<https://www.anthropic.com/claude-opus-5-5>)\n\n**3. Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)**\n\nHacker News · 4 小时前 · ▲159 · [原文](<https://artificialanalysis.ai/models/claude-opus-5-5>)\n\n**4. Better prompt caching for GPT-6**\n\nOpenAI · 刚刚 · [原文](<https://openai.com/index/better-prompt-caching-for-gpt-6>)\n\n_Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs._\n\n## 🔬 研究前沿\n\n**1. How UK AISI and EvalEval Are Making Benchmark Results Reproducible**\n\nHugging Face · 21 小时前 · [原文](<https://huggingface.co/blog/evaleval-aisi>)\n\n**2. RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models**\n\narXiv cs.AI · 17 小时前 · [原文](<https://arxiv.org/abs/2609.20971>)\n\n_Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a block…_\n\n**3. Attention-Aware Routing: Coupling Routing and Attention in MoEs**\n\narXiv cs.AI · 17 小时前 · [原文](<https://arxiv.org/abs/2609.20974>)\n\n_In Mixture-of-Experts language models, the router typically selects and weights experts based on the token's hidden state, utilizing limited contextual information. We propose Attention-Aware Routing (AAR), which…_\n\n**4. CaLR: Causal Latent Revision for Robust Diffusion Reasoning**\n\narXiv cs.AI · 17 小时前 · [原文](<https://arxiv.org/abs/2609.20981>)\n\n_Autoregressive (AR) models suffer from local greediness, while diffusion language models (DLMs) often lack the strict causal structure required for reasoning. To combine the advantages and overcome the drawbacks of the…_\n\n**5. LoRA Enhanced Contrastive Learning with SAS Vision Transformers**\n\narXiv cs.AI · 17 小时前 · [原文](<https://arxiv.org/abs/2609.21061>)\n\n_Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background clutter, and human-in-the-loop…_\n\n## 🏢 公司与行业动向\n\n**1. Microsoft disrupts AI-assisted platform that compromised 12,000 accounts**\n\nArs Technica AI · 1 小时前 · [原文](<https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/>)\n\n_EvilTokens provided an end-to-end platform that makes mass compromises faster and easier._\n\n**2. Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting**\n\nArs Technica AI · 1 小时前 · [原文](<https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/>)\n\n_British Columbia sues OpenAI, demands Tumbler Ridge shooter’s ChatGPT logs._\n\n**3. Meta admits Muse’s likeness to OpenClaw isn’t a coincidence**\n\nTechCrunch AI · 2 小时前 · [原文](<https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/>)\n\n_Meta says Muse was built from scratch, but acknowledges the AI assistant was \"heavily inspired\" by OpenClaw — down to some of its workspace filenames and content._\n\n**4. Qualcomm launches two new smartphone chips with emphasis on AI**\n\nTechCrunch AI · 刚刚 · [原文](<https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/>)\n\n_Qualcomm said that its new top chip can run 30B mixture-of-expert model locally._\n\n**5. Toyota orders workers to train humanoid robots but says humans won't be replaced**\n\nArs Technica AI · 4 小时前 · [原文](<https://arstechnica.com/ai/2026/09/toyota-claims-plan-for-400000-factory-robots-wont-replace-human-workers/>)\n\n_Toyota's push comes as automakers race to develop and deploy humanoid robots._\n\n## 🛠 工程与开源工具\n\n**1. OpenAI is well positioned to fast-follow Jev**\n\nHacker News · 6 小时前 · ▲215 · [原文](<https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/>)\n\n**2. Overreliance on AI contributed to missile strike on Iran school – Pentagon**\n\nHacker News · 2 小时前 · ▲218 · [原文](<https://www.bloomberg.com/graphics/2026-iran-school-attack/>)\n\n**3. Stanford R&DE Uses AI to Race Swap Students for Advertising**\n\nHacker News · 7 小时前 · ▲81 · [原文](<https://stanfordreview.org/stanford-r-de-uses-ai-to-race-swap-students-for-advertising/>)\n\n**4. Unreal Agent**\n\nHacker News · 3 小时前 · ▲50 · [原文](<https://unreallabs.ai/blog/unreal-agent/>)\n\n_https://github.com/unreallabsai/unreal-agent_\n\n**5. Quoting @therealcornpop**\n\nSimon Willison · 3 小时前 · [原文](<https://simonwillison.net/2026/Sep/22/therealcornpop/>)\n\n_Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird…_\n\n## 💭 观点与深度\n\n**1. The Download: why AI’s latest breakthroughs and fears may be more hype than reality**\n\nMIT Tech Review · 9 小时前 · [原文](<https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/>)\n\n_This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Don’t be fooled by this summer of AI hype —Timnit Gebru, executive director of…_\n\n**2. Don’t be fooled by this summer of AI hype**\n\nMIT Tech Review · 10 小时前 · [原文](<https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/>)\n\n_It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face…_\n\n**3. 4 ways to address the failures we found along the US border’s “virtual wall”**\n\nMIT Tech Review · 33 小时前 · [原文](<https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/>)\n\n_MIT Technology Review today published our investigation into how many people have died near the “virtual wall” of surveillance towers that the US government has installed along the US-Mexico border. We found cases of…_\n"
 }

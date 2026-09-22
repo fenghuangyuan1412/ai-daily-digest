@@ -1,16 +1,16 @@
 # 📰 AI 日报 · 2026-09-23
 
-> 22 条 · 10/13 个源正常 · 覆盖最近 36 小时
+> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时
 
 ## 🚀 模型与产品发布
 
 **1. GPT-6 Sol and Luna**
 
-Hacker News · 3 小时前 · ▲756 · [原文](<https://openai.com/index/introducing-gpt-6-sol-and-luna/>)
+Hacker News · 3 小时前 · ▲773 · [原文](<https://openai.com/index/introducing-gpt-6-sol-and-luna/>)
 
 **2. Claude Opus 5.5**
 
-Hacker News · 4 小时前 · ▲850 · [原文](<https://www.anthropic.com/claude-opus-5-5>)
+Hacker News · 4 小时前 · ▲856 · [原文](<https://www.anthropic.com/claude-opus-5-5>)
 
 **3. Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)**
 
@@ -24,41 +24,39 @@ _Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagno
 
 ## 🔬 研究前沿
 
-**1. RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models**
+**1. How UK AISI and EvalEval Are Making Benchmark Results Reproducible**
+
+Hugging Face · 21 小时前 · [原文](<https://huggingface.co/blog/evaleval-aisi>)
+
+**2. RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models**
 
 arXiv cs.AI · 17 小时前 · [原文](<https://arxiv.org/abs/2609.20971>)
 
 _Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a block…_
 
-**2. Attention-Aware Routing: Coupling Routing and Attention in MoEs**
+**3. Attention-Aware Routing: Coupling Routing and Attention in MoEs**
 
 arXiv cs.AI · 17 小时前 · [原文](<https://arxiv.org/abs/2609.20974>)
 
 _In Mixture-of-Experts language models, the router typically selects and weights experts based on the token's hidden state, utilizing limited contextual information. We propose Attention-Aware Routing (AAR), which…_
 
-**3. CaLR: Causal Latent Revision for Robust Diffusion Reasoning**
+**4. CaLR: Causal Latent Revision for Robust Diffusion Reasoning**
 
 arXiv cs.AI · 17 小时前 · [原文](<https://arxiv.org/abs/2609.20981>)
 
 _Autoregressive (AR) models suffer from local greediness, while diffusion language models (DLMs) often lack the strict causal structure required for reasoning. To combine the advantages and overcome the drawbacks of the…_
 
-**4. LoRA Enhanced Contrastive Learning with SAS Vision Transformers**
+**5. LoRA Enhanced Contrastive Learning with SAS Vision Transformers**
 
 arXiv cs.AI · 17 小时前 · [原文](<https://arxiv.org/abs/2609.21061>)
 
 _Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background clutter, and human-in-the-loop…_
 
-**5. Detecting Hallucination in LLMs: Tracing the Topological Signatures of Impaired Context Sharing**
-
-arXiv cs.AI · 17 小时前 · [原文](<https://arxiv.org/abs/2609.21096>)
-
-_In this work, we examine the topology of information flow patterns within attention graphs to effectively distinguish hallucinated from non-hallucinated responses. We analyze the Forman-Ricci curvature to identify…_
-
 ## 🏢 公司与行业动向
 
 **1. Microsoft disrupts AI-assisted platform that compromised 12,000 accounts**
 
-Ars Technica AI · 刚刚 · [原文](<https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/>)
+Ars Technica AI · 1 小时前 · [原文](<https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/>)
 
 _EvilTokens provided an end-to-end platform that makes mass compromises faster and easier._
 
@@ -90,11 +88,11 @@ _Toyota's push comes as automakers race to develop and deploy humanoid robots._
 
 **1. OpenAI is well positioned to fast-follow Jev**
 
-Hacker News · 6 小时前 · ▲211 · [原文](<https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/>)
+Hacker News · 6 小时前 · ▲215 · [原文](<https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/>)
 
 **2. Overreliance on AI contributed to missile strike on Iran school – Pentagon**
 
-Hacker News · 2 小时前 · ▲216 · [原文](<https://www.bloomberg.com/graphics/2026-iran-school-attack/>)
+Hacker News · 2 小时前 · ▲218 · [原文](<https://www.bloomberg.com/graphics/2026-iran-school-attack/>)
 
 **3. Stanford R&DE Uses AI to Race Swap Students for Advertising**
 
@@ -102,7 +100,7 @@ Hacker News · 7 小时前 · ▲81 · [原文](<https://stanfordreview.org/stan
 
 **4. Unreal Agent**
 
-Hacker News · 2 小时前 · ▲48 · [原文](<https://unreallabs.ai/blog/unreal-agent/>)
+Hacker News · 3 小时前 · ▲50 · [原文](<https://unreallabs.ai/blog/unreal-agent/>)
 
 _https://github.com/unreallabsai/unreal-agent_
 
@@ -131,7 +129,3 @@ _It’s been a busy few months for AI hype. At the end of April, Anthropic claim
 MIT Tech Review · 33 小时前 · [原文](<https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/>)
 
 _MIT Technology Review today published our investigation into how many people have died near the “virtual wall” of surveillance towers that the US government has installed along the US-Mexico border. We found cases of…_
-
----
-
-⚠️ 拉取失败的源：Hugging Face、Google News、Google 新闻中文
