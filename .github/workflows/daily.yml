@@ -1,0 +1,49 @@
+name: 每日 AI 日报
+
+on:
+  schedule:
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+    inputs:
+      window_hours:
+        description: '回溯小时数'
+        required: false
+        default: '36'
+
+concurrency:
+  group: digest
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+
+      - name: 生成日报
+        env:
+          WINDOW_HOURS: ${{ github.event.inputs.window_hours || vars.WINDOW_HOURS || '36' }}
+          EXTRA_FEED_URLS: ${{ vars.EXTRA_FEED_URLS }}
+        run: node src/build.mjs digest
+
+      - name: 提交产物
+        run: |
+          git config user.name "ai-daily-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add digest
+          if git diff --cached --quiet; then
+            echo "无变化，跳过提交"
+          else
+            git commit -m "chore(digest): $(date -u +%F)"
+            git push
+          fi

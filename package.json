@@ -1,0 +1,12 @@
+{
+  "name": "ai-daily-digest",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "每日抓取 AI / 科技要闻，生成中文日报，投递到 Super Productivity 收件箱",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node src/build.mjs",
+    "plugin:pack": "node plugin/pack.mjs"
+  }
+}

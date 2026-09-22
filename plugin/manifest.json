@@ -1,0 +1,23 @@
+{
+  "id": "ai-daily-digest",
+  "manifestVersion": 1,
+  "name": "AI 日报投递",
+  "version": "1.0.0",
+  "minSupVersion": "18.0.0",
+  "description": "每天从 GitHub 拉取 AI 日报，作为一条带正文的任务投递到收件箱（Inbox）。仅在应用打开时同步。",
+  "author": "fenghuangyuan1412",
+  "homepage": "https://github.com/fenghuangyuan1412/ai-daily-digest",
+  "hooks": [],
+  "permissions": [
+    "http",
+    "addTask",
+    "getAllTags",
+    "addTag",
+    "loadSyncedData",
+    "persistDataSynced",
+    "showSnack"
+  ],
+  "allowedHosts": ["raw.githubusercontent.com"],
+  "isSkipMenuEntry": true,
+  "iFrame": false
+}
