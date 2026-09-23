@@ -61,7 +61,7 @@ Actions 页面 → 「每日 AI 日报」→ Run workflow，可填回溯小时�
 
 ## 装插件
 
-1. 下载仓库根目录的 `ai-daily-digest-plugin.zip`（改了 `plugin/` 下文件后重新 `npm run plugin:pack`）。
+1. 下载 Release 里的 `ai-daily-digest-plugin.zip`（不要解压）：<https://github.com/fenghuangyuan1412/ai-daily-digest/releases/latest>。改了 `plugin/` 下文件后重新 `npm run plugin:pack` 并重发 Release。
 2. 打开番茄钟 → 设置 → 插件 → 选择文件上传 → 启用。
 3. 刷新页面，几秒内应弹出「AI 日报已投递到收件箱」。
 
