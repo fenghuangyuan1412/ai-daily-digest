@@ -34,6 +34,10 @@ jobs:
         env:
           WINDOW_HOURS: ${{ github.event.inputs.window_hours || vars.WINDOW_HOURS || '36' }}
           EXTRA_FEED_URLS: ${{ vars.EXTRA_FEED_URLS }}
+          # TRANSLATE=off 可关掉 MyMemory 中文翻译（变量里填 off）
+          TRANSLATE: ${{ vars.TRANSLATE || 'on' }}
+          # 可选：填邮箱能把匿名配额从 ~2000字/天 提到 30000字/天，非凭据
+          MYMEMORY_EMAIL: ${{ vars.MYMEMORY_EMAIL }}
         run: node src/build.mjs digest
 
       - name: 提交产物

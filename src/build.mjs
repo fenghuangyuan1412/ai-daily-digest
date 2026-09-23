@@ -2,11 +2,13 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { collectAll, SECTION_LABELS } from './feeds.mjs';
 import { stripHtml } from './xml.mjs';
+import { translateMany, translateStats } from './translate.mjs';
 
 const WINDOW_HOURS = Number(process.env.WINDOW_HOURS || 36);
 const TOTAL_CAP = Number(process.env.TOTAL_CAP || 22);
 const PER_SECTION_CAP = 6;
 const SNIPPET_LEN = 220;
+const TRANSLATE = process.env.TRANSLATE !== 'off';
 
 const HOT_TERMS =
   /\b(gpt-|claude|gemini|llama|mistral|deepseek|qwen|grok|phi|gemma|sonnet|opus|nano banana|sora|nano-banana)\b/i;
@@ -64,12 +66,22 @@ const ageLabel = (published) => {
   return `${Math.round(h / 24)} 天前`;
 };
 
-const cleanSummary = (text) =>
-  text
-    .replace(/^arxiv:\d{4}\.\d{4,5}v?\d*\s*/i, '')
-    .replace(/^announce type:\s*\w+\s*/i, '')
-    .replace(/^abstract:\s*/i, '')
+// 部分源用 U+2011 等非 ASCII 连字符（"GPT‑6"），会让产品名漏过保护并被机译插空格
+const tidyText = (t) =>
+  t
+    .replace(/[\u2010-\u2015\u2212]/g, '-')
+    .replace(/[\u00a0\u2007\u202f]/g, ' ')
+    .replace(/\s+/g, ' ')
     .trim();
+
+const cleanSummary = (text) =>
+  tidyText(
+    text
+      .replace(/^arxiv:\d{4}\.\d{4,5}v?\d*\s*/i, '')
+      .replace(/^announce type:\s*\w+\s*/i, '')
+      .replace(/^abstract:\s*/i, '')
+      .trim(),
+  );
 
 const trim = (text) => {
   const t = text.trim();
@@ -81,7 +93,7 @@ const render = (digest) => {
   const lines = [
     `# 📰 AI 日报 · ${digest.date}`,
     '',
-    `> ${digest.itemCount} 条 · ${digest.sourcesOk}/${digest.sourcesTotal} 个源正常 · 覆盖最近 ${digest.windowHours} 小时`,
+    `> ${digest.itemCount} 条 · ${digest.sourcesOk}/${digest.sourcesTotal} 个源正常 · 覆盖最近 ${digest.windowHours} 小时${digest.translatedCount ? ` · ${digest.translatedCount} 条已译` : ''}`,
     '',
   ];
   for (const section of digest.sections) {
@@ -91,9 +103,11 @@ const render = (digest) => {
         .filter(Boolean)
         .join(' · ');
       const also = item.alsoOn.length ? ` （亦见于 ${item.alsoOn.join('、')}）` : '';
-      lines.push(`**${i + 1}. ${item.title}**`, '');
-      lines.push(`${meta}${also} · [原文](<${item.url}>)`);
-      if (item.summary) lines.push('', `_${trim(item.summary)}_`);
+      const original = item.titleZh && item.titleZh !== item.title ? `${item.title} · ` : '';
+      lines.push(`**${i + 1}. ${item.titleZh || item.title}**`, '');
+      lines.push(`${original}${meta}${also} · [原文](<${item.url}>)`);
+      const summary = item.summaryZh || item.summary;
+      if (summary) lines.push('', `_${trim(summary)}_`);
       lines.push('');
     });
   }
@@ -101,6 +115,34 @@ const render = (digest) => {
     lines.push('---', '', `⚠️ 拉取失败的源：${digest.sourcesFailed.join('、')}`, '');
   }
   return lines.join('\n').replace(/\n{3,}/g, '\n\n');
+};
+
+// 译文若带出待办清单语法会毁掉笔记正文（见 README「清单模式陷阱」），一律弃用
+const safeZh = (text) =>
+  text && !/^\s*[-*+]\s*\[[ xX]\]/m.test(text) ? text : null;
+
+// 只译要展示的那一段：整篇 arXiv 摘要又长又没人读
+const displayPart = (text) =>
+  text.length <= SNIPPET_LEN ? text : text.slice(0, SNIPPET_LEN).replace(/\s+\S*$/, '');
+
+// 只有链接、标题党式空摘要不值得花配额
+const worthTranslating = (summary) =>
+  summary.length > 12 && !/^(https?:\/\/\S+|\[[^\]]*\]\(\S+\))$/i.test(summary);
+
+const attachTranslations = async (sections) => {
+  const items = sections.flatMap((s) => s.items);
+  if (!items.length) return;
+  const titles = await translateMany(items.map((it) => it.title));
+  const sources = items.map((it) =>
+    worthTranslating(it.summary) ? displayPart(it.summary) : '',
+  );
+  const summaries = await translateMany(sources);
+  items.forEach((item, i) => {
+    item.titleZh = safeZh(titles[i]);
+    const zh = safeZh(summaries[i]);
+    // 译文来自被截断的前 220 字，补省略号免得读起来像断句
+    item.summaryZh = zh && sources[i] !== item.summary ? `${zh}…` : zh || null;
+  });
 };
 
 const build = async () => {
@@ -111,8 +153,8 @@ const build = async () => {
     for (const item of items) {
       const enriched = {
         ...item,
-        title: stripHtml(item.title),
-        summary: cleanSummary(stripHtml(item.summary || '')).replace(/\s+/g, ' ').trim(),
+        title: tidyText(stripHtml(item.title)),
+        summary: cleanSummary(stripHtml(item.summary || '')),
         source: item.feed.name,
         alsoOn: [],
       };
@@ -160,7 +202,12 @@ const build = async () => {
   }
   sections = sections.filter((s) => s.items.length);
 
+  if (TRANSLATE) await attachTranslations(sections);
+
   const ok = results.filter((r) => !r.error);
+  const translatedCount = sections
+    .flatMap((s) => s.items)
+    .filter((it) => it.titleZh).length;
   const digest = {
     date: todayIn(),
     generatedAt: new Date().toISOString(),
@@ -169,15 +216,18 @@ const build = async () => {
     sourcesOk: ok.length,
     sourcesFailed: results.filter((r) => r.error).map((r) => r.feed.name),
     itemCount: total,
+    translatedCount,
     sections: sections.map((s) => ({
       key: s.key,
       label: SECTION_LABELS[s.key],
       items: s.items.map((it) => ({
         title: it.title,
+        titleZh: it.titleZh || '',
         url: it.url,
         source: it.source,
         alsoOn: it.alsoOn,
         summary: it.summary,
+        summaryZh: it.summaryZh || '',
         published: it.published,
         points: it.points || 0,
         discussion: it.discussion || '',
@@ -204,7 +254,8 @@ const files = [
 ];
 await Promise.all(files.map(([name, body]) => writeFile(path.join(outDir, name), body, 'utf8')));
 
-console.log(`\nAI 日报 ${digest.date} · ${digest.itemCount} 条 · ${digest.sourcesOk}/${digest.sourcesTotal} 源\n`);
+console.log(`\nAI 日报 ${digest.date} · ${digest.itemCount} 条 · ${digest.sourcesOk}/${digest.sourcesTotal} 源 · 中文标题 ${digest.translatedCount}/${digest.itemCount}\n`);
+if (TRANSLATE) console.log('翻译统计:', translateStats(), '\n');
 for (const r of results) {
   console.log(
     `${r.error ? '✗' : '✓'} ${r.feed.name.padEnd(20)} ${String(r.items.length).padStart(2)} 条  ${r.ms}ms  ${r.error || ''}`,

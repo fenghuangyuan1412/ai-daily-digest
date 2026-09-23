@@ -6,7 +6,7 @@
 
 ```
 GitHub Actions (每天 01:00 UTC = 北京 09:00)
-  └─ node src/build.mjs           抓 13 个源 → 去重 → 打分 → 分区 → 渲染
+  └─ node src/build.mjs           抓 13 个源 → 去重 → 打分 → 分区 → 翻译 → 渲染
        └─ digest/latest.json      ← 插件读这个
           digest/latest.md        ← 人读的
           digest/YYYY-MM-DD.*     ← 历史留档
@@ -38,6 +38,23 @@ GitHub Actions (每天 01:00 UTC = 北京 09:00)
 
 > 推特/X 没有免费可靠的读取方式（官方 API 收费，Nitter 基本已死）。要读推特就自备一个 RSS 桥（RSSHub 自建实例、Fusebridge、RSS.app 等），把地址填进 `EXTRA_FEED_URLS` 即可，代码不用动。
 
+## 中文翻译
+
+标题和摘要走 [MyMemory](https://mymemory.translated.net/doc/doc.php) 的自由翻译（免费、无需 key），版式是**中文标题加粗在前，英文原题跟在元信息行**，所以翻译挂了也只是退回英文，不会丢信息。
+
+几个绕过的坑，改代码前先看：
+
+- **500 字符硬限**：超了直接 403 `QUERY LENGTH LIMIT EXCEEDED`。摘要只译展示用的前 220 字，长文再按句/词分片（`src/translate.mjs` 的 `splitChunks`）。
+- **产品名会被硬翻**：`Claude Opus 5.5` → 「克劳德作品5.5」。译前把产品名替换成 `Zz0zZ` 这类纯字母数字占位符（实测能原样穿过），译后还原；占位符若被引擎吞掉，整条译文作废退回英文。
+- **配额**：匿名档每天约 2000 字。想放宽就在 Variables 里建 `MYMEMORY_EMAIL` 填自己邮箱（只是标识，不是凭据，但仓库是公开的，别用重要邮箱）。
+- **关掉翻译**：Variables 建 `TRANSLATE`，值 `off`。
+
+产物里 `latest.json` 每条同时带 `title`/`titleZh`、`summary`/`summaryZh`，另有 `translatedCount` 记录当天译了几条。
+
+### 清单模式陷阱（别改坏）
+
+番茄钟的笔记正文如果出现 **≥2 行 `- [ ]`**，会被识别成待办清单，届时**所有非清单项的文字全部不显示**。所以译文里带出 `- [ ]` 的一律弃用（`build.mjs` 的 `safeZh`），插件自检 `plugin/self-test.mjs` 也断言了这点。改渲染逻辑后要重跑 `npm run plugin:self-test`。
+
 ## 手动触发
 
 Actions 页面 → 「每日 AI 日报」→ Run workflow，可填回溯小时数（默认 36）。
@@ -54,7 +71,10 @@ Actions 页面 → 「每日 AI 日报」→ Run workflow，可填回溯小时�
 
 ```bash
 node src/build.mjs              # 生成日报，产物写到 digest/
+TRANSLATE=off node src/build.mjs   # 跳过翻译
 node plugin/self-test.mjs       # 用桩 PluginAPI 验证插件：投一条 / 同日不重复 / 断网不炸
 ```
+
+`digest/` 下的产物只在 Actions 上生成和提交，本地跑请用临时目录（`node src/build.mjs .tmp`）以免把降级版本提交上去。
 
 无需 `npm install`，只用 Node 内置能力（≥20）。注意在中国大陆网络下 `huggingface.co`、`news.google.com` 直连不通，本地跑这三个源会失败并在日报末尾标注，Actions 上不受影响。

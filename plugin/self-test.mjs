@@ -4,7 +4,11 @@ import path from 'node:path';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const code = readFileSync(path.join(here, 'plugin.js'), 'utf8');
-const digest = JSON.parse(readFileSync(path.join(here, '..', 'digest', 'latest.json'), 'utf8'));
+// 默认测已提交的 digest/latest.json；也可传路径单独验一份带译文的产物
+const digestPath = process.argv[2]
+  ? path.resolve(process.argv[2])
+  : path.join(here, '..', 'digest', 'latest.json');
+const digest = JSON.parse(readFileSync(digestPath, 'utf8'));
 
 const mkStub = (input) => {
   const api = {
@@ -43,6 +47,7 @@ const run = async (name, input) => {
     console.log('  notes 长度:', t.notes.length, '字符');
     console.log('  notes 首尾:', JSON.stringify(t.notes.slice(0, 40)), '...', JSON.stringify(t.notes.slice(-46)));
     console.log('  含 - [ ] 触发清单模式:', /- \[[ x]\]/.test(t.notes));
+    console.log('  含未还原占位符:', /Zz\d+zZ/.test(t.notes));
     console.log('  snack:', JSON.stringify(api.calls.snack));
   }
   clearInterval(0);
