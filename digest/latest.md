@@ -1,133 +1,133 @@
 # 📰 AI 日报 · 2026-09-23
 
-> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时
+> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 19 条已译
 
 ## 🚀 模型与产品发布
 
-**1. GPT-6 Sol and Luna**
+**1. GPT-6 Sol和Luna**
 
-Hacker News · 11 小时前 · ▲1356 · [原文](<https://openai.com/index/introducing-gpt-6-sol-and-luna/>)
+GPT-6 Sol and Luna · Hacker News · 14 小时前 · ▲1493 · [原文](<https://openai.com/index/introducing-gpt-6-sol-and-luna/>)
 
 **2. Claude Opus 5.5**
 
-Hacker News · 13 小时前 · ▲1368 · [原文](<https://www.anthropic.com/claude-opus-5-5>)
+Hacker News · 16 小时前 · ▲1503 · [原文](<https://www.anthropic.com/claude-opus-5-5>)
 
-**3. Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)**
+**3. Claude Opus 5.5智能、性能和价格分析（MAX）**
 
-Hacker News · 13 小时前 · ▲263 · [原文](<https://artificialanalysis.ai/models/claude-opus-5-5>)
+Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max) · Hacker News · 16 小时前 · ▲283 · [原文](<https://artificialanalysis.ai/models/claude-opus-5-5>)
 
-**4. Better prompt caching for GPT-6**
+**4. 更好的GPT-6快速缓存**
 
-OpenAI · 8 小时前 · [原文](<https://openai.com/index/better-prompt-caching-for-gpt-6>)
+Better prompt caching for GPT-6 · OpenAI · 11 小时前 · [原文](<https://openai.com/index/better-prompt-caching-for-gpt-6>)
 
-_Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs._
+_了解GPT-6如何通过更高的缓存命中率、新的诊断、显式断点和控件来改善快速缓存，从而降低延迟和成本。_
 
-**5. Introducing GPT-6 Sol and Luna**
+**5. GPT-6 Sol和Luna简介**
 
-OpenAI · 11 小时前 · [原文](<https://openai.com/index/introducing-gpt-6-sol-and-luna>)
+Introducing GPT-6 Sol and Luna · OpenAI · 14 小时前 · [原文](<https://openai.com/index/introducing-gpt-6-sol-and-luna>)
 
-_Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost._
+_认识GPT-6 Sol和Luna，这两种型号将前沿智能带到日常工作中，并在能力和成本之间取得不同的平衡。_
 
 ## 🔬 研究前沿
 
-**1. Parallel cut research time and cost in half with GPT‑6 Astra**
+**1. AI重塑科学研究新范式 广东“人工智能+”科技成果亮相 - 中国科技网**
 
-OpenAI · 17 小时前 · [原文](<https://openai.com/index/parallel-cuts-time-and-cost-with-astra>)
+Google 新闻中文 · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMicEFVX3lxTE5uaXg3T2c5UmdJWWN5UmJYTC1lbWZOaGVNTFoxWkJySGFZX0ZaMmtNYTNKdGtiUDNfVjlZNjlrTjF3ai1YcDI4OG45bldHMnlIZDA5b0lCa2RnT3JEbFR4OV9TWVVKQjlEYXJvM3Z5b1o?oc=5>)
 
-_GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models._
+_AI重塑科学研究新范式 广东“人工智能+”科技成果亮相 中国科技网_
 
-**2. How UK AISI and EvalEval Are Making Benchmark Results Reproducible**
+**2. UK AISI和EvalEval如何使基准结果可复制**
 
-Hugging Face · 29 小时前 · [原文](<https://huggingface.co/blog/evaleval-aisi>)
+How UK AISI and EvalEval Are Making Benchmark Results Reproducible · Hugging Face · 32 小时前 · [原文](<https://huggingface.co/blog/evaleval-aisi>)
 
-**3. Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation**
+**3. 合成角色是否可以预测真实的受众反应？一项Sim-to-Real研究，其中无人格基线胜过基于人格的复制模拟**
 
-arXiv cs.AI · 1 小时前 · [原文](<https://arxiv.org/abs/2609.25010>)
+Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation · arXiv cs.AI · 4 小时前 · [原文](<https://arxiv.org/abs/2609.25010>)
 
-_Marketers increasingly use large language models (LLMs) as "synthetic personas" to predict how an audience will react to a piece of copy before it ships, encouraged by evidence that profile-conditioned LLMs mimic human…_
+_营销人员越来越多地使用大型语言模型（LLM）作为“合成角色”来预测受众在发货前对副本的反应，有证据表明，有条件的LLM模仿人类…_
 
-**4. Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization**
+**4. 现有预处理器是否改善了生物医学表格基础学习？ TabPFN优化的实证研究**
 
-arXiv cs.AI · 1 小时前 · [原文](<https://arxiv.org/abs/2609.25013>)
+Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization · arXiv cs.AI · 4 小时前 · [原文](<https://arxiv.org/abs/2609.25013>)
 
-_Tabular foundation models have recently shown strong potential for structured biomedical data analysis. Among them, TabPFN has emerged as an effective approach for low-data tabular classification tasks. However, the…_
+_表格基础模型最近显示出结构化生物医学数据分析的强大潜力。其中TabPFN已成为低数据表格分类任务的有效途径，但…_
 
-**5. 4DGS-JEPA: Temporally Compositional Joint-Embedding Prediction for Dynamic Gaussian Splatting**
+**5. 4DGS-JEPA：动态高斯溅射的时间组合联合嵌入预测**
 
-arXiv cs.AI · 1 小时前 · [原文](<https://arxiv.org/abs/2609.25036>)
+4DGS-JEPA: Temporally Compositional Joint-Embedding Prediction for Dynamic Gaussian Splatting · arXiv cs.AI · 4 小时前 · [原文](<https://arxiv.org/abs/2609.25036>)
 
-_Dynamic Gaussian Splatting provides an explicit representation of evolving 3D scenes, but existing approaches are primarily optimized for reconstruction, future-state generation, or rendering rather than for learning…_
+_动态高斯拼接提供了演变3D场景的显式表示，但现有方法主要针对重建、未来状态生成或渲染进行了优化，而不是用于学习…_
 
 ## 🏢 公司与行业动向
 
-**1. Launch HN: Coverage Cat (YC S22) – Umbrella insurance via your personal agent**
+**1. 启动HN：承保猫（YC S22） -通过您的个人代理投保伞式保险**
 
-Hacker News · 12 小时前 · ▲45 · [原文](<https://www.coveragecat.com/>)
+Launch HN: Coverage Cat (YC S22) - Umbrella insurance via your personal agent · Hacker News · 15 小时前 · ▲47 · [原文](<https://www.coveragecat.com/>)
 
-_Hey HN! We’re Max and Gabriel the co-founders of Coverage Cat. We’ve been friends for over a decade, met in college then hung out mostly on the internet. We love building products that help people optimize the crufty…_
+_嘿， HN！我们是Coverage Cat的联合创始人Max和Gabriel。十多年来，我们一直是朋友，在大学里相识，然后主要在互联网上闲逛。我们喜欢构建产品，帮助人们优化…_
 
-**2. New Anthropic, OpenAI models make same promise: A little more for a lot less money**
+**2. 新的Anthropic、OpenAI型号也做出了同样的承诺：以更少的钱获得更多**
 
-Ars Technica AI · 8 小时前 · [原文](<https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/>)
+New Anthropic, OpenAI models make same promise: A little more for a lot less money · Ars Technica AI · 11 小时前 · [原文](<https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/>)
 
-_The frontier AI model race has entered its comparison shopping phase._
+_前沿人工智能模型竞赛已进入比较购物阶段。_
 
-**3. ‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI**
+**3. “我们已经在打昨天的仗了”：希腊总理对人工智能直言不讳**
 
-TechCrunch AI · 刚刚 · [原文](<https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/>)
+‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI · TechCrunch AI · 3 小时前 · [原文](<https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/>)
 
-_Most leaders on a trade mission stick to the pitch, but when I interviewed Greek Prime Minister Kyriakos Mitsotakis this week, he also admitted that no government is ready for what AI is about to do._
+_大多数贸易代表团的领导人坚持说话，但当我本周采访希腊总理基里亚科斯·米佐塔基斯（Kyriakos Mitsotakis）时，他也承认没有政府准备好接受人工智能即将要做的事情。_
 
-**4. Microsoft disrupts AI-assisted platform that compromised 12,000 accounts**
+**4. 微软颠覆了人工智能辅助平台，该平台入侵了12,000个账户**
 
-Ars Technica AI · 10 小时前 · [原文](<https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/>)
+Microsoft disrupts AI-assisted platform that compromised 12,000 accounts · Ars Technica AI · 13 小时前 · [原文](<https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/>)
 
-_EvilTokens provided an end-to-end platform that makes mass compromises faster and easier._
+_EvilTokens提供了一个端到端的平台，使大规模妥协更快、更容易。_
 
-**5. Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting**
+**5. 诉讼要求OpenAI在ChatGPT用于拍摄后支付新学校的费用**
 
-Ars Technica AI · 10 小时前 · [原文](<https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/>)
+Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting · Ars Technica AI · 13 小时前 · [原文](<https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/>)
 
-_British Columbia sues OpenAI, demands Tumbler Ridge shooter’s ChatGPT logs._
+_不列颠哥伦比亚省起诉OpenAI，要求Tumbler Ridge射手的ChatGPT日志。_
 
 ## 🛠 工程与开源工具
 
-**1. Pentagon says overreliance on AI contributed to missile strike on Iran school**
+**1. 五角大楼表示，过度依赖人工智能助长了对伊朗学校的导弹袭击**
 
-Hacker News · 10 小时前 · ▲531 · [原文](<https://www.bloomberg.com/graphics/2026-iran-school-attack/>)
+Pentagon says overreliance on AI contributed to missile strike on Iran school · Hacker News · 13 小时前 · ▲622 · [原文](<https://www.bloomberg.com/graphics/2026-iran-school-attack/>)
 
 _https://archive.ph/0V37g_
 
 **2. LLM Ass Bench**
 
-Hacker News · 9 小时前 · ▲144 · [原文](<https://www.assbench.com/>)
+Hacker News · 12 小时前 · ▲152 · [原文](<https://www.assbench.com/>)
 
-**3. Unreal Agent**
+**3. 虚幻特工**
 
-Hacker News · 11 小时前 · ▲152 · [原文](<https://unreallabs.ai/blog/unreal-agent/>)
+Unreal Agent · Hacker News · 14 小时前 · ▲175 · [原文](<https://unreallabs.ai/blog/unreal-agent/>)
 
 _https://github.com/unreallabsai/unreal-agent_
 
-**4. The new CC, an AI agent built for families**
+**4. 全新CC，专为家庭打造的人工智能代理**
 
-Hacker News · 6 小时前 · ▲42 · [原文](<https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/>)
+The new CC, an AI agent built for families · Hacker News · 9 小时前 · ▲44 · [原文](<https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/>)
 
-**5. SF October 14th: A Birds of a Feather Session on Agentic Engineering**
+**5. 旧金山10月14日：关于代理工程的羽毛鸟会议**
 
-Simon Willison · 2 小时前 · [原文](<https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/>)
+SF October 14th: A Birds of a Feather Session on Agentic Engineering · Simon Willison · 6 小时前 · [原文](<https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/>)
 
-_SF October 14th: A Birds of a Feather Session on Agentic Engineering I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things…_
+_旧金山10月14日：关于代理工程的羽毛鸟会议我将于10月14日星期三在旧金山与杰西·文森特（Jesse Vincent）一起为那些正在建造奇怪而有趣的东西的人举办一场晚间活动…_
 
 ## 💭 观点与深度
 
-**1. The Download: why AI’s latest breakthroughs and fears may be more hype than reality**
+**1. 下载：为什么人工智能的最新突破和恐惧可能更多的是炒作而不是现实**
 
-MIT Tech Review · 17 小时前 · [原文](<https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/>)
+The Download: why AI’s latest breakthroughs and fears may be more hype than reality · MIT Tech Review · 20 小时前 · [原文](<https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/>)
 
-_This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Don’t be fooled by this summer of AI hype —Timnit Gebru, executive director of…_
+_这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。不要被今年夏天的人工智能炒作所愚弄--Timnit Gebru，…_
 
-**2. Don’t be fooled by this summer of AI hype**
+**2. 不要被这个夏天的人工智能炒作所愚弄**
 
-MIT Tech Review · 18 小时前 · [原文](<https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/>)
+Don’t be fooled by this summer of AI hype · MIT Tech Review · 21 小时前 · [原文](<https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/>)
 
-_It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face…_
+_人工智能炒作已经忙碌了几个月。4月底， Anthropic声称其模型Claude Mythos比大多数安全专家更擅长发现软件漏洞。然后我们有了OpenAI-Hugging Face…_

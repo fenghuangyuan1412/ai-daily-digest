@@ -1,11 +1,12 @@
 {
   "date": "2026-09-23",
-  "generatedAt": "2026-09-23T05:22:32.636Z",
+  "generatedAt": "2026-09-23T08:27:13.356Z",
   "windowHours": 36,
   "sourcesTotal": 13,
   "sourcesOk": 13,
   "sourcesFailed": [],
   "itemCount": 22,
+  "translatedCount": 19,
   "sections": [
     {
       "key": "model",
@@ -13,50 +14,60 @@
       "items": [
         {
           "title": "GPT-6 Sol and Luna",
+          "titleZh": "GPT-6 Sol和Luna",
           "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
           "source": "Hacker News",
           "alsoOn": [],
           "summary": "",
+          "summaryZh": "",
           "published": "2026-09-22T18:00:34.000Z",
-          "points": 1356,
+          "points": 1493,
           "discussion": "https://news.ycombinator.com/item?id=49805509"
         },
         {
           "title": "Claude Opus 5.5",
+          "titleZh": "",
           "url": "https://www.anthropic.com/claude-opus-5-5",
           "source": "Hacker News",
           "alsoOn": [],
           "summary": "",
+          "summaryZh": "",
           "published": "2026-09-22T16:29:05.000Z",
-          "points": 1368,
+          "points": 1503,
           "discussion": "https://news.ycombinator.com/item?id=49803892"
         },
         {
           "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+          "titleZh": "Claude Opus 5.5智能、性能和价格分析（MAX）",
           "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
           "source": "Hacker News",
           "alsoOn": [],
           "summary": "",
+          "summaryZh": "",
           "published": "2026-09-22T16:51:31.000Z",
-          "points": 263,
+          "points": 283,
           "discussion": "https://news.ycombinator.com/item?id=49804316"
         },
         {
           "title": "Better prompt caching for GPT-6",
+          "titleZh": "更好的GPT-6快速缓存",
           "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
           "source": "OpenAI",
           "alsoOn": [],
           "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+          "summaryZh": "了解GPT-6如何通过更高的缓存命中率、新的诊断、显式断点和控件来改善快速缓存，从而降低延迟和成本。",
           "published": "2026-09-22T21:00:00.000Z",
           "points": 0,
           "discussion": ""
         },
         {
           "title": "Introducing GPT-6 Sol and Luna",
+          "titleZh": "GPT-6 Sol和Luna简介",
           "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
           "source": "OpenAI",
           "alsoOn": [],
           "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+          "summaryZh": "认识GPT-6 Sol和Luna，这两种型号将前沿智能带到日常工作中，并在能力和成本之间取得不同的平衡。",
           "published": "2026-09-22T18:00:00.000Z",
           "points": 0,
           "discussion": ""
@@ -68,51 +79,61 @@
       "label": "🔬 研究前沿",
       "items": [
         {
-          "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-          "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-          "source": "OpenAI",
+          "title": "AI重塑科学研究新范式 广东“人工智能+”科技成果亮相 - 中国科技网",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5uaXg3T2c5UmdJWWN5UmJYTC1lbWZOaGVNTFoxWkJySGFZX0ZaMmtNYTNKdGtiUDNfVjlZNjlrTjF3ai1YcDI4OG45bldHMnlIZDA5b0lCa2RnT3JEbFR4OV9TWVVKQjlEYXJvM3Z5b1o?oc=5",
+          "source": "Google 新闻中文",
           "alsoOn": [],
-          "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-          "published": "2026-09-22T12:00:00.000Z",
+          "summary": "AI重塑科学研究新范式 广东“人工智能+”科技成果亮相 中国科技网",
+          "summaryZh": "",
+          "published": "2026-09-23T05:51:22.000Z",
           "points": 0,
           "discussion": ""
         },
         {
           "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+          "titleZh": "UK AISI和EvalEval如何使基准结果可复制",
           "url": "https://huggingface.co/blog/evaleval-aisi",
           "source": "Hugging Face",
           "alsoOn": [],
           "summary": "",
+          "summaryZh": "",
           "published": "2026-09-22T00:00:00.000Z",
           "points": 0,
           "discussion": ""
         },
         {
           "title": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation",
+          "titleZh": "合成角色是否可以预测真实的受众反应？一项Sim-to-Real研究，其中无人格基线胜过基于人格的复制模拟",
           "url": "https://arxiv.org/abs/2609.25010",
           "source": "arXiv cs.AI",
           "alsoOn": [],
           "summary": "Marketers increasingly use large language models (LLMs) as \"synthetic personas\" to predict how an audience will react to a piece of copy before it ships, encouraged by evidence that profile-conditioned LLMs mimic human samples. But is that prediction actually valid against real behaviour - and does the persona machinery help? We present a sim-to-real validity study using the Upworthy Research Archive - thousands of headline A/B tests on shared real traffic, with measured click-through - as held-out ground truth. We compare a ten-persona panel, grounded in the real audience's demographics, against a no-persona zero-shot baseline that simply asks the model how likely a typical reader is to click. Two findings stand out. First, ground-truth reliability is the binding constraint: most A/B tests have no statistically distinguishable winner, so validity can only be measured on the reliable subset (n = 399). Second, and counter to the persona-simulation premise, persona conditioning degrades predictive validity: the no-persona baseline ranks variants markedly better (Kendall {\\tau} = 0.361, a medium effect; top-1 accuracy 49.2%) than the persona panel ({\\tau} = 0.084; top-1 34.6%), with non-overlapping confidence intervals. Asking the model directly taps an accurate population-level prior; forcing it to role-play specific personas injects bias and noise. The result replicates across three independent Upworthy splits, holds in direction on a different-domain news dataset, and is robust to seed, prompt phrasing, and model choice - across three Gemini tiers and a different model family (OpenAI gpt-4.1, significant paired gap). The takeaway: for predicting aggregate engagement, a plain LLM ranker beats persona simulation - synthetic personas are not merely a weak predictor, they are worse than not using them. All numbers regenerate from a public, artifact-first replication package.",
+          "summaryZh": "营销人员越来越多地使用大型语言模型（LLM）作为“合成角色”来预测受众在发货前对副本的反应，有证据表明，有条件的LLM模仿人类…",
           "published": "2026-09-23T04:00:00.000Z",
           "points": 0,
           "discussion": ""
         },
         {
           "title": "Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization",
+          "titleZh": "现有预处理器是否改善了生物医学表格基础学习？ TabPFN优化的实证研究",
           "url": "https://arxiv.org/abs/2609.25013",
           "source": "arXiv cs.AI",
           "alsoOn": [],
           "summary": "Tabular foundation models have recently shown strong potential for structured biomedical data analysis. Among them, TabPFN has emerged as an effective approach for low-data tabular classification tasks. However, the impact of optimization and preconditioning strategies on biomedical fine-tuning remains largely unexplored. In this work, we present a comprehensive empirical investigation of five AdamW-based preconditioning strategies for fine-tuning TabPFN v2.5 on 59 biomedical datasets spanning Alzheimer's disease, breast cancer, schizophrenia, significant memory concern (SMC), KEEL biomedical datasets, and UCI biomedical benchmarks. The evaluation considers predictive performance, computational efficiency, and statistical significance analysis. Experimental results demonstrate that the original AdamW optimizer consistently achieves the best overall performance and statistical ranking, while existing curvature-aware preconditioners fail to provide reliable improvements across diverse biomedical learning scenarios. The findings suggest that generic preconditioning approaches may not adequately capture the optimization characteristics of biomedical tabular learning, motivating the development of biomedical-aware preconditioners specifically tailored for healthcare-oriented tabular foundation models.",
+          "summaryZh": "表格基础模型最近显示出结构化生物医学数据分析的强大潜力。其中TabPFN已成为低数据表格分类任务的有效途径，但…",
           "published": "2026-09-23T04:00:00.000Z",
           "points": 0,
           "discussion": ""
         },
         {
           "title": "4DGS-JEPA: Temporally Compositional Joint-Embedding Prediction for Dynamic Gaussian Splatting",
+          "titleZh": "4DGS-JEPA：动态高斯溅射的时间组合联合嵌入预测",
           "url": "https://arxiv.org/abs/2609.25036",
           "source": "arXiv cs.AI",
           "alsoOn": [],
           "summary": "Dynamic Gaussian Splatting provides an explicit representation of evolving 3D scenes, but existing approaches are primarily optimized for reconstruction, future-state generation, or rendering rather than for learning reusable predictive dynamics. We propose 4DGS-JEPA, a Gaussian-native joint-embedding predictive architecture for causal multi-horizon prediction over dynamic Gaussian scenes. The model uses a hierarchical scene-, motion-group-, and Gaussian-level representation together with a horizon-conditioned transition operator that supports both direct prediction and recursive rollout. Its central principle is temporal composition: different chronological transition paths reaching the same future endpoint should produce compatible predictive states. Endpoint and multi-horizon path supervision anchor these predictions to future target embeddings, while a selective geometry decoder and geometry-level composition ground the learned dynamics in consistent group motion and Gaussian geometry without requiring complete future appearance reconstruction. We further introduce a hybrid correspondence mechanism that combines persistent canonical identity with residual optimal-transport matching under reordering and topology change. We characterize zero-loss path agreement and finite-error rollout accumulation theoretically. Three controlled experiments provide mechanism-level evidence that temporal composition reduces latent path dependence while retaining predictive accuracy, geometry-level composition improves consistency of decoded motion, and hybrid correspondence preserves reliable identity while remaining robust when correspondence becomes ambiguous. Together, 4DGS-JEPA provides a predictive, temporally compositional formulation of dynamic Gaussian worlds.",
+          "summaryZh": "动态高斯拼接提供了演变3D场景的显式表示，但现有方法主要针对重建、未来状态生成或渲染进行了优化，而不是用于学习…",
           "published": "2026-09-23T04:00:00.000Z",
           "points": 0,
           "discussion": ""
@@ -124,51 +145,61 @@
       "label": "🏢 公司与行业动向",
       "items": [
         {
-          "title": "Launch HN: Coverage Cat (YC S22) – Umbrella insurance via your personal agent",
+          "title": "Launch HN: Coverage Cat (YC S22) - Umbrella insurance via your personal agent",
+          "titleZh": "启动HN：承保猫（YC S22） -通过您的个人代理投保伞式保险",
           "url": "https://www.coveragecat.com/",
           "source": "Hacker News",
           "alsoOn": [],
-          "summary": "Hey HN! We’re Max and Gabriel the co-founders of Coverage Cat. We’ve been friends for over a decade, met in college then hung out mostly on the internet. We love building products that help people optimize the crufty corners of their lives. Max is a former Google/Microsoft/Two Sigma PM and Gabriel has been working in startups for over a decade. We’re building Coverage Cat: a licensed insurance brokerage that helps you compare umbrella and home coverage side by side — with straight pricing, no sold leads, and a real broker on the other end. Our current focus is helping tech folks (think L3-L8) buy umbrella insurance. Coverage Cat pairs AI-guided intake with a licensed brokerage team, so you can size up coverage, see honest price ranges, and compare real carrier options without handing your details to five agents overnight. Folks who use personal AI agents (think Muse, Instinct, Town, Openclaw, etc.) can drive the same flow through the Agent API/MCP. We’d love your feedback so please do try it out. Just feed the prompt: “Shop for umbrella insurance with Coverage Cat” to your personal agent and let us know what you think! If you want to watch a couple of agents navigate the flow before you use it there’s a video here: https://youtu.be/1BUkgAn6s-I For those who are unfamiliar with this type of coverage, here’s a blurb from one of our insurance agents: “Umbrella liability insurance is a policy that provides additional coverage above the limits of existing auto, homeowners, renters, or landlord policies. It kicks in after the underlying policy limits are exhausted and may also cover personal injury claims like libel, slander, or defamation that standard policies often exclude. Policies typically start at $1 million in additional liability coverage and can protect you, your spouse, dependents, and even pets in your household.” Buying insurance online is a miserable experience. You fill out a bunch of forms that say they’re going to give you quotes. Most don’t and then you end up with tons of unwanted phone calls and spam. Even if you wade through the muck, you’ll often still end up with sub-optimal prices and coverage because of a lack of market transparency and poorly-aligned advisory incentives. We came to this problem because Max is a classic personal finance obsessive. He's the type of person that needs to know that he has the best possible price for something (everyone has one friend with the patience for a two hour phone call with the bank for some $10 fee) or that his insurance coverage is as tailored to his risk profile as the market will allow. He actually reads insurance policies end to end. Years ago, when he shopped for his homeowners insurance it took him 10+ phone calls and dozens of online form fills to find the right deal. He also suffered tons of collateral damage in the process: websites sold his information to dozens of agents who proceeded to call, text, and email him a spam hoard that grows to this day. After this painful search made us aware of the problem, we also spent a lot of time doing user research with wealthy-ish tech employees to see if they felt the same way. They did, and also complained that they 1) often felt like they'd left money on the table, 2) didn’t really understand their coverages, and 3) that brokers were slow, hard to communicate with, and unreliable. To solve the problem, we set out to build Coverage Cat. Our approach has three major components: First, we work really really hard to find and partner with insurance carriers that offer high-quality, competitively-priced products. We've also taken time to identify insurers that work on a direct-to-consumer basis or transparently list their prices online so we can make our customers aware of all the options available to them. We get paid commission when we match users to great insurance deals, but we still show and recommend folks deals that we don't make money on when they're accessible and will always recommend users buy what's best for their personal financial situation. Our goal is to meaningfully improve price transparency so consumers (and their AI agents) can make informed coverage decisions and not get nickel-and-dimed! Second, we automate every possible part of the insurance process. Some forms, portals, & approvals still need human review due to regulatory constraints, but if it's not restricted, we're automating it. LLMs have given our small team tremendous leverage and enabled us to tackle problems at a scale that would've been unfathomable five years ago. Finally, we build for agents first (a remix of the more classic adage, build for developers/APIs). We've always been big believers that personal finance would be the killer use-case for the AI revolution and have done our best to position ourselves to surf the wave. As personal assistants have started to explode onto the mainstream (think Muse, Instinct, Town, Codex, CC etc.) we've ensured our shopping and comparison process works via API/MCP so agents can present their users with all the information they need to make a good decision and transform a miserable shopping experience into a delightful one. Coverage Cat is an unusual business because, while we also help folks find homeowners insurance in California and Texas, our main focus is on umbrella insurance. Most brokerages only sell umbrella coverage as a customer retention product, but it makes them almost no money. We focus on it as our core business because: 1) it's one piece of the insurance puzzle that many people in tech overlook and/or are confused about even though it can have a huge impact on their financial well-being. 2) Existing online tools and brokerages broadly don't make it easy to comparison shop for. 3) It was, for us, the most technically feasible candidate for automation given startup resource constraints. Insofar as we know Coverage Cat is the first instance of a tool/portal that allows AI agents to complete most of the comparison and shopping steps required to allow people to buy insurance. Also happy to answer any questions about the product, the problem space, and even some insurance questions (Max is a licensed agent) where regulation permits. Cheers!",
+          "summary": "Hey HN! We’re Max and Gabriel the co-founders of Coverage Cat. We’ve been friends for over a decade, met in college then hung out mostly on the internet. We love building products that help people optimize the crufty corners of their lives. Max is a former Google/Microsoft/Two Sigma PM and Gabriel has been working in startups for over a decade. We’re building Coverage Cat: a licensed insurance brokerage that helps you compare umbrella and home coverage side by side - with straight pricing, no sold leads, and a real broker on the other end. Our current focus is helping tech folks (think L3-L8) buy umbrella insurance. Coverage Cat pairs AI-guided intake with a licensed brokerage team, so you can size up coverage, see honest price ranges, and compare real carrier options without handing your details to five agents overnight. Folks who use personal AI agents (think Muse, Instinct, Town, Openclaw, etc.) can drive the same flow through the Agent API/MCP. We’d love your feedback so please do try it out. Just feed the prompt: “Shop for umbrella insurance with Coverage Cat” to your personal agent and let us know what you think! If you want to watch a couple of agents navigate the flow before you use it there’s a video here: https://youtu.be/1BUkgAn6s-I For those who are unfamiliar with this type of coverage, here’s a blurb from one of our insurance agents: “Umbrella liability insurance is a policy that provides additional coverage above the limits of existing auto, homeowners, renters, or landlord policies. It kicks in after the underlying policy limits are exhausted and may also cover personal injury claims like libel, slander, or defamation that standard policies often exclude. Policies typically start at $1 million in additional liability coverage and can protect you, your spouse, dependents, and even pets in your household.” Buying insurance online is a miserable experience. You fill out a bunch of forms that say they’re going to give you quotes. Most don’t and then you end up with tons of unwanted phone calls and spam. Even if you wade through the muck, you’ll often still end up with sub-optimal prices and coverage because of a lack of market transparency and poorly-aligned advisory incentives. We came to this problem because Max is a classic personal finance obsessive. He's the type of person that needs to know that he has the best possible price for something (everyone has one friend with the patience for a two hour phone call with the bank for some $10 fee) or that his insurance coverage is as tailored to his risk profile as the market will allow. He actually reads insurance policies end to end. Years ago, when he shopped for his homeowners insurance it took him 10+ phone calls and dozens of online form fills to find the right deal. He also suffered tons of collateral damage in the process: websites sold his information to dozens of agents who proceeded to call, text, and email him a spam hoard that grows to this day. After this painful search made us aware of the problem, we also spent a lot of time doing user research with wealthy-ish tech employees to see if they felt the same way. They did, and also complained that they 1) often felt like they'd left money on the table, 2) didn’t really understand their coverages, and 3) that brokers were slow, hard to communicate with, and unreliable. To solve the problem, we set out to build Coverage Cat. Our approach has three major components: First, we work really really hard to find and partner with insurance carriers that offer high-quality, competitively-priced products. We've also taken time to identify insurers that work on a direct-to-consumer basis or transparently list their prices online so we can make our customers aware of all the options available to them. We get paid commission when we match users to great insurance deals, but we still show and recommend folks deals that we don't make money on when they're accessible and will always recommend users buy what's best for their personal financial situation. Our goal is to meaningfully improve price transparency so consumers (and their AI agents) can make informed coverage decisions and not get nickel-and-dimed! Second, we automate every possible part of the insurance process. Some forms, portals, & approvals still need human review due to regulatory constraints, but if it's not restricted, we're automating it. LLMs have given our small team tremendous leverage and enabled us to tackle problems at a scale that would've been unfathomable five years ago. Finally, we build for agents first (a remix of the more classic adage, build for developers/APIs). We've always been big believers that personal finance would be the killer use-case for the AI revolution and have done our best to position ourselves to surf the wave. As personal assistants have started to explode onto the mainstream (think Muse, Instinct, Town, Codex, CC etc.) we've ensured our shopping and comparison process works via API/MCP so agents can present their users with all the information they need to make a good decision and transform a miserable shopping experience into a delightful one. Coverage Cat is an unusual business because, while we also help folks find homeowners insurance in California and Texas, our main focus is on umbrella insurance. Most brokerages only sell umbrella coverage as a customer retention product, but it makes them almost no money. We focus on it as our core business because: 1) it's one piece of the insurance puzzle that many people in tech overlook and/or are confused about even though it can have a huge impact on their financial well-being. 2) Existing online tools and brokerages broadly don't make it easy to comparison shop for. 3) It was, for us, the most technically feasible candidate for automation given startup resource constraints. Insofar as we know Coverage Cat is the first instance of a tool/portal that allows AI agents to complete most of the comparison and shopping steps required to allow people to buy insurance. Also happy to answer any questions about the product, the problem space, and even some insurance questions (Max is a licensed agent) where regulation permits. Cheers!",
+          "summaryZh": "嘿， HN！我们是Coverage Cat的联合创始人Max和Gabriel。十多年来，我们一直是朋友，在大学里相识，然后主要在互联网上闲逛。我们喜欢构建产品，帮助人们优化…",
           "published": "2026-09-22T17:26:36.000Z",
-          "points": 45,
+          "points": 47,
           "discussion": "https://news.ycombinator.com/item?id=49804931"
         },
         {
           "title": "New Anthropic, OpenAI models make same promise: A little more for a lot less money",
+          "titleZh": "新的Anthropic、OpenAI型号也做出了同样的承诺：以更少的钱获得更多",
           "url": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/",
           "source": "Ars Technica AI",
           "alsoOn": [],
           "summary": "The frontier AI model race has entered its comparison shopping phase.",
+          "summaryZh": "前沿人工智能模型竞赛已进入比较购物阶段。",
           "published": "2026-09-22T21:25:18.000Z",
           "points": 0,
           "discussion": ""
         },
         {
           "title": "‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI",
+          "titleZh": "“我们已经在打昨天的仗了”：希腊总理对人工智能直言不讳",
           "url": "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/",
           "source": "TechCrunch AI",
           "alsoOn": [],
           "summary": "Most leaders on a trade mission stick to the pitch, but when I interviewed Greek Prime Minister Kyriakos Mitsotakis this week, he also admitted that no government is ready for what AI is about to do.",
+          "summaryZh": "大多数贸易代表团的领导人坚持说话，但当我本周采访希腊总理基里亚科斯·米佐塔基斯（Kyriakos Mitsotakis）时，他也承认没有政府准备好接受人工智能即将要做的事情。",
           "published": "2026-09-23T04:59:08.000Z",
           "points": 0,
           "discussion": ""
         },
         {
           "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
+          "titleZh": "微软颠覆了人工智能辅助平台，该平台入侵了12,000个账户",
           "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
           "source": "Ars Technica AI",
           "alsoOn": [],
           "summary": "EvilTokens provided an end-to-end platform that makes mass compromises faster and easier.",
+          "summaryZh": "EvilTokens提供了一个端到端的平台，使大规模妥协更快、更容易。",
           "published": "2026-09-22T19:45:47.000Z",
           "points": 0,
           "discussion": ""
         },
         {
           "title": "Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting",
+          "titleZh": "诉讼要求OpenAI在ChatGPT用于拍摄后支付新学校的费用",
           "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/",
           "source": "Ars Technica AI",
           "alsoOn": [],
           "summary": "British Columbia sues OpenAI, demands Tumbler Ridge shooter’s ChatGPT logs.",
+          "summaryZh": "不列颠哥伦比亚省起诉OpenAI，要求Tumbler Ridge射手的ChatGPT日志。",
           "published": "2026-09-22T19:28:23.000Z",
           "points": 0,
           "discussion": ""
@@ -181,50 +212,60 @@
       "items": [
         {
           "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+          "titleZh": "五角大楼表示，过度依赖人工智能助长了对伊朗学校的导弹袭击",
           "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
           "source": "Hacker News",
           "alsoOn": [],
           "summary": "https://archive.ph/0V37g",
+          "summaryZh": "",
           "published": "2026-09-22T19:03:38.000Z",
-          "points": 531,
+          "points": 622,
           "discussion": "https://news.ycombinator.com/item?id=49806430"
         },
         {
           "title": "LLM Ass Bench",
+          "titleZh": "",
           "url": "https://www.assbench.com/",
           "source": "Hacker News",
           "alsoOn": [],
           "summary": "",
+          "summaryZh": "",
           "published": "2026-09-22T20:34:19.000Z",
-          "points": 144,
+          "points": 152,
           "discussion": "https://news.ycombinator.com/item?id=49807688"
         },
         {
           "title": "Unreal Agent",
+          "titleZh": "虚幻特工",
           "url": "https://unreallabs.ai/blog/unreal-agent/",
           "source": "Hacker News",
           "alsoOn": [],
           "summary": "https://github.com/unreallabsai/unreal-agent",
+          "summaryZh": "",
           "published": "2026-09-22T18:15:53.000Z",
-          "points": 152,
+          "points": 175,
           "discussion": "https://news.ycombinator.com/item?id=49805748"
         },
         {
           "title": "The new CC, an AI agent built for families",
+          "titleZh": "全新CC，专为家庭打造的人工智能代理",
           "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/",
           "source": "Hacker News",
           "alsoOn": [],
           "summary": "",
+          "summaryZh": "",
           "published": "2026-09-22T23:46:07.000Z",
-          "points": 42,
+          "points": 44,
           "discussion": "https://news.ycombinator.com/item?id=49809806"
         },
         {
           "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
+          "titleZh": "旧金山10月14日：关于代理工程的羽毛鸟会议",
           "url": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
           "source": "Simon Willison",
           "alsoOn": [],
           "summary": "SF October 14th: A Birds of a Feather Session on Agentic Engineering I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things with and on top of coding agents. Think of it as an agentic show-and-tell: ​Compare notes with other builders and experimenters on things you’re trying, what you're learning, and what you haven’t figured out yet. We’re especially interested in work you haven’t discussed publicly, odd experiments, or unfinished projects that don’t have an obvious market. ​Expect one flowing conversation with an informal show-and-tell. Sharing something you’re working on is encouraged but no presentation is required. This isn't about product pitches, it's about much earlier explorations than that. This agentic AI stuff is weird! Let's celebrate and lean into that weirdness. Tags: events , ai , generative-ai , llms , coding-agents , jesse-vincent , agentic-engineering",
+          "summaryZh": "旧金山10月14日：关于代理工程的羽毛鸟会议我将于10月14日星期三在旧金山与杰西·文森特（Jesse Vincent）一起为那些正在建造奇怪而有趣的东西的人举办一场晚间活动…",
           "published": "2026-09-23T02:53:19.000Z",
           "points": 0,
           "discussion": ""
@@ -237,20 +278,24 @@
       "items": [
         {
           "title": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality",
+          "titleZh": "下载：为什么人工智能的最新突破和恐惧可能更多的是炒作而不是现实",
           "url": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
           "source": "MIT Tech Review",
           "alsoOn": [],
-          "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Don’t be fooled by this summer of AI hype —Timnit Gebru, executive director of the Distributed AI Research Institute (DAIR), and Emily M. Bender, professor of linguistics at the University of…",
+          "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Don’t be fooled by this summer of AI hype -Timnit Gebru, executive director of the Distributed AI Research Institute (DAIR), and Emily M. Bender, professor of linguistics at the University of…",
+          "summaryZh": "这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。不要被今年夏天的人工智能炒作所愚弄--Timnit Gebru，…",
           "published": "2026-09-22T12:10:00.000Z",
           "points": 0,
           "discussion": ""
         },
         {
           "title": "Don’t be fooled by this summer of AI hype",
+          "titleZh": "不要被这个夏天的人工智能炒作所愚弄",
           "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
           "source": "MIT Tech Review",
           "alsoOn": [],
-          "summary": "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face hacking incident, after which Anthropic (proudly) and Meta (reluctantly) disclosed similar incidents involving their models. This was followed…",
+          "summary": "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI-Hugging Face hacking incident, after which Anthropic (proudly) and Meta (reluctantly) disclosed similar incidents involving their models. This was followed…",
+          "summaryZh": "人工智能炒作已经忙碌了几个月。4月底， Anthropic声称其模型Claude Mythos比大多数安全专家更擅长发现软件漏洞。然后我们有了OpenAI-Hugging Face…",
           "published": "2026-09-22T11:04:51.000Z",
           "points": 0,
           "discussion": ""
@@ -258,5 +303,5 @@
       ]
     }
   ],
-  "markdown": "# 📰 AI 日报 · 2026-09-23\n\n> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时\n\n## 🚀 模型与产品发布\n\n**1. GPT-6 Sol and Luna**\n\nHacker News · 11 小时前 · ▲1356 · [原文](<https://openai.com/index/introducing-gpt-6-sol-and-luna/>)\n\n**2. Claude Opus 5.5**\n\nHacker News · 13 小时前 · ▲1368 · [原文](<https://www.anthropic.com/claude-opus-5-5>)\n\n**3. Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)**\n\nHacker News · 13 小时前 · ▲263 · [原文](<https://artificialanalysis.ai/models/claude-opus-5-5>)\n\n**4. Better prompt caching for GPT-6**\n\nOpenAI · 8 小时前 · [原文](<https://openai.com/index/better-prompt-caching-for-gpt-6>)\n\n_Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs._\n\n**5. Introducing GPT-6 Sol and Luna**\n\nOpenAI · 11 小时前 · [原文](<https://openai.com/index/introducing-gpt-6-sol-and-luna>)\n\n_Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost._\n\n## 🔬 研究前沿\n\n**1. Parallel cut research time and cost in half with GPT‑6 Astra**\n\nOpenAI · 17 小时前 · [原文](<https://openai.com/index/parallel-cuts-time-and-cost-with-astra>)\n\n_GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models._\n\n**2. How UK AISI and EvalEval Are Making Benchmark Results Reproducible**\n\nHugging Face · 29 小时前 · [原文](<https://huggingface.co/blog/evaleval-aisi>)\n\n**3. Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation**\n\narXiv cs.AI · 1 小时前 · [原文](<https://arxiv.org/abs/2609.25010>)\n\n_Marketers increasingly use large language models (LLMs) as \"synthetic personas\" to predict how an audience will react to a piece of copy before it ships, encouraged by evidence that profile-conditioned LLMs mimic human…_\n\n**4. Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization**\n\narXiv cs.AI · 1 小时前 · [原文](<https://arxiv.org/abs/2609.25013>)\n\n_Tabular foundation models have recently shown strong potential for structured biomedical data analysis. Among them, TabPFN has emerged as an effective approach for low-data tabular classification tasks. However, the…_\n\n**5. 4DGS-JEPA: Temporally Compositional Joint-Embedding Prediction for Dynamic Gaussian Splatting**\n\narXiv cs.AI · 1 小时前 · [原文](<https://arxiv.org/abs/2609.25036>)\n\n_Dynamic Gaussian Splatting provides an explicit representation of evolving 3D scenes, but existing approaches are primarily optimized for reconstruction, future-state generation, or rendering rather than for learning…_\n\n## 🏢 公司与行业动向\n\n**1. Launch HN: Coverage Cat (YC S22) – Umbrella insurance via your personal agent**\n\nHacker News · 12 小时前 · ▲45 · [原文](<https://www.coveragecat.com/>)\n\n_Hey HN! We’re Max and Gabriel the co-founders of Coverage Cat. We’ve been friends for over a decade, met in college then hung out mostly on the internet. We love building products that help people optimize the crufty…_\n\n**2. New Anthropic, OpenAI models make same promise: A little more for a lot less money**\n\nArs Technica AI · 8 小时前 · [原文](<https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/>)\n\n_The frontier AI model race has entered its comparison shopping phase._\n\n**3. ‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI**\n\nTechCrunch AI · 刚刚 · [原文](<https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/>)\n\n_Most leaders on a trade mission stick to the pitch, but when I interviewed Greek Prime Minister Kyriakos Mitsotakis this week, he also admitted that no government is ready for what AI is about to do._\n\n**4. Microsoft disrupts AI-assisted platform that compromised 12,000 accounts**\n\nArs Technica AI · 10 小时前 · [原文](<https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/>)\n\n_EvilTokens provided an end-to-end platform that makes mass compromises faster and easier._\n\n**5. Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting**\n\nArs Technica AI · 10 小时前 · [原文](<https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/>)\n\n_British Columbia sues OpenAI, demands Tumbler Ridge shooter’s ChatGPT logs._\n\n## 🛠 工程与开源工具\n\n**1. Pentagon says overreliance on AI contributed to missile strike on Iran school**\n\nHacker News · 10 小时前 · ▲531 · [原文](<https://www.bloomberg.com/graphics/2026-iran-school-attack/>)\n\n_https://archive.ph/0V37g_\n\n**2. LLM Ass Bench**\n\nHacker News · 9 小时前 · ▲144 · [原文](<https://www.assbench.com/>)\n\n**3. Unreal Agent**\n\nHacker News · 11 小时前 · ▲152 · [原文](<https://unreallabs.ai/blog/unreal-agent/>)\n\n_https://github.com/unreallabsai/unreal-agent_\n\n**4. The new CC, an AI agent built for families**\n\nHacker News · 6 小时前 · ▲42 · [原文](<https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/>)\n\n**5. SF October 14th: A Birds of a Feather Session on Agentic Engineering**\n\nSimon Willison · 2 小时前 · [原文](<https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/>)\n\n_SF October 14th: A Birds of a Feather Session on Agentic Engineering I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things…_\n\n## 💭 观点与深度\n\n**1. The Download: why AI’s latest breakthroughs and fears may be more hype than reality**\n\nMIT Tech Review · 17 小时前 · [原文](<https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/>)\n\n_This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Don’t be fooled by this summer of AI hype —Timnit Gebru, executive director of…_\n\n**2. Don’t be fooled by this summer of AI hype**\n\nMIT Tech Review · 18 小时前 · [原文](<https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/>)\n\n_It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face…_\n"
+  "markdown": "# 📰 AI 日报 · 2026-09-23\n\n> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 19 条已译\n\n## 🚀 模型与产品发布\n\n**1. GPT-6 Sol和Luna**\n\nGPT-6 Sol and Luna · Hacker News · 14 小时前 · ▲1493 · [原文](<https://openai.com/index/introducing-gpt-6-sol-and-luna/>)\n\n**2. Claude Opus 5.5**\n\nHacker News · 16 小时前 · ▲1503 · [原文](<https://www.anthropic.com/claude-opus-5-5>)\n\n**3. Claude Opus 5.5智能、性能和价格分析（MAX）**\n\nClaude Opus 5.5 Intelligence, Performance and Price Analysis (Max) · Hacker News · 16 小时前 · ▲283 · [原文](<https://artificialanalysis.ai/models/claude-opus-5-5>)\n\n**4. 更好的GPT-6快速缓存**\n\nBetter prompt caching for GPT-6 · OpenAI · 11 小时前 · [原文](<https://openai.com/index/better-prompt-caching-for-gpt-6>)\n\n_了解GPT-6如何通过更高的缓存命中率、新的诊断、显式断点和控件来改善快速缓存，从而降低延迟和成本。_\n\n**5. GPT-6 Sol和Luna简介**\n\nIntroducing GPT-6 Sol and Luna · OpenAI · 14 小时前 · [原文](<https://openai.com/index/introducing-gpt-6-sol-and-luna>)\n\n_认识GPT-6 Sol和Luna，这两种型号将前沿智能带到日常工作中，并在能力和成本之间取得不同的平衡。_\n\n## 🔬 研究前沿\n\n**1. AI重塑科学研究新范式 广东“人工智能+”科技成果亮相 - 中国科技网**\n\nGoogle 新闻中文 · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMicEFVX3lxTE5uaXg3T2c5UmdJWWN5UmJYTC1lbWZOaGVNTFoxWkJySGFZX0ZaMmtNYTNKdGtiUDNfVjlZNjlrTjF3ai1YcDI4OG45bldHMnlIZDA5b0lCa2RnT3JEbFR4OV9TWVVKQjlEYXJvM3Z5b1o?oc=5>)\n\n_AI重塑科学研究新范式 广东“人工智能+”科技成果亮相 中国科技网_\n\n**2. UK AISI和EvalEval如何使基准结果可复制**\n\nHow UK AISI and EvalEval Are Making Benchmark Results Reproducible · Hugging Face · 32 小时前 · [原文](<https://huggingface.co/blog/evaleval-aisi>)\n\n**3. 合成角色是否可以预测真实的受众反应？一项Sim-to-Real研究，其中无人格基线胜过基于人格的复制模拟**\n\nDo Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation · arXiv cs.AI · 4 小时前 · [原文](<https://arxiv.org/abs/2609.25010>)\n\n_营销人员越来越多地使用大型语言模型（LLM）作为“合成角色”来预测受众在发货前对副本的反应，有证据表明，有条件的LLM模仿人类…_\n\n**4. 现有预处理器是否改善了生物医学表格基础学习？ TabPFN优化的实证研究**\n\nDo Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization · arXiv cs.AI · 4 小时前 · [原文](<https://arxiv.org/abs/2609.25013>)\n\n_表格基础模型最近显示出结构化生物医学数据分析的强大潜力。其中TabPFN已成为低数据表格分类任务的有效途径，但…_\n\n**5. 4DGS-JEPA：动态高斯溅射的时间组合联合嵌入预测**\n\n4DGS-JEPA: Temporally Compositional Joint-Embedding Prediction for Dynamic Gaussian Splatting · arXiv cs.AI · 4 小时前 · [原文](<https://arxiv.org/abs/2609.25036>)\n\n_动态高斯拼接提供了演变3D场景的显式表示，但现有方法主要针对重建、未来状态生成或渲染进行了优化，而不是用于学习…_\n\n## 🏢 公司与行业动向\n\n**1. 启动HN：承保猫（YC S22） -通过您的个人代理投保伞式保险**\n\nLaunch HN: Coverage Cat (YC S22) - Umbrella insurance via your personal agent · Hacker News · 15 小时前 · ▲47 · [原文](<https://www.coveragecat.com/>)\n\n_嘿， HN！我们是Coverage Cat的联合创始人Max和Gabriel。十多年来，我们一直是朋友，在大学里相识，然后主要在互联网上闲逛。我们喜欢构建产品，帮助人们优化…_\n\n**2. 新的Anthropic、OpenAI型号也做出了同样的承诺：以更少的钱获得更多**\n\nNew Anthropic, OpenAI models make same promise: A little more for a lot less money · Ars Technica AI · 11 小时前 · [原文](<https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/>)\n\n_前沿人工智能模型竞赛已进入比较购物阶段。_\n\n**3. “我们已经在打昨天的仗了”：希腊总理对人工智能直言不讳**\n\n‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI · TechCrunch AI · 3 小时前 · [原文](<https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/>)\n\n_大多数贸易代表团的领导人坚持说话，但当我本周采访希腊总理基里亚科斯·米佐塔基斯（Kyriakos Mitsotakis）时，他也承认没有政府准备好接受人工智能即将要做的事情。_\n\n**4. 微软颠覆了人工智能辅助平台，该平台入侵了12,000个账户**\n\nMicrosoft disrupts AI-assisted platform that compromised 12,000 accounts · Ars Technica AI · 13 小时前 · [原文](<https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/>)\n\n_EvilTokens提供了一个端到端的平台，使大规模妥协更快、更容易。_\n\n**5. 诉讼要求OpenAI在ChatGPT用于拍摄后支付新学校的费用**\n\nLawsuit demands OpenAI pay for new school after ChatGPT used in shooting · Ars Technica AI · 13 小时前 · [原文](<https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/>)\n\n_不列颠哥伦比亚省起诉OpenAI，要求Tumbler Ridge射手的ChatGPT日志。_\n\n## 🛠 工程与开源工具\n\n**1. 五角大楼表示，过度依赖人工智能助长了对伊朗学校的导弹袭击**\n\nPentagon says overreliance on AI contributed to missile strike on Iran school · Hacker News · 13 小时前 · ▲622 · [原文](<https://www.bloomberg.com/graphics/2026-iran-school-attack/>)\n\n_https://archive.ph/0V37g_\n\n**2. LLM Ass Bench**\n\nHacker News · 12 小时前 · ▲152 · [原文](<https://www.assbench.com/>)\n\n**3. 虚幻特工**\n\nUnreal Agent · Hacker News · 14 小时前 · ▲175 · [原文](<https://unreallabs.ai/blog/unreal-agent/>)\n\n_https://github.com/unreallabsai/unreal-agent_\n\n**4. 全新CC，专为家庭打造的人工智能代理**\n\nThe new CC, an AI agent built for families · Hacker News · 9 小时前 · ▲44 · [原文](<https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/>)\n\n**5. 旧金山10月14日：关于代理工程的羽毛鸟会议**\n\nSF October 14th: A Birds of a Feather Session on Agentic Engineering · Simon Willison · 6 小时前 · [原文](<https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/>)\n\n_旧金山10月14日：关于代理工程的羽毛鸟会议我将于10月14日星期三在旧金山与杰西·文森特（Jesse Vincent）一起为那些正在建造奇怪而有趣的东西的人举办一场晚间活动…_\n\n## 💭 观点与深度\n\n**1. 下载：为什么人工智能的最新突破和恐惧可能更多的是炒作而不是现实**\n\nThe Download: why AI’s latest breakthroughs and fears may be more hype than reality · MIT Tech Review · 20 小时前 · [原文](<https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/>)\n\n_这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。不要被今年夏天的人工智能炒作所愚弄--Timnit Gebru，…_\n\n**2. 不要被这个夏天的人工智能炒作所愚弄**\n\nDon’t be fooled by this summer of AI hype · MIT Tech Review · 21 小时前 · [原文](<https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/>)\n\n_人工智能炒作已经忙碌了几个月。4月底， Anthropic声称其模型Claude Mythos比大多数安全专家更擅长发现软件漏洞。然后我们有了OpenAI-Hugging Face…_\n"
 }
