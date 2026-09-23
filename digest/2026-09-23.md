@@ -6,126 +6,128 @@
 
 **1. GPT-6 Sol and Luna**
 
-Hacker News · 3 小时前 · ▲773 · [原文](<https://openai.com/index/introducing-gpt-6-sol-and-luna/>)
+Hacker News · 11 小时前 · ▲1356 · [原文](<https://openai.com/index/introducing-gpt-6-sol-and-luna/>)
 
 **2. Claude Opus 5.5**
 
-Hacker News · 4 小时前 · ▲856 · [原文](<https://www.anthropic.com/claude-opus-5-5>)
+Hacker News · 13 小时前 · ▲1368 · [原文](<https://www.anthropic.com/claude-opus-5-5>)
 
 **3. Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)**
 
-Hacker News · 4 小时前 · ▲159 · [原文](<https://artificialanalysis.ai/models/claude-opus-5-5>)
+Hacker News · 13 小时前 · ▲263 · [原文](<https://artificialanalysis.ai/models/claude-opus-5-5>)
 
 **4. Better prompt caching for GPT-6**
 
-OpenAI · 刚刚 · [原文](<https://openai.com/index/better-prompt-caching-for-gpt-6>)
+OpenAI · 8 小时前 · [原文](<https://openai.com/index/better-prompt-caching-for-gpt-6>)
 
 _Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs._
 
+**5. Introducing GPT-6 Sol and Luna**
+
+OpenAI · 11 小时前 · [原文](<https://openai.com/index/introducing-gpt-6-sol-and-luna>)
+
+_Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost._
+
 ## 🔬 研究前沿
 
-**1. How UK AISI and EvalEval Are Making Benchmark Results Reproducible**
+**1. Parallel cut research time and cost in half with GPT‑6 Astra**
 
-Hugging Face · 21 小时前 · [原文](<https://huggingface.co/blog/evaleval-aisi>)
+OpenAI · 17 小时前 · [原文](<https://openai.com/index/parallel-cuts-time-and-cost-with-astra>)
 
-**2. RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models**
+_GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models._
 
-arXiv cs.AI · 17 小时前 · [原文](<https://arxiv.org/abs/2609.20971>)
+**2. How UK AISI and EvalEval Are Making Benchmark Results Reproducible**
 
-_Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a block…_
+Hugging Face · 29 小时前 · [原文](<https://huggingface.co/blog/evaleval-aisi>)
 
-**3. Attention-Aware Routing: Coupling Routing and Attention in MoEs**
+**3. Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation**
 
-arXiv cs.AI · 17 小时前 · [原文](<https://arxiv.org/abs/2609.20974>)
+arXiv cs.AI · 1 小时前 · [原文](<https://arxiv.org/abs/2609.25010>)
 
-_In Mixture-of-Experts language models, the router typically selects and weights experts based on the token's hidden state, utilizing limited contextual information. We propose Attention-Aware Routing (AAR), which…_
+_Marketers increasingly use large language models (LLMs) as "synthetic personas" to predict how an audience will react to a piece of copy before it ships, encouraged by evidence that profile-conditioned LLMs mimic human…_
 
-**4. CaLR: Causal Latent Revision for Robust Diffusion Reasoning**
+**4. Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization**
 
-arXiv cs.AI · 17 小时前 · [原文](<https://arxiv.org/abs/2609.20981>)
+arXiv cs.AI · 1 小时前 · [原文](<https://arxiv.org/abs/2609.25013>)
 
-_Autoregressive (AR) models suffer from local greediness, while diffusion language models (DLMs) often lack the strict causal structure required for reasoning. To combine the advantages and overcome the drawbacks of the…_
+_Tabular foundation models have recently shown strong potential for structured biomedical data analysis. Among them, TabPFN has emerged as an effective approach for low-data tabular classification tasks. However, the…_
 
-**5. LoRA Enhanced Contrastive Learning with SAS Vision Transformers**
+**5. 4DGS-JEPA: Temporally Compositional Joint-Embedding Prediction for Dynamic Gaussian Splatting**
 
-arXiv cs.AI · 17 小时前 · [原文](<https://arxiv.org/abs/2609.21061>)
+arXiv cs.AI · 1 小时前 · [原文](<https://arxiv.org/abs/2609.25036>)
 
-_Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background clutter, and human-in-the-loop…_
+_Dynamic Gaussian Splatting provides an explicit representation of evolving 3D scenes, but existing approaches are primarily optimized for reconstruction, future-state generation, or rendering rather than for learning…_
 
 ## 🏢 公司与行业动向
 
-**1. Microsoft disrupts AI-assisted platform that compromised 12,000 accounts**
+**1. Launch HN: Coverage Cat (YC S22) – Umbrella insurance via your personal agent**
 
-Ars Technica AI · 1 小时前 · [原文](<https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/>)
+Hacker News · 12 小时前 · ▲45 · [原文](<https://www.coveragecat.com/>)
+
+_Hey HN! We’re Max and Gabriel the co-founders of Coverage Cat. We’ve been friends for over a decade, met in college then hung out mostly on the internet. We love building products that help people optimize the crufty…_
+
+**2. New Anthropic, OpenAI models make same promise: A little more for a lot less money**
+
+Ars Technica AI · 8 小时前 · [原文](<https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/>)
+
+_The frontier AI model race has entered its comparison shopping phase._
+
+**3. ‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI**
+
+TechCrunch AI · 刚刚 · [原文](<https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/>)
+
+_Most leaders on a trade mission stick to the pitch, but when I interviewed Greek Prime Minister Kyriakos Mitsotakis this week, he also admitted that no government is ready for what AI is about to do._
+
+**4. Microsoft disrupts AI-assisted platform that compromised 12,000 accounts**
+
+Ars Technica AI · 10 小时前 · [原文](<https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/>)
 
 _EvilTokens provided an end-to-end platform that makes mass compromises faster and easier._
 
-**2. Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting**
+**5. Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting**
 
-Ars Technica AI · 1 小时前 · [原文](<https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/>)
+Ars Technica AI · 10 小时前 · [原文](<https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/>)
 
 _British Columbia sues OpenAI, demands Tumbler Ridge shooter’s ChatGPT logs._
 
-**3. Meta admits Muse’s likeness to OpenClaw isn’t a coincidence**
-
-TechCrunch AI · 2 小时前 · [原文](<https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/>)
-
-_Meta says Muse was built from scratch, but acknowledges the AI assistant was "heavily inspired" by OpenClaw — down to some of its workspace filenames and content._
-
-**4. Qualcomm launches two new smartphone chips with emphasis on AI**
-
-TechCrunch AI · 刚刚 · [原文](<https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/>)
-
-_Qualcomm said that its new top chip can run 30B mixture-of-expert model locally._
-
-**5. Toyota orders workers to train humanoid robots but says humans won't be replaced**
-
-Ars Technica AI · 4 小时前 · [原文](<https://arstechnica.com/ai/2026/09/toyota-claims-plan-for-400000-factory-robots-wont-replace-human-workers/>)
-
-_Toyota's push comes as automakers race to develop and deploy humanoid robots._
-
 ## 🛠 工程与开源工具
 
-**1. OpenAI is well positioned to fast-follow Jev**
+**1. Pentagon says overreliance on AI contributed to missile strike on Iran school**
 
-Hacker News · 6 小时前 · ▲215 · [原文](<https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/>)
+Hacker News · 10 小时前 · ▲531 · [原文](<https://www.bloomberg.com/graphics/2026-iran-school-attack/>)
 
-**2. Overreliance on AI contributed to missile strike on Iran school – Pentagon**
+_https://archive.ph/0V37g_
 
-Hacker News · 2 小时前 · ▲218 · [原文](<https://www.bloomberg.com/graphics/2026-iran-school-attack/>)
+**2. LLM Ass Bench**
 
-**3. Stanford R&DE Uses AI to Race Swap Students for Advertising**
+Hacker News · 9 小时前 · ▲144 · [原文](<https://www.assbench.com/>)
 
-Hacker News · 7 小时前 · ▲81 · [原文](<https://stanfordreview.org/stanford-r-de-uses-ai-to-race-swap-students-for-advertising/>)
+**3. Unreal Agent**
 
-**4. Unreal Agent**
-
-Hacker News · 3 小时前 · ▲50 · [原文](<https://unreallabs.ai/blog/unreal-agent/>)
+Hacker News · 11 小时前 · ▲152 · [原文](<https://unreallabs.ai/blog/unreal-agent/>)
 
 _https://github.com/unreallabsai/unreal-agent_
 
-**5. Quoting @therealcornpop**
+**4. The new CC, an AI agent built for families**
 
-Simon Willison · 3 小时前 · [原文](<https://simonwillison.net/2026/Sep/22/therealcornpop/>)
+Hacker News · 6 小时前 · ▲42 · [原文](<https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/>)
 
-_Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of "it's not X, it's Y", or the rule of three, or the really weird…_
+**5. SF October 14th: A Birds of a Feather Session on Agentic Engineering**
+
+Simon Willison · 2 小时前 · [原文](<https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/>)
+
+_SF October 14th: A Birds of a Feather Session on Agentic Engineering I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things…_
 
 ## 💭 观点与深度
 
 **1. The Download: why AI’s latest breakthroughs and fears may be more hype than reality**
 
-MIT Tech Review · 9 小时前 · [原文](<https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/>)
+MIT Tech Review · 17 小时前 · [原文](<https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/>)
 
 _This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Don’t be fooled by this summer of AI hype —Timnit Gebru, executive director of…_
 
 **2. Don’t be fooled by this summer of AI hype**
 
-MIT Tech Review · 10 小时前 · [原文](<https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/>)
+MIT Tech Review · 18 小时前 · [原文](<https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/>)
 
 _It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face…_
-
-**3. 4 ways to address the failures we found along the US border’s “virtual wall”**
-
-MIT Tech Review · 33 小时前 · [原文](<https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/>)
-
-_MIT Technology Review today published our investigation into how many people have died near the “virtual wall” of surveillance towers that the US government has installed along the US-Mexico border. We found cases of…_
