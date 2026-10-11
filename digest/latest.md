@@ -1,129 +1,97 @@
-# 📰 AI 日报 · 2026-10-10
+# 📰 AI 日报 · 2026-10-11
 
-> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时
+> 17 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 14 条已译
 
 ## 🚀 模型与产品发布
 
-**1. Asana cuts model costs 76x in browser tests with GPT-6.1 Sol**
+**1. Anthropic禁止残忍对待克劳德，但仍然不愿说出它能保护什么**
 
-OpenAI · 24 小时前 · [原文](<https://openai.com/index/asana-browser-agent>)
+Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects · Hacker News · 6 小时前 · ▲57 · [原文](<https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6>)
 
-_Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models._
+**2. Anthropic要求用户停止对Claude刻薄**
 
-**2. Sophos cuts threat investigation time by 96% with OpenAI Daybreak**
+Anthropic asks users to stop being mean to Claude · Hacker News · 5 小时前 · ▲46 · [原文](<https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218>)
 
-OpenAI · 24 小时前 · [原文](<https://openai.com/index/sophos>)
+**3. Anthropic Claude AI模型向费城警方发送假凶杀案提示- FOX 5 New York**
 
-_Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight._
+Anthropic Claude AI model sends fake homicide tip to Philadelphia police - FOX 5 New York · Google News · 6 小时前 · [原文](<https://news.google.com/rss/articles/CBMingFBVV95cUxOeFpBb2tuRXRYU29WZTZXX2RLZE5obTY5XzJtMUZYbG9WNlVMMEVpOUlzVVM4WTdZcEh3Rk1paVZIb3hMcXF6dU0yNGFEYXlKX3hVS2l0LTlqa2prUDV1ZllzekgyQkI4dVcwZUtUZ2piVXNjcFpDRGg2czdLcXFwUzNfZFB6aDllSFN5R3ZvNkx2dGpLT2QyNzFyTFdSZw?oc=5>)
 
-**3. Impactful scheduling for GPU clusters**
+_Anthropic Claude AI模型向费城警方FOX 5 New York发送假凶杀案提示_
 
-Hugging Face · 15 小时前 · [原文](<https://huggingface.co/blog/allenai/impactful-scheduling>)
+**4. Anthropic的Claude AI提交了关于费城未解决凶杀案案件的虚假提示-旧金山ABC7**
+
+Anthropic's Claude AI submits a false tip on a Philadelphia unsolved homicide case - ABC7 San Francisco · Google News · 12 小时前 · [原文](<https://news.google.com/rss/articles/CBMitAFBVV95cUxQQzI3SVkyNXF0blQxemt0YmRQUnNLckl1R3JpTUhYcFU5WUp3VDZrU1REZ3ZjUmY4MjdESWtacGVBT0R1NnBsaFRnNmFRUFUyd0FpTmhlVlp3NmdNNGtwNDdvOE5aT3owdl9PVGJMM2JoeWNzd1BKbVRVYTlyN0VLbUlHeEg2bGd2cHotakVtbVVpSXlqazdvbXhwbE1GZ3M1VkdZOXdFczQwTXpMYktreGxTdU_SAbQBQVVfeXFMUEMyN0lZMjVxdG5UMXprdGJkUFJzS3JJdUdyaU1IWHBVOVlKd1Q2a1NURGd2Y1JmODI3RElrWnBlQU9EdTZwbGhUZzZhUVBVMndBaU5oZVZadzZnTTRrcDQ3bzhOWk96MHZfT1RiTDNiaHljc3dQSm1UVWE5cjdFS21JR3hINmxndnB6LWpFbW1VaUl5ams3b214cGxNRmdzNVZHWTl3RXM0ME16TGJLa3hsU3VP?oc=5>)
+
+_Anthropic的Claude AI提交了费城未解决的凶杀案ABC7旧金山的虚假消息_
 
 ## 🔬 研究前沿
 
-**1. 人工智能时代历史学的研究进路 - 中国社会科学网**
+**1. 中国科学院工业人工智能研究所PAIWorld将在2026物理AI与世界模型大会发布 - 新华网江苏频道**
 
-Google 新闻中文 · 7 小时前 · [原文](<https://news.google.com/rss/articles/CBMibEFVX3lxTE0xUjZmQ0xHekdpVHAzVVJiNTZtVVhxWU1ramVibU9aMDViSFVmRUNUVzlGTkhRUjF6dWhUOW1hVlNHemFhVnFQMFFpLTUyTEk1bEpUUlR4OVdTZTdEbDhjV2tSWDdNeXMyelBKNg?oc=5>)
+Google 新闻中文 · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMidEFVX3lxTE9HMUp4SE9XSXN3SmNjUnc1cjN6ek9VcHotbDZ3NENjOHVuQmx1Z1k0cE1ZWkNnZW1qaEdJaUZ5Zjg4R1g3R2llOGp5WnFkWS1QVWp3RVpGRVNNTUdwdzJKOG9CRVVuZU8xZi1FNmozSGJkRjh5?oc=5>)
 
-_人工智能时代历史学的研究进路 中国社会科学网_
-
-**2. An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment**
-
-arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2610.10541>)
-
-_Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration. In metadata-only Semantic Table Interpretation (STI), where cell values…_
-
-**3. Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction**
-
-arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2610.10549>)
-
-_Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas.…_
-
-**4. Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice**
-
-arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2610.10590>)
-
-_Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forgetting: the acting model selects previously observed tool results,…_
-
-**5. Verification and Self-Improvement in Agentic AI: Foundations and Limits**
-
-arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2610.10611>)
-
-_Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs. A performance score does not distinguish these mechanisms. We compare these changes…_
+_中国科学院工业人工智能研究所PAIWorld将在2026物理AI与世界模型大会发布 新华网江苏频道_
 
 ## 🏢 公司与行业动向
 
-**1. Can you use autoregressive diffusion to generate market data?**
+**1. 英伟达洽谈收购美国“开放”模式初创公司Reflection AI**
 
-Hacker News · 16 小时前 · ▲56 · [原文](<https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/>)
+Nvidia in talks to acquire US 'open' model startup Reflection AI · Hacker News · 12 小时前 · ▲152 · [原文](<https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a>)
 
-**2. Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead**
+**2. 微软的萨蒂亚·纳德拉（Satya Nadella）表示，人工智能模型需要“紧急制动”**
 
-TechCrunch AI · 6 小时前 · [原文](<https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/>)
+Microsoft’s Satya Nadella says AI models need an ‘emergency brake’ · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/>)
 
-_Anthropic said it "turned off live internet access" for "all our internal evaluations" until further notice._
+_在周六早上的帖子中，微软首席执行官写道，现在是时候“退一步评估人工智能的信任架构”了。_
 
-**3. Ukraine’s drones knock out AI data center belonging to "Russia’s Google"**
+**3. Anthropic AI模型向警方发送有关未解决凶杀案的虚假提示- upi**
 
-Ars Technica AI · 8 小时前 · [原文](<https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/>)
+Anthropic AI model sends police false tip about unsolved homicide - upi · Google News · 8 小时前 · [原文](<https://news.google.com/rss/articles/CBMimgFBVV95cUxONF9HNmlYRWFNSVpZLXpLTnFqQnh5dEtDUVpuN3pyV3VZZjVtZ1J3X2xIOF8zYnRXLWZ0X1pialdzajBBdDJ0RGRaaVlJcTNxd0xSdVpGcFJBellQd3ZtdnlHaVI2MlZmUGhNWjJfQXQxVHhYa2RCQm5xR2FyUDRWUmcwc3o2a0sxSFlBbDZJN1ZNWXoxT09BNjln0gGfAUFVX3lxTE9WNWdwLU1ZV1pqRDE0SFFOb2RkTG9FZHg5ckR5VGRIbHZaNW5iUnh0blZBVXJWcGlGekRlVVlMd2F5blo2VGZ1T0VZb05pR1cwVGhkUFc5Z1BsbzUxWGplb0ZRdEN0dFkzNXB3MkNEdjc2WHZUMnJGenZ3SG9LUWlXZXpORzlEeG9Zc2txNTBCb0o3dEJVQ04zZGVsQTN6bw?oc=5>)
 
-_One damaged data center has supercomputers used for training Yandex’s AI model._
+_Anthropic AI模型向警方发送有关未解决凶杀案的虚假提示_
 
-**4. Anthropic AI agents took ‘unintended’ actions on government sites - The Washington Post**
+**4. 苹果披露从个性化播客初创公司Huxe聘请团队和许可技术的交易**
 
-Google News · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZ2V1ZnA4a2RIbllCWVFuZDA0ellKck0teFdTaEZZV3lYeDZXenZVdWN4aElzZWxYNUZxcXlkWHhrUVJVN2gyY0pZOHRiS0hMQzV0QUU2bllGbDFCV3JNaVJaTFhhUTlXblQ0aG1QcEVRNzRDbW9xRDRRek5MU3dUMnpjQ2pmOFQ1SjlPOUZZdndrOGhCRGxwRTZnem9VaHBVRTdqTXczQkw5RHhWVXdKaFZZQk5qd2hnelplNGdfd1I?oc=5>)
+Apple discloses deal to hire team and license tech from personalized podcast startup Huxe · TechCrunch AI · 11 小时前 · [原文](<https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/>)
 
-_Anthropic AI agents took ‘unintended’ actions on government sites The Washington Post_
+_苹果是否希望进入人工智能生成的播客业务？_
 
-**5. Anthropic AI model submits false homicide tip to Philadelphia police - Al Jazeera**
+**5. 浅谈科创未来（人工智能）金银币的收藏前景 - 同花顺财经**
 
-Google News · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMirwFBVV95cUxPeFFtTFhJbEVVTTU2NzJva0NKM0VYd2lNdDFkN29fWFJKSTQtcF9POVRWTUY4WHRqSVNHZHVOdkt5UHJxSFZVcW5kX28tVDIzUnFsekVTNmwzbjBpOHdKeHhzODlZbFRqeWpycnpzTGJlYy1waDE1dnRXUVVaUkRuWjdHYUNobDA3ZldjNG9RSC1LOVA3d1RuQXcyVmEwaGp5M3dibkZfdldtTkxLS25z0gG0AUFVX3lxTE56dENBbVZWZkdYclE5Rk9LS0Vsd1JHOHVBYW9vZDZiU0lJSTFwT2EyMTIyaWljcXYtYllCWG1IaDA4MEZQUC1ZWmNYcW1RSFRwSWpucEFGYXAxM2sxYkYwU3ZyQ0IzSVJ6QktPUHExcGRyeGd4bEJpTEU3LUNMMmZpZXYxd1VLQ09jNFpSXzlVaVEwMzJ0bnFrak9vOWwtcVJpZWdvd0l1Mk1HZWZMQjhpcW56Wg?oc=5>)
+Google 新闻中文 · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMiXkFVX3lxTE9NYk9WdTUyTUswV1pHT3loVF9OanpHb29TRVdZUnlGV2R5OUxtVV84emxCQVQ3eHdFb1ZRZUI3bGhJSC1kS2pwVTlIRWxUTUVtQ2ZXM2RzRDZ3WGdQS0E?oc=5>)
 
-_Anthropic AI model submits false homicide tip to Philadelphia police Al Jazeera_
+_浅谈科创未来（人工智能）金银币的收藏前景 同花顺财经_
+
+**6. 推动AI+数学深度融合，丘成桐数学与人工智能实验室联盟成立 - 京报网**
+
+Google 新闻中文 · 4 小时前 · [原文](<https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XdjZ4SDVZMkI4MDAyanF5b0VsNXZVdU5MYkxidFdhSGlWZVI3eEVXZVZCVFVzWk5yRHBtRmx5Tk9wY1dkWFh3RFU5MzRHSlJ1czM4WjBMM2xETDhZalE?oc=5>)
+
+_推动AI+数学深度融合，丘成桐数学与人工智能实验室联盟成立 京报网_
 
 ## 🛠 工程与开源工具
 
-**1. Anthropic AI model submits false tip on unsolved Philly murder**
+**1. 500B代币：让AI智能体反编译第一人称射击游戏**
 
-Hacker News · 9 小时前 · ▲139 · [原文](<https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/>)
+500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter · Hacker News · 5 小时前 · ▲73 · [原文](<https://momo5502.com/posts/2026-10-09-game-decompilation/>)
 
-**2. The super intelligence shit is a humiliation ritual for OpenAI**
+**2. Anthropic在新的流氓人工智能事件中向警方披露了2个月前的假消息**
 
-Hacker News · 15 小时前 · ▲93 · [原文](<https://bsky.app/profile/opinionhaver.bsky.social/post/3mxfo2mdjqs2z>)
+Anthropic discloses 2 months old fake tip to police among new rogue AI incidents · Hacker News · 12 小时前 · ▲41 · [原文](<https://www.reuters.com/world/us/anthropic-ai-model-submits-false-homicide-tip-police-website-2026-10-09/>)
 
-**3. OpenAI mistranslated mathematics into code for its Navier-Stokes proof**
+**3. Talorys-Cloudflare免费套餐上的自托管个人AI代理**
 
-Hacker News · 9 小时前 · ▲55 · [原文](<https://www.newscientist.com/article/2592824-openai-mistranslated-mathematics-into-code-for-its-navier-stokes-proof/>)
+Talorys - A self-hosted personal AI agent on Cloudflare's free tier · Hacker News · 20 小时前 · ▲275 · [原文](<https://github.com/rociiu/talorys>)
 
-**4. Typesafe AI raises $870M at $7.5B**
+**4. 我的个人人工智能代理在公司Slack上发布了我的银行详细信息**
 
-Hacker News · 13 小时前 · ▲334 · [原文](<https://typesafe.ai/blog/series-ai>)
+My personal AI agent posted my bank details on company Slack · Hacker News · 16 小时前 · ▲61 · [原文](<https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10>)
 
-**5. Tomek Korbak: OpenAI's head of safety told they no longer trust me**
+**5. 人工智能正在路边野餐**
 
-Hacker News · 14 小时前 · ▲45 · [原文](<https://twitter.com/tomekkorbak/status/2108266859397283953>)
+AI Is Throwing a Roadside Picnic · Hacker News · 14 小时前 · ▲46 · [原文](<https://metedata.substack.com/p/ai-is-throwing-a-roadside-picnic>)
 
-**6. Rewriting Prime Agent in Rust**
+**6. Dwarf Fortress现在使用版本控制**
 
-Hacker News · 7 小时前 · ▲45 · [原文](<https://www.primeintellect.ai/blog/prime-agent-rust>)
+Dwarf Fortress uses version control now · Simon Willison · 6 小时前 · [原文](<https://simonwillison.net/2026/Oct/11/dwarf-fortress/>)
 
-## 💭 观点与深度
-
-**1. The Download: AI’s refusal problem and weight-loss drug side effects**
-
-MIT Tech Review · 18 小时前 · [原文](<https://www.technologyreview.com/2026/10/09/1146250/the-download-ai-refusal-problem-weight-loss-drug-side-effects/>)
-
-_This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. We’re putting too much faith in AI’s ability to say no Today’s AI models are…_
-
-**2. We’re putting too much faith in AI’s ability to say no**
-
-MIT Tech Review · 22 小时前 · [原文](<https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/>)
-
-_Ever since people first seriously contemplated giving machines an intelligence modeled on our own, there has never been any question that they would, like us, be able to say no. The sci-fi canon is full of stories of…_
-
-**3. Roundtables: A Conversation With the Creator of AI-Designed Viruses**
-
-MIT Tech Review · 30 小时前 · [原文](<https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/>)
-
-_Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for…_
+_我记得不久前听说矮人堡垒没有使用版本控制。这个事实一直存在于我的脑海中，因为鉴于其固有的复杂性，我很难想象一个代码库会受益于…_
