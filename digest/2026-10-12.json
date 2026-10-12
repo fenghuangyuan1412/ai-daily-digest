@@ -1,0 +1,265 @@
+{
+  "date": "2026-10-12",
+  "generatedAt": "2026-10-12T06:46:23.814Z",
+  "windowHours": 36,
+  "sourcesTotal": 13,
+  "sourcesOk": 13,
+  "sourcesFailed": [],
+  "itemCount": 19,
+  "translatedCount": 18,
+  "sections": [
+    {
+      "key": "research",
+      "label": "🔬 研究前沿",
+      "items": [
+        {
+          "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
+          "titleZh": "没有锚点的忠诚：关于特征重要性的可解释AI忠诚度指标的结构性错位的立场文件",
+          "url": "https://arxiv.org/abs/2610.12493",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of their algorithms more human-understandable. However, evidence accumulated over the last decade points to an overall failure of this objective, instead promoting overreliance on incorrect predictions, which can subsequently lead to algorithmic aversion. Rather, XAI appears to function primarily as a debugging tool, useful for obtaining anecdotal insights into, for example, features learned by the model. One of the main issues underlying this limitation is that XAI methods often oversimplify the inner workings of the model, resulting in misalignment between the explanation and the model itself - a behavior referred to as unfaithfulness or infidelity. Faithfulness can be interpreted as the degree of approximation between an explanation and the model. Computing faithfulness in a rigorous manner would thus make it possible to quantify one of the various elements of trustworthiness of an explanation. However, existing metrics present significant limitations, making this quantification either infeasible or computationally expensive. In this position paper, we outline five major shortcomings of current faithfulness metrics and propose four possible avenues for research to bolster their reliability.",
+          "summaryZh": "可解释的人工智能（XAI）工具经常被用作通过使其算法的各个方面更易于理解来增加对机器学习模型的信任的方法。然而，…",
+          "published": "2026-10-12T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "EliteTable: Self-Improving Program Search for Executable Control Policies",
+          "titleZh": "EliteTable：可执行文件控制策略的自我改进程序搜索",
+          "url": "https://arxiv.org/abs/2610.12536",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "EliteTable is a self-improving program-search algorithm guided by large language models (LLMs) that uses a fixed-capacity table of high-scoring solutions to guide new proposals, edits of existing solutions, and remixes of several solutions. Performance was evaluated across six Gymnasium control tasks, each with ten generations and fifty candidate slots per generation. Each task was evaluated across ten independently initialized searches. Candidate-score medians rose between the first and final generations in all six tasks, and selected-winner search-score medians rose in five. In CartPole-v1, the selected winner reached the search-score ceiling in the first generation of all ten searches. All ten paired held-out endpoints improved in four of the six tasks. BipedalWalker-v3 and CarRacing-v3 improved without reaching their reporting targets. Six of ten Acrobot-v1 searches declined on held-out episodes, and the median paired change was negative. The results document improvement during program search and the transfer of selected-winner gains to new episodes in some tasks. Comparisons and ablations are needed to establish EliteTable's relative performance and the contributions of its components.",
+          "summaryZh": "EliteTable是一种自我改进的程序搜索算法，以大型语言模型（LLM）为指导，使用固定容量的高分解决方案表来指导新提案、现有解决方案的编辑和混音…",
+          "published": "2026-10-12T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study",
+          "titleZh": "用于DAG工作流程的等预算蒙特卡洛树搜索与随机重启列表调度：对照等预算计算研究",
+          "url": "https://arxiv.org/abs/2610.12542",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Monte Carlo Tree Search (MCTS) is often proposed for scheduling directed-acyclic-graph (DAG) workflows, yet most studies never run the comparison that could refute it - giving a much simpler method the same search effort. We run that comparison under a controlled protocol. All arms receive an identical budget - the same number of candidate schedules built and evaluated: an MCTS scheduling method, preregistered as the main arm; a randomized-restart list scheduler with no search tree as the control; and a textbook-UCT MCTS arm as a registered follow-up on the same domain. The analysis plan was locked before data collection; an independent checker confirmed all 768 confirmation-stage schedules valid with correct finish times. At the main budget of 2048 evaluated schedules, MCTS is 2.88% worse than the restarts (95% CI [-3.62%,-2.15%]; the 72 of 96 held-out instances with positive baseline-relative headroom). The deficit is not budget starvation: on the separate exploration pool restarts self-improve by 1.85% where MCTS gains 0.24%, and 700 of 720 of MCTS's first results are merely the warm start it was handed. The studied selection rule locks deterministically onto the first-expanded child, keeping its trials correlated while restarts draw gains from the tails; the causal link to makespan remains an inference. A structural map locates where the tree stops paying: restarts win on sparse irregular workflows, no difference is detectable on regular layered ones, and dense ones leave no room to improve. Swapping the rule for textbook UCT removes most of the deficit (-0.26%, 95% CI [-0.71%,+0.23%]) without reversing its sign. Results are confined to a controlled synthetic domain (N in {8,16,32} tasks, 2-8 processors, budgets up to 2048); we make no claim about larger budgets.",
+          "summaryZh": "蒙特卡洛树搜索（MCTS）通常被提议用于调度有向无环图（DAG）工作流程，但大多数研究从未运行过可以反驳它的比较-给出了一个更简单的方法相同的搜索…",
+          "published": "2026-10-12T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Know What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning",
+          "titleZh": "知道你不知道的：通过发展闭环学习的生成空间进行代理数据合成",
+          "url": "https://arxiv.org/abs/2610.12593",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "The continued improvement of large language models increasingly depends on synthetic experience, yet effective data synthesis for interactive agents requires not only executable and verifiable trajectories, but also interactions that provide learning value for the current task agent. Existing methods increasingly incorporate environment feedback, data validation, or learner failures, but still face a feedback-to-decision gap: observed weaknesses do not directly specify how future synthesis should change, or whether they can be represented by the current synthesis space. To address this gap, we propose EvoSyn, a learning-feedback-driven multi-agent framework that organizes synthesis around a revisable state specifying what interaction factors can be deliberately generated and where synthesis effort should be allocated. A role-specialized multi-agent system translates learner feedback into synthesis revisions, while a Designer allocates synthesis directions and a Planner grounds them into executable experience. This process enables within-space adaptation toward weak or under-covered regions and synthesis-space expansion that promotes newly discovered factors into explicit generation controls. Experiments on $\\tau^2$-Bench and CAR-Bench show that EvoSyn improves average task success by 13.3 points over the strongest synthesis baseline, while producing higher-quality and structurally broader synthetic experience and discovering controllable factors missed without learner feedback.",
+          "summaryZh": "大型语言模型的持续改进越来越依赖于合成经验，然而，为交互式代理进行有效的数据合成不仅需要可执行和可验证的轨迹，而且…",
+          "published": "2026-10-12T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
+          "titleZh": "SpireBench：使用Slay the Spire评估代理模型的长期战略发挥",
+          "url": "https://arxiv.org/abs/2610.12596",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under-studied: most agentic benchmarks are short and episodic, and performance on long tasks is hard to dissect into stored knowledge, reasoning and luck. We introduce SpireBench, in which models play the complete commercial deck-builder Slay the Spire (StS), where early decisions decide long-term success. Across 20 large language models (LLMs) at the game's highest difficulty, frontier models beat heuristic baselines and match the average human player but remain far behind experts. This gap widens as the run lengthens: the strongest models win the first act as often as experts, then fall behind. What separates strong models from weak is how well they play each fight; all of them misjudge risk over a run, preserving health rather than spending it to grow stronger. A comprehensive, self-consistent renaming of every game term shows that part of their performance rests on prior knowledge of the game, and models do not improve from the memories they write across runs, which are often wrong and overly cautious. Our harness is the first to give a model the complete original game, and we compare it with existing harnesses. Overall, SpireBench offers an unsaturated long-horizon benchmark with tools to locate where and why agents fail.",
+          "summaryZh": "智能大型语言模型如今已能处理复杂任务，但对长远战略推理的研究仍然不足：大多数智能基准测试都是短小且片段式的，而长任务上的性能难以分解。…",
+          "published": "2026-10-12T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Beyond Binary Verifiable Rewards: Behavioral Self-Rewarding for SWE Agents",
+          "titleZh": "Beyond Binary可验证奖励： SWE代理的行为自我奖励",
+          "url": "https://arxiv.org/abs/2610.12598",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Reinforcement learning with verifiable rewards (RLVR) provides reliable supervision for software engineering agents through executable tests, but binary rewards fail to distinguish trajectories with substantially different debugging quality. We investigate whether the current policy can judge its own trajectories and use these judgments to improve task performance without a separately trained reward model. To this end, we introduce Behavioral Self-Rewarding (BSR), a reward-refinement method that reuses the policy to compare observable debugging behavior among trajectories from the same task with the same verifier outcome. BSR aggregates pairwise preferences into task-local scores and converts them into bounded auxiliary rewards, introducing reward contrast while preserving the verifier-defined pass/fail ordering. This provides additional supervision from already-collected trajectories without requiring new environment interactions. Experiments on SWE-bench Verified and SWE-bench-Live show consistent improvements across the evaluated Qwen3-14B and Qwen3-32B configurations, supporting using the policy's own comparative judgments as a complementary learning signal for training software engineering agents.",
+          "summaryZh": "具有可验证奖励的强化学习（RLVR）通过可执行测试为软件工程代理提供可靠的监督，但二进制奖励无法区分…",
+          "published": "2026-10-12T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "label": "🏢 公司与行业动向",
+      "items": [
+        {
+          "title": "Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip - WSJ",
+          "titleZh": "Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip -《华尔街日报》",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdC1Yb1VaRzVmWnNoRmpLRFF4cWtUZXNyMjYtVzItMEJIYWhGWUpsUXRtWEJmaDVpZ1lGSXE3WGFYWU94cUFwcTRZZnQzVFBsaktQVjQ3WmJMMFVyQnlTS3NtUEMzVkY1WmNoU1dmdW1LWVB5YXJ1amROdEVIWVRhSFNLdldjVkMwcVRjaHJoOGVwVFBDbmxCdHlqTGIwc2px?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip WSJ",
+          "summaryZh": "Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip《华尔街日报》",
+          "published": "2026-10-12T04:48:27.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Andrew Garfield says OpenAI film 'Artificial' turns lens on creators of 'new world' - Reuters",
+          "titleZh": "安德鲁·加菲尔德（Andrew Garfield）表示， OpenAI电影“人造”将镜头转向“新世界”的创作者-路透社",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaC0yWGptVDVnc2tuUlVSc3V2Rzh2bUVnY3lVRDR3OWtleHVTQThLdU5Uc0JOdWJEX3Vva0tIZGx1WkViSWp5aHpPb3NsX3ZmZmdjOEtIQjFOMVgwNEN5VWhHU1VSbktUbXlhLXp6bEJFSkJyczZMWHV4Tks5d19Db0ZDQnJhaGM0TFo5N29TVDBic2lBSmlUNk5yeEhBSlk5M0NwUzdULVhUOGdscTZTT1V5ODVmclc5UnBN?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "Andrew Garfield says OpenAI film 'Artificial' turns lens on creators of 'new world' Reuters",
+          "summaryZh": "安德鲁·加菲尔德（Andrew Garfield）表示， OpenAI电影“人造”将镜头转向“新世界”的创作者路透社",
+          "published": "2026-10-12T01:43:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Competitive Landscape of the Artificial Intelligence for Customer Service Market Examined Among Top Global Companies - EIN News",
+          "titleZh": "在全球顶级公司中审视客户服务市场的人工智能竞争格局- EIN新闻",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOLTVSRm5ZRjVkTUZEYjdmTFNKbERqU29CSFMwbUJESUc4cDFWUjA2b2dJYzAyeEJDZTBGVzRONzI0NWMtWE1EamZJVi0zOFZiSFdHaWE0VkJzRkN1Y0xMVHZ1eWhPQnBQMVByaVlfQmdzT1Z1ZVM1SDVZNE1kMzZTUS1NbTJjaFByM3NfM2VOdWM4dU9CVUxhMkhiYTlDUl9hMmhQWm9kTVNkcURxYk03RHFsSXVxMmQ1X2dVNnhuNjMtSVNtaS0xVG9JcF9yeUtpOUlzc2F3aU5KU2l0Q05wYTg4Z1BjdkxUTVZJdkRVTmo?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "Competitive Landscape of the Artificial Intelligence for Customer Service Market Examined Among Top Global Companies EIN News",
+          "summaryZh": "全球顶级公司EIN新闻调查了客户服务市场的人工智能竞争格局",
+          "published": "2026-10-12T06:30:28.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Will the HomeView be Apple’s first smart home success?",
+          "titleZh": "HomeView会是苹果智能家居的首次成功吗？",
+          "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.",
+          "summaryZh": "在过去的几年里，我们已经看到多份报告称苹果正在开发一款新的智能家居产品，但现在看来该产品有一个名称和一个发布日期。",
+          "published": "2026-10-11T21:14:40.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "OpenAI CEO Sam Altman claims AI singularity has arrived: 'Awesome for the world' - 6abc Philadelphia",
+          "titleZh": "OpenAI首席执行官Sam Altman声称人工智能奇点已经到来：“对世界来说太棒了” -费城6abc",
+          "url": "https://news.google.com/rss/articles/CBMiwwlBVV95cUxQdkRnYmUwVWN0cFctckx5bFhYOUp2aDhnSmxKYU5sX1RDcmFIRkVRUzJNUDk1azJkd3VEbS1VOEROZzhSNUpnUm9LWkxwOXY2SEVSNWpZSG5LY1VxSi1BMTFWS3lKS0lYRER1X3ZrTy1ITmFkUHpPZUpEenczSHJESmptWU1BTTZ5Nmw1Wnh1WF8zcW5VN0NscmtSa1h0Y2RGZWI3LTdQdUI5QWljSnFTSzJxUGlkSnhQU0pNVkltMmhJLWY3bUhEOHU0UGs3Szh1bnB4QzBUMGpFSHhDcnlDc2V2eXkzQUZVSnktT19rQU9nX2dZbktfRHRkZ2U3bVF0TEltaFp4U2VNMjFMUnJ1RTFCc09oZ1JlS3hSdEFWRk8zdlVFNzVNSm5Wbld5cldWNWFKM2ZWcjhoY0o5dmJIcG83X1hRVzBwSE8tTWI2TEo4b1FTRUg3SklFOG9jOFZHWTZXSXJuTWpnSWdiUzNzVWJ6QUp1eHExMHlsQjdESzB2UGl4MnkzTzlIZzdsTmZlOTdoMUNFay1FYjlmWTNFZkh1REVpRlppLU1FU21tZjNVQVdLZEJYWEcyQ0tjN3NicDVMQTZ5LWJjNUs0Y0lBUUdROFFsd2R0M2hpSXcyeE9PUlFCQ0ZVeWp1dTVnblVxSjQxMnNPV3RqVFFETmRROHNfNFdmTWhDOXBHdEVyX0phVjAxT0JzMUtRZzlPSndHZEtya1VURDZZaWd5RHp0YmRNeVhFMFIxWnFlLThkU2ZKQ3VIWjh0dExUQnIzVU9VZG9oMUl0WGxHYkhSbERCTzlqX0lVUTF6N1dJbFFpQkFYYnI0TGxqaFZLWXh6YnF2UmR1OGdnelJpeWtLb0hvM0lQZ0p0eTJhWGljbEVQVlhSLUJTQUg2MUNDTzlrNmdvM2pwMnh5dmxaWU52bEtneGlRSEkwRUkteFU0dGhIQk1ubUFqTjNxV1luVTdtZmRRV3BQVWVfZmpySGFlUGY4VjMyamFvMGQtbERkSElJNE1yNjB5Q3EtNmFxZUptVENhUXhUT0tPd1dSTXFBMHVoakxHSnZVSW8tV1BYbm5pdWtfUVZlb21oZGFZZFlTNk0tUWg2STlmVThZN3BtbkNaQlB4LXVvRmdaVHJ6dGpyMEZkWmtVV2g1QjZaNFVUZ2Ryei1taXlIUXhPNnhvREpOcnhfTXk5WFhEbTc5bmFKYldOcDhtNi1vTzF3US1CMGRxUEhteHY3T093X2hoS29ubk1tU0Q3bzZSdDVrNkJPcEZta0JiZFJxRnI2LU1hTDRhUnZuX0ZUTFJ4VHpQYjZzYWRWaEFBdmFIYl8zMnNSVEl6VndlZmNKc3o0V1VDNGc3SHlrY2Zpa19VTm9YaENXckZObFMzUTgtWXQ5bHF0MnRUOXdWQkVrVUlPZFZDcmJFc0JLQzhOMGl5aFBNUGplY2ptM0ZwQjNVNkRXUGtveUZTMlZrUlZlVmFKd3V3ZkZvWUh1eTBWTU5ZOFFLZTV2a3U0TFpRZEU5ZEZXYk1BY0tSaC1qZEJzczhUSVB6NGwzRmhLaXNpU0xmLWM3c0xMcHJOLXBFY1VVdm5hVWVjcFRNWVZuMVdnbEV5SVplUW02d2hn?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "OpenAI CEO Sam Altman claims AI singularity has arrived: 'Awesome for the world' 6abc Philadelphia",
+          "summaryZh": "OpenAI首席执行官Sam Altman声称人工智能奇点已经到来：“对世界来说太棒了” 6abc费城",
+          "published": "2026-10-11T20:27:11.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "丘成桐数学与人工智能实验室联盟在清华大学成立 - 科学网-新闻",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9OY3hQNDU1R2hCUGhoTXJoUlViV2tRNTVCS2NDSFlVYzE2Slp2cUFzQ0hhRU0zZXNDbjJNVzNIdEtORnhrOEFydEVvN0xQdGVPNlp4ZnpXekhreXFXaWt6cTkycy1wZw?oc=5",
+          "source": "Google 新闻中文",
+          "alsoOn": [],
+          "summary": "丘成桐数学与人工智能实验室联盟在清华大学成立 科学网-新闻",
+          "summaryZh": "",
+          "published": "2026-10-12T04:27:02.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "eng",
+      "label": "🛠 工程与开源工具",
+      "items": [
+        {
+          "title": "The gap in shared understanding of LLM capability is widening",
+          "titleZh": "对法学硕士能力的共同理解的差距正在扩大",
+          "url": "https://twitter.com/karpathy/status/2109361546505966046",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-11T20:20:52.000Z",
+          "points": 397,
+          "discussion": "https://news.ycombinator.com/item?id=50047422"
+        },
+        {
+          "title": "Using AI for just 10 minutes erodes your ability to persist at hard things",
+          "titleZh": "只用10分钟的人工智能会削弱你坚持做困难事情的能力",
+          "url": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-11T10:47:21.000Z",
+          "points": 98,
+          "discussion": "https://news.ycombinator.com/item?id=50041765"
+        },
+        {
+          "title": "AI is creating a 'human premium' for art created by people",
+          "titleZh": "人工智能正在为人类创造的艺术创造“人类溢价”",
+          "url": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-11T11:34:28.000Z",
+          "points": 70,
+          "discussion": "https://news.ycombinator.com/item?id=50042107"
+        },
+        {
+          "title": "Nicolas Cage says he won't work with Amazon again over AI dispute",
+          "titleZh": "尼古拉斯·凯奇（Nicolas Cage）表示，他不会再就人工智能纠纷与亚马逊",
+          "url": "https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-11T11:03:21.000Z",
+          "points": 89,
+          "discussion": "https://news.ycombinator.com/item?id=50041873"
+        },
+        {
+          "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
+          "titleZh": "500B代币：让人工智能代理反编译第一人称射击游戏",
+          "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-11T02:02:38.000Z",
+          "points": 190,
+          "discussion": "https://news.ycombinator.com/item?id=50039092"
+        },
+        {
+          "title": "AI agents in a stand-up call",
+          "titleZh": "待命通话中的人工智能代理",
+          "url": "https://atoll92.github.io/agent-standup/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-11T03:42:47.000Z",
+          "points": 47,
+          "discussion": "https://news.ycombinator.com/item?id=50039630"
+        }
+      ]
+    },
+    {
+      "key": "ideas",
+      "label": "💭 观点与深度",
+      "items": [
+        {
+          "title": "Leveraging Artificial Intelligence to Appraise Social Media Narratives on Breast Reduction Procedures: A Snapshot Analysis - Cureus",
+          "titleZh": "利用人工智能评估社交媒体对乳房缩小手术的叙述：快照分析- Cureus",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPc3VpSUFSVjJYUUFwY2EtXzNYcVZhdV94UzJtbDJPWHpQYVhDalZqMWxuVkVXZjRYOW5oWTU2NlgzTGJvQW83dzVMTXlJVEFfUDc0VDN4SGt6OV9JcnpRUnNaRVhTUTJNcU9EYXlSU21IaFA0S0x5dGVOaWdrNEtvaVVvaDRUeS1uUlA2V1VyYndTVFlYcDlRZnZ1dWN1endZcU5tSE9pY205bUpVUmxLLXhVT1dGZGtLcHM0MHdQOWVMYkdmbXFPVzg5TlNXS3lSVTlYb2JGaEJvcXR1YzlKQzZ4ZmFVVlVuVlpRNzRENk9oUQ?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "Leveraging Artificial Intelligence to Appraise Social Media Narratives on Breast Reduction Procedures: A Snapshot Analysis Cureus",
+          "summaryZh": "利用人工智能评估社交媒体对乳房缩小手术的叙述：快照分析Cureus",
+          "published": "2026-10-12T04:42:13.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    }
+  ],
+  "markdown": "# 📰 AI 日报 · 2026-10-12\n\n> 19 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 18 条已译\n\n## 🔬 研究前沿\n\n**1. 没有锚点的忠诚：关于特征重要性的可解释AI忠诚度指标的结构性错位的立场文件**\n\nFaithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2610.12493>)\n\n_可解释的人工智能（XAI）工具经常被用作通过使其算法的各个方面更易于理解来增加对机器学习模型的信任的方法。然而，…_\n\n**2. EliteTable：可执行文件控制策略的自我改进程序搜索**\n\nEliteTable: Self-Improving Program Search for Executable Control Policies · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2610.12536>)\n\n_EliteTable是一种自我改进的程序搜索算法，以大型语言模型（LLM）为指导，使用固定容量的高分解决方案表来指导新提案、现有解决方案的编辑和混音…_\n\n**3. 用于DAG工作流程的等预算蒙特卡洛树搜索与随机重启列表调度：对照等预算计算研究**\n\nEqual-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2610.12542>)\n\n_蒙特卡洛树搜索（MCTS）通常被提议用于调度有向无环图（DAG）工作流程，但大多数研究从未运行过可以反驳它的比较-给出了一个更简单的方法相同的搜索…_\n\n**4. 知道你不知道的：通过发展闭环学习的生成空间进行代理数据合成**\n\nKnow What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2610.12593>)\n\n_大型语言模型的持续改进越来越依赖于合成经验，然而，为交互式代理进行有效的数据合成不仅需要可执行和可验证的轨迹，而且…_\n\n**5. SpireBench：使用Slay the Spire评估代理模型的长期战略发挥**\n\nSpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2610.12596>)\n\n_智能大型语言模型如今已能处理复杂任务，但对长远战略推理的研究仍然不足：大多数智能基准测试都是短小且片段式的，而长任务上的性能难以分解。…_\n\n**6. Beyond Binary可验证奖励： SWE代理的行为自我奖励**\n\nBeyond Binary Verifiable Rewards: Behavioral Self-Rewarding for SWE Agents · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2610.12598>)\n\n_具有可验证奖励的强化学习（RLVR）通过可执行测试为软件工程代理提供可靠的监督，但二进制奖励无法区分…_\n\n## 🏢 公司与行业动向\n\n**1. Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip -《华尔街日报》**\n\nAnthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip - WSJ · Google News · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMioAFBVV95cUxOdC1Yb1VaRzVmWnNoRmpLRFF4cWtUZXNyMjYtVzItMEJIYWhGWUpsUXRtWEJmaDVpZ1lGSXE3WGFYWU94cUFwcTRZZnQzVFBsaktQVjQ3WmJMMFVyQnlTS3NtUEMzVkY1WmNoU1dmdW1LWVB5YXJ1amROdEVIWVRhSFNLdldjVkMwcVRjaHJoOGVwVFBDbmxCdHlqTGIwc2px?oc=5>)\n\n_Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip《华尔街日报》_\n\n**2. 安德鲁·加菲尔德（Andrew Garfield）表示， OpenAI电影“人造”将镜头转向“新世界”的创作者-路透社**\n\nAndrew Garfield says OpenAI film 'Artificial' turns lens on creators of 'new world' - Reuters · Google News · 5 小时前 · [原文](<https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaC0yWGptVDVnc2tuUlVSc3V2Rzh2bUVnY3lVRDR3OWtleHVTQThLdU5Uc0JOdWJEX3Vva0tIZGx1WkViSWp5aHpPb3NsX3ZmZmdjOEtIQjFOMVgwNEN5VWhHU1VSbktUbXlhLXp6bEJFSkJyczZMWHV4Tks5d19Db0ZDQnJhaGM0TFo5N29TVDBic2lBSmlUNk5yeEhBSlk5M0NwUzdULVhUOGdscTZTT1V5ODVmclc5UnBN?oc=5>)\n\n_安德鲁·加菲尔德（Andrew Garfield）表示， OpenAI电影“人造”将镜头转向“新世界”的创作者路透社_\n\n**3. 在全球顶级公司中审视客户服务市场的人工智能竞争格局- EIN新闻**\n\nCompetitive Landscape of the Artificial Intelligence for Customer Service Market Examined Among Top Global Companies - EIN News · Google News · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMi8AFBVV95cUxOLTVSRm5ZRjVkTUZEYjdmTFNKbERqU29CSFMwbUJESUc4cDFWUjA2b2dJYzAyeEJDZTBGVzRONzI0NWMtWE1EamZJVi0zOFZiSFdHaWE0VkJzRkN1Y0xMVHZ1eWhPQnBQMVByaVlfQmdzT1Z1ZVM1SDVZNE1kMzZTUS1NbTJjaFByM3NfM2VOdWM4dU9CVUxhMkhiYTlDUl9hMmhQWm9kTVNkcURxYk03RHFsSXVxMmQ1X2dVNnhuNjMtSVNtaS0xVG9JcF9yeUtpOUlzc2F3aU5KU2l0Q05wYTg4Z1BjdkxUTVZJdkRVTmo?oc=5>)\n\n_全球顶级公司EIN新闻调查了客户服务市场的人工智能竞争格局_\n\n**4. HomeView会是苹果智能家居的首次成功吗？**\n\nWill the HomeView be Apple’s first smart home success? · TechCrunch AI · 10 小时前 · [原文](<https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/>)\n\n_在过去的几年里，我们已经看到多份报告称苹果正在开发一款新的智能家居产品，但现在看来该产品有一个名称和一个发布日期。_\n\n**5. OpenAI首席执行官Sam Altman声称人工智能奇点已经到来：“对世界来说太棒了” -费城6abc**\n\nOpenAI CEO Sam Altman claims AI singularity has arrived: 'Awesome for the world' - 6abc Philadelphia · Google News · 10 小时前 · [原文](<https://news.google.com/rss/articles/CBMiwwlBVV95cUxQdkRnYmUwVWN0cFctckx5bFhYOUp2aDhnSmxKYU5sX1RDcmFIRkVRUzJNUDk1azJkd3VEbS1VOEROZzhSNUpnUm9LWkxwOXY2SEVSNWpZSG5LY1VxSi1BMTFWS3lKS0lYRER1X3ZrTy1ITmFkUHpPZUpEenczSHJESmptWU1BTTZ5Nmw1Wnh1WF8zcW5VN0NscmtSa1h0Y2RGZWI3LTdQdUI5QWljSnFTSzJxUGlkSnhQU0pNVkltMmhJLWY3bUhEOHU0UGs3Szh1bnB4QzBUMGpFSHhDcnlDc2V2eXkzQUZVSnktT19rQU9nX2dZbktfRHRkZ2U3bVF0TEltaFp4U2VNMjFMUnJ1RTFCc09oZ1JlS3hSdEFWRk8zdlVFNzVNSm5Wbld5cldWNWFKM2ZWcjhoY0o5dmJIcG83X1hRVzBwSE8tTWI2TEo4b1FTRUg3SklFOG9jOFZHWTZXSXJuTWpnSWdiUzNzVWJ6QUp1eHExMHlsQjdESzB2UGl4MnkzTzlIZzdsTmZlOTdoMUNFay1FYjlmWTNFZkh1REVpRlppLU1FU21tZjNVQVdLZEJYWEcyQ0tjN3NicDVMQTZ5LWJjNUs0Y0lBUUdROFFsd2R0M2hpSXcyeE9PUlFCQ0ZVeWp1dTVnblVxSjQxMnNPV3RqVFFETmRROHNfNFdmTWhDOXBHdEVyX0phVjAxT0JzMUtRZzlPSndHZEtya1VURDZZaWd5RHp0YmRNeVhFMFIxWnFlLThkU2ZKQ3VIWjh0dExUQnIzVU9VZG9oMUl0WGxHYkhSbERCTzlqX0lVUTF6N1dJbFFpQkFYYnI0TGxqaFZLWXh6YnF2UmR1OGdnelJpeWtLb0hvM0lQZ0p0eTJhWGljbEVQVlhSLUJTQUg2MUNDTzlrNmdvM2pwMnh5dmxaWU52bEtneGlRSEkwRUkteFU0dGhIQk1ubUFqTjNxV1luVTdtZmRRV3BQVWVfZmpySGFlUGY4VjMyamFvMGQtbERkSElJNE1yNjB5Q3EtNmFxZUptVENhUXhUT0tPd1dSTXFBMHVoakxHSnZVSW8tV1BYbm5pdWtfUVZlb21oZGFZZFlTNk0tUWg2STlmVThZN3BtbkNaQlB4LXVvRmdaVHJ6dGpyMEZkWmtVV2g1QjZaNFVUZ2Ryei1taXlIUXhPNnhvREpOcnhfTXk5WFhEbTc5bmFKYldOcDhtNi1vTzF3US1CMGRxUEhteHY3T093X2hoS29ubk1tU0Q3bzZSdDVrNkJPcEZta0JiZFJxRnI2LU1hTDRhUnZuX0ZUTFJ4VHpQYjZzYWRWaEFBdmFIYl8zMnNSVEl6VndlZmNKc3o0V1VDNGc3SHlrY2Zpa19VTm9YaENXckZObFMzUTgtWXQ5bHF0MnRUOXdWQkVrVUlPZFZDcmJFc0JLQzhOMGl5aFBNUGplY2ptM0ZwQjNVNkRXUGtveUZTMlZrUlZlVmFKd3V3ZkZvWUh1eTBWTU5ZOFFLZTV2a3U0TFpRZEU5ZEZXYk1BY0tSaC1qZEJzczhUSVB6NGwzRmhLaXNpU0xmLWM3c0xMcHJOLXBFY1VVdm5hVWVjcFRNWVZuMVdnbEV5SVplUW02d2hn?oc=5>)\n\n_OpenAI首席执行官Sam Altman声称人工智能奇点已经到来：“对世界来说太棒了” 6abc费城_\n\n**6. 丘成桐数学与人工智能实验室联盟在清华大学成立 - 科学网-新闻**\n\nGoogle 新闻中文 · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMiZkFVX3lxTE9OY3hQNDU1R2hCUGhoTXJoUlViV2tRNTVCS2NDSFlVYzE2Slp2cUFzQ0hhRU0zZXNDbjJNVzNIdEtORnhrOEFydEVvN0xQdGVPNlp4ZnpXekhreXFXaWt6cTkycy1wZw?oc=5>)\n\n_丘成桐数学与人工智能实验室联盟在清华大学成立 科学网-新闻_\n\n## 🛠 工程与开源工具\n\n**1. 对法学硕士能力的共同理解的差距正在扩大**\n\nThe gap in shared understanding of LLM capability is widening · Hacker News · 10 小时前 · ▲397 · [原文](<https://twitter.com/karpathy/status/2109361546505966046>)\n\n**2. 只用10分钟的人工智能会削弱你坚持做困难事情的能力**\n\nUsing AI for just 10 minutes erodes your ability to persist at hard things · Hacker News · 20 小时前 · ▲98 · [原文](<https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things>)\n\n**3. 人工智能正在为人类创造的艺术创造“人类溢价”**\n\nAI is creating a 'human premium' for art created by people · Hacker News · 19 小时前 · ▲70 · [原文](<https://www.bbc.com/news/articles/c5vgjm3gk7rzo>)\n\n**4. 尼古拉斯·凯奇（Nicolas Cage）表示，他不会再就人工智能纠纷与亚马逊**\n\nNicolas Cage says he won't work with Amazon again over AI dispute · Hacker News · 20 小时前 · ▲89 · [原文](<https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute>)\n\n**5. 500B代币：让人工智能代理反编译第一人称射击游戏**\n\n500B tokens later: Letting AI agents decompile a first-person shooter · Hacker News · 29 小时前 · ▲190 · [原文](<https://momo5502.com/posts/2026-10-09-game-decompilation/>)\n\n**6. 待命通话中的人工智能代理**\n\nAI agents in a stand-up call · Hacker News · 27 小时前 · ▲47 · [原文](<https://atoll92.github.io/agent-standup/>)\n\n## 💭 观点与深度\n\n**1. 利用人工智能评估社交媒体对乳房缩小手术的叙述：快照分析- Cureus**\n\nLeveraging Artificial Intelligence to Appraise Social Media Narratives on Breast Reduction Procedures: A Snapshot Analysis - Cureus · Google News · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMi8gFBVV95cUxPc3VpSUFSVjJYUUFwY2EtXzNYcVZhdV94UzJtbDJPWHpQYVhDalZqMWxuVkVXZjRYOW5oWTU2NlgzTGJvQW83dzVMTXlJVEFfUDc0VDN4SGt6OV9JcnpRUnNaRVhTUTJNcU9EYXlSU21IaFA0S0x5dGVOaWdrNEtvaVVvaDRUeS1uUlA2V1VyYndTVFlYcDlRZnZ1dWN1endZcU5tSE9pY205bUpVUmxLLXhVT1dGZGtLcHM0MHdQOWVMYkdmbXFPVzg5TlNXS3lSVTlYb2JGaEJvcXR1YzlKQzZ4ZmFVVlVuVlpRNzRENk9oUQ?oc=5>)\n\n_利用人工智能评估社交媒体对乳房缩小手术的叙述：快照分析Cureus_\n"
+}
