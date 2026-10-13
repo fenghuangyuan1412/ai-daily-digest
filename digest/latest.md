@@ -1,113 +1,77 @@
-# 📰 AI 日报 · 2026-10-12
+# 📰 AI 日报 · 2026-10-13
 
-> 19 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 18 条已译
+> 14 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 13 条已译
 
-## 🔬 研究前沿
+## 🚀 模型与产品发布
 
-**1. 没有锚点的忠诚：关于特征重要性的可解释AI忠诚度指标的结构性错位的立场文件**
+**1. 我用GPT-6 Astra将未使用的Kindle变成了相框**
 
-Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2610.12493>)
+I turned my unused Kindle into a photo frame with GPT-6 Astra · Hacker News · 8 小时前 · ▲142 · [原文](<https://nirajrajgor.com/blog/kindle-photo-frame-with-ai>)
 
-_可解释的人工智能（XAI）工具经常被用作通过使其算法的各个方面更易于理解来增加对机器学习模型的信任的方法。然而，…_
+**2. Anthropic的Claude AI向费城警方提交了虚假谋杀提示**
 
-**2. EliteTable：可执行文件控制策略的自我改进程序搜索**
+Anthropic's Claude AI submitted false murder tip to Philadelphia police · Ars Technica AI · 13 小时前 · [原文](<https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/>)
 
-EliteTable: Self-Improving Program Search for Executable Control Policies · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2610.12536>)
-
-_EliteTable是一种自我改进的程序搜索算法，以大型语言模型（LLM）为指导，使用固定容量的高分解决方案表来指导新提案、现有解决方案的编辑和混音…_
-
-**3. 用于DAG工作流程的等预算蒙特卡洛树搜索与随机重启列表调度：对照等预算计算研究**
-
-Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2610.12542>)
-
-_蒙特卡洛树搜索（MCTS）通常被提议用于调度有向无环图（DAG）工作流程，但大多数研究从未运行过可以反驳它的比较-给出了一个更简单的方法相同的搜索…_
-
-**4. 知道你不知道的：通过发展闭环学习的生成空间进行代理数据合成**
-
-Know What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2610.12593>)
-
-_大型语言模型的持续改进越来越依赖于合成经验，然而，为交互式代理进行有效的数据合成不仅需要可执行和可验证的轨迹，而且…_
-
-**5. SpireBench：使用Slay the Spire评估代理模型的长期战略发挥**
-
-SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2610.12596>)
-
-_智能大型语言模型如今已能处理复杂任务，但对长远战略推理的研究仍然不足：大多数智能基准测试都是短小且片段式的，而长任务上的性能难以分解。…_
-
-**6. Beyond Binary可验证奖励： SWE代理的行为自我奖励**
-
-Beyond Binary Verifiable Rewards: Behavioral Self-Rewarding for SWE Agents · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2610.12598>)
-
-_具有可验证奖励的强化学习（RLVR）通过可执行测试为软件工程代理提供可靠的监督，但二进制奖励无法区分…_
+_“我可能有关于此案的信息，” Claude AI告诉费城警方。_
 
 ## 🏢 公司与行业动向
 
-**1. Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip -《华尔街日报》**
+**1. 英特尔D270 GPU AI加速器-高达480 GB LPDDR5X**
+
+Intel D270 GPU AI Accelerator-Up to 480 GB LPDDR5X · Hacker News · 10 小时前 · ▲163 · [原文](<https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html>)
+
+**2. Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip -《华尔街日报》**
 
 Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip - WSJ · Google News · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMioAFBVV95cUxOdC1Yb1VaRzVmWnNoRmpLRFF4cWtUZXNyMjYtVzItMEJIYWhGWUpsUXRtWEJmaDVpZ1lGSXE3WGFYWU94cUFwcTRZZnQzVFBsaktQVjQ3WmJMMFVyQnlTS3NtUEMzVkY1WmNoU1dmdW1LWVB5YXJ1amROdEVIWVRhSFNLdldjVkMwcVRjaHJoOGVwVFBDbmxCdHlqTGIwc2px?oc=5>)
 
 _Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip《华尔街日报》_
 
-**2. 安德鲁·加菲尔德（Andrew Garfield）表示， OpenAI电影“人造”将镜头转向“新世界”的创作者-路透社**
+**3. Meta发布其首款前沿车型Muse Wonder**
 
-Andrew Garfield says OpenAI film 'Artificial' turns lens on creators of 'new world' - Reuters · Google News · 5 小时前 · [原文](<https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaC0yWGptVDVnc2tuUlVSc3V2Rzh2bUVnY3lVRDR3OWtleHVTQThLdU5Uc0JOdWJEX3Vva0tIZGx1WkViSWp5aHpPb3NsX3ZmZmdjOEtIQjFOMVgwNEN5VWhHU1VSbktUbXlhLXp6bEJFSkJyczZMWHV4Tks5d19Db0ZDQnJhaGM0TFo5N29TVDBic2lBSmlUNk5yeEhBSlk5M0NwUzdULVhUOGdscTZTT1V5ODVmclc5UnBN?oc=5>)
+Meta releases its first frontier model, Muse Wonder · TechCrunch AI · 13 小时前 · [原文](<https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/>)
 
-_安德鲁·加菲尔德（Andrew Garfield）表示， OpenAI电影“人造”将镜头转向“新世界”的创作者路透社_
+_Muse Spark的目标是成为一个可以在低延迟下执行的轻量级模型，而Wonder模型更大，据说更有能力，在编码等复杂任务上具有更高的基准分数和更好的结果。_
 
-**3. 在全球顶级公司中审视客户服务市场的人工智能竞争格局- EIN新闻**
+**4. 微软总裁表示，英国最适合推动人工智能监管**
 
-Competitive Landscape of the Artificial Intelligence for Customer Service Market Examined Among Top Global Companies - EIN News · Google News · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMi8AFBVV95cUxOLTVSRm5ZRjVkTUZEYjdmTFNKbERqU29CSFMwbUJESUc4cDFWUjA2b2dJYzAyeEJDZTBGVzRONzI0NWMtWE1EamZJVi0zOFZiSFdHaWE0VkJzRkN1Y0xMVHZ1eWhPQnBQMVByaVlfQmdzT1Z1ZVM1SDVZNE1kMzZTUS1NbTJjaFByM3NfM2VOdWM4dU9CVUxhMkhiYTlDUl9hMmhQWm9kTVNkcURxYk03RHFsSXVxMmQ1X2dVNnhuNjMtSVNtaS0xVG9JcF9yeUtpOUlzc2F3aU5KU2l0Q05wYTg4Z1BjdkxUTVZJdkRVTmo?oc=5>)
+Microsoft president says UK is best placed to drive AI regulation · TechCrunch AI · 16 小时前 · [原文](<https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/>)
 
-_全球顶级公司EIN新闻调查了客户服务市场的人工智能竞争格局_
+_微软总裁布拉德·史密斯（Brad Smith）呼吁对人工智能进行紧急监管，称牛奶和洗衣机比人工智能公司拥有更多的监_
 
-**4. HomeView会是苹果智能家居的首次成功吗？**
+**5. 中小型企业的人工智能市场正在增长，预测达到1627亿美元-《国家法律评论》**
 
-Will the HomeView be Apple’s first smart home success? · TechCrunch AI · 10 小时前 · [原文](<https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/>)
+The Artificial Intelligence Market in Small and Medium Businesses is Growing, Projections Reaching $162.7 Billion - The National Law Review · Google News · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNldNTG9uTnZLdy1jWlFnTEtNZkRhN3FkWklmVzRUdFBjU0R6VzIzSnZ5LV94TE5acTR1M2F2YzdscFd2Rk5sRWVsaHppRWpma2VfSEpZXzdjYkhEMXcyWkxoMUhkcFJPVGdnU2EyRnFmcE5vSWgybUVCWWgzc051cU1EeXdJaUo0dERFVldmV1cwYlpiYl9qQ2NpVWhZX05zN3BQUnRYdmhsdw?oc=5>)
 
-_在过去的几年里，我们已经看到多份报告称苹果正在开发一款新的智能家居产品，但现在看来该产品有一个名称和一个发布日期。_
+_中小型企业的人工智能市场正在增长，预计将达到1627亿美元_
 
-**5. OpenAI首席执行官Sam Altman声称人工智能奇点已经到来：“对世界来说太棒了” -费城6abc**
+**6. 丘成桐数学与人工智能实验室联盟在清华大学成立 - 清华大学**
 
-OpenAI CEO Sam Altman claims AI singularity has arrived: 'Awesome for the world' - 6abc Philadelphia · Google News · 10 小时前 · [原文](<https://news.google.com/rss/articles/CBMiwwlBVV95cUxQdkRnYmUwVWN0cFctckx5bFhYOUp2aDhnSmxKYU5sX1RDcmFIRkVRUzJNUDk1azJkd3VEbS1VOEROZzhSNUpnUm9LWkxwOXY2SEVSNWpZSG5LY1VxSi1BMTFWS3lKS0lYRER1X3ZrTy1ITmFkUHpPZUpEenczSHJESmptWU1BTTZ5Nmw1Wnh1WF8zcW5VN0NscmtSa1h0Y2RGZWI3LTdQdUI5QWljSnFTSzJxUGlkSnhQU0pNVkltMmhJLWY3bUhEOHU0UGs3Szh1bnB4QzBUMGpFSHhDcnlDc2V2eXkzQUZVSnktT19rQU9nX2dZbktfRHRkZ2U3bVF0TEltaFp4U2VNMjFMUnJ1RTFCc09oZ1JlS3hSdEFWRk8zdlVFNzVNSm5Wbld5cldWNWFKM2ZWcjhoY0o5dmJIcG83X1hRVzBwSE8tTWI2TEo4b1FTRUg3SklFOG9jOFZHWTZXSXJuTWpnSWdiUzNzVWJ6QUp1eHExMHlsQjdESzB2UGl4MnkzTzlIZzdsTmZlOTdoMUNFay1FYjlmWTNFZkh1REVpRlppLU1FU21tZjNVQVdLZEJYWEcyQ0tjN3NicDVMQTZ5LWJjNUs0Y0lBUUdROFFsd2R0M2hpSXcyeE9PUlFCQ0ZVeWp1dTVnblVxSjQxMnNPV3RqVFFETmRROHNfNFdmTWhDOXBHdEVyX0phVjAxT0JzMUtRZzlPSndHZEtya1VURDZZaWd5RHp0YmRNeVhFMFIxWnFlLThkU2ZKQ3VIWjh0dExUQnIzVU9VZG9oMUl0WGxHYkhSbERCTzlqX0lVUTF6N1dJbFFpQkFYYnI0TGxqaFZLWXh6YnF2UmR1OGdnelJpeWtLb0hvM0lQZ0p0eTJhWGljbEVQVlhSLUJTQUg2MUNDTzlrNmdvM2pwMnh5dmxaWU52bEtneGlRSEkwRUkteFU0dGhIQk1ubUFqTjNxV1luVTdtZmRRV3BQVWVfZmpySGFlUGY4VjMyamFvMGQtbERkSElJNE1yNjB5Q3EtNmFxZUptVENhUXhUT0tPd1dSTXFBMHVoakxHSnZVSW8tV1BYbm5pdWtfUVZlb21oZGFZZFlTNk0tUWg2STlmVThZN3BtbkNaQlB4LXVvRmdaVHJ6dGpyMEZkWmtVV2g1QjZaNFVUZ2Ryei1taXlIUXhPNnhvREpOcnhfTXk5WFhEbTc5bmFKYldOcDhtNi1vTzF3US1CMGRxUEhteHY3T093X2hoS29ubk1tU0Q3bzZSdDVrNkJPcEZta0JiZFJxRnI2LU1hTDRhUnZuX0ZUTFJ4VHpQYjZzYWRWaEFBdmFIYl8zMnNSVEl6VndlZmNKc3o0V1VDNGc3SHlrY2Zpa19VTm9YaENXckZObFMzUTgtWXQ5bHF0MnRUOXdWQkVrVUlPZFZDcmJFc0JLQzhOMGl5aFBNUGplY2ptM0ZwQjNVNkRXUGtveUZTMlZrUlZlVmFKd3V3ZkZvWUh1eTBWTU5ZOFFLZTV2a3U0TFpRZEU5ZEZXYk1BY0tSaC1qZEJzczhUSVB6NGwzRmhLaXNpU0xmLWM3c0xMcHJOLXBFY1VVdm5hVWVjcFRNWVZuMVdnbEV5SVplUW02d2hn?oc=5>)
+Google 新闻中文 · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMiW0FVX3lxTE56bFZtZjQzUHhMSHVMamxqUklRV0kxV0V0WUQxS2s2MTBpVjlRWnZFMXFraFRhSHlmSjl2T2pzQ0U5MzN4WlBSellqM3U2cnB0ZHhwOWRTamF5dWc?oc=5>)
 
-_OpenAI首席执行官Sam Altman声称人工智能奇点已经到来：“对世界来说太棒了” 6abc费城_
-
-**6. 丘成桐数学与人工智能实验室联盟在清华大学成立 - 科学网-新闻**
-
-Google 新闻中文 · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMiZkFVX3lxTE9OY3hQNDU1R2hCUGhoTXJoUlViV2tRNTVCS2NDSFlVYzE2Slp2cUFzQ0hhRU0zZXNDbjJNVzNIdEtORnhrOEFydEVvN0xQdGVPNlp4ZnpXekhreXFXaWt6cTkycy1wZw?oc=5>)
-
-_丘成桐数学与人工智能实验室联盟在清华大学成立 科学网-新闻_
+_丘成桐数学与人工智能实验室联盟在清华大学成立 清华大学_
 
 ## 🛠 工程与开源工具
 
-**1. 对法学硕士能力的共同理解的差距正在扩大**
+**1. 看一下OpenAI的数学，声称可以计算出更快的傅里叶变换**
 
-The gap in shared understanding of LLM capability is widening · Hacker News · 10 小时前 · ▲397 · [原文](<https://twitter.com/karpathy/status/2109361546505966046>)
+A look at OpenAI’s math that’s claimed computes faster Fourier transforms · Hacker News · 4 小时前 · ▲99 · [原文](<https://www.argmin.net/p/faster-fourier-transforms>)
 
-**2. 只用10分钟的人工智能会削弱你坚持做困难事情的能力**
+**2. 人工智能是一种工具，善用它需要技巧**
 
-Using AI for just 10 minutes erodes your ability to persist at hard things · Hacker News · 20 小时前 · ▲98 · [原文](<https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things>)
+AI is a tool and using it well takes skill · Hacker News · 10 小时前 · ▲361 · [原文](<https://yyhh.org/blog/2026/10/ai-is-a-tool/>)
 
-**3. 人工智能正在为人类创造的艺术创造“人类溢价”**
+**3. 人工智能模型可以可证明地隐藏任意能力**
 
-AI is creating a 'human premium' for art created by people · Hacker News · 19 小时前 · ▲70 · [原文](<https://www.bbc.com/news/articles/c5vgjm3gk7rzo>)
+AI Models Can Provably Hide Arbitrary Capabilities · Hacker News · 5 小时前 · ▲153 · [原文](<https://arxiv.org/abs/2610.13928>)
 
-**4. 尼古拉斯·凯奇（Nicolas Cage）表示，他不会再就人工智能纠纷与亚马逊**
+**4. 国际货币基金组织表示，人工智能份额崩溃的威胁使世界金融稳定面临风险**
 
-Nicolas Cage says he won't work with Amazon again over AI dispute · Hacker News · 20 小时前 · ▲89 · [原文](<https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute>)
+Threat of AI share crash puts world financial stability at risk, says IMF · Hacker News · 1 小时前 · ▲55 · [原文](<https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks>)
 
-**5. 500B代币：让人工智能代理反编译第一人称射击游戏**
+**5. 人工智能模型可能能够在无需访问数据中心的情况下进行自我复制**
 
-500B tokens later: Letting AI agents decompile a first-person shooter · Hacker News · 29 小时前 · ▲190 · [原文](<https://momo5502.com/posts/2026-10-09-game-decompilation/>)
+AI models may be capable of self-replicating without access to a datacenter · Hacker News · 12 小时前 · ▲85 · [原文](<https://www.anthropic.com/research/self-replicating-ai>)
 
-**6. 待命通话中的人工智能代理**
+**6. Epic Games告诉员工使用人工智能来完成迪士尼游戏**
 
-AI agents in a stand-up call · Hacker News · 27 小时前 · ▲47 · [原文](<https://atoll92.github.io/agent-standup/>)
-
-## 💭 观点与深度
-
-**1. 利用人工智能评估社交媒体对乳房缩小手术的叙述：快照分析- Cureus**
-
-Leveraging Artificial Intelligence to Appraise Social Media Narratives on Breast Reduction Procedures: A Snapshot Analysis - Cureus · Google News · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMi8gFBVV95cUxPc3VpSUFSVjJYUUFwY2EtXzNYcVZhdV94UzJtbDJPWHpQYVhDalZqMWxuVkVXZjRYOW5oWTU2NlgzTGJvQW83dzVMTXlJVEFfUDc0VDN4SGt6OV9JcnpRUnNaRVhTUTJNcU9EYXlSU21IaFA0S0x5dGVOaWdrNEtvaVVvaDRUeS1uUlA2V1VyYndTVFlYcDlRZnZ1dWN1endZcU5tSE9pY205bUpVUmxLLXhVT1dGZGtLcHM0MHdQOWVMYkdmbXFPVzg5TlNXS3lSVTlYb2JGaEJvcXR1YzlKQzZ4ZmFVVlVuVlpRNzRENk9oUQ?oc=5>)
-
-_利用人工智能评估社交媒体对乳房缩小手术的叙述：快照分析Cureus_
+Epic Games tells employees to use AI to get Disney game done · Hacker News · 11 小时前 · ▲82 · [原文](<https://www.avclub.com/epic-games-disney-ai-delay>)
