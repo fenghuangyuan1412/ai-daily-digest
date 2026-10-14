@@ -1,38 +1,118 @@
 {
-  "date": "2026-10-13",
-  "generatedAt": "2026-10-13T07:13:08.268Z",
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T05:37:37.175Z",
   "windowHours": 36,
   "sourcesTotal": 13,
   "sourcesOk": 13,
   "sourcesFailed": [],
-  "itemCount": 14,
-  "translatedCount": 13,
+  "itemCount": 22,
+  "translatedCount": 20,
   "sections": [
     {
       "key": "model",
       "label": "🚀 模型与产品发布",
       "items": [
         {
-          "title": "I turned my unused Kindle into a photo frame with GPT-6 Astra",
-          "titleZh": "我用GPT-6 Astra将未使用的Kindle变成了相框",
-          "url": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
+          "title": "Gemini 4 Argon",
+          "titleZh": "",
+          "url": "https://deepmind.google/models/gemini/",
           "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "See also: Gemini 4 Argon for Robotics - https://news.ycombinator.com/item?id=50074869",
+          "summaryZh": "另请参阅： Gemini 4 Argon for Robotics-https://news.ycombinator.com/item?id=50074869",
+          "published": "2026-10-13T16:03:16.000Z",
+          "points": 1153,
+          "discussion": "https://news.ycombinator.com/item?id=50073879"
+        },
+        {
+          "title": "Gemini 4 Argon for Robotics",
+          "titleZh": "Gemini 4 Argon机器人专用",
+          "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+          "source": "Hacker News",
+          "alsoOn": [
+            "Google DeepMind"
+          ],
+          "summary": "Main thread: Gemini 4 Argon - https://news.ycombinator.com/item?id=50073879",
+          "summaryZh": "主线： Gemini 4 Argon-https://news.ycombinator.com/item?id=50073879",
+          "published": "2026-10-13T16:55:47.000Z",
+          "points": 206,
+          "discussion": "https://news.ycombinator.com/item?id=50074869"
+        },
+        {
+          "title": "Developing Gemini 4 Argon responsibly and safely",
+          "titleZh": "负责任和安全地开发Gemini 4 Argon",
+          "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+          "source": "Google DeepMind",
           "alsoOn": [],
           "summary": "",
           "summaryZh": "",
-          "published": "2026-10-12T23:07:25.000Z",
-          "points": 142,
-          "discussion": "https://news.ycombinator.com/item?id=50064318"
+          "published": "2026-10-13T19:43:07.000Z",
+          "points": 0,
+          "discussion": ""
         },
         {
-          "title": "Anthropic's Claude AI submitted false murder tip to Philadelphia police",
-          "titleZh": "Anthropic的Claude AI向费城警方提交了虚假谋杀提示",
-          "url": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/",
-          "source": "Ars Technica AI",
+          "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+          "titleZh": "Google DeepMind与新加坡政府合作构建用于诈骗检测的微调AI模型",
+          "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+          "source": "Google DeepMind",
           "alsoOn": [],
-          "summary": "“I may have information regarding this case,\" Claude AI told Philly police.",
-          "summaryZh": "“我可能有关于此案的信息，” Claude AI告诉费城警方。",
-          "published": "2026-10-12T18:21:36.000Z",
+          "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+          "summaryZh": "了解Google DeepMind和新加坡GovTech如何使用轻量级设备上的Gemma模型来拦截私人聊天中的会话诈骗，并且没有云数据流出。",
+          "published": "2026-10-14T02:00:14.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Gemini 4 Argon: Built to solve your hardest problems",
+          "titleZh": "Gemini 4 Argon：专为解决您最棘手的问题而设计",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+          "source": "Google DeepMind",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-13T16:01:52.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "research",
+      "label": "🔬 研究前沿",
+      "items": [
+        {
+          "title": "Show HN: Parsimony - an open-source benchmark for how much code AI models add",
+          "titleZh": "Show HN: Parsimony -人工智能模型添加多少代码的开源基准",
+          "url": "https://parsimony.lasu.dev/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "Existing benchmarks measure solve rate and token output/cost, but don't punish excess code, which makes a codebase harder to work with in the long term. I wanted to measure this since it matters most for long-term projects. Method: it takes the patches that benchmarks already publish (DeepSWE, SWE-bench Verified, SWE-bench Live) and counts \"coding units\": syntax elements like statements, calls, names and literals. I didn't use lines of code, so cramming code isn't rewarded. Deleted code is subtracted, so it measures net units. GPT-6 and Claude 5.5 have no public patches yet, so I ran them myself on 3-10 tasks on my own subscriptions (shown as faded circles, not ranked). Any feedback or model contributions are welcome, especially public patch exports for newer models. GitHub: https://github.com/La5u/Parsimony Not affiliated with any of the benchmarks.",
+          "summaryZh": "现有基准衡量解决率和令牌输出/成本，但不要惩罚多余的代码，这使得代码库更难长期使用。我想衡量这一点，因为它对长期…",
+          "published": "2026-10-13T19:50:31.000Z",
+          "points": 63,
+          "discussion": "https://news.ycombinator.com/item?id=50077619"
+        },
+        {
+          "title": "上海交通大学“人工智能法律应用与金融市场法律研究基金” 捐赠签约仪式顺利举行 - 上海交通大学 新闻网",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9EVUdFRTVHazVvR0JRckxpRldtY0FUWjc2aHlZdGRRUmY5Mm1GekhrMlVIRDFPcXRlOGxBMnMwTWFiWG9mbmlNczh1VjFjWW1xelp4SkpELXpUSFRnUjJn?oc=5",
+          "source": "Google 新闻中文",
+          "alsoOn": [],
+          "summary": "上海交通大学“人工智能法律应用与金融市场法律研究基金” 捐赠签约仪式顺利举行 上海交通大学 新闻网",
+          "summaryZh": "",
+          "published": "2026-10-14T02:36:24.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "The Virginia Senate receives new research on artificial intelligence - WVIR",
+          "titleZh": "弗吉尼亚州参议院收到关于人工智能的新研究- WVIR",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVDRLRFJZa1JCT2d2V0RMNHVLVGpUekh5bkl1TGF6ZkVDcXZ6VEppazRYQ3JQa2xla0tlV1E4TUhzZk85blJiQXZxVzBwbEZSWmNjenloUFZ6NU1KOFowY3lLZUtjREZfcXBXV1NHMnVCV0hmTlVWUGpQQ3BscHg3Q21HRXI3Zm5NeWdYSnBqaE91TlZOSEJrRTNlMEbSAbABQVVfeXFMT1UtYmQydkVpdy1wLXJaOUxFOXRPcjZQaGpHTV9mUHhzVzZIUko2VERzc1hfdElpbmpoSjhpTl9OMDFDWHVJemljWERoLURodkhkUnM1RWJ5Rm81a2hrT0l0RHRWUk03a3ZOUzlyZENwSDJuRHM3U2V2dFNpNXdja19MOTBlUVRFV0RGUTZ4ZnoxS2l0SEk0OWFya1BoUHFHcXhEUGVlczZmdFdSS3lVeHQ?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "The Virginia Senate receives new research on artificial intelligence WVIR",
+          "summaryZh": "弗吉尼亚州参议院收到关于人工智能WVIR的新研究",
+          "published": "2026-10-14T00:14:00.000Z",
           "points": 0,
           "discussion": ""
         }
@@ -43,74 +123,62 @@
       "label": "🏢 公司与行业动向",
       "items": [
         {
-          "title": "Intel D270 GPU AI Accelerator-Up to 480 GB LPDDR5X",
-          "titleZh": "英特尔D270 GPU AI加速器-高达480 GB LPDDR5X",
-          "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
-          "source": "Hacker News",
-          "alsoOn": [],
-          "summary": "",
-          "summaryZh": "",
-          "published": "2026-10-12T21:35:35.000Z",
-          "points": 163,
-          "discussion": "https://news.ycombinator.com/item?id=50063365"
-        },
-        {
-          "title": "Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip - WSJ",
-          "titleZh": "Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip -《华尔街日报》",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdC1Yb1VaRzVmWnNoRmpLRFF4cWtUZXNyMjYtVzItMEJIYWhGWUpsUXRtWEJmaDVpZ1lGSXE3WGFYWU94cUFwcTRZZnQzVFBsaktQVjQ3WmJMMFVyQnlTS3NtUEMzVkY1WmNoU1dmdW1LWVB5YXJ1amROdEVIWVRhSFNLdldjVkMwcVRjaHJoOGVwVFBDbmxCdHlqTGIwc2px?oc=5",
-          "source": "Google News",
-          "alsoOn": [],
-          "summary": "Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip WSJ",
-          "summaryZh": "Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip《华尔街日报》",
-          "published": "2026-10-13T04:48:28.000Z",
-          "points": 0,
-          "discussion": ""
-        },
-        {
-          "title": "Meta releases its first frontier model, Muse Wonder",
-          "titleZh": "Meta发布其首款前沿车型Muse Wonder",
-          "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+          "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+          "titleZh": "法官命令OpenAI移交苹果商业秘密案件的招聘记录",
+          "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
           "source": "TechCrunch AI",
           "alsoOn": [],
-          "summary": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
-          "summaryZh": "Muse Spark的目标是成为一个可以在低延迟下执行的轻量级模型，而Wonder模型更大，据说更有能力，在编码等复杂任务上具有更高的基准分数和更好的结果。",
-          "published": "2026-10-12T17:56:56.000Z",
+          "summary": "A federal judge ruled that Apple can access OpenAI's interview materials involving former Apple employees, as well as private messages and testimony from key figures in the case.",
+          "summaryZh": "一名联邦法官裁定，苹果可以访问OpenAI涉及前苹果员工的采访材料，以及此案关键人物的私人消息和证词。",
+          "published": "2026-10-13T20:36:44.000Z",
           "points": 0,
           "discussion": ""
         },
         {
-          "title": "Microsoft president says UK is best placed to drive AI regulation",
-          "titleZh": "微软总裁表示，英国最适合推动人工智能监管",
-          "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+          "title": "Google wants to host your personal vibe-coded apps in the Play Store",
+          "titleZh": "Google希望在Play商店中托管您的个人vibe编码应用程序",
+          "url": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
+          "source": "Ars Technica AI",
+          "alsoOn": [],
+          "summary": "Google plans to help turn those personal AI-generated apps into wide releases.",
+          "summaryZh": "谷歌计划帮助将这些个人人工智能生成的应用程序转化为广泛的版本。",
+          "published": "2026-10-13T17:00:39.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
+          "titleZh": "科学公司将其视力恢复芯片植入其首例Stargardt病患者体内",
+          "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
           "source": "TechCrunch AI",
           "alsoOn": [],
-          "summary": "Microsoft president Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies.",
-          "summaryZh": "微软总裁布拉德·史密斯（Brad Smith）呼吁对人工智能进行紧急监管，称牛奶和洗衣机比人工智能公司拥有更多的监",
-          "published": "2026-10-12T15:31:19.000Z",
+          "summary": "Max Hodak, the former president and co-founder of Neuralink, detailed on stage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI).",
+          "summaryZh": "Neuralink前总裁兼联合创始人马克斯·霍达克（Max Hodak）在TechCrunch Disrupt的舞台上详细介绍了他的公司与PRIMA的合作如何成为其迈向新型脑机接口（BCI）之路的一部分。",
+          "published": "2026-10-13T23:13:31.000Z",
           "points": 0,
           "discussion": ""
         },
         {
-          "title": "The Artificial Intelligence Market in Small and Medium Businesses is Growing, Projections Reaching $162.7 Billion - The National Law Review",
-          "titleZh": "中小型企业的人工智能市场正在增长，预测达到1627亿美元-《国家法律评论》",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNldNTG9uTnZLdy1jWlFnTEtNZkRhN3FkWklmVzRUdFBjU0R6VzIzSnZ5LV94TE5acTR1M2F2YzdscFd2Rk5sRWVsaHppRWpma2VfSEpZXzdjYkhEMXcyWkxoMUhkcFJPVGdnU2EyRnFmcE5vSWgybUVCWWgzc051cU1EeXdJaUo0dERFVldmV1cwYlpiYl9qQ2NpVWhZX05zN3BQUnRYdmhsdw?oc=5",
-          "source": "Google News",
+          "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
+          "titleZh": "Cerebras首席执行官表示，我们即将迎来每个人在家都有个人AI助手的未来",
+          "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+          "source": "TechCrunch AI",
           "alsoOn": [],
-          "summary": "The Artificial Intelligence Market in Small and Medium Businesses is Growing, Projections Reaching $162.7 Billion The National Law Review",
-          "summaryZh": "中小型企业的人工智能市场正在增长，预计将达到1627亿美元",
-          "published": "2026-10-13T06:41:21.000Z",
+          "summary": "Cerebras CEO Andrew Feldman predicts a future where personal AI assistants become as commonplace as household appliances, running partly on local devices and partly in the cloud.",
+          "summaryZh": "Cerebras首席执行官安德鲁·费尔德曼（Andrew Feldman）预测，未来个人人工智能助理将像家用电器一样普遍，部分在本地设备上运行，部分在云中运行。",
+          "published": "2026-10-13T23:05:34.000Z",
           "points": 0,
           "discussion": ""
         },
         {
-          "title": "丘成桐数学与人工智能实验室联盟在清华大学成立 - 清华大学",
-          "titleZh": "",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE56bFZtZjQzUHhMSHVMamxqUklRV0kxV0V0WUQxS2s2MTBpVjlRWnZFMXFraFRhSHlmSjl2T2pzQ0U5MzN4WlBSellqM3U2cnB0ZHhwOWRTamF5dWc?oc=5",
-          "source": "Google 新闻中文",
+          "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
+          "titleZh": "Industrial Next希望工厂机器人在几分钟内切换任务，而不是几周",
+          "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+          "source": "TechCrunch AI",
           "alsoOn": [],
-          "summary": "丘成桐数学与人工智能实验室联盟在清华大学成立 清华大学",
-          "summaryZh": "",
-          "published": "2026-10-13T06:39:47.000Z",
+          "summary": "Industrial Next helps manufacturers automate complex, delicate tasks that have traditionally required human labor.",
+          "summaryZh": "Industrial Next可帮助制造商实现传统上需要人力的复杂精细任务的自动化。",
+          "published": "2026-10-13T23:00:00.000Z",
           "points": 0,
           "discussion": ""
         }
@@ -121,79 +189,121 @@
       "label": "🛠 工程与开源工具",
       "items": [
         {
-          "title": "A look at OpenAI’s math that’s claimed computes faster Fourier transforms",
-          "titleZh": "看一下OpenAI的数学，声称可以计算出更快的傅里叶变换",
-          "url": "https://www.argmin.net/p/faster-fourier-transforms",
+          "title": "OpenAI engineer arrested in bugging of executive conference room",
+          "titleZh": "OpenAI工程师因窃听行政会议室而被捕",
+          "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
           "source": "Hacker News",
           "alsoOn": [],
-          "summary": "",
+          "summary": "https://x.com/OpenAINewsroom/status/2110095403198849132",
           "summaryZh": "",
-          "published": "2026-10-13T02:46:43.000Z",
-          "points": 99,
-          "discussion": "https://news.ycombinator.com/item?id=50065932"
+          "published": "2026-10-13T20:23:55.000Z",
+          "points": 499,
+          "discussion": "https://news.ycombinator.com/item?id=50078141"
         },
         {
-          "title": "AI is a tool and using it well takes skill",
-          "titleZh": "人工智能是一种工具，善用它需要技巧",
-          "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+          "title": "OpenAI finds recording device in one of their offices",
+          "titleZh": "OpenAI在他们的一个办公室里找到了录音设备",
+          "url": "https://twitter.com/OpenAINewsroom/status/2110095403198849132",
           "source": "Hacker News",
           "alsoOn": [],
           "summary": "",
           "summaryZh": "",
-          "published": "2026-10-12T21:40:18.000Z",
-          "points": 361,
-          "discussion": "https://news.ycombinator.com/item?id=50063427"
+          "published": "2026-10-13T19:55:31.000Z",
+          "points": 83,
+          "discussion": "https://news.ycombinator.com/item?id=50077703"
         },
         {
-          "title": "AI Models Can Provably Hide Arbitrary Capabilities",
-          "titleZh": "人工智能模型可以可证明地隐藏任意能力",
-          "url": "https://arxiv.org/abs/2610.13928",
+          "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+          "titleZh": "Show HN： Pulse Local，一款Mac预算应用程序，其AI模型在您的机器上运行",
+          "url": "https://pulseos.finance",
           "source": "Hacker News",
           "alsoOn": [],
-          "summary": "",
-          "summaryZh": "",
-          "published": "2026-10-13T02:07:08.000Z",
-          "points": 153,
-          "discussion": "https://news.ycombinator.com/item?id=50065692"
+          "summary": "Hi HN, I'm Niz. Pulse Local is a budgeting app for Mac (Apple Silicon, beta) that answers questions about your spending with models that run on your machine. Local mode needs no account. The ledger and your questions stay on the machine, and the app sends no analytics or crash logs. I felt there are not enough consumer apps that run locally with no calls to the outside world that help us manage sensitive corners of our lives. This app in its local variant only downloads a couple of models and occasional updates, it does not send any analytics nor data. Features-wise, Pulse local is a complete budgeting app that offers an assistant built on top of a fine-tuned model and thousands of rules embedded in the code itself. I'm sharing it for free with options to help me continue experimenting with fine-tuning and expanding along this direction. How it works: you import a CSV from any bank, in any currency. When you ask a question, a tuned Qwen3 0.6B model reads it into a structured query, and code, not the model, does the money math against the ledger. A 4B checker model double-checks each money answer; when the two readings disagree, the app says it is not sure instead of guessing. That change took wrong answers from about one in five to 5 in 494 questions across our last three tests. The write-up covers how we test, the designs that failed, and the limits of the claim: https://pulseos.finance/pulse-local/writing/agree-or-not-sur... The tuned weights are on Hugging Face (PulseOS/pulse-local-qwen3-0.6b). Limitations: the first start downloads about 2.9 GB of models. With the checker on, a money answer takes 12 to 14 seconds (you can turn the checker off). Small models can still misread an open-ended question. The app answers in English. Mac only for now; Windows is next. The app is free. An optional Connected mode (Sync Pass, $29/year) syncs US banks through Plaid; transactions pass through our server's memory and are not stored. Feedback welcome, especially on wrong answers and on questions it should handle but does not.",
+          "summaryZh": "HN，您好！我是Niz。Pulse Local是一款适用于Mac （Apple Silicon，测试版）的预算应用程序，可通过在您的机器上运行的型号回答有关您的支出的问题。本地模式不需要帐户。分类账和您的问题…",
+          "published": "2026-10-13T23:13:23.000Z",
+          "points": 92,
+          "discussion": "https://news.ycombinator.com/item?id=50080275"
         },
         {
-          "title": "Threat of AI share crash puts world financial stability at risk, says IMF",
-          "titleZh": "国际货币基金组织表示，人工智能份额崩溃的威胁使世界金融稳定面临风险",
-          "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+          "title": "I built a tool to track what AI leaders say and how their views change on video",
+          "titleZh": "我构建了一个工具来跟踪人工智能领导者所说的话以及他们对视频的看法如何变化",
+          "url": "https://blumify.io/people",
           "source": "Hacker News",
           "alsoOn": [],
           "summary": "",
           "summaryZh": "",
-          "published": "2026-10-13T05:57:32.000Z",
-          "points": 55,
-          "discussion": "https://news.ycombinator.com/item?id=50067356"
+          "published": "2026-10-14T01:09:13.000Z",
+          "points": 62,
+          "discussion": "https://news.ycombinator.com/item?id=50081151"
         },
         {
-          "title": "AI models may be capable of self-replicating without access to a datacenter",
-          "titleZh": "人工智能模型可能能够在无需访问数据中心的情况下进行自我复制",
-          "url": "https://www.anthropic.com/research/self-replicating-ai",
+          "title": "Scientists wonder: Is my AI stealing my ideas?",
+          "titleZh": "科学家们想知道：我的人工智能是否在窃取我的想法？",
+          "url": "https://www.scientificamerican.com/article/scientists-worry-ai-is-stealing-their-ideas/",
           "source": "Hacker News",
           "alsoOn": [],
           "summary": "",
           "summaryZh": "",
-          "published": "2026-10-12T19:25:29.000Z",
-          "points": 85,
-          "discussion": "https://news.ycombinator.com/item?id=50061603"
+          "published": "2026-10-13T16:05:51.000Z",
+          "points": 44,
+          "discussion": "https://news.ycombinator.com/item?id=50073926"
         },
         {
-          "title": "Epic Games tells employees to use AI to get Disney game done",
-          "titleZh": "Epic Games告诉员工使用人工智能来完成迪士尼游戏",
-          "url": "https://www.avclub.com/epic-games-disney-ai-delay",
-          "source": "Hacker News",
+          "title": "Redesigning source control at Anthropic",
+          "titleZh": "在Anthropic重新设计源代码管理",
+          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+          "source": "Simon Willison",
           "alsoOn": [],
-          "summary": "",
-          "summaryZh": "",
-          "published": "2026-10-12T20:07:42.000Z",
-          "points": 82,
-          "discussion": "https://news.ycombinator.com/item?id=50062237"
+          "summary": "Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months. In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day. They included a chart showing those changes. I had Claude modify their chart ( code here ) to add markers for the public releases of each of their models in 2026: This shows public release dates, not the date when models became available for Anthropic's internal use. My guess is that the introduction of Fable/Mythos class models is a key factor in the increased coding velocity. \"Antique\" is their new code review system. The source control system is called Scion, and sounds to me like a reinvention of centralized source control along the lines of Subversion. They had some pretty extreme requirements: The history of our main branch alone is almost 100 GB, and a compressed working copy is over 25 GB. We perform on the order of 25 million code checkouts per day for CI, before counting developer environments, agent sandboxes, and research jobs. Fetched naively, that would be over 600 PB of git traffic per day. The new system was built by a team of seven people, and the migration from Git was completed in five months. When asked on Hacker News about the lack of offline support, Scion engineer Nick G replied : Since Claude is by far the heaviest user of Scion and is necessarily online, this just wasn't important to do. As an aside, I've been trying adversarial review in my own projects recently, where you have a model try and find flaws (I often play Claude and GPT off against each other). This note from the article reflected my own experience with that: Anthropic also makes extensive use of adversarial review, and, while this is incredibly effective in many ways, it can also be myopic, so skilled engineers needed to steer Claude away from over-engineering parts of the system in response to hypothetical concerns. Via Hacker News Tags: git , migrations , version-control , ai , generative-ai , llms , anthropic , agentic-engineering",
+          "summaryZh": "重新设计Anthropic的源代码控制Anthropic有趣的部分描述了他们为什么以及如何构建自己的自定义Git替代品，基于…",
+          "published": "2026-10-13T23:00:06.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "ideas",
+      "label": "💭 观点与深度",
+      "items": [
+        {
+          "title": "The Download: open model trade-offs and geothermal power’s promise",
+          "titleZh": "下载：开放式模型权衡和地热发电的承诺",
+          "url": "https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/",
+          "source": "MIT Tech Review",
+          "alsoOn": [],
+          "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Open models have real benefits. Do they outweigh the risks? Anthropic recently released a report arguing that a powerful new model released by the Chinese company Z.ai, poses a major cyberattack…",
+          "summaryZh": "这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。开放式模型有实实在在的好处。他们是否超过了风险？ Anthropic最近…",
+          "published": "2026-10-13T12:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Open models have real benefits. Do they outweigh the risks?",
+          "titleZh": "开放式模型有实实在在的好处。它们是否大于风险？",
+          "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+          "source": "MIT Tech Review",
+          "alsoOn": [],
+          "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Late last month, Anthropic released a report arguing that the model GLM-5.3 poses a major cyberattack risk. The report’s core concern is that the…",
+          "summaryZh": "《麻省理工科技评论》解释说：让我们的作家解开复杂、混乱的科学技术世界，帮助您了解接下来会发生什么。您可以在此处阅读更多该系列的内容。上月底， Anthropic…",
+          "published": "2026-10-13T10:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "AI labs are buying data from dead startups to train their models",
+          "titleZh": "人工智能实验室正在从已经死亡的初创公司购买数据来训练他们的模型",
+          "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
+          "source": "MIT Tech Review",
+          "alsoOn": [],
+          "summary": "When Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few years old. But he’s since turned the firm’s digital archives into real money. He’s netted roughly $25,000 for his code base and a still-pending amount (likely around…",
+          "summaryZh": "当基兰·米斯凯尔（Keelan Miskell）今年开始关闭他的加密创业公司时，他认为其数据没有多大价值：用户是匿名的，该公司只有几年的历史。但从那以后，他将公司的数字档案…",
+          "published": "2026-10-13T09:00:00.000Z",
+          "points": 0,
+          "discussion": ""
         }
       ]
     }
   ],
-  "markdown": "# 📰 AI 日报 · 2026-10-13\n\n> 14 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 13 条已译\n\n## 🚀 模型与产品发布\n\n**1. 我用GPT-6 Astra将未使用的Kindle变成了相框**\n\nI turned my unused Kindle into a photo frame with GPT-6 Astra · Hacker News · 8 小时前 · ▲142 · [原文](<https://nirajrajgor.com/blog/kindle-photo-frame-with-ai>)\n\n**2. Anthropic的Claude AI向费城警方提交了虚假谋杀提示**\n\nAnthropic's Claude AI submitted false murder tip to Philadelphia police · Ars Technica AI · 13 小时前 · [原文](<https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/>)\n\n_“我可能有关于此案的信息，” Claude AI告诉费城警方。_\n\n## 🏢 公司与行业动向\n\n**1. 英特尔D270 GPU AI加速器-高达480 GB LPDDR5X**\n\nIntel D270 GPU AI Accelerator-Up to 480 GB LPDDR5X · Hacker News · 10 小时前 · ▲163 · [原文](<https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html>)\n\n**2. Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip -《华尔街日报》**\n\nAnthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip - WSJ · Google News · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMioAFBVV95cUxOdC1Yb1VaRzVmWnNoRmpLRFF4cWtUZXNyMjYtVzItMEJIYWhGWUpsUXRtWEJmaDVpZ1lGSXE3WGFYWU94cUFwcTRZZnQzVFBsaktQVjQ3WmJMMFVyQnlTS3NtUEMzVkY1WmNoU1dmdW1LWVB5YXJ1amROdEVIWVRhSFNLdldjVkMwcVRjaHJoOGVwVFBDbmxCdHlqTGIwc2px?oc=5>)\n\n_Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip《华尔街日报》_\n\n**3. Meta发布其首款前沿车型Muse Wonder**\n\nMeta releases its first frontier model, Muse Wonder · TechCrunch AI · 13 小时前 · [原文](<https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/>)\n\n_Muse Spark的目标是成为一个可以在低延迟下执行的轻量级模型，而Wonder模型更大，据说更有能力，在编码等复杂任务上具有更高的基准分数和更好的结果。_\n\n**4. 微软总裁表示，英国最适合推动人工智能监管**\n\nMicrosoft president says UK is best placed to drive AI regulation · TechCrunch AI · 16 小时前 · [原文](<https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/>)\n\n_微软总裁布拉德·史密斯（Brad Smith）呼吁对人工智能进行紧急监管，称牛奶和洗衣机比人工智能公司拥有更多的监_\n\n**5. 中小型企业的人工智能市场正在增长，预测达到1627亿美元-《国家法律评论》**\n\nThe Artificial Intelligence Market in Small and Medium Businesses is Growing, Projections Reaching $162.7 Billion - The National Law Review · Google News · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNldNTG9uTnZLdy1jWlFnTEtNZkRhN3FkWklmVzRUdFBjU0R6VzIzSnZ5LV94TE5acTR1M2F2YzdscFd2Rk5sRWVsaHppRWpma2VfSEpZXzdjYkhEMXcyWkxoMUhkcFJPVGdnU2EyRnFmcE5vSWgybUVCWWgzc051cU1EeXdJaUo0dERFVldmV1cwYlpiYl9qQ2NpVWhZX05zN3BQUnRYdmhsdw?oc=5>)\n\n_中小型企业的人工智能市场正在增长，预计将达到1627亿美元_\n\n**6. 丘成桐数学与人工智能实验室联盟在清华大学成立 - 清华大学**\n\nGoogle 新闻中文 · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMiW0FVX3lxTE56bFZtZjQzUHhMSHVMamxqUklRV0kxV0V0WUQxS2s2MTBpVjlRWnZFMXFraFRhSHlmSjl2T2pzQ0U5MzN4WlBSellqM3U2cnB0ZHhwOWRTamF5dWc?oc=5>)\n\n_丘成桐数学与人工智能实验室联盟在清华大学成立 清华大学_\n\n## 🛠 工程与开源工具\n\n**1. 看一下OpenAI的数学，声称可以计算出更快的傅里叶变换**\n\nA look at OpenAI’s math that’s claimed computes faster Fourier transforms · Hacker News · 4 小时前 · ▲99 · [原文](<https://www.argmin.net/p/faster-fourier-transforms>)\n\n**2. 人工智能是一种工具，善用它需要技巧**\n\nAI is a tool and using it well takes skill · Hacker News · 10 小时前 · ▲361 · [原文](<https://yyhh.org/blog/2026/10/ai-is-a-tool/>)\n\n**3. 人工智能模型可以可证明地隐藏任意能力**\n\nAI Models Can Provably Hide Arbitrary Capabilities · Hacker News · 5 小时前 · ▲153 · [原文](<https://arxiv.org/abs/2610.13928>)\n\n**4. 国际货币基金组织表示，人工智能份额崩溃的威胁使世界金融稳定面临风险**\n\nThreat of AI share crash puts world financial stability at risk, says IMF · Hacker News · 1 小时前 · ▲55 · [原文](<https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks>)\n\n**5. 人工智能模型可能能够在无需访问数据中心的情况下进行自我复制**\n\nAI models may be capable of self-replicating without access to a datacenter · Hacker News · 12 小时前 · ▲85 · [原文](<https://www.anthropic.com/research/self-replicating-ai>)\n\n**6. Epic Games告诉员工使用人工智能来完成迪士尼游戏**\n\nEpic Games tells employees to use AI to get Disney game done · Hacker News · 11 小时前 · ▲82 · [原文](<https://www.avclub.com/epic-games-disney-ai-delay>)\n"
+  "markdown": "# 📰 AI 日报 · 2026-10-14\n\n> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 20 条已译\n\n## 🚀 模型与产品发布\n\n**1. Gemini 4 Argon**\n\nHacker News · 14 小时前 · ▲1153 · [原文](<https://deepmind.google/models/gemini/>)\n\n_另请参阅： Gemini 4 Argon for Robotics-https://news.ycombinator.com/item?id=50074869_\n\n**2. Gemini 4 Argon机器人专用**\n\nGemini 4 Argon for Robotics · Hacker News · 13 小时前 · ▲206 （亦见于 Google DeepMind） · [原文](<https://developers.googleblog.com/gemini-4-argon-for-robotics/>)\n\n_主线： Gemini 4 Argon-https://news.ycombinator.com/item?id=50073879_\n\n**3. 负责任和安全地开发Gemini 4 Argon**\n\nDeveloping Gemini 4 Argon responsibly and safely · Google DeepMind · 10 小时前 · [原文](<https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/>)\n\n**4. Google DeepMind与新加坡政府合作构建用于诈骗检测的微调AI模型**\n\nGoogle DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection · Google DeepMind · 4 小时前 · [原文](<https://deepmind.google/blog/on-device-ai-scam-detection-mddi/>)\n\n_了解Google DeepMind和新加坡GovTech如何使用轻量级设备上的Gemma模型来拦截私人聊天中的会话诈骗，并且没有云数据流出。_\n\n**5. Gemini 4 Argon：专为解决您最棘手的问题而设计**\n\nGemini 4 Argon: Built to solve your hardest problems · Google DeepMind · 14 小时前 · [原文](<https://deepmind.google/blog/introducing-gemini-4-argon/>)\n\n## 🔬 研究前沿\n\n**1. Show HN: Parsimony -人工智能模型添加多少代码的开源基准**\n\nShow HN: Parsimony - an open-source benchmark for how much code AI models add · Hacker News · 10 小时前 · ▲63 · [原文](<https://parsimony.lasu.dev/>)\n\n_现有基准衡量解决率和令牌输出/成本，但不要惩罚多余的代码，这使得代码库更难长期使用。我想衡量这一点，因为它对长期…_\n\n**2. 上海交通大学“人工智能法律应用与金融市场法律研究基金” 捐赠签约仪式顺利举行 - 上海交通大学 新闻网**\n\nGoogle 新闻中文 · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMiX0FVX3lxTE9EVUdFRTVHazVvR0JRckxpRldtY0FUWjc2aHlZdGRRUmY5Mm1GekhrMlVIRDFPcXRlOGxBMnMwTWFiWG9mbmlNczh1VjFjWW1xelp4SkpELXpUSFRnUjJn?oc=5>)\n\n_上海交通大学“人工智能法律应用与金融市场法律研究基金” 捐赠签约仪式顺利举行 上海交通大学 新闻网_\n\n**3. 弗吉尼亚州参议院收到关于人工智能的新研究- WVIR**\n\nThe Virginia Senate receives new research on artificial intelligence - WVIR · Google News · 5 小时前 · [原文](<https://news.google.com/rss/articles/CBMinAFBVV95cUxPVDRLRFJZa1JCT2d2V0RMNHVLVGpUekh5bkl1TGF6ZkVDcXZ6VEppazRYQ3JQa2xla0tlV1E4TUhzZk85blJiQXZxVzBwbEZSWmNjenloUFZ6NU1KOFowY3lLZUtjREZfcXBXV1NHMnVCV0hmTlVWUGpQQ3BscHg3Q21HRXI3Zm5NeWdYSnBqaE91TlZOSEJrRTNlMEbSAbABQVVfeXFMT1UtYmQydkVpdy1wLXJaOUxFOXRPcjZQaGpHTV9mUHhzVzZIUko2VERzc1hfdElpbmpoSjhpTl9OMDFDWHVJemljWERoLURodkhkUnM1RWJ5Rm81a2hrT0l0RHRWUk03a3ZOUzlyZENwSDJuRHM3U2V2dFNpNXdja19MOTBlUVRFV0RGUTZ4ZnoxS2l0SEk0OWFya1BoUHFHcXhEUGVlczZmdFdSS3lVeHQ?oc=5>)\n\n_弗吉尼亚州参议院收到关于人工智能WVIR的新研究_\n\n## 🏢 公司与行业动向\n\n**1. 法官命令OpenAI移交苹果商业秘密案件的招聘记录**\n\nJudge orders OpenAI to turn over hiring records in Apple trade secrets case · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/>)\n\n_一名联邦法官裁定，苹果可以访问OpenAI涉及前苹果员工的采访材料，以及此案关键人物的私人消息和证词。_\n\n**2. Google希望在Play商店中托管您的个人vibe编码应用程序**\n\nGoogle wants to host your personal vibe-coded apps in the Play Store · Ars Technica AI · 13 小时前 · [原文](<https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/>)\n\n_谷歌计划帮助将这些个人人工智能生成的应用程序转化为广泛的版本。_\n\n**3. 科学公司将其视力恢复芯片植入其首例Stargardt病患者体内**\n\nScience Corporation implants its vision-restoring chip in its first Stargardt disease patient · TechCrunch AI · 6 小时前 · [原文](<https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/>)\n\n_Neuralink前总裁兼联合创始人马克斯·霍达克（Max Hodak）在TechCrunch Disrupt的舞台上详细介绍了他的公司与PRIMA的合作如何成为其迈向新型脑机接口（BCI）之路的一部分。_\n\n**4. Cerebras首席执行官表示，我们即将迎来每个人在家都有个人AI助手的未来**\n\nCerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home · TechCrunch AI · 7 小时前 · [原文](<https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/>)\n\n_Cerebras首席执行官安德鲁·费尔德曼（Andrew Feldman）预测，未来个人人工智能助理将像家用电器一样普遍，部分在本地设备上运行，部分在云中运行。_\n\n**5. Industrial Next希望工厂机器人在几分钟内切换任务，而不是几周**\n\nIndustrial Next wants factory robots to switch tasks in minutes, not weeks · TechCrunch AI · 7 小时前 · [原文](<https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/>)\n\n_Industrial Next可帮助制造商实现传统上需要人力的复杂精细任务的自动化。_\n\n## 🛠 工程与开源工具\n\n**1. OpenAI工程师因窃听行政会议室而被捕**\n\nOpenAI engineer arrested in bugging of executive conference room · Hacker News · 9 小时前 · ▲499 · [原文](<https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/>)\n\n_https://x.com/OpenAINewsroom/status/2110095403198849132_\n\n**2. OpenAI在他们的一个办公室里找到了录音设备**\n\nOpenAI finds recording device in one of their offices · Hacker News · 10 小时前 · ▲83 · [原文](<https://twitter.com/OpenAINewsroom/status/2110095403198849132>)\n\n**3. Show HN： Pulse Local，一款Mac预算应用程序，其AI模型在您的机器上运行**\n\nShow HN: Pulse Local, a Mac budgeting app whose AI models run on your machine · Hacker News · 6 小时前 · ▲92 · [原文](<https://pulseos.finance>)\n\n_HN，您好！我是Niz。Pulse Local是一款适用于Mac （Apple Silicon，测试版）的预算应用程序，可通过在您的机器上运行的型号回答有关您的支出的问题。本地模式不需要帐户。分类账和您的问题…_\n\n**4. 我构建了一个工具来跟踪人工智能领导者所说的话以及他们对视频的看法如何变化**\n\nI built a tool to track what AI leaders say and how their views change on video · Hacker News · 4 小时前 · ▲62 · [原文](<https://blumify.io/people>)\n\n**5. 科学家们想知道：我的人工智能是否在窃取我的想法？**\n\nScientists wonder: Is my AI stealing my ideas? · Hacker News · 14 小时前 · ▲44 · [原文](<https://www.scientificamerican.com/article/scientists-worry-ai-is-stealing-their-ideas/>)\n\n**6. 在Anthropic重新设计源代码管理**\n\nRedesigning source control at Anthropic · Simon Willison · 7 小时前 · [原文](<https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/>)\n\n_重新设计Anthropic的源代码控制Anthropic有趣的部分描述了他们为什么以及如何构建自己的自定义Git替代品，基于…_\n\n## 💭 观点与深度\n\n**1. 下载：开放式模型权衡和地热发电的承诺**\n\nThe Download: open model trade-offs and geothermal power’s promise · MIT Tech Review · 18 小时前 · [原文](<https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/>)\n\n_这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。开放式模型有实实在在的好处。他们是否超过了风险？ Anthropic最近…_\n\n**2. 开放式模型有实实在在的好处。它们是否大于风险？**\n\nOpen models have real benefits. Do they outweigh the risks? · MIT Tech Review · 20 小时前 · [原文](<https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/>)\n\n_《麻省理工科技评论》解释说：让我们的作家解开复杂、混乱的科学技术世界，帮助您了解接下来会发生什么。您可以在此处阅读更多该系列的内容。上月底， Anthropic…_\n\n**3. 人工智能实验室正在从已经死亡的初创公司购买数据来训练他们的模型**\n\nAI labs are buying data from dead startups to train their models · MIT Tech Review · 21 小时前 · [原文](<https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/>)\n\n_当基兰·米斯凯尔（Keelan Miskell）今年开始关闭他的加密创业公司时，他认为其数据没有多大价值：用户是匿名的，该公司只有几年的历史。但从那以后，他将公司的数字档案…_\n"
 }
