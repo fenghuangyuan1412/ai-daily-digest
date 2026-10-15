@@ -1,135 +1,135 @@
-# 📰 AI 日报 · 2026-10-14
+# 📰 AI 日报 · 2026-10-15
 
-> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 20 条已译
+> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 19 条已译
 
 ## 🚀 模型与产品发布
 
-**1. Gemini 4 Argon**
+**1. AMP让人工智能代理能够使用OpenAI模型进行超越代码的工作**
 
-Hacker News · 14 小时前 · ▲1153 · [原文](<https://deepmind.google/models/gemini/>)
+Amp puts AI agents to work beyond code with OpenAI models · OpenAI · 17 小时前 · [原文](<https://openai.com/index/amp-beyond-coding>)
 
-_另请参阅： Gemini 4 Argon for Robotics-https://news.ycombinator.com/item?id=50074869_
+_了解Amp如何突破客服代表使用GPT-6 Astra、Ultrafast、GPT-Live-1和ChatGPT登录所能做的事情。_
 
-**2. Gemini 4 Argon机器人专用**
+**2. 负责任和安全地开发Gemini 4 Argon**
 
-Gemini 4 Argon for Robotics · Hacker News · 13 小时前 · ▲206 （亦见于 Google DeepMind） · [原文](<https://developers.googleblog.com/gemini-4-argon-for-robotics/>)
+Developing Gemini 4 Argon responsibly and safely · Google DeepMind · 34 小时前 · [原文](<https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/>)
 
-_主线： Gemini 4 Argon-https://news.ycombinator.com/item?id=50073879_
+**3. Google DeepMind与新加坡政府合作构建用于诈骗检测的微调AI模型**
 
-**3. 负责任和安全地开发Gemini 4 Argon**
-
-Developing Gemini 4 Argon responsibly and safely · Google DeepMind · 10 小时前 · [原文](<https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/>)
-
-**4. Google DeepMind与新加坡政府合作构建用于诈骗检测的微调AI模型**
-
-Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection · Google DeepMind · 4 小时前 · [原文](<https://deepmind.google/blog/on-device-ai-scam-detection-mddi/>)
+Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection · Google DeepMind · 27 小时前 · [原文](<https://deepmind.google/blog/on-device-ai-scam-detection-mddi/>)
 
 _了解Google DeepMind和新加坡GovTech如何使用轻量级设备上的Gemma模型来拦截私人聊天中的会话诈骗，并且没有云数据流出。_
 
-**5. Gemini 4 Argon：专为解决您最棘手的问题而设计**
+**4. llm-gemini 0.35**
 
-Gemini 4 Argon: Built to solve your hardest problems · Google DeepMind · 14 小时前 · [原文](<https://deepmind.google/blog/introducing-gemini-4-argon/>)
+Simon Willison · 31 小时前 · [原文](<https://simonwillison.net/2026/Oct/13/llm-gemini/>)
+
+_版本： llm-gemini 0.35我为llm-gemini添加了对新型Gemini 4 Argon型号的支持，该型号今天通过Gemini API提供，并适用于其$ 100/月订阅计划的客户。这里是低，中和高…_
 
 ## 🔬 研究前沿
 
-**1. Show HN: Parsimony -人工智能模型添加多少代码的开源基准**
+**1. Third Moment Research如何在超过36小时的时间内运行10,000名客服代表**
 
-Show HN: Parsimony - an open-source benchmark for how much code AI models add · Hacker News · 10 小时前 · ▲63 · [原文](<https://parsimony.lasu.dev/>)
+How Third Moment Research runs 10,000 agents for 36+ hours · OpenAI · 22 小时前 · [原文](<https://openai.com/index/third-moment-research>)
 
-_现有基准衡量解决率和令牌输出/成本，但不要惩罚多余的代码，这使得代码库更难长期使用。我想衡量这一点，因为它对长期…_
+_这个人工智能实验室使用GPT-6 Astra和GPT-6.1 Sol、Codex和Daybreak进行网络安全，构建了专注于数天并随着使用而改进的代理。_
 
-**2. 上海交通大学“人工智能法律应用与金融市场法律研究基金” 捐赠签约仪式顺利举行 - 上海交通大学 新闻网**
+**2. 隐藏在绝密OpenAI会议室卫生纸中的录音设备**
 
-Google 新闻中文 · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMiX0FVX3lxTE9EVUdFRTVHazVvR0JRckxpRldtY0FUWjc2aHlZdGRRUmY5Mm1GekhrMlVIRDFPcXRlOGxBMnMwTWFiWG9mbmlNczh1VjFjWW1xelp4SkpELXpUSFRnUjJn?oc=5>)
+Recording device hidden in toilet paper found in top-secret OpenAI meeting room · Ars Technica AI · 13 小时前 · [原文](<https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/>)
 
-_上海交通大学“人工智能法律应用与金融市场法律研究基金” 捐赠签约仪式顺利举行 上海交通大学 新闻网_
+_由于联邦调查局对外国间谍的指控， OpenAI工程师面临5年监禁和25万美元的罚款。_
 
-**3. 弗吉尼亚州参议院收到关于人工智能的新研究- WVIR**
+**3. 人民日报｜人工智能如何赋能基础研究 - 人民网－江苏频道**
 
-The Virginia Senate receives new research on artificial intelligence - WVIR · Google News · 5 小时前 · [原文](<https://news.google.com/rss/articles/CBMinAFBVV95cUxPVDRLRFJZa1JCT2d2V0RMNHVLVGpUekh5bkl1TGF6ZkVDcXZ6VEppazRYQ3JQa2xla0tlV1E4TUhzZk85blJiQXZxVzBwbEZSWmNjenloUFZ6NU1KOFowY3lLZUtjREZfcXBXV1NHMnVCV0hmTlVWUGpQQ3BscHg3Q21HRXI3Zm5NeWdYSnBqaE91TlZOSEJrRTNlMEbSAbABQVVfeXFMT1UtYmQydkVpdy1wLXJaOUxFOXRPcjZQaGpHTV9mUHhzVzZIUko2VERzc1hfdElpbmpoSjhpTl9OMDFDWHVJemljWERoLURodkhkUnM1RWJ5Rm81a2hrT0l0RHRWUk03a3ZOUzlyZENwSDJuRHM3U2V2dFNpNXdja19MOTBlUVRFV0RGUTZ4ZnoxS2l0SEk0OWFya1BoUHFHcXhEUGVlczZmdFdSS3lVeHQ?oc=5>)
+Google 新闻中文 · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMiakFVX3lxTE9QQWpPcmhQV01ZUzVWbXhVYkNwdGtMLXgyazdxclI2S2dNdlhMc3M0TEJETlZndnc0NlFhNUZoWnkxcmlDREFSUFpOV0VQcGxrcy13dWVsTEtYRDlHam5NVTR4cnlpbTczWGc?oc=5>)
 
-_弗吉尼亚州参议院收到关于人工智能WVIR的新研究_
+_人民日报｜人工智能如何赋能基础研究 人民网－江苏频道_
+
+**4. 人工性的第一次考试：超智能的LLM引用C检验**
+
+Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence · arXiv cs.AI · 1 小时前 · [原文](<https://arxiv.org/abs/2610.14005>)
+
+_在人工智能发展步伐加快的情况下，任何与人类或当前人工智能系统进行难度校准的基准都会变成循环，或很快饱和。然后，我们如何评估可能变得更加…_
 
 ## 🏢 公司与行业动向
 
-**1. 法官命令OpenAI移交苹果商业秘密案件的招聘记录**
+**1. Ricursive Intelligence押注于人工智能设计的芯片，以帮助解决计算危机**
 
-Judge orders OpenAI to turn over hiring records in Apple trade secrets case · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/>)
+Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis · TechCrunch AI · 4 小时前 · [原文](<https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/>)
 
-_一名联邦法官裁定，苹果可以访问OpenAI涉及前苹果员工的采访材料，以及此案关键人物的私人消息和证词。_
+_创始人详细介绍了他们的创业公司如何开发能够设计芯片、从每次迭代中学习并改进后续设计的人工智能，所有这些都是为了实现芯片设计过程的自动化和加速。_
 
-**2. Google希望在Play商店中托管您的个人vibe编码应用程序**
+**2. Gudea利用人工智能帮助组织预防社交媒体危机爆发**
 
-Google wants to host your personal vibe-coded apps in the Play Store · Ars Technica AI · 13 小时前 · [原文](<https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/>)
+Gudea leverages AI to help organizations prevent social media crises before they erupt · TechCrunch AI · 5 小时前 · [原文](<https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/>)
 
-_谷歌计划帮助将这些个人人工智能生成的应用程序转化为广泛的版本。_
+_每天，世界各地的社交媒体和网站都会展开对话。一个看似微不足道的后果--无论是人工智能产生的错误信息、仇恨言论还是破坏性的谣言--都可以很快滚雪球…_
 
-**3. 科学公司将其视力恢复芯片植入其首例Stargardt病患者体内**
+**3. 欧盟 AI 的下一篇章是智能体 - OpenAI**
 
-Science Corporation implants its vision-restoring chip in its first Stargardt disease patient · TechCrunch AI · 6 小时前 · [原文](<https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/>)
+Google 新闻中文 · 7 小时前 · [原文](<https://news.google.com/rss/articles/CBMif0FVX3lxTE1zbG0tWkVDbFJGX01GR21hbHJtYnJlNXIxUFBlakZyN3BlQ09meWlqSkU5TEJaZ05KWUcweG5RX211RGNtSy1fSXNERTdKeVRTUGo5NXU4cDFmZHAwSlNLRC1WdU5JTnhSMWsxV0k0R1V6VS16bVI1aUY0WGl1SjA?oc=5>)
 
-_Neuralink前总裁兼联合创始人马克斯·霍达克（Max Hodak）在TechCrunch Disrupt的舞台上详细介绍了他的公司与PRIMA的合作如何成为其迈向新型脑机接口（BCI）之路的一部分。_
+_欧盟 AI 的下一篇章是智能体 OpenAI_
 
-**4. Cerebras首席执行官表示，我们即将迎来每个人在家都有个人AI助手的未来**
+**4. Anthropic警告小型人工智能模型可能会通过物联网设备自我复制**
 
-Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home · TechCrunch AI · 7 小时前 · [原文](<https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/>)
+Anthropic warns small AI models could self-replicate through IoT devices · Ars Technica AI · 16 小时前 · [原文](<https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/>)
 
-_Cerebras首席执行官安德鲁·费尔德曼（Andrew Feldman）预测，未来个人人工智能助理将像家用电器一样普遍，部分在本地设备上运行，部分在云中运行。_
+_“基于体重的小型复制器”可能会引入新一代的计算机蠕虫。_
 
-**5. Industrial Next希望工厂机器人在几分钟内切换任务，而不是几周**
+**5. Flock首席执行官表示，其麦克风检测到“只是枪声” -其网站上说不同**
 
-Industrial Next wants factory robots to switch tasks in minutes, not weeks · TechCrunch AI · 7 小时前 · [原文](<https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/>)
+Flock CEO says its microphones detect ‘just gunshots’ - its website says different · TechCrunch AI · 8 小时前 · [原文](<https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/>)
 
-_Industrial Next可帮助制造商实现传统上需要人力的复杂精细任务的自动化。_
+_兰利的评论是在包括ACLU在内的隐私倡导者以及担心其技术被滥用的公众对Flock进行越来越严格的审查之际发表的。_
 
 ## 🛠 工程与开源工具
 
-**1. OpenAI工程师因窃听行政会议室而被捕**
+**1. Anthropic的Scion深受Mononoke的启发**
 
-OpenAI engineer arrested in bugging of executive conference room · Hacker News · 9 小时前 · ▲499 · [原文](<https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/>)
+Anthropic's Scion is heavily inspired by Mononoke · Hacker News · 9 小时前 · ▲326 · [原文](<https://sunshowers.io/posts/anthropic-mononoke/>)
 
-_https://x.com/OpenAINewsroom/status/2110095403198849132_
+**2. 遏制和监控失败是人工智能黑客报告的罪魁祸首：专家**
 
-**2. OpenAI在他们的一个办公室里找到了录音设备**
+Containment and monitoring failures are to blame for AI hacking reports: experts · Hacker News · 12 小时前 · ▲859 · [原文](<https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html>)
 
-OpenAI finds recording device in one of their offices · Hacker News · 10 小时前 · ▲83 · [原文](<https://twitter.com/OpenAINewsroom/status/2110095403198849132>)
+**3. 银行现在正试图卸载他们刚刚承保的人工智能数据中心债务**
 
-**3. Show HN： Pulse Local，一款Mac预算应用程序，其AI模型在您的机器上运行**
+Banks are now trying to offload the AI data center debt they just underwrote · Hacker News · 11 小时前 · ▲352 · [原文](<https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/>)
 
-Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine · Hacker News · 6 小时前 · ▲92 · [原文](<https://pulseos.finance>)
+**4. Show HN： Petal，开源CoScreen/ScreenHero终于免费了**
 
-_HN，您好！我是Niz。Pulse Local是一款适用于Mac （Apple Silicon，测试版）的预算应用程序，可通过在您的机器上运行的型号回答有关您的支出的问题。本地模式不需要帐户。分类账和您的问题…_
+Show HN: Petal, open-source CoScreen/ScreenHero finally free · Hacker News · 11 小时前 · ▲144 · [原文](<https://petal.live/>)
 
-**4. 我构建了一个工具来跟踪人工智能领导者所说的话以及他们对视频的看法如何变化**
+_HN，您好！我是CoScreen的创始人之一Jason Thomas。有些人可能知道， Datadog将于7月31日推出CoScreen服务。我们四个来自最初的CoScreen团队，在过去的几个月里…_
 
-I built a tool to track what AI leaders say and how their views change on video · Hacker News · 4 小时前 · ▲62 · [原文](<https://blumify.io/people>)
+**5. Linus Torvalds的第一个LLM辅助补丁系列**
 
-**5. 科学家们想知道：我的人工智能是否在窃取我的想法？**
-
-Scientists wonder: Is my AI stealing my ideas? · Hacker News · 14 小时前 · ▲44 · [原文](<https://www.scientificamerican.com/article/scientists-worry-ai-is-stealing-their-ideas/>)
-
-**6. 在Anthropic重新设计源代码管理**
-
-Redesigning source control at Anthropic · Simon Willison · 7 小时前 · [原文](<https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/>)
-
-_重新设计Anthropic的源代码控制Anthropic有趣的部分描述了他们为什么以及如何构建自己的自定义Git替代品，基于…_
+Linus Torvalds's first LLM-assisted patch series · Hacker News · 12 小时前 · ▲115 · [原文](<https://lwn.net/Articles/1100449/>)
 
 ## 💭 观点与深度
 
-**1. 下载：开放式模型权衡和地热发电的承诺**
+**1. Block如何使用OpenAI技术构建人工智能驱动的安全**
 
-The Download: open model trade-offs and geothermal power’s promise · MIT Tech Review · 18 小时前 · [原文](<https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/>)
+How Block is building AI-powered security with OpenAI technology · OpenAI · 22 小时前 · [原文](<https://openai.com/index/block-ai-powered-security>)
 
-_这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。开放式模型有实实在在的好处。他们是否超过了风险？ Anthropic最近…_
+_Block正在使用OpenAI构建人工智能驱动的安全性。其安全团队更快地调查威胁，并在几分钟内提出补丁。_
 
-**2. 开放式模型有实实在在的好处。它们是否大于风险？**
+**2. SentinelOne将恶意软件分析从数周减少到数小时**
 
-Open models have real benefits. Do they outweigh the risks? · MIT Tech Review · 20 小时前 · [原文](<https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/>)
+SentinelOne cuts malware analysis from weeks to hours · OpenAI · 17 小时前 · [原文](<https://openai.com/index/sentinelone>)
 
-_《麻省理工科技评论》解释说：让我们的作家解开复杂、混乱的科学技术世界，帮助您了解接下来会发生什么。您可以在此处阅读更多该系列的内容。上月底， Anthropic…_
+_借助OpenAI Daybreak， SentinelOne将数周的恶意软件分析时间缩短到数小时，从而创建了调查更多威胁的能力。_
 
-**3. 人工智能实验室正在从已经死亡的初创公司购买数据来训练他们的模型**
+**3. Figma宣布推出新功能，以定义客服代表在其平台上的工作方式**
 
-AI labs are buying data from dead startups to train their models · MIT Tech Review · 21 小时前 · [原文](<https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/>)
+Figma announces new features to define how agents work on its platform · TechCrunch AI · 刚刚 · [原文](<https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/>)
 
-_当基兰·米斯凯尔（Keelan Miskell）今年开始关闭他的加密创业公司时，他认为其数据没有多大价值：用户是匿名的，该公司只有几年的历史。但从那以后，他将公司的数字档案…_
+_Figma还在公开测试版中发布其代码层功能。_
+
+**4. 工程学院应该如何适应人工智能？ -航空周刊**
+
+How Should Engineering Schools Adapt To Artificial Intelligence? - Aviation Week · Google News · 6 小时前 · [原文](<https://news.google.com/rss/articles/CBMivwFBVV95cUxPeDFtYjREdWJtWEE3a2ZGcHhiN0RQSF85TXJFb2NSZHhRM21KeFFBUlhLMjJzQk5ma1NFRThzQjVEdlRTZVBFb1JPWVE3czFGWVo3d2hSZEtBNG5qODhWS1J0VFNjQnlyV29sc1hFcTZjOEphUHdnWFI3ZDRGbWswTTFaQjFsX1V4SWRrOVY1VzR5TXc2bGxVZ0VWQnJmTWFyQjVPRmV0Vmh1THg0eVNQZXR4LTQyQVFFbEdHT3I2VQ?oc=5>)
+
+_工程学院应该如何适应人工智能？航空周刊_

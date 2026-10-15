@@ -1,0 +1,307 @@
+{
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T05:24:21.946Z",
+  "windowHours": 36,
+  "sourcesTotal": 13,
+  "sourcesOk": 13,
+  "sourcesFailed": [],
+  "itemCount": 22,
+  "translatedCount": 19,
+  "sections": [
+    {
+      "key": "model",
+      "label": "🚀 模型与产品发布",
+      "items": [
+        {
+          "title": "Amp puts AI agents to work beyond code with OpenAI models",
+          "titleZh": "AMP让人工智能代理能够使用OpenAI模型进行超越代码的工作",
+          "url": "https://openai.com/index/amp-beyond-coding",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+          "summaryZh": "了解Amp如何突破客服代表使用GPT-6 Astra、Ultrafast、GPT-Live-1和ChatGPT登录所能做的事情。",
+          "published": "2026-10-14T12:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Developing Gemini 4 Argon responsibly and safely",
+          "titleZh": "负责任和安全地开发Gemini 4 Argon",
+          "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+          "source": "Google DeepMind",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-13T19:43:07.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+          "titleZh": "Google DeepMind与新加坡政府合作构建用于诈骗检测的微调AI模型",
+          "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+          "source": "Google DeepMind",
+          "alsoOn": [],
+          "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+          "summaryZh": "了解Google DeepMind和新加坡GovTech如何使用轻量级设备上的Gemma模型来拦截私人聊天中的会话诈骗，并且没有云数据流出。",
+          "published": "2026-10-14T02:00:14.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "llm-gemini 0.35",
+          "titleZh": "",
+          "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+          "source": "Simon Willison",
+          "alsoOn": [],
+          "summary": "Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans . As expected, they are all excellent: Gemini has a track record of producing great SVGs, and are the only lab where I know their staff have invested in SVG specifically (and who have boasted about their pelicans before.) Here's the \"high\" illustration, which cost me 17.166 cents: The pricing is interesting. At launch, Argon is $2/million input and $10/million output - the same price as GPT-6 Sol, half the price of Claude Opus 5.5 and 1/5th the price of Claude Fable 5.1 and GPT-6 Astra. But on December 1st Argon is set to double in price - so it will be the same price as Opus 5.5. Prices like this aren't really comparable these days since what really matters is how many tokens a model takes to achieve a goal within an agentic harness. One useful clue for that comes from Artificial Analysis, who publish the total cost to run their benchmark using each model. Argon is looking very good there - costing $2,407 to run the benchmark, putting it close to GLM-5.3 and significantly cheaper than OpenAI, Anthropic, and Meta's latest models. When the price doubles it will still be a little cheaper than GPT-6 Astra. (I used ChatGPT to edit that chart ! The data is all correct, I checked - I needed to get that Gemini 4 Argon info box to display without overlapping the other numbers.) Some bonus examples using Gemini 4 Argon: here's Generate an SVG of an armadillo in fishnet tights jaywalking on Mars , here's a Fabergé egg it created for me using Blender, and DeepMind staffer @fofrAI shared a video of a pelican riding a bike, using fourier epicycles . That's a fun new twist! Tags: google , ai , generative-ai , llms , llm , gemini , llm-pricing , pelican-riding-a-bicycle , llm-release",
+          "summaryZh": "版本： llm-gemini 0.35我为llm-gemini添加了对新型Gemini 4 Argon型号的支持，该型号今天通过Gemini API提供，并适用于其$ 100/月订阅计划的客户。这里是低，中和高…",
+          "published": "2026-10-13T22:28:54.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "research",
+      "label": "🔬 研究前沿",
+      "items": [
+        {
+          "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+          "titleZh": "Third Moment Research如何在超过36小时的时间内运行10,000名客服代表",
+          "url": "https://openai.com/index/third-moment-research",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+          "summaryZh": "这个人工智能实验室使用GPT-6 Astra和GPT-6.1 Sol、Codex和Daybreak进行网络安全，构建了专注于数天并随着使用而改进的代理。",
+          "published": "2026-10-14T07:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
+          "titleZh": "隐藏在绝密OpenAI会议室卫生纸中的录音设备",
+          "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
+          "source": "Ars Technica AI",
+          "alsoOn": [],
+          "summary": "OpenAI engineer faces 5 years and $250K fine as FBI lobs foreign spy charges.",
+          "summaryZh": "由于联邦调查局对外国间谍的指控， OpenAI工程师面临5年监禁和25万美元的罚款。",
+          "published": "2026-10-14T16:41:49.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "人民日报｜人工智能如何赋能基础研究 - 人民网－江苏频道",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9QQWpPcmhQV01ZUzVWbXhVYkNwdGtMLXgyazdxclI2S2dNdlhMc3M0TEJETlZndnc0NlFhNUZoWnkxcmlDREFSUFpOV0VQcGxrcy13dWVsTEtYRDlHam5NVTR4cnlpbTczWGc?oc=5",
+          "source": "Google 新闻中文",
+          "alsoOn": [],
+          "summary": "人民日报｜人工智能如何赋能基础研究 人民网－江苏频道",
+          "summaryZh": "",
+          "published": "2026-10-15T02:43:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
+          "titleZh": "人工性的第一次考试：超智能的LLM引用C检验",
+          "url": "https://arxiv.org/abs/2610.14005",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than the current machines and the people who write the tests? One answer to the question hinges on inverse problems, inductive inference questions for which difficulty depends on the complexity of the underlying mechanism, given the observations and the previous knowledge. Levin's Kt, a computable variant of Kolmogorov complexity, puts a theoretical upper bound to that difficulty, balancing the simplest representation encoding for the mechanism and the logarithm of the time steps to run that mechanism. Previous tests derived from Levin's Kt, such as the original C-test, are based on minimalistic Universal Turing Machines (UTM), capable of very limited representations and no previous knowledge. Reasoning large language models (LLM) are UTMs that capture a compendium of human culture as knowledge, using prompts as natural language programs. This paper presents the first test based on Levin's Kt with LLMs as representational machines. Fresh test items can be produced at high difficulties, estimated in a ratio scale measured in bits, before any human or frontier model can solve them. We formalise the measure, devise a lightweight generation and certification pipeline, explore the effect of the power of the reference machine and the gap between examiner and examinee. We produce a first battery of certified items administered to twelve LLMs. The resulting agent characteristic curves decrease with difficulty, down to the uncharted high-difficulty region, the supra-intelligence window of items we can certify, yet beyond generations of frontier intelligence.",
+          "summaryZh": "在人工智能发展步伐加快的情况下，任何与人类或当前人工智能系统进行难度校准的基准都会变成循环，或很快饱和。然后，我们如何评估可能变得更加…",
+          "published": "2026-10-15T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "label": "🏢 公司与行业动向",
+      "items": [
+        {
+          "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
+          "titleZh": "Ricursive Intelligence押注于人工智能设计的芯片，以帮助解决计算危机",
+          "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "The founders detailed how their startup is developing AI that can design chips, learn from each iteration, and improve subsequent designs, all with the goal of automating and accelerating the chip design process.",
+          "summaryZh": "创始人详细介绍了他们的创业公司如何开发能够设计芯片、从每次迭代中学习并改进后续设计的人工智能，所有这些都是为了实现芯片设计过程的自动化和加速。",
+          "published": "2026-10-15T01:01:32.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
+          "titleZh": "Gudea利用人工智能帮助组织预防社交媒体危机爆发",
+          "url": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Every day, conversations unfold across social media and websites around the world. A seemingly insignificant post-whether it involves AI-generated misinformation, hate speech, or a damaging rumor-can quickly snowball into a much larger public controversy. Gudea, a company that tracks how stories and rumors spread online that describes itself as the “storm tracker for the internet,” […]",
+          "summaryZh": "每天，世界各地的社交媒体和网站都会展开对话。一个看似微不足道的后果--无论是人工智能产生的错误信息、仇恨言论还是破坏性的谣言--都可以很快滚雪球…",
+          "published": "2026-10-15T00:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "欧盟 AI 的下一篇章是智能体 - OpenAI",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zbG0tWkVDbFJGX01GR21hbHJtYnJlNXIxUFBlakZyN3BlQ09meWlqSkU5TEJaZ05KWUcweG5RX211RGNtSy1fSXNERTdKeVRTUGo5NXU4cDFmZHAwSlNLRC1WdU5JTnhSMWsxV0k0R1V6VS16bVI1aUY0WGl1SjA?oc=5",
+          "source": "Google 新闻中文",
+          "alsoOn": [],
+          "summary": "欧盟 AI 的下一篇章是智能体 OpenAI",
+          "summaryZh": "",
+          "published": "2026-10-14T22:20:18.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Anthropic warns small AI models could self-replicate through IoT devices",
+          "titleZh": "Anthropic警告小型人工智能模型可能会通过物联网设备自我复制",
+          "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
+          "source": "Ars Technica AI",
+          "alsoOn": [],
+          "summary": "\"Small weight-based replicators\" could usher in a new generation of computer worms.",
+          "summaryZh": "“基于体重的小型复制器”可能会引入新一代的计算机蠕虫。",
+          "published": "2026-10-14T12:55:06.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Flock CEO says its microphones detect ‘just gunshots’ - its website says different",
+          "titleZh": "Flock首席执行官表示，其麦克风检测到“只是枪声” -其网站上说不同",
+          "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Langley’s comments come amid mounting scrutiny of Flock from privacy advocates, including the ACLU, and members of the public who are concerned about the misuse of its technology.",
+          "summaryZh": "兰利的评论是在包括ACLU在内的隐私倡导者以及担心其技术被滥用的公众对Flock进行越来越严格的审查之际发表的。",
+          "published": "2026-10-14T21:30:33.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "eng",
+      "label": "🛠 工程与开源工具",
+      "items": [
+        {
+          "title": "Anthropic's Scion is heavily inspired by Mononoke",
+          "titleZh": "Anthropic的Scion深受Mononoke的启发",
+          "url": "https://sunshowers.io/posts/anthropic-mononoke/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-14T20:30:54.000Z",
+          "points": 326,
+          "discussion": "https://news.ycombinator.com/item?id=50094694"
+        },
+        {
+          "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+          "titleZh": "遏制和监控失败是人工智能黑客报告的罪魁祸首：专家",
+          "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-14T17:45:23.000Z",
+          "points": 859,
+          "discussion": "https://news.ycombinator.com/item?id=50091788"
+        },
+        {
+          "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+          "titleZh": "银行现在正试图卸载他们刚刚承保的人工智能数据中心债务",
+          "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-14T18:32:52.000Z",
+          "points": 352,
+          "discussion": "https://news.ycombinator.com/item?id=50092664"
+        },
+        {
+          "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
+          "titleZh": "Show HN： Petal，开源CoScreen/ScreenHero终于免费了",
+          "url": "https://petal.live/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "Hi HN! I’m Jason Thomas, one of the founders of CoScreen. As some of you may know, Datadog sunset the CoScreen service on July 31st. Four of us from the original CoScreen team have spent the last couple months building a free and open source pair programming tool inspired by those that came before us: It’s called Petal ( https://github.com/kiruna-labs/petal ) Some history first, because when we started CoScreen we had hoped to break the sad and established pattern of this industry. Screenhero was an exceptional tool that a lot of us loved for pairing. Multiple cursors, low latency, you could click your partner’s editor, and just start typing. It felt like magic while we had it. Then Slack bought it in 2015, and shut down the standalone app in December 2017. When Till, Max, and I started CoScreen, we were aware of this history, and wanted to build an even more magical collaboration and screen sharing experience: the entire concept was “throw a window from your laptop up on someone else’s screen, and start collaborating with zero friction.” Datadog acquired us in 2022, and thus began the great adventure of adapting our real-time technology into Datadog products, while also continue developing CoScreen as a standalone tool from the Datadog ecosystem. Datadog invested in the product for years and we’re thankful for that. But CoScreen itself proved, like so many other screen sharing tool acquisitions, to be too tangential from the customer base and core mission. We instead built other communication features in Datadog, the integrations with other video platforms, and also its wildly successful MCP server. We weren't the only ones. Around was bought by Miro and shut down in March 2025. Multi (formerly Remotion) was acqui-hired by OpenAI in 2024 and shut down about a month later. It's nearly always the same story: a small team builds something hard that people love, a platform buys it for the team or the feature, and the standalone product doesn't survive the integration. So we decided firmly to do things differently this time. Petal is completely free and open source and we aren't monetizing it. If we lose interest or get hit by a bus, you can self-host it or fork it, and nobody can sunset it on you. Honestly it's a love letter to everyone in this community that supported us, believed in us, and to liberate collaborative screen sharing from this vicious cycle. We hope through this we can help foster a large and vibrant community around innovating in this product sector. What Petal does: shared windows show up as real windows on your desktop, movable and resizable, not tiles in a grid. Several people can share at once, everyone gets a labeled cursor, and you can click into any shared window to type and scroll. Rooms are persistent, so you click once to join \"eng-sync\" instead of passing links around. It runs on macOS and Windows (Linux is next, this time for real and you can help us!), plus a web app. Media goes over LiveKit. You can use our hosted instance with zero config, or point the app at your own LiveKit server with one docker-compose if you want the traffic to stay on your network or even use an entirely different video backend if you want to. The part that still feels strange to us: CoScreen took almost six years to build. The first version of Petal took under eight weeks, from scratch, with frontier models like Fable and Astra doing a lot of the work. Real-time video and window capture is some of the most unforgiving code we have ever written, so we didn't expect that. We will do a proper writeup on what worked and what didn't, and are happy to answer questions about it here. Till, Darren, Max and I will be in the thread.",
+          "summaryZh": "HN，您好！我是CoScreen的创始人之一Jason Thomas。有些人可能知道， Datadog将于7月31日推出CoScreen服务。我们四个来自最初的CoScreen团队，在过去的几个月里…",
+          "published": "2026-10-14T18:23:14.000Z",
+          "points": 144,
+          "discussion": "https://news.ycombinator.com/item?id=50092470"
+        },
+        {
+          "title": "Linus Torvalds's first LLM-assisted patch series",
+          "titleZh": "Linus Torvalds的第一个LLM辅助补丁系列",
+          "url": "https://lwn.net/Articles/1100449/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-14T16:55:07.000Z",
+          "points": 115,
+          "discussion": "https://news.ycombinator.com/item?id=50090842"
+        }
+      ]
+    },
+    {
+      "key": "ideas",
+      "label": "💭 观点与深度",
+      "items": [
+        {
+          "title": "How Block is building AI-powered security with OpenAI technology",
+          "titleZh": "Block如何使用OpenAI技术构建人工智能驱动的安全",
+          "url": "https://openai.com/index/block-ai-powered-security",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+          "summaryZh": "Block正在使用OpenAI构建人工智能驱动的安全性。其安全团队更快地调查威胁，并在几分钟内提出补丁。",
+          "published": "2026-10-14T07:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "SentinelOne cuts malware analysis from weeks to hours",
+          "titleZh": "SentinelOne将恶意软件分析从数周减少到数小时",
+          "url": "https://openai.com/index/sentinelone",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+          "summaryZh": "借助OpenAI Daybreak， SentinelOne将数周的恶意软件分析时间缩短到数小时，从而创建了调查更多威胁的能力。",
+          "published": "2026-10-14T12:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Figma announces new features to define how agents work on its platform",
+          "titleZh": "Figma宣布推出新功能，以定义客服代表在其平台上的工作方式",
+          "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Figma is also releasing its code layers feature in open beta.",
+          "summaryZh": "Figma还在公开测试版中发布其代码层功能。",
+          "published": "2026-10-15T04:30:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "How Should Engineering Schools Adapt To Artificial Intelligence? - Aviation Week",
+          "titleZh": "工程学院应该如何适应人工智能？ -航空周刊",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeDFtYjREdWJtWEE3a2ZGcHhiN0RQSF85TXJFb2NSZHhRM21KeFFBUlhLMjJzQk5ma1NFRThzQjVEdlRTZVBFb1JPWVE3czFGWVo3d2hSZEtBNG5qODhWS1J0VFNjQnlyV29sc1hFcTZjOEphUHdnWFI3ZDRGbWswTTFaQjFsX1V4SWRrOVY1VzR5TXc2bGxVZ0VWQnJmTWFyQjVPRmV0Vmh1THg0eVNQZXR4LTQyQVFFbEdHT3I2VQ?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "How Should Engineering Schools Adapt To Artificial Intelligence? Aviation Week",
+          "summaryZh": "工程学院应该如何适应人工智能？航空周刊",
+          "published": "2026-10-14T23:44:22.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    }
+  ],
+  "markdown": "# 📰 AI 日报 · 2026-10-15\n\n> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 19 条已译\n\n## 🚀 模型与产品发布\n\n**1. AMP让人工智能代理能够使用OpenAI模型进行超越代码的工作**\n\nAmp puts AI agents to work beyond code with OpenAI models · OpenAI · 17 小时前 · [原文](<https://openai.com/index/amp-beyond-coding>)\n\n_了解Amp如何突破客服代表使用GPT-6 Astra、Ultrafast、GPT-Live-1和ChatGPT登录所能做的事情。_\n\n**2. 负责任和安全地开发Gemini 4 Argon**\n\nDeveloping Gemini 4 Argon responsibly and safely · Google DeepMind · 34 小时前 · [原文](<https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/>)\n\n**3. Google DeepMind与新加坡政府合作构建用于诈骗检测的微调AI模型**\n\nGoogle DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection · Google DeepMind · 27 小时前 · [原文](<https://deepmind.google/blog/on-device-ai-scam-detection-mddi/>)\n\n_了解Google DeepMind和新加坡GovTech如何使用轻量级设备上的Gemma模型来拦截私人聊天中的会话诈骗，并且没有云数据流出。_\n\n**4. llm-gemini 0.35**\n\nSimon Willison · 31 小时前 · [原文](<https://simonwillison.net/2026/Oct/13/llm-gemini/>)\n\n_版本： llm-gemini 0.35我为llm-gemini添加了对新型Gemini 4 Argon型号的支持，该型号今天通过Gemini API提供，并适用于其$ 100/月订阅计划的客户。这里是低，中和高…_\n\n## 🔬 研究前沿\n\n**1. Third Moment Research如何在超过36小时的时间内运行10,000名客服代表**\n\nHow Third Moment Research runs 10,000 agents for 36+ hours · OpenAI · 22 小时前 · [原文](<https://openai.com/index/third-moment-research>)\n\n_这个人工智能实验室使用GPT-6 Astra和GPT-6.1 Sol、Codex和Daybreak进行网络安全，构建了专注于数天并随着使用而改进的代理。_\n\n**2. 隐藏在绝密OpenAI会议室卫生纸中的录音设备**\n\nRecording device hidden in toilet paper found in top-secret OpenAI meeting room · Ars Technica AI · 13 小时前 · [原文](<https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/>)\n\n_由于联邦调查局对外国间谍的指控， OpenAI工程师面临5年监禁和25万美元的罚款。_\n\n**3. 人民日报｜人工智能如何赋能基础研究 - 人民网－江苏频道**\n\nGoogle 新闻中文 · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMiakFVX3lxTE9QQWpPcmhQV01ZUzVWbXhVYkNwdGtMLXgyazdxclI2S2dNdlhMc3M0TEJETlZndnc0NlFhNUZoWnkxcmlDREFSUFpOV0VQcGxrcy13dWVsTEtYRDlHam5NVTR4cnlpbTczWGc?oc=5>)\n\n_人民日报｜人工智能如何赋能基础研究 人民网－江苏频道_\n\n**4. 人工性的第一次考试：超智能的LLM引用C检验**\n\nArtificiality's First Exam: An LLM-Referenced C-test for Supraintelligence · arXiv cs.AI · 1 小时前 · [原文](<https://arxiv.org/abs/2610.14005>)\n\n_在人工智能发展步伐加快的情况下，任何与人类或当前人工智能系统进行难度校准的基准都会变成循环，或很快饱和。然后，我们如何评估可能变得更加…_\n\n## 🏢 公司与行业动向\n\n**1. Ricursive Intelligence押注于人工智能设计的芯片，以帮助解决计算危机**\n\nRicursive Intelligence is betting on AI-designed chips to help solve the compute crisis · TechCrunch AI · 4 小时前 · [原文](<https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/>)\n\n_创始人详细介绍了他们的创业公司如何开发能够设计芯片、从每次迭代中学习并改进后续设计的人工智能，所有这些都是为了实现芯片设计过程的自动化和加速。_\n\n**2. Gudea利用人工智能帮助组织预防社交媒体危机爆发**\n\nGudea leverages AI to help organizations prevent social media crises before they erupt · TechCrunch AI · 5 小时前 · [原文](<https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/>)\n\n_每天，世界各地的社交媒体和网站都会展开对话。一个看似微不足道的后果--无论是人工智能产生的错误信息、仇恨言论还是破坏性的谣言--都可以很快滚雪球…_\n\n**3. 欧盟 AI 的下一篇章是智能体 - OpenAI**\n\nGoogle 新闻中文 · 7 小时前 · [原文](<https://news.google.com/rss/articles/CBMif0FVX3lxTE1zbG0tWkVDbFJGX01GR21hbHJtYnJlNXIxUFBlakZyN3BlQ09meWlqSkU5TEJaZ05KWUcweG5RX211RGNtSy1fSXNERTdKeVRTUGo5NXU4cDFmZHAwSlNLRC1WdU5JTnhSMWsxV0k0R1V6VS16bVI1aUY0WGl1SjA?oc=5>)\n\n_欧盟 AI 的下一篇章是智能体 OpenAI_\n\n**4. Anthropic警告小型人工智能模型可能会通过物联网设备自我复制**\n\nAnthropic warns small AI models could self-replicate through IoT devices · Ars Technica AI · 16 小时前 · [原文](<https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/>)\n\n_“基于体重的小型复制器”可能会引入新一代的计算机蠕虫。_\n\n**5. Flock首席执行官表示，其麦克风检测到“只是枪声” -其网站上说不同**\n\nFlock CEO says its microphones detect ‘just gunshots’ - its website says different · TechCrunch AI · 8 小时前 · [原文](<https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/>)\n\n_兰利的评论是在包括ACLU在内的隐私倡导者以及担心其技术被滥用的公众对Flock进行越来越严格的审查之际发表的。_\n\n## 🛠 工程与开源工具\n\n**1. Anthropic的Scion深受Mononoke的启发**\n\nAnthropic's Scion is heavily inspired by Mononoke · Hacker News · 9 小时前 · ▲326 · [原文](<https://sunshowers.io/posts/anthropic-mononoke/>)\n\n**2. 遏制和监控失败是人工智能黑客报告的罪魁祸首：专家**\n\nContainment and monitoring failures are to blame for AI hacking reports: experts · Hacker News · 12 小时前 · ▲859 · [原文](<https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html>)\n\n**3. 银行现在正试图卸载他们刚刚承保的人工智能数据中心债务**\n\nBanks are now trying to offload the AI data center debt they just underwrote · Hacker News · 11 小时前 · ▲352 · [原文](<https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/>)\n\n**4. Show HN： Petal，开源CoScreen/ScreenHero终于免费了**\n\nShow HN: Petal, open-source CoScreen/ScreenHero finally free · Hacker News · 11 小时前 · ▲144 · [原文](<https://petal.live/>)\n\n_HN，您好！我是CoScreen的创始人之一Jason Thomas。有些人可能知道， Datadog将于7月31日推出CoScreen服务。我们四个来自最初的CoScreen团队，在过去的几个月里…_\n\n**5. Linus Torvalds的第一个LLM辅助补丁系列**\n\nLinus Torvalds's first LLM-assisted patch series · Hacker News · 12 小时前 · ▲115 · [原文](<https://lwn.net/Articles/1100449/>)\n\n## 💭 观点与深度\n\n**1. Block如何使用OpenAI技术构建人工智能驱动的安全**\n\nHow Block is building AI-powered security with OpenAI technology · OpenAI · 22 小时前 · [原文](<https://openai.com/index/block-ai-powered-security>)\n\n_Block正在使用OpenAI构建人工智能驱动的安全性。其安全团队更快地调查威胁，并在几分钟内提出补丁。_\n\n**2. SentinelOne将恶意软件分析从数周减少到数小时**\n\nSentinelOne cuts malware analysis from weeks to hours · OpenAI · 17 小时前 · [原文](<https://openai.com/index/sentinelone>)\n\n_借助OpenAI Daybreak， SentinelOne将数周的恶意软件分析时间缩短到数小时，从而创建了调查更多威胁的能力。_\n\n**3. Figma宣布推出新功能，以定义客服代表在其平台上的工作方式**\n\nFigma announces new features to define how agents work on its platform · TechCrunch AI · 刚刚 · [原文](<https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/>)\n\n_Figma还在公开测试版中发布其代码层功能。_\n\n**4. 工程学院应该如何适应人工智能？ -航空周刊**\n\nHow Should Engineering Schools Adapt To Artificial Intelligence? - Aviation Week · Google News · 6 小时前 · [原文](<https://news.google.com/rss/articles/CBMivwFBVV95cUxPeDFtYjREdWJtWEE3a2ZGcHhiN0RQSF85TXJFb2NSZHhRM21KeFFBUlhLMjJzQk5ma1NFRThzQjVEdlRTZVBFb1JPWVE3czFGWVo3d2hSZEtBNG5qODhWS1J0VFNjQnlyV29sc1hFcTZjOEphUHdnWFI3ZDRGbWswTTFaQjFsX1V4SWRrOVY1VzR5TXc2bGxVZ0VWQnJmTWFyQjVPRmV0Vmh1THg0eVNQZXR4LTQyQVFFbEdHT3I2VQ?oc=5>)\n\n_工程学院应该如何适应人工智能？航空周刊_\n"
+}
