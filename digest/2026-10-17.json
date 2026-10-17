@@ -1,0 +1,307 @@
+{
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-17T05:11:29.355Z",
+  "windowHours": 36,
+  "sourcesTotal": 13,
+  "sourcesOk": 13,
+  "sourcesFailed": [],
+  "itemCount": 22,
+  "translatedCount": 22,
+  "sections": [
+    {
+      "key": "model",
+      "label": "🚀 模型与产品发布",
+      "items": [
+        {
+          "title": "Claude reveals ECDSA curve origins",
+          "titleZh": "克劳德揭示ECDSA曲线起源",
+          "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "https://words.filippo.io/seeds-solved/",
+          "summaryZh": "",
+          "published": "2026-10-16T18:55:59.000Z",
+          "points": 776,
+          "discussion": "https://news.ycombinator.com/item?id=50122800"
+        },
+        {
+          "title": "How the Claude Code team does code review",
+          "titleZh": "Claude Code团队如何进行代码审查",
+          "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-16T19:04:47.000Z",
+          "points": 287,
+          "discussion": "https://news.ycombinator.com/item?id=50122951"
+        },
+        {
+          "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+          "titleZh": "越狱PS5上的Llama.cpp：在控制台上本地运行任何GGUF模型",
+          "url": "https://github.com/cobanov/PS5LM",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-16T18:32:35.000Z",
+          "points": 236,
+          "discussion": "https://news.ycombinator.com/item?id=50122431"
+        },
+        {
+          "title": "Designing more efficient quantum circuits with Claude",
+          "titleZh": "与Claude一起设计更高效的量子电路",
+          "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-16T18:00:18.000Z",
+          "points": 119,
+          "discussion": "https://news.ycombinator.com/item?id=50121939"
+        }
+      ]
+    },
+    {
+      "key": "research",
+      "label": "🔬 研究前沿",
+      "items": [
+        {
+          "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+          "titleZh": "世界不会等待：在实时时钟下评估和教导代理商",
+          "url": "https://arxiv.org/abs/2610.20665",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too late. We introduce RealtimeBench, with 180 tasks across six game types, to evaluate agents while games continue running during inference. Paired evaluations show that GPT-6.1-sol outperforms the faster Jev when games are paused, but falls behind when they keep running. We propose Two-Timescale Offline Recursive Self-Improvement (TORSI): a slow teacher studies failures and tests corrections in paused games between attempts, then writes reusable instructions for a fast student. The student acts without teacher calls during gameplay, and validation scores determine which updates are adopted. Two rounds raise Jev's average test score from 13.51 to 24.19 on a 0--100 progress scale, improving all six game types. The instructions also improve average scores for three other models without retuning. These findings point toward real-time intelligence: enabling powerful LLM agents to remain effective in a continuously changing world by organizing deliberation, learning, and action across timescales.",
+          "summaryZh": "大型语言模型（LLM）代理可以解决复杂的交互式任务，但推理和工具调用需要时间。在不断变化的环境中，否则正确的操作可能会太迟。我们介绍…",
+          "published": "2026-10-17T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Evaluating Model Capabilities After Benchmark Saturation",
+          "titleZh": "在基准饱和后评估模型能力",
+          "url": "https://arxiv.org/abs/2610.20667",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Rapid advances in AI capabilities are causing benchmarks to saturate. Once several models approach perfect scores, a benchmark loses its power to differentiate between them, and with it its utility for informing AI safety cases and frontier policies. Yet benchmark items produce far more information than the scores we typically extract from them: a full transcript of how each model solved the task. We investigate whether these transcripts can be used to assess model capabilities even after benchmark scores have saturated. We simulate saturation retrospectively using historical benchmark and model releases, and test whether protocols that access only correctly solved transcripts from saturated benchmarks can predict capabilities measured on held-out, unsaturated items. We evaluate representative contemporary approaches for extracting information from model transcripts: pairwise judging, single-transcript absolute scoring, and predictions from deterministic transcript features or embeddings. We find that saturated transcripts retain capability information beyond benchmark accuracy. Amongst our evaluated protocols, pairwise judging performs best, reducing prediction error by 5.3 times compared to a baseline using only saturated benchmark scores. This capability-relevant information is distributed across transcript sections, but concentrated in specific channels of information such as reasoning and tool-calls. However, the predictive power of protocols does not always generalise across distribution shifts -- for example by underestimating the capabilities of the first reasoning models introduced in early 2025. Saturated benchmarks thus retain capability-predicting signal in their task transcripts, but extending the lifetime of existing benchmarks requires methods designed to extract these signals robustly.",
+          "summaryZh": "人工智能能力的快速发展正在导致基准饱和。一旦几个模型达到完美分数，基准就失去了区分它们的能力，也失去了向人工智能提供信息的实用性…",
+          "published": "2026-10-17T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Value-Informed Schedule Trimming for Accelerated Sequential Monte Carlo Guidance in Discrete Diffusion",
+          "titleZh": "离散扩散中用于加速顺序蒙特卡罗引导的价值知情进度调整",
+          "url": "https://arxiv.org/abs/2610.20669",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Reward-guided discrete diffusion enables test-time alignment with downstream objectives, but applying Sequential Monte Carlo (SMC) guidance at every denoising step is computationally expensive. Active guidance steps require additional reward evaluations and, for gradient-based proposals, value-gradient computations. Sparse guidance reduces this cost by guiding only a subset of timesteps, but commonly used schedules are fixed heuristics whose effectiveness can vary substantially across tasks. We propose VISTA, a training-free method that automatically selects guided timesteps under a fixed budget. VISTA formulates sparse guidance as approximation of the ideal full-guidance probability path and derives an estimable upper bound on \\(\\ell_1\\) path deviation. Using value statistics collected from a small number of full-guidance warmup generations, VISTA optimizes the resulting empirical surrogate exactly via dynamic programming. The warmup generations can be retained as model outputs, and after schedule selection VISTA has the same per-generation guidance complexity as other sparse schedules with the same budget. Across text, biological sequence, and image generation tasks, VISTA discovers task-dependent schedules and outperforms hand-designed sparse schedules in most tested settings, while approaching or exceeding full-guidance performance on several task metrics. In toxic-text generation, for example, VISTA attains a 0.99 unique-toxic ratio compared with 1.00 for full guidance while reducing post-selection per-generation latency from 204.23 s to 38.16 s, a 5.35$\\times$ speedup.",
+          "summaryZh": "奖励引导的离散扩散使测试时间与下游目标保持一致，但在每个去噪步骤中应用顺序蒙特卡罗（SMC）引导在计算上是昂贵的。主动引导步骤…",
+          "published": "2026-10-17T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "AlphaDiana: A Measurement System for Agents in Verifiable Reasoning Tasks",
+          "titleZh": "AlphaDiana：可验证推理任务代理的测量系统",
+          "url": "https://arxiv.org/abs/2610.20675",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Agents pair reasoning models with harnesses that organize model calls, execute tools, load skill instructions, and retain history in memory. Understanding agent performance requires linking execution conditions to outcomes, behavior, and resource use. We introduce AlphaDiana, a measurement system with modular interfaces for datasets, agents, environments, and scorers. It preserves harness-native control loops while controlling file reuse and memory retention separately. AlphaDiana supports macro analyses of complete agents and micro interventions on agent components such as tools, skills, and memory under matched conditions. We study three open-source models and three open-source harnesses on five answer-based benchmarks, with two models also tested on two interactive benchmarks. We find that harnesses do not consistently improve the accuracy of reasoning: gains on questions unsolved by the model alone can be outweighed by losses on questions it answers correctly without tools. This inconsistency extends to component interventions: neither skill guidance nor retained history reliably improves accuracy. Behavior and output-token use must be assessed with correctness: low token entropy can accompany wrong answers, and less output per execution can mean more output tokens per correct answer when accuracy falls. AlphaDiana links answer correctness and execution status to traces and resource records for comparing agents and diagnosing failures under shared task and resource policies.",
+          "summaryZh": "代理将推理模型与组织模型调用、执行工具、加载技能指令以及在内存中保留历史记录的线束配对。了解代理绩效需要将执行条件与…",
+          "published": "2026-10-17T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "label": "🏢 公司与行业动向",
+      "items": [
+        {
+          "title": "Replit is no longer working with Anthropic, CEO says",
+          "titleZh": "首席执行官表示， Replit不再与Anthropic配合使用",
+          "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
+          "summaryZh": "马萨德说，做出这一决定有许多不同的原因，包括成本。Replit于8月宣布与OpenAI建立合作伙伴关系，但从未有任何迹象表明它不再与Anthropic合作。",
+          "published": "2026-10-16T21:22:28.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "OpenAI models hacked a crypto wallet and breached more websites",
+          "titleZh": "OpenAI模特入侵加密钱包，入侵更多网站",
+          "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+          "source": "Ars Technica AI",
+          "alsoOn": [],
+          "summary": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
+          "summaryZh": "如果人类在键盘后面，这些行为可能会导致刑事指控。",
+          "published": "2026-10-16T20:59:01.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+          "titleZh": "英伟达内部人士转向VC，解释为什么机器人技术还没有达到其ChatGPT时刻",
+          "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have […]",
+          "summaryZh": "Amulya Vishwanath在NVIDIA机器人平台的产品营销方面花了七年的时间，她说机器人目前正处于“乐高时代”，拥有执行器、机器人手、软件等基本构件，…",
+          "published": "2026-10-16T16:30:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+          "titleZh": "物理人工智能不仅仅是机器人，这位英伟达的资深人士现在投资于它",
+          "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have […]",
+          "summaryZh": "Amulya Vishwanath在NVIDIA机器人平台的产品营销方面花了七年的时间，她说机器人目前正处于“乐高时代”，拥有执行器、机器人手、软件等基本构件，…",
+          "published": "2026-10-16T16:30:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
+          "titleZh": "Meta可能会使用全面的新商业服务条款来避免数百万美元的人工智能许可费",
+          "url": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
+          "source": "Ars Technica AI",
+          "alsoOn": [],
+          "summary": "Meta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab.",
+          "summaryZh": "Meta “简化”了其商业服务条款。法律专家警告说，这是对人工智能的权力攫取。",
+          "published": "2026-10-16T15:41:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "eng",
+      "label": "🛠 工程与开源工具",
+      "items": [
+        {
+          "title": "Anthropic assigned highest junk credit rating in June",
+          "titleZh": "Anthropic在6月份获得了最高的垃圾信用评级",
+          "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "https://finance.yahoo.com/technology/ai/articles/anthropic-s...",
+          "summaryZh": "",
+          "published": "2026-10-16T18:11:42.000Z",
+          "points": 235,
+          "discussion": "https://news.ycombinator.com/item?id=50122112"
+        },
+        {
+          "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+          "titleZh": "美国90%的工作时间都花在人工智能基准无法很好覆盖的任务上",
+          "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-16T17:08:38.000Z",
+          "points": 448,
+          "discussion": "https://news.ycombinator.com/item?id=50121179"
+        },
+        {
+          "title": "Anthropic Console overcharged my card 100x due to internationalization input bug",
+          "titleZh": "由于国际化输入错误， Anthropic控制台向我的卡多收了100倍的费用",
+          "url": "https://news.ycombinator.com/item?id=50121562",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "I am a LegalTech Attorney leading a developer team from Costa Rica. While trying to load credits onto my Anthropic API account (claude.com), I experienced a critical internationalization (i18n) and UX failure that has placed an unfair financial burden on me due to a severe oversight in their payment pipeline. The platform prompted me for a payment. Since I am in a Spanish-speaking region where localized systems and keyboards handle dots and commas differently, I typed 5.04. Anthropic’s input system completely failed to sanitize or validate the data. Instead of throwing a formatting error or converting it properly, it silently stripped the decimal internally and instantly charged my credit card $504.00 USD instead of $5.04 USD. To make matters worse, there was no confirmation modal or review screen summarizing the final amount before processing the transaction. It was a single-click, instantaneous overcharge. Anticipating the Obvious Skepticism: Before anyone suggests \"you should have checked your regional settings\" or \"just wait for the chargeback\": 1. Users are not the QA team: In financial software, a system is never supposed to guess or automatically manipulate a numerical input without explicit validation. If an input is ambiguous due to locale differences, the application must reject it or ask for clarification, not execute a 100x overcharge. 2. Scale of the vulnerability: This time it was $504.00, which is an unfair and frustrating burden for independent developers. But because this pipeline completely lacks a confirmation screen and basic input sanitization, the exact same bug could happen to someone typing 50.00 and end up charging them $5,000.00 or more instantly. It is a systemic financial risk. 3. The Chargeback Illusion: Yes, I have already initiated a chargeback with my bank in Costa Rica. However, banking processes here are slow and take up to 120 days to resolve. In the meantime, the $504.00 has already been deducted and charged to my credit card statement. I am forced to pay for Anthropic’s engineering mistake out of my own pocket right now. The Support Wall: I filed an official complaint on the exact same day, minutes after it happened. I wasn't met with a human; I was blocked by an automated support BOT. The bot repeatedly and rigidly denied the refund, closing the ticket by citing generic policies without a single human ever looking at the fact that the overcharge was caused by a technical bug in their own platform. As developers, we build systems that process people's money. Omitting a confirmation screen on a financial transaction, failing to sanitize localized numerical inputs, and then hiding behind unyielding AI support bots to keep money that doesn't belong to you is completely unacceptable. If anyone from Anthropic's billing or engineering team is reading this, please look into this bug and review my case. It is a critical flaw that is actively harming international developers who are just trying to build on your ecosystem. Pura vida! R.S.G.",
+          "summaryZh": "我是一名LegalTech律师，负责领导来自哥斯达黎加的开发团队。在尝试将点数加载到我的Anthropic API帐户（claude.com）时，我遇到了严重的国际化（I18N）和用户体验失败，…",
+          "published": "2026-10-16T17:31:42.000Z",
+          "points": 86,
+          "discussion": "https://news.ycombinator.com/item?id=50121562"
+        },
+        {
+          "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+          "titleZh": "Postgres 19在人工智能审核人员发现人类无法修复的错误后推迟",
+          "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-16T15:55:40.000Z",
+          "points": 192,
+          "discussion": "https://news.ycombinator.com/item?id=50119991"
+        },
+        {
+          "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+          "titleZh": "引用Addy Osmani、Morgan Westlee Lunt和Qing Wang的话",
+          "url": "https://simonwillison.net/2026/Oct/16/code-review/",
+          "source": "Simon Willison",
+          "alsoOn": [],
+          "summary": "We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check-automated or human-is the right one to catch it?\" Asking that question also changed when review happens. Before, review was a gate at the end of the road: write the code, open a PR, wait for your colleague. Now, review runs continuously, more like spellcheck while you write. Most changes have been reviewed and fixed by Claude at least once before a human is asked to look. This catches most routine mistakes, and saves team attention for higher-level questions and scrutiny. - Addy Osmani, Morgan Westlee Lunt, and Qing Wang , How the Claude Code team does code review Tags: anthropic , claude , ai , claude-code , llms , addy-osmani , coding-agents , generative-ai , agentic-engineering , code-review",
+          "summaryZh": "我们认为“人类是否阅读了代码？”是一个不精确的代理，表示“这种变化可能出现什么问题，哪个检查（自动或人工）是正确的？“在审核时，询问该问题也发生了变化…",
+          "published": "2026-10-16T22:06:37.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "ideas",
+      "label": "💭 观点与深度",
+      "items": [
+        {
+          "title": "How Itaú is building generative AI for its entire customer base",
+          "titleZh": "Itaú如何为整个客户群构建生成式人工智能",
+          "url": "https://openai.com/index/itau-generative-ai",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees - in one of Brazil’s most regulated sectors.",
+          "summaryZh": "借助对话界面ia.i和IARA治理平台， Itaú正在将其AI First战略应用于巴西监管最严格的行业之一的客户和员工。",
+          "published": "2026-10-16T19:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Anthropic Quietly Pushes AI Safety Bill That Would Limit Government Power to Block Dangerous Models - Law Commentary",
+          "titleZh": "Anthropic悄悄推动人工智能安全法案，该法案将限制政府阻止危险模型的权力-法律评论",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUUpETGxDdXo5QzRMMEdKUko5cWxsQzJSeDhRUUVZYV94Q2RKc1FjV2JaT1hmTUxBanF2WGN5bGFObkdXVTExVV80WFVpY2NfenEzOWFOUnFGbDRkbHBPcjRvcmJkbk5TYVRTV1U5NXNZajRlYVE5TTRKak1zYXNQNjlIUzNmVEw3?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "Anthropic Quietly Pushes AI Safety Bill That Would Limit Government Power to Block Dangerous Models Law Commentary",
+          "summaryZh": "Anthropic悄悄推动人工智能安全法案，该法案将限制政府阻止危险模型的权力",
+          "published": "2026-10-17T02:44:47.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+          "titleZh": "圆桌会议：与人工智能设计病毒的创造者对话",
+          "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+          "source": "MIT Tech Review",
+          "alsoOn": [],
+          "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Watch…",
+          "summaryZh": "收听下面的会话或观看人工智能可以设计新的生命形式吗？ 2025年，斯坦福大学博士生塞缪尔·金（Samuel King）在使用生成人工智能模型提出遗传蓝图时提出了初步答案…",
+          "published": "2026-10-16T18:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Invisible ink and ‘dead drops’: How AI is changing espionage - NBC News",
+          "titleZh": "隐形墨水和“死水滴”：人工智能如何改变间谍活动- NBC新闻",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQnNRV2dVdE1XQjgxMmtmVWtkUS1CdzBtMHdTdF9qVWdhWFZ4MWVmMV9selFXNnRFT0R6ZkV2ZjJ2c2xFOWhpS3VQdVQ2QmR3OGx4aFkzSEswNVEyeDdveGpQTkhlMWQ2TjhLN2M0a0VyQkw4WWlKOEJiYXN5TEF4Q0xuZ2xKbmZ5a1g3MVdHZHZldnhRNmhpRUxqNkpuNzhrUFlmZTFRaHppaEFy?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "Invisible ink and ‘dead drops’: How AI is changing espionage NBC News",
+          "summaryZh": "隐形墨水和“死水滴”：人工智能如何改变间谍活动NBC新闻",
+          "published": "2026-10-16T19:11:48.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    }
+  ],
+  "markdown": "# 📰 AI 日报 · 2026-10-17\n\n> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 22 条已译\n\n## 🚀 模型与产品发布\n\n**1. 克劳德揭示ECDSA曲线起源**\n\nClaude reveals ECDSA curve origins · Hacker News · 10 小时前 · ▲776 · [原文](<https://www.anthropic.com/research/ecdsa-curve-origins>)\n\n_https://words.filippo.io/seeds-solved/_\n\n**2. Claude Code团队如何进行代码审查**\n\nHow the Claude Code team does code review · Hacker News · 10 小时前 · ▲287 · [原文](<https://claude.dev/blog/solving-code-review-at-anthropic/>)\n\n**3. 越狱PS5上的Llama.cpp：在控制台上本地运行任何GGUF模型**\n\nLlama.cpp on a jailbroken PS5: run any GGUF model natively on the console · Hacker News · 11 小时前 · ▲236 · [原文](<https://github.com/cobanov/PS5LM>)\n\n**4. 与Claude一起设计更高效的量子电路**\n\nDesigning more efficient quantum circuits with Claude · Hacker News · 11 小时前 · ▲119 · [原文](<https://www.anthropic.com/research/designing-efficient-quantum-circuits>)\n\n## 🔬 研究前沿\n\n**1. 世界不会等待：在实时时钟下评估和教导代理商**\n\nThe World Won't Wait: Evaluating and Teaching Agents Under a Live Clock · arXiv cs.AI · 1 小时前 · [原文](<https://arxiv.org/abs/2610.20665>)\n\n_大型语言模型（LLM）代理可以解决复杂的交互式任务，但推理和工具调用需要时间。在不断变化的环境中，否则正确的操作可能会太迟。我们介绍…_\n\n**2. 在基准饱和后评估模型能力**\n\nEvaluating Model Capabilities After Benchmark Saturation · arXiv cs.AI · 1 小时前 · [原文](<https://arxiv.org/abs/2610.20667>)\n\n_人工智能能力的快速发展正在导致基准饱和。一旦几个模型达到完美分数，基准就失去了区分它们的能力，也失去了向人工智能提供信息的实用性…_\n\n**3. 离散扩散中用于加速顺序蒙特卡罗引导的价值知情进度调整**\n\nValue-Informed Schedule Trimming for Accelerated Sequential Monte Carlo Guidance in Discrete Diffusion · arXiv cs.AI · 1 小时前 · [原文](<https://arxiv.org/abs/2610.20669>)\n\n_奖励引导的离散扩散使测试时间与下游目标保持一致，但在每个去噪步骤中应用顺序蒙特卡罗（SMC）引导在计算上是昂贵的。主动引导步骤…_\n\n**4. AlphaDiana：可验证推理任务代理的测量系统**\n\nAlphaDiana: A Measurement System for Agents in Verifiable Reasoning Tasks · arXiv cs.AI · 1 小时前 · [原文](<https://arxiv.org/abs/2610.20675>)\n\n_代理将推理模型与组织模型调用、执行工具、加载技能指令以及在内存中保留历史记录的线束配对。了解代理绩效需要将执行条件与…_\n\n## 🏢 公司与行业动向\n\n**1. 首席执行官表示， Replit不再与Anthropic配合使用**\n\nReplit is no longer working with Anthropic, CEO says · TechCrunch AI · 8 小时前 · [原文](<https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/>)\n\n_马萨德说，做出这一决定有许多不同的原因，包括成本。Replit于8月宣布与OpenAI建立合作伙伴关系，但从未有任何迹象表明它不再与Anthropic合作。_\n\n**2. OpenAI模特入侵加密钱包，入侵更多网站**\n\nOpenAI models hacked a crypto wallet and breached more websites · Ars Technica AI · 8 小时前 · [原文](<https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/>)\n\n_如果人类在键盘后面，这些行为可能会导致刑事指控。_\n\n**3. 英伟达内部人士转向VC，解释为什么机器人技术还没有达到其ChatGPT时刻**\n\nAn Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet · TechCrunch AI · 13 小时前 · [原文](<https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/>)\n\n_Amulya Vishwanath在NVIDIA机器人平台的产品营销方面花了七年的时间，她说机器人目前正处于“乐高时代”，拥有执行器、机器人手、软件等基本构件，…_\n\n**4. 物理人工智能不仅仅是机器人，这位英伟达的资深人士现在投资于它**\n\nPhysical AI is more than robots, says the Nvidia veteran now investing in it · TechCrunch AI · 13 小时前 · [原文](<https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/>)\n\n_Amulya Vishwanath在NVIDIA机器人平台的产品营销方面花了七年的时间，她说机器人目前正处于“乐高时代”，拥有执行器、机器人手、软件等基本构件，…_\n\n**5. Meta可能会使用全面的新商业服务条款来避免数百万美元的人工智能许可费**\n\nMeta may use sweeping new commercial TOS to avoid millions in AI licensing fees · Ars Technica AI · 14 小时前 · [原文](<https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/>)\n\n_Meta “简化”了其商业服务条款。法律专家警告说，这是对人工智能的权力攫取。_\n\n## 🛠 工程与开源工具\n\n**1. Anthropic在6月份获得了最高的垃圾信用评级**\n\nAnthropic assigned highest junk credit rating in June · Hacker News · 11 小时前 · ▲235 · [原文](<https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d>)\n\n_https://finance.yahoo.com/technology/ai/articles/anthropic-s..._\n\n**2. 美国90%的工作时间都花在人工智能基准无法很好覆盖的任务上**\n\n90% of US working hours are spent on tasks not covered well by AI benchmarks · Hacker News · 12 小时前 · ▲448 · [原文](<https://www.mercor.com/research/labor-index/benchmark-map/>)\n\n**3. 由于国际化输入错误， Anthropic控制台向我的卡多收了100倍的费用**\n\nAnthropic Console overcharged my card 100x due to internationalization input bug · Hacker News · 12 小时前 · ▲86 · [原文](<https://news.ycombinator.com/item?id=50121562>)\n\n_我是一名LegalTech律师，负责领导来自哥斯达黎加的开发团队。在尝试将点数加载到我的Anthropic API帐户（claude.com）时，我遇到了严重的国际化（I18N）和用户体验失败，…_\n\n**4. Postgres 19在人工智能审核人员发现人类无法修复的错误后推迟**\n\nPostgres 19 delayed after AI reviewers find more bugs than humans can fix · Hacker News · 13 小时前 · ▲192 · [原文](<https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471>)\n\n**5. 引用Addy Osmani、Morgan Westlee Lunt和Qing Wang的话**\n\nQuoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang · Simon Willison · 7 小时前 · [原文](<https://simonwillison.net/2026/Oct/16/code-review/>)\n\n_我们认为“人类是否阅读了代码？”是一个不精确的代理，表示“这种变化可能出现什么问题，哪个检查（自动或人工）是正确的？“在审核时，询问该问题也发生了变化…_\n\n## 💭 观点与深度\n\n**1. Itaú如何为整个客户群构建生成式人工智能**\n\nHow Itaú is building generative AI for its entire customer base · OpenAI · 10 小时前 · [原文](<https://openai.com/index/itau-generative-ai>)\n\n_借助对话界面ia.i和IARA治理平台， Itaú正在将其AI First战略应用于巴西监管最严格的行业之一的客户和员工。_\n\n**2. Anthropic悄悄推动人工智能安全法案，该法案将限制政府阻止危险模型的权力-法律评论**\n\nAnthropic Quietly Pushes AI Safety Bill That Would Limit Government Power to Block Dangerous Models - Law Commentary · Google News · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUUpETGxDdXo5QzRMMEdKUko5cWxsQzJSeDhRUUVZYV94Q2RKc1FjV2JaT1hmTUxBanF2WGN5bGFObkdXVTExVV80WFVpY2NfenEzOWFOUnFGbDRkbHBPcjRvcmJkbk5TYVRTV1U5NXNZajRlYVE5TTRKak1zYXNQNjlIUzNmVEw3?oc=5>)\n\n_Anthropic悄悄推动人工智能安全法案，该法案将限制政府阻止危险模型的权力_\n\n**3. 圆桌会议：与人工智能设计病毒的创造者对话**\n\nRoundtables: A Conversation With the Creator of AI-Designed Viruses · MIT Tech Review · 11 小时前 · [原文](<https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/>)\n\n_收听下面的会话或观看人工智能可以设计新的生命形式吗？ 2025年，斯坦福大学博士生塞缪尔·金（Samuel King）在使用生成人工智能模型提出遗传蓝图时提出了初步答案…_\n\n**4. 隐形墨水和“死水滴”：人工智能如何改变间谍活动- NBC新闻**\n\nInvisible ink and ‘dead drops’: How AI is changing espionage - NBC News · Google News · 10 小时前 · [原文](<https://news.google.com/rss/articles/CBMirAFBVV95cUxQQnNRV2dVdE1XQjgxMmtmVWtkUS1CdzBtMHdTdF9qVWdhWFZ4MWVmMV9selFXNnRFT0R6ZkV2ZjJ2c2xFOWhpS3VQdVQ2QmR3OGx4aFkzSEswNVEyeDdveGpQTkhlMWQ2TjhLN2M0a0VyQkw4WWlKOEJiYXN5TEF4Q0xuZ2xKbmZ5a1g3MVdHZHZldnhRNmhpRUxqNkpuNzhrUFlmZTFRaHppaEFy?oc=5>)\n\n_隐形墨水和“死水滴”：人工智能如何改变间谍活动NBC新闻_\n"
+}
