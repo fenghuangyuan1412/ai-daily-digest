@@ -1,0 +1,283 @@
+{
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-18T05:16:26.113Z",
+  "windowHours": 36,
+  "sourcesTotal": 13,
+  "sourcesOk": 13,
+  "sourcesFailed": [],
+  "itemCount": 20,
+  "translatedCount": 17,
+  "sections": [
+    {
+      "key": "model",
+      "label": "🚀 模型与产品发布",
+      "items": [
+        {
+          "title": "DeepSeek-v4.1-Flash-1017",
+          "titleZh": "",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+          "summaryZh": "",
+          "published": "2026-10-17T08:21:25.000Z",
+          "points": 775,
+          "discussion": "https://news.ycombinator.com/item?id=50129045"
+        },
+        {
+          "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+          "titleZh": "DeepSeek： DeepSeek v4.1 Flash 1017",
+          "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-17T08:37:46.000Z",
+          "points": 513,
+          "discussion": "https://news.ycombinator.com/item?id=50129121"
+        },
+        {
+          "title": "How the Claude Code team does code review",
+          "titleZh": "Claude Code团队如何进行代码审查",
+          "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-16T19:04:47.000Z",
+          "points": 457,
+          "discussion": "https://news.ycombinator.com/item?id=50122951"
+        },
+        {
+          "title": "Claude reveals ECDSA curve origins",
+          "titleZh": "克劳德揭示ECDSA曲线起源",
+          "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "https://words.filippo.io/seeds-solved/",
+          "summaryZh": "",
+          "published": "2026-10-16T18:55:59.000Z",
+          "points": 1028,
+          "discussion": "https://news.ycombinator.com/item?id=50122800"
+        }
+      ]
+    },
+    {
+      "key": "research",
+      "label": "🔬 研究前沿",
+      "items": [
+        {
+          "title": "Epstein gave $100K to UNM for artificial intelligence research in 2001 - Santa Fe New Mexican",
+          "titleZh": "爱泼斯坦在2001年向UNM捐赠了10万美元用于人工智能研究-圣达菲新墨西哥",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPRUFHdGRMNnJYSjI1U2lqRF9IeTF0MjRTQTdPanVkMV9sRW16RmFvTnBpSXdxSWVtbFc0T0NvSU1Rek5PeGhEY1JNRGlWYTVtSG4wbjM4bk5FSFBVdTQ2aC1wa2FVZ3h0NVlTejZUUTByeEZIb3BMSlpvMmZYM094ZE5BZUQ4Um5mR0NFeW9Cc0JBaXRoVmxGMzV4N1RCMVZyQkVuZ3I3VEk2anVEc1Q4dUVpYzRrUTltNmlXcGZVM1dKN2lWUnI2cWVZclNwQ0p4YUhDOW5uNFpzVFA1cWppcUgxN0lCVnVhZU9URk9TbV9xeGs2ZTVGVXhuRE9aUQ?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "Epstein gave $100K to UNM for artificial intelligence research in 2001 Santa Fe New Mexican",
+          "summaryZh": "爱泼斯坦在2001年向UNM捐赠了10万美元用于新墨西哥州圣达菲的人工智能研究",
+          "published": "2026-10-18T00:30:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "label": "🏢 公司与行业动向",
+      "items": [
+        {
+          "title": "Meta removes language that raised scraping and AI training concerns",
+          "titleZh": "Meta删除了引起抓取和人工智能培训问题的语言",
+          "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+          "summaryZh": "Meta发言人坚称，更新后的条款并未反映Meta爬网方式的变化。",
+          "published": "2026-10-17T21:31:32.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+          "titleZh": "Anthropic表示，其员工队伍已经变得不那么初级了，并且在会议上花费了更多的时间",
+          "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
+          "summaryZh": "过去一年， Anthropic的员工构成和工作类型发生了重大变化。",
+          "published": "2026-10-17T20:21:19.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+          "titleZh": "首席执行官表示， Replit使OpenAI成为Anthropic的默认值",
+          "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+          "summaryZh": "上周末， Masad澄清说， OpenAI将取代Anthropic作为其默认模型提供商。Claude仍将向平台上的客户提供服务。",
+          "published": "2026-10-17T18:48:08.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "AI rapidly improving, could vastly boost U.S. GDP, Anthropic's Clark tells policymakers - CNBC",
+          "titleZh": "Anthropic的克拉克告诉政策制定者：人工智能正在迅速发展，可能会极大地提振美国的GDP",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BOXg1cnVLam5kdlRzekpwZ2ppalNIaHlYU1poOW9IQlJUMDlOc09zX2RZU2NtckE0bE9KWW1hQ3VGS185MTdSaHNFYnBlYTg0UVY2V2xKWEZUbWlTLTJlX0tFU053c05kaW1heTNxT2nSAXZBVV95cUxNMjJTd05DdHhXYVlhNDdrTWdhTk5XYkpYbEFORE9QeFJZLXhIU21ISjV4akVoVUt4b0w3VHZuUzBnQ3gyQm5Ec2swaGJKMFlqbkRkcm5KcjI3QkFlR04tVHJSalZDQUl2WFJHSDhyUVVGeWpMT1NR?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "AI rapidly improving, could vastly boost U.S. GDP, Anthropic's Clark tells policymakers CNBC",
+          "summaryZh": "Anthropic的克拉克告诉政策制定者CNBC，人工智能正在迅速发展，可能会极大地提振美国的GDP",
+          "published": "2026-10-17T23:04:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "商务部原部长陈德铭：人类不会被人工智能替代，未来世界将是人的智能加上人工智能的社会 - 京报网",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZdTRmaWxnR2RoaHVaZmFHZkk0a0xkdnpyRG5OdktPVnlSS1BfQW9FTUhHZzJYNEJYZGN1cTFMRGloYkdJQ3F2Y3lMZ096NktnTWEta0lUaUZzZUtuSXc?oc=5",
+          "source": "Google 新闻中文",
+          "alsoOn": [],
+          "summary": "商务部原部长陈德铭：人类不会被人工智能替代，未来世界将是人的智能加上人工智能的社会 京报网",
+          "summaryZh": "",
+          "published": "2026-10-18T04:47:59.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Anthropic’s AI Safety Bill Has an Alarming Threshold for Government Action - Mother Jones",
+          "titleZh": "Anthropic的人工智能安全法案对政府行动有一个令人担忧的门槛-琼斯母亲",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNk85UDhheTRLWlR3YUtHQ2FjUnU2dVg5Q3dIa1Y4b1p5bS1XajV1REJSMWotUUN4XzZLZGNIajBmRm45M0p5aTdBb0p3R082SHJFNVVXcFRKXzZBZGJsRURfWXhBNmRNdEJYYnJsaGVGM3ZNSXV5UE1NSkZTS0hSU2FsSS1nUVBnSGtBdGk2Sm11S0xqUkZNT3dRTDNTNVpwel9lS0pycU9jZHkxZUFRb1FCemdJdDdKUkhr?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "Anthropic’s AI Safety Bill Has an Alarming Threshold for Government Action Mother Jones",
+          "summaryZh": "Anthropic的人工智能安全法案对政府行动母亲琼斯有一个惊人的门槛",
+          "published": "2026-10-17T19:21:24.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "eng",
+      "label": "🛠 工程与开源工具",
+      "items": [
+        {
+          "title": "OpenAI discloses four more rogue incidents",
+          "titleZh": "OpenAI披露了另外四起流氓事件",
+          "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-17T16:31:12.000Z",
+          "points": 123,
+          "discussion": "https://news.ycombinator.com/item?id=50132502"
+        },
+        {
+          "title": "Amazon uses AI to monitor union risk in UK warehouses",
+          "titleZh": "亚马逊使用人工智能监控英国仓库的工会风险",
+          "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-17T16:04:23.000Z",
+          "points": 157,
+          "discussion": "https://news.ycombinator.com/item?id=50132278"
+        },
+        {
+          "title": "Pattern matching beats narrative reasoning",
+          "titleZh": "模式匹配胜过叙事推理",
+          "url": "https://blog.scottstevenson.net/p/pattern-matching-beats-narrative",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-17T18:34:13.000Z",
+          "points": 49,
+          "discussion": "https://news.ycombinator.com/item?id=50133736"
+        },
+        {
+          "title": "Inline rendering with document​.currentScript",
+          "titleZh": "文档.currentScript的内联渲染",
+          "url": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
+          "source": "Simon Willison",
+          "alsoOn": [],
+          "summary": "Inline rendering with document​.currentScript Lean Rada describes a neat trick that takes advantage of the document.currentScript property. You can use that to drop in a tiny inline <script> element that replaces itself when the page loads: The year is <script> document.currentScript.replaceWith( new Date().getFullYear())</script> If you define a shortcut function like this: $=(...n)=>document.currentScript.replaceWith(...n) You get a tiny template language: The year is <script>$(new Date().getFullYear())</script> Tags: javascript",
+          "summaryZh": "使用document .currentScript Lean Rada的内联渲染描述了一个利用document.currentScript属性的巧妙技巧。您可以使用它来放入一个<script>替换自身的微小内联元素…",
+          "published": "2026-10-17T21:11:12.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "web-edit 0.1a2",
+          "titleZh": "",
+          "url": "https://simonwillison.net/2026/Oct/17/web-edit/",
+          "source": "Simon Willison",
+          "alsoOn": [],
+          "summary": "Release: web-edit 0.1a2 web-edit ( previously ) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale. I added a \"copy to clipboard\" option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here's DeepSeek 4.1 Flash 1017 ) and I wanted an easy way to copy the resulting logs into a Gist. Tags: projects , pelican-riding-a-bicycle , deepseek",
+          "summaryZh": "Release: web-edit 0.1a2 web-edit （以前）是我的小型Web应用程序，用于浏览和编辑文件夹中的文件。我主要构建它，用于通过Tailscale在不同机器上编辑文件。我添加了“复制到剪贴板”…",
+          "published": "2026-10-17T13:16:49.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+          "titleZh": "引用Addy Osmani、Morgan Westlee Lunt和Qing Wang的话",
+          "url": "https://simonwillison.net/2026/Oct/16/code-review/",
+          "source": "Simon Willison",
+          "alsoOn": [],
+          "summary": "We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check-automated or human-is the right one to catch it?\" Asking that question also changed when review happens. Before, review was a gate at the end of the road: write the code, open a PR, wait for your colleague. Now, review runs continuously, more like spellcheck while you write. Most changes have been reviewed and fixed by Claude at least once before a human is asked to look. This catches most routine mistakes, and saves team attention for higher-level questions and scrutiny. - Addy Osmani, Morgan Westlee Lunt, and Qing Wang , How the Claude Code team does code review Tags: anthropic , claude , ai , claude-code , llms , addy-osmani , coding-agents , generative-ai , agentic-engineering , code-review",
+          "summaryZh": "我们认为“人类是否阅读了代码？”是一个不精确的代理，表示“这种变化可能出现什么问题，哪个检查（自动或人工）是正确的？“在审核时，询问该问题也发生了变化…",
+          "published": "2026-10-16T22:06:37.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "ideas",
+      "label": "💭 观点与深度",
+      "items": [
+        {
+          "title": "Show HN: Llmspeed - feel how fast a local LLM runs before you buy the hardware",
+          "titleZh": "显示HN： Llmspeed -在购买硬件之前感受本地LLM的运行速度",
+          "url": "https://llmspeed.dev/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-17T04:36:53.000Z",
+          "points": 269,
+          "discussion": "https://news.ycombinator.com/item?id=50127979"
+        },
+        {
+          "title": "How Itaú is building generative AI for its entire customer base",
+          "titleZh": "Itaú如何为整个客户群构建生成式人工智能",
+          "url": "https://openai.com/index/itau-generative-ai",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees - in one of Brazil’s most regulated sectors.",
+          "summaryZh": "借助对话界面ia.i和IARA治理平台， Itaú正在将其AI First战略应用于巴西监管最严格的行业之一的客户和员工。",
+          "published": "2026-10-16T19:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+          "titleZh": "圆桌会议：与人工智能设计病毒的创造者对话",
+          "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+          "source": "MIT Tech Review",
+          "alsoOn": [],
+          "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Watch…",
+          "summaryZh": "收听下面的会话或观看人工智能可以设计新的生命形式吗？ 2025年，斯坦福大学博士生塞缪尔·金（Samuel King）在使用生成人工智能模型提出遗传蓝图时提出了初步答案…",
+          "published": "2026-10-16T18:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    }
+  ],
+  "markdown": "# 📰 AI 日报 · 2026-10-18\n\n> 20 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 17 条已译\n\n## 🚀 模型与产品发布\n\n**1. DeepSeek-v4.1-Flash-1017**\n\nHacker News · 21 小时前 · ▲775 · [原文](<https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017>)\n\n_https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017_\n\n**2. DeepSeek： DeepSeek v4.1 Flash 1017**\n\nDeepSeek: DeepSeek v4.1 Flash 1017 · Hacker News · 21 小时前 · ▲513 · [原文](<https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017>)\n\n**3. Claude Code团队如何进行代码审查**\n\nHow the Claude Code team does code review · Hacker News · 34 小时前 · ▲457 · [原文](<https://claude.dev/blog/solving-code-review-at-anthropic/>)\n\n**4. 克劳德揭示ECDSA曲线起源**\n\nClaude reveals ECDSA curve origins · Hacker News · 34 小时前 · ▲1028 · [原文](<https://www.anthropic.com/research/ecdsa-curve-origins>)\n\n_https://words.filippo.io/seeds-solved/_\n\n## 🔬 研究前沿\n\n**1. 爱泼斯坦在2001年向UNM捐赠了10万美元用于人工智能研究-圣达菲新墨西哥**\n\nEpstein gave $100K to UNM for artificial intelligence research in 2001 - Santa Fe New Mexican · Google News · 5 小时前 · [原文](<https://news.google.com/rss/articles/CBMi_gFBVV95cUxPRUFHdGRMNnJYSjI1U2lqRF9IeTF0MjRTQTdPanVkMV9sRW16RmFvTnBpSXdxSWVtbFc0T0NvSU1Rek5PeGhEY1JNRGlWYTVtSG4wbjM4bk5FSFBVdTQ2aC1wa2FVZ3h0NVlTejZUUTByeEZIb3BMSlpvMmZYM094ZE5BZUQ4Um5mR0NFeW9Cc0JBaXRoVmxGMzV4N1RCMVZyQkVuZ3I3VEk2anVEc1Q4dUVpYzRrUTltNmlXcGZVM1dKN2lWUnI2cWVZclNwQ0p4YUhDOW5uNFpzVFA1cWppcUgxN0lCVnVhZU9URk9TbV9xeGs2ZTVGVXhuRE9aUQ?oc=5>)\n\n_爱泼斯坦在2001年向UNM捐赠了10万美元用于新墨西哥州圣达菲的人工智能研究_\n\n## 🏢 公司与行业动向\n\n**1. Meta删除了引起抓取和人工智能培训问题的语言**\n\nMeta removes language that raised scraping and AI training concerns · TechCrunch AI · 8 小时前 · [原文](<https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/>)\n\n_Meta发言人坚称，更新后的条款并未反映Meta爬网方式的变化。_\n\n**2. Anthropic表示，其员工队伍已经变得不那么初级了，并且在会议上花费了更多的时间**\n\nAnthropic says its workforce has become less junior and is spending more time in meetings · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/>)\n\n_过去一年， Anthropic的员工构成和工作类型发生了重大变化。_\n\n**3. 首席执行官表示， Replit使OpenAI成为Anthropic的默认值**\n\nReplit makes OpenAI its default over Anthropic, CEO says · TechCrunch AI · 10 小时前 · [原文](<https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/>)\n\n_上周末， Masad澄清说， OpenAI将取代Anthropic作为其默认模型提供商。Claude仍将向平台上的客户提供服务。_\n\n**4. Anthropic的克拉克告诉政策制定者：人工智能正在迅速发展，可能会极大地提振美国的GDP**\n\nAI rapidly improving, could vastly boost U.S. GDP, Anthropic's Clark tells policymakers - CNBC · Google News · 6 小时前 · [原文](<https://news.google.com/rss/articles/CBMicEFVX3lxTE9BOXg1cnVLam5kdlRzekpwZ2ppalNIaHlYU1poOW9IQlJUMDlOc09zX2RZU2NtckE0bE9KWW1hQ3VGS185MTdSaHNFYnBlYTg0UVY2V2xKWEZUbWlTLTJlX0tFU053c05kaW1heTNxT2nSAXZBVV95cUxNMjJTd05DdHhXYVlhNDdrTWdhTk5XYkpYbEFORE9QeFJZLXhIU21ISjV4akVoVUt4b0w3VHZuUzBnQ3gyQm5Ec2swaGJKMFlqbkRkcm5KcjI3QkFlR04tVHJSalZDQUl2WFJHSDhyUVVGeWpMT1NR?oc=5>)\n\n_Anthropic的克拉克告诉政策制定者CNBC，人工智能正在迅速发展，可能会极大地提振美国的GDP_\n\n**5. 商务部原部长陈德铭：人类不会被人工智能替代，未来世界将是人的智能加上人工智能的社会 - 京报网**\n\nGoogle 新闻中文 · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZdTRmaWxnR2RoaHVaZmFHZkk0a0xkdnpyRG5OdktPVnlSS1BfQW9FTUhHZzJYNEJYZGN1cTFMRGloYkdJQ3F2Y3lMZ096NktnTWEta0lUaUZzZUtuSXc?oc=5>)\n\n_商务部原部长陈德铭：人类不会被人工智能替代，未来世界将是人的智能加上人工智能的社会 京报网_\n\n**6. Anthropic的人工智能安全法案对政府行动有一个令人担忧的门槛-琼斯母亲**\n\nAnthropic’s AI Safety Bill Has an Alarming Threshold for Government Action - Mother Jones · Google News · 10 小时前 · [原文](<https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNk85UDhheTRLWlR3YUtHQ2FjUnU2dVg5Q3dIa1Y4b1p5bS1XajV1REJSMWotUUN4XzZLZGNIajBmRm45M0p5aTdBb0p3R082SHJFNVVXcFRKXzZBZGJsRURfWXhBNmRNdEJYYnJsaGVGM3ZNSXV5UE1NSkZTS0hSU2FsSS1nUVBnSGtBdGk2Sm11S0xqUkZNT3dRTDNTNVpwel9lS0pycU9jZHkxZUFRb1FCemdJdDdKUkhr?oc=5>)\n\n_Anthropic的人工智能安全法案对政府行动母亲琼斯有一个惊人的门槛_\n\n## 🛠 工程与开源工具\n\n**1. OpenAI披露了另外四起流氓事件**\n\nOpenAI discloses four more rogue incidents · Hacker News · 13 小时前 · ▲123 · [原文](<https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/>)\n\n**2. 亚马逊使用人工智能监控英国仓库的工会风险**\n\nAmazon uses AI to monitor union risk in UK warehouses · Hacker News · 13 小时前 · ▲157 · [原文](<https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/>)\n\n**3. 模式匹配胜过叙事推理**\n\nPattern matching beats narrative reasoning · Hacker News · 11 小时前 · ▲49 · [原文](<https://blog.scottstevenson.net/p/pattern-matching-beats-narrative>)\n\n**4. 文档.currentScript的内联渲染**\n\nInline rendering with document​.currentScript · Simon Willison · 8 小时前 · [原文](<https://simonwillison.net/2026/Oct/17/document-currentscript/>)\n\n_使用document .currentScript Lean Rada的内联渲染描述了一个利用document.currentScript属性的巧妙技巧。您可以使用它来放入一个<script>替换自身的微小内联元素…_\n\n**5. web-edit 0.1a2**\n\nSimon Willison · 16 小时前 · [原文](<https://simonwillison.net/2026/Oct/17/web-edit/>)\n\n_Release: web-edit 0.1a2 web-edit （以前）是我的小型Web应用程序，用于浏览和编辑文件夹中的文件。我主要构建它，用于通过Tailscale在不同机器上编辑文件。我添加了“复制到剪贴板”…_\n\n**6. 引用Addy Osmani、Morgan Westlee Lunt和Qing Wang的话**\n\nQuoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang · Simon Willison · 31 小时前 · [原文](<https://simonwillison.net/2026/Oct/16/code-review/>)\n\n_我们认为“人类是否阅读了代码？”是一个不精确的代理，表示“这种变化可能出现什么问题，哪个检查（自动或人工）是正确的？“在审核时，询问该问题也发生了变化…_\n\n## 💭 观点与深度\n\n**1. 显示HN： Llmspeed -在购买硬件之前感受本地LLM的运行速度**\n\nShow HN: Llmspeed - feel how fast a local LLM runs before you buy the hardware · Hacker News · 25 小时前 · ▲269 · [原文](<https://llmspeed.dev/>)\n\n**2. Itaú如何为整个客户群构建生成式人工智能**\n\nHow Itaú is building generative AI for its entire customer base · OpenAI · 34 小时前 · [原文](<https://openai.com/index/itau-generative-ai>)\n\n_借助对话界面ia.i和IARA治理平台， Itaú正在将其AI First战略应用于巴西监管最严格的行业之一的客户和员工。_\n\n**3. 圆桌会议：与人工智能设计病毒的创造者对话**\n\nRoundtables: A Conversation With the Creator of AI-Designed Viruses · MIT Tech Review · 35 小时前 · [原文](<https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/>)\n\n_收听下面的会话或观看人工智能可以设计新的生命形式吗？ 2025年，斯坦福大学博士生塞缪尔·金（Samuel King）在使用生成人工智能模型提出遗传蓝图时提出了初步答案…_\n"
+}
