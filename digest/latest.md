@@ -1,135 +1,135 @@
-# 📰 AI 日报 · 2026-10-19
+# 📰 AI 日报 · 2026-10-20
 
-> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 18 条已译
+> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 22 条已译
 
 ## 🚀 模型与产品发布
 
-**1. DeepSeek v4.1 Flash 1017人工分析得分45分**
+**1. 根据新的国土安全部命令， DeepSeek被禁止进入美国联邦民事机构**
 
-DeepSeek v4.1 Flash 1017 scores 45 in Artificial Analysis · Hacker News · 刚刚 · ▲47 · [原文](<https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017>)
+DeepSeek banned from U.S. federal civilian agencies under new DHS order · Hacker News · 13 小时前 · ▲114 · [原文](<https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/>)
+
+_https://public-inspection.federalregister.gov/2026-21447.pdf_
+
+**2. CERN和Mistral签署了建立战略合作伙伴关系的意向声明**
+
+CERN and Mistral sign a statement of intent to establish a strategic partnership · Hacker News · 14 小时前 · ▲327 · [原文](<https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/>)
+
+**3. 美国命令每个民事机构拆除DeepSeek，甚至是在其上构建的工具**
+
+The US orders every civilian agency to rip out DeepSeek, even tools built on it · Hacker News · 11 小时前 · ▲66 · [原文](<https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/>)
+
+**4. Amazon Bedrock上Anthropic Claude模型的结构化输出- Amazon Web Services (AWS)**
+
+Structured outputs for Anthropic Claude models on Amazon Bedrock - Amazon Web Services (AWS) · Google News · 6 小时前 · [原文](<https://news.google.com/rss/articles/CBMisAFBVV95cUxQeGtQZ3VDNTRrRVNBTDA4ak5mUlBKUG1kdWpwWDJxQUx2UWxFMGw3Sk85MllYN1gyTENSZEcxa0RwZ2RXLTk5WlE0ejZPZWU0UzI5RVRmUnlLdXgwcjZBUUhEUnI5enprM2NPZVlhbXl6ZUhTVU4wZEpwMjc0SHlQME54Ri1NMk40UmF5bDBReHdEV0V6OWxXVnJVSl9nUkpsTGFQejBtU2tFeEliQXpvZw?oc=5>)
+
+_Amazon Bedrock Amazon Web Services (AWS)上Anthropic Claude模型的结构化输出_
 
 ## 🔬 研究前沿
 
-**1. 大型语言模型何时是良好的校准代理？预算工程模拟器校准的物理标签提示**
+**1. 风格翻译： GPT-4的开放式替代方案，实现文化一致的机器翻译**
 
-When is a large language model a good calibration agent? Physics-labeled prompting for budgeted engineering simulator calibration · arXiv cs.LG · 1 小时前 · [原文](<https://arxiv.org/abs/2610.22379>)
+Translating in style: An open-weight alternative to GPT-4 for culturally aligned machine translation · arXiv cs.CL · 2 小时前 · [原文](<https://arxiv.org/abs/2610.23868>)
 
-_校准昂贵的工程模拟器需要调整模型参数以匹配参考数据，这一过程受到计算成本的严重制约。本研究调查了大型语言模型（LLM），…_
+_机器翻译系统通常保留意义，但系统地扁平化语言风格，这是翻译成非西方语言时最严重的失败。Havaldar等人的RASTA框架（2025a）…_
 
-**2. 信任但验证：设计区域-离散扩散的非均匀正向动态**
+**2. GardenBench： LLM能力的轻量级日常评估**
 
-Trust but Verify: Designing Region-Inhomogeneous Forward Dynamics for Discrete Diffusion · arXiv cs.LG · 1 小时前 · [原文](<https://arxiv.org/abs/2610.22380>)
+GardenBench: A lightweight, daily evaluation of LLM capabilities · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.23866>)
 
-_连续扩散将前向过程视为一个设计空间；离散语言扩散通常使用吸收性腐败，在整个世代中留下完全可信的语境。这使得信任二进制文件：损坏…_
+_我们推出了GardenBench，这是一个包含11个测试套件的基准，用于评估大型语言模型（LLM）在一系列任务中的功能。通过系统地提示LLM使用各种轻量级查询，我们…_
 
-**3. 针对测试时间持续学习的绑定特定的重新学习节省**
+**3. 少做多做：第一原则探索代理计算相对于替代架构选择的适用性**
 
-Binding-Specific Relearning Savings for Test-Time Continual Learning · arXiv cs.LG · 1 小时前 · [原文](<https://arxiv.org/abs/2610.22381>)
+Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.23921>)
 
-_当从语言模型中引出事实变得更加困难时，模型是否失去了它，或者它只是变得不那么容易接近？参数更新测试时持续学习代理通常通过当前输出进行评估…_
+_由于代理人工智能（AI）看似易于使用，因此人们对自动化业务活动的兴趣日益浓厚。用更多资源做更少的事情从未如此容易，成本也从未如此高昂。然而，很少有…_
 
-**4. CGDT-CESN：用于多变量时间序列预测的关联引导和动态训练的聚类回波状态网络**
+**4. 循证诊断风险评分差异的受控LLM工作流程**
 
-CGDT-CESN: Correlation-Guided and Dynamics-Trained Clustered Echo State Network for Multivariate Time-Series Prediction · arXiv cs.LG · 1 小时前 · [原文](<https://arxiv.org/abs/2610.22430>)
+A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.23962>)
 
-_多变量时间序列的准确预测需要同时捕获变量特定动态和交叉变量相互作用的模型。在这项工作中，相关性引导和动态训练的聚类…_
+_我们提出了一个受控的大语言模型（LLM）工作流程，用于使用类似的历史交易来解释风险评分差异。工作流程结合了参考检索和对比SHapley Additive…_
 
-**5. BOLT：多瓶颈约束引导式学习，实现灵活的工作车间调度，具有时间延迟和资源耦合传输**
+**5. 社交媒体告诉我们关于累积人工智能风险的知识**
 
-BOLT: Multi-Bottleneck Bound-Guided Learning for Flexible Job-Shop Scheduling with Time Lags and Resource-Coupled Transport · arXiv cs.LG · 1 小时前 · [原文](<https://arxiv.org/abs/2610.22433>)
+What Social Media Teaches Us About Accumulative AI Risks · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.24006>)
 
-_当稀缺车队在车站之间移动作业时，灵活的作业车间调度变得与资源耦合，因为调度设置了运输等待。BOLT （Bound-oriented learning for transport-coupled）…_
+_突出的人工智能安全讨论强调存在的威胁和灾难性事件，例如人工智能引发的核冲突或工程生物爆发。这份立场文件认为，还有另一种类型的人工智能…_
 
 ## 🏢 公司与行业动向
 
-**1. Anthropic表示，它将其5 ％的股份承诺给“公益基金”**
+**1. 启动HN： Laminar (YC S24) -经过RL培训的模型，可查找客服代表追踪中的错误**
 
-Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’ · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/>)
+Launch HN: Laminar (YC S24) - RL-trained model that finds errors in agent traces · Hacker News · 14 小时前 · ▲49 · [原文](<https://news.ycombinator.com/item?id=50154029>)
 
-_Anthropic表示，它将向该基金承诺其5%的股份。_
+_HN，您好！我们是来自Laminar （https://laminar.sh）的Robert和Din。自2024年以来，我们一直在为人工智能代理构建开源可观察性。最近，我们发布了flow-1，这是一个使用RL训练的模型，用于查找客服代表中的错误…_
 
-**2. Anthropic为外部AI监管机构提供“类似员工”的访问权限**
+**2. 据报道， Nscale和Anthropic正在就另一笔450亿美元的计算机交易进行谈判**
 
-Anthropic gives outside AI watchdog “employee-like” access · Ars Technica AI · 13 小时前 · [原文](<https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/>)
+Nscale and Anthropic are reportedly in talks for yet another $45B compute deal · TechCrunch AI · 6 小时前 · [原文](<https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/>)
 
-_外部监管机构可以在未经Anthropic批准的情况下发布其调查结果。_
+_如果这笔交易成功，这将是Anthropic在过去一年中达成的一系列巨型计算交易中的最新一笔。_
 
-**3. 随着零售商采用人工智能辅助定价工具，消费者的担忧与日俱增-《先驱之星》**
+**3. 微软表示，人工智能代理就像内部威胁一样，因为“前沿模型不可信”**
 
-Consumer apprehension grows as retailers adopt artificial intelligence assisted pricing tools - The Herald Star · Google News · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMi5gFBVV95cUxPT25kWTlLR19pNm1GRUhWSE5QMURKUHdQLTdJVlM0cVVVTW1Wemg3N2Z6YVJOQ3RiSzN5dUZuVHZhQ25wS0o3am9OcVdDeS1UMDIwTEstMjFfUlpjSWVoVWhpYmdubXI2MVRmbV8tT0otdHkxQm5IejhvOXhSZ2xNM0N2YnlqZGxhQVc5VVZkOG1zaTRFc0RYWWszaTBvcVZUX2N4MjRIaXNqRmczX1BLb0pyTWVyU3dwNy1hT2VKQ2xkVDU0WWFnSkdmdFhFWmJwd2FNZjlyWXlvMDlsTGNCTW1Cb0xZZw?oc=5>)
+Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’ · TechCrunch AI · 7 小时前 · [原文](<https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/>)
 
-_随着零售商采用人工智能辅助定价工具《先驱之星》，消费者的担忧与日俱增_
+_微软希望企业密切关注员工在不受OpenAI和Anthropic等人工智能实验室控制的系统中使用的代理。_
 
-**4. 中国联通亮相2026人工智能产业大会 - 山东新闻**
+**4. 联邦调查局称，被指控的OpenAI间谍有名为“沙特政府文件”的文件夹**
 
-Google 新闻中文 · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMiZEFVX3lxTFA3Z2x3QTFNaWZWcDkwR25XTmM2SU5nQU9EZ3l2eVloaE5XUlFlUTVTd2t0UUF3b1FOMEcxRUNuS1pab2hjZnNFY29tcERvcGxhaGxsWExXaTV0UTM4bUFYRXNmWUc?oc=5>)
+Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says · Ars Technica AI · 9 小时前 · [原文](<https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/>)
 
-_中国联通亮相2026人工智能产业大会 山东新闻_
+_美国担心沙特政府将帮助前OpenAI工程师逃离间谍指控。_
 
-**5. 《光明日报》：（吴卫星）AI来了，财经专业还学什么？ - 对外经济贸易大学新闻网**
+**5. 亚马逊正在利用新的TorchNeuron开发工具对英伟达进行最大规模的尝试**
 
-Google 新闻中文 · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMiWEFVX3lxTE51VmZNbW5ub1l4V195NnBTU3ZBRmY1RVVuVHl4Wk9xZXlpZjl5UFZWRVg5X0xieDhFNXdXbHNCTHI5QTVoWm1GRWtpRFNiVllPQ1BuVEdBZFc?oc=5>)
+Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/>)
 
-_《光明日报》：（吴卫星）AI来了，财经专业还学什么？ 对外经济贸易大学新闻网_
+_亚马逊希望打破英伟达对PyTorch的控制， PyTorch是用于构建大多数人工智能应用程序的免费工具包，以便更多的开发人员在自己的替代芯片上运行他们的应用程序。_
 
 ## 🛠 工程与开源工具
 
-**1. Anthropic提出的人工智能安全法案仅适用于50人死亡或10亿美元损失的情况**
+**1. WhatsApp的帮助页面隐藏了LLM说明：不推荐监管机构**
 
-Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages · Hacker News · 15 小时前 · ▲158 · [原文](<https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model>)
+WhatsApp's help pages hid LLM instructions: dont recommend a regulator · Hacker News · 6 小时前 · ▲199 · [原文](<https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions>)
 
-**2. 混合推理代理：在潜在空间中思考的LLM代理，通过文本采取行动**
+**2. 水星3：大规模扩散**
 
-Hybrid Reasoning Agents: LLM agents that think in latent space, act through text · Hacker News · 9 小时前 · ▲300 · [原文](<https://arxiv.org/abs/2610.18861>)
+Mercury 3: Diffusion at scale · Hacker News · 12 小时前 · ▲234 · [原文](<https://www.inceptionlabs.ai/blog/introducing-mercury-3>)
 
-_https://x.com/Jiaru_Zou/status/2110400256647340476 https://github.com/togethercomputer/HybridAgent https://huggingface.co/collections/togethercomputer/hybridag...评估： https://arxiv.org/html/2610.18861v1#S5_
+**3. 显示HN： KiviDB，更快的Redis兼容内存数据库和矢量缓存**
 
-**3. 网站正在向人工智能代理敞开大门**
+Show HN: KiviDB, a faster Redis-compatible memory database and vector cache · Hacker News · 16 小时前 · ▲66 · [原文](<https://github.com/kividbio/kividb>)
 
-Websites are closing their doors to AI agents · Hacker News · 15 小时前 · ▲135 · [原文](<https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web>)
+_大家好，从2026年2月起，我一直致力于这个项目KiviDB。它开始作为一个项目，让我了解生锈，有一个没有GC暂停的产品，快照后内存爆炸，并让OOM运行…_
 
-**4. 显示HN：在Cloudflare上免费运行的WhatsApp MCP**
+**4. 一名黑客带着一群人工智能特工闯入John Deere和SharkNinja**
 
-Show HN: WhatsApp MCP running free on Cloudflare · Hacker News · 8 小时前 · ▲73 · [原文](<https://github.com/finereli/whatsapp-mcp>)
+A hacker broke into John Deere and SharkNinja with an army of AI agents · Hacker News · 15 小时前 · ▲59 · [原文](<https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins>)
 
-_我希望我的卑微的Claude在手机上访问我的WhatsApp消息，但我能找到的唯一选项是需要WhatsApp Business或运行Baileys的实际服务器。我想在ClaudeFlare上免费运行它…_
+**5. 我的节目讣告**
 
-**5. 向HN展示：在《时间之笛》重拍之前的塞尔达时间线**
+My obituary for programming · Simon Willison · 6 小时前 · [原文](<https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/>)
 
-Show HN: The Zelda timeline to catch up before the Ocarina of Time remake · Hacker News · 16 小时前 · ▲173 · [原文](<https://legendofhyrule.com/>)
-
-_我在17天后推出的《时间之笛》重制版之前制作了这个。我记得小时候玩它的感觉，但我没有跟上故事的节奏，所以我建立了一个时间表，以便在时间之门之前赶上…_
-
-**6. llm-tools-datasette 0.1.1**
-
-Simon Willison · 6 小时前 · [原文](<https://simonwillison.net/2026/Oct/18/llm-tools-datasette/>)
-
-_版本： llm-tools-datasette 0.1.1当我在LLM 0.33中将LLM切换到httpx2时，我忘记了这会破坏任何使用httpx的插件，而不会直接依赖它。llm-tools-datasette就是其中之一…_
+_我的编程讣告杰里米·谢夫（Jeremy Scheff）尖锐地捕捉到了职业程序员编程代理造成的关键损失，他们喜欢开发代码的难题：编程变成了你最伟大的工作之一…_
 
 ## 💭 观点与深度
 
-**1. 如果您没有运行自己的LLM代理，您如何知道发生了什么？**
+**1. 让人工智能代理的互联网变得更好，可能会让其他人变得更糟**
 
-If you don't run your own LLM proxy, how do you know whats going on? · Hacker News · 8 小时前 · ▲94 · [原文](<https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/>)
+Making the internet better for AI agents might make it worse for everyone else · MIT Tech Review · 11 小时前 · [原文](<https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/>)
 
-**2. 人工智能助理在多大程度上可以获得他们无法获得的退款？**
+_这个故事最初出现在我们的人工智能每周通讯《算法》上。要先在收件箱中获取此类故事，请在此处注册。直到最近，您可以将互联网用户分为两类：机器人…_
 
-How Far Will AI Assistants Go for a Refund They Can't Get? · Hacker News · 17 小时前 · ▲82 · [原文](<https://www.vals.ai/blogs/impossible-refund>)
+**2. “我们看错了”：颠覆人工智能世界的爆炸性主张**
 
-**3. 国家统计局：规模以上制造业人工智能技术重点场景应用普及率超1/3 - 观点网**
+“We were looking at it wrong”: The explosive claim that’s upended the AI world · MIT Tech Review · 12 小时前 · [原文](<https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/>)
 
-Google 新闻中文 · 1 小时前 · [原文](<https://news.google.com/rss/articles/CBMiYkFVX3lxTE9rVFJtWUpualhuWDA1OGtIVFZraWt1RkhOaC16dmlodnVFWjE2Q2tXeWpLRVBsMVVfOXJMR1FJRnY0TEhpYTBocDl5TWlPN1lhUGFwQVpaNXRLV2tSeGF4VHBn?oc=5>)
+_“我想我有关于神经网络本质的好消息。”人工智能初创公司Goodfire的研究员Nick Cammarata用这些简单的乐观之词，推出了一篇26,000字的博客文章，…_
 
-_国家统计局：规模以上制造业人工智能技术重点场景应用普及率超1/3 观点网_
+**3. 下载：保护北极永久冻土和俏皮的人工智能代理**
 
-**4. 评论：人工智能并不是亚洲唯一的游戏-路透社**
+The Download: preserving the Arctic permafrost, and playful AI agents · MIT Tech Review · 17 小时前 · [原文](<https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents/>)
 
-COMMENTARY: AI isn’t Asia’s only game in town - Reuters · Google News · 6 小时前 · [原文](<https://news.google.com/rss/articles/CBMiugFBVV95cUxOYUpOVHc3NGYyMUJiTWt5eGJlaXEzcTBXaE5tci1jSS1mV3ZxUzJyZXdzOVBpU0lmQ09KQ01lZ2JUeS10U0s1VW9pODV0SHVhTm90Z1lqdFJZWWgweDJOWUVzbGJadmF2NkdKb08xNW12UU41SktyTGNGTVRBMUhzQ3pBR2FRbnpvUGJPWXJhSnRTSjZZS2tQTXBsVl9TbUgwUy1qMmpxSnNhWjZRTENpMXZSM25PcUkxaUE?oc=5>)
-
-_评论：人工智能并不是亚洲唯一的城镇游戏路透社_
-
-**5. 为什么人工智能会威胁到科学的未来-福布斯**
-
-Why Artificial Intelligence Could Threaten The Future Of Science - Forbes · Google News · 9 小时前 · [原文](<https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcE1wVU9SRFc5LWdXRHVTWU9ZZlBTNjNpdFV2aXZoSVBUTWY4blVnRk11SmtHLWEyc1VDWXlRN0ZINzdSeWV3bTRLUTF6Z0ZFZjRJazBUZXJ1SUh6MTNRRm9KTWRPUVp2ODVaVXZmdDdxbWhCalFOV0NEbDlDMktWM1FPRDZvWG9fcl9YdXpweFdOZFg4V1BUODB6aGxmU0E1OG1uMzVWdWFyRXNIM3lXYkh1ODZDeW5tNVRqek94SDhfUQ?oc=5>)
-
-_为什么人工智能会威胁科学的未来福布斯_
+_这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。在扑灭北极火灾和拯救地球冰冻碳的探索中…_
