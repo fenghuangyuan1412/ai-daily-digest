@@ -1,135 +1,131 @@
-# 📰 AI 日报 · 2026-10-20
+# 📰 AI 日报 · 2026-10-21
 
-> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 22 条已译
+> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 21 条已译
 
 ## 🚀 模型与产品发布
 
-**1. 根据新的国土安全部命令， DeepSeek被禁止进入美国联邦民事机构**
+**1. 克劳德设计的针对蝎子神经毒素的蛋白质结合剂**
 
-DeepSeek banned from U.S. federal civilian agencies under new DHS order · Hacker News · 13 小时前 · ▲114 · [原文](<https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/>)
+Claude designed protein binders against scorpion neurotoxins · Hacker News · 12 小时前 · ▲102 · [原文](<https://www.anthropic.com/research/claude-scorpion-toxin-binder-design>)
 
-_https://public-inspection.federalregister.gov/2026-21447.pdf_
+**2. 显示HN： Penmentor-Claude像老师一样标记您的手写数学**
 
-**2. CERN和Mistral签署了建立战略合作伙伴关系的意向声明**
+Show HN: Penmentor - Claude marks up your handwritten math like a teacher · Hacker News · 14 小时前 · ▲59 · [原文](<https://github.com/AbdullahAlhariri/penmentor>)
 
-CERN and Mistral sign a statement of intent to establish a strategic partnership · Hacker News · 14 小时前 · ▲327 · [原文](<https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/>)
+**3. 终端X与资深投资者判断匹配88.6%与GPT-6.1**
 
-**3. 美国命令每个民事机构拆除DeepSeek，甚至是在其上构建的工具**
+Terminal X matches senior investor judgment 88.6% with GPT-6.1 · OpenAI · 23 小时前 · [原文](<https://openai.com/index/terminal-x>)
 
-The US orders every civilian agency to rip out DeepSeek, even tools built on it · Hacker News · 11 小时前 · ▲66 · [原文](<https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/>)
+_Terminal X的评估代理根据54个标准的标准对输出进行评分，通过GPT-6.1 Sol，基金的授权偏差增加了25%。_
 
-**4. Amazon Bedrock上Anthropic Claude模型的结构化输出- Amazon Web Services (AWS)**
+**4. Gemini的个人智能即将登陆汽车**
 
-Structured outputs for Anthropic Claude models on Amazon Bedrock - Amazon Web Services (AWS) · Google News · 6 小时前 · [原文](<https://news.google.com/rss/articles/CBMisAFBVV95cUxQeGtQZ3VDNTRrRVNBTDA4ak5mUlBKUG1kdWpwWDJxQUx2UWxFMGw3Sk85MllYN1gyTENSZEcxa0RwZ2RXLTk5WlE0ejZPZWU0UzI5RVRmUnlLdXgwcjZBUUhEUnI5enprM2NPZVlhbXl6ZUhTVU4wZEpwMjc0SHlQME54Ri1NMk40UmF5bDBReHdEV0V6OWxXVnJVSl9nUkpsTGFQejBtU2tFeEliQXpvZw?oc=5>)
+Gemini's Personal Intelligence is coming to cars · Ars Technica AI · 10 小时前 · [原文](<https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/>)
 
-_Amazon Bedrock Amazon Web Services (AWS)上Anthropic Claude模型的结构化输出_
+_可能是时候审核您的Gemini设置了。_
+
+**5. 加盟商使用ChatGPT Work调节现金的时间缩短了94%**
+
+Franchisee reconciles cash in 94% less time with ChatGPT Work · OpenAI · 20 小时前 · [原文](<https://openai.com/index/ted-taylor-restaurant>)
+
+_独立的Schlotzsky's和Cinnabon加盟商将菜单重新定价时间缩短了95%，并建立了一个可以释放10万美元现金流的工作流程。_
 
 ## 🔬 研究前沿
 
-**1. 风格翻译： GPT-4的开放式替代方案，实现文化一致的机器翻译**
+**1. NExT++联合研究中心校友捐赠“张钹人工智能奖学金”仪式举行 - 清华大学**
+
+Google 新闻中文 · 4 小时前 · [原文](<https://news.google.com/rss/articles/CBMiXEFVX3lxTE5IYTRZTm9uSTJJMVc5X1JhU0piajktbG5xRV9CVjlxWW1kN0xoVk9hRmZTSWtVRGs3XzFScEpWZ1Q2Z1VTTkdTQUh5MGJfNncyZHhhSGxsSEY2dnVN?oc=5>)
+
+_NExT++联合研究中心校友捐赠“张钹人工智能奖学金”仪式举行 清华大学_
+
+**2. 风格翻译： GPT-4的开放式替代方案，实现文化一致的机器翻译**
 
 Translating in style: An open-weight alternative to GPT-4 for culturally aligned machine translation · arXiv cs.CL · 2 小时前 · [原文](<https://arxiv.org/abs/2610.23868>)
 
 _机器翻译系统通常保留意义，但系统地扁平化语言风格，这是翻译成非西方语言时最严重的失败。Havaldar等人的RASTA框架（2025a）…_
 
-**2. GardenBench： LLM能力的轻量级日常评估**
+**3. Navalia：通过可验证的任务综合和长期后培训推进Cowork代理**
 
-GardenBench: A lightweight, daily evaluation of LLM capabilities · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.23866>)
+Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.26887>)
 
-_我们推出了GardenBench，这是一个包含11个测试套件的基准，用于评估大型语言模型（LLM）在一系列任务中的功能。通过系统地提示LLM使用各种轻量级查询，我们…_
+_大型语言模型（LLM）代理正在从会话助理发展成为能够自主规划、使用工具和执行复杂任务的Cowork代理。财务分析要求这些代理商…_
 
-**3. 少做多做：第一原则探索代理计算相对于替代架构选择的适用性**
+**4. 基于大型语言模型和强化学习的自主构建和进度更新**
 
-Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.23921>)
+Large language model and reinforcement learning based autonomous construction and progress updates · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.26899>)
 
-_由于代理人工智能（AI）看似易于使用，因此人们对自动化业务活动的兴趣日益浓厚。用更多资源做更少的事情从未如此容易，成本也从未如此高昂。然而，很少有…_
+_由于全球人口的快速增长，传统的建筑方式逐渐无法满足当前的住房需求。机器学习算法的进步鼓励研究人员…_
 
-**4. 循证诊断风险评分差异的受控LLM工作流程**
+**5. 通过使用大型语言模型的多目标强化学习生成Pareto-Optimal RTL代码**
 
-A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.23962>)
+Pareto-Optimal RTL Code Generation via Multi-Objective Reinforcement Learning with Large Language Models · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.26904>)
 
-_我们提出了一个受控的大语言模型（LLM）工作流程，用于使用类似的历史交易来解释风险评分差异。工作流程结合了参考检索和对比SHapley Additive…_
-
-**5. 社交媒体告诉我们关于累积人工智能风险的知识**
-
-What Social Media Teaches Us About Accumulative AI Risks · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.24006>)
-
-_突出的人工智能安全讨论强调存在的威胁和灾难性事件，例如人工智能引发的核冲突或工程生物爆发。这份立场文件认为，还有另一种类型的人工智能…_
+_最近的研究提出了具有可验证奖励（RLVR）方法的强化学习，使LLM能够根据自然语言规范生成高质量的RTL电路。现有方法优化…_
 
 ## 🏢 公司与行业动向
 
-**1. 启动HN： Laminar (YC S24) -经过RL培训的模型，可查找客服代表追踪中的错误**
+**1. 启动HN： Respan (YC W24) -围绕插件构建的开源Rust AI网关**
 
-Launch HN: Laminar (YC S24) - RL-trained model that finds errors in agent traces · Hacker News · 14 小时前 · ▲49 · [原文](<https://news.ycombinator.com/item?id=50154029>)
+Launch HN: Respan (YC W24) - Open-source Rust AI gateway built around plugins · Hacker News · 14 小时前 · ▲48 · [原文](<https://news.ycombinator.com/item?id=50167583>)
 
-_HN，您好！我们是来自Laminar （https://laminar.sh）的Robert和Din。自2024年以来，我们一直在为人工智能代理构建开源可观察性。最近，我们发布了flow-1，这是一个使用RL训练的模型，用于查找客服代表中的错误…_
+_嗨， HN，我是Respan （https://www.respan.ai）的Andy。我们正在构建一个开源的Rust AI网关。它是一个分离的网关，所以一切都是一个插件，包括不同的提供商，协议（MCP，语音），…_
 
-**2. 据报道， Nscale和Anthropic正在就另一笔450亿美元的计算机交易进行谈判**
+**2. NVIDIA Cosmos3-H-Dreams：通过生成式模拟将临床手术变为现实**
 
-Nscale and Anthropic are reportedly in talks for yet another $45B compute deal · TechCrunch AI · 6 小时前 · [原文](<https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/>)
+NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation · Hugging Face · 11 小时前 · [原文](<https://huggingface.co/blog/nvidia/cosmos3-h-dreams>)
 
-_如果这笔交易成功，这将是Anthropic在过去一年中达成的一系列巨型计算交易中的最新一笔。_
+**3. Anthropic提出人工智能安全法案，如果超过50人可能被杀，可能会阻止模特**
 
-**3. 微软表示，人工智能代理就像内部威胁一样，因为“前沿模型不可信”**
+Anthropic pitches AI safety bill that may block a model if 50+ people could be killed · TechCrunch AI · 7 小时前 · [原文](<https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/>)
 
-Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’ · TechCrunch AI · 7 小时前 · [原文](<https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/>)
+_拟议的政策似乎提供了防止人工智能疯狂运行的保护措施，但实际上禁止联邦机构在未经法官许可的情况下阻止模型的发布。_
 
-_微软希望企业密切关注员工在不受OpenAI和Anthropic等人工智能实验室控制的系统中使用的代理。_
+**4. Hugging Face首席执行官警告Netflix的OpenAI黑客纪录片不准确**
 
-**4. 联邦调查局称，被指控的OpenAI间谍有名为“沙特政府文件”的文件夹**
+Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate · TechCrunch AI · 7 小时前 · [原文](<https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/>)
 
-Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says · Ars Technica AI · 9 小时前 · [原文](<https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/>)
+_在您分享Netflix纪录片《AI Gone Rogue》之前，请注意这一点。Hugging Face的联合创始人克莱姆·德朗格（Clem Delangue）是这部电影的主角，他说它进入了“全毁灭模式”，并不准确。_
 
-_美国担心沙特政府将帮助前OpenAI工程师逃离间谍指控。_
+**5. Anthropic的云合作伙伴关系变得混乱**
 
-**5. 亚马逊正在利用新的TorchNeuron开发工具对英伟达进行最大规模的尝试**
+Anthropic’s cloud partnerships are getting messy · TechCrunch AI · 8 小时前 · [原文](<https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/>)
 
-Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/>)
-
-_亚马逊希望打破英伟达对PyTorch的控制， PyTorch是用于构建大多数人工智能应用程序的免费工具包，以便更多的开发人员在自己的替代芯片上运行他们的应用程序。_
+_据报道， Anthropic正在努力从云提供商那里获得足够的计算，这些提供商越来越多地将其视为竞争对手，尽管其基础设施支出在计划于11月进行的首次公开募股之前激增。_
 
 ## 🛠 工程与开源工具
 
-**1. WhatsApp的帮助页面隐藏了LLM说明：不推荐监管机构**
+**1. Anthropic在2026年上半年录得超过$ 800亿的净亏损**
 
-WhatsApp's help pages hid LLM instructions: dont recommend a regulator · Hacker News · 6 小时前 · ▲199 · [原文](<https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions>)
+Anthropic logged net loss of over $80B in first half of 2026 · Hacker News · 9 小时前 · ▲133 · [原文](<https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/>)
 
-**2. 水星3：大规模扩散**
+**2. Steam用户乞求“No AI”过滤器作为Vibecoders Flood Next Fest**
 
-Mercury 3: Diffusion at scale · Hacker News · 12 小时前 · ▲234 · [原文](<https://www.inceptionlabs.ai/blog/introducing-mercury-3>)
+Steam Users Beg for "No AI" Filter as Vibecoders Flood Next Fest · Hacker News · 14 小时前 · ▲174 · [原文](<https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop>)
 
-**3. 显示HN： KiviDB，更快的Redis兼容内存数据库和矢量缓存**
+**3. 关于AI写作**
 
-Show HN: KiviDB, a faster Redis-compatible memory database and vector cache · Hacker News · 16 小时前 · ▲66 · [原文](<https://github.com/kividbio/kividb>)
+On AI writing · Hacker News · 10 小时前 · ▲83 · [原文](<https://www.bolkunov.com/p/on-ai-writing>)
 
-_大家好，从2026年2月起，我一直致力于这个项目KiviDB。它开始作为一个项目，让我了解生锈，有一个没有GC暂停的产品，快照后内存爆炸，并让OOM运行…_
+**4. Show HN: VoidAccess -开源暗网OSINT，从查询到图表**
 
-**4. 一名黑客带着一群人工智能特工闯入John Deere和SharkNinja**
+Show HN: VoidAccess - open-source dark web OSINT, from query to a graph · Hacker News · 15 小时前 · ▲149 · [原文](<https://github.com/KatrielMoses/voidaccess>)
 
-A hacker broke into John Deere and SharkNinja with an army of AI agents · Hacker News · 15 小时前 · ▲59 · [原文](<https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins>)
+_嗨， HN！ Im Katriel，我是一名安全研究员/爱好者，在人工智能浪潮中，我想打造超越当前工具的下一代安全工具，甚至是开源的付费行业…_
 
-**5. 我的节目讣告**
+**5. Show HN： Jev Cards，你能在图片测验中击败视觉模型吗？**
 
-My obituary for programming · Simon Willison · 6 小时前 · [原文](<https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/>)
+Show HN: Jev Cards, Can you beat a vision model at a picture quiz? · Hacker News · 14 小时前 · ▲58 · [原文](<https://jevcards.com>)
 
-_我的编程讣告杰里米·谢夫（Jeremy Scheff）尖锐地捕捉到了职业程序员编程代理造成的关键损失，他们喜欢开发代码的难题：编程变成了你最伟大的工作之一…_
+_我围绕TypeSafe的新Jev模型构建了一个测验游戏，该模型具有视觉功能。Jev看着一张照片和一个问题，在大约四分之一秒内选择一个答案（或点击一个地方）。我一直很喜欢测验…_
+
+**6. eMudhra中级CA泄漏**
+
+eMudhra Intermediate CA Compromise · Simon Willison · 6 小时前 · [原文](<https://simonwillison.net/2026/Oct/20/emudhra-certificates/>)
+
+_eMudhra中级CA泄露这是一个非常非常坏的消息：八个eMudhra中级CA证书的私钥已被泄露。它们与Mozilla、微软、苹果和…_
 
 ## 💭 观点与深度
 
-**1. 让人工智能代理的互联网变得更好，可能会让其他人变得更糟**
+**1. ALTK-Evve：在没有前沿模型的客户服务任务中，学习记忆如何在τ² -bench排行榜上名列前茅**
 
-Making the internet better for AI agents might make it worse for everyone else · MIT Tech Review · 11 小时前 · [原文](<https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/>)
-
-_这个故事最初出现在我们的人工智能每周通讯《算法》上。要先在收件箱中获取此类故事，请在此处注册。直到最近，您可以将互联网用户分为两类：机器人…_
-
-**2. “我们看错了”：颠覆人工智能世界的爆炸性主张**
-
-“We were looking at it wrong”: The explosive claim that’s upended the AI world · MIT Tech Review · 12 小时前 · [原文](<https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/>)
-
-_“我想我有关于神经网络本质的好消息。”人工智能初创公司Goodfire的研究员Nick Cammarata用这些简单的乐观之词，推出了一篇26,000字的博客文章，…_
-
-**3. 下载：保护北极永久冻土和俏皮的人工智能代理**
-
-The Download: preserving the Arctic permafrost, and playful AI agents · MIT Tech Review · 17 小时前 · [原文](<https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents/>)
-
-_这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。在扑灭北极火灾和拯救地球冰冻碳的探索中…_
+ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model · Hugging Face · 14 小时前 · [原文](<https://huggingface.co/blog/ibm-research/altk-evolve-bc>)
