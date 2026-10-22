@@ -1,0 +1,307 @@
+{
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T05:35:58.676Z",
+  "windowHours": 36,
+  "sourcesTotal": 13,
+  "sourcesOk": 13,
+  "sourcesFailed": [],
+  "itemCount": 22,
+  "translatedCount": 19,
+  "sections": [
+    {
+      "key": "model",
+      "label": "🚀 模型与产品发布",
+      "items": [
+        {
+          "title": "Claude Duet",
+          "titleZh": "",
+          "url": "https://claude.com/product/claude-duet",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-21T19:14:01.000Z",
+          "points": 341,
+          "discussion": "https://news.ycombinator.com/item?id=50186037"
+        },
+        {
+          "title": "Mistral Large 4",
+          "titleZh": "Mistral大4",
+          "url": "https://mistral.ai/news/mistral-large-4/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "https://docs.mistral.ai/models/mistral-large-4-0",
+          "summaryZh": "",
+          "published": "2026-10-21T19:20:55.000Z",
+          "points": 318,
+          "discussion": "https://news.ycombinator.com/item?id=50186129"
+        },
+        {
+          "title": "Show HN: Omnara - Open-source alternative to Claude Managed Agents",
+          "titleZh": "Show HN: Omnara-Claude Managed Agents的开源替代品",
+          "url": "https://github.com/omnara-ai/omnara",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "Hey all, Kartik from Omnara ( https://omnara.com ) here. We're building an open-source API for running durable agents. You create an agent with an API call, and Omnara runs the agent loop, gives the agent sandboxes to run commands in, and handles secrets, permissions, and RBAC. Each agent's state is stored in Postgres, so agents survive restarts and cost nothing while idle. You can message them and stream their events over the API. You may remember us from our early days, when we made a remote-control phone app for Claude Code and Codex. Since the harness ran on a laptop back then, we had to build a relay to reach it, it stopped when the laptop closed, and moving it to a cloud sandbox meant syncing code and agent state between machines. We didn't think remote-controlling a local agent was end-game for how people would run agents, so we built a new product where the agent runs in the cloud, any client can talk to it through an API, and it can still use your laptop as one of its machines. Anthropic and OpenAI are building hosted versions of this, like Claude Managed Agents and the OpenAI Agents API. Omnara is an open-source version you can run on your own servers and use your own models. It's basically a harness server like the opencode or codex servers, but durable, scalable, with the usual harness features like file and shell tools, subagents, compaction, permission prompts, MCP, skills, memory, yada yada yada. Here's some interesting architectural decisions we made while building this out: Most harnesses, like Claude Code, Codex, OpenCode, Pi, Goose, etc, run the agent loop in one long-lived process that keeps its log in a JSONL or SQLite file. In Omnara, the log is an append-only event log in Postgres, with inputs, model outputs and tool calls stored as typed rows in their own tables. The loop runs on stateless workers in the control plane. A worker runs one iteration of the loop, either a model call or the tool calls it produced, then releases the agent and puts the next iteration on a queue in Postgres. Whichever worker is free picks it up, so each iteration of an agent's loop can run in a different process on a different machine. Each iteration's result commits in one transaction, so the model output, its tool calls, usage and the next wakeup are saved together or not at all. If a worker dies mid-iteration, nothing commits, its lease expires, and another worker retries it. Agents waiting on a user, a tool or a retry don't hold a worker, so one worker can multiplex thousands of agents. Also unlike other harnesses, the machines that the workers (our agent loop) run on aren't where the agent runs its commands. Instead, any macOS or Linux machine with an internet connection, like your laptop or any cloud sandbox, can run a small daemon (omnarad) that connects out to Omnara, so it doesn't need any open inbound ports. The agent then gets tools for that machine, like running a command or editing a file. An agent can have any number of machines connected to it. A fun thing I like to do is I have my laptop and a cloud sandbox connected to the same agent, so when my laptop is on, my agent codes there and I can interact with it, and I have it often push to Github. When I close my laptop, my agent sees the laptop went offline, pulls the latest changes to its cloud sandbox, and continues there. The entire codebase is open source at https://github.com/omnara-ai/omnara , and it’s self hostable, even on a single machine with docker compose. You can also use the hosted version at https://omnara.com . Let me know what you think!",
+          "summaryZh": "大家好，来自Omnara的Kartik （https://omnara.com）。我们正在构建一个用于运行持久代理的开源API。您使用API调用创建代理， Omnara运行代理循环，将代理沙箱提供给…",
+          "published": "2026-10-21T16:44:53.000Z",
+          "points": 51,
+          "discussion": "https://news.ycombinator.com/item?id=50183892"
+        },
+        {
+          "title": "Broad access through consistent standards",
+          "titleZh": "通过一致的标准实现广泛的访问",
+          "url": "https://openai.com/index/broad-access-through-consistent-standards",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+          "summaryZh": "OpenAI如何与分销合作伙伴合作，以维护一致的保障措施，支持负责任的访问，并在我们的使用政策中明确期望。",
+          "published": "2026-10-21T21:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "research",
+      "label": "🔬 研究前沿",
+      "items": [
+        {
+          "title": "清华大学人工智能研究院学术年会暨京沪港AI学术交流会举行 - 清华大学",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5TQ0pMa1Bha0VLX2JJWWFpUWtaZ0dzZWU0X3ItVmltdnRTVFhSVU1wVGdPaEJaU1MtaE9mVjZ6MHNnRGlVcGZKOEdVWWZZb3lYbUFpbF84UThGNms?oc=5",
+          "source": "Google 新闻中文",
+          "alsoOn": [],
+          "summary": "清华大学人工智能研究院学术年会暨京沪港AI学术交流会举行 清华大学",
+          "summaryZh": "",
+          "published": "2026-10-22T00:59:33.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "人工智能与计算机学院研究生第一党支部走进宜兴市升溪中学开展人工智能主题科普讲座 - 江南大学新闻网",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9uMlZ2bzNOdkc5cmE4V2V2UXJ5amtONnlLZGRGSEZES3FrUTBabjZzNmZKMFBiMUF4YWVOR3RsV1BuNXNzNEM4b090SlJ3QUlOVGNaQUdpVDJnT2xLY0E?oc=5",
+          "source": "Google 新闻中文",
+          "alsoOn": [],
+          "summary": "人工智能与计算机学院研究生第一党支部走进宜兴市升溪中学开展人工智能主题科普讲座 江南大学新闻网",
+          "summaryZh": "",
+          "published": "2026-10-22T00:37:52.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "How Far Can the Gemma 4 Speech Encoder Go Without Changing Its Weights? Saudi and Gulf Arabic Speech Recognition with a Frozen and an Adapter-Augmented Encoder",
+          "titleZh": "Gemma 4语音编码器在不改变其权重的情况下可以走多远？使用冷冻和适配器增强编码器的沙特和海湾阿拉伯语音识别",
+          "url": "https://arxiv.org/abs/2610.28673",
+          "source": "arXiv cs.CL",
+          "alsoOn": [],
+          "summary": "We study the 305M-parameter audio encoder shared by Gemma 4 and EmbeddingGemma 2 (identical except for its final projection) for Saudi and Gulf Arabic speech recognition, without changing any of its weights. A frozen system trains only a 22.6M-parameter CTC reader over a mix of encoder layers; an adapted system adds 3.1M low-rank adapter parameters, a 41.5M-parameter hybrid CTC/attention reader and joint decoding with a sub-word language model. Against Cohere Transcribe Arabic (2.07B parameters), re-run on identical audio, the frozen system trails in word error rate (WER) but is statistically indistinguishable in character error rate (CER) on five of six human-labelled conditions, while running 3.4 times faster on CPU with greedy decoding. The adapted system is statistically indistinguishable in WER on a public Saudi customer-service call (19.20% against 19.27%) and on clean Emirati speech, is significantly better on telephone-coded Emirati speech, has a significantly lower CER on all six conditions of these sets, and beats a 0.6B recogniser fine-tuned on SADA in WER on all six; it still trails Cohere in WER on long-form Saudi speech. On a blind, human-corrected public call-centre sample it ranks 4 of 15 systems, behind three commercial APIs (significantly only one) and ahead of the other self-hostable systems by point estimate. An optimised joint decoder runs it at 139 times real time on one GPU. We also show that references made by correcting machine drafts favour the drafting system. Code and public-set results are released.",
+          "summaryZh": "我们研究了Gemma 4和EmbeddingGemma 2 （除了最终投影外相同）共享的305M参数音频编码器，用于沙特和海湾阿拉伯语音识别，不改变其任何权重。…",
+          "published": "2026-10-22T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "A Small Model Asks Better: Fine-Tuning Query Clarification for Retrieval-Augmented Generation",
+          "titleZh": "小模型要求更好：检索增强生成的微调查询澄清",
+          "url": "https://arxiv.org/abs/2610.28686",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Query clarification is essential for retrieval-augmented generation (RAG) systems that face ambiguous user queries. We consider multi-turn grounded conversational scenarios where a user query is either ill-formed or ambiguous in the context of the prior dialog or, more interestingly, it may be well-formed but when posed against retrieved documents there are multiple relevant interpretations. The task is to recognize both such cases and then generate an appropriate clarification request to the user. We present ClariEdge, a new dataset of approximately 3,900 examples that include such ambiguous queries along with negative examples that do not require clarification. We also show that a lightweight fine-tuned LoRA achieves 96.6% classification accuracy and outperforms prompted baselines of many larger models on both classification and quality of clarification generation. Our study shows that hard negatives are an essential ingredient to separate out queries that are truly ambiguous from queries that may look ambiguous but are not (i.e., can be resolved from the context). The same LoRA achieves high performance in both pre-retrieval and post-retrieval scenarios; thus, it can be used in two places in a RAG pipeline as a check before answer generation. The ClariEdge dataset is available at https://huggingface.co/datasets/ibm-research/ClariEdge.",
+          "summaryZh": "查询澄清对于面临模糊用户查询的检索增强生成（RAG）系统至关重要。我们考虑多轮接地的会话场景，其中用户查询的形式不正确或…",
+          "published": "2026-10-22T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "label": "🏢 公司与行业动向",
+      "items": [
+        {
+          "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+          "titleZh": "NVIDIA Kumo Relational在关系数据方面优于监督机器学习，无需培训",
+          "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+          "source": "Hugging Face",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-21T18:26:30.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Meta says Muse has over 10M users, with shopping a top activity",
+          "titleZh": "Meta表示， Muse拥有超过1000万用户，购物是热门活动",
+          "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during Q3 earnings. The AI app now has over 10M users.",
+          "summaryZh": "该公司在第三季度财报中表示， Meta Muse用户正在采用该应用程序进行购物和提高个人生产力。AI应用程序现在拥有超过1000万用户。",
+          "published": "2026-10-21T21:14:19.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
+          "titleZh": "OpenAI最新的人工智能模型即将登陆Google Cloud和Antigravity",
+          "url": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
+          "source": "Ars Technica AI",
+          "alsoOn": [],
+          "summary": "Google Cloud will have GPT 6.1 Astra, Sol, and Luna in the coming weeks.",
+          "summaryZh": "Google Cloud将在未来几周内推出GPT 6.1 Astra、Sol和Luna。",
+          "published": "2026-10-21T18:51:42.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "PHP Armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
+          "titleZh": "PHP世界末日： OpenAI，谷歌的Wiz发现古老的漏洞，恐慌互联网",
+          "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "This is the kind of security issue that was found and prevented by AI, but is also a high risk because of AI.",
+          "summaryZh": "这是人工智能发现和阻止的安全问题，但由于人工智能，这也是一个高风险。",
+          "published": "2026-10-21T17:59:12.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
+          "titleZh": "Blackstone的Jas Khaira表示，对人工智能建设债务的担忧被夸大了",
+          "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters.",
+          "summaryZh": "Blackstone的人工智能分析了为什么这家私募股权巨头不会对市场紧张感到恐慌。",
+          "published": "2026-10-21T22:51:22.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "eng",
+      "label": "🛠 工程与开源工具",
+      "items": [
+        {
+          "title": "Google staff resign in backlash over its AI contracts with military",
+          "titleZh": "谷歌员工因其与军方的人工智能合同而辞职",
+          "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-21T19:14:21.000Z",
+          "points": 120,
+          "discussion": "https://news.ycombinator.com/item?id=50186043"
+        },
+        {
+          "title": "Anthropic's Public Benefit Charter",
+          "titleZh": "Anthropic的公益章程",
+          "url": "https://www.anthropic.com/public-benefit-charter",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-21T18:29:54.000Z",
+          "points": 46,
+          "discussion": "https://news.ycombinator.com/item?id=50185438"
+        },
+        {
+          "title": "The bridge to agent-scale Git infrastructure",
+          "titleZh": "通往代理规模Git基础设施的桥梁",
+          "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-21T16:09:28.000Z",
+          "points": 59,
+          "discussion": "https://news.ycombinator.com/item?id=50183344"
+        },
+        {
+          "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+          "titleZh": "今天的PHP安全版本，以及我们如何加强PHP安全",
+          "url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
+          "source": "Simon Willison",
+          "alsoOn": [],
+          "summary": "Today's PHP Security Release, and How We're Strengthening PHP Security If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in the coordinated disclosure process. This post from the PHP Foundation explain what went so wrong: On Tuesday, October 20th, at around 15:00 UTC, the two CVE IDs began circulating on online forums and social media. They came with a wrong release time and a wrong CVSS score of 10.0 (the actual score is 9.2). No technical details leaked. In response, the PHP project brought its pre-announcement forward and published it at 19:30 UTC . It also moved the release from October 22nd, 14:00 UTC, to October 21st, 14:00 UTC [...] As a result of the leak and pre-announcement around 20:00 UTC, Calif, one of the security firms that had reported the issues mistakenly published a video. It showed their proof of concept working against a number of targets and revealed a few additional, though limited, details about the vulnerabilities. Copies of the deleted video started circulating on social media soon after. The video contributed to accelerated development of various PoCs (exploitation proof of concepts), which then increased circulation on October 21st. This article from the team that discovered the original vulnerability includes a more detailed timeline of the original intended responsible disclosure: August 19, 2026: Wiz Research discovers the first PHP vulnerability using Wiz Atlas, Gemini 4 Argon, and GPT-5.6 Sol. August 20, 2026: Unauthenticated RCE is confirmed against Drupal. August 21, 2026: Unauthenticated RCE is confirmed against WordPress. August 24, 2026: Wiz Research reports the vulnerabilities to the PHP security team. September 21, 2026: PHP acknowledges the reports and begins developing a coordinated fix. October 21, 2026: Patched PHP releases become available. October 21, 2026: Public disclosure. Via Hacker News Tags: open-source , php , security , ai , ai-security-research",
+          "summaryZh": "今天的PHP安全版本以及我们如何加强PHP安全如果您在PHP上运行任何内容，升级至关重要-今天的更新（跨整个PHP 8.x行）解决了两个远程代码执行漏洞，…",
+          "published": "2026-10-21T18:41:53.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Panache - RTS Belle Époque pour mobile",
+          "titleZh": "Panache-RTS Belle Époque pour mobile",
+          "url": "https://simonwillison.net/2026/Oct/21/panache/",
+          "source": "Simon Willison",
+          "alsoOn": [],
+          "summary": "Panache - RTS Belle Époque pour mobile Well this is delightful: I released Battle Drones yesterday under an Apache 2.0 License and there's already a French language fork which reskins the game to take place in steampunk 1900s France and adds an animated intro! Panache est un jeu de stratégie en temps réel pour mobile et navigateur, dans la France de la Belle Époque (vers 1900) : dirigeables, Fardiers à vapeur, Creusot cuirassés, automates en képi, Gargantua la forteresse marchante - et beaucoup de panache. You can play Panache here - it's worth clicking that link just to experience the new intro video. So far it's mostly just aesthetic updates as opposed to gameplay changes. The music has had a French twist added to it as well. The new steampunk models are so cool! Here's a page with the original Battle Drones models and that same page with the new Panache alternatives . This is a comparison of the original and the new design for the Goliath: Via @Meffysto69 Tags: game-design , open-source",
+          "summaryZh": "Panache-RTS Belle Époque pour mobile嗯，这很令人愉快：我昨天根据Apache 2.0许可证发布了战斗无人机，并且已经有一个法语分叉，可以重新调整游戏在蒸汽朋克中进行…",
+          "published": "2026-10-21T16:25:16.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "ideas",
+      "label": "💭 观点与深度",
+      "items": [
+        {
+          "title": "Rust off Rails: The opinionated web stack for the AI era",
+          "titleZh": "Rust off Rails：人工智能时代固执己见的Web堆栈",
+          "url": "https://rustoffrails.org/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-21T16:34:16.000Z",
+          "points": 70,
+          "discussion": "https://news.ycombinator.com/item?id=50183727"
+        },
+        {
+          "title": "How AT&T is rethinking in-house legal work with OpenAI",
+          "titleZh": "AT&T如何重新思考与OpenAI的内部法律工作",
+          "url": "https://openai.com/index/att-legal",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+          "summaryZh": "AT&T正在与OpenAI合作，使法律知识更容易获取。了解其LegalEdge团队如何重新考虑录取和扩大法律判决。",
+          "published": "2026-10-21T17:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+          "titleZh": "在实际应用中， SLM词汇专业化如何将推理成本降低77%",
+          "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+          "source": "Hugging Face",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-21T17:35:36.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Why agencies must strengthen the data foundation before scaling AI - Federal News Network",
+          "titleZh": "为什么机构在扩展人工智能之前必须加强数据基础-联邦新闻网",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPS2dSdG5RWU0wV29MeUxxVG5PbVFrZzd0OC1Qeno0Y0tiSVNBa3ZRc0hTbWpWR1d6TmxFUXdfaWZsa0hiYUxEbGowcUhHMm5QT0tiMHJxUmxtcHFXVUlTdk1YMlY2V3FqZWNkdU56d1ltTlFGaU1EcnYyZE95ZUZMSVY5SnNpbGkzczlsR1NiVkFPdVpweENib3c5V2I3T0pwNnRNMFQ1eVlmam9LUG5jS2lvd2w4dnZULV9XcXdJX2Z0ek00ZGkzM1h3?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "Why agencies must strengthen the data foundation before scaling AI Federal News Network",
+          "summaryZh": "为什么机构在扩展AI联邦新闻网络之前必须加强数据基础",
+          "published": "2026-10-22T02:07:55.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    }
+  ],
+  "markdown": "# 📰 AI 日报 · 2026-10-22\n\n> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 19 条已译\n\n## 🚀 模型与产品发布\n\n**1. Claude Duet**\n\nHacker News · 10 小时前 · ▲341 · [原文](<https://claude.com/product/claude-duet>)\n\n**2. Mistral大4**\n\nMistral Large 4 · Hacker News · 10 小时前 · ▲318 · [原文](<https://mistral.ai/news/mistral-large-4/>)\n\n_https://docs.mistral.ai/models/mistral-large-4-0_\n\n**3. Show HN: Omnara-Claude Managed Agents的开源替代品**\n\nShow HN: Omnara - Open-source alternative to Claude Managed Agents · Hacker News · 13 小时前 · ▲51 · [原文](<https://github.com/omnara-ai/omnara>)\n\n_大家好，来自Omnara的Kartik （https://omnara.com）。我们正在构建一个用于运行持久代理的开源API。您使用API调用创建代理， Omnara运行代理循环，将代理沙箱提供给…_\n\n**4. 通过一致的标准实现广泛的访问**\n\nBroad access through consistent standards · OpenAI · 9 小时前 · [原文](<https://openai.com/index/broad-access-through-consistent-standards>)\n\n_OpenAI如何与分销合作伙伴合作，以维护一致的保障措施，支持负责任的访问，并在我们的使用政策中明确期望。_\n\n## 🔬 研究前沿\n\n**1. 清华大学人工智能研究院学术年会暨京沪港AI学术交流会举行 - 清华大学**\n\nGoogle 新闻中文 · 5 小时前 · [原文](<https://news.google.com/rss/articles/CBMiW0FVX3lxTE5TQ0pMa1Bha0VLX2JJWWFpUWtaZ0dzZWU0X3ItVmltdnRTVFhSVU1wVGdPaEJaU1MtaE9mVjZ6MHNnRGlVcGZKOEdVWWZZb3lYbUFpbF84UThGNms?oc=5>)\n\n_清华大学人工智能研究院学术年会暨京沪港AI学术交流会举行 清华大学_\n\n**2. 人工智能与计算机学院研究生第一党支部走进宜兴市升溪中学开展人工智能主题科普讲座 - 江南大学新闻网**\n\nGoogle 新闻中文 · 5 小时前 · [原文](<https://news.google.com/rss/articles/CBMiXkFVX3lxTE9uMlZ2bzNOdkc5cmE4V2V2UXJ5amtONnlLZGRGSEZES3FrUTBabjZzNmZKMFBiMUF4YWVOR3RsV1BuNXNzNEM4b090SlJ3QUlOVGNaQUdpVDJnT2xLY0E?oc=5>)\n\n_人工智能与计算机学院研究生第一党支部走进宜兴市升溪中学开展人工智能主题科普讲座 江南大学新闻网_\n\n**3. Gemma 4语音编码器在不改变其权重的情况下可以走多远？使用冷冻和适配器增强编码器的沙特和海湾阿拉伯语音识别**\n\nHow Far Can the Gemma 4 Speech Encoder Go Without Changing Its Weights? Saudi and Gulf Arabic Speech Recognition with a Frozen and an Adapter-Augmented Encoder · arXiv cs.CL · 2 小时前 · [原文](<https://arxiv.org/abs/2610.28673>)\n\n_我们研究了Gemma 4和EmbeddingGemma 2 （除了最终投影外相同）共享的305M参数音频编码器，用于沙特和海湾阿拉伯语音识别，不改变其任何权重。…_\n\n**4. 小模型要求更好：检索增强生成的微调查询澄清**\n\nA Small Model Asks Better: Fine-Tuning Query Clarification for Retrieval-Augmented Generation · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.28686>)\n\n_查询澄清对于面临模糊用户查询的检索增强生成（RAG）系统至关重要。我们考虑多轮接地的会话场景，其中用户查询的形式不正确或…_\n\n## 🏢 公司与行业动向\n\n**1. NVIDIA Kumo Relational在关系数据方面优于监督机器学习，无需培训**\n\nNVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required · Hugging Face · 11 小时前 · [原文](<https://huggingface.co/blog/nvidia/kumo-relational>)\n\n**2. Meta表示， Muse拥有超过1000万用户，购物是热门活动**\n\nMeta says Muse has over 10M users, with shopping a top activity · TechCrunch AI · 8 小时前 · [原文](<https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/>)\n\n_该公司在第三季度财报中表示， Meta Muse用户正在采用该应用程序进行购物和提高个人生产力。AI应用程序现在拥有超过1000万用户。_\n\n**3. OpenAI最新的人工智能模型即将登陆Google Cloud和Antigravity**\n\nOpenAI's latest AI models are coming to Google Cloud and Antigravity · Ars Technica AI · 11 小时前 · [原文](<https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/>)\n\n_Google Cloud将在未来几周内推出GPT 6.1 Astra、Sol和Luna。_\n\n**4. PHP世界末日： OpenAI，谷歌的Wiz发现古老的漏洞，恐慌互联网**\n\nPHP Armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet · TechCrunch AI · 12 小时前 · [原文](<https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/>)\n\n_这是人工智能发现和阻止的安全问题，但由于人工智能，这也是一个高风险。_\n\n**5. Blackstone的Jas Khaira表示，对人工智能建设债务的担忧被夸大了**\n\nBlackstone’s Jas Khaira says fears over AI-buildout debt are overblown · TechCrunch AI · 7 小时前 · [原文](<https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/>)\n\n_Blackstone的人工智能分析了为什么这家私募股权巨头不会对市场紧张感到恐慌。_\n\n## 🛠 工程与开源工具\n\n**1. 谷歌员工因其与军方的人工智能合同而辞职**\n\nGoogle staff resign in backlash over its AI contracts with military · Hacker News · 10 小时前 · ▲120 · [原文](<https://www.bbc.com/news/articles/cmreyvepnv0po>)\n\n**2. Anthropic的公益章程**\n\nAnthropic's Public Benefit Charter · Hacker News · 11 小时前 · ▲46 · [原文](<https://www.anthropic.com/public-benefit-charter>)\n\n**3. 通往代理规模Git基础设施的桥梁**\n\nThe bridge to agent-scale Git infrastructure · Hacker News · 13 小时前 · ▲59 · [原文](<https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/>)\n\n**4. 今天的PHP安全版本，以及我们如何加强PHP安全**\n\nToday's PHP Security Release, and How We're Strengthening PHP Security · Simon Willison · 11 小时前 · [原文](<https://simonwillison.net/2026/Oct/21/php-security-release/>)\n\n_今天的PHP安全版本以及我们如何加强PHP安全如果您在PHP上运行任何内容，升级至关重要-今天的更新（跨整个PHP 8.x行）解决了两个远程代码执行漏洞，…_\n\n**5. Panache-RTS Belle Époque pour mobile**\n\nPanache - RTS Belle Époque pour mobile · Simon Willison · 13 小时前 · [原文](<https://simonwillison.net/2026/Oct/21/panache/>)\n\n_Panache-RTS Belle Époque pour mobile嗯，这很令人愉快：我昨天根据Apache 2.0许可证发布了战斗无人机，并且已经有一个法语分叉，可以重新调整游戏在蒸汽朋克中进行…_\n\n## 💭 观点与深度\n\n**1. Rust off Rails：人工智能时代固执己见的Web堆栈**\n\nRust off Rails: The opinionated web stack for the AI era · Hacker News · 13 小时前 · ▲70 · [原文](<https://rustoffrails.org/>)\n\n**2. AT&T如何重新思考与OpenAI的内部法律工作**\n\nHow AT&T is rethinking in-house legal work with OpenAI · OpenAI · 13 小时前 · [原文](<https://openai.com/index/att-legal>)\n\n_AT&T正在与OpenAI合作，使法律知识更容易获取。了解其LegalEdge团队如何重新考虑录取和扩大法律判决。_\n\n**3. 在实际应用中， SLM词汇专业化如何将推理成本降低77%**\n\nHow Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications · Hugging Face · 12 小时前 · [原文](<https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization>)\n\n**4. 为什么机构在扩展人工智能之前必须加强数据基础-联邦新闻网**\n\nWhy agencies must strengthen the data foundation before scaling AI - Federal News Network · Google News · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMiygFBVV95cUxPS2dSdG5RWU0wV29MeUxxVG5PbVFrZzd0OC1Qeno0Y0tiSVNBa3ZRc0hTbWpWR1d6TmxFUXdfaWZsa0hiYUxEbGowcUhHMm5QT0tiMHJxUmxtcHFXVUlTdk1YMlY2V3FqZWNkdU56d1ltTlFGaU1EcnYyZE95ZUZMSVY5SnNpbGkzczlsR1NiVkFPdVpweENib3c5V2I3T0pwNnRNMFQ1eVlmam9LUG5jS2lvd2w4dnZULV9XcXdJX2Z0ek00ZGkzM1h3?oc=5>)\n\n_为什么机构在扩展AI联邦新闻网络之前必须加强数据基础_\n"
+}

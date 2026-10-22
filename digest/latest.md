@@ -1,131 +1,131 @@
-# 📰 AI 日报 · 2026-10-21
+# 📰 AI 日报 · 2026-10-22
 
-> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 21 条已译
+> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 19 条已译
 
 ## 🚀 模型与产品发布
 
-**1. 克劳德设计的针对蝎子神经毒素的蛋白质结合剂**
+**1. Claude Duet**
 
-Claude designed protein binders against scorpion neurotoxins · Hacker News · 12 小时前 · ▲102 · [原文](<https://www.anthropic.com/research/claude-scorpion-toxin-binder-design>)
+Hacker News · 10 小时前 · ▲341 · [原文](<https://claude.com/product/claude-duet>)
 
-**2. 显示HN： Penmentor-Claude像老师一样标记您的手写数学**
+**2. Mistral大4**
 
-Show HN: Penmentor - Claude marks up your handwritten math like a teacher · Hacker News · 14 小时前 · ▲59 · [原文](<https://github.com/AbdullahAlhariri/penmentor>)
+Mistral Large 4 · Hacker News · 10 小时前 · ▲318 · [原文](<https://mistral.ai/news/mistral-large-4/>)
 
-**3. 终端X与资深投资者判断匹配88.6%与GPT-6.1**
+_https://docs.mistral.ai/models/mistral-large-4-0_
 
-Terminal X matches senior investor judgment 88.6% with GPT-6.1 · OpenAI · 23 小时前 · [原文](<https://openai.com/index/terminal-x>)
+**3. Show HN: Omnara-Claude Managed Agents的开源替代品**
 
-_Terminal X的评估代理根据54个标准的标准对输出进行评分，通过GPT-6.1 Sol，基金的授权偏差增加了25%。_
+Show HN: Omnara - Open-source alternative to Claude Managed Agents · Hacker News · 13 小时前 · ▲51 · [原文](<https://github.com/omnara-ai/omnara>)
 
-**4. Gemini的个人智能即将登陆汽车**
+_大家好，来自Omnara的Kartik （https://omnara.com）。我们正在构建一个用于运行持久代理的开源API。您使用API调用创建代理， Omnara运行代理循环，将代理沙箱提供给…_
 
-Gemini's Personal Intelligence is coming to cars · Ars Technica AI · 10 小时前 · [原文](<https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/>)
+**4. 通过一致的标准实现广泛的访问**
 
-_可能是时候审核您的Gemini设置了。_
+Broad access through consistent standards · OpenAI · 9 小时前 · [原文](<https://openai.com/index/broad-access-through-consistent-standards>)
 
-**5. 加盟商使用ChatGPT Work调节现金的时间缩短了94%**
-
-Franchisee reconciles cash in 94% less time with ChatGPT Work · OpenAI · 20 小时前 · [原文](<https://openai.com/index/ted-taylor-restaurant>)
-
-_独立的Schlotzsky's和Cinnabon加盟商将菜单重新定价时间缩短了95%，并建立了一个可以释放10万美元现金流的工作流程。_
+_OpenAI如何与分销合作伙伴合作，以维护一致的保障措施，支持负责任的访问，并在我们的使用政策中明确期望。_
 
 ## 🔬 研究前沿
 
-**1. NExT++联合研究中心校友捐赠“张钹人工智能奖学金”仪式举行 - 清华大学**
+**1. 清华大学人工智能研究院学术年会暨京沪港AI学术交流会举行 - 清华大学**
 
-Google 新闻中文 · 4 小时前 · [原文](<https://news.google.com/rss/articles/CBMiXEFVX3lxTE5IYTRZTm9uSTJJMVc5X1JhU0piajktbG5xRV9CVjlxWW1kN0xoVk9hRmZTSWtVRGs3XzFScEpWZ1Q2Z1VTTkdTQUh5MGJfNncyZHhhSGxsSEY2dnVN?oc=5>)
+Google 新闻中文 · 5 小时前 · [原文](<https://news.google.com/rss/articles/CBMiW0FVX3lxTE5TQ0pMa1Bha0VLX2JJWWFpUWtaZ0dzZWU0X3ItVmltdnRTVFhSVU1wVGdPaEJaU1MtaE9mVjZ6MHNnRGlVcGZKOEdVWWZZb3lYbUFpbF84UThGNms?oc=5>)
 
-_NExT++联合研究中心校友捐赠“张钹人工智能奖学金”仪式举行 清华大学_
+_清华大学人工智能研究院学术年会暨京沪港AI学术交流会举行 清华大学_
 
-**2. 风格翻译： GPT-4的开放式替代方案，实现文化一致的机器翻译**
+**2. 人工智能与计算机学院研究生第一党支部走进宜兴市升溪中学开展人工智能主题科普讲座 - 江南大学新闻网**
 
-Translating in style: An open-weight alternative to GPT-4 for culturally aligned machine translation · arXiv cs.CL · 2 小时前 · [原文](<https://arxiv.org/abs/2610.23868>)
+Google 新闻中文 · 5 小时前 · [原文](<https://news.google.com/rss/articles/CBMiXkFVX3lxTE9uMlZ2bzNOdkc5cmE4V2V2UXJ5amtONnlLZGRGSEZES3FrUTBabjZzNmZKMFBiMUF4YWVOR3RsV1BuNXNzNEM4b090SlJ3QUlOVGNaQUdpVDJnT2xLY0E?oc=5>)
 
-_机器翻译系统通常保留意义，但系统地扁平化语言风格，这是翻译成非西方语言时最严重的失败。Havaldar等人的RASTA框架（2025a）…_
+_人工智能与计算机学院研究生第一党支部走进宜兴市升溪中学开展人工智能主题科普讲座 江南大学新闻网_
 
-**3. Navalia：通过可验证的任务综合和长期后培训推进Cowork代理**
+**3. Gemma 4语音编码器在不改变其权重的情况下可以走多远？使用冷冻和适配器增强编码器的沙特和海湾阿拉伯语音识别**
 
-Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.26887>)
+How Far Can the Gemma 4 Speech Encoder Go Without Changing Its Weights? Saudi and Gulf Arabic Speech Recognition with a Frozen and an Adapter-Augmented Encoder · arXiv cs.CL · 2 小时前 · [原文](<https://arxiv.org/abs/2610.28673>)
 
-_大型语言模型（LLM）代理正在从会话助理发展成为能够自主规划、使用工具和执行复杂任务的Cowork代理。财务分析要求这些代理商…_
+_我们研究了Gemma 4和EmbeddingGemma 2 （除了最终投影外相同）共享的305M参数音频编码器，用于沙特和海湾阿拉伯语音识别，不改变其任何权重。…_
 
-**4. 基于大型语言模型和强化学习的自主构建和进度更新**
+**4. 小模型要求更好：检索增强生成的微调查询澄清**
 
-Large language model and reinforcement learning based autonomous construction and progress updates · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.26899>)
+A Small Model Asks Better: Fine-Tuning Query Clarification for Retrieval-Augmented Generation · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.28686>)
 
-_由于全球人口的快速增长，传统的建筑方式逐渐无法满足当前的住房需求。机器学习算法的进步鼓励研究人员…_
-
-**5. 通过使用大型语言模型的多目标强化学习生成Pareto-Optimal RTL代码**
-
-Pareto-Optimal RTL Code Generation via Multi-Objective Reinforcement Learning with Large Language Models · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.26904>)
-
-_最近的研究提出了具有可验证奖励（RLVR）方法的强化学习，使LLM能够根据自然语言规范生成高质量的RTL电路。现有方法优化…_
+_查询澄清对于面临模糊用户查询的检索增强生成（RAG）系统至关重要。我们考虑多轮接地的会话场景，其中用户查询的形式不正确或…_
 
 ## 🏢 公司与行业动向
 
-**1. 启动HN： Respan (YC W24) -围绕插件构建的开源Rust AI网关**
+**1. NVIDIA Kumo Relational在关系数据方面优于监督机器学习，无需培训**
 
-Launch HN: Respan (YC W24) - Open-source Rust AI gateway built around plugins · Hacker News · 14 小时前 · ▲48 · [原文](<https://news.ycombinator.com/item?id=50167583>)
+NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required · Hugging Face · 11 小时前 · [原文](<https://huggingface.co/blog/nvidia/kumo-relational>)
 
-_嗨， HN，我是Respan （https://www.respan.ai）的Andy。我们正在构建一个开源的Rust AI网关。它是一个分离的网关，所以一切都是一个插件，包括不同的提供商，协议（MCP，语音），…_
+**2. Meta表示， Muse拥有超过1000万用户，购物是热门活动**
 
-**2. NVIDIA Cosmos3-H-Dreams：通过生成式模拟将临床手术变为现实**
+Meta says Muse has over 10M users, with shopping a top activity · TechCrunch AI · 8 小时前 · [原文](<https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/>)
 
-NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation · Hugging Face · 11 小时前 · [原文](<https://huggingface.co/blog/nvidia/cosmos3-h-dreams>)
+_该公司在第三季度财报中表示， Meta Muse用户正在采用该应用程序进行购物和提高个人生产力。AI应用程序现在拥有超过1000万用户。_
 
-**3. Anthropic提出人工智能安全法案，如果超过50人可能被杀，可能会阻止模特**
+**3. OpenAI最新的人工智能模型即将登陆Google Cloud和Antigravity**
 
-Anthropic pitches AI safety bill that may block a model if 50+ people could be killed · TechCrunch AI · 7 小时前 · [原文](<https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/>)
+OpenAI's latest AI models are coming to Google Cloud and Antigravity · Ars Technica AI · 11 小时前 · [原文](<https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/>)
 
-_拟议的政策似乎提供了防止人工智能疯狂运行的保护措施，但实际上禁止联邦机构在未经法官许可的情况下阻止模型的发布。_
+_Google Cloud将在未来几周内推出GPT 6.1 Astra、Sol和Luna。_
 
-**4. Hugging Face首席执行官警告Netflix的OpenAI黑客纪录片不准确**
+**4. PHP世界末日： OpenAI，谷歌的Wiz发现古老的漏洞，恐慌互联网**
 
-Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate · TechCrunch AI · 7 小时前 · [原文](<https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/>)
+PHP Armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet · TechCrunch AI · 12 小时前 · [原文](<https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/>)
 
-_在您分享Netflix纪录片《AI Gone Rogue》之前，请注意这一点。Hugging Face的联合创始人克莱姆·德朗格（Clem Delangue）是这部电影的主角，他说它进入了“全毁灭模式”，并不准确。_
+_这是人工智能发现和阻止的安全问题，但由于人工智能，这也是一个高风险。_
 
-**5. Anthropic的云合作伙伴关系变得混乱**
+**5. Blackstone的Jas Khaira表示，对人工智能建设债务的担忧被夸大了**
 
-Anthropic’s cloud partnerships are getting messy · TechCrunch AI · 8 小时前 · [原文](<https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/>)
+Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown · TechCrunch AI · 7 小时前 · [原文](<https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/>)
 
-_据报道， Anthropic正在努力从云提供商那里获得足够的计算，这些提供商越来越多地将其视为竞争对手，尽管其基础设施支出在计划于11月进行的首次公开募股之前激增。_
+_Blackstone的人工智能分析了为什么这家私募股权巨头不会对市场紧张感到恐慌。_
 
 ## 🛠 工程与开源工具
 
-**1. Anthropic在2026年上半年录得超过$ 800亿的净亏损**
+**1. 谷歌员工因其与军方的人工智能合同而辞职**
 
-Anthropic logged net loss of over $80B in first half of 2026 · Hacker News · 9 小时前 · ▲133 · [原文](<https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/>)
+Google staff resign in backlash over its AI contracts with military · Hacker News · 10 小时前 · ▲120 · [原文](<https://www.bbc.com/news/articles/cmreyvepnv0po>)
 
-**2. Steam用户乞求“No AI”过滤器作为Vibecoders Flood Next Fest**
+**2. Anthropic的公益章程**
 
-Steam Users Beg for "No AI" Filter as Vibecoders Flood Next Fest · Hacker News · 14 小时前 · ▲174 · [原文](<https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop>)
+Anthropic's Public Benefit Charter · Hacker News · 11 小时前 · ▲46 · [原文](<https://www.anthropic.com/public-benefit-charter>)
 
-**3. 关于AI写作**
+**3. 通往代理规模Git基础设施的桥梁**
 
-On AI writing · Hacker News · 10 小时前 · ▲83 · [原文](<https://www.bolkunov.com/p/on-ai-writing>)
+The bridge to agent-scale Git infrastructure · Hacker News · 13 小时前 · ▲59 · [原文](<https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/>)
 
-**4. Show HN: VoidAccess -开源暗网OSINT，从查询到图表**
+**4. 今天的PHP安全版本，以及我们如何加强PHP安全**
 
-Show HN: VoidAccess - open-source dark web OSINT, from query to a graph · Hacker News · 15 小时前 · ▲149 · [原文](<https://github.com/KatrielMoses/voidaccess>)
+Today's PHP Security Release, and How We're Strengthening PHP Security · Simon Willison · 11 小时前 · [原文](<https://simonwillison.net/2026/Oct/21/php-security-release/>)
 
-_嗨， HN！ Im Katriel，我是一名安全研究员/爱好者，在人工智能浪潮中，我想打造超越当前工具的下一代安全工具，甚至是开源的付费行业…_
+_今天的PHP安全版本以及我们如何加强PHP安全如果您在PHP上运行任何内容，升级至关重要-今天的更新（跨整个PHP 8.x行）解决了两个远程代码执行漏洞，…_
 
-**5. Show HN： Jev Cards，你能在图片测验中击败视觉模型吗？**
+**5. Panache-RTS Belle Époque pour mobile**
 
-Show HN: Jev Cards, Can you beat a vision model at a picture quiz? · Hacker News · 14 小时前 · ▲58 · [原文](<https://jevcards.com>)
+Panache - RTS Belle Époque pour mobile · Simon Willison · 13 小时前 · [原文](<https://simonwillison.net/2026/Oct/21/panache/>)
 
-_我围绕TypeSafe的新Jev模型构建了一个测验游戏，该模型具有视觉功能。Jev看着一张照片和一个问题，在大约四分之一秒内选择一个答案（或点击一个地方）。我一直很喜欢测验…_
-
-**6. eMudhra中级CA泄漏**
-
-eMudhra Intermediate CA Compromise · Simon Willison · 6 小时前 · [原文](<https://simonwillison.net/2026/Oct/20/emudhra-certificates/>)
-
-_eMudhra中级CA泄露这是一个非常非常坏的消息：八个eMudhra中级CA证书的私钥已被泄露。它们与Mozilla、微软、苹果和…_
+_Panache-RTS Belle Époque pour mobile嗯，这很令人愉快：我昨天根据Apache 2.0许可证发布了战斗无人机，并且已经有一个法语分叉，可以重新调整游戏在蒸汽朋克中进行…_
 
 ## 💭 观点与深度
 
-**1. ALTK-Evve：在没有前沿模型的客户服务任务中，学习记忆如何在τ² -bench排行榜上名列前茅**
+**1. Rust off Rails：人工智能时代固执己见的Web堆栈**
 
-ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model · Hugging Face · 14 小时前 · [原文](<https://huggingface.co/blog/ibm-research/altk-evolve-bc>)
+Rust off Rails: The opinionated web stack for the AI era · Hacker News · 13 小时前 · ▲70 · [原文](<https://rustoffrails.org/>)
+
+**2. AT&T如何重新思考与OpenAI的内部法律工作**
+
+How AT&T is rethinking in-house legal work with OpenAI · OpenAI · 13 小时前 · [原文](<https://openai.com/index/att-legal>)
+
+_AT&T正在与OpenAI合作，使法律知识更容易获取。了解其LegalEdge团队如何重新考虑录取和扩大法律判决。_
+
+**3. 在实际应用中， SLM词汇专业化如何将推理成本降低77%**
+
+How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications · Hugging Face · 12 小时前 · [原文](<https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization>)
+
+**4. 为什么机构在扩展人工智能之前必须加强数据基础-联邦新闻网**
+
+Why agencies must strengthen the data foundation before scaling AI - Federal News Network · Google News · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMiygFBVV95cUxPS2dSdG5RWU0wV29MeUxxVG5PbVFrZzd0OC1Qeno0Y0tiSVNBa3ZRc0hTbWpWR1d6TmxFUXdfaWZsa0hiYUxEbGowcUhHMm5QT0tiMHJxUmxtcHFXVUlTdk1YMlY2V3FqZWNkdU56d1ltTlFGaU1EcnYyZE95ZUZMSVY5SnNpbGkzczlsR1NiVkFPdVpweENib3c5V2I3T0pwNnRNMFQ1eVlmam9LUG5jS2lvd2w4dnZULV9XcXdJX2Z0ek00ZGkzM1h3?oc=5>)
+
+_为什么机构在扩展AI联邦新闻网络之前必须加强数据基础_
