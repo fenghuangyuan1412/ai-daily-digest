@@ -1,131 +1,131 @@
-# 📰 AI 日报 · 2026-10-22
+# 📰 AI 日报 · 2026-10-23
 
-> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 19 条已译
+> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 22 条已译
 
 ## 🚀 模型与产品发布
 
-**1. Claude Duet**
+**1. 使用Decisions API构建响应速度更快的应用程序**
 
-Hacker News · 10 小时前 · ▲341 · [原文](<https://claude.com/product/claude-duet>)
+Build more responsive apps with the Decisions API · OpenAI · 11 小时前 · [原文](<https://openai.com/index/decisions-api>)
 
-**2. Mistral大4**
+_适用于任何应用程序的快速、专注、低成本决策。_
 
-Mistral Large 4 · Hacker News · 10 小时前 · ▲318 · [原文](<https://mistral.ai/news/mistral-large-4/>)
+**2. FDE在OpenAI的含义**
 
-_https://docs.mistral.ai/models/mistral-large-4-0_
+What FDE means at OpenAI · OpenAI · 24 小时前 · [原文](<https://openai.com/index/forward-deployed-engineering-means>)
 
-**3. Show HN: Omnara-Claude Managed Agents的开源替代品**
+_OpenAI的前沿部署工程意味着什么_
 
-Show HN: Omnara - Open-source alternative to Claude Managed Agents · Hacker News · 13 小时前 · ▲51 · [原文](<https://github.com/omnara-ai/omnara>)
+**3. 超越树木覆盖：绘制世界森林类型地图**
 
-_大家好，来自Omnara的Kartik （https://omnara.com）。我们正在构建一个用于运行持久代理的开源API。您使用API调用创建代理， Omnara运行代理循环，将代理沙箱提供给…_
+Beyond tree cover: mapping the world’s forest types · Google DeepMind · 15 小时前 · [原文](<https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/>)
 
-**4. 通过一致的标准实现广泛的访问**
+_一张全球地图，将地球上每10米的土地划分为不同的森林类型。_
 
-Broad access through consistent standards · OpenAI · 9 小时前 · [原文](<https://openai.com/index/broad-access-through-consistent-standards>)
+**4. 优步通过OpenAI为所有员工提供ChatGPT Work服务**
 
-_OpenAI如何与分销合作伙伴合作，以维护一致的保障措施，支持负责任的访问，并在我们的使用政策中明确期望。_
+Uber brings ChatGPT Work to all employees with OpenAI · OpenAI · 30 小时前 · [原文](<https://openai.com/index/uber-chatgpt-work-rollout>)
+
+_优步正在为3万多名员工推出ChatGPT Work，帮助团队研究、分析数据、创建演示文稿并完成复杂的工作流程。_
 
 ## 🔬 研究前沿
 
-**1. 清华大学人工智能研究院学术年会暨京沪港AI学术交流会举行 - 清华大学**
+**1. 打招呼的代价： AI Agent通信协议中握手开销的实证研究**
 
-Google 新闻中文 · 5 小时前 · [原文](<https://news.google.com/rss/articles/CBMiW0FVX3lxTE5TQ0pMa1Bha0VLX2JJWWFpUWtaZ0dzZWU0X3ItVmltdnRTVFhSVU1wVGdPaEJaU1MtaE9mVjZ6MHNnRGlVcGZKOEdVWWZZb3lYbUFpbF84UThGNms?oc=5>)
+The Cost of Saying Hello: An Empirical Study of Handshake Overhead in AI Agent Communication Protocols · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.30151>)
 
-_清华大学人工智能研究院学术年会暨京沪港AI学术交流会举行 清华大学_
+_人工智能代理之间的每次交互都始于握手：发起代理必须找到对方，了解它可以做什么，并在发送第一条有用消息之前建立会话。代理调查…_
 
-**2. 人工智能与计算机学院研究生第一党支部走进宜兴市升溪中学开展人工智能主题科普讲座 - 江南大学新闻网**
+**2. 人工智能代理的MCP与CLI：自治系统工具集成策略的比较分析**
 
-Google 新闻中文 · 5 小时前 · [原文](<https://news.google.com/rss/articles/CBMiXkFVX3lxTE9uMlZ2bzNOdkc5cmE4V2V2UXJ5amtONnlLZGRGSEZES3FrUTBabjZzNmZKMFBiMUF4YWVOR3RsV1BuNXNzNEM4b090SlJ3QUlOVGNaQUdpVDJnT2xLY0E?oc=5>)
+MCP vs CLI for AI Agents: A Comparative Analysis of Tool Integration Strategies for Autonomous Systems · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.30157>)
 
-_人工智能与计算机学院研究生第一党支部走进宜兴市升溪中学开展人工智能主题科普讲座 江南大学新闻网_
+_AI代理需要接口才能与文件、API、数据库和云服务等外部系统进行交互。出现了两种相互竞争的范例： CLI （命令行界面），其中代理执行shell命令…_
 
-**3. Gemma 4语音编码器在不改变其权重的情况下可以走多远？使用冷冻和适配器增强编码器的沙特和海湾阿拉伯语音识别**
+**3. 通过人工智能替代建模框架加速加拿大各地的野火危险地图绘制**
 
-How Far Can the Gemma 4 Speech Encoder Go Without Changing Its Weights? Saudi and Gulf Arabic Speech Recognition with a Frozen and an Adapter-Augmented Encoder · arXiv cs.CL · 2 小时前 · [原文](<https://arxiv.org/abs/2610.28673>)
+Accelerating Wildfire Hazard Mapping Across Canada with an AI Surrogate Modelling Framework · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.30170>)
 
-_我们研究了Gemma 4和EmbeddingGemma 2 （除了最终投影外相同）共享的305M参数音频编码器，用于沙特和海湾阿拉伯语音识别，不改变其任何权重。…_
+_加拿大越来越多的野火活动需要频繁的国家危险地图来指导主动缓解，包括燃料管理、土地使用规划、基础设施保护和疏散路线。然而，…_
 
-**4. 小模型要求更好：检索增强生成的微调查询澄清**
+**4. 具有可微信念函数层的神经网络**
 
-A Small Model Asks Better: Fine-Tuning Query Clarification for Retrieval-Augmented Generation · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.28686>)
+Neural Networks with Differentiable Belief-Function Layers · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.30173>)
 
-_查询澄清对于面临模糊用户查询的检索增强生成（RAG）系统至关重要。我们考虑多轮接地的会话场景，其中用户查询的形式不正确或…_
+_Yager的1987年组合法则$\ boxplus $是在认识论的基础上提出的：在高度冲突的情况下，质量应该重新分配给无知，而不是重新归一化到类单纯体上。我们观察到…_
 
 ## 🏢 公司与行业动向
 
-**1. NVIDIA Kumo Relational在关系数据方面优于监督机器学习，无需培训**
+**1. 人工智能计算是新的石油，需要一个新的市场**
 
-NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required · Hugging Face · 11 小时前 · [原文](<https://huggingface.co/blog/nvidia/kumo-relational>)
+AI compute is the new oil-and needs a new market · Hacker News · 6 小时前 · ▲42 · [原文](<https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market>)
 
-**2. Meta表示， Muse拥有超过1000万用户，购物是热门活动**
+**2. 优步的竞争对手inDrive eyes 2027与Pony.ai和Nvidia在中亚进行机器人出租车测试**
 
-Meta says Muse has over 10M users, with shopping a top activity · TechCrunch AI · 8 小时前 · [原文](<https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/>)
+Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia · TechCrunch AI · 2 小时前 · [原文](<https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/>)
 
-_该公司在第三季度财报中表示， Meta Muse用户正在采用该应用程序进行购物和提高个人生产力。AI应用程序现在拥有超过1000万用户。_
+_inDrive计划于2027年上半年在哈萨克斯坦首都开始测试Pony.ai的机器人出租车。_
 
-**3. OpenAI最新的人工智能模型即将登陆Google Cloud和Antigravity**
+**3. OpenAI在IPO之前以$ 1.25 T的估值进行新的$ 300B加息**
 
-OpenAI's latest AI models are coming to Google Cloud and Antigravity · Ars Technica AI · 11 小时前 · [原文](<https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/>)
+OpenAI working on new $30B raise at $1.25T valuation ahead of IPO · TechCrunch AI · 7 小时前 · [原文](<https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/>)
 
-_Google Cloud将在未来几周内推出GPT 6.1 Astra、Sol和Luna。_
+_如果OpenAI在这轮融资中获得超过1万亿美元的估值，它将打破有史以来估值最高的私人公司的纪录。_
 
-**4. PHP世界末日： OpenAI，谷歌的Wiz发现古老的漏洞，恐慌互联网**
+**4. 随着决策模型竞争的加剧， OpenAI使其JEV竞争对手广泛可用**
 
-PHP Armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet · TechCrunch AI · 12 小时前 · [原文](<https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/>)
+OpenAI makes its Jev competitor widely available as decision model competition heats up · TechCrunch AI · 11 小时前 · [原文](<https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/>)
 
-_这是人工智能发现和阻止的安全问题，但由于人工智能，这也是一个高风险。_
-
-**5. Blackstone的Jas Khaira表示，对人工智能建设债务的担忧被夸大了**
-
-Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown · TechCrunch AI · 7 小时前 · [原文](<https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/>)
-
-_Blackstone的人工智能分析了为什么这家私募股权巨头不会对市场紧张感到恐慌。_
+_OpenAI正在向全世界推出其决策模型。它能与原来的Jev竞争吗？_
 
 ## 🛠 工程与开源工具
 
-**1. 谷歌员工因其与军方的人工智能合同而辞职**
+**1. OpenShell -自主人工智能代理车队的安全、私有运行时**
 
-Google staff resign in backlash over its AI contracts with military · Hacker News · 10 小时前 · ▲120 · [原文](<https://www.bbc.com/news/articles/cmreyvepnv0po>)
+OpenShell - A safe, private runtime for fleets of autonomous AI agents · Hacker News · 12 小时前 · ▲346 · [原文](<https://github.com/NVIDIA/OpenShell>)
 
-**2. Anthropic的公益章程**
+**2. 人工智能和科学共享的围栏**
 
-Anthropic's Public Benefit Charter · Hacker News · 11 小时前 · ▲46 · [原文](<https://www.anthropic.com/public-benefit-charter>)
+AI and the Enclosure of the Scientific Commons · Hacker News · 11 小时前 · ▲128 · [原文](<https://arxiv.org/abs/2610.27251>)
 
-**3. 通往代理规模Git基础设施的桥梁**
+**3. 大多数美国人说人工智能对社会不利，反对更多的数据中心**
 
-The bridge to agent-scale Git infrastructure · Hacker News · 13 小时前 · ▲59 · [原文](<https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/>)
+Most Americans Say AI Is Bad for Society, Oppose More Data Centers · Hacker News · 9 小时前 · ▲72 · [原文](<https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085>)
 
-**4. 今天的PHP安全版本，以及我们如何加强PHP安全**
+**4. 显示HN: UI AI微交互提示**
 
-Today's PHP Security Release, and How We're Strengthening PHP Security · Simon Willison · 11 小时前 · [原文](<https://simonwillison.net/2026/Oct/21/php-security-release/>)
+Show HN: UI micro interactions prompts for AI · Hacker News · 11 小时前 · ▲75 · [原文](<https://www.typeui.sh/micro-interactions>)
 
-_今天的PHP安全版本以及我们如何加强PHP安全如果您在PHP上运行任何内容，升级至关重要-今天的更新（跨整个PHP 8.x行）解决了两个远程代码执行漏洞，…_
+**5. 屡获殊荣的人工智能文献**
 
-**5. Panache-RTS Belle Époque pour mobile**
-
-Panache - RTS Belle Époque pour mobile · Simon Willison · 13 小时前 · [原文](<https://simonwillison.net/2026/Oct/21/panache/>)
-
-_Panache-RTS Belle Époque pour mobile嗯，这很令人愉快：我昨天根据Apache 2.0许可证发布了战斗无人机，并且已经有一个法语分叉，可以重新调整游戏在蒸汽朋克中进行…_
+Award-winning AI literature · Hacker News · 11 小时前 · ▲59 · [原文](<https://jamesyu.org/award-winning-ai-literature/>)
 
 ## 💭 观点与深度
 
-**1. Rust off Rails：人工智能时代固执己见的Web堆栈**
+**1. 问HN：如果模型这么好，为什么OpenAI不开100家公司？**
 
-Rust off Rails: The opinionated web stack for the AI era · Hacker News · 13 小时前 · ▲70 · [原文](<https://rustoffrails.org/>)
+Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies? · Hacker News · 9 小时前 · ▲65 · [原文](<https://news.ycombinator.com/item?id=50200997>)
 
-**2. AT&T如何重新思考与OpenAI的内部法律工作**
+_标题有点夸张，但问题更多：如果前沿模型如此出色，为什么还要将它们作为您的主要赚钱工具出售？ OpenAI或Anthropic不能通过刚开始赚更多的钱…_
 
-How AT&T is rethinking in-house legal work with OpenAI · OpenAI · 13 小时前 · [原文](<https://openai.com/index/att-legal>)
+**2. CT扫描的人工智能分析发现42.9%的患者有冠状动脉炎症**
+
+AI analysis of CT scans finds 42.9% of patients have coronary inflammation · Hacker News · 12 小时前 · ▲81 · [原文](<https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients>)
+
+**3. AT&T如何重新思考与OpenAI的内部法律工作**
+
+How AT&T is rethinking in-house legal work with OpenAI · OpenAI · 2 天前 · [原文](<https://openai.com/index/att-legal>)
 
 _AT&T正在与OpenAI合作，使法律知识更容易获取。了解其LegalEdge团队如何重新考虑录取和扩大法律判决。_
 
-**3. 在实际应用中， SLM词汇专业化如何将推理成本降低77%**
+**4. 设计一款经久耐用的AI服务线束**
 
-How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications · Hugging Face · 12 小时前 · [原文](<https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization>)
+Designing an AI serving harness built to last · MIT Tech Review · 8 小时前 · [原文](<https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/>)
 
-**4. 为什么机构在扩展人工智能之前必须加强数据基础-联邦新闻网**
+_企业人工智能的下一个竞争优势与其说与您选择哪种模式有关，不如说与您围绕它构建的内容有关。这是一个重要的转变。在过去的几年里，人工智能的大部分对话…_
 
-Why agencies must strengthen the data foundation before scaling AI - Federal News Network · Google News · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMiygFBVV95cUxPS2dSdG5RWU0wV29MeUxxVG5PbVFrZzd0OC1Qeno0Y0tiSVNBa3ZRc0hTbWpWR1d6TmxFUXdfaWZsa0hiYUxEbGowcUhHMm5QT0tiMHJxUmxtcHFXVUlTdk1YMlY2V3FqZWNkdU56d1ltTlFGaU1EcnYyZE95ZUZMSVY5SnNpbGkzczlsR1NiVkFPdVpweENib3c5V2I3T0pwNnRNMFQ1eVlmam9LUG5jS2lvd2w4dnZULV9XcXdJX2Z0ek00ZGkzM1h3?oc=5>)
+**5. 可扩展AI的基础**
 
-_为什么机构在扩展AI联邦新闻网络之前必须加强数据基础_
+The Foundations of Scalable AI · MIT Tech Review · 11 小时前 · [原文](<https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/>)
+
+_可扩展的人工智能系统需要强大的基础。数据、工程、平台、运营模式和治理必须融为一体。麻省理工学院技术评论EmTech Future会议的本次会议探讨了…_

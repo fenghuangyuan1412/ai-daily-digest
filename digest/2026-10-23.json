@@ -1,0 +1,307 @@
+{
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T05:34:10.987Z",
+  "windowHours": 36,
+  "sourcesTotal": 13,
+  "sourcesOk": 13,
+  "sourcesFailed": [],
+  "itemCount": 22,
+  "translatedCount": 22,
+  "sections": [
+    {
+      "key": "model",
+      "label": "🚀 模型与产品发布",
+      "items": [
+        {
+          "title": "Build more responsive apps with the Decisions API",
+          "titleZh": "使用Decisions API构建响应速度更快的应用程序",
+          "url": "https://openai.com/index/decisions-api",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "Fast, focused, low-cost decisions for any application.",
+          "summaryZh": "适用于任何应用程序的快速、专注、低成本决策。",
+          "published": "2026-10-22T19:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "What FDE means at OpenAI",
+          "titleZh": "FDE在OpenAI的含义",
+          "url": "https://openai.com/index/forward-deployed-engineering-means",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "What forward deployed engineering means at OpenAI",
+          "summaryZh": "OpenAI的前沿部署工程意味着什么",
+          "published": "2026-10-22T06:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Beyond tree cover: mapping the world’s forest types",
+          "titleZh": "超越树木覆盖：绘制世界森林类型地图",
+          "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+          "source": "Google DeepMind",
+          "alsoOn": [],
+          "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+          "summaryZh": "一张全球地图，将地球上每10米的土地划分为不同的森林类型。",
+          "published": "2026-10-22T14:30:24.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+          "titleZh": "优步通过OpenAI为所有员工提供ChatGPT Work服务",
+          "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+          "summaryZh": "优步正在为3万多名员工推出ChatGPT Work，帮助团队研究、分析数据、创建演示文稿并完成复杂的工作流程。",
+          "published": "2026-10-22T00:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "research",
+      "label": "🔬 研究前沿",
+      "items": [
+        {
+          "title": "The Cost of Saying Hello: An Empirical Study of Handshake Overhead in AI Agent Communication Protocols",
+          "titleZh": "打招呼的代价： AI Agent通信协议中握手开销的实证研究",
+          "url": "https://arxiv.org/abs/2610.30151",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Every interaction between AI agents begins with a handshake: the initiating agent must locate its counterpart, learn what it can do, and establish a session before the first useful message can be sent. Surveys of agent communication protocols name handshake overhead as an efficiency criterion, yet none report measurements. This paper presents the first empirical, phase-decomposed benchmark of the handshake in three major agent protocols: MCP (in both its 2025 initialize and 2026 discover eras), A2A, and ACP. Using each protocol's official SDK, we instrument every request for round trips, per-phase latency, wire bytes, and token cost across cold-start, warm-repeat, capability-mismatch, and degraded-metadata scenarios (N=50 per cell, on loopback and under an emulated 50 ms RTT). Round-trip count dominates handshake cost. A legacy MCP handshake takes three round trips and 230 ms at 50 ms RTT; A2A needs one round trip and 61.0 ms. Round trips are not the whole bill: when an LLM reads the counterpart's metadata, handshake cost scales with the counterpart's capability inventory at 24-107 tokens per capability, so a 200-capability counterpart spends 11% of a 200k-token context window before the agent reads its own task. MCP's own 2026 revision cuts its handshake from three round trips to two and, with era pinning, to zero on warm reconnects, protocol evolution that corroborates the cost we measure. We release the full harness, raw data, and analysis at https://github.com/pvarshh/handshake-benchmark.",
+          "summaryZh": "人工智能代理之间的每次交互都始于握手：发起代理必须找到对方，了解它可以做什么，并在发送第一条有用消息之前建立会话。代理调查…",
+          "published": "2026-10-23T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "MCP vs CLI for AI Agents: A Comparative Analysis of Tool Integration Strategies for Autonomous Systems",
+          "titleZh": "人工智能代理的MCP与CLI：自治系统工具集成策略的比较分析",
+          "url": "https://arxiv.org/abs/2610.30157",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "AI agents require interfaces to interact with external systems such as files, APIs, databases, and cloud services. Two competing paradigms have emerged: CLI (Command Line Interface), where agents execute shell commands directly, and MCP (Model Context Protocol), a structured JSON-RPC protocol providing governed, typed tool access. This paper presents a comparative analysis across 14 evaluation dimensions, supported by worked examples, security assessment against established compliance frameworks, and economic modeling. Our analysis indicates that CLI provides superior efficiency for single-user, local-only workflows, while MCP addresses requirements that CLI fundamentally cannot satisfy, including fine-grained access control, credential isolation, structured audit, and multi-tenant governance. We further examine how progressive disclosure techniques eliminate MCP's historical weakness (context window overhead), yielding token efficiency comparable to CLI while preserving its architectural benefits. A hybrid architecture is recommended for production systems. This analysis draws upon academic, government, and industry sources including NSA formal guidance (CSI U/OO/6030316-26), OWASP security standards, and economic modeling from BCG and Gartner.",
+          "summaryZh": "AI代理需要接口才能与文件、API、数据库和云服务等外部系统进行交互。出现了两种相互竞争的范例： CLI （命令行界面），其中代理执行shell命令…",
+          "published": "2026-10-23T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Accelerating Wildfire Hazard Mapping Across Canada with an AI Surrogate Modelling Framework",
+          "titleZh": "通过人工智能替代建模框架加速加拿大各地的野火危险地图绘制",
+          "url": "https://arxiv.org/abs/2610.30170",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Canada's increasing wildfire activity requires frequent national hazard mapping to guide proactive mitigation, including fuel management, land-use planning, infrastructure protection, and evacuation routing. However, process-based wildfire simulation frameworks (e.g., BurnP3 and BurnP3+) rely on computationally intensive Monte Carlo simulations to model burn probability, fire intensity, and rate of spread. These workflows can take days to weeks to process a single regional modelling unit. To overcome these computational bottlenecks, we present three contributions developed through collaboration between AI researchers and wildfire modelling experts: (a) a standardized framework for training, fine-tuning, and evaluating AI surrogate models against process-based wildfire simulators; (b) a multi-task deep learning surrogate trained on national-scale data to emulate burn probability, mean fire intensity, and mean rate of spread at a fraction of the computational cost (seconds); and (c) domain-specific metrics and counterfactual evaluation protocols to probe out-of-distribution generalization. Integrating geospatial data (fuel, terrain, ignition likelihood) and regional weather, our model approximates BurnP3+ simulation outputs, achieving strong performance across agreement, rank-correlation, error, and spatial-overlap metrics. It preserves downstream hazard classifications and produces physically plausible responses to expert-informed counterfactual interventions. On a representative region, the surrogate achieves 806-fold end-to-end CPU acceleration and uses 13% of BurnP3+'s host memory, facilitating rapid scenario analysis.",
+          "summaryZh": "加拿大越来越多的野火活动需要频繁的国家危险地图来指导主动缓解，包括燃料管理、土地使用规划、基础设施保护和疏散路线。然而，…",
+          "published": "2026-10-23T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Neural Networks with Differentiable Belief-Function Layers",
+          "titleZh": "具有可微信念函数层的神经网络",
+          "url": "https://arxiv.org/abs/2610.30173",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Yager's 1987 rule of combination $\\boxplus$ was proposed on epistemic grounds: under high conflict, mass should be redistributed to ignorance rather than renormalised onto the class simplex. We observe that backpropagation needs the same rule: Dempster's normaliser $(1{-}\\kappa)^{-1}$, where $\\kappa$ is the conflict mass, puts a $(1{-}\\kappa)^{-2}$ term in the gradient that diverges exactly when evidence sources disagree, while Yager's $\\boxplus$ is bilinear and has no such term. Building on this, we construct a deep evidential pipeline in which every mass in the chain from heads to output is a valid Dempster--Shafer mass function, combined by Yager's rule. The output mass on the ignorance set, $m(\\Theta)$, serves as the network's ``I do not know'' signal. The network is fit to hard labels and never sees an annotator distribution, yet $m(\\Theta)$ orders human disagreement in two modalities, visual and linguistic. Dempster's rises too and ranks contested inputs about as well, but its normaliser divides the conflict out: Yager's vacuity is $9\\times$ larger on the most contested CIFAR-10H images, so only Yager's is readable as an amount of ignorance without recalibration. For out-of-distribution detection it is competitive with strong single-pass baselines, while the clamped Dempster variant that scores higher becomes gradient-unstable once the clamp is removed.",
+          "summaryZh": "Yager的1987年组合法则$\\ boxplus $是在认识论的基础上提出的：在高度冲突的情况下，质量应该重新分配给无知，而不是重新归一化到类单纯体上。我们观察到…",
+          "published": "2026-10-23T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "label": "🏢 公司与行业动向",
+      "items": [
+        {
+          "title": "AI compute is the new oil-and needs a new market",
+          "titleZh": "人工智能计算是新的石油，需要一个新的市场",
+          "url": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-22T23:45:16.000Z",
+          "points": 42,
+          "discussion": "https://news.ycombinator.com/item?id=50202671"
+        },
+        {
+          "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+          "titleZh": "优步的竞争对手inDrive eyes 2027与Pony.ai和Nvidia在中亚进行机器人出租车测试",
+          "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "inDrive plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
+          "summaryZh": "inDrive计划于2027年上半年在哈萨克斯坦首都开始测试Pony.ai的机器人出租车。",
+          "published": "2026-10-23T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+          "titleZh": "OpenAI在IPO之前以$ 1.25 T的估值进行新的$ 300B加息",
+          "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
+          "summaryZh": "如果OpenAI在这轮融资中获得超过1万亿美元的估值，它将打破有史以来估值最高的私人公司的纪录。",
+          "published": "2026-10-22T22:08:24.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+          "titleZh": "随着决策模型竞争的加剧， OpenAI使其JEV竞争对手广泛可用",
+          "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
+          "summaryZh": "OpenAI正在向全世界推出其决策模型。它能与原来的Jev竞争吗？",
+          "published": "2026-10-22T19:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "eng",
+      "label": "🛠 工程与开源工具",
+      "items": [
+        {
+          "title": "OpenShell - A safe, private runtime for fleets of autonomous AI agents",
+          "titleZh": "OpenShell -自主人工智能代理车队的安全、私有运行时",
+          "url": "https://github.com/NVIDIA/OpenShell",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-22T17:44:06.000Z",
+          "points": 346,
+          "discussion": "https://news.ycombinator.com/item?id=50198675"
+        },
+        {
+          "title": "AI and the Enclosure of the Scientific Commons",
+          "titleZh": "人工智能和科学共享的围栏",
+          "url": "https://arxiv.org/abs/2610.27251",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-22T18:28:16.000Z",
+          "points": 128,
+          "discussion": "https://news.ycombinator.com/item?id=50199230"
+        },
+        {
+          "title": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
+          "titleZh": "大多数美国人说人工智能对社会不利，反对更多的数据中心",
+          "url": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-22T20:51:23.000Z",
+          "points": 72,
+          "discussion": "https://news.ycombinator.com/item?id=50200843"
+        },
+        {
+          "title": "Show HN: UI micro interactions prompts for AI",
+          "titleZh": "显示HN: UI AI微交互提示",
+          "url": "https://www.typeui.sh/micro-interactions",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-22T18:32:57.000Z",
+          "points": 75,
+          "discussion": "https://news.ycombinator.com/item?id=50199290"
+        },
+        {
+          "title": "Award-winning AI literature",
+          "titleZh": "屡获殊荣的人工智能文献",
+          "url": "https://jamesyu.org/award-winning-ai-literature/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-22T18:28:26.000Z",
+          "points": 59,
+          "discussion": "https://news.ycombinator.com/item?id=50199232"
+        }
+      ]
+    },
+    {
+      "key": "ideas",
+      "label": "💭 观点与深度",
+      "items": [
+        {
+          "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+          "titleZh": "问HN：如果模型这么好，为什么OpenAI不开100家公司？",
+          "url": "https://news.ycombinator.com/item?id=50200997",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "Title is a bit of an exaggeration but the question is more: if the frontier models are so good, why even sell them as your primary money maker? Couldn't OpenAI or Anthropic make a lot more money by just starting companies themselves that leverage the models and building their own products? Is selling tokens really the best strategy? Especially with commodification and prices declining wouldn't that indicate there is more money to be made on the application-side of the models rather than the utility side",
+          "summaryZh": "标题有点夸张，但问题更多：如果前沿模型如此出色，为什么还要将它们作为您的主要赚钱工具出售？ OpenAI或Anthropic不能通过刚开始赚更多的钱…",
+          "published": "2026-10-22T21:03:55.000Z",
+          "points": 65,
+          "discussion": "https://news.ycombinator.com/item?id=50200997"
+        },
+        {
+          "title": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
+          "titleZh": "CT扫描的人工智能分析发现42.9%的患者有冠状动脉炎症",
+          "url": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-22T18:02:54.000Z",
+          "points": 81,
+          "discussion": "https://news.ycombinator.com/item?id=50198940"
+        },
+        {
+          "title": "How AT&T is rethinking in-house legal work with OpenAI",
+          "titleZh": "AT&T如何重新思考与OpenAI的内部法律工作",
+          "url": "https://openai.com/index/att-legal",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+          "summaryZh": "AT&T正在与OpenAI合作，使法律知识更容易获取。了解其LegalEdge团队如何重新考虑录取和扩大法律判决。",
+          "published": "2026-10-21T17:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Designing an AI serving harness built to last",
+          "titleZh": "设计一款经久耐用的AI服务线束",
+          "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+          "source": "MIT Tech Review",
+          "alsoOn": [],
+          "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows, higher benchmark scores. Those advances have…",
+          "summaryZh": "企业人工智能的下一个竞争优势与其说与您选择哪种模式有关，不如说与您围绕它构建的内容有关。这是一个重要的转变。在过去的几年里，人工智能的大部分对话…",
+          "published": "2026-10-22T21:17:29.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "The Foundations of Scalable AI",
+          "titleZh": "可扩展AI的基础",
+          "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+          "source": "MIT Tech Review",
+          "alsoOn": [],
+          "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment and how a responsible, trustworthy implementation can turn emerging capabilities, including agentic…",
+          "summaryZh": "可扩展的人工智能系统需要强大的基础。数据、工程、平台、运营模式和治理必须融为一体。麻省理工学院技术评论EmTech Future会议的本次会议探讨了…",
+          "published": "2026-10-22T18:48:04.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    }
+  ],
+  "markdown": "# 📰 AI 日报 · 2026-10-23\n\n> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 22 条已译\n\n## 🚀 模型与产品发布\n\n**1. 使用Decisions API构建响应速度更快的应用程序**\n\nBuild more responsive apps with the Decisions API · OpenAI · 11 小时前 · [原文](<https://openai.com/index/decisions-api>)\n\n_适用于任何应用程序的快速、专注、低成本决策。_\n\n**2. FDE在OpenAI的含义**\n\nWhat FDE means at OpenAI · OpenAI · 24 小时前 · [原文](<https://openai.com/index/forward-deployed-engineering-means>)\n\n_OpenAI的前沿部署工程意味着什么_\n\n**3. 超越树木覆盖：绘制世界森林类型地图**\n\nBeyond tree cover: mapping the world’s forest types · Google DeepMind · 15 小时前 · [原文](<https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/>)\n\n_一张全球地图，将地球上每10米的土地划分为不同的森林类型。_\n\n**4. 优步通过OpenAI为所有员工提供ChatGPT Work服务**\n\nUber brings ChatGPT Work to all employees with OpenAI · OpenAI · 30 小时前 · [原文](<https://openai.com/index/uber-chatgpt-work-rollout>)\n\n_优步正在为3万多名员工推出ChatGPT Work，帮助团队研究、分析数据、创建演示文稿并完成复杂的工作流程。_\n\n## 🔬 研究前沿\n\n**1. 打招呼的代价： AI Agent通信协议中握手开销的实证研究**\n\nThe Cost of Saying Hello: An Empirical Study of Handshake Overhead in AI Agent Communication Protocols · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.30151>)\n\n_人工智能代理之间的每次交互都始于握手：发起代理必须找到对方，了解它可以做什么，并在发送第一条有用消息之前建立会话。代理调查…_\n\n**2. 人工智能代理的MCP与CLI：自治系统工具集成策略的比较分析**\n\nMCP vs CLI for AI Agents: A Comparative Analysis of Tool Integration Strategies for Autonomous Systems · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.30157>)\n\n_AI代理需要接口才能与文件、API、数据库和云服务等外部系统进行交互。出现了两种相互竞争的范例： CLI （命令行界面），其中代理执行shell命令…_\n\n**3. 通过人工智能替代建模框架加速加拿大各地的野火危险地图绘制**\n\nAccelerating Wildfire Hazard Mapping Across Canada with an AI Surrogate Modelling Framework · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.30170>)\n\n_加拿大越来越多的野火活动需要频繁的国家危险地图来指导主动缓解，包括燃料管理、土地使用规划、基础设施保护和疏散路线。然而，…_\n\n**4. 具有可微信念函数层的神经网络**\n\nNeural Networks with Differentiable Belief-Function Layers · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.30173>)\n\n_Yager的1987年组合法则$\\ boxplus $是在认识论的基础上提出的：在高度冲突的情况下，质量应该重新分配给无知，而不是重新归一化到类单纯体上。我们观察到…_\n\n## 🏢 公司与行业动向\n\n**1. 人工智能计算是新的石油，需要一个新的市场**\n\nAI compute is the new oil-and needs a new market · Hacker News · 6 小时前 · ▲42 · [原文](<https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market>)\n\n**2. 优步的竞争对手inDrive eyes 2027与Pony.ai和Nvidia在中亚进行机器人出租车测试**\n\nUber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia · TechCrunch AI · 2 小时前 · [原文](<https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/>)\n\n_inDrive计划于2027年上半年在哈萨克斯坦首都开始测试Pony.ai的机器人出租车。_\n\n**3. OpenAI在IPO之前以$ 1.25 T的估值进行新的$ 300B加息**\n\nOpenAI working on new $30B raise at $1.25T valuation ahead of IPO · TechCrunch AI · 7 小时前 · [原文](<https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/>)\n\n_如果OpenAI在这轮融资中获得超过1万亿美元的估值，它将打破有史以来估值最高的私人公司的纪录。_\n\n**4. 随着决策模型竞争的加剧， OpenAI使其JEV竞争对手广泛可用**\n\nOpenAI makes its Jev competitor widely available as decision model competition heats up · TechCrunch AI · 11 小时前 · [原文](<https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/>)\n\n_OpenAI正在向全世界推出其决策模型。它能与原来的Jev竞争吗？_\n\n## 🛠 工程与开源工具\n\n**1. OpenShell -自主人工智能代理车队的安全、私有运行时**\n\nOpenShell - A safe, private runtime for fleets of autonomous AI agents · Hacker News · 12 小时前 · ▲346 · [原文](<https://github.com/NVIDIA/OpenShell>)\n\n**2. 人工智能和科学共享的围栏**\n\nAI and the Enclosure of the Scientific Commons · Hacker News · 11 小时前 · ▲128 · [原文](<https://arxiv.org/abs/2610.27251>)\n\n**3. 大多数美国人说人工智能对社会不利，反对更多的数据中心**\n\nMost Americans Say AI Is Bad for Society, Oppose More Data Centers · Hacker News · 9 小时前 · ▲72 · [原文](<https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085>)\n\n**4. 显示HN: UI AI微交互提示**\n\nShow HN: UI micro interactions prompts for AI · Hacker News · 11 小时前 · ▲75 · [原文](<https://www.typeui.sh/micro-interactions>)\n\n**5. 屡获殊荣的人工智能文献**\n\nAward-winning AI literature · Hacker News · 11 小时前 · ▲59 · [原文](<https://jamesyu.org/award-winning-ai-literature/>)\n\n## 💭 观点与深度\n\n**1. 问HN：如果模型这么好，为什么OpenAI不开100家公司？**\n\nAsk HN: If the models are so good, why doesn't OpenAI just start 100 companies? · Hacker News · 9 小时前 · ▲65 · [原文](<https://news.ycombinator.com/item?id=50200997>)\n\n_标题有点夸张，但问题更多：如果前沿模型如此出色，为什么还要将它们作为您的主要赚钱工具出售？ OpenAI或Anthropic不能通过刚开始赚更多的钱…_\n\n**2. CT扫描的人工智能分析发现42.9%的患者有冠状动脉炎症**\n\nAI analysis of CT scans finds 42.9% of patients have coronary inflammation · Hacker News · 12 小时前 · ▲81 · [原文](<https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients>)\n\n**3. AT&T如何重新思考与OpenAI的内部法律工作**\n\nHow AT&T is rethinking in-house legal work with OpenAI · OpenAI · 2 天前 · [原文](<https://openai.com/index/att-legal>)\n\n_AT&T正在与OpenAI合作，使法律知识更容易获取。了解其LegalEdge团队如何重新考虑录取和扩大法律判决。_\n\n**4. 设计一款经久耐用的AI服务线束**\n\nDesigning an AI serving harness built to last · MIT Tech Review · 8 小时前 · [原文](<https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/>)\n\n_企业人工智能的下一个竞争优势与其说与您选择哪种模式有关，不如说与您围绕它构建的内容有关。这是一个重要的转变。在过去的几年里，人工智能的大部分对话…_\n\n**5. 可扩展AI的基础**\n\nThe Foundations of Scalable AI · MIT Tech Review · 11 小时前 · [原文](<https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/>)\n\n_可扩展的人工智能系统需要强大的基础。数据、工程、平台、运营模式和治理必须融为一体。麻省理工学院技术评论EmTech Future会议的本次会议探讨了…_\n"
+}
