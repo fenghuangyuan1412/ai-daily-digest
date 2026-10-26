@@ -1,107 +1,119 @@
-# 📰 AI 日报 · 2026-10-25
+# 📰 AI 日报 · 2026-10-26
 
-> 18 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 15 条已译
+> 20 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 18 条已译
 
 ## 🚀 模型与产品发布
 
-**1. Grok的人工智能模型被迫选择共和党人。OpenAI挑选民主党人。**
+**1. Anthropic确认， Claude AI访问了公开的格鲁吉亚选民数据- Fox Business**
 
-Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats. · TechCrunch AI · 15 小时前 · [原文](<https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/>)
+Claude AI accessed publicly available Georgia voter data, Anthropic confirms - Fox Business · Google News · 6 小时前 · [原文](<https://news.google.com/rss/articles/CBMivgFBVV95cUxOdEkwUjcxQ0R6QUowSUg4VmFNR2hrcllUVGtaTnRIWXNZODdMTkpqLXpLcUpPOEVyNzlwMU5vdXhlODRycDNXVVE4ZnBWUFQ5LXlYT3F4dXZXYVZsbjRza1VuUEFQd2E5VWlsYkJEcFB4OFZkMW1hV1FnR0hmRnN4cFFKaWtGUTNMMkN3RXk2OW52d1BXaWVsSmRwd1I4Q1lyNU5kNmloZjBnYnMteGduUTRzS2N1d01ZWjhQZ1pB0gG-AUFVX3lxTE50STBSNzFDRHpBSjBJSDhWYU1HaGtyWVRUa1pOdEhZc1k4N0xOSmotektxSk84RXI3OXAxTm91eGU4NHJwM1dVUThmcFZQVDkteVhPcXh1dldhVmxuNHNrVW5QQVB3YTlVaWxiQkRwUHg4VmQxbWFXUWdHSGZGc3hwUUppa0ZRM0wyQ3dFeTY5bnZ3UFdpZWxKZHB3UjhDWXI1TmQ2aWhmMGdicy14Z25RNHNLY3V3TVlaOFBnWkE?oc=5>)
 
-_一项新的研究发现， Grok的人工智能压倒性地推荐了共和党候选人，而OpenAI的GPT则倾向于民主党人，在近500场选举中，有90%以上的人工智能模型意见不一致。_
+_Claude AI访问了公开的格鲁吉亚选民数据， Anthropic确认了Fox Business_
 
-**2. 快速扩展在线存储，为超过10亿ChatGPT用户提供服务（第二部分）**
+**2. Grok发布其人工智能生成的“奥德赛”的前七分钟**
 
-Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II) · OpenAI · 2 天前 · [原文](<https://openai.com/index/scaling-storage-one-billion-users-part-two>)
+Grok releases the first seven minutes of its AI-generated ‘Odyssey’ · TechCrunch AI · 8 小时前 · [原文](<https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/>)
 
-_了解OpenAI如何通过可靠的多租户、全局缓存和Azure Cosmos DB扩展Habitat，为ChatGPT提供更快12倍的读取速度。_
+_只要您不追求艺术性、灵感或人类兴趣，镜头看起来还可以。_
 
 ## 🔬 研究前沿
 
-**1. Z-Library上的AI辅助论文引用了一篇不存在的TorrentFreak文章**
+**1. 权衡感知区域设计：企业客户到销售人员分配的多目标决策系统**
 
-AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist · Hacker News · 18 小时前 · ▲95 · [原文](<https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/>)
+Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.31701>)
 
-**2. 一键学习**
+_企业客户旅程的形成不仅取决于产品体验和营销，还取决于反复出现的资源分配决策。在B2B上市（GTM）组织中，区域划分决定了…_
 
-Quick Study · Simon Willison · 32 小时前 · [原文](<https://simonwillison.net/2026/Oct/23/quick-study-painter/>)
+**2. Phronix：以能力为中心的座席学习范式**
 
-_工具：快速学习提示Claude Opus 5.5高：在打开照片的地方构建一个工件，它使用画布元素和模拟画笔快速（在几秒钟内）绘制该照片的版本。另请参阅我的…_
+Phronix: The Capability-Centric Learning Paradigm for Agents · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.31789>)
+
+_科学计算越来越依赖于基于大型语言模型的代理来执行性能工程任务，例如仪器、分析和工作流移植。然而，客服代表的效率在很大程度上取决于…_
+
+**3. 英语和普通话中的光顾和居高临下的语言检测**
+
+Patronizing and Condescending Language Detection in English and Mandarin · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.31808>)
+
+_傲慢和居高临下的语言（PCL）是一种贬低和同情弱势群体的有害语言，强化了负面的社会刻板印象。然而，与公开的仇恨言论不同，它通常…_
+
+**4. PaperFormalizer：精益研究论文的循环作者自动形式化**
+
+PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.31810>)
+
+_即使是经过仔细校对的纸张，也会在其校对或陈述的假设中留下很小的间隙。我们引入了PaperFormalizer，这是一个基于精益的代理管道，可帮助作者在自己的论文中找到并填补这些空白…_
+
+**5. 不要忘记您刚刚学到的东西：自主修复将代理错误转化为持久的经验教训**
+
+Don't Forget What You Just Learned: Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.31846>)
+
+_智能代理应从错误中吸取教训，以便通过体验实现持续改进。然而，今天的代理只是暂时从错误中恢复过来：上下文反射很容易被遗忘…_
+
+**6. TACS-RF：射频和毫米波模块的工具驱动代理电路合成**
+
+TACS-RF: Tool-driven Agentic Circuit Synthesis of RF and mmWave Modules · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.31882>)
+
+_我们提出了TACS-RF的框架-一种射频和毫米波模块的工具驱动代理电路合成。在此框架中，大型语言模型（LLM）编码代理（Claude Opus 4.8）直接推动行业标准…_
 
 ## 🏢 公司与行业动向
 
-**1. 神经芯片解码大脑区域之间的相互作用**
+**1. Anthropic的IPO盯上了摇摇欲坠的人工智能交易-每日上行**
 
-Neural chip decodes interactions between brain regions · Hacker News · 14 小时前 · ▲98 · [原文](<https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/>)
+Anthropic’s IPO Stares Down a Wobbly AI Trade - The Daily Upside · Google News · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMisAFBVV95cUxPNk40eHhhZjI0X0U1LXRTRjhNUU55UkE4Z185X3VnS0M5N1plSUxZOWhOWURfQS1YUVJZdVRVekY4SldtS1dNaHVEYWpfN0l4MFJRb1c5ZUN3Z2lubTRqT3JQRkx0RWNSNkVfLW8zYzBJYS16T0NoUzJkU3d4WnB1Y0NwRy1kcHJoanJlMU1PLUJzQVNkLVB5cVBnOE9WTi1sRWNvVWRRZnJMbmt3djBaUA?oc=5>)
 
-**2. 垂域大模型看山东丨以应用场景牵引模型创新人工智能赋能千行百业_山东新闻 - 大众网**
+_Anthropic的IPO盯上了摇摇欲坠的人工智能交易The Daily Upside_
 
-Google 新闻中文 · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMiaEFVX3lxTE15Z1ZEYkFEdktueDNvQmw0S1o5X2xZVmwwZnRwUVVUWWdBdldFVDM1NFpvaU5BVko3TFltUU5LM0ZqamJpWmpZR3FJUTB3N1VKRDBYOVVBLTZXSmZzU0xOVGU4TmNFbGhy?oc=5>)
+**2. 绑定到Anthropic的人工智能机器人到达佐治亚州公共数据中心-福克斯5亚特兰大**
 
-_垂域大模型看山东丨以应用场景牵引模型创新人工智能赋能千行百业_山东新闻 大众网_
+AI bot tied to Anthropic reaches public Georgia data hub - FOX 5 Atlanta · Google News · 6 小时前 · [原文](<https://news.google.com/rss/articles/CBMilAFBVV95cUxPWlJvR0lQaXp6MHlOVkR6ejFSUzdwY1Y3VXpxRkVzZHZUcnd1czB0MmVIaWxOSnQ3UGlkeTdzdTNOR25vUUV2WXlFWkNVUGtfZUpYa1FQeHUtVFhpRF93dkhKN3BjUlZ4bVJIb2hXSTRWQU1tVVZESkJjT29XeEZ1R3hrRzFHR21wck9NajdEUmM3T2V0?oc=5>)
 
-**3. 人工智能墓地：未成功完成的项目和初创公司的运行列表**
+_绑定到Anthropic的人工智能机器人到达佐治亚州公共数据中心FOX 5亚特兰大_
 
-The AI graveyard: a running list of projects and startups that didn’t make it · TechCrunch AI · 11 小时前 · [原文](<https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/>)
+**3. 在人工智能领域最大的争斗- AFR内部**
 
-_从苹果一再推迟Siri AI到OpenAI凌乱的“超级应用”发布，以下是关闭或未达到预期的人工智能项目。_
+Inside the biggest feud in artificial intelligence - AFR · Google News · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMingFBVV95cUxQeWVlanJfeUI0LTFlTmxtX3VVYURzMUdnLUtOS1VueW5iWTkxSVhNQkRWaGd1Ulhhc1l2M1MtNGVQLUphcHVjZ2cyd1E2aXhYYmE3bVlLb1RoS0gxdHdGWTU1TlJPeF8tejJ6Q1dKMm1Oc3dqWTZ2MHcwT01keXc4NkF4Qko1c2wyOU5jNFVoczdtSjYzdDlqZXpIRDkzQQ?oc=5>)
 
-**4. 人工智能是为了你的钱还是为了所有的钱？-reflector.com**
+_在人工智能AFR中最大的争斗内部_
 
-Is AI coming for your money-or all money? - reflector.com · Google News · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMixAFBVV95cUxPZzdGZzRmbGlJMDJ2RnNOcTU5aTNqd2VqTlgzNF9aa3VUcXhaQWIzOXJtSXhFd0Q1aDJ1c1RHSnlKQ3AzN196OURtcFJpaEZNOFh6OVNuQ1JMVnBvTkp4Q3FjclJnMVdmejRfUnlZbTZVcUZYSGpPMUplX2N2UW0wa2hGSmhHV1VXREQyWFhLQXBVRGRacFlZOHpBVWRMUHA0UnQ0S2YxbHQtUlZzYmlPQ04wc2J2MWlORlBZYTV1XzJnaW53?oc=5>)
+**4. [AI+教育教学]融合设计科学与人工智能的创新实践能力培养探索 - 上海交通大学 新闻网**
 
-_人工智能是为了你的钱还是为了所有的钱？ reflector.com_
+Google 新闻中文 · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QSzRUa1c2bHFyQk5tbHBocllSQXNGQTlfYi1hV00ycm5LZGdQTWwzbGllckpKbFBjZTkxRVdxS0tjaFh4eVpEZl9lOWR3cHRhZWR2dkpQLThKNnp3cUNWY0V0SUkyXzly?oc=5>)
 
-**5. 国务院办公厅发文明确：减缓人工智能应用就业替代影响_公司新闻_财经 - 证券之星**
+_[AI+教育教学]融合设计科学与人工智能的创新实践能力培养探索 上海交通大学 新闻网_
 
-Google 新闻中文 · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMiYEFVX3lxTE5jNTg1eS1fRDRSYW9IN3VkRlFOVEwzZjRJWS1vRWYzWWxsWlZDVlRsMXFCVm1ydkZQdERpZGNkbTdUVXRiekV0TlVPLTQzMFNRX0VGVHRlRGhhTUdJMkJ6bw?oc=5>)
+**5. 场景出题，AI赋能！广州市直机关首届人工智能应用大赛举行 - 21财经**
 
-_国务院办公厅发文明确：减缓人工智能应用就业替代影响_公司新闻_财经 证券之星_
+Google 新闻中文 · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMijwFBVV95cUxQcHV5ZVpRTkFYUmd5Z1RMcEZiYV81cktLQWFZNERuNnlKS2lvV0djTnZFN2lsekFGd1RzejNCbTNmM3lWLXI1cWRDdnBkUVhWNDBValA3WWJRQkwyTGJvVHFOeGNocng2YXR4VEF0eWN4WlloeEx2dnQ4LWhhZkI5RDZJTHN0MkV4cjJ3b2RzOA?oc=5>)
 
-**6. “世界科先声”编译：“AI迭代太快，我们跟累了” - 观察者网**
+_场景出题，AI赋能！广州市直机关首届人工智能应用大赛举行 21财经_
 
-Google 新闻中文 · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMickFVX3lxTE5NMzNUSGpEOWVLWHZYT0hwX2tvbUtHZnFuRkJqT1VYYVFEVE16eTVZXzlURHFyNEo4d0hmQmZaWVZmS2lIWlhHVzlUZ3VwakxaaGlIUGhIWUI4SGdoMXdyTFdXUUJlXzVmTEotMGszMTlLdw?oc=5>)
+**6. Apollo经济学家表示，人工智能为大多数公司带来“零财务回报”**
 
-_“世界科先声”编译：“AI迭代太快，我们跟累了” 观察者网_
+AI delivers ‘zero financial payoff’ to most companies, Apollo economist says · TechCrunch AI · 13 小时前 · [原文](<https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/>)
+
+_“尽管围绕人工智能进行了大量投资和广泛炒作，但该技术为科技以外的美国企业带来了零财务回报。”_
 
 ## 🛠 工程与开源工具
 
-**1. 科技行业之外没有人工智能回报的迹象**
+**1. OpenAI和Anthropic在几个月内将LLM价格降低了高达80 ％。为什么？**
 
-No signs of AI payoff outside the tech sector · Hacker News · 10 小时前 · ▲519 · [原文](<https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector>)
+OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why? · Hacker News · 8 小时前 · ▲229 · [原文](<https://minimaxir.com/2026/10/cheap-llms/>)
 
-**2. Cerebras部署万亿参数人工智能模型**
+**2. 人工智能的使用导致加州大学伯克利分校数学教授在家庭作业评分中看到“没有意义”**
 
-Cerebras Deploys Trillion-Parameter AI Models · Hacker News · 4 小时前 · ▲65 · [原文](<https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras>)
+AI use leads UC Berkeley math professor to see 'no point' in grading homework · Hacker News · 13 小时前 · ▲211 · [原文](<https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html>)
 
-**3. 显示HN： Corgi，一个有用的{agent, terminal}多路复用器**
+**3. Apollo表示，人工智能在科技行业之外实现了“零财务回报”**
 
-Show HN: Corgi, a helpful {agent, terminal} multiplexer · Hacker News · 34 小时前 · ▲127 · [原文](<https://corgi.computer/>)
+Apollo says AI has delivered 'zero financial payoff' outside the tech industry · Hacker News · 7 小时前 · ▲45 · [原文](<https://www.businessinsider.com/apollo-ai-zero-financial-payoff-corporate-america-economic-analysis-2026-10>)
 
-_大家好！受到Herdr的启发，我已经构建了一个代理多路复用器，作为我的日常司机已经使用了几周。我想我在几个方面改进了这个概念，专注于我一直希望的人体工程学…_
+**4. 想象一下人工智能的未来，被禁止意味着你现在在经济上毫无用处**
 
-**4. 新的人工智能诊断疾病的能力是医生的两倍多**
+Imagine an AI future where being banned means you are now economically useless · Hacker News · 17 小时前 · ▲96 · [原文](<https://twitter.com/boneGPT/status/2114035719853265264>)
 
-New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors · Hacker News · 34 小时前 · ▲66 · [原文](<https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562>)
+**5. 尼康摄影大赛获胜者在科学家发现人工智能的迹象后失去冠军头衔**
 
-**5. battledrones v14： Compass Rose，四人地图**
+Nikon photography contest winner loses title after scientists spot signs of AI · Hacker News · 20 小时前 · ▲138 · [原文](<https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html>)
 
-battledrones v14: Compass Rose, a four player map · Simon Willison · 26 小时前 · [原文](<https://simonwillison.net/2026/Oct/24/battledrones/>)
+**6. 一位数学家解读人工智能的未来**
 
-_发布： battledrones v14： Compass Rose，一张四人地图，我在Battledrones中添加了四人在线模式-之前的地图仅限于两张。以下是我使用的初始提示：为四人对战添加新地图-…_
-
-**6. Kimi K3.1 Pro简介**
-
-Introducing Kimi K3.1 Pro · Simon Willison · 34 小时前 · [原文](<https://simonwillison.net/2026/Oct/23/kimi-k31-pro/>)
-
-_介绍Kimi K3.1 Pro Kimi K3.1 Pro今天登陆Kimi API -它尚未开放权重，但Moonshot承诺“完整模型权重将于2026年11月4日发布”。他们还提供“高速”版本…_
-
-## 💭 观点与深度
-
-**1. 美国在媒体、电影和艺术领域失去了20万个工作岗位。人工智能有多少钱？**
-
-America has lost 200k of jobs in media, film and the arts. How much is AI? · Hacker News · 6 小时前 · ▲266 · [原文](<https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class>)
-
-**2. 为什么人工智能生成的语言如此难以理解？**
-
-Why is AI generated language so hard to understand? · Hacker News · 11 小时前 · ▲177 · [原文](<https://arxiv.org/abs/2610.29162>)
+A mathematician reads the AI future · Hacker News · 13 小时前 · ▲56 · [原文](<https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/>)
