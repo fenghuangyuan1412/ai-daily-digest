@@ -1,0 +1,309 @@
+{
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T05:48:42.615Z",
+  "windowHours": 36,
+  "sourcesTotal": 13,
+  "sourcesOk": 13,
+  "sourcesFailed": [],
+  "itemCount": 22,
+  "translatedCount": 20,
+  "sections": [
+    {
+      "key": "model",
+      "label": "🚀 模型与产品发布",
+      "items": [
+        {
+          "title": "GPT-6.1 Terra",
+          "titleZh": "",
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+          "source": "Hacker News",
+          "alsoOn": [
+            "Simon Willison"
+          ],
+          "summary": "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+          "summaryZh": "",
+          "published": "2026-10-26T18:01:17.000Z",
+          "points": 563,
+          "discussion": "https://news.ycombinator.com/item?id=50248124"
+        },
+        {
+          "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+          "titleZh": "显示HN： HOB -开源，替代Claude Cowork和ChatGPT的设备",
+          "url": "https://github.com/FrigadeHQ/hob",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "Hey HN, I'm Christian and this is a new OSS project I've been noodling on for the last couple of weeks. Hob is a free, MIT-licensed desktop app for Mac, Windows and Linux that works on your files the way the Claude and ChatGPT desktop apps do, except the model runs on your own computer. It uses open-weight models (currently Gemma 4 and gpt-oss). All your chats and files never leave your system. The only things that go online are web search (can be turned off in settings) and any MCP connectors you add yourself. Main features: - Automatically finds the best open-weight model for your hardware on first install (Mac/Linux/Windows) - Writes sandboxed Python code for ad hoc tools (data processing, document conversion, graphs etc.) - Built-in web search (powered by SearXNG) - MCP support - Image recognition - CRUD to your local filesystem - Works fully offline with no internet Before building this I tried every local AI app I could find, but it seemed each one had different problems. The main thing I noticed is that none of them could do what the ChatGPT and Claude apps do with your files, e.g. read and change files in a folder, look at images, run code in a sandbox, draw a chart. The most advanced thing any of them did was paste a plain text file into a small context window, which basically failed as soon as you had a file larger than a few KB. I couldn't find anything that could easily parse images and bigger PDFs. The OSS solutions that were more advanced all seemed to default to hosted models (either OSS or closed), which defeats the entire point of the privacy that on-device OSS offers. They also seemed to push towards an account/open-core style business. I build it using Electron bridged with llama.cpp in its own process. On initial load, the system will try and figure out if you have a compatible graphics card and if not default to CPU-only (I ran into a lot of issues of graphics card beeing seemingly compatible but then crashing on first query, there's a whole saga to this lol). Code execution happens in a sandbox that can only write to the chat's folder and has no network unless asked (sandbox-exec on macOS, Landlock on Linux and a low-integrity process on Windows). Images go to a small Qwen3-VL model. Dictation is a local Whisper model. The hardest part was definitely to get the smaller models to use tools reliably. Ran into a ton of issues of 4B models happily saying \"here's your chart\" without ever calling the chart tool or get stuck in an infinite call loop. I spent a fair amount of the work building guards vs tweaking prompts (that didn't really work for small models). I understand the pushback that local models are weaker than frontier cloud models. This is true, but for most tasks for most normal people, I'd argue you rarely need the newest frontier model. From my own evals, systems with 16+ GB of RAM do really well, and if you have a GPU or more RAM, you get very close to what you'll get out of the box with a frontier hosted model. Excited to hear what you think and see how it runs on other systems!",
+          "summaryZh": "嘿， HN，我是Christian，这是一个新的OSS项目，我过去几周一直在努力。HOB是一款免费的MIT许可桌面应用程序，适用于Mac、Windows和Linux，可以像Claude和…",
+          "published": "2026-10-26T16:12:29.000Z",
+          "points": 136,
+          "discussion": "https://news.ycombinator.com/item?id=50246238"
+        },
+        {
+          "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+          "titleZh": "Greptile使用GPT-6 Astra进行代码审查之外的错误检测",
+          "url": "https://openai.com/index/greptile-code-review-codex-astra",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+          "summaryZh": "Greptile如何使用GPT-6 Astra测试用户工作流程， Daybreak如何加强安全性， Codex如何减少返工。",
+          "published": "2026-10-26T22:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+          "titleZh": "GPT-6.1 Sol帮助CodeRabbit加强复杂代码库的安全性",
+          "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+          "summaryZh": "CodeRabbit使用GPT-6.1 SOL来调查复杂代码库中的安全风险。其安全代理可帮助开发人员审查发现和提议的修复。",
+          "published": "2026-10-26T13:45:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "research",
+      "label": "🔬 研究前沿",
+      "items": [
+        {
+          "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
+          "titleZh": "权衡感知区域设计：企业客户到销售人员分配的多目标决策系统",
+          "url": "https://arxiv.org/abs/2610.31701",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Enterprise customer journeys are shaped not only by product experiences and marketing, but also by recurring resource-allocation decisions. In B2B go-to-market (GTM) organizations, territory carving determines which accounts receive seller coverage, which seller-account relationships are preserved, and how limited field capacity is distributed. Yet the process often remains manual, making it difficult to compare opportunities, value continuity, and evaluate tradeoffs among growth, balance, capacity, and feasibility. We present a production decision system for tradeoff-aware customer-to-seller allocation in enterprise GTM planning. It integrates three components: a multidimensional account-value layer that combines predictive signals to score opportunity; an observational continuity-valuation layer that estimates the cost of breaking seller-account relationships using a synthetic-control-style counterfactual framework; and a multi-objective optimization layer that allocates coverage to high-value accounts while considering continuity, opportunity balance, and operational constraints. Deployed as a scenario-based decision-support system, the framework enables planners to inspect and compare allocation tradeoffs. Historical backtesting shows that optimizer-generated scenarios substantially improve assignment compliance while maintaining comparable seller-level opportunity distribution. In production planning, adopted scenarios improved both assignment compliance and opportunity balance relative to the previous baseline. Directing scarce seller capacity toward higher-value accounts also offers incremental revenue potential at enterprise scale. The key contribution is an integrated, inspectable framework that turns territory carving into a governable decision process.",
+          "summaryZh": "企业客户旅程的形成不仅取决于产品体验和营销，还取决于反复出现的资源分配决策。在B2B上市（GTM）组织中，区域划分决定了…",
+          "published": "2026-10-27T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
+          "titleZh": "Phronix：以能力为中心的座席学习范式",
+          "url": "https://arxiv.org/abs/2610.31789",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends heavily on the surrounding harness, which typically relies on manually written skills and curated memory. This limits autonomous learning, forcing agents to repeatedly rediscover solutions rather than retain and reuse knowledge from prior executions. We introduce Phronix, a capability-centric learning paradigm that enables agentic harnesses to acquire, validate, and refine reusable capabilities from their own executions. Phronix operates through a predictor-validator-corrector loop: MCP tools and associated skills propose solutions, tool executions validate them, and observed outcomes refine the stored capabilities. It distills every observed interaction into a capability store and researches a failing task rather than abandoning it. First, such learned capabilities solve a recurring task on the first attempt in 93-95% of cases across every model, significantly reducing solution non-determinism and improving reliability. Second, Phronix turns an agent's own execution into 7.6-30.8 durable capabilities per task without user instruction, and creation falls below two once the needed capability exists. Third, warm-start runs consume only 0.38-0.40 million tokens per task, which is three to four times less than a single baseline attempt, while a cold-start costs no more than the baseline. On the 1000 Genome Pegasus workflow, instrumenting a production application for I/O performance analysis, Phronix passes all 11 correctness checks against six for the baseline harness, and also lifts the task solving rates of two cheaper models from 29% and 27% of SWE-bench tasks solved to 91% and 87%, respectively, matching the performance of the most expensive evaluated model.",
+          "summaryZh": "科学计算越来越依赖于基于大型语言模型的代理来执行性能工程任务，例如仪器、分析和工作流移植。然而，客服代表的效率在很大程度上取决于…",
+          "published": "2026-10-27T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Patronizing and Condescending Language Detection in English and Mandarin",
+          "titleZh": "英语和普通话中的光顾和居高临下的语言检测",
+          "url": "https://arxiv.org/abs/2610.31808",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Patronizing and condescending language (PCL) is a form of harmful language that belittles and assumes pity for vulnerable groups, reinforcing negative societal stereotypes. However, unlike overt hate speech, it is often difficult to detect, even for human judges. This paper proposes a system for the automated detection of PCL. Our first approach uses static word embeddings and a convolutional neural network for classification, while our second approach uses pre-trained BERT embeddings fine-tuned for the PCL task. Our second approach was considerably more successful, and achieved an F1 score of 0.528 over the development set.",
+          "summaryZh": "傲慢和居高临下的语言（PCL）是一种贬低和同情弱势群体的有害语言，强化了负面的社会刻板印象。然而，与公开的仇恨言论不同，它通常…",
+          "published": "2026-10-27T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
+          "titleZh": "PaperFormalizer：精益研究论文的循环作者自动形式化",
+          "url": "https://arxiv.org/abs/2610.31810",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions. We introduce PaperFormalizer, a Lean-based agentic pipeline that helps authors find and close such gaps in their own papers and turn each paper into a Lean-verified version. Starting from the LaTeX source, PaperFormalizer transcribes the paper into a dependency graph of statements, audits each statement in natural language for faithfulness, ambiguity and correctness, and then formalizes and proves the statements in Lean against Mathlib, optional domain libraries and the author's personal toolkit. Only the author knows what a statement is meant to say and how a formalization gap in a result is best fixed. The pipeline therefore stops and asks the author whenever a statement admits more than one reading, presents every repair, in natural language and TeX symbols, as a proposal that the author can accept, decline or redirect, and leaves to the author every decision that could potentially change what the paper claims. The output is an annotated and revised version of the paper, a report of the changes, and Lean code in which each declaration is linked to the statement it formalizes. The author's toolkit grows as more papers are formalized, and authors can share their verified papers so that researchers who build on them can reuse their Lean code. By making verified papers practical to produce, PaperFormalizer aims to make research that rests on mathematical proofs more robust. PaperFormalizer runs inside a coding agent (Claude Code or Codex) and is available at https://github.com/Jiyuan-Tan/PaperFormalizer. Papers with Lean code shared by users are available at https://paperformalizer.org.",
+          "summaryZh": "即使是经过仔细校对的纸张，也会在其校对或陈述的假设中留下很小的间隙。我们引入了PaperFormalizer，这是一个基于精益的代理管道，可帮助作者在自己的论文中找到并填补这些空白…",
+          "published": "2026-10-27T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "label": "🏢 公司与行业动向",
+      "items": [
+        {
+          "title": "The risk that AI wakes up and other warnings in Anthropic’s unusual IPO filing - The Washington Post",
+          "titleZh": "Anthropic不寻常的IPO申请中AI唤醒的风险和其他警告-《华盛顿邮报》",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVkhmVGUzeUdLR0pBUUEwV2IwM2lRdVlWRDRSMk5yR2kzR1NDeWlMOFJpSVlNZDhZTGROLXVILWFEaXJtREI5LWpPQTM0Sll4YVBCZkhOUWE4cXNRZUtORFdMVE5mREFnYTF3ZlEzZlI4b1dZdG50SXFXVENfLXhfMWhMT2FfX0VZRlpkRlB2VlR2d0NsNi13aF9oOWtjcFJOOVpWSExENXVKbWp6UlBSeUpKZFpfMW9X?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "The risk that AI wakes up and other warnings in Anthropic’s unusual IPO filing The Washington Post",
+          "summaryZh": "Anthropic不寻常的IPO申请中AI唤醒的风险和其他警告",
+          "published": "2026-10-27T05:36:55.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+          "titleZh": "Anthropic的IPO申请揭示了其吸引企业客户的策略",
+          "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier.",
+          "summaryZh": "Anthropic的S-1显示，超过一半的$ 100,000 +客户现在同时使用Claude平台和第一方应用程序，这本交叉销售剧本让人想起亚马逊，它让企业客户变得更粘。",
+          "published": "2026-10-26T16:49:42.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Anthropic's IPO expected to reshape San Francisco's housing market: 'Most of us can't afford houses' - ABC7 Bay Area",
+          "titleZh": "Anthropic的IPO预计将重塑旧金山的房地产市场：“我们大多数人买不起房子”-ABC7湾区",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNV2NHMGEzeHNpRm1TUUVVWVZWYkRrTWpyMjRPOUgzM1hoQUNTZHhsWm03MHhUX3p1RjV0eHZrNjhqS2Y5UEd5Tl9UZDJSVlF6QlVGcHhxMnctcUdUeEVxUkRObVVkd3Y4RVMwdnczcE9feksxM2xmc0RiTnREYXZmXzU3QzluNXdnUkhnelYyR2hsLVpoaTFFMV9KREdTVWNVT3JiM0NTR0lraFZpbGFPN3daWWVIbnVOREoyVGUyaHJHd9IBxwFBVV95cUxQT3IydmxrNnN5Z1gxQkxRemJKc0UyQlF4YlMxbDBPdzBBUm5jOUVQOGVBQVBGdmtEU2xHWm5Rdmp6SXNaNzEwTFJVcDgybDBPOHVobUN1enZJUGNVejVKUFJrYm15cmlGMXpBaFVxcWFUQjBGVWRGdWJCbFhuZmYtaUZvWml2NU82dkZpdU9xYV9pUnVqX3BQanNacnVELU5WTDNhWndkWjNoS2ViYndaZ2RXWnNEVlFSTzl3bHlWa2VTLUhLaE9v?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "Anthropic's IPO expected to reshape San Francisco's housing market: 'Most of us can't afford houses' ABC7 Bay Area",
+          "summaryZh": "Anthropic的IPO预计将重塑旧金山的房地产市场：“我们大多数人买不起房子” ABC7湾区",
+          "published": "2026-10-27T01:32:59.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Anthropic officially files for its public debut",
+          "titleZh": "Anthropic正式申请公开亮相",
+          "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+          "summaryZh": "Anthropic已正式申请IPO，揭示了收入飙升、亏损增加、主要企业采用以及旨在保护创始人控制权及其人工智能安全使命的不寻常治理结构。",
+          "published": "2026-10-26T14:35:22.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "eng",
+      "label": "🛠 工程与开源工具",
+      "items": [
+        {
+          "title": "Anthropic S-1",
+          "titleZh": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-26T13:04:50.000Z",
+          "points": 1555,
+          "discussion": "https://news.ycombinator.com/item?id=50242939"
+        },
+        {
+          "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+          "titleZh": "GLM-5.3 Workers AI模型中的交叉请求KV缓存曝光（155个回复）",
+          "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-26T22:41:48.000Z",
+          "points": 111,
+          "discussion": "https://news.ycombinator.com/item?id=50252159"
+        },
+        {
+          "title": "Concerning behavior from a popular open-weight AI model",
+          "titleZh": "关于流行的开放式权重AI模型的行为",
+          "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-26T16:35:44.000Z",
+          "points": 282,
+          "discussion": "https://news.ycombinator.com/item?id=50246658"
+        },
+        {
+          "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+          "titleZh": "Sebastian Raschka关于构建推理模型的从零开始视频课程",
+          "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-26T15:11:59.000Z",
+          "points": 638,
+          "discussion": "https://news.ycombinator.com/item?id=50245138"
+        },
+        {
+          "title": "Proton to 'Re-Interview' Staff About AI to See Who Gets to Keep Their Job",
+          "titleZh": "Proton将对人工智能员工进行“重新访谈”，看看谁能保住他们的工作",
+          "url": "https://www.404media.co/proton-to-re-interview-staff-about-ai-to-see-who-gets-to-keep-their-job/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-26T21:13:59.000Z",
+          "points": 58,
+          "discussion": "https://news.ycombinator.com/item?id=50251062"
+        }
+      ]
+    },
+    {
+      "key": "ideas",
+      "label": "💭 观点与深度",
+      "items": [
+        {
+          "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+          "titleZh": "OpenAI如何将其编码工具变成点，一个始终在线的个人助理",
+          "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
+          "summaryZh": "负责DOT的OpenAI高管Alexander Embiricos从不希望与其他人的AI代理人会面。",
+          "published": "2026-10-27T02:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Will the real Anthropic please stand up",
+          "titleZh": "真正的Anthropic请站起来",
+          "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+          "source": "MIT Tech Review",
+          "alsoOn": [],
+          "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it…",
+          "summaryZh": "这个故事最初出现在我们的人工智能每周通讯《算法》上。要先在收件箱中获取此类故事，请在此处注册。经过数周的疯狂猜测， Anthropic已经提交了IPO招股说明书。…",
+          "published": "2026-10-26T17:45:43.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "The Download: everyday AI harms and the race to nuclear spaceflight",
+          "titleZh": "下载：日常人工智能危害和核航天竞赛",
+          "url": "https://www.technologyreview.com/2026/10/26/1147650/the-download-everyday-ai-harms-nuclear-spaceflight/",
+          "source": "MIT Tech Review",
+          "alsoOn": [],
+          "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Opinion: The focus on AI safety disasters ignores everyday harms -Sam Hiner, cofounder of the Young People’s Alliance, and Emma Leiken, executive director of the Responsible Technology Youth Power Fund at…",
+          "summaryZh": "这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。观点：对人工智能安全灾难的关注忽略了日常危害--Sam Hiner，…",
+          "published": "2026-10-26T12:40:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "The AI Singularity: How Artificial Intelligence Could Transform the Economy - The Acquirer's Multiple",
+          "titleZh": "人工智能奇点：人工智能如何改变经济-收购者的多重性",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObmNPSXlmSDdYX3NsSVlGajlWT09qZ1BVYmFPRzVEQ0hDbUY2UHNuU1RiLXhQZmtVbWV1cm1NUTI0eU1EbW9mRkp0Qzd6eEZXUkpWM3IzUlBQS1ZTNjZ3SFhMWks5NHZYQWJrU0FCUWlnRW5YLVdUVXlFRm83dkw4ME1lTGNSelZYU25YeE9tdG03QnlJZVBoaEZEalJOd0paU2JHam9HZ09vdkJTSlNINkZmNA?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "The AI Singularity: How Artificial Intelligence Could Transform the Economy The Acquirer's Multiple",
+          "summaryZh": "人工智能奇点：人工智能如何改变经济",
+          "published": "2026-10-26T21:28:21.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "The focus on AI safety disasters ignores everyday harms",
+          "titleZh": "对人工智能安全灾难的关注忽视了日常危害",
+          "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
+          "source": "MIT Tech Review",
+          "alsoOn": [],
+          "summary": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and they should have existed all along. But companies can clear these low bars while continuing to make products…",
+          "summaryZh": "考虑一下技术政策成功的途径。一家人工智能公司承诺，其聊天机器人不会鼓励自杀。社交媒体平台使儿童更难购买芬太尼。这些是…",
+          "published": "2026-10-26T09:01:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    }
+  ],
+  "markdown": "# 📰 AI 日报 · 2026-10-27\n\n> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 20 条已译\n\n## 🚀 模型与产品发布\n\n**1. GPT-6.1 Terra**\n\nHacker News · 12 小时前 · ▲563 （亦见于 Simon Willison） · [原文](<https://openai.com/index/introducing-gpt-6-1-terra/>)\n\n_https://developers.openai.com/api/docs/models/gpt-6.1-terra_\n\n**2. 显示HN： HOB -开源，替代Claude Cowork和ChatGPT的设备**\n\nShow HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT · Hacker News · 14 小时前 · ▲136 · [原文](<https://github.com/FrigadeHQ/hob>)\n\n_嘿， HN，我是Christian，这是一个新的OSS项目，我过去几周一直在努力。HOB是一款免费的MIT许可桌面应用程序，适用于Mac、Windows和Linux，可以像Claude和…_\n\n**3. Greptile使用GPT-6 Astra进行代码审查之外的错误检测**\n\nGreptile takes bug detection beyond code review with GPT-6 Astra · OpenAI · 8 小时前 · [原文](<https://openai.com/index/greptile-code-review-codex-astra>)\n\n_Greptile如何使用GPT-6 Astra测试用户工作流程， Daybreak如何加强安全性， Codex如何减少返工。_\n\n**4. GPT-6.1 Sol帮助CodeRabbit加强复杂代码库的安全性**\n\nGPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases · OpenAI · 16 小时前 · [原文](<https://openai.com/index/gpt-6-1-sol-coderabbit-code-security>)\n\n_CodeRabbit使用GPT-6.1 SOL来调查复杂代码库中的安全风险。其安全代理可帮助开发人员审查发现和提议的修复。_\n\n## 🔬 研究前沿\n\n**1. 权衡感知区域设计：企业客户到销售人员分配的多目标决策系统**\n\nTradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.31701>)\n\n_企业客户旅程的形成不仅取决于产品体验和营销，还取决于反复出现的资源分配决策。在B2B上市（GTM）组织中，区域划分决定了…_\n\n**2. Phronix：以能力为中心的座席学习范式**\n\nPhronix: The Capability-Centric Learning Paradigm for Agents · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.31789>)\n\n_科学计算越来越依赖于基于大型语言模型的代理来执行性能工程任务，例如仪器、分析和工作流移植。然而，客服代表的效率在很大程度上取决于…_\n\n**3. 英语和普通话中的光顾和居高临下的语言检测**\n\nPatronizing and Condescending Language Detection in English and Mandarin · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.31808>)\n\n_傲慢和居高临下的语言（PCL）是一种贬低和同情弱势群体的有害语言，强化了负面的社会刻板印象。然而，与公开的仇恨言论不同，它通常…_\n\n**4. PaperFormalizer：精益研究论文的循环作者自动形式化**\n\nPaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.31810>)\n\n_即使是经过仔细校对的纸张，也会在其校对或陈述的假设中留下很小的间隙。我们引入了PaperFormalizer，这是一个基于精益的代理管道，可帮助作者在自己的论文中找到并填补这些空白…_\n\n## 🏢 公司与行业动向\n\n**1. Anthropic不寻常的IPO申请中AI唤醒的风险和其他警告-《华盛顿邮报》**\n\nThe risk that AI wakes up and other warnings in Anthropic’s unusual IPO filing - The Washington Post · Google News · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVkhmVGUzeUdLR0pBUUEwV2IwM2lRdVlWRDRSMk5yR2kzR1NDeWlMOFJpSVlNZDhZTGROLXVILWFEaXJtREI5LWpPQTM0Sll4YVBCZkhOUWE4cXNRZUtORFdMVE5mREFnYTF3ZlEzZlI4b1dZdG50SXFXVENfLXhfMWhMT2FfX0VZRlpkRlB2VlR2d0NsNi13aF9oOWtjcFJOOVpWSExENXVKbWp6UlBSeUpKZFpfMW9X?oc=5>)\n\n_Anthropic不寻常的IPO申请中AI唤醒的风险和其他警告_\n\n**2. Anthropic的IPO申请揭示了其吸引企业客户的策略**\n\nAnthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked · TechCrunch AI · 13 小时前 · [原文](<https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/>)\n\n_Anthropic的S-1显示，超过一半的$ 100,000 +客户现在同时使用Claude平台和第一方应用程序，这本交叉销售剧本让人想起亚马逊，它让企业客户变得更粘。_\n\n**3. Anthropic的IPO预计将重塑旧金山的房地产市场：“我们大多数人买不起房子”-ABC7湾区**\n\nAnthropic's IPO expected to reshape San Francisco's housing market: 'Most of us can't afford houses' - ABC7 Bay Area · Google News · 4 小时前 · [原文](<https://news.google.com/rss/articles/CBMiwgFBVV95cUxNV2NHMGEzeHNpRm1TUUVVWVZWYkRrTWpyMjRPOUgzM1hoQUNTZHhsWm03MHhUX3p1RjV0eHZrNjhqS2Y5UEd5Tl9UZDJSVlF6QlVGcHhxMnctcUdUeEVxUkRObVVkd3Y4RVMwdnczcE9feksxM2xmc0RiTnREYXZmXzU3QzluNXdnUkhnelYyR2hsLVpoaTFFMV9KREdTVWNVT3JiM0NTR0lraFZpbGFPN3daWWVIbnVOREoyVGUyaHJHd9IBxwFBVV95cUxQT3IydmxrNnN5Z1gxQkxRemJKc0UyQlF4YlMxbDBPdzBBUm5jOUVQOGVBQVBGdmtEU2xHWm5Rdmp6SXNaNzEwTFJVcDgybDBPOHVobUN1enZJUGNVejVKUFJrYm15cmlGMXpBaFVxcWFUQjBGVWRGdWJCbFhuZmYtaUZvWml2NU82dkZpdU9xYV9pUnVqX3BQanNacnVELU5WTDNhWndkWjNoS2ViYndaZ2RXWnNEVlFSTzl3bHlWa2VTLUhLaE9v?oc=5>)\n\n_Anthropic的IPO预计将重塑旧金山的房地产市场：“我们大多数人买不起房子” ABC7湾区_\n\n**4. Anthropic正式申请公开亮相**\n\nAnthropic officially files for its public debut · TechCrunch AI · 15 小时前 · [原文](<https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/>)\n\n_Anthropic已正式申请IPO，揭示了收入飙升、亏损增加、主要企业采用以及旨在保护创始人控制权及其人工智能安全使命的不寻常治理结构。_\n\n## 🛠 工程与开源工具\n\n**1. Anthropic S-1**\n\nHacker News · 17 小时前 · ▲1555 · [原文](<https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm>)\n\n**2. GLM-5.3 Workers AI模型中的交叉请求KV缓存曝光（155个回复）**\n\nCross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses) · Hacker News · 7 小时前 · ▲111 · [原文](<https://blog.cloudflare.com/kv-cache-exposure-remediation/>)\n\n**3. 关于流行的开放式权重AI模型的行为**\n\nConcerning behavior from a popular open-weight AI model · Hacker News · 13 小时前 · ▲282 · [原文](<https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model>)\n\n**4. Sebastian Raschka关于构建推理模型的从零开始视频课程**\n\nSebastian Raschka's from-scratch video course on building reasoning models · Hacker News · 15 小时前 · ▲638 · [原文](<https://magazine.sebastianraschka.com/p/building-reasoning-models>)\n\n**5. Proton将对人工智能员工进行“重新访谈”，看看谁能保住他们的工作**\n\nProton to 'Re-Interview' Staff About AI to See Who Gets to Keep Their Job · Hacker News · 9 小时前 · ▲58 · [原文](<https://www.404media.co/proton-to-re-interview-staff-about-ai-to-see-who-gets-to-keep-their-job/>)\n\n## 💭 观点与深度\n\n**1. OpenAI如何将其编码工具变成点，一个始终在线的个人助理**\n\nHow OpenAI turned its coding tools into dots, an always-on personal assistant · TechCrunch AI · 4 小时前 · [原文](<https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/>)\n\n_负责DOT的OpenAI高管Alexander Embiricos从不希望与其他人的AI代理人会面。_\n\n**2. 真正的Anthropic请站起来**\n\nWill the real Anthropic please stand up · MIT Tech Review · 12 小时前 · [原文](<https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/>)\n\n_这个故事最初出现在我们的人工智能每周通讯《算法》上。要先在收件箱中获取此类故事，请在此处注册。经过数周的疯狂猜测， Anthropic已经提交了IPO招股说明书。…_\n\n**3. 下载：日常人工智能危害和核航天竞赛**\n\nThe Download: everyday AI harms and the race to nuclear spaceflight · MIT Tech Review · 17 小时前 · [原文](<https://www.technologyreview.com/2026/10/26/1147650/the-download-everyday-ai-harms-nuclear-spaceflight/>)\n\n_这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。观点：对人工智能安全灾难的关注忽略了日常危害--Sam Hiner，…_\n\n**4. 人工智能奇点：人工智能如何改变经济-收购者的多重性**\n\nThe AI Singularity: How Artificial Intelligence Could Transform the Economy - The Acquirer's Multiple · Google News · 8 小时前 · [原文](<https://news.google.com/rss/articles/CBMiswFBVV95cUxObmNPSXlmSDdYX3NsSVlGajlWT09qZ1BVYmFPRzVEQ0hDbUY2UHNuU1RiLXhQZmtVbWV1cm1NUTI0eU1EbW9mRkp0Qzd6eEZXUkpWM3IzUlBQS1ZTNjZ3SFhMWks5NHZYQWJrU0FCUWlnRW5YLVdUVXlFRm83dkw4ME1lTGNSelZYU25YeE9tdG03QnlJZVBoaEZEalJOd0paU2JHam9HZ09vdkJTSlNINkZmNA?oc=5>)\n\n_人工智能奇点：人工智能如何改变经济_\n\n**5. 对人工智能安全灾难的关注忽视了日常危害**\n\nThe focus on AI safety disasters ignores everyday harms · MIT Tech Review · 21 小时前 · [原文](<https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/>)\n\n_考虑一下技术政策成功的途径。一家人工智能公司承诺，其聊天机器人不会鼓励自杀。社交媒体平台使儿童更难购买芬太尼。这些是…_\n"
+}
