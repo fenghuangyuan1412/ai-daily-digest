@@ -1,135 +1,129 @@
-# 📰 AI 日报 · 2026-10-27
+# 📰 AI 日报 · 2026-10-28
 
-> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 20 条已译
+> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 22 条已译
 
 ## 🚀 模型与产品发布
 
-**1. GPT-6.1 Terra**
+**1. Anthropic对Claude进行非法获取斯坦福教授书籍的培训**
 
-Hacker News · 12 小时前 · ▲563 （亦见于 Simon Willison） · [原文](<https://openai.com/index/introducing-gpt-6-1-terra/>)
+Anthropic trained Claude on illegally obtained Stanford professors' books · Hacker News · 15 小时前 · ▲501 · [原文](<https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/>)
 
-_https://developers.openai.com/api/docs/models/gpt-6.1-terra_
+**2. 与Claude一起加速药物开发的早期进展**
 
-**2. 显示HN： HOB -开源，替代Claude Cowork和ChatGPT的设备**
+Early progress on accelerating drug development with Claude · Hacker News · 10 小时前 · ▲195 · [原文](<https://www.anthropic.com/research/early-progress-drug-development>)
 
-Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT · Hacker News · 14 小时前 · ▲136 · [原文](<https://github.com/FrigadeHQ/hob>)
+**3. Retell使用OpenAI型号为每月1亿次通话提供支持**
 
-_嘿， HN，我是Christian，这是一个新的OSS项目，我过去几周一直在努力。HOB是一款免费的MIT许可桌面应用程序，适用于Mac、Windows和Linux，可以像Claude和…_
+Retell uses OpenAI models to help power 100M monthly calls · OpenAI · 15 小时前 · [原文](<https://openai.com/index/retell-ai>)
 
-**3. Greptile使用GPT-6 Astra进行代码审查之外的错误检测**
+_GPT-6 Astra在Retell的语音代理基准中名列前茅，而Codex帮助其达到了每名员工160万美元的年收入运行率。_
 
-Greptile takes bug detection beyond code review with GPT-6 Astra · OpenAI · 8 小时前 · [原文](<https://openai.com/index/greptile-code-review-codex-astra>)
+**4. 父母起诉OpenAI，声称GPT-4o指导他们的女儿戒掉癫痫药物**
 
-_Greptile如何使用GPT-6 Astra测试用户工作流程， Daybreak如何加强安全性， Codex如何减少返工。_
+Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication · TechCrunch AI · 7 小时前 · [原文](<https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/>)
 
-**4. GPT-6.1 Sol帮助CodeRabbit加强复杂代码库的安全性**
+_一家人正在起诉OpenAI，称ChatGPT指导他们的女儿在2月份去世前悄悄减少她的癫痫发作药物，并向她的医生隐瞒。_
 
-GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases · OpenAI · 16 小时前 · [原文](<https://openai.com/index/gpt-6-1-sol-coderabbit-code-security>)
+**5. 精灵4：新一代世界模拟**
 
-_CodeRabbit使用GPT-6.1 SOL来调查复杂代码库中的安全风险。其安全代理可帮助开发人员审查发现和提议的修复。_
+Genie 4: A new generation of world simulation · Google DeepMind · 14 小时前 · [原文](<https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/>)
+
+_精灵4：我们的新世界模型在实时模拟中解锁了前所未有的真实感。_
 
 ## 🔬 研究前沿
 
-**1. 权衡感知区域设计：企业客户到销售人员分配的多目标决策系统**
+**1. Check Point如何利用Daybreak加速漏洞研究**
 
-Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.31701>)
+How Check Point accelerates vulnerability research with Daybreak · OpenAI · 30 小时前 · [原文](<https://openai.com/index/check-point-daybreak>)
 
-_企业客户旅程的形成不仅取决于产品体验和营销，还取决于反复出现的资源分配决策。在B2B上市（GTM）组织中，区域划分决定了…_
+_借助OpenAI Daybreak， Check Point加快了新安全保护背后的研究，使其分析师能够更快地将漏洞情报转化为客户防御。_
 
-**2. Phronix：以能力为中心的座席学习范式**
+**2. 我们是否可以信任LLM来判断研究想法是否新颖？**
 
-Phronix: The Capability-Centric Learning Paradigm for Agents · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.31789>)
+Can we trust LLMs to judge whether a research idea is novel? · Hugging Face · 14 小时前 · [原文](<https://huggingface.co/blog/allenai/novelty-bench>)
 
-_科学计算越来越依赖于基于大型语言模型的代理来执行性能工程任务，例如仪器、分析和工作流移植。然而，客服代表的效率在很大程度上取决于…_
+**3. 统计绷带：测量人工智能节省的时间**
 
-**3. 英语和普通话中的光顾和居高临下的语言检测**
+Counting the Bandages: On measuring the time that AI saves · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.35942>)
 
-Patronizing and Condescending Language Detection in English and Mandarin · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.31808>)
+_我认为人工智能帮助节省时间意味着什么。我将秒表视图与分类账视图进行了对比，秒表视图上节省的时间是时钟记录的任何时间，而分类账视图上则是反事实，必须在…_
 
-_傲慢和居高临下的语言（PCL）是一种贬低和同情弱势群体的有害语言，强化了负面的社会刻板印象。然而，与公开的仇恨言论不同，它通常…_
+**4. 通过数据生成策略增强深度学习模型性能：橄榄树病害分类**
 
-**4. PaperFormalizer：精益研究论文的循环作者自动形式化**
+Enhancing Deep Learning Model Performance through Data Generation Strategies: Classification of Olive Tree Diseases · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.35984>)
 
-PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.31810>)
+_深度学习模型在广泛的领域非常有效，特别是在植物疾病诊断方面。然而，他们的表现往往受到数据不足和阶级不平衡等挑战的限制。…_
 
-_即使是经过仔细校对的纸张，也会在其校对或陈述的假设中留下很小的间隙。我们引入了PaperFormalizer，这是一个基于精益的代理管道，可帮助作者在自己的论文中找到并填补这些空白…_
+**5. 三位一体：多式联运代理的能力驱动递归自我改进**
+
+The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.36077>)
+
+_多模态智能可以被视为世界和智能体之间通过交互进行的人为引导的共同进化。但是，扩展此过程面临两个瓶颈：构建异构、可验证的环境…_
 
 ## 🏢 公司与行业动向
 
-**1. Anthropic不寻常的IPO申请中AI唤醒的风险和其他警告-《华盛顿邮报》**
+**1. OpenAI扩大与甲骨文的合作伙伴关系，将其应用程序引入ChatGPT**
 
-The risk that AI wakes up and other warnings in Anthropic’s unusual IPO filing - The Washington Post · Google News · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVkhmVGUzeUdLR0pBUUEwV2IwM2lRdVlWRDRSMk5yR2kzR1NDeWlMOFJpSVlNZDhZTGROLXVILWFEaXJtREI5LWpPQTM0Sll4YVBCZkhOUWE4cXNRZUtORFdMVE5mREFnYTF3ZlEzZlI4b1dZdG50SXFXVENfLXhfMWhMT2FfX0VZRlpkRlB2VlR2d0NsNi13aF9oOWtjcFJOOVpWSExENXVKbWp6UlBSeUpKZFpfMW9X?oc=5>)
+OpenAI expands partnership with Oracle to bring its apps to ChatGPT · OpenAI · 23 小时前 · [原文](<https://openai.com/index/oracle-apps-in-chatgpt>)
 
-_Anthropic不寻常的IPO申请中AI唤醒的风险和其他警告_
+_OpenAI和甲骨文正在扩大合作伙伴关系，将业务应用程序和人工智能代理引入ChatGPT，并为新的甲骨文产品提供支持。_
 
-**2. Anthropic的IPO申请揭示了其吸引企业客户的策略**
+**2. 风险投资公司将在Anthropic的首次公开募股中赚取数十亿美元，但亚马逊将赚取更多（更多）**
 
-Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked · TechCrunch AI · 13 小时前 · [原文](<https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/>)
+VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more · TechCrunch AI · 5 小时前 · [原文](<https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/>)
 
-_Anthropic的S-1显示，超过一半的$ 100,000 +客户现在同时使用Claude平台和第一方应用程序，这本交叉销售剧本让人想起亚马逊，它让企业客户变得更粘。_
+_大量笔记转换揭示了亚马逊在Anthropic中的真正所有权。_
 
-**3. Anthropic的IPO预计将重塑旧金山的房地产市场：“我们大多数人买不起房子”-ABC7湾区**
+**3. 首次公开募股后， Anthropic的真正负责人是谁？**
 
-Anthropic's IPO expected to reshape San Francisco's housing market: 'Most of us can't afford houses' - ABC7 Bay Area · Google News · 4 小时前 · [原文](<https://news.google.com/rss/articles/CBMiwgFBVV95cUxNV2NHMGEzeHNpRm1TUUVVWVZWYkRrTWpyMjRPOUgzM1hoQUNTZHhsWm03MHhUX3p1RjV0eHZrNjhqS2Y5UEd5Tl9UZDJSVlF6QlVGcHhxMnctcUdUeEVxUkRObVVkd3Y4RVMwdnczcE9feksxM2xmc0RiTnREYXZmXzU3QzluNXdnUkhnelYyR2hsLVpoaTFFMV9KREdTVWNVT3JiM0NTR0lraFZpbGFPN3daWWVIbnVOREoyVGUyaHJHd9IBxwFBVV95cUxQT3IydmxrNnN5Z1gxQkxRemJKc0UyQlF4YlMxbDBPdzBBUm5jOUVQOGVBQVBGdmtEU2xHWm5Rdmp6SXNaNzEwTFJVcDgybDBPOHVobUN1enZJUGNVejVKUFJrYm15cmlGMXpBaFVxcWFUQjBGVWRGdWJCbFhuZmYtaUZvWml2NU82dkZpdU9xYV9pUnVqX3BQanNacnVELU5WTDNhWndkWjNoS2ViYndaZ2RXWnNEVlFSTzl3bHlWa2VTLUhLaE9v?oc=5>)
+Who’s really in charge at Anthropic after the IPO? · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/>)
 
-_Anthropic的IPO预计将重塑旧金山的房地产市场：“我们大多数人买不起房子” ABC7湾区_
+_以下是对Anthropic极其复杂的治理结构的清晰解释。_
 
-**4. Anthropic正式申请公开亮相**
+**4. Anthropic首次公开募股警告其人工智能可能会勒索人们，变得有知觉，终结人类**
 
-Anthropic officially files for its public debut · TechCrunch AI · 15 小时前 · [原文](<https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/>)
+Anthropic IPO warns its AI could blackmail people, become sentient, end humanity · Ars Technica AI · 9 小时前 · [原文](<https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/>)
 
-_Anthropic已正式申请IPO，揭示了收入飙升、亏损增加、主要企业采用以及旨在保护创始人控制权及其人工智能安全使命的不寻常治理结构。_
+_从Anthropic的93页“风险因素”书中提取了七个潜在的人工智能噩梦。_
+
+**5. DeepMind推出精灵4世界模型，承诺更逼真的物理和人类**
+
+DeepMind unveils Genie 4 world model promising more realistic physics and humans · Ars Technica AI · 14 小时前 · [原文](<https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/>)
+
+_Genie 4将很快向开发人员和Google AI Ultra订阅者推出。_
 
 ## 🛠 工程与开源工具
 
-**1. Anthropic S-1**
+**1. 警方正在使用人工智能来阻止司机“可疑”行为**
 
-Hacker News · 17 小时前 · ▲1555 · [原文](<https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm>)
+Police are using AI to pull over drivers for 'suspicious' behavior · Hacker News · 14 小时前 · ▲369 · [原文](<https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220>)
 
-**2. GLM-5.3 Workers AI模型中的交叉请求KV缓存曝光（155个回复）**
+**2. 人工智能承诺减少工作量。我从来没有这么努力过**
 
-Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses) · Hacker News · 7 小时前 · ▲111 · [原文](<https://blog.cloudflare.com/kv-cache-exposure-remediation/>)
+AI promised less work. I've never worked more · Hacker News · 19 小时前 · ▲630 · [原文](<https://oioannou.com/blog/ai-promised-less-work/>)
 
-**3. 关于流行的开放式权重AI模型的行为**
+**3. Survival LLM：在您自己的计算机上运行的人工智能助手和应急库**
 
-Concerning behavior from a popular open-weight AI model · Hacker News · 13 小时前 · ▲282 · [原文](<https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model>)
+Survival LLM: AI assistant and emergency library that runs on your own computer · Hacker News · 11 小时前 · ▲279 · [原文](<https://www.brangus.io/survival-llm>)
 
-**4. Sebastian Raschka关于构建推理模型的从零开始视频课程**
+**4. 亚马逊在持续失败后正在淘汰其人工智能部门**
 
-Sebastian Raschka's from-scratch video course on building reasoning models · Hacker News · 15 小时前 · ▲638 · [原文](<https://magazine.sebastianraschka.com/p/building-reasoning-models>)
+Amazon Is Gutting Its AI Division After Sustained Failure · Hacker News · 14 小时前 · ▲302 · [原文](<https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova>)
 
-**5. Proton将对人工智能员工进行“重新访谈”，看看谁能保住他们的工作**
+**5. 维基百科对人工智能生成内容的清理**
 
-Proton to 'Re-Interview' Staff About AI to See Who Gets to Keep Their Job · Hacker News · 9 小时前 · ▲58 · [原文](<https://www.404media.co/proton-to-re-interview-staff-about-ai-to-see-who-gets-to-keep-their-job/>)
+Wikipedia's Cleanup of AI-Generated Content · Hacker News · 19 小时前 · ▲471 · [原文](<https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup>)
 
 ## 💭 观点与深度
 
-**1. OpenAI如何将其编码工具变成点，一个始终在线的个人助理**
+**1. 固态变压器如何帮助推动人工智能繁荣**
 
-How OpenAI turned its coding tools into dots, an always-on personal assistant · TechCrunch AI · 4 小时前 · [原文](<https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/>)
+How solid-state transformers could help power the AI boom · MIT Tech Review · 21 小时前 · [原文](<https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/>)
 
-_负责DOT的OpenAI高管Alexander Embiricos从不希望与其他人的AI代理人会面。_
+_变形金刚是我们电网中至关重要但几乎看不见的一部分。这些设备有助于有效远距离传输电力，但它们很复杂且供不应求。鉴于他们的基本设计没有…_
 
 **2. 真正的Anthropic请站起来**
 
-Will the real Anthropic please stand up · MIT Tech Review · 12 小时前 · [原文](<https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/>)
+Will the real Anthropic please stand up · MIT Tech Review · 2 天前 · [原文](<https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/>)
 
 _这个故事最初出现在我们的人工智能每周通讯《算法》上。要先在收件箱中获取此类故事，请在此处注册。经过数周的疯狂猜测， Anthropic已经提交了IPO招股说明书。…_
-
-**3. 下载：日常人工智能危害和核航天竞赛**
-
-The Download: everyday AI harms and the race to nuclear spaceflight · MIT Tech Review · 17 小时前 · [原文](<https://www.technologyreview.com/2026/10/26/1147650/the-download-everyday-ai-harms-nuclear-spaceflight/>)
-
-_这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。观点：对人工智能安全灾难的关注忽略了日常危害--Sam Hiner，…_
-
-**4. 人工智能奇点：人工智能如何改变经济-收购者的多重性**
-
-The AI Singularity: How Artificial Intelligence Could Transform the Economy - The Acquirer's Multiple · Google News · 8 小时前 · [原文](<https://news.google.com/rss/articles/CBMiswFBVV95cUxObmNPSXlmSDdYX3NsSVlGajlWT09qZ1BVYmFPRzVEQ0hDbUY2UHNuU1RiLXhQZmtVbWV1cm1NUTI0eU1EbW9mRkp0Qzd6eEZXUkpWM3IzUlBQS1ZTNjZ3SFhMWks5NHZYQWJrU0FCUWlnRW5YLVdUVXlFRm83dkw4ME1lTGNSelZYU25YeE9tdG03QnlJZVBoaEZEalJOd0paU2JHam9HZ09vdkJTSlNINkZmNA?oc=5>)
-
-_人工智能奇点：人工智能如何改变经济_
-
-**5. 对人工智能安全灾难的关注忽视了日常危害**
-
-The focus on AI safety disasters ignores everyday harms · MIT Tech Review · 21 小时前 · [原文](<https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/>)
-
-_考虑一下技术政策成功的途径。一家人工智能公司承诺，其聊天机器人不会鼓励自杀。社交媒体平台使儿童更难购买芬太尼。这些是…_
