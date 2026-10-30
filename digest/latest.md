@@ -1,123 +1,127 @@
-# 📰 AI 日报 · 2026-10-29
+# 📰 AI 日报 · 2026-10-30
 
-> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 21 条已译
+> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 22 条已译
 
 ## 🚀 模型与产品发布
 
-**1. Claude Code定期将每个后台代理的成绩单发送到其模型**
+**1. Claude Duet是第一款感觉有用的个人助理型线束**
 
-Claude Code regularly sends each background agent’s transcript to its model · Hacker News · 3 小时前 · ▲226 · [原文](<https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce>)
+Claude Duet is the first personal-assistant-type harness that feels useful · Hacker News · 13 小时前 · ▲114 · [原文](<https://fig.blue/posts/duet-is-the-future/>)
 
-**2. Gemini 4 Carbon**
+**2. 使用Claude启用的抗体设计治疗食物过敏的IgE干扰物[pdf]**
 
-Hacker News · 14 小时前 · ▲876 · [原文](<https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/>)
+IgE disruptor for food allergy with Claude-enabled antibody design [pdf] · Hacker News · 11 小时前 · ▲44 · [原文](<https://divergencelabs.com/publications/ige-preprint.pdf>)
 
-**3. Gemini 4 Carbon：我们的下一个前沿模型**
+**3. 更新的模型规格，以实现更强大、更有益的人工智能**
 
-Gemini 4 Carbon: Our next frontier model · Google DeepMind · 14 小时前 · [原文](<https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/>)
+An updated Model Spec for more capable and beneficial AI · OpenAI · 14 小时前 · [原文](<https://openai.com/index/updated-model-spec>)
 
-**4. Google宣布推出Gemini 4 Carbon，这是您无法使用的最新前沿AI模型**
+_OpenAI更新的模型规格概述了五个核心价值观，以引导更有能力的人工智能走向合理的判断、人为代理和对人类意图的忠诚。_
 
-Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use · Ars Technica AI · 12 小时前 · [原文](<https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/>)
+**4. 欢迎Le Chonk： Mistral Large 4 on Hugging Face**
 
-_Gemini 4 Carbon本质上是Argon的略好版本。_
+Welcome Le Chonk: Mistral Large 4 on Hugging Face · Hugging Face · 31 小时前 · [原文](<https://huggingface.co/blog/mistral-large4>)
 
-## 🔬 研究前沿
+**5. 花岗岩开关4.1.1 -像更新软件一样更新模型**
 
-**1. 统计绷带：测量人工智能节省的时间**
-
-Counting the Bandages: On measuring the time that AI saves · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2610.35942>)
-
-_我认为人工智能帮助节省时间意味着什么。我将秒表视图与分类账视图进行了对比，秒表视图上节省的时间是时钟记录的任何时间，而分类账视图上则是反事实，必须在…_
-
-**2. 通过数据生成策略增强深度学习模型性能：橄榄树病害分类**
-
-Enhancing Deep Learning Model Performance through Data Generation Strategies: Classification of Olive Tree Diseases · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2610.35984>)
-
-_深度学习模型在广泛的领域非常有效，特别是在植物疾病诊断方面。然而，他们的表现往往受到数据不足和阶级不平衡等挑战的限制。…_
-
-**3. 三位一体：多式联运代理的能力驱动递归自我改进**
-
-The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2610.36077>)
-
-_多模态智能可以被视为世界和智能体之间通过交互进行的人为引导的共同进化。但是，扩展此过程面临两个瓶颈：构建异构、可验证的环境…_
-
-**4. CohortFlow：一种可引导的临床队列策展代理，具有局部语义校正**
-
-CohortFlow: A Steerable Clinical Cohort Curation Agent with Localized Semantic Correction · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2610.36100>)
-
-_用于临床队列管理的语言模型代理商应适应不断变化的资格标准，而无需反复处理不变的要求。我们推出了CohortFlow，这是一种可引导的代理，代表…_
-
-**5. 当人工智能更好时，为什么以及如何做科学：基于人类理解和方向的框架**
-
-Why and How to Do Science When AI Is Better at It: A Framework Grounded in Human Understanding and Direction · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2610.36116>)
-
-_随着人工智能在核心科学任务上开始赶上或超过人类研究人员，两个问题变得紧迫：\ emph {为什么}人类应该继续从事科学工作，以及\ emph {如何}在从事科学工作时应该使用人工智能？本文认为…_
+Granite Switch 4.1.1 - Update models like you update software · Hugging Face · 17 小时前 · [原文](<https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1>)
 
 ## 🏢 公司与行业动向
 
-**1. MicroZig将采用严格的无法学硕士/无人工智能政策**
+**1. 启动HN： Simantic (YC F26)-AI Agent固件模拟**
 
-MicroZig to Adopt Strict No LLM / No AI Policy · Hacker News · 6 小时前 · ▲50 · [原文](<https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md>)
+Launch HN: Simantic (YC F26) - Firmware Simulation for AI Agents · Hacker News · 15 小时前 · ▲60 · [原文](<https://news.ycombinator.com/item?id=50291116>)
 
-**2. OpenAI和ServiceNow扩展了跨企业工作流程的合作伙伴关系**
+_HN，您好！我们是Simantic的Ahnaf和Seungmin （https://simantic.com）。我们正在构建仿真层，让工程师和人工智能代理在没有硬件的情况下测试和验证固件。在Simantic之前，我们…_
 
-OpenAI and ServiceNow expand partnership across enterprise workflows · OpenAI · 17 小时前 · [原文](<https://openai.com/index/openai-servicenow-partnership-expansion>)
+**2. OpenAI支持的Thrive Holdings收购ADT**
 
-_OpenAI和ServiceNow扩大了合作伙伴关系，将OpenAI模型和代理引入ServiceNow和ServiceNow工作流程，并将其引入ChatGPT和Codex。_
+OpenAI-backed Thrive Holdings acquires ADT · TechCrunch AI · 11 小时前 · [原文](<https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/>)
 
-**3. NVIDIA Nemotron 3.5转录和粮仓v2：智能多语言转录，您可以提示和适应**
+_OpenAI支持的Thrive Holdings将以153亿美元的价格收购ADT，并计划将人工智能引入家庭安全业务。_
 
-NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt · Hugging Face · 16 小时前 · [原文](<https://huggingface.co/blog/nvidia/nemotron-transcribe-granary>)
+**3. Meta悄悄推出名为Style Sketch的AI时尚应用程序**
 
-**4. 微软刚刚分享了Azure的实际收入： $ 332亿**
+Meta quietly launches an AI fashion app called Style Sketch · TechCrunch AI · 11 小时前 · [原文](<https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/>)
 
-Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/>)
+_应用程序会连接到Instagram，根据您已分享的照片构建虚拟衣柜，或通过拍摄照片、录制快速视频或上传相机胶卷中的图片，手动添加物品。_
 
-_微软从未以美元披露Azure的季度收入。但第一次，我们可以看到它离击败市场上最大的竞争对手AWS有多近。_
+**4. 谷歌承认人工智能搜索赚的钱更少，但它正在通过更多的广告来解决这个问题**
 
-**5. 随着核心广告增长放缓，谷歌在全球范围内扩展AI搜索广告**
+Google admits AI search makes less money, but it's fixing that with more ads · Ars Technica AI · 14 小时前 · [原文](<https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/>)
 
-Google expands AI Search ads globally as core ad growth slows · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/>)
+_谷歌的负现金流激增至-90.6亿美元，第三季度盈利后股价暴跌。_
 
-_该公告与母公司Alphabet的第三季度收益报告同时发布，该报告的收入同比增长25%，达到1276亿美元（$）。_
+**5. 你不需要相信上帝就能获得在工作中使用人工智能的宗教豁免**
+
+You don’t need to believe in a god to get a religious exemption from using AI at work · TechCrunch AI · 5 小时前 · [原文](<https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/>)
+
+_肯塔基大学管理员大卫·杜尔曼（David Durman）最近获得了在工作场所使用人工智能的宗教豁免。_
 
 ## 🛠 工程与开源工具
 
-**1. 当被问及谁赢得2020年大选时，谷歌人工智能变得谨慎**
+**1. 谷歌价值暴跌$ 5000亿，因为人工智能担心震撼华尔街**
 
-Google AI gets cagey when asked who won the 2020 elections · Hacker News · 10 小时前 · ▲142 （亦见于 Ars Technica AI） · [原文](<https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/>)
+Google value plunges by $500B as AI fears rattle Wall Street · Hacker News · 8 小时前 · ▲50 · [原文](<https://www.bbc.com/news/articles/cm9qzdqpxy48o>)
 
-**2. 日常工作：税务-评估50个专业税务任务的人工智能代理**
+**2. 我们在Minecraft和Mindustry中运行了AI代理群**
 
-Dayjob: Tax - evaluating AI agents on 50 professional tax assignments · Hacker News · 15 小时前 · ▲222 · [原文](<https://surgehq.ai/blog/dayjob-tax>)
+We ran AI agent swarms in Minecraft and Mindustry · Hacker News · 9 小时前 · ▲242 · [原文](<https://labs.ycombinator.com/projects/games/index.html>)
 
-**3. 《纽约时报》在其烹饪应用程序中添加了更多人工智能功能。用户并不兴奋**
+**3. Proton全力以赴使用AI**
 
-New York Times adds more AI features to its Cooking app. Users aren't thrilled · Hacker News · 6 小时前 · ▲48 · [原文](<https://www.niemanlab.org/2026/10/the-new-york-times-is-adding-more-ai-features-to-its-cooking-app-and-users-arent-thrilled/>)
+Proton goes all in on using AI · Hacker News · 9 小时前 · ▲88 · [原文](<https://convo.casa/@b/117525936178835007>)
 
-**4. Agent SDK**
+**4. 显示HN：我把厄运变成了变形金刚**
 
-The Agent SDK · Hacker News · 17 小时前 · ▲114 · [原文](<https://cursor.com/blog/agent-sdk>)
+Show HN: I Turned DOOM into a Transformer · Hacker News · 7 小时前 · ▲68 · [原文](<https://github.com/mottopanikeiku/doomformer>)
 
-**5. 人工智能高管可能过于脱节，无法为公众打造**
+_我没有试图在事情上运行厄运，而是决定使用厄运（实际上是许多，许多，许多厄运游戏）来创建一个变形金刚。对于很多数学要求，我基本上不得不使用《毁灭战士》游戏机制，…_
 
-AI execs may be too out of touch to build for the general public · Hacker News · 8 小时前 · ▲50 · [原文](<https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/>)
+**5. 麻省理工学院教授说，人工智能正在接管你的大脑**
+
+MIT professor says AI is taking over your brain · Hacker News · 15 小时前 · ▲42 · [原文](<https://www.bostonglobe.com/2026/10/23/opinion/ai-impact-cognitive-ability-eric-so/>)
+
+**6. 符合条件的ChatGPT订阅可获得API积分奖励**
+
+API credits benefit for eligible ChatGPT subscriptions · Simon Willison · 8 小时前 · [原文](<https://simonwillison.net/2026/Oct/29/api-credits/>)
+
+_符合条件的ChatGPT订阅的API积分福利本月早些时候， Anthropic宣布为其Max和Team订阅提供慷慨的新福利：每月100美元， 200美元和500美元的订阅者将获得…_
 
 ## 💭 观点与深度
 
-**1. 利用企业环境创造人工智能价值**
+**1. 我们如何检测前沿模型错位**
 
-Creating AI value with enterprise context · MIT Tech Review · 10 小时前 · [原文](<https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/>)
+How we detect frontier model misalignment · OpenAI · 22 小时前 · [原文](<https://openai.com/index/how-we-detect-frontier-model-misalignment>)
+
+_OpenAI使用分层监控来检测前沿模型不对齐和未经授权的代理行为，以便响应者可以在事件升级之前进行干预。_
+
+**2. Ropes & Gray如何开发用于交易尽职调查的人工智能**
+
+How Ropes & Gray is developing AI for transactional diligence · OpenAI · 24 小时前 · [原文](<https://openai.com/index/ropes-gray-ai-diligence>)
+
+_Ropes & Gray正在开发与OpenAI进行交易尽职调查的人工智能。律师在为客户提供建议之前，会审查分组文件、摘要和报告。_
+
+**3. Breakingviews -评论：人工智能达到Napster时刻-路透社**
+
+Breakingviews - COMMENTARY: Artificial intelligence reaches its Napster moment - Reuters · Google News · 9 小时前 · [原文](<https://news.google.com/rss/articles/CBMisAFBVV95cUxPMEM3SHF5UUZnYkdJSE5hMWJaY1RQTWRpUG90YjhhWHhZcGtXT2FlcXpfdElleFRGbjdlVVZaR0J1cFpKRTJ3Vzc3ZFg4bG1rNDNvMG8zcVBxSTBPd1NxTTROemttQkN3clc0VUlIUElpenVHY2h3R2N2MXZoYlRXVkhIOUhRYU1YSzFxQXBlSXBiYXpTU0Z1Q0xEN2lQVnE5MDNQckNsYVFvQm9XdnVfMw?oc=5>)
+
+_Breakingviews -评论：人工智能达到Napster时刻路透社_
+
+**4. 下载：人工智能代理跟踪和气候反馈循环**
+
+The Download: AI agent tracking and climate feedback loops · MIT Tech Review · 18 小时前 · [原文](<https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/>)
+
+_这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。意见：我们迫切需要实时监控AI代理的行为--Madhulika…_
+
+**5. 我们迫切需要实时监控AI代理的行为**
+
+We urgently need to monitor AI agents’ actions in real time · MIT Tech Review · 20 小时前 · [原文](<https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/>)
+
+_今年夏天，数百名OpenAI特工试图在网络安全测试中作弊。他们突破了测试环境，并成功入侵了Hugging Face，他们认为这个网站提供了关于他们将如何…_
+
+**6. 利用企业环境创造人工智能价值**
+
+Creating AI value with enterprise context · MIT Tech Review · 34 小时前 · [原文](<https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/>)
 
 _在整个企业中，任何数量的人工智能平台、系统和工具都可以同时工作，例如，人工智能驱动的客户平台、会话助手以及工作流程和流程自动化工具。…_
-
-**2. 下载：为人工智能和物种间沟通提供动力的死亡创业公司**
-
-The Download: dead startups fueling AI and interspecies communication · MIT Tech Review · 18 小时前 · [原文](<https://www.technologyreview.com/2026/10/28/1147767/the-download-dead-startups-fueling-ai-interspecies-communication/>)
-
-_这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。人工智能实验室正在从已经死亡的初创公司购买数据来训练他们的模型。当基兰…_
-
-**3. 将工业人工智能自主性和人为控制配对**
-
-Pairing industrial AI autonomy and human control · MIT Tech Review · 19 小时前 · [原文](<https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/>)
