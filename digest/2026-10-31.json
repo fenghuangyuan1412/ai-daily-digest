@@ -1,0 +1,301 @@
+{
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T06:27:44.924Z",
+  "windowHours": 36,
+  "sourcesTotal": 13,
+  "sourcesOk": 13,
+  "sourcesFailed": [],
+  "itemCount": 22,
+  "translatedCount": 19,
+  "sections": [
+    {
+      "key": "model",
+      "label": "🚀 模型与产品发布",
+      "items": [
+        {
+          "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+          "titleZh": "显示HN： Qwen权重约1GB的工作任天堂",
+          "url": "https://github.com/dbreunig/nesformer",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-30T16:40:22.000Z",
+          "points": 231,
+          "discussion": "https://news.ycombinator.com/item?id=50306442"
+        },
+        {
+          "title": "Making it easier for websites to express AI training preferences",
+          "titleZh": "让网站更容易表达人工智能培训偏好",
+          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+          "summaryZh": "OpenAI将遵循共享的robots.txt信号，帮助网站运营商向参与的提供商传达其人工智能培训偏好。",
+          "published": "2026-10-30T09:30:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Community safety report and new protections for teens",
+          "titleZh": "社区安全报告和针对青少年的新保护措施",
+          "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+          "summaryZh": "OpenAI正在通过扩大保障措施、早期干预措施和对公共安全报告的新承诺来加强ChatGPT的暴力预防。",
+          "published": "2026-10-30T09:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Fair use benefits everyone",
+          "titleZh": "合理使用对每个人都有好处",
+          "url": "https://openai.com/index/fair-use-benefits-everyone",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+          "summaryZh": "OpenAI分享了创作者、学者、无障碍倡导者和法律专家等关于合理使用如何支持人工智能培训和创新的法庭简报摘录。",
+          "published": "2026-10-30T00:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "nemotron-halloween",
+          "titleZh": "",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+          "source": "Hugging Face",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-30T17:57:24.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "research",
+      "label": "🔬 研究前沿",
+      "items": [
+        {
+          "title": "Auburn Engineering artificial intelligence and aquaculture research projects part of $8.1 million statewide investment - Auburn University",
+          "titleZh": "奥本工程人工智能和水产养殖研究项目是全州投资$ 810万的一部分-奥本大学",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOcjBhZWxpVmRCaTUtNjZMenJ5SFRDNS1QaWF2TmkxSjExdXBaNFk3NGdPVVltQ1VPd1RNMmRNMjdfSTVJRHFhQms3ZTdOb2ZuaERseVpadGowRHpjczczREd2NzExVFBWWTdyTmRsaXNWelpVcXBlc1ZJc1hlZXhWcFA4V202U0pEdmM2SFZzdG5BdW5ldS1YYWdvczg5Ui1RN3ZDNVlqWUF6V3g5UGNSNzloWDFwTWx1RXV0bFlDTzRwRzA3Rk5fNHU1SVM3eFRGUHBVVXVJYXo?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "Auburn Engineering artificial intelligence and aquaculture research projects part of $8.1 million statewide investment Auburn University",
+          "summaryZh": "奥本工程人工智能和水产养殖研究项目是奥本大学全州投资$ 810万的一部分",
+          "published": "2026-10-30T21:22:30.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
+          "titleZh": "LRMoE：针对内存受限节点的高效MoE培训的需求侧负载重新校准",
+          "url": "https://arxiv.org/abs/2610.37720",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Sparse Mixture-of-Experts (MoE) models offer scalable capacity for Web applications, but uneven routing creates computation and communication bottlenecks. Existing placement and replication methods redistribute this workload, yet additional expert copies compete with token-related buffers for limited GPU memory. We present LRMoE, a memory-aware MoE training system that jointly recalibrates backward demand and balances the retained workload. During forward execution, it plans retention quotas and expert placement under resource constraints while preserving all routed computations. During backpropagation, a load recalibration metric estimates each token-expert pair's contribution to the expert update and selects pairs within these quotas. A capacity-aware routing algorithm distributes retained pairs among eligible instances of their original experts. Physical compaction then forms smaller communication payloads and variable-size grouped GEMMs, reducing backward traffic, computation, and execution-buffer demand. Experiments on Qwen3-30B-A3B and GLM4.5-106B-A12B show that LRMoE reduces cumulative MoE-layer training time to fixed-loss targets by 21.2-44.8% relative to SYMI.",
+          "summaryZh": "稀疏混合专家（MoE）模型为Web应用程序提供了可扩展的容量，但不均匀的路由会造成计算和通信瓶颈。现有的放置和复制方法重新分配这个…",
+          "published": "2026-10-31T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
+          "titleZh": "应用于海洋湍流封闭的模型校准的摊销局部后验推理",
+          "url": "https://arxiv.org/abs/2610.37731",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Model discrepancy may prevent a single calibration parameter from reproducing a physical response across the context domain. In addition, uncertainties in observations and contexts affect calibration and must be accounted for and quantified. We construct a family of localized posteriors by weighting observation likelihoods according to their proximity to a target context. Gaussian localization weights incorporate context uncertainty through covariance inflation, with reflection at domain boundaries and an optional correction for uneven context sampling. A conditional normalizing flow approximates the family of posteriors through amortized variational inference. Integrating the localized posteriors under a prescribed context measure gives the marginalized parameter distribution. In a twin experiment with the Branin-Hoo model, we compare global and localized inference under uniform and skewed context distributions. Localization reduces the reported aggregate predictive errors relative to the global posterior. An application to the k-$\\epsilon$ turbulence closure in a single-column ocean model, with atmospheric surface forcing as context, shows that localized posterior calibration reduces temperature and zonal-velocity errors relative to deterministic and global-posterior calibration. Both twin experiments are constructed to admit local compensation.",
+          "summaryZh": "模型差异可能会阻止单个校准参数在整个上下文域中再现物理响应。此外，观察结果和环境中的不确定性会影响校准，必须…",
+          "published": "2026-10-31T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions",
+          "titleZh": "ThinkJev：校准型决策的一个想法，每一个预算",
+          "url": "https://arxiv.org/abs/2610.37732",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Many uses of language models end in a typed decision: a choice among a closed set of options, whose probabilities code can act on. Reading those probabilities from one forward pass is fast but often wrong on decisions that take several steps, such as arithmetic, counting, and date comparison. Letting the model think first fixes most of these errors, but costs seconds per decision instead of milliseconds. To pay for thinking only where it helps, ThinkJev builds a fast and a slow system from one open hybrid-thinking model that can answer directly or after a thought. System 1 reads the model's probabilities for the option letters when it answers directly; System 2 reads the same letters after the model has thought on the same cached prompt, so escalating repeats no work and both systems give probabilities over the same options. Because the letters can be read after any number of thought tokens, one sampled thought also gives the answer under every thinking budget. Without training, ThinkJev lets System 1 answer alone only where a statistical test on labeled dev data guarantees that its accepted answers stay under a target error rate. At a 5% target, Qwen3.5-27B answers 24.5% of 8359 test decisions this way with a realized error of 3.9% (Qwen3.5-4B and 9B: 6.5% and 0.0%). For the rest, stopping each thought as soon as its answer is confident reaches 81.6% accuracy, against 82.7% for always thinking, with 72% of the thought tokens. Choosing when to think from System 1's confidence alone saves less, because the decisions System 1 is least sure of are often not the ones thinking fixes. On the public items of JevBench, an independent benchmark of typed-decision services, Qwen3.5-27B thinks on 29.4% and is not distinguishable in accuracy from the two thinking APIs listed (exploratory). Code and data generators are available at https://github.com/ding-xiaolu/ThinkJev.",
+          "summaryZh": "语言模型的许多用途都以类型决定告终：从一组封闭的选项中进行选择，其概率代码可以发挥作用。从一次前进传球中读取这些概率很快，但在决策时往往是错误的…",
+          "published": "2026-10-31T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+          "titleZh": "OpenFrontiers：开放研究问题集合和科学再发现的基准",
+          "url": "https://arxiv.org/abs/2610.37739",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging. We introduce OpenFrontiers, a cross-disciplinary resource that combines a structured corpus of open research problems with a retrospective benchmark of recently resolved problems in mathematics. The corpus records problem statements, context, progress, and other information for 12,151 problems. The benchmark contains 200 problems, 110 resolved in 2026 and 90 still open, each with a Lean~4 statement checked by automated probes and two independent reviews; a subset HQ-50 further filters based on quality score, etc. Our evaluation protocol grades formal proofs with two independent checkers in an isolated sandbox under closed-book, frozen-retrieval, and live-web conditions. Evaluating seven LLM agents on the HQ-50 subset under a standardized budget, we find that closed-book rediscovery is rare, at most 7 of 40 resolved problems, whereas live-web success mostly reflects retrieval of published solutions. By linking a broad research-problem corpus to a formally graded evaluation subset with documented solutions, OpenFrontiers provides a foundation for measuring research-level rediscovery and studying progress toward solving currently open scientific problems. The dataset and benchmark could be found in https://huggingface.co/collections/FlippyDora/openfrontiers.",
+          "summaryZh": "大型语言模型（LLM）在研究级问题解决中显示出越来越大的前景，但仍然缺乏对此类问题的全面收集，并且在研究级问题上评估它们仍然存在…",
+          "published": "2026-10-31T04:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "label": "🏢 公司与行业动向",
+      "items": [
+        {
+          "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+          "titleZh": "Blackstone表示， Anthropic在IPO后可能无法获得投资级评级",
+          "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-30T17:27:25.000Z",
+          "points": 301,
+          "discussion": "https://news.ycombinator.com/item?id=50307219"
+        },
+        {
+          "title": "Anthropic to receive high 'junk' rating from credit agencies following IPO",
+          "titleZh": "Anthropic在IPO后获得信贷机构的高“垃圾”评级",
+          "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-30T23:08:12.000Z",
+          "points": 83,
+          "discussion": "https://news.ycombinator.com/item?id=50311311"
+        },
+        {
+          "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+          "titleZh": "英伟达将为Nscale位于西弗吉尼亚州的人工智能数据中心配音",
+          "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+          "summaryZh": "当投资者对人工智能支出感到紧张时，让出售芯片的芯片制造商提出共同签署贷款会有所帮助。",
+          "published": "2026-10-31T01:20:05.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+          "titleZh": "据英国《金融时报》报道， Anthropic预计将在IPO后获得信贷机构的高“垃圾”评级",
+          "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business.",
+          "summaryZh": "Blackstone的预测只是一个预测，但自然，高垃圾评级将使Anthropic更难以筹集资金来继续为其庞大的支出提供资金。…",
+          "published": "2026-10-30T21:52:03.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+          "titleZh": "Cursor后门上的Anthropic VS代码扩展近12小时",
+          "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+          "source": "Ars Technica AI",
+          "alsoOn": [],
+          "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+          "summaryZh": "目前尚不清楚攻击者如何访问Anthropic已验证的Cursor帐户。",
+          "published": "2026-10-30T21:09:54.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "OpenAI更新AI准则：把“人类意图”作为模型核心|大模型|Agent|旺旺|产业|指令_手机新浪网 - 新浪财经",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82bFJpbTJNMWZuV3BWY3RBaERCOXc2WXYzNG5DTWh2Y2wyY1VXVndZeTdfaEg0VXRRQVB1Ql9oUFpHOTBlNnYwRVp2QXFxSjFTTUxOV19QTmVfeDRCUG5sX25ISXRtUFk0cmNQZGlzdWdwYjZ3S2JSbw?oc=5",
+          "source": "Google 新闻中文",
+          "alsoOn": [],
+          "summary": "OpenAI更新AI准则：把“人类意图”作为模型核心|大模型|Agent|旺旺|产业|指令_手机新浪网 新浪财经",
+          "summaryZh": "",
+          "published": "2026-10-31T04:02:48.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "eng",
+      "label": "🛠 工程与开源工具",
+      "items": [
+        {
+          "title": "OpenAI raises less than half of $30B target",
+          "titleZh": "OpenAI筹集的资金不到$ 300亿目标的一半",
+          "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-31T03:22:44.000Z",
+          "points": 126,
+          "discussion": "https://news.ycombinator.com/item?id=50312922"
+        },
+        {
+          "title": "AI isn't replacing SREs, it's deskilling them",
+          "titleZh": "人工智能不是取代SRE，而是对它们进行去填充",
+          "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-30T15:52:18.000Z",
+          "points": 557,
+          "discussion": "https://news.ycombinator.com/item?id=50305693"
+        },
+        {
+          "title": "US tech stocks see sharp falls over AI cost fears",
+          "titleZh": "美国科技股因人工智能成本担忧而大幅下跌",
+          "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-30T16:13:02.000Z",
+          "points": 249,
+          "discussion": "https://news.ycombinator.com/item?id=50306008"
+        },
+        {
+          "title": "Proton's CEO Cancels AI 'Re-Interviews'",
+          "titleZh": "Proton首席执行官取消人工智能“重新采访”",
+          "url": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-30T17:24:45.000Z",
+          "points": 269,
+          "discussion": "https://news.ycombinator.com/item?id=50307183"
+        },
+        {
+          "title": "Wall Street closes sharply lower as AI cash burn fears spark tech selloff",
+          "titleZh": "华尔街收盘大幅下跌，因人工智能烧钱引发科技抛售担忧",
+          "url": "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-10-30T21:32:35.000Z",
+          "points": 52,
+          "discussion": "https://news.ycombinator.com/item?id=50310431"
+        },
+        {
+          "title": "dbreunig/nesformer",
+          "titleZh": "",
+          "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
+          "source": "Simon Willison",
+          "alsoOn": [],
+          "summary": "dbreunig/nesformer Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen! In a comment on Hacker News Drew reveals the Opus 5.5 prompts he used to build this system: Read this article and any relevant source code: https://divagr.com/blog/qwenputer. Then explore if you could emulate the chip and ram in a Nintendo Entertainment System (as people do today with FPGAs in MISTRs) using this technique. If so, what size model would you have to build and if you could use smaller faster ones, could you get it to be at the standard clockspeed. Followed by: I think we should build it! Just for fun. It's okay if it's not fast. We want to be able to have the weights, and a cli to run them that we can point at a ROM. Apparently Opus found and then used this collection of conformance tests for the NES CPU released 15 years ago by Christopher Pow. Via Hacker News Tags: games , ai , generative-ai , llms , drew-breunig , qwen , conformance-suites",
+          "summaryZh": "dbreunig/nesformer受Divyansh Agrawal的qwenputer启发， Drew Breunig将任天堂娱乐系统6502 CPU的工作模拟器烘焙成Qwen3.5-4B的权重。您现在可以播放NES ROM，例如Super…",
+          "published": "2026-10-30T21:59:22.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    }
+  ],
+  "markdown": "# 📰 AI 日报 · 2026-10-31\n\n> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 19 条已译\n\n## 🚀 模型与产品发布\n\n**1. 显示HN： Qwen权重约1GB的工作任天堂**\n\nShow HN: A working Nintendo in ~1GB of Qwen weights · Hacker News · 14 小时前 · ▲231 · [原文](<https://github.com/dbreunig/nesformer>)\n\n**2. 让网站更容易表达人工智能培训偏好**\n\nMaking it easier for websites to express AI training preferences · OpenAI · 21 小时前 · [原文](<https://openai.com/index/helping-websites-express-ai-training-preferences>)\n\n_OpenAI将遵循共享的robots.txt信号，帮助网站运营商向参与的提供商传达其人工智能培训偏好。_\n\n**3. 社区安全报告和针对青少年的新保护措施**\n\nCommunity safety report and new protections for teens · OpenAI · 21 小时前 · [原文](<https://openai.com/index/community-safety-report-and-new-protections-for-teens>)\n\n_OpenAI正在通过扩大保障措施、早期干预措施和对公共安全报告的新承诺来加强ChatGPT的暴力预防。_\n\n**4. 合理使用对每个人都有好处**\n\nFair use benefits everyone · OpenAI · 30 小时前 · [原文](<https://openai.com/index/fair-use-benefits-everyone>)\n\n_OpenAI分享了创作者、学者、无障碍倡导者和法律专家等关于合理使用如何支持人工智能培训和创新的法庭简报摘录。_\n\n**5. nemotron-halloween**\n\nHugging Face · 13 小时前 · [原文](<https://huggingface.co/blog/nvidia/nemotron-halloween>)\n\n## 🔬 研究前沿\n\n**1. 奥本工程人工智能和水产养殖研究项目是全州投资$ 810万的一部分-奥本大学**\n\nAuburn Engineering artificial intelligence and aquaculture research projects part of $8.1 million statewide investment - Auburn University · Google News · 9 小时前 · [原文](<https://news.google.com/rss/articles/CBMi2AFBVV95cUxOcjBhZWxpVmRCaTUtNjZMenJ5SFRDNS1QaWF2TmkxSjExdXBaNFk3NGdPVVltQ1VPd1RNMmRNMjdfSTVJRHFhQms3ZTdOb2ZuaERseVpadGowRHpjczczREd2NzExVFBWWTdyTmRsaXNWelpVcXBlc1ZJc1hlZXhWcFA4V202U0pEdmM2SFZzdG5BdW5ldS1YYWdvczg5Ui1RN3ZDNVlqWUF6V3g5UGNSNzloWDFwTWx1RXV0bFlDTzRwRzA3Rk5fNHU1SVM3eFRGUHBVVXVJYXo?oc=5>)\n\n_奥本工程人工智能和水产养殖研究项目是奥本大学全州投资$ 810万的一部分_\n\n**2. LRMoE：针对内存受限节点的高效MoE培训的需求侧负载重新校准**\n\nLRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.37720>)\n\n_稀疏混合专家（MoE）模型为Web应用程序提供了可扩展的容量，但不均匀的路由会造成计算和通信瓶颈。现有的放置和复制方法重新分配这个…_\n\n**3. 应用于海洋湍流封闭的模型校准的摊销局部后验推理**\n\nAmortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.37731>)\n\n_模型差异可能会阻止单个校准参数在整个上下文域中再现物理响应。此外，观察结果和环境中的不确定性会影响校准，必须…_\n\n**4. ThinkJev：校准型决策的一个想法，每一个预算**\n\nThinkJev: One Thought, Every Budget for Calibrated Typed Decisions · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.37732>)\n\n_语言模型的许多用途都以类型决定告终：从一组封闭的选项中进行选择，其概率代码可以发挥作用。从一次前进传球中读取这些概率很快，但在决策时往往是错误的…_\n\n**5. OpenFrontiers：开放研究问题集合和科学再发现的基准**\n\nOpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2610.37739>)\n\n_大型语言模型（LLM）在研究级问题解决中显示出越来越大的前景，但仍然缺乏对此类问题的全面收集，并且在研究级问题上评估它们仍然存在…_\n\n## 🏢 公司与行业动向\n\n**1. Blackstone表示， Anthropic在IPO后可能无法获得投资级评级**\n\nAnthropic may not secure investment-grade rating after IPO, Blackstone says · Hacker News · 13 小时前 · ▲301 · [原文](<https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f>)\n\n**2. Anthropic在IPO后获得信贷机构的高“垃圾”评级**\n\nAnthropic to receive high 'junk' rating from credit agencies following IPO · Hacker News · 7 小时前 · ▲83 · [原文](<https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/>)\n\n**3. 英伟达将为Nscale位于西弗吉尼亚州的人工智能数据中心配音**\n\nNvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia · TechCrunch AI · 5 小时前 · [原文](<https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/>)\n\n_当投资者对人工智能支出感到紧张时，让出售芯片的芯片制造商提出共同签署贷款会有所帮助。_\n\n**4. 据英国《金融时报》报道， Anthropic预计将在IPO后获得信贷机构的高“垃圾”评级**\n\nAnthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/>)\n\n_Blackstone的预测只是一个预测，但自然，高垃圾评级将使Anthropic更难以筹集资金来继续为其庞大的支出提供资金。…_\n\n**5. Cursor后门上的Anthropic VS代码扩展近12小时**\n\nAnthropic VS code extension on Cursor backdoored for nearly 12 hours · Ars Technica AI · 9 小时前 · [原文](<https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/>)\n\n_目前尚不清楚攻击者如何访问Anthropic已验证的Cursor帐户。_\n\n**6. OpenAI更新AI准则：把“人类意图”作为模型核心|大模型|Agent|旺旺|产业|指令_手机新浪网 - 新浪财经**\n\nGoogle 新闻中文 · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMieEFVX3lxTE82bFJpbTJNMWZuV3BWY3RBaERCOXc2WXYzNG5DTWh2Y2wyY1VXVndZeTdfaEg0VXRRQVB1Ql9oUFpHOTBlNnYwRVp2QXFxSjFTTUxOV19QTmVfeDRCUG5sX25ISXRtUFk0cmNQZGlzdWdwYjZ3S2JSbw?oc=5>)\n\n_OpenAI更新AI准则：把“人类意图”作为模型核心|大模型|Agent|旺旺|产业|指令_手机新浪网 新浪财经_\n\n## 🛠 工程与开源工具\n\n**1. OpenAI筹集的资金不到$ 300亿目标的一半**\n\nOpenAI raises less than half of $30B target · Hacker News · 3 小时前 · ▲126 · [原文](<https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5>)\n\n**2. 人工智能不是取代SRE，而是对它们进行去填充**\n\nAI isn't replacing SREs, it's deskilling them · Hacker News · 15 小时前 · ▲557 · [原文](<https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling>)\n\n**3. 美国科技股因人工智能成本担忧而大幅下跌**\n\nUS tech stocks see sharp falls over AI cost fears · Hacker News · 14 小时前 · ▲249 · [原文](<https://www.bbc.co.uk/news/articles/cvwy72e0n72yo>)\n\n**4. Proton首席执行官取消人工智能“重新采访”**\n\nProton's CEO Cancels AI 'Re-Interviews' · Hacker News · 13 小时前 · ▲269 · [原文](<https://www.404media.co/protons-ceo-cancels-ai-re-interviews/>)\n\n**5. 华尔街收盘大幅下跌，因人工智能烧钱引发科技抛售担忧**\n\nWall Street closes sharply lower as AI cash burn fears spark tech selloff · Hacker News · 9 小时前 · ▲52 · [原文](<https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/>)\n\n**6. dbreunig/nesformer**\n\nSimon Willison · 8 小时前 · [原文](<https://simonwillison.net/2026/Oct/30/nesformer/>)\n\n_dbreunig/nesformer受Divyansh Agrawal的qwenputer启发， Drew Breunig将任天堂娱乐系统6502 CPU的工作模拟器烘焙成Qwen3.5-4B的权重。您现在可以播放NES ROM，例如Super…_\n"
+}
