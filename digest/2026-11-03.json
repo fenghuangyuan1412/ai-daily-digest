@@ -1,0 +1,309 @@
+{
+  "date": "2026-11-03",
+  "generatedAt": "2026-11-03T07:22:47.429Z",
+  "windowHours": 36,
+  "sourcesTotal": 13,
+  "sourcesOk": 13,
+  "sourcesFailed": [],
+  "itemCount": 22,
+  "translatedCount": 0,
+  "sections": [
+    {
+      "key": "model",
+      "label": "🚀 模型与产品发布",
+      "items": [
+        {
+          "title": "Preparing our next security sprint to harden OpenAI",
+          "titleZh": "",
+          "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+          "summaryZh": "",
+          "published": "2026-11-02T18:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Rewarding defenders with bigger bug bounties",
+          "titleZh": "",
+          "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+          "summaryZh": "",
+          "published": "2026-11-02T18:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Introducing the Grid Protectors Program",
+          "titleZh": "",
+          "url": "https://openai.com/index/grid-protectors-program",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+          "summaryZh": "",
+          "published": "2026-11-02T15:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Claude’s new rules against game cloning won’t stop the AI copying boom",
+          "titleZh": "",
+          "url": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
+          "source": "Ars Technica AI",
+          "alsoOn": [],
+          "summary": "The tsunami of imitators is way bigger than any one model maker can stem.",
+          "summaryZh": "",
+          "published": "2026-11-02T18:05:31.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Transformers Model Integration Contracts",
+          "titleZh": "",
+          "url": "https://huggingface.co/blog/transformers-mic",
+          "source": "Hugging Face",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-03T00:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "research",
+      "label": "🔬 研究前沿",
+      "items": [
+        {
+          "title": "全球AI创新治理｜联合国报告：人工智能时代的人类发展与未来选择 - 复旦发展研究院",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqOFZyYlpuYnBnUzhIT012Rmc2aEVUOUZBYVc4NHRfTTN5LXFhM05qcGN3ajcyNW5UNGlTRm9EQ3JHT3NPOWdNUjdIZFMzaTVRekNuUUNZYXRLaUVhRWxFYm9VVmE?oc=5",
+          "source": "Google 新闻中文",
+          "alsoOn": [],
+          "summary": "全球AI创新治理｜联合国报告：人工智能时代的人类发展与未来选择 复旦发展研究院",
+          "summaryZh": "",
+          "published": "2026-11-03T06:29:31.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "芯讯通携手重庆通用人工智能研究院 加速AI+金融、医疗、制造场景落地 - 中国日报网",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE01OG02ZE54SURQMy1saW5lU0dlRGI0Yk12UlBUd2xBR1FWeS13S3E2eDY5V091cWVueEMzcXZoSGdvZ1RQb0lFZUNCWlBEb29IM3JXeFItNnhqX2FUTTlqb2dKZEt1ZXZfOWNHLWRtWjBkam5nWHhPQzBoTjE?oc=5",
+          "source": "Google 新闻中文",
+          "alsoOn": [],
+          "summary": "芯讯通携手重庆通用人工智能研究院 加速AI+金融、医疗、制造场景落地 中国日报网",
+          "summaryZh": "",
+          "published": "2026-11-03T06:16:41.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "label": "🏢 公司与行业动向",
+      "items": [
+        {
+          "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+          "titleZh": "",
+          "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-02T22:30:47.000Z",
+          "points": 305,
+          "discussion": "https://news.ycombinator.com/item?id=50344919"
+        },
+        {
+          "title": "Anthropic reveals $900B AI spending commitments ahead of IPO",
+          "titleZh": "",
+          "url": "https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-02T19:36:37.000Z",
+          "points": 71,
+          "discussion": "https://news.ycombinator.com/item?id=50342424"
+        },
+        {
+          "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+          "titleZh": "",
+          "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
+          "summaryZh": "",
+          "published": "2026-11-03T03:30:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+          "titleZh": "",
+          "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations.",
+          "summaryZh": "",
+          "published": "2026-11-03T07:20:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+          "titleZh": "",
+          "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return.",
+          "summaryZh": "",
+          "published": "2026-11-02T22:14:50.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "eng",
+      "label": "🛠 工程与开源工具",
+      "items": [
+        {
+          "title": "Anthropic's growth just flattened",
+          "titleZh": "",
+          "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-02T22:33:20.000Z",
+          "points": 200,
+          "discussion": "https://news.ycombinator.com/item?id=50344958"
+        },
+        {
+          "title": "Scaling Git at OpenAI",
+          "titleZh": "",
+          "url": "https://openai.com/index/scaling-git-at-openai/",
+          "source": "Hacker News",
+          "alsoOn": [
+            "OpenAI"
+          ],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-02T23:47:56.000Z",
+          "points": 179,
+          "discussion": "https://news.ycombinator.com/item?id=50345924"
+        },
+        {
+          "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+          "titleZh": "",
+          "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-02T19:27:37.000Z",
+          "points": 183,
+          "discussion": "https://news.ycombinator.com/item?id=50342284"
+        },
+        {
+          "title": "Egoless Mathematics in the AI Era",
+          "titleZh": "",
+          "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-02T18:54:44.000Z",
+          "points": 148,
+          "discussion": "https://news.ycombinator.com/item?id=50341736"
+        },
+        {
+          "title": "WorkOS reports security breach",
+          "titleZh": "",
+          "url": "https://news.ycombinator.com/item?id=50345712",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "It's not on their website or Trust center yet, but we received the following breach notification from WorkOS: We are writing to notify you of a data security incident that we detected on October 30, 2026 and are continuing to investigate. We value your trust and want to keep you informed while our investigation continues. What Happened On October 30, 2026, at 16:39 UTC, WorkOS detected anomalous traffic to an internal business system. Our investigation identified evidence the attack was likely driven by ARTEX, an AI-assisted, autonomous penetration testing framework, from IP addresses based in Hong Kong and China. The unauthorized actor gained access to an internal API used by our sales and marketing tools. Through this service, it was able to access data from our Salesforce and Snowflake instances. These systems hold business contact information, account and commercial information, aggregated and de-identified product usage metrics, marketing contacts, and support tickets. This includes CRM information such as names, email addresses, phone numbers, company mailing addresses, and other business information for WorkOS customers. We have no evidence that your application data was accessed. We also have no evidence that any production WorkOS services were accessed or impacted. Our current analysis indicates this incident was localized to only CRM and customer support data. ...",
+          "summaryZh": "",
+          "published": "2026-11-02T23:30:59.000Z",
+          "points": 68,
+          "discussion": "https://news.ycombinator.com/item?id=50345712"
+        },
+        {
+          "title": "LLMs are not superhuman at reading and writing neural network weights",
+          "titleZh": "",
+          "url": "https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-02T22:26:53.000Z",
+          "points": 58,
+          "discussion": "https://news.ycombinator.com/item?id=50344861"
+        }
+      ]
+    },
+    {
+      "key": "ideas",
+      "label": "💭 观点与深度",
+      "items": [
+        {
+          "title": "October sponsors-only newsletter",
+          "titleZh": "",
+          "url": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
+          "source": "Simon Willison",
+          "alsoOn": [],
+          "summary": "I sent out the October edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: The October inflection point for vibe game development The vulnerability apocalypse gets hot LLM releases API credits for $100+/month subscriptions What I'm using right now My software releases My September newsletter can now be seen here , as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
+          "summaryZh": "",
+          "published": "2026-11-03T05:28:59.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+          "titleZh": "",
+          "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+          "source": "MIT Tech Review",
+          "alsoOn": [],
+          "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been calling artificial intelligence as “Super Intelligence.” That…",
+          "summaryZh": "",
+          "published": "2026-11-03T04:18:47.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Raising the quality of insights in agentic analytics",
+          "titleZh": "",
+          "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+          "source": "MIT Tech Review",
+          "alsoOn": [],
+          "summary": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The quality of insights that agents currently generate…",
+          "summaryZh": "",
+          "published": "2026-11-02T17:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Stop counting tokens, start counting what ships",
+          "titleZh": "",
+          "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+          "source": "MIT Tech Review",
+          "alsoOn": [],
+          "summary": "When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes, the more calls…",
+          "summaryZh": "",
+          "published": "2026-11-02T13:10:32.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    }
+  ],
+  "markdown": "# 📰 AI 日报 · 2026-11-03\n\n> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时\n\n## 🚀 模型与产品发布\n\n**1. Preparing our next security sprint to harden OpenAI**\n\nOpenAI · 13 小时前 · [原文](<https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai>)\n\n_OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI._\n\n**2. Rewarding defenders with bigger bug bounties**\n\nOpenAI · 13 小时前 · [原文](<https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties>)\n\n_OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers._\n\n**3. Introducing the Grid Protectors Program**\n\nOpenAI · 16 小时前 · [原文](<https://openai.com/index/grid-protectors-program>)\n\n_OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs._\n\n**4. Claude’s new rules against game cloning won’t stop the AI copying boom**\n\nArs Technica AI · 13 小时前 · [原文](<https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/>)\n\n_The tsunami of imitators is way bigger than any one model maker can stem._\n\n**5. Transformers Model Integration Contracts**\n\nHugging Face · 7 小时前 · [原文](<https://huggingface.co/blog/transformers-mic>)\n\n## 🔬 研究前沿\n\n**1. 全球AI创新治理｜联合国报告：人工智能时代的人类发展与未来选择 - 复旦发展研究院**\n\nGoogle 新闻中文 · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqOFZyYlpuYnBnUzhIT012Rmc2aEVUOUZBYVc4NHRfTTN5LXFhM05qcGN3ajcyNW5UNGlTRm9EQ3JHT3NPOWdNUjdIZFMzaTVRekNuUUNZYXRLaUVhRWxFYm9VVmE?oc=5>)\n\n_全球AI创新治理｜联合国报告：人工智能时代的人类发展与未来选择 复旦发展研究院_\n\n**2. 芯讯通携手重庆通用人工智能研究院 加速AI+金融、医疗、制造场景落地 - 中国日报网**\n\nGoogle 新闻中文 · 1 小时前 · [原文](<https://news.google.com/rss/articles/CBMifEFVX3lxTE01OG02ZE54SURQMy1saW5lU0dlRGI0Yk12UlBUd2xBR1FWeS13S3E2eDY5V091cWVueEMzcXZoSGdvZ1RQb0lFZUNCWlBEb29IM3JXeFItNnhqX2FUTTlqb2dKZEt1ZXZfOWNHLWRtWjBkam5nWHhPQzBoTjE?oc=5>)\n\n_芯讯通携手重庆通用人工智能研究院 加速AI+金融、医疗、制造场景落地 中国日报网_\n\n## 🏢 公司与行业动向\n\n**1. The SEC Should Block Anthropic's IPO to Protect the Public**\n\nHacker News · 9 小时前 · ▲305 · [原文](<https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/>)\n\n**2. Anthropic reveals $900B AI spending commitments ahead of IPO**\n\nHacker News · 12 小时前 · ▲71 · [原文](<https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f>)\n\n**3. Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses**\n\nTechCrunch AI · 4 小时前 · [原文](<https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/>)\n\n_Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages._\n\n**4. Apple Watch’s AI features for rewinding and recapping conversations begin beta testing**\n\nTechCrunch AI · 刚刚 · [原文](<https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/>)\n\n_Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations._\n\n**5. Anthropic warns that it’s very close to RSI capability, aka self-building AI**\n\nTechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/>)\n\n_RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return._\n\n## 🛠 工程与开源工具\n\n**1. Anthropic's growth just flattened**\n\nHacker News · 9 小时前 · ▲200 · [原文](<https://www.regenerator1.com/p/anthropics-growth-just-flattened>)\n\n**2. Scaling Git at OpenAI**\n\nHacker News · 8 小时前 · ▲179 （亦见于 OpenAI） · [原文](<https://openai.com/index/scaling-git-at-openai/>)\n\n**3. Oracle files to sell $20B in new stock, bonds to finance AI buildout**\n\nHacker News · 12 小时前 · ▲183 · [原文](<https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html>)\n\n**4. Egoless Mathematics in the AI Era**\n\nHacker News · 12 小时前 · ▲148 · [原文](<https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/>)\n\n**5. WorkOS reports security breach**\n\nHacker News · 8 小时前 · ▲68 · [原文](<https://news.ycombinator.com/item?id=50345712>)\n\n_It's not on their website or Trust center yet, but we received the following breach notification from WorkOS: We are writing to notify you of a data security incident that we detected on October 30, 2026 and are…_\n\n**6. LLMs are not superhuman at reading and writing neural network weights**\n\nHacker News · 9 小时前 · ▲58 · [原文](<https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/>)\n\n## 💭 观点与深度\n\n**1. October sponsors-only newsletter**\n\nSimon Willison · 2 小时前 · [原文](<https://simonwillison.net/2026/Nov/3/october-newsletter/>)\n\n_I sent out the October edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: The October inflection point for vibe game development The…_\n\n**2. Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test**\n\nMIT Tech Review · 3 小时前 · [原文](<https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/>)\n\n_This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained…_\n\n**3. Raising the quality of insights in agentic analytics**\n\nMIT Tech Review · 14 小时前 · [原文](<https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/>)\n\n_In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire…_\n\n**4. Stop counting tokens, start counting what ships**\n\nMIT Tech Review · 18 小时前 · [原文](<https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/>)\n\n_When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens…_\n"
+}
