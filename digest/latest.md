@@ -1,129 +1,129 @@
-# 📰 AI 日报 · 2026-11-03
+# 📰 AI 日报 · 2026-11-04
 
-> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时
+> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 21 条已译
 
 ## 🚀 模型与产品发布
 
-**1. Preparing our next security sprint to harden OpenAI**
+**1. 我的笔记本电脑上的Qwen 3.8 27B也可以解释模型权重**
 
-OpenAI · 13 小时前 · [原文](<https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai>)
+Qwen 3.8 27B on my laptop can interpret model weights, too · Hacker News · 13 小时前 · ▲573 （亦见于 Simon Willison） · [原文](<https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/>)
 
-_OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI._
+**2. Google Antigravity代理化学信息学**
 
-**2. Rewarding defenders with bigger bug bounties**
+Agentic cheminformatics with Google Antigravity · Google DeepMind · 14 小时前 · [原文](<https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/>)
 
-OpenAI · 13 小时前 · [原文](<https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties>)
+_了解Google Antigravity和我们的Cheminformatics Skills如何加速药物发现工作流程、搜索化合物并提出新的刚性大循环。_
 
-_OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers._
+**3. 加速物理世界的工程设计**
 
-**3. Introducing the Grid Protectors Program**
+Accelerating engineering for the physical world · OpenAI · 19 小时前 · [原文](<https://openai.com/index/accelerating-engineering-for-the-physical-world>)
 
-OpenAI · 16 小时前 · [原文](<https://openai.com/index/grid-protectors-program>)
+_了解ChatGPT和Codex如何帮助工程师在物理世界中加速CAD、PCB设计、仿真和其他工作流程。_
 
-_OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs._
+**4. OpenAI任命Jill Hazelbaker为首席企业事务官**
 
-**4. Claude’s new rules against game cloning won’t stop the AI copying boom**
+OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer · OpenAI · 31 小时前 · [原文](<https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer>)
 
-Ars Technica AI · 13 小时前 · [原文](<https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/>)
-
-_The tsunami of imitators is way bigger than any one model maker can stem._
-
-**5. Transformers Model Integration Contracts**
-
-Hugging Face · 7 小时前 · [原文](<https://huggingface.co/blog/transformers-mic>)
+_Jill Hazelbaker将加入OpenAI担任首席企业事务官，领导公司的全球传播和企业定位。_
 
 ## 🔬 研究前沿
 
-**1. 全球AI创新治理｜联合国报告：人工智能时代的人类发展与未来选择 - 复旦发展研究院**
+**1. 中国工业互联网研究院开启新一轮生成式人工智能备案咨询服务 - 中国工业互联网研究院**
 
-Google 新闻中文 · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqOFZyYlpuYnBnUzhIT012Rmc2aEVUOUZBYVc4NHRfTTN5LXFhM05qcGN3ajcyNW5UNGlTRm9EQ3JHT3NPOWdNUjdIZFMzaTVRekNuUUNZYXRLaUVhRWxFYm9VVmE?oc=5>)
+Google 新闻中文 · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMiV0FVX3lxTE12bjlHYm5aNExTZ0ZJanl2cHV5a0ZWekdIT3FyZUxDVk9tTTg0S1RUck8wZmZvLTIzYXBMbnBoUWVvZnF1WWE3RVhBYTdpWnpXdWlZdnJjNA?oc=5>)
 
-_全球AI创新治理｜联合国报告：人工智能时代的人类发展与未来选择 复旦发展研究院_
+_中国工业互联网研究院开启新一轮生成式人工智能备案咨询服务 中国工业互联网研究院_
 
-**2. 芯讯通携手重庆通用人工智能研究院 加速AI+金融、医疗、制造场景落地 - 中国日报网**
+**2. 校准伪造取决于值，而不仅仅是模型**
 
-Google 新闻中文 · 1 小时前 · [原文](<https://news.google.com/rss/articles/CBMifEFVX3lxTE01OG02ZE54SURQMy1saW5lU0dlRGI0Yk12UlBUd2xBR1FWeS13S3E2eDY5V091cWVueEMzcXZoSGdvZ1RQb0lFZUNCWlBEb29IM3JXeFItNnhqX2FUTTlqb2dKZEt1ZXZfOWNHLWRtWjBkam5nWHhPQzBoTjE?oc=5>)
+Alignment Faking Depends on the Value, Not Just the Model · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.03650>)
 
-_芯讯通携手重庆通用人工智能研究院 加速AI+金融、医疗、制造场景落地 中国日报网_
+_当语言模型认为自己受到监控时，可以遵循指令，当他们认为自己没有受到监控时，可以放弃它，这种模式称为对齐伪造。先前的工作为有害内容目标确立了这一点…_
+
+**3. CARD：相对测量图的携带证明书到行动接口**
+
+CARD: A Proof-Carrying Certificate-to-Action Interface for Relative-Measurement Graphs · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.03651>)
+
+_几何证书对指定的估计器对象进行数学声明，而机器人操作需要物理变换、服务决策和及时的证明支持。我们出示卡片，证明携带…_
+
+**4. MCPGuard：通过双轨分析和动态裁定发现MCP SDK中的一致性差距**
+
+MCPGuard: Finding Conformance Gaps in MCP SDKs via Dual-Track Analysis and Dynamic Adjudication · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.03662>)
+
+_模型上下文协议(MCP)通过实现消息验证和会话逻辑的官方SDK将大型语言模型代理连接到外部工具和服务。这些省略的规格约束…_
 
 ## 🏢 公司与行业动向
 
-**1. The SEC Should Block Anthropic's IPO to Protect the Public**
+**1. Anthropic正在开发一个系统来证明人工智能模型的身份**
 
-Hacker News · 9 小时前 · ▲305 · [原文](<https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/>)
+Anthropic is working on a system to prove AI models’ identity · TechCrunch AI · 8 小时前 · [原文](<https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/>)
 
-**2. Anthropic reveals $900B AI spending commitments ahead of IPO**
+_这个名为FlashProve的系统可以让任何人检查AI响应是否真正来自它声称的模型。_
 
-Hacker News · 12 小时前 · ▲71 · [原文](<https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f>)
+**2. 谷歌将允许学校跳过人工智能工具，但他们也必须放弃搜索**
 
-**3. Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses**
+Google will let schools skip AI tools, but they have to give up search, too · Ars Technica AI · 13 小时前 · [原文](<https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/>)
 
-TechCrunch AI · 4 小时前 · [原文](<https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/>)
+_谷歌将为学校提供据称不会泄露答案的人工智能工具。_
 
-_Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages._
+**3. 谷歌将切断拒绝AI的学校学生的搜索访问权限- WRAL**
 
-**4. Apple Watch’s AI features for rewinding and recapping conversations begin beta testing**
+Google will cut off search access for students at schools that reject AI - WRAL · Google News · 5 小时前 · [原文](<https://news.google.com/rss/articles/CBMizAFBVV95cUxQT3JaTFNENDNRVDRWb2RQRDhMeGNaVzdKbWJ4alZfUHN5Z1drdklzYUEzZDdqYTY2NjdXT09Jb1QwSnF3WWdWcUVPZzJFeTRGZlc2bUFWdHVBQ2lpUDMyVDZTbHhGQVJjV0lNVFF5clRQRjFLSEFmdmdaTHdIZkRLN0U0cEt3b0FGa3NZMFVzVHUyU3A2SE5nYXItbmV1TDhQWllZQWxBWXNZQ2FhR0hYVnZTdnRyd0RUSzlDM2lZZlp1Qy1zN19oY2h6Xzk?oc=5>)
 
-TechCrunch AI · 刚刚 · [原文](<https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/>)
+_谷歌将切断拒绝AI WRAL的学校学生的搜索访问权限_
 
-_Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations._
+**4. 随着等待动力的增加，数据中心正在转向旧的喷气发动机**
 
-**5. Anthropic warns that it’s very close to RSI capability, aka self-building AI**
+Data centers are turning to old jet engines as the wait for power grows · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/>)
 
-TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/>)
-
-_RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return._
+_对接入电网和新涡轮机的长时间等待导致数据中心建设者转向一种不寻常、效率较低且不太环保的解决方案：一次性废弃的喷气发动机。_
 
 ## 🛠 工程与开源工具
 
-**1. Anthropic's growth just flattened**
+**1. Postman静默自动安装AI插件并尝试共享所有API数据**
 
-Hacker News · 9 小时前 · ▲200 · [原文](<https://www.regenerator1.com/p/anthropics-growth-just-flattened>)
+Postman silently auto-installs AI plugins and attempts to share all API data · Hacker News · 14 小时前 · ▲1183 · [原文](<https://github.com/postmanlabs/postman-app-support/issues/14370>)
 
-**2. Scaling Git at OpenAI**
+**2. 谷歌研究人员要求自由地告诉世界他们对人工智能的了解**
 
-Hacker News · 8 小时前 · ▲179 （亦见于 OpenAI） · [原文](<https://openai.com/index/scaling-git-at-openai/>)
+Google researchers demand freedom to tell the world what they know about AI · Hacker News · 13 小时前 · ▲88 · [原文](<https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/>)
 
-**3. Oracle files to sell $20B in new stock, bonds to finance AI buildout**
+**3. 美国科技巨头的隐性人工智能债务在6个月内膨胀90%至3.2万亿$**
 
-Hacker News · 12 小时前 · ▲183 · [原文](<https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html>)
+US tech giants' hidden AI debt swells 90% to $3.2T in 6 months · Hacker News · 10 小时前 · ▲327 · [原文](<https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months>)
 
-**4. Egoless Mathematics in the AI Era**
+**4. 生成AI基础的小书：直观的数学入门**
 
-Hacker News · 12 小时前 · ▲148 · [原文](<https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/>)
+The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer · Hacker News · 9 小时前 · ▲309 · [原文](<https://arxiv.org/abs/2605.29713>)
 
-**5. WorkOS reports security breach**
+**5. 人工智能繁荣可能正在播下另一场金融危机的种子**
 
-Hacker News · 8 小时前 · ▲68 · [原文](<https://news.ycombinator.com/item?id=50345712>)
-
-_It's not on their website or Trust center yet, but we received the following breach notification from WorkOS: We are writing to notify you of a data security incident that we detected on October 30, 2026 and are…_
-
-**6. LLMs are not superhuman at reading and writing neural network weights**
-
-Hacker News · 9 小时前 · ▲58 · [原文](<https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/>)
+The AI Boom May Be Sowing Seeds of Another Financial Crisis · Hacker News · 10 小时前 · ▲72 · [原文](<https://www.bloomberg.com/opinion/articles/2026-11-03/ai-investment-boom-demands-stronger-financial-oversight>)
 
 ## 💭 观点与深度
 
-**1. October sponsors-only newsletter**
+**1. 我如何使用人工智能（2026年10月）**
 
-Simon Willison · 2 小时前 · [原文](<https://simonwillison.net/2026/Nov/3/october-newsletter/>)
+How I use AI (Oct 2026) · Hacker News · 13 小时前 · ▲138 · [原文](<https://ben.stolovitz.com/posts/how-use-ai-oct-2026/>)
 
-_I sent out the October edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: The October inflection point for vibe game development The…_
+**2. 思科如何使用OpenAI以机器速度防御**
 
-**2. Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test**
+How Cisco defends at machine speed with OpenAI · OpenAI · 23 小时前 · [原文](<https://openai.com/index/cisco-cyber>)
 
-MIT Tech Review · 3 小时前 · [原文](<https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/>)
+_思科将网络智能与OpenAI模型相结合，以加强企业安全性。了解它如何构建更具适应性的防御。_
 
-_This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained…_
+**3. StateBench：测试语言模型如何跟踪长文档的状态变化**
 
-**3. Raising the quality of insights in agentic analytics**
+StateBench: Testing how language models track state changes over long documents · Hugging Face · 14 小时前 · [原文](<https://huggingface.co/blog/allenai/statebench>)
 
-MIT Tech Review · 14 小时前 · [原文](<https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/>)
+**4. 律师就拟议的人工智能道德意见提出建议-佛罗里达律师协会**
 
-_In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire…_
+Lawyers offer recommendations on proposed AI ethics opinion - The Florida Bar · Google News · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMirAFBVV95cUxOclNjeFJjd3dJVXZRa1VoUFZMU3VrMHpRTHVOX1ozcVV4akZwWjVScnA0a2RveVN0Rk1hUHhsX0lsZ1RrN1ZQUk5qNWt0aHR6N0o5SE1BNjJBOHo1ekJrWjBRQTZ1R05jZkd3SFJPWWU2bEV0R0pPdU9UdmNMT1RFX0dwVkRweUExdDNIRThnOGFRZUJpNkR0N1lrdDlRMnhfQW43VFBjSzZOYjdH?oc=5>)
 
-**4. Stop counting tokens, start counting what ships**
+_律师就拟议的人工智能道德意见提出建议佛罗里达律师协会_
 
-MIT Tech Review · 18 小时前 · [原文](<https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/>)
+**5. 10月份仅限赞助商的电子报**
 
-_When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens…_
+October sponsors-only newsletter · Simon Willison · 26 小时前 · [原文](<https://simonwillison.net/2026/Nov/3/october-newsletter/>)
+
+_我发送了仅限赞助商的月度通讯的10月版。如果您是保荐人（或现在开始保荐），您可以在此处访问。本月： VIBE游戏开发的十月转折点…_
