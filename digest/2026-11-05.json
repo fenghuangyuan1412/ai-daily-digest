@@ -1,0 +1,307 @@
+{
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T07:32:53.127Z",
+  "windowHours": 36,
+  "sourcesTotal": 13,
+  "sourcesOk": 13,
+  "sourcesFailed": [],
+  "itemCount": 22,
+  "translatedCount": 21,
+  "sections": [
+    {
+      "key": "model",
+      "label": "🚀 模型与产品发布",
+      "items": [
+        {
+          "title": "A thousand fewer paths to root",
+          "titleZh": "少一千条根路径",
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+          "summaryZh": "OpenAI构建了一个自主管道，为Linux内核中的948个本地权限提升漏洞发现、验证和生成补丁。",
+          "published": "2026-11-04T08:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+          "titleZh": "Daybreak Red现已在AWS GovCloud （美国东部）中提供",
+          "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+          "summaryZh": "Daybreak Red通过Amazon Bedrock将GPT-5.6 Cyber带给AWS GovCloud （美国东部）的批准客户，以进行授权的网络安全工作。",
+          "published": "2026-11-04T07:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Introducing Images 2.6",
+          "titleZh": "图片简介2.6",
+          "url": "https://openai.com/index/introducing-images-2-6",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+          "summaryZh": "Images 2.6可跨ChatGPT、Codex和API实现更快的图像生成、GIF创建、更精确的编辑和新的API控件。",
+          "published": "2026-11-04T00:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+          "titleZh": "Dharma Field Extractor：任何文档输入， JSON中的结构化字段输出",
+          "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+          "source": "Hugging Face",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-04T17:50:10.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "research",
+      "label": "🔬 研究前沿",
+      "items": [
+        {
+          "title": "Challenge-Aware Knowledge Recruitment with Meta-Agent Supervision for Medical Multi-Agent Reasoning",
+          "titleZh": "针对医学多Agent推理的元Agent监督的挑战感知知识招聘",
+          "url": "https://arxiv.org/abs/2611.05393",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Large language models perform strongly on standard medical QA but degrade on harder reasoning tasks, where multi-agent debate often fails to beat strong single-model prompting. We argue that a key limitation is that existing systems select experts and retrieve knowledge from the question alone, rather than from gaps that emerge during reasoning. We propose challenge-aware adaptive recruitment: an external CHALLENGER inspects the evolving reasoning trace and identifies specific factual or expertise gaps. These signals trigger targeted knowledge retrieval or mid-discussion specialist recruitment. On the MEDAGENTSBENCH hard subset (862 questions across nine biomedical datasets), upfront retrieval provides little benefit, while challenge-aware in-between retrieval performs better; on a multi-specialist backbone it improves accuracy on 8 of 9 datasets and adds 6 percentage points over Challenger Only. Ablations indicate benefits from both retrieval timing and gap-specific query signals, and a live web-search experiment shows that the timing advantage persists across retrieval backends. For specialist recruitment, self-triggered adaptation is unreliable, whereas Challenger-triggered recruitment raises GPT-4.1-mini MedQA accuracy from 46% to 54%, with positive direction on all tested generalization datasets. Naively combining retrieval and specialist recruitment degrades performance, highlighting the need to coordinate adaptive intervention channels. These results show that when and why external resources are recruited is a key design choice in multi-agent medical reasoning.",
+          "summaryZh": "大型语言模型在标准医疗QA上表现强劲，但在更难的推理任务上表现不佳，其中多智能体辩论通常无法击败强大的单模型提示。我们认为，一个关键的局限性是…",
+          "published": "2026-11-05T05:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Who May Overrule the Agent? Evidence-Gated Authority in LLM Review Institutions",
+          "titleZh": "谁可以推翻代理？法学硕士评审机构中的证据门限权威",
+          "url": "https://arxiv.org/abs/2611.05390",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Multi-agent language-model systems often add a reviewer to improve an upstream agent's decision. Yet a reviewer can both repair errors and replace decisions that were already correct. We study this as a problem of institutional jurisdiction: conditional on the same proposal, task information, model, and review output, when is the reviewer authorized to make its recommendation binding? We compare broad override authority with an evidence gate that permits replacement only after the reviewer produces a mechanically valid record of a binding-constraint violation and a compliant repair. Across two locally run open-weight models, 96 spatial-policy tasks, and a 96-task portfolio-transfer benchmark, the gate sharply reduces corruption of correct proposals while retaining most repairs of violations. The directions of this tradeoff are partly implied by the rule; its magnitude depends on reviewer transitions and upstream proposal states. A prospective validation then gives the reviewer an explicit choice to retain, replace, or escalate. This eliminates correct-proposal corruption for Qwen, but Mistral still replaces all 48 correct proposals; Qwen also declines every welfare-only repair that Mistral frequently attempts. Thus interface design changes reviewer behavior but is not a model-independent safeguard. The result is not that restricted review is universally better. It is that reviewer competence, action interface, and binding jurisdiction jointly determine both the correction domain and the corruption surface.",
+          "summaryZh": "多代理语言模型系统通常会添加审核者，以改进上游代理的决策。然而，审阅者既可以修复错误，也可以替换已经正确的决策。我们将此作为一个问题进行研究，…",
+          "published": "2026-11-05T05:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Agent Harness Awareness: Turning Verified Telemetry into Operational Control for Tool-Using Agents",
+          "titleZh": "座席线束感知：将经过验证的遥测转化为工具使用座席的运营控制",
+          "url": "https://arxiv.org/abs/2611.05391",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Tool descriptions tell an agent what an action can do, but they do not necessarily reveal whether that action is healthy or suitable at the moment of use. Execution harnesses often possess this information through monitors, traces, and recent failures while the model choosing the next action does not. We call this gap operational blindness. We introduce Agent Harness Awareness, a trust-separated design in which the host supplies a small, fresh, verified state snapshot before a consequential action while retaining measurement, enforcement, evaluation, and final dispatch authority. We test its tools-and-network instance with ToolRoute, a controlled isolation benchmark that holds the task and candidate semantics constant and varies the operational information available to the model. In a 216-decision ablation across GPT-5.6 Sol, Claude Sonnet 5, and Gemini 3.7 Flash, verified tool-health state reduced mean observable policy regret by 96.9% against a same-shape neutral control (4,252 ms to 131 ms) and raised single-dispatch completion from 69.4% to 95.8%. In a separate 27-decision end-to-end replication with live local TCP/HTTP execution, OpenTelemetry client spans, and Toxiproxy-injected faults, verified state reduced mean regret from 8,956 ms to 0 ms (zero excess observable operational cost) and completed the live action in 9/9 model-by-fault cases versus 5/9 for the neutral control. These studies establish the tools-and-network instance of Agent Harness Awareness: selected host telemetry materially improves pre-dispatch operational choice. Runtime state, hardware pressure, economics, retry-aware recovery, and heterogeneous selection remain open empirical extensions of the same architecture.",
+          "summaryZh": "工具描述告诉客服代表一个动作可以做什么，但它们不一定能揭示该动作在使用时是健康还是合适。执行线束通常通过以下方式掌握这些信息：…",
+          "published": "2026-11-05T05:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Uncertainty-Aware Resource Orchestration for Agentic AI Systems",
+          "titleZh": "Agentic AI系统的不确定性感知资源编排",
+          "url": "https://arxiv.org/abs/2611.05392",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Agentic artificial intelligence (AI) systems powered by large language models (LLMs) execute as autonomous multi-step pipelines that dynamically invoke tools, integrate observations into memory, and iterate until a task is resolved or a resource budget is exhausted. Unlike classical workflows with fixed graphs, the aggregate compute, bandwidth, and end-to-end latency demands of such pipelines are unknown at dispatch time: they emerge at runtime from intermediate observations and stochastic token sampling, yielding heavy-tailed, multi-modal random variables. This unpredictability forces infrastructure orchestrators into a dilemma: under-provisioning risks mid-execution throttling and deadline violations, while over-provisioning wastes scarce edge or cloud capacity. Existing schedulers require a fully known pipeline graph, while edge resource-management methods rely on parametric or stationary demand models, and neither fits the unknown, non-stationary profiles of agentic pipelines. We formalize this setting as the uncertainty-aware agentic orchestration problem, where the goal is to reserve, at dispatch time, compute and bandwidth allocations that cover actual pipeline demands, and to verify that the pipeline can meet its deadline, each with a prescribed probability. We then propose Conformal Reservation for Orchestration (CRO), an online algorithm that translates a sliding window of past execution traces into dispatch-time resource allocations with finite-sample, distribution-free coverage guarantees via conformal prediction. Simulations over heterogeneous task mixes with multi-modal and heavy-tailed profiles show that CRO is the only evaluated method that simultaneously satisfies target probabilistic coverage across all risk levels while, among coverage-feasible methods, attaining the lowest over-reservation, roughly halving the resource waste of the Chebyshev-bound baseline.",
+          "summaryZh": "由大型语言模型(LLM)支持的代理人工智能(AI)系统作为自主多步骤管道执行，动态调用工具，将观察集成到内存中，并迭代到任务…",
+          "published": "2026-11-05T05:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "label": "🏢 公司与行业动向",
+      "items": [
+        {
+          "title": "Launch HN: Kino AI (YC S23) - AI media manager and video editor",
+          "titleZh": "启动HN： Kino AI (YC S23)-AI媒体管理器和视频编辑器",
+          "url": "https://news.ycombinator.com/item?id=50368804",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "Hi HN! I'm Luke from Kino ( https://kino.ai ). Kino lets you make great videos with your agents and your teammates. Storage of footage and assets, a rich video editor, and review links for teammates are all bundled into one. Your colleagues and Codex / Claude Code can work on the same timeline with review notes and footage all in one place. See a basic overview at https://kino.ai/walkthrough-video and our launch video (made entirely with Kino!) at https://kino.ai/launch-video Opus 5.5 can edit videos and make great motion graphics now. But with a raw agent harness, you need to describe tiny edits either in words or in quick one-off UIs, you can’t refer to footage shared across your devices, and feedback from teammates comes as screenshots on Slack. Kino is code-first. All editing, all motion graphics, all dragging of timeline items around, all teammate comments, and all 3D scenes are expressed as code, built on Remotion. This was hard to get right, as we found ourselves building a what-you-see-is-what-you-get editor for React, which we then turned into a video editor. For our launch video I told Claude-with-Kino to find a macOS Leopard install disk and reskin our whole video to match. Kino is also fully collaborative and real-time, so you can see your teammates' cursors and exactly which part of the timeline they’re currently watching. For our launch video I had 5+ agents editing the timeline concurrently while my friend Donald had his swarm working a few minutes further down. Donald had one agent rotoscoping to make our visual effects work, I had an LLM color grading all media via our LUT support, and we both made tiny tweaks to the timeline along the way. To make this code-first editor work with video footage, everything gets transcribed, embedded, described, and face-detected. You can scrub your footage locally after you drag it in, but we upload a low-res proxy so your teammates and cloud inference can see it. This local scrubbing plus custom pro media decoders means you can drag a 250GB ProRes clip from your new iPhone right into your Kino timeline. We built custom decoders for professional codecs such as ProRes, BRAW, R3D, and more (see my extremely successful nine point HN post https://news.ycombinator.com/item?id=50198052 ). None of the performance we’re getting would have been possible before WebCodecs and libraries like Mediabunny. I grew up making YouTube videos, and during my undergrad at MIT I co-directed a 3.5 hour archival footage documentary on the history of my school and technological development in America ( https://regressions.net ). Much of the work was logging footage, managing hard drives, manually syncing Premiere project state, and planning our movie in a spreadsheet. Our first launch in 2023 proclaimed that Kino was \"Silicon Valley meets Hollywood.\" It was more like Palantir for Hollywood; we ran bespoke on-prem Kino deployments with our team of forward deployed engineers on shows like Survivor and A24's Beef. It was a rush, but it felt like the slowest way to improve video editing for the whole world. Bound by the Avid Media Composer and strict studio security rules, we couldn't touch frontier models, and we couldn't make editors >10x faster. So in 2025, we rebuilt Kino as a true editor, and we took a bet on coding-as-editing. Everything in Kino has a URL: projects, clips, footage, comments and replies, even a single frame and the line of code that draws it. Projects and media living in one place and everything being addressable means that your agents and team have a single, editable source of truth for video production. At a lower level, I now paste Kino links into my agent constantly, whether it’s making sure Codex knows exactly which timeline item (among thousands) I am referring to or which teammate’s comment needs fixing. We have teams managing their whole company’s media in Kino, spinning up agents to make new videos every day, then using review links to flag issues. One founder ships ads like this: each day he uses Kino's YouTube support to find b-roll he is allowed to use, he edits something, his co-founder leaves notes such as “we need to use this clip instead” and his agent can then apply them. Full-time filmmakers are also using Kino. They tend to resemble “toxenmaxxer” software developers, where 15+ agents iterate on a single project, each trusting Kino as the source of truth for timeline state, graphics, media, everything. The full editor is free, including unlimited imports and exports, real-time collaboration and MCP access for your own agent. Pro is $25 per editor per month and adds unlimited MCP tool calls, share links, more storage, YouTube search, and the ability to edit alongside your team. You can download it at https://kino.ai . We have not yet released Kino for the pure web browser, just Electron for now. If you make videos personally, if you have ProRes media and you want to try to break Kino, if you have legacy video editor projects to bring in, or if you want to make more content for your company, we'd love to hear how Kino works for you.",
+          "summaryZh": "HN，您好！我是来自Kino的Luke （https://kino.ai）。通过Kino，您可以与代理和队友一起制作精彩的视频。素材和资产的存储、丰富的视频编辑器以及团队成员的评论链接都捆绑在…",
+          "published": "2026-11-04T17:31:53.000Z",
+          "points": 86,
+          "discussion": "https://news.ycombinator.com/item?id=50368804"
+        },
+        {
+          "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+          "titleZh": "OpenAI收购Pierre Computer Company, Inc.",
+          "url": "https://openai.com/index/openai-to-acquire-pierre",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+          "summaryZh": "OpenAI将收购Pierre Computer Company，扩展Codex用于构建、理解和审查代码的工具。",
+          "published": "2026-11-04T14:30:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "OpenAI is already trying to shape the 2028 election",
+          "titleZh": "OpenAI已经在努力塑造2028年的选举",
+          "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.",
+          "summaryZh": "OpenAI的Chris Lehane希望人工智能能够定义2028年的选举，提出一项新的社会契约，既能让美国人受益，同时也能促进这家人工智能巨头自身的商业利益。",
+          "published": "2026-11-04T21:25:44.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Apple is reportedly cutting budgets for its internal AI usage",
+          "titleZh": "据报道，苹果正在削减其内部人工智能使用的预算",
+          "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams.",
+          "summaryZh": "据说该公司正在大幅削减其工程团队在人工智能方面的支出。",
+          "published": "2026-11-05T01:26:22.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "After the midterms, a bigger clash over data centers could be coming",
+          "titleZh": "中期选举之后，数据中心可能会发生更大的冲突",
+          "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Data center opposition crossed party lines in Tuesday’s midterms.",
+          "summaryZh": "数据中心反对派在周二的中期选举中越过了党派界限。",
+          "published": "2026-11-05T01:02:14.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "eng",
+      "label": "🛠 工程与开源工具",
+      "items": [
+        {
+          "title": "Everything is an AI scam now",
+          "titleZh": "现在一切都是人工智能骗局",
+          "url": "https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-04T21:05:19.000Z",
+          "points": 135,
+          "discussion": "https://news.ycombinator.com/item?id=50371508"
+        },
+        {
+          "title": "Qualcomm Cloud AI 100 Ultra - 150W AI Accelerator Card with 128GB at 548GB/s",
+          "titleZh": "Qualcomm Cloud AI 100 Ultra-150W AI加速器卡， 128GB， 548GB/s",
+          "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-04T19:55:14.000Z",
+          "points": 136,
+          "discussion": "https://news.ycombinator.com/item?id=50370654"
+        },
+        {
+          "title": "Progress on provable inference for large language models",
+          "titleZh": "大型语言模型的可证明推理进展",
+          "url": "https://www.anthropic.com/research/provable-inference",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-04T17:17:46.000Z",
+          "points": 207,
+          "discussion": "https://news.ycombinator.com/item?id=50368626"
+        },
+        {
+          "title": "You'll need nerves of steel to work with AI agents",
+          "titleZh": "你需要钢铁般的神经来与人工智能特工合作",
+          "url": "https://orchidfiles.com/youll-need-nerves-of-steel-to-work-with-ai-agents/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-05T00:01:30.000Z",
+          "points": 47,
+          "discussion": "https://news.ycombinator.com/item?id=50373149"
+        },
+        {
+          "title": "Show HN: I built a tool that prices a pre-built PC part by part",
+          "titleZh": "Show HN：我构建了一个工具，按部件对预建的PC部件进行定价",
+          "url": "https://pcdealcheck.com/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "I've missed out on an awesome computer that I could use for a project because figuring out value took too long. Users paste a listing and receive a value grade, dated component estimates and a shareable report. AI reads the listing but my custom built price engine determines the grade (updated every day). Self financed and working now. Looking for feedback re: scoring, interface, and if its helpful. https://www.youtube.com/watch?v=Tpft--x3WlI",
+          "summaryZh": "我错过了一台可以用于项目的超棒电脑，因为计算价值花费了太长时间。用户粘贴房源，并收到价值等级、注明日期的组件估算和可分享的报告。AI读取…",
+          "published": "2026-11-04T15:25:33.000Z",
+          "points": 100,
+          "discussion": "https://news.ycombinator.com/item?id=50366929"
+        }
+      ]
+    },
+    {
+      "key": "ideas",
+      "label": "💭 观点与深度",
+      "items": [
+        {
+          "title": "AI PACs spent millions trying to shape Congress - here’s how they fared",
+          "titleZh": "AI PAC花费数百万美元试图塑造国会-以下是他们的表现",
+          "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.",
+          "summaryZh": "人工智能行业PAC花费数百万美元影响了2026年中期选举，结果喜忧参半。政治团体已经在期待下一个选举周期。",
+          "published": "2026-11-04T22:45:09.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "中国信通院：26个大模型迎合率平均9.4% 最高达25.5% - 观点网",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Od1RDUEpKSTJPbkNoMUR0OHpZbDNuMlpBVXdjZi1OOHByOURiTjhBYzQ3dGdnUTJXc1o4MVRRN0tmMGdPRWFHb21INGtONWVrcWhQQXJ3Tnl2T04tWW1yTXlR?oc=5",
+          "source": "Google 新闻中文",
+          "alsoOn": [],
+          "summary": "中国信通院：26个大模型迎合率平均9.4% 最高达25.5% 观点网",
+          "summaryZh": "",
+          "published": "2026-11-05T06:37:23.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+          "titleZh": "德克萨斯州是人工智能数据中心建设的新中心。那可能是失败了。",
+          "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+          "source": "MIT Tech Review",
+          "alsoOn": [],
+          "summary": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for governor against the Republican incumbent,…",
+          "summaryZh": "德克萨斯州是美国增长最快的数据中心市场，也是大型科技公司最大的人工智能建设的起点。但横扫孤星状态的蓝色波浪可能会危及那个位置。民主党人詹姆斯·塔拉里科获胜…",
+          "published": "2026-11-04T18:50:55.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Securing the agentic enterprise with data lineage",
+          "titleZh": "通过数据沿袭确保代理企业的安全",
+          "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+          "source": "MIT Tech Review",
+          "alsoOn": [],
+          "summary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No human checks either handoff. When it’s…",
+          "summaryZh": "一位销售代表向人工智能代理询问客户定价，代理从多个来源提取数据：受限定价系统、内部沟通和已存档的报价。输出看起来很准确，…",
+          "published": "2026-11-04T13:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    }
+  ],
+  "markdown": "# 📰 AI 日报 · 2026-11-05\n\n> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 21 条已译\n\n## 🚀 模型与产品发布\n\n**1. 少一千条根路径**\n\nA thousand fewer paths to root · OpenAI · 24 小时前 · [原文](<https://openai.com/index/a-thousand-fewer-paths-to-root>)\n\n_OpenAI构建了一个自主管道，为Linux内核中的948个本地权限提升漏洞发现、验证和生成补丁。_\n\n**2. Daybreak Red现已在AWS GovCloud （美国东部）中提供**\n\nDaybreak Red is now available in AWS GovCloud (US-East) · OpenAI · 25 小时前 · [原文](<https://openai.com/index/daybreak-red-aws-govcloud>)\n\n_Daybreak Red通过Amazon Bedrock将GPT-5.6 Cyber带给AWS GovCloud （美国东部）的批准客户，以进行授权的网络安全工作。_\n\n**3. 图片简介2.6**\n\nIntroducing Images 2.6 · OpenAI · 32 小时前 · [原文](<https://openai.com/index/introducing-images-2-6>)\n\n_Images 2.6可跨ChatGPT、Codex和API实现更快的图像生成、GIF创建、更精确的编辑和新的API控件。_\n\n**4. Dharma Field Extractor：任何文档输入， JSON中的结构化字段输出**\n\nDharma Field Extractor: Any Document In, Structured Fields in JSON Out · Hugging Face · 14 小时前 · [原文](<https://huggingface.co/blog/Dharma-AI/dharma-field-extractor>)\n\n## 🔬 研究前沿\n\n**1. 针对医学多Agent推理的元Agent监督的挑战感知知识招聘**\n\nChallenge-Aware Knowledge Recruitment with Meta-Agent Supervision for Medical Multi-Agent Reasoning · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.05393>)\n\n_大型语言模型在标准医疗QA上表现强劲，但在更难的推理任务上表现不佳，其中多智能体辩论通常无法击败强大的单模型提示。我们认为，一个关键的局限性是…_\n\n**2. 谁可以推翻代理？法学硕士评审机构中的证据门限权威**\n\nWho May Overrule the Agent? Evidence-Gated Authority in LLM Review Institutions · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.05390>)\n\n_多代理语言模型系统通常会添加审核者，以改进上游代理的决策。然而，审阅者既可以修复错误，也可以替换已经正确的决策。我们将此作为一个问题进行研究，…_\n\n**3. 座席线束感知：将经过验证的遥测转化为工具使用座席的运营控制**\n\nAgent Harness Awareness: Turning Verified Telemetry into Operational Control for Tool-Using Agents · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.05391>)\n\n_工具描述告诉客服代表一个动作可以做什么，但它们不一定能揭示该动作在使用时是健康还是合适。执行线束通常通过以下方式掌握这些信息：…_\n\n**4. Agentic AI系统的不确定性感知资源编排**\n\nUncertainty-Aware Resource Orchestration for Agentic AI Systems · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.05392>)\n\n_由大型语言模型(LLM)支持的代理人工智能(AI)系统作为自主多步骤管道执行，动态调用工具，将观察集成到内存中，并迭代到任务…_\n\n## 🏢 公司与行业动向\n\n**1. 启动HN： Kino AI (YC S23)-AI媒体管理器和视频编辑器**\n\nLaunch HN: Kino AI (YC S23) - AI media manager and video editor · Hacker News · 14 小时前 · ▲86 · [原文](<https://news.ycombinator.com/item?id=50368804>)\n\n_HN，您好！我是来自Kino的Luke （https://kino.ai）。通过Kino，您可以与代理和队友一起制作精彩的视频。素材和资产的存储、丰富的视频编辑器以及团队成员的评论链接都捆绑在…_\n\n**2. OpenAI收购Pierre Computer Company, Inc.**\n\nOpenAI to acquire Pierre Computer Company, Inc. · OpenAI · 17 小时前 · [原文](<https://openai.com/index/openai-to-acquire-pierre>)\n\n_OpenAI将收购Pierre Computer Company，扩展Codex用于构建、理解和审查代码的工具。_\n\n**3. OpenAI已经在努力塑造2028年的选举**\n\nOpenAI is already trying to shape the 2028 election · TechCrunch AI · 10 小时前 · [原文](<https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/>)\n\n_OpenAI的Chris Lehane希望人工智能能够定义2028年的选举，提出一项新的社会契约，既能让美国人受益，同时也能促进这家人工智能巨头自身的商业利益。_\n\n**4. 据报道，苹果正在削减其内部人工智能使用的预算**\n\nApple is reportedly cutting budgets for its internal AI usage · TechCrunch AI · 6 小时前 · [原文](<https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/>)\n\n_据说该公司正在大幅削减其工程团队在人工智能方面的支出。_\n\n**5. 中期选举之后，数据中心可能会发生更大的冲突**\n\nAfter the midterms, a bigger clash over data centers could be coming · TechCrunch AI · 7 小时前 · [原文](<https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/>)\n\n_数据中心反对派在周二的中期选举中越过了党派界限。_\n\n## 🛠 工程与开源工具\n\n**1. 现在一切都是人工智能骗局**\n\nEverything is an AI scam now · Hacker News · 10 小时前 · ▲135 · [原文](<https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/>)\n\n**2. Qualcomm Cloud AI 100 Ultra-150W AI加速器卡， 128GB， 548GB/s**\n\nQualcomm Cloud AI 100 Ultra - 150W AI Accelerator Card with 128GB at 548GB/s · Hacker News · 12 小时前 · ▲136 · [原文](<https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra>)\n\n**3. 大型语言模型的可证明推理进展**\n\nProgress on provable inference for large language models · Hacker News · 14 小时前 · ▲207 · [原文](<https://www.anthropic.com/research/provable-inference>)\n\n**4. 你需要钢铁般的神经来与人工智能特工合作**\n\nYou'll need nerves of steel to work with AI agents · Hacker News · 8 小时前 · ▲47 · [原文](<https://orchidfiles.com/youll-need-nerves-of-steel-to-work-with-ai-agents/>)\n\n**5. Show HN：我构建了一个工具，按部件对预建的PC部件进行定价**\n\nShow HN: I built a tool that prices a pre-built PC part by part · Hacker News · 16 小时前 · ▲100 · [原文](<https://pcdealcheck.com/>)\n\n_我错过了一台可以用于项目的超棒电脑，因为计算价值花费了太长时间。用户粘贴房源，并收到价值等级、注明日期的组件估算和可分享的报告。AI读取…_\n\n## 💭 观点与深度\n\n**1. AI PAC花费数百万美元试图塑造国会-以下是他们的表现**\n\nAI PACs spent millions trying to shape Congress - here’s how they fared · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/>)\n\n_人工智能行业PAC花费数百万美元影响了2026年中期选举，结果喜忧参半。政治团体已经在期待下一个选举周期。_\n\n**2. 中国信通院：26个大模型迎合率平均9.4% 最高达25.5% - 观点网**\n\nGoogle 新闻中文 · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Od1RDUEpKSTJPbkNoMUR0OHpZbDNuMlpBVXdjZi1OOHByOURiTjhBYzQ3dGdnUTJXc1o4MVRRN0tmMGdPRWFHb21INGtONWVrcWhQQXJ3Tnl2T04tWW1yTXlR?oc=5>)\n\n_中国信通院：26个大模型迎合率平均9.4% 最高达25.5% 观点网_\n\n**3. 德克萨斯州是人工智能数据中心建设的新中心。那可能是失败了。**\n\nTexas was the new epicenter of the AI data center buildout. That might be kaput. · MIT Tech Review · 13 小时前 · [原文](<https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/>)\n\n_德克萨斯州是美国增长最快的数据中心市场，也是大型科技公司最大的人工智能建设的起点。但横扫孤星状态的蓝色波浪可能会危及那个位置。民主党人詹姆斯·塔拉里科获胜…_\n\n**4. 通过数据沿袭确保代理企业的安全**\n\nSecuring the agentic enterprise with data lineage · MIT Tech Review · 19 小时前 · [原文](<https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/>)\n\n_一位销售代表向人工智能代理询问客户定价，代理从多个来源提取数据：受限定价系统、内部沟通和已存档的报价。输出看起来很准确，…_\n"
+}

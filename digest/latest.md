@@ -1,129 +1,135 @@
-# 📰 AI 日报 · 2026-11-04
+# 📰 AI 日报 · 2026-11-05
 
 > 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 21 条已译
 
 ## 🚀 模型与产品发布
 
-**1. 我的笔记本电脑上的Qwen 3.8 27B也可以解释模型权重**
+**1. 少一千条根路径**
 
-Qwen 3.8 27B on my laptop can interpret model weights, too · Hacker News · 13 小时前 · ▲573 （亦见于 Simon Willison） · [原文](<https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/>)
+A thousand fewer paths to root · OpenAI · 24 小时前 · [原文](<https://openai.com/index/a-thousand-fewer-paths-to-root>)
 
-**2. Google Antigravity代理化学信息学**
+_OpenAI构建了一个自主管道，为Linux内核中的948个本地权限提升漏洞发现、验证和生成补丁。_
 
-Agentic cheminformatics with Google Antigravity · Google DeepMind · 14 小时前 · [原文](<https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/>)
+**2. Daybreak Red现已在AWS GovCloud （美国东部）中提供**
 
-_了解Google Antigravity和我们的Cheminformatics Skills如何加速药物发现工作流程、搜索化合物并提出新的刚性大循环。_
+Daybreak Red is now available in AWS GovCloud (US-East) · OpenAI · 25 小时前 · [原文](<https://openai.com/index/daybreak-red-aws-govcloud>)
 
-**3. 加速物理世界的工程设计**
+_Daybreak Red通过Amazon Bedrock将GPT-5.6 Cyber带给AWS GovCloud （美国东部）的批准客户，以进行授权的网络安全工作。_
 
-Accelerating engineering for the physical world · OpenAI · 19 小时前 · [原文](<https://openai.com/index/accelerating-engineering-for-the-physical-world>)
+**3. 图片简介2.6**
 
-_了解ChatGPT和Codex如何帮助工程师在物理世界中加速CAD、PCB设计、仿真和其他工作流程。_
+Introducing Images 2.6 · OpenAI · 32 小时前 · [原文](<https://openai.com/index/introducing-images-2-6>)
 
-**4. OpenAI任命Jill Hazelbaker为首席企业事务官**
+_Images 2.6可跨ChatGPT、Codex和API实现更快的图像生成、GIF创建、更精确的编辑和新的API控件。_
 
-OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer · OpenAI · 31 小时前 · [原文](<https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer>)
+**4. Dharma Field Extractor：任何文档输入， JSON中的结构化字段输出**
 
-_Jill Hazelbaker将加入OpenAI担任首席企业事务官，领导公司的全球传播和企业定位。_
+Dharma Field Extractor: Any Document In, Structured Fields in JSON Out · Hugging Face · 14 小时前 · [原文](<https://huggingface.co/blog/Dharma-AI/dharma-field-extractor>)
 
 ## 🔬 研究前沿
 
-**1. 中国工业互联网研究院开启新一轮生成式人工智能备案咨询服务 - 中国工业互联网研究院**
+**1. 针对医学多Agent推理的元Agent监督的挑战感知知识招聘**
 
-Google 新闻中文 · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMiV0FVX3lxTE12bjlHYm5aNExTZ0ZJanl2cHV5a0ZWekdIT3FyZUxDVk9tTTg0S1RUck8wZmZvLTIzYXBMbnBoUWVvZnF1WWE3RVhBYTdpWnpXdWlZdnJjNA?oc=5>)
+Challenge-Aware Knowledge Recruitment with Meta-Agent Supervision for Medical Multi-Agent Reasoning · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.05393>)
 
-_中国工业互联网研究院开启新一轮生成式人工智能备案咨询服务 中国工业互联网研究院_
+_大型语言模型在标准医疗QA上表现强劲，但在更难的推理任务上表现不佳，其中多智能体辩论通常无法击败强大的单模型提示。我们认为，一个关键的局限性是…_
 
-**2. 校准伪造取决于值，而不仅仅是模型**
+**2. 谁可以推翻代理？法学硕士评审机构中的证据门限权威**
 
-Alignment Faking Depends on the Value, Not Just the Model · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.03650>)
+Who May Overrule the Agent? Evidence-Gated Authority in LLM Review Institutions · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.05390>)
 
-_当语言模型认为自己受到监控时，可以遵循指令，当他们认为自己没有受到监控时，可以放弃它，这种模式称为对齐伪造。先前的工作为有害内容目标确立了这一点…_
+_多代理语言模型系统通常会添加审核者，以改进上游代理的决策。然而，审阅者既可以修复错误，也可以替换已经正确的决策。我们将此作为一个问题进行研究，…_
 
-**3. CARD：相对测量图的携带证明书到行动接口**
+**3. 座席线束感知：将经过验证的遥测转化为工具使用座席的运营控制**
 
-CARD: A Proof-Carrying Certificate-to-Action Interface for Relative-Measurement Graphs · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.03651>)
+Agent Harness Awareness: Turning Verified Telemetry into Operational Control for Tool-Using Agents · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.05391>)
 
-_几何证书对指定的估计器对象进行数学声明，而机器人操作需要物理变换、服务决策和及时的证明支持。我们出示卡片，证明携带…_
+_工具描述告诉客服代表一个动作可以做什么，但它们不一定能揭示该动作在使用时是健康还是合适。执行线束通常通过以下方式掌握这些信息：…_
 
-**4. MCPGuard：通过双轨分析和动态裁定发现MCP SDK中的一致性差距**
+**4. Agentic AI系统的不确定性感知资源编排**
 
-MCPGuard: Finding Conformance Gaps in MCP SDKs via Dual-Track Analysis and Dynamic Adjudication · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.03662>)
+Uncertainty-Aware Resource Orchestration for Agentic AI Systems · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.05392>)
 
-_模型上下文协议(MCP)通过实现消息验证和会话逻辑的官方SDK将大型语言模型代理连接到外部工具和服务。这些省略的规格约束…_
+_由大型语言模型(LLM)支持的代理人工智能(AI)系统作为自主多步骤管道执行，动态调用工具，将观察集成到内存中，并迭代到任务…_
 
 ## 🏢 公司与行业动向
 
-**1. Anthropic正在开发一个系统来证明人工智能模型的身份**
+**1. 启动HN： Kino AI (YC S23)-AI媒体管理器和视频编辑器**
 
-Anthropic is working on a system to prove AI models’ identity · TechCrunch AI · 8 小时前 · [原文](<https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/>)
+Launch HN: Kino AI (YC S23) - AI media manager and video editor · Hacker News · 14 小时前 · ▲86 · [原文](<https://news.ycombinator.com/item?id=50368804>)
 
-_这个名为FlashProve的系统可以让任何人检查AI响应是否真正来自它声称的模型。_
+_HN，您好！我是来自Kino的Luke （https://kino.ai）。通过Kino，您可以与代理和队友一起制作精彩的视频。素材和资产的存储、丰富的视频编辑器以及团队成员的评论链接都捆绑在…_
 
-**2. 谷歌将允许学校跳过人工智能工具，但他们也必须放弃搜索**
+**2. OpenAI收购Pierre Computer Company, Inc.**
 
-Google will let schools skip AI tools, but they have to give up search, too · Ars Technica AI · 13 小时前 · [原文](<https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/>)
+OpenAI to acquire Pierre Computer Company, Inc. · OpenAI · 17 小时前 · [原文](<https://openai.com/index/openai-to-acquire-pierre>)
 
-_谷歌将为学校提供据称不会泄露答案的人工智能工具。_
+_OpenAI将收购Pierre Computer Company，扩展Codex用于构建、理解和审查代码的工具。_
 
-**3. 谷歌将切断拒绝AI的学校学生的搜索访问权限- WRAL**
+**3. OpenAI已经在努力塑造2028年的选举**
 
-Google will cut off search access for students at schools that reject AI - WRAL · Google News · 5 小时前 · [原文](<https://news.google.com/rss/articles/CBMizAFBVV95cUxQT3JaTFNENDNRVDRWb2RQRDhMeGNaVzdKbWJ4alZfUHN5Z1drdklzYUEzZDdqYTY2NjdXT09Jb1QwSnF3WWdWcUVPZzJFeTRGZlc2bUFWdHVBQ2lpUDMyVDZTbHhGQVJjV0lNVFF5clRQRjFLSEFmdmdaTHdIZkRLN0U0cEt3b0FGa3NZMFVzVHUyU3A2SE5nYXItbmV1TDhQWllZQWxBWXNZQ2FhR0hYVnZTdnRyd0RUSzlDM2lZZlp1Qy1zN19oY2h6Xzk?oc=5>)
+OpenAI is already trying to shape the 2028 election · TechCrunch AI · 10 小时前 · [原文](<https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/>)
 
-_谷歌将切断拒绝AI WRAL的学校学生的搜索访问权限_
+_OpenAI的Chris Lehane希望人工智能能够定义2028年的选举，提出一项新的社会契约，既能让美国人受益，同时也能促进这家人工智能巨头自身的商业利益。_
 
-**4. 随着等待动力的增加，数据中心正在转向旧的喷气发动机**
+**4. 据报道，苹果正在削减其内部人工智能使用的预算**
 
-Data centers are turning to old jet engines as the wait for power grows · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/>)
+Apple is reportedly cutting budgets for its internal AI usage · TechCrunch AI · 6 小时前 · [原文](<https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/>)
 
-_对接入电网和新涡轮机的长时间等待导致数据中心建设者转向一种不寻常、效率较低且不太环保的解决方案：一次性废弃的喷气发动机。_
+_据说该公司正在大幅削减其工程团队在人工智能方面的支出。_
+
+**5. 中期选举之后，数据中心可能会发生更大的冲突**
+
+After the midterms, a bigger clash over data centers could be coming · TechCrunch AI · 7 小时前 · [原文](<https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/>)
+
+_数据中心反对派在周二的中期选举中越过了党派界限。_
 
 ## 🛠 工程与开源工具
 
-**1. Postman静默自动安装AI插件并尝试共享所有API数据**
+**1. 现在一切都是人工智能骗局**
 
-Postman silently auto-installs AI plugins and attempts to share all API data · Hacker News · 14 小时前 · ▲1183 · [原文](<https://github.com/postmanlabs/postman-app-support/issues/14370>)
+Everything is an AI scam now · Hacker News · 10 小时前 · ▲135 · [原文](<https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/>)
 
-**2. 谷歌研究人员要求自由地告诉世界他们对人工智能的了解**
+**2. Qualcomm Cloud AI 100 Ultra-150W AI加速器卡， 128GB， 548GB/s**
 
-Google researchers demand freedom to tell the world what they know about AI · Hacker News · 13 小时前 · ▲88 · [原文](<https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/>)
+Qualcomm Cloud AI 100 Ultra - 150W AI Accelerator Card with 128GB at 548GB/s · Hacker News · 12 小时前 · ▲136 · [原文](<https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra>)
 
-**3. 美国科技巨头的隐性人工智能债务在6个月内膨胀90%至3.2万亿$**
+**3. 大型语言模型的可证明推理进展**
 
-US tech giants' hidden AI debt swells 90% to $3.2T in 6 months · Hacker News · 10 小时前 · ▲327 · [原文](<https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months>)
+Progress on provable inference for large language models · Hacker News · 14 小时前 · ▲207 · [原文](<https://www.anthropic.com/research/provable-inference>)
 
-**4. 生成AI基础的小书：直观的数学入门**
+**4. 你需要钢铁般的神经来与人工智能特工合作**
 
-The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer · Hacker News · 9 小时前 · ▲309 · [原文](<https://arxiv.org/abs/2605.29713>)
+You'll need nerves of steel to work with AI agents · Hacker News · 8 小时前 · ▲47 · [原文](<https://orchidfiles.com/youll-need-nerves-of-steel-to-work-with-ai-agents/>)
 
-**5. 人工智能繁荣可能正在播下另一场金融危机的种子**
+**5. Show HN：我构建了一个工具，按部件对预建的PC部件进行定价**
 
-The AI Boom May Be Sowing Seeds of Another Financial Crisis · Hacker News · 10 小时前 · ▲72 · [原文](<https://www.bloomberg.com/opinion/articles/2026-11-03/ai-investment-boom-demands-stronger-financial-oversight>)
+Show HN: I built a tool that prices a pre-built PC part by part · Hacker News · 16 小时前 · ▲100 · [原文](<https://pcdealcheck.com/>)
+
+_我错过了一台可以用于项目的超棒电脑，因为计算价值花费了太长时间。用户粘贴房源，并收到价值等级、注明日期的组件估算和可分享的报告。AI读取…_
 
 ## 💭 观点与深度
 
-**1. 我如何使用人工智能（2026年10月）**
+**1. AI PAC花费数百万美元试图塑造国会-以下是他们的表现**
 
-How I use AI (Oct 2026) · Hacker News · 13 小时前 · ▲138 · [原文](<https://ben.stolovitz.com/posts/how-use-ai-oct-2026/>)
+AI PACs spent millions trying to shape Congress - here’s how they fared · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/>)
 
-**2. 思科如何使用OpenAI以机器速度防御**
+_人工智能行业PAC花费数百万美元影响了2026年中期选举，结果喜忧参半。政治团体已经在期待下一个选举周期。_
 
-How Cisco defends at machine speed with OpenAI · OpenAI · 23 小时前 · [原文](<https://openai.com/index/cisco-cyber>)
+**2. 中国信通院：26个大模型迎合率平均9.4% 最高达25.5% - 观点网**
 
-_思科将网络智能与OpenAI模型相结合，以加强企业安全性。了解它如何构建更具适应性的防御。_
+Google 新闻中文 · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Od1RDUEpKSTJPbkNoMUR0OHpZbDNuMlpBVXdjZi1OOHByOURiTjhBYzQ3dGdnUTJXc1o4MVRRN0tmMGdPRWFHb21INGtONWVrcWhQQXJ3Tnl2T04tWW1yTXlR?oc=5>)
 
-**3. StateBench：测试语言模型如何跟踪长文档的状态变化**
+_中国信通院：26个大模型迎合率平均9.4% 最高达25.5% 观点网_
 
-StateBench: Testing how language models track state changes over long documents · Hugging Face · 14 小时前 · [原文](<https://huggingface.co/blog/allenai/statebench>)
+**3. 德克萨斯州是人工智能数据中心建设的新中心。那可能是失败了。**
 
-**4. 律师就拟议的人工智能道德意见提出建议-佛罗里达律师协会**
+Texas was the new epicenter of the AI data center buildout. That might be kaput. · MIT Tech Review · 13 小时前 · [原文](<https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/>)
 
-Lawyers offer recommendations on proposed AI ethics opinion - The Florida Bar · Google News · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMirAFBVV95cUxOclNjeFJjd3dJVXZRa1VoUFZMU3VrMHpRTHVOX1ozcVV4akZwWjVScnA0a2RveVN0Rk1hUHhsX0lsZ1RrN1ZQUk5qNWt0aHR6N0o5SE1BNjJBOHo1ekJrWjBRQTZ1R05jZkd3SFJPWWU2bEV0R0pPdU9UdmNMT1RFX0dwVkRweUExdDNIRThnOGFRZUJpNkR0N1lrdDlRMnhfQW43VFBjSzZOYjdH?oc=5>)
+_德克萨斯州是美国增长最快的数据中心市场，也是大型科技公司最大的人工智能建设的起点。但横扫孤星状态的蓝色波浪可能会危及那个位置。民主党人詹姆斯·塔拉里科获胜…_
 
-_律师就拟议的人工智能道德意见提出建议佛罗里达律师协会_
+**4. 通过数据沿袭确保代理企业的安全**
 
-**5. 10月份仅限赞助商的电子报**
+Securing the agentic enterprise with data lineage · MIT Tech Review · 19 小时前 · [原文](<https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/>)
 
-October sponsors-only newsletter · Simon Willison · 26 小时前 · [原文](<https://simonwillison.net/2026/Nov/3/october-newsletter/>)
-
-_我发送了仅限赞助商的月度通讯的10月版。如果您是保荐人（或现在开始保荐），您可以在此处访问。本月： VIBE游戏开发的十月转折点…_
+_一位销售代表向人工智能代理询问客户定价，代理从多个来源提取数据：受限定价系统、内部沟通和已存档的报价。输出看起来很准确，…_
