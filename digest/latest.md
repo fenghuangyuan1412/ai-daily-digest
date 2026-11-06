@@ -1,135 +1,127 @@
-# 📰 AI 日报 · 2026-11-05
+# 📰 AI 日报 · 2026-11-06
 
 > 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 21 条已译
 
 ## 🚀 模型与产品发布
 
-**1. 少一千条根路径**
+**1. Claude Code将您的电子邮件地址发送到网站**
 
-A thousand fewer paths to root · OpenAI · 24 小时前 · [原文](<https://openai.com/index/a-thousand-fewer-paths-to-root>)
+Claude Code sends your email address to websites · Hacker News · 9 小时前 · ▲931 · [原文](<https://github.com/anthropics/claude-code/issues/107757>)
 
-_OpenAI构建了一个自主管道，为Linux内核中的948个本地权限提升漏洞发现、验证和生成补丁。_
+**2. GPT-6 Cyber：推进一致的网络安全代理的前沿**
 
-**2. Daybreak Red现已在AWS GovCloud （美国东部）中提供**
+GPT-6 Cyber: Advancing the frontier of aligned cybersecurity agents · Hacker News · 14 小时前 · ▲52 （亦见于 OpenAI） · [原文](<https://openai.com/index/introducing-gpt-6-cyber/>)
 
-Daybreak Red is now available in AWS GovCloud (US-East) · OpenAI · 25 小时前 · [原文](<https://openai.com/index/daybreak-red-aws-govcloud>)
+**3. Gemini Omni 1.2闪光灯：快速且经济高效，剪辑更长**
 
-_Daybreak Red通过Amazon Bedrock将GPT-5.6 Cyber带给AWS GovCloud （美国东部）的批准客户，以进行授权的网络安全工作。_
+Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips · Google DeepMind · 14 小时前 · [原文](<https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/>)
 
-**3. 图片简介2.6**
+**4. 谷歌：学校可以在跳过Gemini的同时继续搜索，但人工智能搜索是不可谈判的**
 
-Introducing Images 2.6 · OpenAI · 32 小时前 · [原文](<https://openai.com/index/introducing-images-2-6>)
+Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable · Ars Technica AI · 10 小时前 · [原文](<https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/>)
 
-_Images 2.6可跨ChatGPT、Codex和API实现更快的图像生成、GIF创建、更精确的编辑和新的API控件。_
+_从技术上讲，谷歌为学校提供了更多的选择，但不是任何人想要的选择。_
 
-**4. Dharma Field Extractor：任何文档输入， JSON中的结构化字段输出**
+**5. Cult.fit使用Codex打造手术肌肉**
 
-Dharma Field Extractor: Any Document In, Structured Fields in JSON Out · Hugging Face · 14 小时前 · [原文](<https://huggingface.co/blog/Dharma-AI/dharma-field-extractor>)
+Cult.fit builds operational muscle with Codex · OpenAI · 11 小时前 · [原文](<https://openai.com/index/cultfit-builds-with-codex>)
+
+_Cult.fit正在使用Codex来帮助跨职能部门的团队构建工具、更快地移动并改变完成工作的方式。_
 
 ## 🔬 研究前沿
 
-**1. 针对医学多Agent推理的元Agent监督的挑战感知知识招聘**
+**1. 人工智能时代逆问题的形式化：可能性、陷阱和邀请**
 
-Challenge-Aware Knowledge Recruitment with Meta-Agent Supervision for Medical Multi-Agent Reasoning · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.05393>)
+Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.06962>)
 
-_大型语言模型在标准医疗QA上表现强劲，但在更难的推理任务上表现不佳，其中多智能体辩论通常无法击败强大的单模型提示。我们认为，一个关键的局限性是…_
+_像精益助手这样的证明助手将数学证明检查到公理，人工智能代理最近使编写此类证明变得便宜。我们描述了AutoIP，这是一个精益库，其中经典的线性正则化理论，…_
 
-**2. 谁可以推翻代理？法学硕士评审机构中的证据门限权威**
+**2. KDASO：责任裁定任务的知识数据双驱动自动化技能优化**
 
-Who May Overrule the Agent? Evidence-Gated Authority in LLM Review Institutions · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.05390>)
+KDASO: Knowledge-Data Dual-Driven Automated Skill Optimization for Liability Adjudication Tasks · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.06972>)
 
-_多代理语言模型系统通常会添加审核者，以改进上游代理的决策。然而，审阅者既可以修复错误，也可以替换已经正确的决策。我们将此作为一个问题进行研究，…_
+_责任裁定任务（例如法律费用确定）需要根据特定领域的技能分析事件描述，以确定一方是否应承担责任。而大型语言模型（LLM）…_
 
-**3. 座席线束感知：将经过验证的遥测转化为工具使用座席的运营控制**
+**3. BlockLock：具有固定批次几何形状的可重复LLM推断**
 
-Agent Harness Awareness: Turning Verified Telemetry into Operational Control for Tool-Using Agents · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.05391>)
+BlockLock: Reproducible LLM Inference with Fixed Batch Geometry · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.06977>)
 
-_工具描述告诉客服代表一个动作可以做什么，但它们不一定能揭示该动作在使用时是健康还是合适。执行线束通常通过以下方式掌握这些信息：…_
+_可重现LLM推断要求请求产生相同的输出，而不管批处理中的其他请求如何。现有解决方案以不同的方式为此付出代价：批量不变内核限制了…_
 
-**4. Agentic AI系统的不确定性感知资源编排**
+**4. 通过弹性专家并行进行资源节约型强化学习后训练**
 
-Uncertainty-Aware Resource Orchestration for Agentic AI Systems · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.05392>)
+Resource-Efficient Reinforcement Learning Post-Training through Elastic Expert Parallelism · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.06984>)
 
-_由大型语言模型(LLM)支持的代理人工智能(AI)系统作为自主多步骤管道执行，动态调用工具，将观察集成到内存中，并迭代到任务…_
+_强化学习后训练提高了大型语言模型的能力，但生成训练响应是一个主要的计算瓶颈。在混合专家模型中，完成…_
+
+**5. 双分类账模型：跨云、模型和记录系统的多代理AI系统的交易粒度成本核算**
+
+The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.06989>)
+
+_企业通过跨云、大型语言模型(LLM)、编排利用和记录系统的多代理AI系统运行业务交易。财务仅在结算谷物处接收AI成本，…_
 
 ## 🏢 公司与行业动向
 
-**1. 启动HN： Kino AI (YC S23)-AI媒体管理器和视频编辑器**
+**1. 主要投资者对Anthropic IPO能否实现$ 1.5T估值持怀疑态度**
 
-Launch HN: Kino AI (YC S23) - AI media manager and video editor · Hacker News · 14 小时前 · ▲86 · [原文](<https://news.ycombinator.com/item?id=50368804>)
+Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5T Valuation · Hacker News · 7 小时前 · ▲78 · [原文](<https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b’>)
 
-_HN，您好！我是来自Kino的Luke （https://kino.ai）。通过Kino，您可以与代理和队友一起制作精彩的视频。素材和资产的存储、丰富的视频编辑器以及团队成员的评论链接都捆绑在…_
+**2. Cuban： Facebook故意投放AI deepfake诈骗广告；文档称$ 160亿欺诈收入**
 
-**2. OpenAI收购Pierre Computer Company, Inc.**
+Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue · Hacker News · 8 小时前 · ▲271 · [原文](<https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html>)
 
-OpenAI to acquire Pierre Computer Company, Inc. · OpenAI · 17 小时前 · [原文](<https://openai.com/index/openai-to-acquire-pierre>)
+**3. 启动HN：铆钉（YC W23） -在S3上扩展和协调代理**
 
-_OpenAI将收购Pierre Computer Company，扩展Codex用于构建、理解和审查代码的工具。_
+Launch HN: Rivet (YC W23) - Scale and Orchestrate Agents on S3 · Hacker News · 14 小时前 · ▲92 · [原文](<https://github.com/rivet-dev/rivet>)
 
-**3. OpenAI已经在努力塑造2028年的选举**
+_嗨， HN，我是Rivet （https://rivet.dev）的Nathan和Nicholas，这是一个快速、高密度和可扩展的编排器，使用actor模型处理代理工作负载。而不是运行每个代理的重量级沙盒，…_
 
-OpenAI is already trying to shape the 2028 election · TechCrunch AI · 10 小时前 · [原文](<https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/>)
+**4. 用于交互式世界模拟的全新NVIDIA Cosmos 3开放模型**
 
-_OpenAI的Chris Lehane希望人工智能能够定义2028年的选举，提出一项新的社会契约，既能让美国人受益，同时也能促进这家人工智能巨头自身的商业利益。_
+New NVIDIA Cosmos 3 Open Models for Interactive World Simulation · Hugging Face · 12 小时前 · [原文](<https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation>)
 
-**4. 据报道，苹果正在削减其内部人工智能使用的预算**
+**5. Palo Alto Networks正在洽谈以5亿美元收购人工智能代理安全初创公司Clutch**
 
-Apple is reportedly cutting budgets for its internal AI usage · TechCrunch AI · 6 小时前 · [原文](<https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/>)
+Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M · TechCrunch AI · 1 小时前 · [原文](<https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/>)
 
-_据说该公司正在大幅削减其工程团队在人工智能方面的支出。_
+_据一位消息人士称，由Lightspeed和SignalFire支持的Clutch最后估值为8500万美元$。_
 
-**5. 中期选举之后，数据中心可能会发生更大的冲突**
+**6. Meta表示，美国用户现在可以与他们的Muse AI头像进行视频聊天**
 
-After the midterms, a bigger clash over data centers could be coming · TechCrunch AI · 7 小时前 · [原文](<https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/>)
+Meta says US users can now video chat with their Muse AI avatar · TechCrunch AI · 12 小时前 · [原文](<https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/>)
 
-_数据中心反对派在周二的中期选举中越过了党派界限。_
+_Meta的AI代理现在可以在推出旨在让Muse栩栩如生的类似Tamagotchi的可穿戴设备之前，将呼叫作为可定制的动画头像。_
 
 ## 🛠 工程与开源工具
 
-**1. 现在一切都是人工智能骗局**
+**1. 纳斯达克下跌5%，因投资者在大选后退出人工智能交易**
 
-Everything is an AI scam now · Hacker News · 10 小时前 · ▲135 · [原文](<https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/>)
+Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election · Hacker News · 13 小时前 · ▲157 · [原文](<https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026>)
 
-**2. Qualcomm Cloud AI 100 Ultra-150W AI加速器卡， 128GB， 548GB/s**
+**2. 封闭的人工智能模型在性价比前沿占据主导地位**
 
-Qualcomm Cloud AI 100 Ultra - 150W AI Accelerator Card with 128GB at 548GB/s · Hacker News · 12 小时前 · ▲136 · [原文](<https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra>)
+Closed AI models dominate the price-performance frontier · Hacker News · 5 小时前 · ▲66 · [原文](<https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/>)
 
-**3. 大型语言模型的可证明推理进展**
+**3. 投资者将2.5万$从纳斯达克抹去，因为蓝色海啸引发了人工智能的担忧**
 
-Progress on provable inference for large language models · Hacker News · 14 小时前 · ▲207 · [原文](<https://www.anthropic.com/research/provable-inference>)
+Investors wipe $2.5T off Nasdaq as blue tsunami prompts AI fears · Hacker News · 6 小时前 · ▲41 · [原文](<https://www.reuters.com/legal/transactional/ai-data-center-stocks-slip-democratic-sweep-clouds-expansion-plans-2026-11-05/>)
 
-**4. 你需要钢铁般的神经来与人工智能特工合作**
+**4. 引用保罗·福特**
 
-You'll need nerves of steel to work with AI agents · Hacker News · 8 小时前 · ▲47 · [原文](<https://orchidfiles.com/youll-need-nerves-of-steel-to-work-with-ai-agents/>)
+Quoting Paul Ford · Simon Willison · 14 小时前 · [原文](<https://simonwillison.net/2026/Nov/5/paul-ford/>)
 
-**5. Show HN：我构建了一个工具，按部件对预建的PC部件进行定价**
-
-Show HN: I built a tool that prices a pre-built PC part by part · Hacker News · 16 小时前 · ▲100 · [原文](<https://pcdealcheck.com/>)
-
-_我错过了一台可以用于项目的超棒电脑，因为计算价值花费了太长时间。用户粘贴房源，并收到价值等级、注明日期的组件估算和可分享的报告。AI读取…_
+_网络浏览器是非常、非常、非常强大的应用软件，访问该功能的成本似乎每天都在下降。- Paul Ford， The Web Is More Than Enough标签：浏览器， paul-ford，…_
 
 ## 💭 观点与深度
 
-**1. AI PAC花费数百万美元试图塑造国会-以下是他们的表现**
+**1. 盛宝金融：亚洲市场在人工智能股票抛售中尤为脆弱 - 观点网**
 
-AI PACs spent millions trying to shape Congress - here’s how they fared · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/>)
+Google 新闻中文 · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMiYkFVX3lxTFByMlJvVGRwYWtrZzlmZkI4SUlZLUlhT2RmcnZDYTk3cURHSXVQTklRaUkxVE1aQkhnT0UyVldQNGd5ejFoSmcyWW9UTnJxQTBnc3VFTlNTR2s2SE9ielBPVG9B?oc=5>)
 
-_人工智能行业PAC花费数百万美元影响了2026年中期选举，结果喜忧参半。政治团体已经在期待下一个选举周期。_
+_盛宝金融：亚洲市场在人工智能股票抛售中尤为脆弱 观点网_
 
-**2. 中国信通院：26个大模型迎合率平均9.4% 最高达25.5% - 观点网**
+**2. 德克萨斯州是人工智能数据中心建设的新中心。那可能是失败了。**
 
-Google 新闻中文 · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Od1RDUEpKSTJPbkNoMUR0OHpZbDNuMlpBVXdjZi1OOHByOURiTjhBYzQ3dGdnUTJXc1o4MVRRN0tmMGdPRWFHb21INGtONWVrcWhQQXJ3Tnl2T04tWW1yTXlR?oc=5>)
-
-_中国信通院：26个大模型迎合率平均9.4% 最高达25.5% 观点网_
-
-**3. 德克萨斯州是人工智能数据中心建设的新中心。那可能是失败了。**
-
-Texas was the new epicenter of the AI data center buildout. That might be kaput. · MIT Tech Review · 13 小时前 · [原文](<https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/>)
+Texas was the new epicenter of the AI data center buildout. That might be kaput. · MIT Tech Review · 2 天前 · [原文](<https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/>)
 
 _德克萨斯州是美国增长最快的数据中心市场，也是大型科技公司最大的人工智能建设的起点。但横扫孤星状态的蓝色波浪可能会危及那个位置。民主党人詹姆斯·塔拉里科获胜…_
-
-**4. 通过数据沿袭确保代理企业的安全**
-
-Securing the agentic enterprise with data lineage · MIT Tech Review · 19 小时前 · [原文](<https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/>)
-
-_一位销售代表向人工智能代理询问客户定价，代理从多个来源提取数据：受限定价系统、内部沟通和已存档的报价。输出看起来很准确，…_
