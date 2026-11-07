@@ -1,0 +1,295 @@
+{
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T06:42:52.349Z",
+  "windowHours": 36,
+  "sourcesTotal": 13,
+  "sourcesOk": 13,
+  "sourcesFailed": [],
+  "itemCount": 21,
+  "translatedCount": 20,
+  "sections": [
+    {
+      "key": "model",
+      "label": "🚀 模型与产品发布",
+      "items": [
+        {
+          "title": "Gemini Omni 1.2 Flash",
+          "titleZh": "Gemini Omni 1.2闪光灯",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-06T13:35:27.000Z",
+          "points": 315,
+          "discussion": "https://news.ycombinator.com/item?id=50392118"
+        },
+        {
+          "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+          "titleZh": "与Hacktron合作，发现OpenAI系统中的漏洞",
+          "url": "https://openai.com/index/partnering-with-hacktron",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+          "summaryZh": "OpenAI正在与Hacktron合作，以发现漏洞，测试与第三方服务的连接，并加强与前沿AI的防御。",
+          "published": "2026-11-06T08:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
+          "titleZh": "谷歌：学校可以在跳过Gemini的同时继续搜索，但人工智能搜索是不可谈判的",
+          "url": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+          "source": "Ars Technica AI",
+          "alsoOn": [],
+          "summary": "Google is technically offering schools more choice but not the choices anyone wants.",
+          "summaryZh": "从技术上讲，谷歌为学校提供了更多的选择，但不是任何人想要的选择。",
+          "published": "2026-11-05T21:40:36.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+          "titleZh": "ToyBlocks：机器人学习和评估的受控世界",
+          "url": "https://huggingface.co/blog/allenai/toyblocks",
+          "source": "Hugging Face",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-06T14:00:48.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Cult.fit builds operational muscle with Codex",
+          "titleZh": "Cult.fit使用Codex打造手术肌肉",
+          "url": "https://openai.com/index/cultfit-builds-with-codex",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+          "summaryZh": "Cult.fit正在使用Codex来帮助跨职能部门的团队构建工具、更快地移动并改变完成工作的方式。",
+          "published": "2026-11-05T20:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "从单点实践到生态共建，多项人工智能与数字化医疗价值实践成果发布 - 上观新闻",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83NkhibC1rZFNCWU82ZU05VlQ5cmxNWUdMVURxZ0xYaHVNYzVMZDBITF9VZWFDc2NDbE8yZmV2NTZOb2FtcTAwRjctS29Dd1hzTFBBZUNTVnJOZw?oc=5",
+          "source": "Google 新闻中文",
+          "alsoOn": [],
+          "summary": "从单点实践到生态共建，多项人工智能与数字化医疗价值实践成果发布 上观新闻",
+          "summaryZh": "",
+          "published": "2026-11-07T03:53:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "research",
+      "label": "🔬 研究前沿",
+      "items": [
+        {
+          "title": "AI is dramatically accelerating AI research",
+          "titleZh": "人工智能正在大大加速人工智能研究",
+          "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-06T20:27:23.000Z",
+          "points": 261,
+          "discussion": "https://news.ycombinator.com/item?id=50397994"
+        },
+        {
+          "title": "Parental Trust in Artificial Intelligence and Pediatricians: A Cross-Sectional Study of Diagnostic Preferences and Healthcare-Seeking Behaviors in Saudi Arabia - Cureus",
+          "titleZh": "父母对人工智能和儿科医生的信任：沙特阿拉伯诊断偏好和寻求医疗保健行为的横断面研究- Cureus",
+          "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOZ0dHZTZfbjcwVXNNMVVRLWY5dEFHWE1Ed1B6a1E5SzdsWDdiSFBUbXZoTnRVVVZSNGRlWEJQTVhHVUgtSC1kZzJ6Z2RtRms5YVpiVVhFaVhCREp6S2hxQk1EZUdzaHZ4MXUwUUJ2NDZCaVpjSDlpTU9WYjY5MVQ1NFM5ZmktQWYyZ3JLaGFYUlBoZC1jSmlPM0pnemRFaks0dnFDRFBLQzk3czI2OHhoRlpESklmZHlnVGQ5WDRsMVYyemZ1V2JWSEIydW5XQjNIbmw5cWpkaHFkUmdFR1QyLTlxaWNCeFJEblFMWnB5Z2FZQThrQ1ItdHZsdXBQTVlXR3dEQjl1ZGh1STdSX1FjQWl5SG0yTk12bHNQdlY4eTk4MkU?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "Parental Trust in Artificial Intelligence and Pediatricians: A Cross-Sectional Study of Diagnostic Preferences and Healthcare-Seeking Behaviors in Saudi Arabia Cureus",
+          "summaryZh": "父母对人工智能和儿科医生的信任：沙特阿拉伯Cureus诊断偏好和寻求医疗保健行为的横断面研究",
+          "published": "2026-11-07T01:25:12.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "label": "🏢 公司与行业动向",
+      "items": [
+        {
+          "title": "Anthropic IPO buyers see valuation as low as $1.1T",
+          "titleZh": "Anthropic IPO买家认为估值低至1.1T $",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3...",
+          "summaryZh": "",
+          "published": "2026-11-06T16:54:36.000Z",
+          "points": 267,
+          "discussion": "https://news.ycombinator.com/item?id=50394906"
+        },
+        {
+          "title": "Microsoft is winding down Oracle deal to rent AI cloud capacity",
+          "titleZh": "微软正在缩减甲骨文租赁AI云容量的交易",
+          "url": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-06T18:04:06.000Z",
+          "points": 89,
+          "discussion": "https://news.ycombinator.com/item?id=50395933"
+        },
+        {
+          "title": "Anthropic IPO valuation talks drop to $1.3T",
+          "titleZh": "Anthropic IPO估值谈判降至$ 1.3T",
+          "url": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-06T17:21:15.000Z",
+          "points": 93,
+          "discussion": "https://news.ycombinator.com/item?id=50395318"
+        },
+        {
+          "title": "The AI sell-off compared to well-known stock market crashes",
+          "titleZh": "与知名股市崩盘相比的人工智能抛售",
+          "url": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-07T02:20:06.000Z",
+          "points": 49,
+          "discussion": "https://news.ycombinator.com/item?id=50401029"
+        },
+        {
+          "title": "Crusoe sells troubled Wyoming data center project to Google",
+          "titleZh": "Crusoe将陷入困境的怀俄明州数据中心项目出售给谷歌",
+          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "The deal highlights the challenges of developing massive AI data centers.",
+          "summaryZh": "这笔交易凸显了开发大规模人工智能数据中心的挑战。",
+          "published": "2026-11-07T01:40:28.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+          "titleZh": "据报道， OpenAI以1.25万亿美元的估值额外筹集了110亿美元",
+          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+          "summaryZh": "据报道， OpenAI作为一轮融资的一部分，又筹集了110亿美元，这轮融资尚未结束，但预计将在未来几周内完成。",
+          "published": "2026-11-06T22:53:46.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "eng",
+      "label": "🛠 工程与开源工具",
+      "items": [
+        {
+          "title": "University libraries are being swarmed by AI bots, putting public access at risk",
+          "titleZh": "大学图书馆正被人工智能机器人蜂拥而至，使公众访问面临风险",
+          "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-06T14:13:09.000Z",
+          "points": 128,
+          "discussion": "https://news.ycombinator.com/item?id=50392499"
+        },
+        {
+          "title": "Perplexity launches AI agents for work",
+          "titleZh": "Perplexity推出用于工作的人工智能代理",
+          "url": "https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-06T17:59:41.000Z",
+          "points": 60,
+          "discussion": "https://news.ycombinator.com/item?id=50395866"
+        },
+        {
+          "title": "Quoting Nilay Patel",
+          "titleZh": "引用Nilay Patel",
+          "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+          "source": "Simon Willison",
+          "alsoOn": [],
+          "summary": "The products aren't good enough to sell people on the costs. You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history. It's not worth it. It just isn't worth it to anyone. And agents aren't real and they might not be being used the way that anyone wants them to yet. All these companies are spending more than they're making on these products. Refrigerators holding blood storage in Europe are being hacked. The costs are too high. The benefits are not real. And if you connect that to corruption, you're like, in order to impose these costs on me, these CEOs are in the White House shaking Trump's hand, renaming it to the Gulf of America, paying for this ballroom that we don't want. It's obvious crypto-corruption, and it's still slop. The AI industry will not get out of it until they make better products . Until everyone can see without needing to be convinced, without needing an ad campaign, without any of this stuff that just using these products makes your life better. - Nilay Patel , The Vergecast: Big Tech lost big in the 2026 election Tags: nilay-patel , slop , ai , generative-ai , ai-ethics",
+          "summaryZh": "产品不够好，无法在成本上向人们推销。你不能告诉人们你必须听他们后院数据中心的呜咽声，以获得人工智能概述和一些最搞笑的深度假污点…",
+          "published": "2026-11-06T17:13:12.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "ideas",
+      "label": "💭 观点与深度",
+      "items": [
+        {
+          "title": "Measuring how AI agents handle everyday wet-lab science",
+          "titleZh": "衡量人工智能代理如何处理日常湿实验室科学",
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+          "summaryZh": "OpenAI推出了BioBasicsBench，这是一个100项任务的基准，用于衡量人工智能代理解读原始实验数据和处理日常湿实验室科学的能力。",
+          "published": "2026-11-06T00:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "How a Blue Wave midterm might reshape the AI industry",
+          "titleZh": "Blue Wave期中考试如何重塑人工智能行业",
+          "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday - in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a […]",
+          "summaryZh": "民主党在本周美国中期选举中的历史性胜利也可能改变科技行业。周二，公众投票通过了41项与数据中心相关的投票议案--除一项外，大多数人投票赞成…",
+          "published": "2026-11-06T18:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
+          "titleZh": "下载：人形清理房屋，三星为人工智能热潮打造",
+          "url": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
+          "source": "MIT Tech Review",
+          "alsoOn": [],
+          "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future. -Grace Huckins When I saw an X post about a new humanoid-robot cleaning service in…",
+          "summaryZh": "这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。我看着一个人形机器人打扫我的公寓。感觉就像是品尝了…",
+          "published": "2026-11-06T13:10:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Artificial intelligence and law: how AI is transforming legal practice - Esade",
+          "titleZh": "人工智能与法律：人工智能如何改变法律实践- Esade",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4zQ0hYSzQ1V0VESUFhOXAtN3hsa1dDY2JETDVYcUxjbXdPZjBNWmNXT1dlbWFIXzhrYVRhamt0Q2NZeHlWM1NHX0N3VkY0OU11dEF3VDVJV2xEek80UWxqejd0NWZjRWZXakQwdQ?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "Artificial intelligence and law: how AI is transforming legal practice Esade",
+          "summaryZh": "人工智能与法律：人工智能如何改变法律实践Esade",
+          "published": "2026-11-06T19:07:48.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    }
+  ],
+  "markdown": "# 📰 AI 日报 · 2026-11-07\n\n> 21 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 20 条已译\n\n## 🚀 模型与产品发布\n\n**1. Gemini Omni 1.2闪光灯**\n\nGemini Omni 1.2 Flash · Hacker News · 17 小时前 · ▲315 · [原文](<https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/>)\n\n**2. 与Hacktron合作，发现OpenAI系统中的漏洞**\n\nPartnering with Hacktron to find vulnerabilities in OpenAI’s systems · OpenAI · 23 小时前 · [原文](<https://openai.com/index/partnering-with-hacktron>)\n\n_OpenAI正在与Hacktron合作，以发现漏洞，测试与第三方服务的连接，并加强与前沿AI的防御。_\n\n**3. 谷歌：学校可以在跳过Gemini的同时继续搜索，但人工智能搜索是不可谈判的**\n\nGoogle: Schools can keep search while skipping Gemini, but AI search is non-negotiable · Ars Technica AI · 33 小时前 · [原文](<https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/>)\n\n_从技术上讲，谷歌为学校提供了更多的选择，但不是任何人想要的选择。_\n\n**4. ToyBlocks：机器人学习和评估的受控世界**\n\nToyBlocks: A controlled world for robot learning and evaluation · Hugging Face · 17 小时前 · [原文](<https://huggingface.co/blog/allenai/toyblocks>)\n\n**5. Cult.fit使用Codex打造手术肌肉**\n\nCult.fit builds operational muscle with Codex · OpenAI · 35 小时前 · [原文](<https://openai.com/index/cultfit-builds-with-codex>)\n\n_Cult.fit正在使用Codex来帮助跨职能部门的团队构建工具、更快地移动并改变完成工作的方式。_\n\n**6. 从单点实践到生态共建，多项人工智能与数字化医疗价值实践成果发布 - 上观新闻**\n\nGoogle 新闻中文 · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMiWkFVX3lxTE83NkhibC1rZFNCWU82ZU05VlQ5cmxNWUdMVURxZ0xYaHVNYzVMZDBITF9VZWFDc2NDbE8yZmV2NTZOb2FtcTAwRjctS29Dd1hzTFBBZUNTVnJOZw?oc=5>)\n\n_从单点实践到生态共建，多项人工智能与数字化医疗价值实践成果发布 上观新闻_\n\n## 🔬 研究前沿\n\n**1. 人工智能正在大大加速人工智能研究**\n\nAI is dramatically accelerating AI research · Hacker News · 10 小时前 · ▲261 · [原文](<https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai>)\n\n**2. 父母对人工智能和儿科医生的信任：沙特阿拉伯诊断偏好和寻求医疗保健行为的横断面研究- Cureus**\n\nParental Trust in Artificial Intelligence and Pediatricians: A Cross-Sectional Study of Diagnostic Preferences and Healthcare-Seeking Behaviors in Saudi Arabia - Cureus · Google News · 5 小时前 · [原文](<https://news.google.com/rss/articles/CBMiowJBVV95cUxOZ0dHZTZfbjcwVXNNMVVRLWY5dEFHWE1Ed1B6a1E5SzdsWDdiSFBUbXZoTnRVVVZSNGRlWEJQTVhHVUgtSC1kZzJ6Z2RtRms5YVpiVVhFaVhCREp6S2hxQk1EZUdzaHZ4MXUwUUJ2NDZCaVpjSDlpTU9WYjY5MVQ1NFM5ZmktQWYyZ3JLaGFYUlBoZC1jSmlPM0pnemRFaks0dnFDRFBLQzk3czI2OHhoRlpESklmZHlnVGQ5WDRsMVYyemZ1V2JWSEIydW5XQjNIbmw5cWpkaHFkUmdFR1QyLTlxaWNCeFJEblFMWnB5Z2FZQThrQ1ItdHZsdXBQTVlXR3dEQjl1ZGh1STdSX1FjQWl5SG0yTk12bHNQdlY4eTk4MkU?oc=5>)\n\n_父母对人工智能和儿科医生的信任：沙特阿拉伯Cureus诊断偏好和寻求医疗保健行为的横断面研究_\n\n## 🏢 公司与行业动向\n\n**1. Anthropic IPO买家认为估值低至1.1T $**\n\nAnthropic IPO buyers see valuation as low as $1.1T · Hacker News · 14 小时前 · ▲267 · [原文](<https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout>)\n\n_https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3..._\n\n**2. 微软正在缩减甲骨文租赁AI云容量的交易**\n\nMicrosoft is winding down Oracle deal to rent AI cloud capacity · Hacker News · 13 小时前 · ▲89 · [原文](<https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/>)\n\n**3. Anthropic IPO估值谈判降至$ 1.3T**\n\nAnthropic IPO valuation talks drop to $1.3T · Hacker News · 13 小时前 · ▲93 · [原文](<https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors>)\n\n**4. 与知名股市崩盘相比的人工智能抛售**\n\nThe AI sell-off compared to well-known stock market crashes · Hacker News · 4 小时前 · ▲49 · [原文](<https://www.kadoa.com/companies/insights/ai-selloff-perspective>)\n\n**5. Crusoe将陷入困境的怀俄明州数据中心项目出售给谷歌**\n\nCrusoe sells troubled Wyoming data center project to Google · TechCrunch AI · 5 小时前 · [原文](<https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/>)\n\n_这笔交易凸显了开发大规模人工智能数据中心的挑战。_\n\n**6. 据报道， OpenAI以1.25万亿美元的估值额外筹集了110亿美元**\n\nOpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation · TechCrunch AI · 8 小时前 · [原文](<https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/>)\n\n_据报道， OpenAI作为一轮融资的一部分，又筹集了110亿美元，这轮融资尚未结束，但预计将在未来几周内完成。_\n\n## 🛠 工程与开源工具\n\n**1. 大学图书馆正被人工智能机器人蜂拥而至，使公众访问面临风险**\n\nUniversity libraries are being swarmed by AI bots, putting public access at risk · Hacker News · 16 小时前 · ▲128 · [原文](<https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287>)\n\n**2. Perplexity推出用于工作的人工智能代理**\n\nPerplexity launches AI agents for work · Hacker News · 13 小时前 · ▲60 · [原文](<https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work>)\n\n**3. 引用Nilay Patel**\n\nQuoting Nilay Patel · Simon Willison · 13 小时前 · [原文](<https://simonwillison.net/2026/Nov/6/nilay-patel/>)\n\n_产品不够好，无法在成本上向人们推销。你不能告诉人们你必须听他们后院数据中心的呜咽声，以获得人工智能概述和一些最搞笑的深度假污点…_\n\n## 💭 观点与深度\n\n**1. 衡量人工智能代理如何处理日常湿实验室科学**\n\nMeasuring how AI agents handle everyday wet-lab science · OpenAI · 31 小时前 · [原文](<https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science>)\n\n_OpenAI推出了BioBasicsBench，这是一个100项任务的基准，用于衡量人工智能代理解读原始实验数据和处理日常湿实验室科学的能力。_\n\n**2. Blue Wave期中考试如何重塑人工智能行业**\n\nHow a Blue Wave midterm might reshape the AI industry · TechCrunch AI · 13 小时前 · [原文](<https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/>)\n\n_民主党在本周美国中期选举中的历史性胜利也可能改变科技行业。周二，公众投票通过了41项与数据中心相关的投票议案--除一项外，大多数人投票赞成…_\n\n**3. 下载：人形清理房屋，三星为人工智能热潮打造**\n\nThe Download: a humanoid cleans house and Samsung builds for the AI boom · MIT Tech Review · 18 小时前 · [原文](<https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/>)\n\n_这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。我看着一个人形机器人打扫我的公寓。感觉就像是品尝了…_\n\n**4. 人工智能与法律：人工智能如何改变法律实践- Esade**\n\nArtificial intelligence and law: how AI is transforming legal practice - Esade · Google News · 12 小时前 · [原文](<https://news.google.com/rss/articles/CBMibEFVX3lxTE4zQ0hYSzQ1V0VESUFhOXAtN3hsa1dDY2JETDVYcUxjbXdPZjBNWmNXT1dlbWFIXzhrYVRhamt0Q2NZeHlWM1NHX0N3VkY0OU11dEF3VDVJV2xEek80UWxqejd0NWZjRWZXakQwdQ?oc=5>)\n\n_人工智能与法律：人工智能如何改变法律实践Esade_\n"
+}
