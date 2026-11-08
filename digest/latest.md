@@ -1,123 +1,87 @@
-# 📰 AI 日报 · 2026-11-07
+# 📰 AI 日报 · 2026-11-08
 
-> 21 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 20 条已译
+> 15 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 12 条已译
 
 ## 🚀 模型与产品发布
 
-**1. Gemini Omni 1.2闪光灯**
+**1. 再见， Claude， Hello Pi**
 
-Gemini Omni 1.2 Flash · Hacker News · 17 小时前 · ▲315 · [原文](<https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/>)
+Goodbye Claude, Hello Pi · Hacker News · 4 小时前 · ▲124 · [原文](<https://caleb.software/posts/claude-to-pi.html>)
 
-**2. 与Hacktron合作，发现OpenAI系统中的漏洞**
+**2. Claude Code的“Don 't Ask Again”公开了1,122个公共GitHub文件中的密码**
 
-Partnering with Hacktron to find vulnerabilities in OpenAI’s systems · OpenAI · 23 小时前 · [原文](<https://openai.com/index/partnering-with-hacktron>)
+Claude Code's "Don't Ask Again" exposes passwords in 1,122 public GitHub files · Hacker News · 10 小时前 · ▲316 · [原文](<https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again>)
 
-_OpenAI正在与Hacktron合作，以发现漏洞，测试与第三方服务的连接，并加强与前沿AI的防御。_
+**3. 《“人工智能+媒体”全球发展年度蓝皮书（2026）》智库报告发布 - 求是**
 
-**3. 谷歌：学校可以在跳过Gemini的同时继续搜索，但人工智能搜索是不可谈判的**
+Google 新闻中文 · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMidkFVX3lxTE5BXy03bDFRQmhDb3YyWWpyNGVHV1dVVkZRWXNPTE4xZjJTdnd2bUNFdmN4ejRaTmNFcEdrQUotbU40Z0tHZ1JfTURpVmhsYWtUdlVRZkU0MDh0Q1JDQ3hQeEVza2c1MFdPX05ENXk0YjI1SmZoUUE?oc=5>)
 
-Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable · Ars Technica AI · 33 小时前 · [原文](<https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/>)
-
-_从技术上讲，谷歌为学校提供了更多的选择，但不是任何人想要的选择。_
-
-**4. ToyBlocks：机器人学习和评估的受控世界**
-
-ToyBlocks: A controlled world for robot learning and evaluation · Hugging Face · 17 小时前 · [原文](<https://huggingface.co/blog/allenai/toyblocks>)
-
-**5. Cult.fit使用Codex打造手术肌肉**
-
-Cult.fit builds operational muscle with Codex · OpenAI · 35 小时前 · [原文](<https://openai.com/index/cultfit-builds-with-codex>)
-
-_Cult.fit正在使用Codex来帮助跨职能部门的团队构建工具、更快地移动并改变完成工作的方式。_
-
-**6. 从单点实践到生态共建，多项人工智能与数字化医疗价值实践成果发布 - 上观新闻**
-
-Google 新闻中文 · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMiWkFVX3lxTE83NkhibC1rZFNCWU82ZU05VlQ5cmxNWUdMVURxZ0xYaHVNYzVMZDBITF9VZWFDc2NDbE8yZmV2NTZOb2FtcTAwRjctS29Dd1hzTFBBZUNTVnJOZw?oc=5>)
-
-_从单点实践到生态共建，多项人工智能与数字化医疗价值实践成果发布 上观新闻_
+_《“人工智能+媒体”全球发展年度蓝皮书（2026）》智库报告发布 求是_
 
 ## 🔬 研究前沿
 
-**1. 人工智能正在大大加速人工智能研究**
+**1. 微软研究院人工智能前沿小组的终结**
 
-AI is dramatically accelerating AI research · Hacker News · 10 小时前 · ▲261 · [原文](<https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai>)
+The end of Microsoft Research's AI Frontiers group · Hacker News · 13 小时前 · ▲438 · [原文](<https://hunch.net/?p=13764006>)
 
-**2. 父母对人工智能和儿科医生的信任：沙特阿拉伯诊断偏好和寻求医疗保健行为的横断面研究- Cureus**
+_https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft..._
 
-Parental Trust in Artificial Intelligence and Pediatricians: A Cross-Sectional Study of Diagnostic Preferences and Healthcare-Seeking Behaviors in Saudi Arabia - Cureus · Google News · 5 小时前 · [原文](<https://news.google.com/rss/articles/CBMiowJBVV95cUxOZ0dHZTZfbjcwVXNNMVVRLWY5dEFHWE1Ed1B6a1E5SzdsWDdiSFBUbXZoTnRVVVZSNGRlWEJQTVhHVUgtSC1kZzJ6Z2RtRms5YVpiVVhFaVhCREp6S2hxQk1EZUdzaHZ4MXUwUUJ2NDZCaVpjSDlpTU9WYjY5MVQ1NFM5ZmktQWYyZ3JLaGFYUlBoZC1jSmlPM0pnemRFaks0dnFDRFBLQzk3czI2OHhoRlpESklmZHlnVGQ5WDRsMVYyemZ1V2JWSEIydW5XQjNIbmw5cWpkaHFkUmdFR1QyLTlxaWNCeFJEblFMWnB5Z2FZQThrQ1ItdHZsdXBQTVlXR3dEQjl1ZGh1STdSX1FjQWl5SG0yTk12bHNQdlY4eTk4MkU?oc=5>)
+**2. 人工智能正在大大加速人工智能研究**
 
-_父母对人工智能和儿科医生的信任：沙特阿拉伯Cureus诊断偏好和寻求医疗保健行为的横断面研究_
+AI is dramatically accelerating AI research · Hacker News · 34 小时前 · ▲364 · [原文](<https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai>)
 
 ## 🏢 公司与行业动向
 
-**1. Anthropic IPO买家认为估值低至1.1T $**
+**1. 与知名股市崩盘相比的人工智能抛售**
 
-Anthropic IPO buyers see valuation as low as $1.1T · Hacker News · 14 小时前 · ▲267 · [原文](<https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout>)
+The AI sell-off compared to well-known stock market crashes · Hacker News · 28 小时前 · ▲90 · [原文](<https://www.kadoa.com/companies/insights/ai-selloff-perspective>)
 
-_https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3..._
+**2. 根据美国情报备忘录， Megaspeed高管被招募来监视Nvidia首席执行官**
 
-**2. 微软正在缩减甲骨文租赁AI云容量的交易**
+Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo · TechCrunch AI · 10 小时前 · [原文](<https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/>)
 
-Microsoft is winding down Oracle deal to rent AI cloud capacity · Hacker News · 13 小时前 · ▲89 · [原文](<https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/>)
+_据报道，今年早些时候分发的一份备忘录声称，中国国家安全部聘请了一名女性技术高管来监视英伟达的首席执行官。_
 
-**3. Anthropic IPO估值谈判降至$ 1.3T**
+**3. 期中考试结束后，埃隆·马斯克（Elon Musk）和数据中心的情况看起来很糟糕**
 
-Anthropic IPO valuation talks drop to $1.3T · Hacker News · 13 小时前 · ▲93 · [原文](<https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors>)
+After the midterms, things are looking rocky for Elon Musk and data centers · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/>)
 
-**4. 与知名股市崩盘相比的人工智能抛售**
+_在股票方面，我们揭示了期中考试对科技行业的意义。_
 
-The AI sell-off compared to well-known stock market crashes · Hacker News · 4 小时前 · ▲49 · [原文](<https://www.kadoa.com/companies/insights/ai-selloff-perspective>)
+**4. 委内瑞拉南方电视台台长比列加斯：人工智能关乎各国信息主权 - 新华网**
 
-**5. Crusoe将陷入困境的怀俄明州数据中心项目出售给谷歌**
+Google 新闻中文 · 1 小时前 · [原文](<https://news.google.com/rss/articles/CBMif0FVX3lxTE0zaTZjSWlqdU5lZDQ4dXBxdExsckFlR2E0ZHRZUEc3cjNxRUdtVzVYVC1zT2c5Qjc3NVZySWpPVHliYUt0bUlkUHpXWVczSlpRMHRabFJMMGV5Q3JjNG5hbjNCUGd4ZGpMRW1Xdlp0ajMzSVdHRWI3MEk4X3NDMEk?oc=5>)
 
-Crusoe sells troubled Wyoming data center project to Google · TechCrunch AI · 5 小时前 · [原文](<https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/>)
+_委内瑞拉南方电视台台长比列加斯：人工智能关乎各国信息主权 新华网_
 
-_这笔交易凸显了开发大规模人工智能数据中心的挑战。_
+**5. AI人才需求旺 粤港澳大湾区青年人才对接会人工智能专场成功举办 - 中山网**
 
-**6. 据报道， OpenAI以1.25万亿美元的估值额外筹集了110亿美元**
+Google 新闻中文 · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMib0FVX3lxTE9PRlozeGVVRkVpUEk4OWZ0Z3JyLXo3OHJTcXVMbWZWa0tjTFlEMnctakNzMWNDeXV5Q2FlR29vY1owOUlDM01KT01KYWMxWEZJTlpNY3Jrd3lPb1JoNVExazJmLVhxZFE0ZGY4bE9BVQ?oc=5>)
 
-OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation · TechCrunch AI · 8 小时前 · [原文](<https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/>)
+_AI人才需求旺 粤港澳大湾区青年人才对接会人工智能专场成功举办 中山网_
 
-_据报道， OpenAI作为一轮融资的一部分，又筹集了110亿美元，这轮融资尚未结束，但预计将在未来几周内完成。_
+**6. 德克萨斯州的人工智能基础设施随着达拉斯大学站的新设施而增长- NBC 5 Dallas-Fort Worth**
+
+AI infrastructure grows in Texas with new facilities in Dallas, College Station - NBC 5 Dallas-Fort Worth · Google News · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMirwFBVV95cUxNLXRJOW1mWDQ1TGVQQXZPdHRBZkt3MkQyNjRxTDI4YWlvTGhRbjdVellSaUY5Rmk0Y0pHNF8yeUFLU3N3eE43VlpfSUE4Mnl2LVdwZUctbnFsZ1pOYjRvZ0NvWS1ERDV5cWEtMjFkXzRnOUU2bHdjMmgydm9WRzcwQmh4azVNUFhTeFp2R0pjZ1VlaDBLVVIxYmhoTFR0X3BxY2xFMEdHTThnME9FWGRJ0gG3AUFVX3lxTFBhREVNWVI4eFl2VWkyLVE4N0JUdGxNdmVsRGlPcTRFM3EteUl0TF9FSXZyRkM0OHlxUjdZUFZ1T0tpa1psMjY2WEhIdUZCYk1scS1EeFliOHBTSFpWYWhHa3E0cFRhMUl3RHlKVTc4cmtCWncxcjUxNHNRNXhiRjlIRkM0YTFyNTl1N2F1WDZjSjFZbS1yZTFWWFNFeFhzbTl3bTYzSHR4RWhFQnBuMU9paUM0Wk5aNA?oc=5>)
+
+_德克萨斯州的人工智能基础设施随着达拉斯的新设施而增长，大学站NBC 5达拉斯-沃思堡_
 
 ## 🛠 工程与开源工具
 
-**1. 大学图书馆正被人工智能机器人蜂拥而至，使公众访问面临风险**
+**1. 人工智能前沿的终结**
 
-University libraries are being swarmed by AI bots, putting public access at risk · Hacker News · 16 小时前 · ▲128 · [原文](<https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287>)
+The End of AI Frontiers · Hacker News · 13 小时前 · ▲81 · [原文](<https://hunch.net/?p=13764006>)
 
-**2. Perplexity推出用于工作的人工智能代理**
+**2. Show HN：我们将31B视频+音频扩散模型压缩到14B， 6步， INT8**
 
-Perplexity launches AI agents for work · Hacker News · 13 小时前 · ▲60 · [原文](<https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work>)
+Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8 · Hacker News · 16 小时前 · ▲63 · [原文](<https://github.com/Video-Rebirth/hyperflow-h3-flash>)
 
-**3. 引用Nilay Patel**
+**3. 代理内存的组成部分**
 
-Quoting Nilay Patel · Simon Willison · 13 小时前 · [原文](<https://simonwillison.net/2026/Nov/6/nilay-patel/>)
+The Components of Agent Memory · Hacker News · 24 小时前 · ▲156 · [原文](<https://www.anthropic.com/research/components-of-agent-memory>)
 
-_产品不够好，无法在成本上向人们推销。你不能告诉人们你必须听他们后院数据中心的呜咽声，以获得人工智能概述和一些最搞笑的深度假污点…_
+**4. datasette # 3046: Don 't serve link: rel = next HTTP headers to Firefox for HTML pages**
 
-## 💭 观点与深度
+datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages · Simon Willison · 7 小时前 · [原文](<https://simonwillison.net/2026/Nov/7/link-rel-next/>)
 
-**1. 衡量人工智能代理如何处理日常湿实验室科学**
-
-Measuring how AI agents handle everyday wet-lab science · OpenAI · 31 小时前 · [原文](<https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science>)
-
-_OpenAI推出了BioBasicsBench，这是一个100项任务的基准，用于衡量人工智能代理解读原始实验数据和处理日常湿实验室科学的能力。_
-
-**2. Blue Wave期中考试如何重塑人工智能行业**
-
-How a Blue Wave midterm might reshape the AI industry · TechCrunch AI · 13 小时前 · [原文](<https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/>)
-
-_民主党在本周美国中期选举中的历史性胜利也可能改变科技行业。周二，公众投票通过了41项与数据中心相关的投票议案--除一项外，大多数人投票赞成…_
-
-**3. 下载：人形清理房屋，三星为人工智能热潮打造**
-
-The Download: a humanoid cleans house and Samsung builds for the AI boom · MIT Tech Review · 18 小时前 · [原文](<https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/>)
-
-_这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。我看着一个人形机器人打扫我的公寓。感觉就像是品尝了…_
-
-**4. 人工智能与法律：人工智能如何改变法律实践- Esade**
-
-Artificial intelligence and law: how AI is transforming legal practice - Esade · Google News · 12 小时前 · [原文](<https://news.google.com/rss/articles/CBMibEFVX3lxTE4zQ0hYSzQ1V0VESUFhOXAtN3hsa1dDY2JETDVYcUxjbXdPZjBNWmNXT1dlbWFIXzhrYVRhamt0Q2NZeHlWM1NHX0N3VkY0OU11dEF3VDVJV2xEek80UWxqejd0NWZjRWZXakQwdQ?oc=5>)
-
-_人工智能与法律：人工智能如何改变法律实践Esade_
+_datasette # 3046: Don 't serve link: rel = next HTTP headers to Firefox for HTML pages我今天正在查看Firefox网络面板，当时我注意到对Datasette表页的请求正在触发HTTP预取…_
