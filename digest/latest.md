@@ -1,87 +1,129 @@
-# 📰 AI 日报 · 2026-11-08
+# 📰 AI 日报 · 2026-11-09
 
-> 15 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 12 条已译
+> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 20 条已译
 
 ## 🚀 模型与产品发布
 
-**1. 再见， Claude， Hello Pi**
+**1. 高盛(Goldman Sachs)正在从其银行家和交易员手中撤出Claude Code**
 
-Goodbye Claude, Hello Pi · Hacker News · 4 小时前 · ▲124 · [原文](<https://caleb.software/posts/claude-to-pi.html>)
+Goldman Sachs is pulling Claude Code from its bankers and traders · Hacker News · 13 小时前 · ▲718 · [原文](<https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers>)
 
-**2. Claude Code的“Don 't Ask Again”公开了1,122个公共GitHub文件中的密码**
+**2. Llama-modchip： 284B DeepSeek， 64GB RAM，无GPU**
 
-Claude Code's "Don't Ask Again" exposes passwords in 1,122 public GitHub files · Hacker News · 10 小时前 · ▲316 · [原文](<https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again>)
+Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU · Hacker News · 21 小时前 · ▲408 · [原文](<https://github.com/synchopate/llama-modchip>)
 
-**3. 《“人工智能+媒体”全球发展年度蓝皮书（2026）》智库报告发布 - 求是**
+**3. DeepSeek的AI代理推送速度提升， Harness日活跃用户突破150万--《南华早报》**
 
-Google 新闻中文 · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMidkFVX3lxTE5BXy03bDFRQmhDb3YyWWpyNGVHV1dVVkZRWXNPTE4xZjJTdnd2bUNFdmN4ejRaTmNFcEdrQUotbU40Z0tHZ1JfTURpVmhsYWtUdlVRZkU0MDh0Q1JDQ3hQeEVza2c1MFdPX05ENXk0YjI1SmZoUUE?oc=5>)
+DeepSeek’s AI agent push gains speed as Harness tops 1.5 million daily users - South China Morning Post · Google News · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYUlFWGhzSVJHVWJFNG5qVno4Y2pKR3RHWGU4dmU2YjNDUHFoaDFESWtDai1CTW5BQWI3Y3VZZ0ZReURjU2thNktuRXRZWFJhUWhqSVM2ZGNSTUMzRVNxbWdGbTJHWlIzZzhDUHhBaDdHVzhIWVVjQko5UXN4WDJ2SmFNVk5EaE5aLThZY1dIRlB6VDFxc3N5a19uZ0JEQnBaZlhzRGFlVzNPTG14Qi1mYTJCOWtlVHVNakI0UlljUWU?oc=5>)
 
-_《“人工智能+媒体”全球发展年度蓝皮书（2026）》智库报告发布 求是_
+_DeepSeek的AI代理推送速度提升， Harness日活跃用户突破150万《南华早报》_
 
 ## 🔬 研究前沿
 
-**1. 微软研究院人工智能前沿小组的终结**
+**1. 研究考察了尼日利亚和南非的人工智能粮食安全前景- Bioengineer.org**
 
-The end of Microsoft Research's AI Frontiers group · Hacker News · 13 小时前 · ▲438 · [原文](<https://hunch.net/?p=13764006>)
+Study Examines Artificial Intelligence Prospects for Food Security Across Nigeria and South Africa - Bioengineer.org · Google News · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYjlJcUtQM1dCbi15UldrVC1ha2t0V3JaRzI1NWdpcEdUa0RMUUNHVXZXakJQWmNrbkpqRGxMSVpyY1dPYl9Sa0V3OWhKWjN6VEFJcWhLOUhMZmZfSVEtRUpjUUcwT0lrQ1NETzFnbnpwM1N0ZnNPLUU3enJZNzVsU1cxTUZiWFFPOXBEdEtMQzlGVlFFblVJVVRUWFNIbUJuSnR0SVhUTHI5LUdES2drRXozbDRjcG1nX2lVR080YW4?oc=5>)
 
-_https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft..._
+_研究考察了尼日利亚和南非的人工智能粮食安全前景Bioengineer.org_
 
-**2. 人工智能正在大大加速人工智能研究**
+**2. 通过基于案例的推理增强学术建议**
 
-AI is dramatically accelerating AI research · Hacker News · 34 小时前 · ▲364 · [原文](<https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai>)
+Enhancing Academic Advisement with Case-Based Reasoning · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.08572>)
+
+_本研究涉及基于案例推理（CBR）在学术咨询领域的应用研究。学术建议已被公认为高等教育的重要功能。但是，…_
+
+**3. NormGym：通过社交互动评估规范能力**
+
+NormGym: Evaluating Normative Competence through Social Interaction · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.08613>)
+
+_规范能力，即从互动中推断社会强制期望并相应调整行为的能力，对于在不熟悉的人类社区中运营的代理人至关重要。然而，现有的评估…_
+
+**4. 基于LLM的多标准库存分类特征提取**
+
+LLM-Based Feature Extraction for Multi-Criteria Inventory Classification · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.08626>)
+
+_电子商务供应链产生了大量的客户反馈和运营数据，这些数据在库存管理中仍未得到充分利用。传统的库存分类技术，如ABC分析依赖于…_
+
+**5. 用于测试时间选择的纵向成对锦标赛**
+
+Aspect-wise Pairwise Tournaments for Test-Time Selection · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.08640>)
+
+_事实证明，扩展测试时间计算在改进LLM推理方面非常有效。一种流行的方法是n个最佳抽样，其中模型生成许多候选解决方案，并选择一个。这激励了…_
+
+**6. 决策背景：人工智能代理的持续行为学习**
+
+Decision Context: Persistent Behavioral Learning for AI Agents · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.08644>)
+
+_LLM专员无法从跨会话的更正中学习。用户在每次对话开始时都会修复相同的错误。现有的代理内存系统主要处理事实，例如偏好、实体和…_
 
 ## 🏢 公司与行业动向
 
-**1. 与知名股市崩盘相比的人工智能抛售**
+**1. OpenAI以$ 1.25 T的估值筹集了$ 110B**
 
-The AI sell-off compared to well-known stock market crashes · Hacker News · 28 小时前 · ▲90 · [原文](<https://www.kadoa.com/companies/insights/ai-selloff-perspective>)
+OpenAI raises $11B at a $1.25T valuation · Hacker News · 17 小时前 · ▲186 · [原文](<https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/>)
 
-**2. 根据美国情报备忘录， Megaspeed高管被招募来监视Nvidia首席执行官**
+**2. 英伟达将调查首席执行官黄延森与可能的中国间谍的关系**
 
-Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo · TechCrunch AI · 10 小时前 · [原文](<https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/>)
+Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy · TechCrunch AI · 10 小时前 · [原文](<https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/>)
 
-_据报道，今年早些时候分发的一份备忘录声称，中国国家安全部聘请了一名女性技术高管来监视英伟达的首席执行官。_
+_在给公司的一份备忘录中，黄承认自己有外遇。_
 
-**3. 期中考试结束后，埃隆·马斯克（Elon Musk）和数据中心的情况看起来很糟糕**
+**3. Jensen Huang的工作在线吗？耶鲁大学的杰弗里·索南菲尔德（Jeffrey Sonnenfeld）估计，“大约是50-50”**
 
-After the midterms, things are looking rocky for Elon Musk and data centers · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/>)
+Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50” · TechCrunch AI · 2 小时前 · [原文](<https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/>)
 
-_在股票方面，我们揭示了期中考试对科技行业的意义。_
+_英伟达董事会正在调查Jensen Huang与中国间谍嫌疑人的关系，耶鲁大学的Jeffrey Sonnenfeld认为，无论Huang是否继续担任首席执行官，这大概是一个硬币翻转。_
 
-**4. 委内瑞拉南方电视台台长比列加斯：人工智能关乎各国信息主权 - 新华网**
+**4. 心光俱乐部携手XAEL-AI泽尔，探索人工智能机器人市场推广与商业生态发展新方向 - 凤凰网**
 
-Google 新闻中文 · 1 小时前 · [原文](<https://news.google.com/rss/articles/CBMif0FVX3lxTE0zaTZjSWlqdU5lZDQ4dXBxdExsckFlR2E0ZHRZUEc3cjNxRUdtVzVYVC1zT2c5Qjc3NVZySWpPVHliYUt0bUlkUHpXWVczSlpRMHRabFJMMGV5Q3JjNG5hbjNCUGd4ZGpMRW1Xdlp0ajMzSVdHRWI3MEk4X3NDMEk?oc=5>)
+Google 新闻中文 · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMiT0FVX3lxTE9uTjUtcFRmQXRPUmRtdC10SFRhQTl0ZjVEY3NCZ3dmNHNpTGdwdXhjb3pmNGVzeHlJa0ZhTk9ERGVOYVc0YnB6bGlQLUVXQWM?oc=5>)
 
-_委内瑞拉南方电视台台长比列加斯：人工智能关乎各国信息主权 新华网_
+_心光俱乐部携手XAEL-AI泽尔，探索人工智能机器人市场推广与商业生态发展新方向 凤凰网_
 
-**5. AI人才需求旺 粤港澳大湾区青年人才对接会人工智能专场成功举办 - 中山网**
+**5. 学大教育加速构建AI教育应用能力 拓展业务增长新空间 - 中国日报网**
 
-Google 新闻中文 · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMib0FVX3lxTE9PRlozeGVVRkVpUEk4OWZ0Z3JyLXo3OHJTcXVMbWZWa0tjTFlEMnctakNzMWNDeXV5Q2FlR29vY1owOUlDM01KT01KYWMxWEZJTlpNY3Jrd3lPb1JoNVExazJmLVhxZFE0ZGY4bE9BVQ?oc=5>)
+Google 新闻中文 · 1 小时前 · [原文](<https://news.google.com/rss/articles/CBMifEFVX3lxTFBxaFZGY29JNUQ1dEFxN3VlV3paODhTWFlKbWhaYkJ3YVJfRVdjM3ZNOUt4Q1NydzVncEFsZ0tidFpMR0VjTS1zd3ZUVWJVdnRWQ1gwUFBLcFFkOE5xSjdseTN3M19zLXhXanRhWFVDQlRJZk0tZ3pROEZMX2Y?oc=5>)
 
-_AI人才需求旺 粤港澳大湾区青年人才对接会人工智能专场成功举办 中山网_
+_学大教育加速构建AI教育应用能力 拓展业务增长新空间 中国日报网_
 
-**6. 德克萨斯州的人工智能基础设施随着达拉斯大学站的新设施而增长- NBC 5 Dallas-Fort Worth**
+**6. 上午出价：人工智能鞭打后脆弱的平静-路透社**
 
-AI infrastructure grows in Texas with new facilities in Dallas, College Station - NBC 5 Dallas-Fort Worth · Google News · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMirwFBVV95cUxNLXRJOW1mWDQ1TGVQQXZPdHRBZkt3MkQyNjRxTDI4YWlvTGhRbjdVellSaUY5Rmk0Y0pHNF8yeUFLU3N3eE43VlpfSUE4Mnl2LVdwZUctbnFsZ1pOYjRvZ0NvWS1ERDV5cWEtMjFkXzRnOUU2bHdjMmgydm9WRzcwQmh4azVNUFhTeFp2R0pjZ1VlaDBLVVIxYmhoTFR0X3BxY2xFMEdHTThnME9FWGRJ0gG3AUFVX3lxTFBhREVNWVI4eFl2VWkyLVE4N0JUdGxNdmVsRGlPcTRFM3EteUl0TF9FSXZyRkM0OHlxUjdZUFZ1T0tpa1psMjY2WEhIdUZCYk1scS1EeFliOHBTSFpWYWhHa3E0cFRhMUl3RHlKVTc4cmtCWncxcjUxNHNRNXhiRjlIRkM0YTFyNTl1N2F1WDZjSjFZbS1yZTFWWFNFeFhzbTl3bTYzSHR4RWhFQnBuMU9paUM0Wk5aNA?oc=5>)
+Morning Bid: Fragile calm after AI whiplash - Reuters · Google News · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMif0FVX3lxTE9fNFFqYzRzRm1EWVdXeFFaRUtfazI2a2dQVEFKVlVBcGt0S3pMN19wNmVuR1Vwal9yeHJQSFVYeU80SjdWc0hsM1V1ZDhGUjJZbDJ4Zlo3SVM0eHAxWEVTZGdFRHdRdnZsRTF2ZC1GM19ZTi1SWUYwZGtiSjkwTFE?oc=5>)
 
-_德克萨斯州的人工智能基础设施随着达拉斯的新设施而增长，大学站NBC 5达拉斯-沃思堡_
+_上午出价：人工智能鞭打路透社后脆弱的平静_
 
 ## 🛠 工程与开源工具
 
-**1. 人工智能前沿的终结**
+**1. 我不相信AI泡沫的存在**
 
-The End of AI Frontiers · Hacker News · 13 小时前 · ▲81 · [原文](<https://hunch.net/?p=13764006>)
+I'm not convinced the AI bubble exists · Hacker News · 8 小时前 · ▲194 · [原文](<https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists>)
 
-**2. Show HN：我们将31B视频+音频扩散模型压缩到14B， 6步， INT8**
+**2. 苹果将工程师的人工智能预算限制在每日200 $**
 
-Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8 · Hacker News · 16 小时前 · ▲63 · [原文](<https://github.com/Video-Rebirth/hyperflow-h3-flash>)
+Apple capped engineers at a $200 daily AI budget · Hacker News · 2 小时前 · ▲71 · [原文](<https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget#story-1>)
 
-**3. 代理内存的组成部分**
+**3. 硅谷承诺人工智能将治愈疾病。制药商首席执行官不买账**
 
-The Components of Agent Memory · Hacker News · 24 小时前 · ▲156 · [原文](<https://www.anthropic.com/research/components-of-agent-memory>)
+Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It · Hacker News · 13 小时前 · ▲95 · [原文](<https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c>)
 
-**4. datasette # 3046: Don 't serve link: rel = next HTTP headers to Firefox for HTML pages**
+**4. 代理内存需要其OpenTelemetry矩**
 
-datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages · Simon Willison · 7 小时前 · [原文](<https://simonwillison.net/2026/Nov/7/link-rel-next/>)
+Agent memory needs its OpenTelemetry moment · Hacker News · 23 小时前 · ▲178 · [原文](<https://www.lorekit.io/blog/open-agent-memory-format>)
 
-_datasette # 3046: Don 't serve link: rel = next HTTP headers to Firefox for HTML pages我今天正在查看Firefox网络面板，当时我注意到对Datasette表页的请求正在触发HTTP预取…_
+**5. 网络远远不够，作者：保罗·福特**
+
+The Web Is More Than Enough, by Paul Ford · Simon Willison · 3 小时前 · [原文](<https://simonwillison.net/2026/Nov/9/hn-50421091/>)
+
+_我对The Web Is More Than Enough的评论，作者Paul Ford-Hacker News。好吧，这个评论说服了我试一试。这是我今天早上在Three.js上做的一件东西--一个以Nudibranch为主题的Faberge Egg：…_
+
+**6. 隐藏您的SLOP公关描述**
+
+Hide your slop PR descriptions behind · Simon Willison · 3 小时前 · [原文](<https://simonwillison.net/2026/Nov/9/details-summary/>)
+
+_如今，我对项目所做的大部分更改都是以Claude Code或Codex为我开设的公关形式进行的。公关是我的工作单位-我使用它们将提交捆绑在一起，迭代它们，直到一个功能…_
+
+## 💭 观点与深度
+
+**1. 我如何对抗AI Brain Fry**
+
+How I Fight AI Brain Fry · Hacker News · 12 小时前 · ▲221 · [原文](<https://sergeykuhne.com/blog/fighting-ai-brain-fry>)
