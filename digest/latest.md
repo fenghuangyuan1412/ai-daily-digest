@@ -1,131 +1,131 @@
-# 📰 AI 日报 · 2026-11-10
+# 📰 AI 日报 · 2026-11-11
 
-> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 19 条已译
+> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 21 条已译
 
 ## 🚀 模型与产品发布
 
-**1. Google Gemini将个人云端硬盘文件和电子邮件路由到人工注释器**
+**1. Claude白板、Claude Sheets和Claude Data**
 
-Google Gemini routes personal Drive files and emails to human annotators · Hacker News · 13 小时前 · ▲558 · [原文](<https://github.com/thisisme6598/gemini_files/>)
+Claude Whiteboards, Claude Sheets, and Claude Data · Hacker News · 13 小时前 · ▲188 · [原文](<https://claude.com/resources/articles/sheets-whiteboards-data>)
 
-**2. Claude Fable 5.2和Mythos 5.2**
+**2. 克劳德九世的生活**
 
-Claude Fable 5.2 and Mythos 5.2 · Hacker News · 14 小时前 · ▲974 · [原文](<https://www.anthropic.com/claude-fable-and-mythos-5-2>)
+Life on Claude Nine · Hacker News · 14 小时前 · ▲96 · [原文](<https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html>)
 
-**3. 克劳德寓言人工分析5.2分65分，迄今为止最高**
+**3. Gilbert + Tobin借助人工智能重新思考法律业务**
 
-Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far · Hacker News · 12 小时前 · ▲338 · [原文](<https://artificialanalysis.ai/models/claude-fable-5-2>)
+Gilbert + Tobin rethinks the business of law with AI · OpenAI · [原文](<https://openai.com/index/gilbert-tobin-sam-nickless>)
 
-**4. Quoting Prompting Claude寓言5.2**
+_与Gilbert + Tobin合伙人兼首席执行官Sam Nickless的对话。_
 
-Quoting Prompting Claude Fable 5.2 · Simon Willison · 2 小时前 · [原文](<https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/>)
+**4. Gemini 4 Carbon现已上市**
 
-_Claude Fable 5.2紧密响应提示中关于谁拥有其工作代码的内容。在Anthropic对小型编码任务的测试中，当提示对所有权一无所知或将代码库呈现为…_
+Gemini 4 Carbon is now available · Google DeepMind · 15 小时前 · [原文](<https://deepmind.google/blog/gemini-4-carbon-is-now-available/>)
 
 ## 🔬 研究前沿
 
-**1. 控制室：一个中央系统，用于跟踪和停止整个研究基础设施的模型工作负载**
+**1. 用于自主X射线实验的可审计人类代理团队**
 
-Control Room: A central system to track and stop model workloads across our research infrastructure · OpenAI · 19 小时前 · [原文](<https://openai.com/index/control-room>)
+Auditable Human-Agent Teams for Autonomous X-ray Experimentation · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.12933>)
 
-_了解OpenAI的控制室如何在我们的研究基础设施中跟踪模型工作负载，并在出现安全问题或安保问题时迅速阻止它们。_
+_闭环自主实验可以加速科学发现，但实施工作限制了可访问性。代理系统可以降低这一障碍，尽管在物理仪器上持续运行…_
 
-**2. Nemotron-Personas-Finance-Japan：捕捉日本人口统计和金融背景的综合数据集**
+**2. EarthRecord：在四十年的卫星图像中，与多式联运代理一起从像素到土地变化**
 
-Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context · Hugging Face · 17 小时前 · [原文](<https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan>)
+EarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.12934>)
 
-**3. “非洲国家青年人工智能应用案例创意赛”获奖青年代表参访北京大学 - 北京大学中外人文交流研究基地**
+_虽然多式联运代理现在使用工具进行复杂的数据分析，但它们将数十年的卫星图像转化为可靠的土地变化分析的能力仍然无法衡量，这对地球观测科学至关重要。…_
 
-Google 新闻中文 · 1 小时前 · [原文](<https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Sa3RUem12dXRWVU5TbEF3Ung0RThHaTVaSWdjYUh5RW8xZXZnSkFmNmdneFZaMFRyalRQT0xGZFUzUmgxWXRRSW13NXF2TG5oclpaZ2NuR1BoYnM?oc=5>)
+**3. 预先训练，解码时监控：使用稀疏自动编码器进行主题监控**
 
-_“非洲国家青年人工智能应用案例创意赛”获奖青年代表参访北京大学 北京大学中外人文交流研究基地_
+Train on prefill, monitor at decode: Using sparse autoencoders for topic monitoring · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.12935>)
 
-**4. 【中国新闻网】中国学者发起人工智能赋能政策研究计划入选联合国科学议程 - 中国科学院科技战略咨询研究院**
+_主题监控是在生成期间在模型的响应中标记每个令牌的主题的任务。到目前为止，在生成时运行的基于激活的监视器已接受过检测有害内容的培训，…_
 
-Google 新闻中文 · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1VDNWTzlZelpxSjdWZno4RHQ1c2RSWnMyNzhCTmE4OERUMVAwOGJEeUkzM204X2xobmVLUlhudi00bjJ0OFRVeU1DcGNlMmlERWFCYTdUdnFmMHlVeUtNZDZLdzZVZw?oc=5>)
+**4. LandslideFM：统一滑坡感知和理解的基础模型**
 
-_【中国新闻网】中国学者发起人工智能赋能政策研究计划入选联合国科学议程 中国科学院科技战略咨询研究院_
+LandslideFM: A Foundation Model Towards Unified Landslide Perception and Understanding · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.12936>)
+
+_智能山体滑坡检测对于灾害预防至关重要。然而，现有模型主要关注孤立的视觉任务，需要大量的标记数据，缺乏深入的分析和场景理解…_
 
 ## 🏢 公司与行业动向
 
-**1. 据报道， Anthropic计划推进IPO计划**
+**1. OpenAI收购由Sonder创始人创建的旅游创业公司Odessia**
 
-Anthropic reportedly plans to move forward with IPO plans · TechCrunch AI · 6 小时前 · [原文](<https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/>)
+OpenAI acquires Odessia, travel startup created by Sonder founder · TechCrunch AI · 10 小时前 · [原文](<https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/>)
 
-_据《华尔街日报》报道，这家AI公司预计将在本周设定估值范围。_
+_OpenAI尚未说明其对未来旅行的计划。但Sonder创始人弗朗西斯·戴维森（Francis Davidson）是旅游业的知名人物。_
 
-**2. 一名卖空者在丑闻发生前六个月标记了英伟达首席执行官与一名疑似中国间谍的关系**
+**2. 随着纽约人工智能安全法生效， OpenAI、Anthropic面临新的监管**
 
-A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/>)
+OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect · TechCrunch AI · 10 小时前 · [原文](<https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/>)
 
-_在英伟达间谍丑闻爆发六个月前， Culper Research已经在质疑Jensen Huang与一位中国高管的异常亲密的关系。_
+_纽约正准备执行其全面的人工智能安全法，要求OpenAI和Anthropic等主要开发商进行注册，披露安全实践，并报告重大事件或面临罚款。_
 
-**3. 起诉英伟达的竞赛即将开始**
+**3. 所有7位Anthropic创始人都将在首次公开募股中兑现约2.5亿美元$**
 
-The race is on to sue Nvidia · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/>)
+All 7 Anthropic founders will each cash out about $250M in IPO · TechCrunch AI · 11 小时前 · [原文](<https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/>)
 
-_英伟达董事会对Jensen Huang与一名中国间谍嫌疑人的关系展开调查后，英伟达股价下跌逾4%，一名证券法专家表示，该公司早些时候坚称…_
+_七位联合创始人中的每一位都计划在IPO中出售完全相同数量的股票，这将使他们在价格区间的中点获得约2.5亿美元的现金，同时让集团掌控…_
 
-**4. Otter AI现在可以跟踪30多种语言的对话**
+**4. OpenAI推出新的业务配置文件，使ChatGPT更像谷歌**
 
-Otter AI can now follow conversations across 30+ languages · TechCrunch AI · 刚刚 · [原文](<https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/>)
+OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google · TechCrunch AI · 13 小时前 · [原文](<https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/>)
 
-_Otter AI刚刚增加了对27种语言的支持，并揭示了一个即将推出的功能，如果说话者在语言之间切换，可以随之而来。_
+_OpenAI希望使ChatGPT成为更强大的消费者发现引擎，而一系列新功能则旨在帮助企业实现这一目标。_
+
+**5. 随着亚马逊推出人工智能安全无人机和机器人，环形摄像头可以移动**
+
+Ring cameras go mobile as Amazon debuts AI-powered security drone and robot · Ars Technica AI · 9 小时前 · [原文](<https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/>)
+
+_亚马逊的漫游Ring Robotics设备将于2026年底和2027年初首次亮相。_
 
 ## 🛠 工程与开源工具
 
-**1. 随着人工智能信贷压力上升， CoreWeave债券收益率高达16%**
+**1. 跟踪Anthropic发现的漏洞**
 
-CoreWeave bond yield tops 16% as AI credit stress rises · Hacker News · 5 小时前 · ▲119 · [原文](<https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html>)
+Tracking Anthropic-discovered vulnerabilities · Hacker News · 9 小时前 · ▲384 · [原文](<https://www.vulncheck.com/blog/anthropic-glasswing-november-update>)
 
-**2. 在100 ％人工智能授权一年后，没有人理解我们的代码**
+**2. 苹果推出新的Mac应用程序，使运行本地AI模型变得轻松**
 
-A year after the 100% AI mandate nobody understands our code · Hacker News · 10 小时前 · ▲121 · [原文](<https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/>)
+Apple has new Mac app coming to make running local AI models easy · Hacker News · 10 小时前 · ▲166 · [原文](<https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/>)
 
-_https://redlib.catsarch.com/r/ClaudeCode/comments/1xq2n3t/a_..._
+**3. 推理求解的目标是什么？**
 
-**3. DeepX声称在低于5 W的情况下可推断高达100B的参数**
+What objective is reasoning solving? · Hacker News · 12 小时前 · ▲138 · [原文](<https://alexwang.ai/posts/reasoning-as-pathfinding/>)
 
-DeepX claims inference up to 100B parameters at less than 5 W · Hacker News · 13 小时前 · ▲152 · [原文](<https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/>)
+**4. Show HN：让您的编码代理脱离~ 2019 JavaScript，进入现代网络图元**
 
-**4. 显示HN： STE80人性化器-通过将80 ％的方式写入ASD-STE100来消除AI文本**
+Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives · Hacker News · 13 小时前 · ▲339 · [原文](<https://github.com/GoogleChrome/modern-web-guidance>)
 
-Show HN: STE80 Humanizer - de-AI text by writing 80% of the way to ASD-STE100 · Hacker News · 14 小时前 · ▲84 · [原文](<https://github.com/Dodaios/ste80-humanizer>)
+_浏览器本地处理许多过去需要50行JS （或依赖项）的内容： `CSS.highlights`用于文本范围突出显示，无<span>处不在， `<dialog>`和showModal ()为您提供背景和理想…_
 
-**5. llm-anthropic 0.31**
+**5. 人工智能正在成为信息网关。观众仍然不希望它成为新闻**
 
-Simon Willison · 8 小时前 · [原文](<https://simonwillison.net/2026/Nov/9/llm-anthropic/>)
-
-_发布： llm-anthropic 0.31 Anthropic今天发布了寓言5.2和神话5.2。寓言5.2目前在人工分析中排名第一。Anthropic说它“解决了黑洞物理学中的两个开放问题”，所以…_
+AI is becoming an information gateway. Audiences still don’t want it making news · Hacker News · 7 小时前 · ▲45 · [原文](<https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/>)
 
 ## 💭 观点与深度
 
-**1. 我们为人工智能设定的不可能标准-意见-《耶路撒冷邮报》**
+**1. 上海新增6款生成式人工智能服务备案 累计完成213款 - 观点网**
 
-The impossible standard we're setting for artificial intelligence- opinion - The Jerusalem Post · Google News · 1 小时前 · [原文](<https://news.google.com/rss/articles/CBMibEFVX3lxTE54OFhpQ3Q3eE16WThqdzZEQmhOb3I1dFNlY0tjWU5mX19VMDZOYV9ndEJzQy1zNzVKZzJTTFdvOUZkUkFtYjktZFp4QTh0YWpib3AyY01mV3poNExFcG9CajBSOGZ1S1BtbTE0OA?oc=5>)
+Google 新闻中文 · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMiYkFVX3lxTE1xRmxKSTJzejVBZVR6b2hCNDdQUnhnTmt4X3d2SFpYV2RHLVZCN0dJNXc5Tl9tUklQUGNMU1dEeVZLX2xNVVRYZFFkNnZmeUdZcFJta1pQWElLSTJJQVJjNnh3?oc=5>)
 
-_我们为人工智能设定的不可能标准--《耶路撒冷邮报》_
+_上海新增6款生成式人工智能服务备案 累计完成213款 观点网_
 
-**2. 2026年最值得购买的人工智能股票： 10大最佳选择和投资方式- The Motley Fool**
+**2. 人工智能如何改变医疗保健- MPR新闻**
 
-Best AI Stocks to Buy in 2026: 10 Top Picks & How to Invest - The Motley Fool · Google News · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMilwFBVV95cUxQcTN4SWRQbVZpY1lwSnJjN3YxWmY5LU5Qck5ia2psWWRwcWplZ0RGTFo3ZmJrZDZ1S1RQZFF2NUcwOTh0NXA3NlM0a25ieHhPWHprdTBmbWxzY2FtdHRIMlpSY1pzcTU5ZkhfN0wtcF9UeDg4WnZVYTZPSkRtcDNZaUJ1djdPQ1RVRkVQeVFUTnJrMFJ5VXdj?oc=5>)
+How artificial intelligence is changing healthcare - MPR News · Google News · 4 小时前 · [原文](<https://news.google.com/rss/articles/CBMimgFBVV95cUxPTGZzbUl2YXdwVFJDTlYtX29MNDNpbGt1SmFfVlYtd0hzVUxuZ3FYdUxKN3IzUHQwcnNMLXRINlVST0pLcVhsZC1XZHNCbkEzYnZnWGQyakxSYVNvSGFyVzNreHRvb2RyT0JVN2lwQTc4N09STXA3dmNWWVhQYnlGa1Z1eU1kb05yWnFpUXJDVFVOTEZxVk4zMTZB?oc=5>)
 
-_2026年最值得购买的人工智能股票： 10大精选以及如何投资Motley Fool_
+_人工智能如何改变医疗保健MPR新闻_
 
-**3. 关于数据中心的强烈反对可能真的只是关于电力**
+**3. 下载：佩洛西的继任者瞄准人工智能，数据中心面临电力问题**
 
-The backlash about data centers might really just be about electricity · MIT Tech Review · 12 小时前 · [原文](<https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/>)
+The Download: Pelosi’s successor targets AI and data centers face power woes · MIT Tech Review · 18 小时前 · [原文](<https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/>)
+
+_这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。南希·佩洛西（Nancy Pelosi）的替代者已经准备好监管人工智能-格雷斯·哈金斯（Grace Huckins）作为加利福尼亚人…_
+
+**4. 关于数据中心的强烈反对可能真的只是关于电力**
+
+The backlash about data centers might really just be about electricity · MIT Tech Review · 36 小时前 · [原文](<https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/>)
 
 _这个故事最初出现在我们的人工智能每周通讯《算法》上。要先在收件箱中获取此类故事，请在此处注册。当选民上周去美国各地投票时，我在弗吉尼亚州的阿什本，…_
-
-**4. 南希·佩洛西（Nancy Pelosi）的继任者已经准备好监管**
-
-Nancy Pelosi’s replacement is ready to regulate AI · MIT Tech Review · 15 小时前 · [原文](<https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/>)
-
-_作为加利福尼亚州参议员，斯科特·维纳（Scott Wiener）撰写了旨在遏制先进人工智能风险的立法。现在，在赢得前众议院议长南希·佩洛西（Nancy Pelosi）的旧金山公开赛后，…_
-
-**5. 在特殊化学品行业使用人工智能进行创新**
-
-Innovating with AI in the special chemicals industry · MIT Tech Review · 19 小时前 · [原文](<https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/>)
-
-_随着公司希望通过人工智能、云计算和高级建模加速创新，主要挑战是将新技术与可靠的数据、科学专业知识和…_
