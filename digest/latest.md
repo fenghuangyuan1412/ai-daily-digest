@@ -1,131 +1,125 @@
-# 📰 AI 日报 · 2026-11-11
+# 📰 AI 日报 · 2026-11-12
 
-> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 21 条已译
+> 21 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 20 条已译
 
 ## 🚀 模型与产品发布
 
-**1. Claude白板、Claude Sheets和Claude Data**
+**1. Gemini Decisions API**
 
-Claude Whiteboards, Claude Sheets, and Claude Data · Hacker News · 13 小时前 · ▲188 · [原文](<https://claude.com/resources/articles/sheets-whiteboards-data>)
+Hacker News · 13 小时前 · ▲398 （亦见于 Simon Willison） · [原文](<https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/>)
 
-**2. 克劳德九世的生活**
+**2. Gilbert + Tobin借助人工智能重新思考法律业务**
 
-Life on Claude Nine · Hacker News · 14 小时前 · ▲96 · [原文](<https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html>)
-
-**3. Gilbert + Tobin借助人工智能重新思考法律业务**
-
-Gilbert + Tobin rethinks the business of law with AI · OpenAI · [原文](<https://openai.com/index/gilbert-tobin-sam-nickless>)
+Gilbert + Tobin rethinks the business of law with AI · OpenAI · 8 小时前 · [原文](<https://openai.com/index/gilbert-tobin-sam-nickless>)
 
 _与Gilbert + Tobin合伙人兼首席执行官Sam Nickless的对话。_
 
-**4. Gemini 4 Carbon现已上市**
+**3. ChatGPT Plus，面向退伍军人和现役军人**
 
-Gemini 4 Carbon is now available · Google DeepMind · 15 小时前 · [原文](<https://deepmind.google/blog/gemini-4-carbon-is-now-available/>)
+ChatGPT Plus for veterans and servicemembers · OpenAI · 24 小时前 · [原文](<https://openai.com/index/chatgpt-plus-for-veterans>)
 
-## 🔬 研究前沿
+_超过20,000名退伍军人和即将退役的现役军人已领取了一年的ChatGPT Plus免费使用权。了解他们如何利用该服务为平民职业做好准备。_
 
-**1. 用于自主X射线实验的可审计人类代理团队**
+**4. JioStar首席架构师谈论5亿用户规模的AI发现**
 
-Auditable Human-Agent Teams for Autonomous X-ray Experimentation · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.12933>)
+JioStar’s chief architect on AI discovery at 500M-user scale · OpenAI · 32 小时前 · [原文](<https://openai.com/index/jiostar-vijay-seshadri>)
 
-_闭环自主实验可以加速科学发现，但实施工作限制了可访问性。代理系统可以降低这一障碍，尽管在物理仪器上持续运行…_
+_JioStar的Vijay Seshadri阐述了在5亿用户规模下的人工智能发现。阅读他关于评估、防护措施以及将人工智能投入生产的经验教训。_
 
-**2. EarthRecord：在四十年的卫星图像中，与多式联运代理一起从像素到土地变化**
+**5. Grok 构建编码代理泄露大量机密信息，其中一些属于 SpaceXSI**
 
-EarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.12934>)
+Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI · Ars Technica AI · 35 小时前 · [原文](<https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/>)
 
-_虽然多式联运代理现在使用工具进行复杂的数据分析，但它们将数十年的卫星图像转化为可靠的土地变化分析的能力仍然无法衡量，这对地球观测科学至关重要。…_
+_研究人员发现，有35,000个Grok Build应用对任何寻找它们的人敞开大门。_
 
-**3. 预先训练，解码时监控：使用稀疏自动编码器进行主题监控**
+**6. BotPsy：搭载低于十亿参数代理语言模型的设备端个人助理**
 
-Train on prefill, monitor at decode: Using sparse autoencoders for topic monitoring · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.12935>)
-
-_主题监控是在生成期间在模型的响应中标记每个令牌的主题的任务。到目前为止，在生成时运行的基于激活的监视器已接受过检测有害内容的培训，…_
-
-**4. LandslideFM：统一滑坡感知和理解的基础模型**
-
-LandslideFM: A Foundation Model Towards Unified Landslide Perception and Understanding · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.12936>)
-
-_智能山体滑坡检测对于灾害预防至关重要。然而，现有模型主要关注孤立的视觉任务，需要大量的标记数据，缺乏深入的分析和场景理解…_
+BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model · Hugging Face · 27 小时前 · [原文](<https://huggingface.co/blog/qvac/botpsy>)
 
 ## 🏢 公司与行业动向
 
-**1. OpenAI收购由Sonder创始人创建的旅游创业公司Odessia**
+**1. HN发布：Pomerado（YC F26）——将任何网站转变为适用于智能体的MCP**
 
-OpenAI acquires Odessia, travel startup created by Sonder founder · TechCrunch AI · 10 小时前 · [原文](<https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/>)
+Launch HN: Pomerado (YC F26) - Turn any website into an MCP for agents · Hacker News · 15 小时前 · ▲54 · [原文](<https://news.ycombinator.com/item?id=50455811>)
 
-_OpenAI尚未说明其对未来旅行的计划。但Sonder创始人弗朗西斯·戴维森（Francis Davidson）是旅游业的知名人物。_
+_HN，大家好！我们是来自Pomerado的Alan和Akshay（https://pomerado.ai/）。我们通过在几分钟内将网站转换为确定性、自愈式API，将您的代理连接到任何网站，完全自助式。代理不再…_
 
-**2. 随着纽约人工智能安全法生效， OpenAI、Anthropic面临新的监管**
+**2. 据报道，英伟达董事会正准备罢免首席执行官黄仁勋，该公司股价应声下跌**
 
-OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect · TechCrunch AI · 10 小时前 · [原文](<https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/>)
+Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang · TechCrunch AI · 8 小时前 · [原文](<https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/>)
 
-_纽约正准备执行其全面的人工智能安全法，要求OpenAI和Anthropic等主要开发商进行注册，披露安全实践，并报告重大事件或面临罚款。_
+_最早在周三晚上，英伟达董事会就可能决定罢免其掌舵33年的创始人兼首席执行官。_
 
-**3. 所有7位Anthropic创始人都将在首次公开募股中兑现约2.5亿美元$**
+**3. Jensen Huang被指控有另一段婚外情——与Nvidia高管**
 
-All 7 Anthropic founders will each cash out about $250M in IPO · TechCrunch AI · 11 小时前 · [原文](<https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/>)
+Jensen Huang accused of having another affair - with an Nvidia exec · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/>)
 
-_七位联合创始人中的每一位都计划在IPO中出售完全相同数量的股票，这将使他们在价格区间的中点获得约2.5亿美元的现金，同时让集团掌控…_
+_黄仁勋因承认与一名被指为中国情报人员的女性有染而受到抨击，如今又被指控与英伟达的一名下属有另一段婚外情。_
 
-**4. OpenAI推出新的业务配置文件，使ChatGPT更像谷歌**
+**4. Meta将失去其长期基础设施负责人**
 
-OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google · TechCrunch AI · 13 小时前 · [原文](<https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/>)
+Meta is losing its longtime head of infrastructure · TechCrunch AI · 12 小时前 · [原文](<https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/>)
 
-_OpenAI希望使ChatGPT成为更强大的消费者发现引擎，而一系列新功能则旨在帮助企业实现这一目标。_
+_Santosh Janardhan 于 2009 年加入公司，他将卸任现职。_
 
-**5. 随着亚马逊推出人工智能安全无人机和机器人，环形摄像头可以移动**
+**5. 台湾芯片制造巨头台积电将向Anthropic、OpenAI投资10亿美元**
 
-Ring cameras go mobile as Amazon debuts AI-powered security drone and robot · Ars Technica AI · 9 小时前 · [原文](<https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/>)
+Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI · Ars Technica AI · 14 小时前 · [原文](<https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/>)
 
-_亚马逊的漫游Ring Robotics设备将于2026年底和2027年初首次亮相。_
+_人工智能热潮的循环融资的最新例子出现在人工智能交易波动之际。_
+
+**6. 谁能接替黄仁勋？一份极不科学的可能继任者名单**
+
+Who could replace Jensen Huang? A highly unscientific list of possible successors · TechCrunch AI · 5 小时前 · [原文](<https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/>)
+
+_英伟达没有继任计划，且首席执行官正深陷困境，因此我们拟定了一份候选人名单。_
 
 ## 🛠 工程与开源工具
 
-**1. 跟踪Anthropic发现的漏洞**
+**1. 美国联合航空公司禁止人工智能代理代表旅客预订航班**
 
-Tracking Anthropic-discovered vulnerabilities · Hacker News · 9 小时前 · ▲384 · [原文](<https://www.vulncheck.com/blog/anthropic-glasswing-november-update>)
+United Airlines bans AI agents from booking flights on behalf of travelers · Hacker News · 10 小时前 · ▲521 · [原文](<https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/>)
 
-**2. 苹果推出新的Mac应用程序，使运行本地AI模型变得轻松**
+**2. AWS 模拟器**
 
-Apple has new Mac app coming to make running local AI models easy · Hacker News · 10 小时前 · ▲166 · [原文](<https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/>)
+AWS emulator · Hacker News · 13 小时前 · ▲806 （亦见于 Simon Willison） · [原文](<https://github.com/aws/aws-emulator>)
 
-**3. 推理求解的目标是什么？**
+_https://www.aboutamazon.com/news/aws/how-autonomous-ai-agent... https://www.allthingsdistributed.com/2026/11/aws-emulator-an..._
 
-What objective is reasoning solving? · Hacker News · 12 小时前 · ▲138 · [原文](<https://alexwang.ai/posts/reasoning-as-pathfinding/>)
+**3. 退休储蓄正在助长人工智能泡沫**
 
-**4. Show HN：让您的编码代理脱离~ 2019 JavaScript，进入现代网络图元**
+Retirement Savings Are Fueling the AI Bubble · Hacker News · 13 小时前 · ▲154 · [原文](<https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/>)
 
-Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives · Hacker News · 13 小时前 · ▲339 · [原文](<https://github.com/GoogleChrome/modern-web-guidance>)
+**4. 华为发布用于本地推理的内部量化器 MACaQ**
 
-_浏览器本地处理许多过去需要50行JS （或依赖项）的内容： `CSS.highlights`用于文本范围突出显示，无<span>处不在， `<dialog>`和showModal ()为您提供背景和理想…_
+Huawei releases MACaQ, its internal quantizer for local inference · Hacker News · 11 小时前 · ▲93 · [原文](<https://github.com/huawei-csl/MACaQ>)
 
-**5. 人工智能正在成为信息网关。观众仍然不希望它成为新闻**
+**5. 软件工程中的人工智能、活动和成果**
 
-AI is becoming an information gateway. Audiences still don’t want it making news · Hacker News · 7 小时前 · ▲45 · [原文](<https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/>)
+AI, activity, and outcomes in software engineering · Hacker News · 15 小时前 · ▲115 · [原文](<https://cabird.com/talks/shipping-faster/>)
+
+_https://www.youtube.com/watch?v=0wumMeZsNsI_
+
+**6. 更快检索，实现更好、更高效的RAG**
+
+Faster Retrieval for Better, More Efficient RAG · Hacker News · 15 小时前 · ▲196 · [原文](<https://machinelearning.apple.com/research/faster-retrieval>)
 
 ## 💭 观点与深度
 
-**1. 上海新增6款生成式人工智能服务备案 累计完成213款 - 观点网**
+**1. AlphaGenome 2：破译细胞如何读取DNA，以更好地了解疾病**
 
-Google 新闻中文 · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMiYkFVX3lxTE1xRmxKSTJzejVBZVR6b2hCNDdQUnhnTmt4X3d2SFpYV2RHLVZCN0dJNXc5Tl9tUklQUGNMU1dEeVZLX2xNVVRYZFFkNnZmeUdZcFJta1pQWElLSTJJQVJjNnh3?oc=5>)
+AlphaGenome 2: Deciphering how cells read DNA to better understand disease · Google DeepMind · 17 小时前 · [原文](<https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/>)
 
-_上海新增6款生成式人工智能服务备案 累计完成213款 观点网_
+_预测DNA序列及其变异如何影响特定的人类细胞类型和疾病。_
 
-**2. 人工智能如何改变医疗保健- MPR新闻**
+**2. 为什么您担心的那个数据中心可能永远都不会建成**
 
-How artificial intelligence is changing healthcare - MPR News · Google News · 4 小时前 · [原文](<https://news.google.com/rss/articles/CBMimgFBVV95cUxPTGZzbUl2YXdwVFJDTlYtX29MNDNpbGt1SmFfVlYtd0hzVUxuZ3FYdUxKN3IzUHQwcnNMLXRINlVST0pLcVhsZC1XZHNCbkEzYnZnWGQyakxSYVNvSGFyVzNreHRvb2RyT0JVN2lwQTc4N09STXA3dmNWWVhQYnlGa1Z1eU1kb05yWnFpUXJDVFVOTEZxVk4zMTZB?oc=5>)
+Why the data center you dread might never even be built · TechCrunch AI · 12 小时前 · [原文](<https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/>)
 
-_人工智能如何改变医疗保健MPR新闻_
+_数据中心热潮正遭遇严峻的现实障碍，包括普遍的当地反对、审批延误以及对电力资源的争夺。然而，在这些挑战真正出现之前，还有一个…_
 
-**3. 下载：佩洛西的继任者瞄准人工智能，数据中心面临电力问题**
+**3. 最新资讯：保护思想和权衡开放式人工智能的风险**
 
-The Download: Pelosi’s successor targets AI and data centers face power woes · MIT Tech Review · 18 小时前 · [原文](<https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/>)
+The Download: preserving minds and weighing open AI risks · MIT Tech Review · 19 小时前 · [原文](<https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/>)
 
-_这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。南希·佩洛西（Nancy Pelosi）的替代者已经准备好监管人工智能-格雷斯·哈金斯（Grace Huckins）作为加利福尼亚人…_
-
-**4. 关于数据中心的强烈反对可能真的只是关于电力**
-
-The backlash about data centers might really just be about electricity · MIT Tech Review · 36 小时前 · [原文](<https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/>)
-
-_这个故事最初出现在我们的人工智能每周通讯《算法》上。要先在收件箱中获取此类故事，请在此处注册。当选民上周去美国各地投票时，我在弗吉尼亚州的阿什本，…_
+_这是The Download的今日版，这是我们的工作日简讯，每日为您提供科技界最新动态。六个大胆的想法，让您的记忆永存随着年龄的增长，我们会忘记大部分经历过的事情。…_

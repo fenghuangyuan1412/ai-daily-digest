@@ -1,40 +1,30 @@
 {
-  "date": "2026-11-11",
-  "generatedAt": "2026-11-11T07:21:36.019Z",
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T07:51:26.183Z",
   "windowHours": 36,
   "sourcesTotal": 13,
   "sourcesOk": 13,
   "sourcesFailed": [],
-  "itemCount": 22,
-  "translatedCount": 21,
+  "itemCount": 21,
+  "translatedCount": 20,
   "sections": [
     {
       "key": "model",
       "label": "🚀 模型与产品发布",
       "items": [
         {
-          "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
-          "titleZh": "Claude白板、Claude Sheets和Claude Data",
-          "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+          "title": "Gemini Decisions API",
+          "titleZh": "",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
           "source": "Hacker News",
-          "alsoOn": [],
+          "alsoOn": [
+            "Simon Willison"
+          ],
           "summary": "",
           "summaryZh": "",
-          "published": "2026-11-10T17:55:07.000Z",
-          "points": 188,
-          "discussion": "https://news.ycombinator.com/item?id=50443716"
-        },
-        {
-          "title": "Life on Claude Nine",
-          "titleZh": "克劳德九世的生活",
-          "url": "https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html",
-          "source": "Hacker News",
-          "alsoOn": [],
-          "summary": "",
-          "summaryZh": "",
-          "published": "2026-11-10T17:44:44.000Z",
-          "points": 96,
-          "discussion": "https://news.ycombinator.com/item?id=50443587"
+          "published": "2026-11-11T18:32:42.000Z",
+          "points": 398,
+          "discussion": "https://news.ycombinator.com/item?id=50456791"
         },
         {
           "title": "Gilbert + Tobin rethinks the business of law with AI",
@@ -49,68 +39,50 @@
           "discussion": ""
         },
         {
-          "title": "Gemini 4 Carbon is now available",
-          "titleZh": "Gemini 4 Carbon现已上市",
-          "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-          "source": "Google DeepMind",
+          "title": "ChatGPT Plus for veterans and servicemembers",
+          "titleZh": "ChatGPT Plus，面向退伍军人和现役军人",
+          "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+          "summaryZh": "超过20,000名退伍军人和即将退役的现役军人已领取了一年的ChatGPT Plus免费使用权。了解他们如何利用该服务为平民职业做好准备。",
+          "published": "2026-11-11T08:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+          "titleZh": "JioStar首席架构师谈论5亿用户规模的AI发现",
+          "url": "https://openai.com/index/jiostar-vijay-seshadri",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+          "summaryZh": "JioStar的Vijay Seshadri阐述了在5亿用户规模下的人工智能发现。阅读他关于评估、防护措施以及将人工智能投入生产的经验教训。",
+          "published": "2026-11-11T00:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+          "titleZh": "Grok 构建编码代理泄露大量机密信息，其中一些属于 SpaceXSI",
+          "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+          "source": "Ars Technica AI",
+          "alsoOn": [],
+          "summary": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
+          "summaryZh": "研究人员发现，有35,000个Grok Build应用对任何寻找它们的人敞开大门。",
+          "published": "2026-11-10T21:12:59.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+          "titleZh": "BotPsy：搭载低于十亿参数代理语言模型的设备端个人助理",
+          "url": "https://huggingface.co/blog/qvac/botpsy",
+          "source": "Hugging Face",
           "alsoOn": [],
           "summary": "",
           "summaryZh": "",
-          "published": "2026-11-10T16:03:47.000Z",
-          "points": 0,
-          "discussion": ""
-        }
-      ]
-    },
-    {
-      "key": "research",
-      "label": "🔬 研究前沿",
-      "items": [
-        {
-          "title": "Auditable Human-Agent Teams for Autonomous X-ray Experimentation",
-          "titleZh": "用于自主X射线实验的可审计人类代理团队",
-          "url": "https://arxiv.org/abs/2611.12933",
-          "source": "arXiv cs.AI",
-          "alsoOn": [],
-          "summary": "Closed-loop autonomous experimentation can accelerate scientific discovery, but implementation effort limits accessibility. Agentic systems may lower this barrier, although sustained operation on physical instruments remains largely unexplored. Here, using coding-agent infrastructure grounded in validated scientific methods, we demonstrate autonomous synchrotron X-ray experiments on nanoparticle superlattices under evolving, human-defined objectives. Complete human-agent and agent-agent transcripts enable an audit that reconstructs decision provenance and characterizes the division of cognitive labor. Across three experiments, 61-67% of messages involved interpretation or judgment, while the share of methodological and scientific contributions increased from 46% in the setup-focused first experiment to 56-61% in later experiments. Provenance showed that 59-68% of error corrections involved multiple participants and that about half of all decisions incorporated the input of another participant. These results may guide design principles for multi-agent scientific systems and inform future agent harnesses, model training, and accessible autonomous experimentation.",
-          "summaryZh": "闭环自主实验可以加速科学发现，但实施工作限制了可访问性。代理系统可以降低这一障碍，尽管在物理仪器上持续运行…",
-          "published": "2026-11-11T05:00:00.000Z",
-          "points": 0,
-          "discussion": ""
-        },
-        {
-          "title": "EarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery",
-          "titleZh": "EarthRecord：在四十年的卫星图像中，与多式联运代理一起从像素到土地变化",
-          "url": "https://arxiv.org/abs/2611.12934",
-          "source": "arXiv cs.AI",
-          "alsoOn": [],
-          "summary": "While multimodal agents now carry out complex data analysis with tools, their ability to turn decades of satellite imagery into reliable land-change analysis, crucial for Earth observation science, remains unmeasured. Existing benchmarks fall short: they pose questions on curated images or give agents preprocessed inputs, leaving out the raw multi-sensor archives where such analysis begins. We introduce EarthRecord, a benchmark built on the raw record of 56 sites: four decades of Landsat, MODIS, VIIRS, and Sentinel-2 data, with cloud masking and cross-sensor harmonization left to the agent. It poses 238 land-change questions across ten analysis tasks, scored against withheld references from global products, agreement among methods, and visual interpretation. Two controls test what answers rest on: the closed book removes the record, and instrument pairs alter one satellite's data while nothing changes on the ground. Evaluations of twelve multimodal agents reveal that leading agents complete most analyses end to end but falter when an answer requires mapping from imagery. Further analysis shows that the record moves answers from prior knowledge to the pixels but not yet to the real change on the ground: when one satellite's data are altered, half of the right answers follow the alteration. EarthRecord thus provides a principled platform for measuring and advancing agents from pixels to land change.",
-          "summaryZh": "虽然多式联运代理现在使用工具进行复杂的数据分析，但它们将数十年的卫星图像转化为可靠的土地变化分析的能力仍然无法衡量，这对地球观测科学至关重要。…",
-          "published": "2026-11-11T05:00:00.000Z",
-          "points": 0,
-          "discussion": ""
-        },
-        {
-          "title": "Train on prefill, monitor at decode: Using sparse autoencoders for topic monitoring",
-          "titleZh": "预先训练，解码时监控：使用稀疏自动编码器进行主题监控",
-          "url": "https://arxiv.org/abs/2611.12935",
-          "source": "arXiv cs.AI",
-          "alsoOn": [],
-          "summary": "Topic monitoring is the task of labelling the topic of each token in a model's response during generation. Activation-based monitors that run at generation time have so far been trained to detect harmful content and are limited to two or three classes. We introduce TopicScope, a framework for training causal topic classifiers on SAE features that assign a topic to every token, so that the label can change partway through a response. We train three detector architectures on synthetic multi-topic conversations covering seven topics. Across Gemma-3 1B and 4B, monitors trained on features extracted from prefill hidden states were able to generalise to decoding. We also found that the classifiers are robust to perturbations, losing at most 5 macro-F1 points when off-topic asides are inserted, topics are removed or sections are reordered. Ablations conducted to understand the contribution of the SAE revealed that classifiers reaching baseline performance without it were several times larger. Our findings show that compact topic monitors can be trained inexpensively in prefill and deployed during generation. More broadly, our work shows where SAEs are useful beyond safety classification. Our code, dataset and checkpoints are available at https://github.com/Mercity-AI/SAE-Guardrails and https://huggingface.co/collections/Mercity/online-guardrails-using-sparse-autoencoders-6ac602940468c62fefb2b9e8",
-          "summaryZh": "主题监控是在生成期间在模型的响应中标记每个令牌的主题的任务。到目前为止，在生成时运行的基于激活的监视器已接受过检测有害内容的培训，…",
-          "published": "2026-11-11T05:00:00.000Z",
-          "points": 0,
-          "discussion": ""
-        },
-        {
-          "title": "LandslideFM: A Foundation Model Towards Unified Landslide Perception and Understanding",
-          "titleZh": "LandslideFM：统一滑坡感知和理解的基础模型",
-          "url": "https://arxiv.org/abs/2611.12936",
-          "source": "arXiv cs.AI",
-          "alsoOn": [],
-          "summary": "Intelligent landslide detection is essential for disaster prevention. However, existing models primarily focus on isolated visual tasks, require extensive labeled data, and lack deep analytical and scene-understanding capabilities. To address these limitations, we propose LandslideFM, the first unified foundation model that connects visual perception tasks with contextual interpretation of landslides. Specifically, LandslideFM adapts to multiple visual tasks via a Source-Agreement Graduated Trust semi-supervised learning framework that leverages limited labeled data alongside abundant unlabeled data. Furthermore, predicted landslide regions provide explicit spatial guidance to a Vision-Language Model adapted through parameter-efficient fine-tuning, enabling comprehensive landslide reasoning. To support training and evaluation in this domain, we also present LandslideVL, the first benchmark for intelligent landslide analysis, combining visual imagery and newly introduced textual prompts. Comprehensive experiments across public datasets and LandslideVL demonstrate that LandslideFM achieves superior quantitative and qualitative performance. Most importantly, LandslideFM surpasses general-purpose VLMs in specialized landslide reasoning and scene analysis. Our code is released at https://github.com/wangshanwen001/LandslideFM.",
-          "summaryZh": "智能山体滑坡检测对于灾害预防至关重要。然而，现有模型主要关注孤立的视觉任务，需要大量的标记数据，缺乏深入的分析和场景理解…",
-          "published": "2026-11-11T05:00:00.000Z",
+          "published": "2026-11-11T05:01:16.000Z",
           "points": 0,
           "discussion": ""
         }
@@ -121,62 +93,74 @@
       "label": "🏢 公司与行业动向",
       "items": [
         {
-          "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
-          "titleZh": "OpenAI收购由Sonder创始人创建的旅游创业公司Odessia",
-          "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+          "title": "Launch HN: Pomerado (YC F26) - Turn any website into an MCP for agents",
+          "titleZh": "HN发布：Pomerado（YC F26）——将任何网站转变为适用于智能体的MCP",
+          "url": "https://news.ycombinator.com/item?id=50455811",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "Hi HN, we’re Alan and Akshay from Pomerado ( https://pomerado.ai/ ). We connect your agents to any website by turning sites into deterministic, self-healing APIs in minutes, fully self-serve. Agents are no longer limited by their intelligence, but rather by their ability to interact with systems. Airlines, banks, e-commerce, insurance portals, government sites, and legacy portals all lack APIs or MCPs and are common parts of personal assistant or business workflows. Agents instead rely on browser automation or computer use, which can be slow, expensive, and unreliable. And even if computer use were perfect, most companies have banned it out of security and compliance concerns. We discovered this problem while tinkering with our own personal assistants. When OpenClaw came out, we wanted to “live our lives through our agents” and have them do everything for us. We soon found their usefulness was restricted by what tools they could connect to. For example, when trying to book flights, they fell back on computer use, which failed to checkout. These issues got magnified on repeated workflows, like searching many airlines at once. Pomerado started off as a project to improve these personal assistant workflows. As we started building, we realized that just-in-time tool creation could have significant applications for AI builders in legacy verticals. We’re ex-McKinsey and Scale AI, where we drove agent deployments in healthcare, professional services, and telecom. Each time, the biggest bottleneck was getting agents to interface well with legacy websites and apps. Pomerado is what we built. It’s a self-serve platform where devs can create APIs for any website (even those they don’t own), in minutes. Users (or their coding agents) provide a short natural language description, answer a few questions about their workflow, and receive a MCP in less than an hour. Future tool calls use the deterministic MCP, which usually returns results in 5-30 seconds. Here’s a walkthrough of our product: https://youtu.be/Bi4jci7rgHo In practice: - Our agent opens a browser, explores the website, and performs the requested task once by writing HTTP requests or a Playwright script. This example run establishes how to navigate the website, interact with the relevant controls, and obtain the desired result. If any additional user input is needed (e.g., login, clarification) the agent will ask the user over MCP. - Afterwards, the agent uses the example run, along with all of the data it recorded, to create a generalizable and repeatable API. Throughout this process, a separate Guardian model reviews the coding agent’s calls against a set of guardrails. We also run a battery of tests with synthetic inputs to ensure that the API is generalized and not overfit to one input. A final publication agent ensures that the integration publishes a reasonable and generalized input/output schema - We also handle sites that require authentication and 2FA. For authentication, we pass off to a deterministic sign-in process to ensure the model and our recorders never read customer credentials. Users can store 2FA TOTP seeds or link their account to a Pomerado phone number for us to autofill 2FA for them as well - If future runs fail, a maintenance job is kicked off to repair and improve the tool. The maintenance job can fix broken steps (e.g., a renamed button), add additional functionality (e.g., searching for business class flights in addition to economy), or add new guardrails (e.g., reservation dates must be in the future). We’ve even seen people improve tools by just saying “please make this faster” Unlike computer use, our MCPs are deterministic at runtime, which makes them much faster and cheaper. By taking slightly longer to do a task the first time, you reap the benefits much more in the future. It’s a great fit for repeated, high-volume tasks you want your agent to do. We’d love to have you try it! We have both an open-source (MIT) ( https://github.com/Pomerado/pomerado ) and a free hosted version ( https://app.pomerado.ai ). So far, users of Pomerado include: - A personal trainer using agents to prepare workouts and message clients. Before Pomerado, agents couldn’t login and use the site reliably, so this was all manual - Car dealerships connecting their Grok Bots to legacy dealer systems, including marketplaces, CRMs, and ERPs. Dealers switched from computer use, which could take 1hr+ - Personal assistants using Pomerado to integrate with a broad range of consumer websites Please ask any questions or share any feedback in the comments, thanks!",
+          "summaryZh": "HN，大家好！我们是来自Pomerado的Alan和Akshay（https://pomerado.ai/）。我们通过在几分钟内将网站转换为确定性、自愈式API，将您的代理连接到任何网站，完全自助式。代理不再…",
+          "published": "2026-11-11T17:11:56.000Z",
+          "points": 54,
+          "discussion": "https://news.ycombinator.com/item?id=50455811"
+        },
+        {
+          "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+          "titleZh": "据报道，英伟达董事会正准备罢免首席执行官黄仁勋，该公司股价应声下跌",
+          "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
           "source": "TechCrunch AI",
           "alsoOn": [],
-          "summary": "OpenAI has not yet said what its plans are for the future of travel. But Sonder founder Francis Davidson is a well-known figure in the travel industry.",
-          "summaryZh": "OpenAI尚未说明其对未来旅行的计划。但Sonder创始人弗朗西斯·戴维森（Francis Davidson）是旅游业的知名人物。",
-          "published": "2026-11-10T21:08:52.000Z",
+          "summary": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.",
+          "summaryZh": "最早在周三晚上，英伟达董事会就可能决定罢免其掌舵33年的创始人兼首席执行官。",
+          "published": "2026-11-11T23:28:45.000Z",
           "points": 0,
           "discussion": ""
         },
         {
-          "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
-          "titleZh": "随着纽约人工智能安全法生效， OpenAI、Anthropic面临新的监管",
-          "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+          "title": "Jensen Huang accused of having another affair - with an Nvidia exec",
+          "titleZh": "Jensen Huang被指控有另一段婚外情——与Nvidia高管",
+          "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
           "source": "TechCrunch AI",
           "alsoOn": [],
-          "summary": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines.",
-          "summaryZh": "纽约正准备执行其全面的人工智能安全法，要求OpenAI和Anthropic等主要开发商进行注册，披露安全实践，并报告重大事件或面临罚款。",
-          "published": "2026-11-10T20:52:13.000Z",
+          "summary": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
+          "summaryZh": "黄仁勋因承认与一名被指为中国情报人员的女性有染而受到抨击，如今又被指控与英伟达的一名下属有另一段婚外情。",
+          "published": "2026-11-11T23:17:05.000Z",
           "points": 0,
           "discussion": ""
         },
         {
-          "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
-          "titleZh": "所有7位Anthropic创始人都将在首次公开募股中兑现约2.5亿美元$",
-          "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+          "title": "Meta is losing its longtime head of infrastructure",
+          "titleZh": "Meta将失去其长期基础设施负责人",
+          "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
           "source": "TechCrunch AI",
           "alsoOn": [],
-          "summary": "Each of the seven co-founders plans to sell exactly the same number of shares in the IPO, which would bring each of them about $250 million in cash at the midpoint of the price range while leaving the group in control of the company.",
-          "summaryZh": "七位联合创始人中的每一位都计划在IPO中出售完全相同数量的股票，这将使他们在价格区间的中点获得约2.5亿美元的现金，同时让集团掌控…",
-          "published": "2026-11-10T19:57:52.000Z",
+          "summary": "Santosh Janardhan, who originally joined the company in 2009, will be stepping down from his role.",
+          "summaryZh": "Santosh Janardhan 于 2009 年加入公司，他将卸任现职。",
+          "published": "2026-11-11T20:12:01.000Z",
           "points": 0,
           "discussion": ""
         },
         {
-          "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
-          "titleZh": "OpenAI推出新的业务配置文件，使ChatGPT更像谷歌",
-          "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
-          "source": "TechCrunch AI",
-          "alsoOn": [],
-          "summary": "OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower businesses to help it do that.",
-          "summaryZh": "OpenAI希望使ChatGPT成为更强大的消费者发现引擎，而一系列新功能则旨在帮助企业实现这一目标。",
-          "published": "2026-11-10T18:49:52.000Z",
-          "points": 0,
-          "discussion": ""
-        },
-        {
-          "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
-          "titleZh": "随着亚马逊推出人工智能安全无人机和机器人，环形摄像头可以移动",
-          "url": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+          "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+          "titleZh": "台湾芯片制造巨头台积电将向Anthropic、OpenAI投资10亿美元",
+          "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
           "source": "Ars Technica AI",
           "alsoOn": [],
-          "summary": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
-          "summaryZh": "亚马逊的漫游Ring Robotics设备将于2026年底和2027年初首次亮相。",
-          "published": "2026-11-10T22:35:01.000Z",
+          "summary": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
+          "summaryZh": "人工智能热潮的循环融资的最新例子出现在人工智能交易波动之际。",
+          "published": "2026-11-11T18:16:40.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
+          "titleZh": "谁能接替黄仁勋？一份极不科学的可能继任者名单",
+          "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
+          "summaryZh": "英伟达没有继任计划，且首席执行官正深陷困境，因此我们拟定了一份候选人名单。",
+          "published": "2026-11-12T03:13:10.000Z",
           "points": 0,
           "discussion": ""
         }
@@ -187,64 +171,78 @@
       "label": "🛠 工程与开源工具",
       "items": [
         {
-          "title": "Tracking Anthropic-discovered vulnerabilities",
-          "titleZh": "跟踪Anthropic发现的漏洞",
-          "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+          "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+          "titleZh": "美国联合航空公司禁止人工智能代理代表旅客预订航班",
+          "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
           "source": "Hacker News",
           "alsoOn": [],
           "summary": "",
           "summaryZh": "",
-          "published": "2026-11-10T22:17:56.000Z",
-          "points": 384,
-          "discussion": "https://news.ycombinator.com/item?id=50447074"
+          "published": "2026-11-11T21:24:35.000Z",
+          "points": 521,
+          "discussion": "https://news.ycombinator.com/item?id=50458900"
         },
         {
-          "title": "Apple has new Mac app coming to make running local AI models easy",
-          "titleZh": "苹果推出新的Mac应用程序，使运行本地AI模型变得轻松",
-          "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+          "title": "AWS emulator",
+          "titleZh": "AWS 模拟器",
+          "url": "https://github.com/aws/aws-emulator",
+          "source": "Hacker News",
+          "alsoOn": [
+            "Simon Willison"
+          ],
+          "summary": "https://www.aboutamazon.com/news/aws/how-autonomous-ai-agent... https://www.allthingsdistributed.com/2026/11/aws-emulator-an...",
+          "summaryZh": "",
+          "published": "2026-11-11T18:21:38.000Z",
+          "points": 806,
+          "discussion": "https://news.ycombinator.com/item?id=50456631"
+        },
+        {
+          "title": "Retirement Savings Are Fueling the AI Bubble",
+          "titleZh": "退休储蓄正在助长人工智能泡沫",
+          "url": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/",
           "source": "Hacker News",
           "alsoOn": [],
           "summary": "",
           "summaryZh": "",
-          "published": "2026-11-10T21:25:03.000Z",
-          "points": 166,
-          "discussion": "https://news.ycombinator.com/item?id=50446520"
+          "published": "2026-11-11T19:06:43.000Z",
+          "points": 154,
+          "discussion": "https://news.ycombinator.com/item?id=50457164"
         },
         {
-          "title": "What objective is reasoning solving?",
-          "titleZh": "推理求解的目标是什么？",
-          "url": "https://alexwang.ai/posts/reasoning-as-pathfinding/",
+          "title": "Huawei releases MACaQ, its internal quantizer for local inference",
+          "titleZh": "华为发布用于本地推理的内部量化器 MACaQ",
+          "url": "https://github.com/huawei-csl/MACaQ",
           "source": "Hacker News",
           "alsoOn": [],
           "summary": "",
           "summaryZh": "",
-          "published": "2026-11-10T19:25:14.000Z",
-          "points": 138,
-          "discussion": "https://news.ycombinator.com/item?id=50445013"
+          "published": "2026-11-11T20:23:57.000Z",
+          "points": 93,
+          "discussion": "https://news.ycombinator.com/item?id=50458166"
         },
         {
-          "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
-          "titleZh": "Show HN：让您的编码代理脱离~ 2019 JavaScript，进入现代网络图元",
-          "url": "https://github.com/GoogleChrome/modern-web-guidance",
+          "title": "AI, activity, and outcomes in software engineering",
+          "titleZh": "软件工程中的人工智能、活动和成果",
+          "url": "https://cabird.com/talks/shipping-faster/",
           "source": "Hacker News",
           "alsoOn": [],
-          "summary": "Browsers natively handle a lot of what used to take 50 lines of JS (or a dependency): `CSS.highlights` for text range highlighting without <span>s everywhere, `<dialog>` and showModal() give you backdrops and ideal focus management, `field-sizing` to auto-grow textareas as the user types.. (Something yesterday's ftrain post touched on [0]) Models know about some of these by name, but consistently won't default to using the platform-native solution and instead prefer the incumbent <div>+JS based pattern. We started an effort in Chrome to supplement coding agents with this key domain knowledge and we're shipping our 1.0 today, in collaboration with Firefox, MDN, and Edge. 200+ guides (~1.7MB) of curated, hand-crafted implementation best-practices from web experts, updated as the web evolves. (Open source, obv, so.. we'll welcome your bikeshedding ;) Readable versions here: [1] I've spent the last 9 months obsessing over how to ship this as an agent skill + (Agentic RAG) CLI without blowing up your context window. (Or cedeing activation mechanics to MCP dynamic tool search). The skill description is minmaxed for activating on relevant frontend tasks. The RAG work I'm pretty proud of… originally a 500mb native stack down to a ~7MB pure-JS package, ~10ms search on your CPU. We just introduced a deterministic 'legacy-scan' (trained on 30k github repos) to identify old 'n dusted patterns that your agent can modernize. (92% avg precision on held-out repos.) People make a lot of claims about what coding agents are good/bad at. We wanted receipts, so we invested heavily in eval infra [2] to help us hill-climb, but also to identify when knowledge is common enough we can prune our guides. (Ofc, some of the things we thought AI didn't know turned out to be wrong :) We run codex/claude/agy against 200 tasks without the skill and then with.. In total ~1,700 playwright/AST-based assertions. Agents go from 55% pass unguided to 92% guided. Try it out: DISABLE_TELEMETRY=1 npx modern-web-guidance@latest install DISABLE_TELEMETRY=1 npx modern-web-guidance@latest search \"animate dialog modal\" DISABLE_TELEMETRY=1 npx modern-web-guidance@latest legacy-scan ./src If you spot something wrong or weird, give us a holler! Longer write-up on the 1.0: https://developer.chrome.com/blog/modern-web-guidance-v1 --- 0: https://news.ycombinator.com/item?id=50416456 1: https://developer.chrome.com/docs/modern-web-guidance/guides 2: https://googlechrome.github.io/modern-web-guidance-src/",
-          "summaryZh": "浏览器本地处理许多过去需要50行JS （或依赖项）的内容： `CSS.highlights`用于文本范围突出显示，无<span>处不在， `<dialog>`和showModal ()为您提供背景和理想…",
-          "published": "2026-11-10T18:01:15.000Z",
-          "points": 339,
-          "discussion": "https://news.ycombinator.com/item?id=50443812"
+          "summary": "https://www.youtube.com/watch?v=0wumMeZsNsI",
+          "summaryZh": "",
+          "published": "2026-11-11T16:33:28.000Z",
+          "points": 115,
+          "discussion": "https://news.ycombinator.com/item?id=50455332"
         },
         {
-          "title": "AI is becoming an information gateway. Audiences still don’t want it making news",
-          "titleZh": "人工智能正在成为信息网关。观众仍然不希望它成为新闻",
-          "url": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/",
+          "title": "Faster Retrieval for Better, More Efficient RAG",
+          "titleZh": "更快检索，实现更好、更高效的RAG",
+          "url": "https://machinelearning.apple.com/research/faster-retrieval",
           "source": "Hacker News",
           "alsoOn": [],
           "summary": "",
           "summaryZh": "",
-          "published": "2026-11-11T00:15:33.000Z",
-          "points": 45,
-          "discussion": "https://news.ycombinator.com/item?id=50448174"
+          "published": "2026-11-11T16:57:45.000Z",
+          "points": 196,
+          "discussion": "https://news.ycombinator.com/item?id=50455633"
         }
       ]
     },
@@ -253,55 +251,43 @@
       "label": "💭 观点与深度",
       "items": [
         {
-          "title": "上海新增6款生成式人工智能服务备案 累计完成213款 - 观点网",
-          "titleZh": "",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1xRmxKSTJzejVBZVR6b2hCNDdQUnhnTmt4X3d2SFpYV2RHLVZCN0dJNXc5Tl9tUklQUGNMU1dEeVZLX2xNVVRYZFFkNnZmeUdZcFJta1pQWElLSTJJQVJjNnh3?oc=5",
-          "source": "Google 新闻中文",
+          "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+          "titleZh": "AlphaGenome 2：破译细胞如何读取DNA，以更好地了解疾病",
+          "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+          "source": "Google DeepMind",
           "alsoOn": [],
-          "summary": "上海新增6款生成式人工智能服务备案 累计完成213款 观点网",
-          "summaryZh": "",
-          "published": "2026-11-11T05:29:06.000Z",
+          "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+          "summaryZh": "预测DNA序列及其变异如何影响特定的人类细胞类型和疾病。",
+          "published": "2026-11-11T15:00:15.000Z",
           "points": 0,
           "discussion": ""
         },
         {
-          "title": "How artificial intelligence is changing healthcare - MPR News",
-          "titleZh": "人工智能如何改变医疗保健- MPR新闻",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTGZzbUl2YXdwVFJDTlYtX29MNDNpbGt1SmFfVlYtd0hzVUxuZ3FYdUxKN3IzUHQwcnNMLXRINlVST0pLcVhsZC1XZHNCbkEzYnZnWGQyakxSYVNvSGFyVzNreHRvb2RyT0JVN2lwQTc4N09STXA3dmNWWVhQYnlGa1Z1eU1kb05yWnFpUXJDVFVOTEZxVk4zMTZB?oc=5",
-          "source": "Google News",
+          "title": "Why the data center you dread might never even be built",
+          "titleZh": "为什么您担心的那个数据中心可能永远都不会建成",
+          "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+          "source": "TechCrunch AI",
           "alsoOn": [],
-          "summary": "How artificial intelligence is changing healthcare MPR News",
-          "summaryZh": "人工智能如何改变医疗保健MPR新闻",
-          "published": "2026-11-11T03:38:11.000Z",
+          "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. With billions of dollars in AI infrastructure […]",
+          "summaryZh": "数据中心热潮正遭遇严峻的现实障碍，包括普遍的当地反对、审批延误以及对电力资源的争夺。然而，在这些挑战真正出现之前，还有一个…",
+          "published": "2026-11-11T20:15:15.000Z",
           "points": 0,
           "discussion": ""
         },
         {
-          "title": "The Download: Pelosi’s successor targets AI and data centers face power woes",
-          "titleZh": "下载：佩洛西的继任者瞄准人工智能，数据中心面临电力问题",
-          "url": "https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/",
+          "title": "The Download: preserving minds and weighing open AI risks",
+          "titleZh": "最新资讯：保护思想和权衡开放式人工智能的风险",
+          "url": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/",
           "source": "MIT Tech Review",
           "alsoOn": [],
-          "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Nancy Pelosi’s replacement is ready to regulate AI -Grace Huckins As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a…",
-          "summaryZh": "这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。南希·佩洛西（Nancy Pelosi）的替代者已经准备好监管人工智能-格雷斯·哈金斯（Grace Huckins）作为加利福尼亚人…",
-          "published": "2026-11-10T13:10:00.000Z",
-          "points": 0,
-          "discussion": ""
-        },
-        {
-          "title": "The backlash about data centers might really just be about electricity",
-          "titleZh": "关于数据中心的强烈反对可能真的只是关于电力",
-          "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
-          "source": "MIT Tech Review",
-          "alsoOn": [],
-          "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center Alley-the world’s largest data center hub. It’s also where…",
-          "summaryZh": "这个故事最初出现在我们的人工智能每周通讯《算法》上。要先在收件箱中获取此类故事，请在此处注册。当选民上周去美国各地投票时，我在弗吉尼亚州的阿什本，…",
-          "published": "2026-11-09T19:35:33.000Z",
+          "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Six wild ideas for perpetuating your mind As we age, we forget most of what we’ve experienced, yet there’s still undeniable continuity: At 30, or 50, or 70, you will still…",
+          "summaryZh": "这是The Download的今日版，这是我们的工作日简讯，每日为您提供科技界最新动态。六个大胆的想法，让您的记忆永存随着年龄的增长，我们会忘记大部分经历过的事情。…",
+          "published": "2026-11-11T13:10:00.000Z",
           "points": 0,
           "discussion": ""
         }
       ]
     }
   ],
-  "markdown": "# 📰 AI 日报 · 2026-11-11\n\n> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 21 条已译\n\n## 🚀 模型与产品发布\n\n**1. Claude白板、Claude Sheets和Claude Data**\n\nClaude Whiteboards, Claude Sheets, and Claude Data · Hacker News · 13 小时前 · ▲188 · [原文](<https://claude.com/resources/articles/sheets-whiteboards-data>)\n\n**2. 克劳德九世的生活**\n\nLife on Claude Nine · Hacker News · 14 小时前 · ▲96 · [原文](<https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html>)\n\n**3. Gilbert + Tobin借助人工智能重新思考法律业务**\n\nGilbert + Tobin rethinks the business of law with AI · OpenAI · [原文](<https://openai.com/index/gilbert-tobin-sam-nickless>)\n\n_与Gilbert + Tobin合伙人兼首席执行官Sam Nickless的对话。_\n\n**4. Gemini 4 Carbon现已上市**\n\nGemini 4 Carbon is now available · Google DeepMind · 15 小时前 · [原文](<https://deepmind.google/blog/gemini-4-carbon-is-now-available/>)\n\n## 🔬 研究前沿\n\n**1. 用于自主X射线实验的可审计人类代理团队**\n\nAuditable Human-Agent Teams for Autonomous X-ray Experimentation · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.12933>)\n\n_闭环自主实验可以加速科学发现，但实施工作限制了可访问性。代理系统可以降低这一障碍，尽管在物理仪器上持续运行…_\n\n**2. EarthRecord：在四十年的卫星图像中，与多式联运代理一起从像素到土地变化**\n\nEarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.12934>)\n\n_虽然多式联运代理现在使用工具进行复杂的数据分析，但它们将数十年的卫星图像转化为可靠的土地变化分析的能力仍然无法衡量，这对地球观测科学至关重要。…_\n\n**3. 预先训练，解码时监控：使用稀疏自动编码器进行主题监控**\n\nTrain on prefill, monitor at decode: Using sparse autoencoders for topic monitoring · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.12935>)\n\n_主题监控是在生成期间在模型的响应中标记每个令牌的主题的任务。到目前为止，在生成时运行的基于激活的监视器已接受过检测有害内容的培训，…_\n\n**4. LandslideFM：统一滑坡感知和理解的基础模型**\n\nLandslideFM: A Foundation Model Towards Unified Landslide Perception and Understanding · arXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.12936>)\n\n_智能山体滑坡检测对于灾害预防至关重要。然而，现有模型主要关注孤立的视觉任务，需要大量的标记数据，缺乏深入的分析和场景理解…_\n\n## 🏢 公司与行业动向\n\n**1. OpenAI收购由Sonder创始人创建的旅游创业公司Odessia**\n\nOpenAI acquires Odessia, travel startup created by Sonder founder · TechCrunch AI · 10 小时前 · [原文](<https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/>)\n\n_OpenAI尚未说明其对未来旅行的计划。但Sonder创始人弗朗西斯·戴维森（Francis Davidson）是旅游业的知名人物。_\n\n**2. 随着纽约人工智能安全法生效， OpenAI、Anthropic面临新的监管**\n\nOpenAI, Anthropic face new oversight as New York’s AI safety law takes effect · TechCrunch AI · 10 小时前 · [原文](<https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/>)\n\n_纽约正准备执行其全面的人工智能安全法，要求OpenAI和Anthropic等主要开发商进行注册，披露安全实践，并报告重大事件或面临罚款。_\n\n**3. 所有7位Anthropic创始人都将在首次公开募股中兑现约2.5亿美元$**\n\nAll 7 Anthropic founders will each cash out about $250M in IPO · TechCrunch AI · 11 小时前 · [原文](<https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/>)\n\n_七位联合创始人中的每一位都计划在IPO中出售完全相同数量的股票，这将使他们在价格区间的中点获得约2.5亿美元的现金，同时让集团掌控…_\n\n**4. OpenAI推出新的业务配置文件，使ChatGPT更像谷歌**\n\nOpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google · TechCrunch AI · 13 小时前 · [原文](<https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/>)\n\n_OpenAI希望使ChatGPT成为更强大的消费者发现引擎，而一系列新功能则旨在帮助企业实现这一目标。_\n\n**5. 随着亚马逊推出人工智能安全无人机和机器人，环形摄像头可以移动**\n\nRing cameras go mobile as Amazon debuts AI-powered security drone and robot · Ars Technica AI · 9 小时前 · [原文](<https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/>)\n\n_亚马逊的漫游Ring Robotics设备将于2026年底和2027年初首次亮相。_\n\n## 🛠 工程与开源工具\n\n**1. 跟踪Anthropic发现的漏洞**\n\nTracking Anthropic-discovered vulnerabilities · Hacker News · 9 小时前 · ▲384 · [原文](<https://www.vulncheck.com/blog/anthropic-glasswing-november-update>)\n\n**2. 苹果推出新的Mac应用程序，使运行本地AI模型变得轻松**\n\nApple has new Mac app coming to make running local AI models easy · Hacker News · 10 小时前 · ▲166 · [原文](<https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/>)\n\n**3. 推理求解的目标是什么？**\n\nWhat objective is reasoning solving? · Hacker News · 12 小时前 · ▲138 · [原文](<https://alexwang.ai/posts/reasoning-as-pathfinding/>)\n\n**4. Show HN：让您的编码代理脱离~ 2019 JavaScript，进入现代网络图元**\n\nShow HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives · Hacker News · 13 小时前 · ▲339 · [原文](<https://github.com/GoogleChrome/modern-web-guidance>)\n\n_浏览器本地处理许多过去需要50行JS （或依赖项）的内容： `CSS.highlights`用于文本范围突出显示，无<span>处不在， `<dialog>`和showModal ()为您提供背景和理想…_\n\n**5. 人工智能正在成为信息网关。观众仍然不希望它成为新闻**\n\nAI is becoming an information gateway. Audiences still don’t want it making news · Hacker News · 7 小时前 · ▲45 · [原文](<https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/>)\n\n## 💭 观点与深度\n\n**1. 上海新增6款生成式人工智能服务备案 累计完成213款 - 观点网**\n\nGoogle 新闻中文 · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMiYkFVX3lxTE1xRmxKSTJzejVBZVR6b2hCNDdQUnhnTmt4X3d2SFpYV2RHLVZCN0dJNXc5Tl9tUklQUGNMU1dEeVZLX2xNVVRYZFFkNnZmeUdZcFJta1pQWElLSTJJQVJjNnh3?oc=5>)\n\n_上海新增6款生成式人工智能服务备案 累计完成213款 观点网_\n\n**2. 人工智能如何改变医疗保健- MPR新闻**\n\nHow artificial intelligence is changing healthcare - MPR News · Google News · 4 小时前 · [原文](<https://news.google.com/rss/articles/CBMimgFBVV95cUxPTGZzbUl2YXdwVFJDTlYtX29MNDNpbGt1SmFfVlYtd0hzVUxuZ3FYdUxKN3IzUHQwcnNMLXRINlVST0pLcVhsZC1XZHNCbkEzYnZnWGQyakxSYVNvSGFyVzNreHRvb2RyT0JVN2lwQTc4N09STXA3dmNWWVhQYnlGa1Z1eU1kb05yWnFpUXJDVFVOTEZxVk4zMTZB?oc=5>)\n\n_人工智能如何改变医疗保健MPR新闻_\n\n**3. 下载：佩洛西的继任者瞄准人工智能，数据中心面临电力问题**\n\nThe Download: Pelosi’s successor targets AI and data centers face power woes · MIT Tech Review · 18 小时前 · [原文](<https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/>)\n\n_这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。南希·佩洛西（Nancy Pelosi）的替代者已经准备好监管人工智能-格雷斯·哈金斯（Grace Huckins）作为加利福尼亚人…_\n\n**4. 关于数据中心的强烈反对可能真的只是关于电力**\n\nThe backlash about data centers might really just be about electricity · MIT Tech Review · 36 小时前 · [原文](<https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/>)\n\n_这个故事最初出现在我们的人工智能每周通讯《算法》上。要先在收件箱中获取此类故事，请在此处注册。当选民上周去美国各地投票时，我在弗吉尼亚州的阿什本，…_\n"
+  "markdown": "# 📰 AI 日报 · 2026-11-12\n\n> 21 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 20 条已译\n\n## 🚀 模型与产品发布\n\n**1. Gemini Decisions API**\n\nHacker News · 13 小时前 · ▲398 （亦见于 Simon Willison） · [原文](<https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/>)\n\n**2. Gilbert + Tobin借助人工智能重新思考法律业务**\n\nGilbert + Tobin rethinks the business of law with AI · OpenAI · 8 小时前 · [原文](<https://openai.com/index/gilbert-tobin-sam-nickless>)\n\n_与Gilbert + Tobin合伙人兼首席执行官Sam Nickless的对话。_\n\n**3. ChatGPT Plus，面向退伍军人和现役军人**\n\nChatGPT Plus for veterans and servicemembers · OpenAI · 24 小时前 · [原文](<https://openai.com/index/chatgpt-plus-for-veterans>)\n\n_超过20,000名退伍军人和即将退役的现役军人已领取了一年的ChatGPT Plus免费使用权。了解他们如何利用该服务为平民职业做好准备。_\n\n**4. JioStar首席架构师谈论5亿用户规模的AI发现**\n\nJioStar’s chief architect on AI discovery at 500M-user scale · OpenAI · 32 小时前 · [原文](<https://openai.com/index/jiostar-vijay-seshadri>)\n\n_JioStar的Vijay Seshadri阐述了在5亿用户规模下的人工智能发现。阅读他关于评估、防护措施以及将人工智能投入生产的经验教训。_\n\n**5. Grok 构建编码代理泄露大量机密信息，其中一些属于 SpaceXSI**\n\nGrok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI · Ars Technica AI · 35 小时前 · [原文](<https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/>)\n\n_研究人员发现，有35,000个Grok Build应用对任何寻找它们的人敞开大门。_\n\n**6. BotPsy：搭载低于十亿参数代理语言模型的设备端个人助理**\n\nBotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model · Hugging Face · 27 小时前 · [原文](<https://huggingface.co/blog/qvac/botpsy>)\n\n## 🏢 公司与行业动向\n\n**1. HN发布：Pomerado（YC F26）——将任何网站转变为适用于智能体的MCP**\n\nLaunch HN: Pomerado (YC F26) - Turn any website into an MCP for agents · Hacker News · 15 小时前 · ▲54 · [原文](<https://news.ycombinator.com/item?id=50455811>)\n\n_HN，大家好！我们是来自Pomerado的Alan和Akshay（https://pomerado.ai/）。我们通过在几分钟内将网站转换为确定性、自愈式API，将您的代理连接到任何网站，完全自助式。代理不再…_\n\n**2. 据报道，英伟达董事会正准备罢免首席执行官黄仁勋，该公司股价应声下跌**\n\nNvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang · TechCrunch AI · 8 小时前 · [原文](<https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/>)\n\n_最早在周三晚上，英伟达董事会就可能决定罢免其掌舵33年的创始人兼首席执行官。_\n\n**3. Jensen Huang被指控有另一段婚外情——与Nvidia高管**\n\nJensen Huang accused of having another affair - with an Nvidia exec · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/>)\n\n_黄仁勋因承认与一名被指为中国情报人员的女性有染而受到抨击，如今又被指控与英伟达的一名下属有另一段婚外情。_\n\n**4. Meta将失去其长期基础设施负责人**\n\nMeta is losing its longtime head of infrastructure · TechCrunch AI · 12 小时前 · [原文](<https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/>)\n\n_Santosh Janardhan 于 2009 年加入公司，他将卸任现职。_\n\n**5. 台湾芯片制造巨头台积电将向Anthropic、OpenAI投资10亿美元**\n\nTaiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI · Ars Technica AI · 14 小时前 · [原文](<https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/>)\n\n_人工智能热潮的循环融资的最新例子出现在人工智能交易波动之际。_\n\n**6. 谁能接替黄仁勋？一份极不科学的可能继任者名单**\n\nWho could replace Jensen Huang? A highly unscientific list of possible successors · TechCrunch AI · 5 小时前 · [原文](<https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/>)\n\n_英伟达没有继任计划，且首席执行官正深陷困境，因此我们拟定了一份候选人名单。_\n\n## 🛠 工程与开源工具\n\n**1. 美国联合航空公司禁止人工智能代理代表旅客预订航班**\n\nUnited Airlines bans AI agents from booking flights on behalf of travelers · Hacker News · 10 小时前 · ▲521 · [原文](<https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/>)\n\n**2. AWS 模拟器**\n\nAWS emulator · Hacker News · 13 小时前 · ▲806 （亦见于 Simon Willison） · [原文](<https://github.com/aws/aws-emulator>)\n\n_https://www.aboutamazon.com/news/aws/how-autonomous-ai-agent... https://www.allthingsdistributed.com/2026/11/aws-emulator-an..._\n\n**3. 退休储蓄正在助长人工智能泡沫**\n\nRetirement Savings Are Fueling the AI Bubble · Hacker News · 13 小时前 · ▲154 · [原文](<https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/>)\n\n**4. 华为发布用于本地推理的内部量化器 MACaQ**\n\nHuawei releases MACaQ, its internal quantizer for local inference · Hacker News · 11 小时前 · ▲93 · [原文](<https://github.com/huawei-csl/MACaQ>)\n\n**5. 软件工程中的人工智能、活动和成果**\n\nAI, activity, and outcomes in software engineering · Hacker News · 15 小时前 · ▲115 · [原文](<https://cabird.com/talks/shipping-faster/>)\n\n_https://www.youtube.com/watch?v=0wumMeZsNsI_\n\n**6. 更快检索，实现更好、更高效的RAG**\n\nFaster Retrieval for Better, More Efficient RAG · Hacker News · 15 小时前 · ▲196 · [原文](<https://machinelearning.apple.com/research/faster-retrieval>)\n\n## 💭 观点与深度\n\n**1. AlphaGenome 2：破译细胞如何读取DNA，以更好地了解疾病**\n\nAlphaGenome 2: Deciphering how cells read DNA to better understand disease · Google DeepMind · 17 小时前 · [原文](<https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/>)\n\n_预测DNA序列及其变异如何影响特定的人类细胞类型和疾病。_\n\n**2. 为什么您担心的那个数据中心可能永远都不会建成**\n\nWhy the data center you dread might never even be built · TechCrunch AI · 12 小时前 · [原文](<https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/>)\n\n_数据中心热潮正遭遇严峻的现实障碍，包括普遍的当地反对、审批延误以及对电力资源的争夺。然而，在这些挑战真正出现之前，还有一个…_\n\n**3. 最新资讯：保护思想和权衡开放式人工智能的风险**\n\nThe Download: preserving minds and weighing open AI risks · MIT Tech Review · 19 小时前 · [原文](<https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/>)\n\n_这是The Download的今日版，这是我们的工作日简讯，每日为您提供科技界最新动态。六个大胆的想法，让您的记忆永存随着年龄的增长，我们会忘记大部分经历过的事情。…_\n"
 }
