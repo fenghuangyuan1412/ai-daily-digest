@@ -1,125 +1,129 @@
-# 📰 AI 日报 · 2026-11-12
+# 📰 AI 日报 · 2026-11-13
 
-> 21 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 20 条已译
+> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 18 条已译
 
 ## 🚀 模型与产品发布
 
-**1. Gemini Decisions API**
+**1. Gemini 4 氢气**
 
-Hacker News · 13 小时前 · ▲398 （亦见于 Simon Willison） · [原文](<https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/>)
+Gemini 4 Hydrogen · Hacker News · 13 小时前 · ▲514 · [原文](<https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/>)
 
-**2. Gilbert + Tobin借助人工智能重新思考法律业务**
+**2. Gemini 4 Hydrogen 和 Orchestrator**
 
-Gilbert + Tobin rethinks the business of law with AI · OpenAI · 8 小时前 · [原文](<https://openai.com/index/gilbert-tobin-sam-nickless>)
+Gemini 4 Hydrogen and Orchestrator · Hacker News · 13 小时前 · ▲394 · [原文](<https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/>)
 
-_与Gilbert + Tobin合伙人兼首席执行官Sam Nickless的对话。_
+**3. Gemini 4 Hydrogen隆重登场**
 
-**3. ChatGPT Plus，面向退伍军人和现役军人**
+Introducing Gemini 4 Hydrogen · Google DeepMind · 13 小时前 · [原文](<https://deepmind.google/blog/introducing-gemini-4-hydrogen/>)
 
-ChatGPT Plus for veterans and servicemembers · OpenAI · 24 小时前 · [原文](<https://openai.com/index/chatgpt-plus-for-veterans>)
+**4. llm-gemini 0.37**
 
-_超过20,000名退伍军人和即将退役的现役军人已领取了一年的ChatGPT Plus免费使用权。了解他们如何利用该服务为平民职业做好准备。_
+Simon Willison · 9 小时前 · [原文](<https://simonwillison.net/2026/Nov/12/llm-gemini/>)
 
-**4. JioStar首席架构师谈论5亿用户规模的AI发现**
+_发布：llm-gemini 0.37 Google今天推出了Gemini 4 Hydrogen——Gemini 4系列中最便宜的成员。实际上，它的价格与体型大得多的“兄弟”Carbon和Argon相差不大。我正在寻找Gemini…_
 
-JioStar’s chief architect on AI discovery at 500M-user scale · OpenAI · 32 小时前 · [原文](<https://openai.com/index/jiostar-vijay-seshadri>)
+**5. 谷歌推出 Gemini 4 Hydrogen，终于取代了 3.8 Flash**
 
-_JioStar的Vijay Seshadri阐述了在5亿用户规模下的人工智能发现。阅读他关于评估、防护措施以及将人工智能投入生产的经验教训。_
+Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash · Ars Technica AI · 12 小时前 · [原文](<https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/>)
 
-**5. Grok 构建编码代理泄露大量机密信息，其中一些属于 SpaceXSI**
+_Gemini 4 氢气不像碳和氩气那样以缓慢、注重安全的方式释放。_
 
-Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI · Ars Technica AI · 35 小时前 · [原文](<https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/>)
+## 🔬 研究前沿
 
-_研究人员发现，有35,000个Grok Build应用对任何寻找它们的人敞开大门。_
+**1. 支持有关人工智能和儿童安全的研究**
 
-**6. BotPsy：搭载低于十亿参数代理语言模型的设备端个人助理**
+Supporting research on AI and children’s safety · OpenAI · 31 小时前 · [原文](<https://openai.com/index/children-first-declaration>)
 
-BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model · Hugging Face · 27 小时前 · [原文](<https://huggingface.co/blog/qvac/botpsy>)
+_OpenAI投入200万美元用于人工智能与儿童安全方面的研究。这项工作支持使用共享工具来衡量年轻人面临的风险和机遇。_
+
+**2. 研究模型揭示人工智能如何引发机构事实核查的不可逆崩溃-Bioengineer.org**
+
+Study Models How Artificial Intelligence Triggers Irreversible Breakdown in Institutional Fact Checking - Bioengineer.org · Google News · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMixwFBVV95cUxNUkJCVlRRRGYyX3lndVRIZ2M2Nk52STJuOVh1TUVHUXNrbWpmTWh2ZUxqMHFEVmRNSTlnSHg2Mk1pZjg4bW1ROVRhV1ZDR29xTkhNU1Yzc2J2UG1PZ1ZrZkhYUm0yWG1tOHZEVVlLSGFtR3lCcXZjd2NHZE8zVlpYUm5PMndyOTl0VjNmRnl2UklFM1hUUkd3ZVlucGRuVUowWkMxd2tOMUV6RE1Gc1dVU0ducFpxSElWekg2bGJhMm9KTGZJRndJ?oc=5>)
+
+_研究模型揭示人工智能如何引发不可逆转的机构事实核查崩溃 Bioengineer.org_
 
 ## 🏢 公司与行业动向
 
-**1. HN发布：Pomerado（YC F26）——将任何网站转变为适用于智能体的MCP**
+**1. Gondola 的团队使用 Codex 构建更多内容，其收入翻了一番**
 
-Launch HN: Pomerado (YC F26) - Turn any website into an MCP for agents · Hacker News · 15 小时前 · ▲54 · [原文](<https://news.ycombinator.com/item?id=50455811>)
+Gondola doubles revenue as its team builds more with Codex · OpenAI · 19 小时前 · [原文](<https://openai.com/business/customer-stories/gondola>)
 
-_HN，大家好！我们是来自Pomerado的Alan和Akshay（https://pomerado.ai/）。我们通过在几分钟内将网站转换为确定性、自愈式API，将您的代理连接到任何网站，完全自助式。代理不再…_
+_Gondola 帮助创意人士获得认可并赢得工作机会，Codex 让其首席工程师的产出提高了 50%，ChatGPT 则简化了日常工作。_
 
-**2. 据报道，英伟达董事会正准备罢免首席执行官黄仁勋，该公司股价应声下跌**
+**2. 民主党人发起对Nvidia的调查，就黄仁勋与特朗普的“阴谋”撰写措辞严厉的信函**
 
-Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang · TechCrunch AI · 8 小时前 · [原文](<https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/>)
+Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/>)
 
-_最早在周三晚上，英伟达董事会就可能决定罢免其掌舵33年的创始人兼首席执行官。_
+_这是自所谓间谍事件的消息传出以来，迄今为止对英伟达在中国销售情况及其与特朗普的往来进行的第二次国会调查。_
 
-**3. Jensen Huang被指控有另一段婚外情——与Nvidia高管**
+**3. 谷歌最新的搜索升级承诺为您最复杂的问题提供更好的答案**
 
-Jensen Huang accused of having another affair - with an Nvidia exec · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/>)
+Google’s latest Search upgrade promises better answers to your most complicated questions · TechCrunch AI · 12 小时前 · [原文](<https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/>)
 
-_黄仁勋因承认与一名被指为中国情报人员的女性有染而受到抨击，如今又被指控与英伟达的一名下属有另一段婚外情。_
+_得益于Gemini 4 Hydrogen，Google的AI模式在理解复杂查询、显示相关链接和提供更丰富的视觉响应方面正变得越来越出色。_
 
-**4. Meta将失去其长期基础设施负责人**
+**4. Gilbert + Tobin 借助 AI 重新思考法律业务 - OpenAI**
 
-Meta is losing its longtime head of infrastructure · TechCrunch AI · 12 小时前 · [原文](<https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/>)
+Google 新闻中文 · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMicEFVX3lxTFBDeXdCOHRBVkh6RWlJajBFc3ZzRUxiZEpvOG9ONnhVSG1XV1BRd1ZPTEJlUFRTaGY5SnlBTW5DNl9HbVVyYnY2VjRidklwT2c0TlpMbGxhRmNabVBkSzRoSXcySGxuYmNONzQ5emotdG4?oc=5>)
 
-_Santosh Janardhan 于 2009 年加入公司，他将卸任现职。_
+_Gilbert + Tobin 借助 AI 重新思考法律业务 OpenAI_
 
-**5. 台湾芯片制造巨头台积电将向Anthropic、OpenAI投资10亿美元**
+**5. 美国联邦航空管理局（FAA）将人工智能建议的适用范围扩展至美国整个领空，以管理空中交通拥堵**
 
-Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI · Ars Technica AI · 14 小时前 · [原文](<https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/>)
+FAA expands AI advice to manage air traffic congestion across entire US airspace · Ars Technica AI · 9 小时前 · [原文](<https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/>)
 
-_人工智能热潮的循环融资的最新例子出现在人工智能交易波动之际。_
-
-**6. 谁能接替黄仁勋？一份极不科学的可能继任者名单**
-
-Who could replace Jensen Huang? A highly unscientific list of possible successors · TechCrunch AI · 5 小时前 · [原文](<https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/>)
-
-_英伟达没有继任计划，且首席执行官正深陷困境，因此我们拟定了一份候选人名单。_
+_航空公司对该人工智能工具赞不绝口，但空中交通管制员工会并未参与其中。_
 
 ## 🛠 工程与开源工具
 
-**1. 美国联合航空公司禁止人工智能代理代表旅客预订航班**
+**1. 芝加哥学校对谷歌表示：我们宁愿失去搜索功能，也不愿被迫接受人工智能**
 
-United Airlines bans AI agents from booking flights on behalf of travelers · Hacker News · 10 小时前 · ▲521 · [原文](<https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/>)
+Chicago schools to Google - we'd rather lose Search than be forced to accept AI · Hacker News · 7 小时前 · ▲73 · [原文](<https://www.techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html>)
 
-**2. AWS 模拟器**
+**2. 人工智能正将苹果的应用审核流程变成合成器开发者的噩梦**
 
-AWS emulator · Hacker News · 13 小时前 · ▲806 （亦见于 Simon Willison） · [原文](<https://github.com/aws/aws-emulator>)
+AI is turning Apple's app review process into a nightmare for synth developers · Hacker News · 10 小时前 · ▲155 · [原文](<https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html>)
 
-_https://www.aboutamazon.com/news/aws/how-autonomous-ai-agent... https://www.allthingsdistributed.com/2026/11/aws-emulator-an..._
+**3. Edge0-145B：在您自己的电脑上使用前沿人工智能功能**
 
-**3. 退休储蓄正在助长人工智能泡沫**
+Edge0-145B: Frontier AI Capabilities on Your Own Computer · Hacker News · 8 小时前 · ▲203 · [原文](<https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer>)
 
-Retirement Savings Are Fueling the AI Bubble · Hacker News · 13 小时前 · ▲154 · [原文](<https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/>)
+**4. 中国尖端人工智能模型带有受出口管制的GPU的印记**
 
-**4. 华为发布用于本地推理的内部量化器 MACaQ**
+Chinese frontier AI models carry the fingerprint of export-controlled GPUs · Hacker News · 10 小时前 · ▲273 · [原文](<https://unemploymentlabs.com/checkpoint-forensics>)
 
-Huawei releases MACaQ, its internal quantizer for local inference · Hacker News · 11 小时前 · ▲93 · [原文](<https://github.com/huawei-csl/MACaQ>)
+**5. Show HN：AgentRun-开源、自我改进的托管代理**
 
-**5. 软件工程中的人工智能、活动和成果**
+Show HN: AgentRun - open-source, Self-improving Managed Agents · Hacker News · 13 小时前 · ▲93 · [原文](<https://github.com/Parcha-ai/agentrun/blob/main/README.md>)
 
-AI, activity, and outcomes in software engineering · Hacker News · 15 小时前 · ▲115 · [原文](<https://cabird.com/talks/shipping-faster/>)
+_我们（GREP.AI，YC F26）正在将AgentRun开源，并将其转变为一个全托管代理平台。请阅读这篇文章，了解更多相关信息：https://agentrun.ai/blog/introducing-agentrun-run-smarter-ag……。其中介绍了我们…_
 
-_https://www.youtube.com/watch?v=0wumMeZsNsI_
+**6. aws-emulator**
 
-**6. 更快检索，实现更好、更高效的RAG**
+Simon Willison · 34 小时前 · [原文](<https://simonwillison.net/2026/Nov/11/aws-emulator/>)
 
-Faster Retrieval for Better, More Efficient RAG · Hacker News · 15 小时前 · ▲196 · [原文](<https://machinelearning.apple.com/research/faster-retrieval>)
+_aws-emulator终于有了AWS的官方模拟器，可以在其众多不同服务的本地克隆上运行测试，而无需为此提供付费API密钥。它由大量代理使用Rust编写。…_
 
 ## 💭 观点与深度
 
-**1. AlphaGenome 2：破译细胞如何读取DNA，以更好地了解疾病**
+**1. 为什么您应该预见到人工智能泡沫破裂**
 
-AlphaGenome 2: Deciphering how cells read DNA to better understand disease · Google DeepMind · 17 小时前 · [原文](<https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/>)
+Why You Should Expect an AI Crash · Hacker News · 8 小时前 · ▲90 · [原文](<https://www.economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash>)
 
-_预测DNA序列及其变异如何影响特定的人类细胞类型和疾病。_
+**2. Amplitude如何借助OpenAI在1-2天内推出产品改进**
 
-**2. 为什么您担心的那个数据中心可能永远都不会建成**
+How Amplitude ships product improvements in 1-2 days with OpenAI · OpenAI · 11 小时前 · [原文](<https://openai.com/business/customer-stories/amplitude>)
 
-Why the data center you dread might never even be built · TechCrunch AI · 12 小时前 · [原文](<https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/>)
+_Amplitude 的主动式产品代理 Wave 主要基于 OpenAI 模型构建，可识别需要构建的内容，帮助团队通过编码代理交付变更，并衡量其影响。_
 
-_数据中心热潮正遭遇严峻的现实障碍，包括普遍的当地反对、审批延误以及对电力资源的争夺。然而，在这些挑战真正出现之前，还有一个…_
+**3. 人工智能时代，技能人才何为（连线评论员） - 人民日报**
 
-**3. 最新资讯：保护思想和权衡开放式人工智能的风险**
+Google 新闻中文 · 6 小时前 · [原文](<https://news.google.com/rss/articles/CBMigAFBVV95cUxQakUzNjNkeERKYlhGTmpCSXVpa2FTQVp1YW1xS29ibEdBdktkeVFKWnZmbnNpTmg2UThVYVBGWEFKbGxyVDZfSWs0RFk0eG9IMXQ2SGdYRmtTNGhYYUN3anNrUFhucUNiNjE2UnlJb1BjVUs1SFZFeU5iYjdoeE1oRA?oc=5>)
 
-The Download: preserving minds and weighing open AI risks · MIT Tech Review · 19 小时前 · [原文](<https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/>)
+_人工智能时代，技能人才何为（连线评论员） 人民日报_
 
-_这是The Download的今日版，这是我们的工作日简讯，每日为您提供科技界最新动态。六个大胆的想法，让您的记忆永存随着年龄的增长，我们会忘记大部分经历过的事情。…_
+**4. 公共卫生机构如何有效且负责任地使用人工智能-皮尤慈善信托基金会**
+
+How Public Health Agencies Can Use Artificial Intelligence Effectively and Responsibly - The Pew Charitable Trusts · Google News · 16 小时前 · [原文](<https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZ3hXd1F3VnVfUTB4cl8yZ1VoMy1VWDVBU1gzUUh2M3JxNnJRQzI2ZmF2YUc2Yk1qa1ZpYWxicnRQZU02OEFYRUxjN0g5MXhEVXFUYWY2QV9wTFNVbnhXVUpEQ0o2OV9fX1VIcFo5RUdVbUdOeDFsSXotTWFoYUFtX3hySXQ0b1FsYjlYSEtxWUdoVVdTcXVHWDk0UXlWWGQ2dkswWlp2b1BDTDdlLTZQelAwLWx2SUZRVXZhUmo1YWtIY3dyMVM1SWpVU3pKa2xZNlk3bk03YjlkMU40bkp4VFVvVEJGUQ?oc=5>)
+
+_公共卫生机构如何有效且负责任地使用人工智能皮尤慈善信托基金会_

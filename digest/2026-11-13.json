@@ -1,0 +1,307 @@
+{
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T07:28:39.011Z",
+  "windowHours": 36,
+  "sourcesTotal": 13,
+  "sourcesOk": 13,
+  "sourcesFailed": [],
+  "itemCount": 22,
+  "translatedCount": 18,
+  "sections": [
+    {
+      "key": "model",
+      "label": "🚀 模型与产品发布",
+      "items": [
+        {
+          "title": "Gemini 4 Hydrogen",
+          "titleZh": "Gemini 4 氢气",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-12T18:01:48.000Z",
+          "points": 514,
+          "discussion": "https://news.ycombinator.com/item?id=50471431"
+        },
+        {
+          "title": "Gemini 4 Hydrogen and Orchestrator",
+          "titleZh": "Gemini 4 Hydrogen 和 Orchestrator",
+          "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-12T18:52:01.000Z",
+          "points": 394,
+          "discussion": "https://news.ycombinator.com/item?id=50472260"
+        },
+        {
+          "title": "Introducing Gemini 4 Hydrogen",
+          "titleZh": "Gemini 4 Hydrogen隆重登场",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+          "source": "Google DeepMind",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-12T18:00:50.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "llm-gemini 0.37",
+          "titleZh": "",
+          "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+          "source": "Simon Willison",
+          "alsoOn": [],
+          "summary": "Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing really confusing. Here's the pricing scheme: Model Dates Input ($/M) Cached input Output Gemini 4 Carbon Through Nov 30, 2026 $2.00 $0.10 $10.00 From Dec 1, 2026 $4.00 $0.20 $20.00 Gemini 4 Argon Through Nov 30, 2026 $2.00 $0.10 $10.00 From Dec 1, 2026 $4.00 $0.20 $20.00 Gemini 4 Hydrogen $1.50 $0.075 $7.50 Carbon and Argon are the same price , and both are scheduled to double in price on December 1st. If they're the same price, why have two different models? Google says that Argon \"delivers Gemini 4 intelligence with faster responses and lower token spend per turn compared to Gemini 4 Carbon\" - so it may be priced the same, but it will use less tokens per task. Hydrogen, supposedly the cheap model, is currently only a 25% discount on its more capable peers. The Hydrogen price will make more sense after December 1st, when it will represent a 75% discount. It's still considerably more expensive than Claude Haiku 5.5 and GPT-6 Luna - they're both $0.10/$0.50, so Hydrogen is 15x that. I had Hydrogen generate some pelicans . Here's a full comparison grid showing the pelicans for all three members of the Gemini 4 family at their three supported effort levels: Considering how close they are in price, the difference in pelican quality for Hydrogen is quite stark. Here's how Google describe Hydrogen's intended position in their mix of models: In real-world software development, while teams rely on frontier models like Carbon and Argon for deep architectural judgment when designing systems or untangling subtle bugs, they still need a fast, disciplined execution model for writing code, running tests, and verifying changes. Hydrogen is built to stand on its own as a model for everyday work - or to pair with Carbon and Argon as the high-efficiency execution engine in multi-model workflows. Most notably, Hydrogen is the new free tier model, and is the model that will power AI features in Google Search. Tags: gemini , llm , google , pelican-riding-a-bicycle , llm-pricing , ai , llms",
+          "summaryZh": "发布：llm-gemini 0.37 Google今天推出了Gemini 4 Hydrogen——Gemini 4系列中最便宜的成员。实际上，它的价格与体型大得多的“兄弟”Carbon和Argon相差不大。我正在寻找Gemini…",
+          "published": "2026-11-12T22:55:19.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+          "titleZh": "谷歌推出 Gemini 4 Hydrogen，终于取代了 3.8 Flash",
+          "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+          "source": "Ars Technica AI",
+          "alsoOn": [],
+          "summary": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon.",
+          "summaryZh": "Gemini 4 氢气不像碳和氩气那样以缓慢、注重安全的方式释放。",
+          "published": "2026-11-12T19:23:03.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "research",
+      "label": "🔬 研究前沿",
+      "items": [
+        {
+          "title": "Supporting research on AI and children’s safety",
+          "titleZh": "支持有关人工智能和儿童安全的研究",
+          "url": "https://openai.com/index/children-first-declaration",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+          "summaryZh": "OpenAI投入200万美元用于人工智能与儿童安全方面的研究。这项工作支持使用共享工具来衡量年轻人面临的风险和机遇。",
+          "published": "2026-11-12T00:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Study Models How Artificial Intelligence Triggers Irreversible Breakdown in Institutional Fact Checking - Bioengineer.org",
+          "titleZh": "研究模型揭示人工智能如何引发机构事实核查的不可逆崩溃-Bioengineer.org",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUkJCVlRRRGYyX3lndVRIZ2M2Nk52STJuOVh1TUVHUXNrbWpmTWh2ZUxqMHFEVmRNSTlnSHg2Mk1pZjg4bW1ROVRhV1ZDR29xTkhNU1Yzc2J2UG1PZ1ZrZkhYUm0yWG1tOHZEVVlLSGFtR3lCcXZjd2NHZE8zVlpYUm5PMndyOTl0VjNmRnl2UklFM1hUUkd3ZVlucGRuVUowWkMxd2tOMUV6RE1Gc1dVU0ducFpxSElWekg2bGJhMm9KTGZJRndJ?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "Study Models How Artificial Intelligence Triggers Irreversible Breakdown in Institutional Fact Checking Bioengineer.org",
+          "summaryZh": "研究模型揭示人工智能如何引发不可逆转的机构事实核查崩溃 Bioengineer.org",
+          "published": "2026-11-13T05:34:39.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "label": "🏢 公司与行业动向",
+      "items": [
+        {
+          "title": "Gondola doubles revenue as its team builds more with Codex",
+          "titleZh": "Gondola 的团队使用 Codex 构建更多内容，其收入翻了一番",
+          "url": "https://openai.com/business/customer-stories/gondola",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+          "summaryZh": "Gondola 帮助创意人士获得认可并赢得工作机会，Codex 让其首席工程师的产出提高了 50%，ChatGPT 则简化了日常工作。",
+          "published": "2026-11-12T12:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+          "titleZh": "民主党人发起对Nvidia的调查，就黄仁勋与特朗普的“阴谋”撰写措辞严厉的信函",
+          "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
+          "summaryZh": "这是自所谓间谍事件的消息传出以来，迄今为止对英伟达在中国销售情况及其与特朗普的往来进行的第二次国会调查。",
+          "published": "2026-11-12T22:42:51.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+          "titleZh": "谷歌最新的搜索升级承诺为您最复杂的问题提供更好的答案",
+          "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
+          "summaryZh": "得益于Gemini 4 Hydrogen，Google的AI模式在理解复杂查询、显示相关链接和提供更丰富的视觉响应方面正变得越来越出色。",
+          "published": "2026-11-12T19:27:45.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Gilbert + Tobin 借助 AI 重新思考法律业务 - OpenAI",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDeXdCOHRBVkh6RWlJajBFc3ZzRUxiZEpvOG9ONnhVSG1XV1BRd1ZPTEJlUFRTaGY5SnlBTW5DNl9HbVVyYnY2VjRidklwT2c0TlpMbGxhRmNabVBkSzRoSXcySGxuYmNONzQ5emotdG4?oc=5",
+          "source": "Google 新闻中文",
+          "alsoOn": [],
+          "summary": "Gilbert + Tobin 借助 AI 重新思考法律业务 OpenAI",
+          "summaryZh": "",
+          "published": "2026-11-13T04:00:25.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+          "titleZh": "美国联邦航空管理局（FAA）将人工智能建议的适用范围扩展至美国整个领空，以管理空中交通拥堵",
+          "url": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+          "source": "Ars Technica AI",
+          "alsoOn": [],
+          "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+          "summaryZh": "航空公司对该人工智能工具赞不绝口，但空中交通管制员工会并未参与其中。",
+          "published": "2026-11-12T22:28:47.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "eng",
+      "label": "🛠 工程与开源工具",
+      "items": [
+        {
+          "title": "Chicago schools to Google - we'd rather lose Search than be forced to accept AI",
+          "titleZh": "芝加哥学校对谷歌表示：我们宁愿失去搜索功能，也不愿被迫接受人工智能",
+          "url": "https://www.techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-13T00:38:41.000Z",
+          "points": 73,
+          "discussion": "https://news.ycombinator.com/item?id=50476586"
+        },
+        {
+          "title": "AI is turning Apple's app review process into a nightmare for synth developers",
+          "titleZh": "人工智能正将苹果的应用审核流程变成合成器开发者的噩梦",
+          "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-12T21:09:49.000Z",
+          "points": 155,
+          "discussion": "https://news.ycombinator.com/item?id=50474311"
+        },
+        {
+          "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+          "titleZh": "Edge0-145B：在您自己的电脑上使用前沿人工智能功能",
+          "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-12T23:06:17.000Z",
+          "points": 203,
+          "discussion": "https://news.ycombinator.com/item?id=50475713"
+        },
+        {
+          "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+          "titleZh": "中国尖端人工智能模型带有受出口管制的GPU的印记",
+          "url": "https://unemploymentlabs.com/checkpoint-forensics",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-12T21:56:11.000Z",
+          "points": 273,
+          "discussion": "https://news.ycombinator.com/item?id=50474883"
+        },
+        {
+          "title": "Show HN: AgentRun - open-source, Self-improving Managed Agents",
+          "titleZh": "Show HN：AgentRun-开源、自我改进的托管代理",
+          "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "We (GREP.AI, YC F26) are open-sourcing AgentRun and turning it into a full managed agents platform. Read more about it in this post: https://agentrun.ai/blog/introducing-agentrun-run-smarter-ag... . It includes what we originally built for our own agent harness: - Self-improving agents - Web-grounded workflows - A range of sandboxes and computer environments - Thousands of tools and integrations - Detailed analytics on how your agents behave You can bring your own agent. AgentRun works with Pi, Claude Agents, Codex, OpenCode, and any other harness that supports ACP. You can self-host it (see 1-click install on Render) with an OpenRouter key, or try the hosted version at console.agentrun.ai. We’d love feedback, especially on the architecture (see README), or anything we may be missing to make it useful to you.",
+          "summaryZh": "我们（GREP.AI，YC F26）正在将AgentRun开源，并将其转变为一个全托管代理平台。请阅读这篇文章，了解更多相关信息：https://agentrun.ai/blog/introducing-agentrun-run-smarter-ag……。其中介绍了我们…",
+          "published": "2026-11-12T18:15:48.000Z",
+          "points": 93,
+          "discussion": "https://news.ycombinator.com/item?id=50471650"
+        },
+        {
+          "title": "aws-emulator",
+          "titleZh": "",
+          "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+          "source": "Simon Willison",
+          "alsoOn": [],
+          "summary": "aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Sivasubramanian wrote about how it came to be in a guest post on Werner Vogels' blog. It currently requires Docker to run on macOS or Windows. I'm hoping they fix that in the future - it would be great if you could download a single binary and use that as part of a standard test suite in other languages and on other platforms. Tags: amazon , amazon-web-services , testing , werner-vogels , ai , rust , docker , generative-ai , llms , agentic-engineering",
+          "summaryZh": "aws-emulator终于有了AWS的官方模拟器，可以在其众多不同服务的本地克隆上运行测试，而无需为此提供付费API密钥。它由大量代理使用Rust编写。…",
+          "published": "2026-11-11T21:18:30.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "ideas",
+      "label": "💭 观点与深度",
+      "items": [
+        {
+          "title": "Why You Should Expect an AI Crash",
+          "titleZh": "为什么您应该预见到人工智能泡沫破裂",
+          "url": "https://www.economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-12T23:08:31.000Z",
+          "points": 90,
+          "discussion": "https://news.ycombinator.com/item?id=50475735"
+        },
+        {
+          "title": "How Amplitude ships product improvements in 1-2 days with OpenAI",
+          "titleZh": "Amplitude如何借助OpenAI在1-2天内推出产品改进",
+          "url": "https://openai.com/business/customer-stories/amplitude",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+          "summaryZh": "Amplitude 的主动式产品代理 Wave 主要基于 OpenAI 模型构建，可识别需要构建的内容，帮助团队通过编码代理交付变更，并衡量其影响。",
+          "published": "2026-11-12T20:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "人工智能时代，技能人才何为（连线评论员） - 人民日报",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQakUzNjNkeERKYlhGTmpCSXVpa2FTQVp1YW1xS29ibEdBdktkeVFKWnZmbnNpTmg2UThVYVBGWEFKbGxyVDZfSWs0RFk0eG9IMXQ2SGdYRmtTNGhYYUN3anNrUFhucUNiNjE2UnlJb1BjVUs1SFZFeU5iYjdoeE1oRA?oc=5",
+          "source": "Google 新闻中文",
+          "alsoOn": [],
+          "summary": "人工智能时代，技能人才何为（连线评论员） 人民日报",
+          "summaryZh": "",
+          "published": "2026-11-13T01:55:06.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "How Public Health Agencies Can Use Artificial Intelligence Effectively and Responsibly - The Pew Charitable Trusts",
+          "titleZh": "公共卫生机构如何有效且负责任地使用人工智能-皮尤慈善信托基金会",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZ3hXd1F3VnVfUTB4cl8yZ1VoMy1VWDVBU1gzUUh2M3JxNnJRQzI2ZmF2YUc2Yk1qa1ZpYWxicnRQZU02OEFYRUxjN0g5MXhEVXFUYWY2QV9wTFNVbnhXVUpEQ0o2OV9fX1VIcFo5RUdVbUdOeDFsSXotTWFoYUFtX3hySXQ0b1FsYjlYSEtxWUdoVVdTcXVHWDk0UXlWWGQ2dkswWlp2b1BDTDdlLTZQelAwLWx2SUZRVXZhUmo1YWtIY3dyMVM1SWpVU3pKa2xZNlk3bk03YjlkMU40bkp4VFVvVEJGUQ?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "How Public Health Agencies Can Use Artificial Intelligence Effectively and Responsibly The Pew Charitable Trusts",
+          "summaryZh": "公共卫生机构如何有效且负责任地使用人工智能皮尤慈善信托基金会",
+          "published": "2026-11-12T14:59:26.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    }
+  ],
+  "markdown": "# 📰 AI 日报 · 2026-11-13\n\n> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 18 条已译\n\n## 🚀 模型与产品发布\n\n**1. Gemini 4 氢气**\n\nGemini 4 Hydrogen · Hacker News · 13 小时前 · ▲514 · [原文](<https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/>)\n\n**2. Gemini 4 Hydrogen 和 Orchestrator**\n\nGemini 4 Hydrogen and Orchestrator · Hacker News · 13 小时前 · ▲394 · [原文](<https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/>)\n\n**3. Gemini 4 Hydrogen隆重登场**\n\nIntroducing Gemini 4 Hydrogen · Google DeepMind · 13 小时前 · [原文](<https://deepmind.google/blog/introducing-gemini-4-hydrogen/>)\n\n**4. llm-gemini 0.37**\n\nSimon Willison · 9 小时前 · [原文](<https://simonwillison.net/2026/Nov/12/llm-gemini/>)\n\n_发布：llm-gemini 0.37 Google今天推出了Gemini 4 Hydrogen——Gemini 4系列中最便宜的成员。实际上，它的价格与体型大得多的“兄弟”Carbon和Argon相差不大。我正在寻找Gemini…_\n\n**5. 谷歌推出 Gemini 4 Hydrogen，终于取代了 3.8 Flash**\n\nGoogle rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash · Ars Technica AI · 12 小时前 · [原文](<https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/>)\n\n_Gemini 4 氢气不像碳和氩气那样以缓慢、注重安全的方式释放。_\n\n## 🔬 研究前沿\n\n**1. 支持有关人工智能和儿童安全的研究**\n\nSupporting research on AI and children’s safety · OpenAI · 31 小时前 · [原文](<https://openai.com/index/children-first-declaration>)\n\n_OpenAI投入200万美元用于人工智能与儿童安全方面的研究。这项工作支持使用共享工具来衡量年轻人面临的风险和机遇。_\n\n**2. 研究模型揭示人工智能如何引发机构事实核查的不可逆崩溃-Bioengineer.org**\n\nStudy Models How Artificial Intelligence Triggers Irreversible Breakdown in Institutional Fact Checking - Bioengineer.org · Google News · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMixwFBVV95cUxNUkJCVlRRRGYyX3lndVRIZ2M2Nk52STJuOVh1TUVHUXNrbWpmTWh2ZUxqMHFEVmRNSTlnSHg2Mk1pZjg4bW1ROVRhV1ZDR29xTkhNU1Yzc2J2UG1PZ1ZrZkhYUm0yWG1tOHZEVVlLSGFtR3lCcXZjd2NHZE8zVlpYUm5PMndyOTl0VjNmRnl2UklFM1hUUkd3ZVlucGRuVUowWkMxd2tOMUV6RE1Gc1dVU0ducFpxSElWekg2bGJhMm9KTGZJRndJ?oc=5>)\n\n_研究模型揭示人工智能如何引发不可逆转的机构事实核查崩溃 Bioengineer.org_\n\n## 🏢 公司与行业动向\n\n**1. Gondola 的团队使用 Codex 构建更多内容，其收入翻了一番**\n\nGondola doubles revenue as its team builds more with Codex · OpenAI · 19 小时前 · [原文](<https://openai.com/business/customer-stories/gondola>)\n\n_Gondola 帮助创意人士获得认可并赢得工作机会，Codex 让其首席工程师的产出提高了 50%，ChatGPT 则简化了日常工作。_\n\n**2. 民主党人发起对Nvidia的调查，就黄仁勋与特朗普的“阴谋”撰写措辞严厉的信函**\n\nDemocrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/>)\n\n_这是自所谓间谍事件的消息传出以来，迄今为止对英伟达在中国销售情况及其与特朗普的往来进行的第二次国会调查。_\n\n**3. 谷歌最新的搜索升级承诺为您最复杂的问题提供更好的答案**\n\nGoogle’s latest Search upgrade promises better answers to your most complicated questions · TechCrunch AI · 12 小时前 · [原文](<https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/>)\n\n_得益于Gemini 4 Hydrogen，Google的AI模式在理解复杂查询、显示相关链接和提供更丰富的视觉响应方面正变得越来越出色。_\n\n**4. Gilbert + Tobin 借助 AI 重新思考法律业务 - OpenAI**\n\nGoogle 新闻中文 · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMicEFVX3lxTFBDeXdCOHRBVkh6RWlJajBFc3ZzRUxiZEpvOG9ONnhVSG1XV1BRd1ZPTEJlUFRTaGY5SnlBTW5DNl9HbVVyYnY2VjRidklwT2c0TlpMbGxhRmNabVBkSzRoSXcySGxuYmNONzQ5emotdG4?oc=5>)\n\n_Gilbert + Tobin 借助 AI 重新思考法律业务 OpenAI_\n\n**5. 美国联邦航空管理局（FAA）将人工智能建议的适用范围扩展至美国整个领空，以管理空中交通拥堵**\n\nFAA expands AI advice to manage air traffic congestion across entire US airspace · Ars Technica AI · 9 小时前 · [原文](<https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/>)\n\n_航空公司对该人工智能工具赞不绝口，但空中交通管制员工会并未参与其中。_\n\n## 🛠 工程与开源工具\n\n**1. 芝加哥学校对谷歌表示：我们宁愿失去搜索功能，也不愿被迫接受人工智能**\n\nChicago schools to Google - we'd rather lose Search than be forced to accept AI · Hacker News · 7 小时前 · ▲73 · [原文](<https://www.techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html>)\n\n**2. 人工智能正将苹果的应用审核流程变成合成器开发者的噩梦**\n\nAI is turning Apple's app review process into a nightmare for synth developers · Hacker News · 10 小时前 · ▲155 · [原文](<https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html>)\n\n**3. Edge0-145B：在您自己的电脑上使用前沿人工智能功能**\n\nEdge0-145B: Frontier AI Capabilities on Your Own Computer · Hacker News · 8 小时前 · ▲203 · [原文](<https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer>)\n\n**4. 中国尖端人工智能模型带有受出口管制的GPU的印记**\n\nChinese frontier AI models carry the fingerprint of export-controlled GPUs · Hacker News · 10 小时前 · ▲273 · [原文](<https://unemploymentlabs.com/checkpoint-forensics>)\n\n**5. Show HN：AgentRun-开源、自我改进的托管代理**\n\nShow HN: AgentRun - open-source, Self-improving Managed Agents · Hacker News · 13 小时前 · ▲93 · [原文](<https://github.com/Parcha-ai/agentrun/blob/main/README.md>)\n\n_我们（GREP.AI，YC F26）正在将AgentRun开源，并将其转变为一个全托管代理平台。请阅读这篇文章，了解更多相关信息：https://agentrun.ai/blog/introducing-agentrun-run-smarter-ag……。其中介绍了我们…_\n\n**6. aws-emulator**\n\nSimon Willison · 34 小时前 · [原文](<https://simonwillison.net/2026/Nov/11/aws-emulator/>)\n\n_aws-emulator终于有了AWS的官方模拟器，可以在其众多不同服务的本地克隆上运行测试，而无需为此提供付费API密钥。它由大量代理使用Rust编写。…_\n\n## 💭 观点与深度\n\n**1. 为什么您应该预见到人工智能泡沫破裂**\n\nWhy You Should Expect an AI Crash · Hacker News · 8 小时前 · ▲90 · [原文](<https://www.economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash>)\n\n**2. Amplitude如何借助OpenAI在1-2天内推出产品改进**\n\nHow Amplitude ships product improvements in 1-2 days with OpenAI · OpenAI · 11 小时前 · [原文](<https://openai.com/business/customer-stories/amplitude>)\n\n_Amplitude 的主动式产品代理 Wave 主要基于 OpenAI 模型构建，可识别需要构建的内容，帮助团队通过编码代理交付变更，并衡量其影响。_\n\n**3. 人工智能时代，技能人才何为（连线评论员） - 人民日报**\n\nGoogle 新闻中文 · 6 小时前 · [原文](<https://news.google.com/rss/articles/CBMigAFBVV95cUxQakUzNjNkeERKYlhGTmpCSXVpa2FTQVp1YW1xS29ibEdBdktkeVFKWnZmbnNpTmg2UThVYVBGWEFKbGxyVDZfSWs0RFk0eG9IMXQ2SGdYRmtTNGhYYUN3anNrUFhucUNiNjE2UnlJb1BjVUs1SFZFeU5iYjdoeE1oRA?oc=5>)\n\n_人工智能时代，技能人才何为（连线评论员） 人民日报_\n\n**4. 公共卫生机构如何有效且负责任地使用人工智能-皮尤慈善信托基金会**\n\nHow Public Health Agencies Can Use Artificial Intelligence Effectively and Responsibly - The Pew Charitable Trusts · Google News · 16 小时前 · [原文](<https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZ3hXd1F3VnVfUTB4cl8yZ1VoMy1VWDVBU1gzUUh2M3JxNnJRQzI2ZmF2YUc2Yk1qa1ZpYWxicnRQZU02OEFYRUxjN0g5MXhEVXFUYWY2QV9wTFNVbnhXVUpEQ0o2OV9fX1VIcFo5RUdVbUdOeDFsSXotTWFoYUFtX3hySXQ0b1FsYjlYSEtxWUdoVVdTcXVHWDk0UXlWWGQ2dkswWlp2b1BDTDdlLTZQelAwLWx2SUZRVXZhUmo1YWtIY3dyMVM1SWpVU3pKa2xZNlk3bk03YjlkMU40bkp4VFVvVEJGUQ?oc=5>)\n\n_公共卫生机构如何有效且负责任地使用人工智能皮尤慈善信托基金会_\n"
+}
