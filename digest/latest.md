@@ -1,129 +1,121 @@
-# 📰 AI 日报 · 2026-11-13
+# 📰 AI 日报 · 2026-11-14
 
-> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 18 条已译
+> 21 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 18 条已译
 
 ## 🚀 模型与产品发布
 
-**1. Gemini 4 氢气**
+**1. Anthropic 将 Claude Code Projects 升级为可并行运行 AI 工作线程**
 
-Gemini 4 Hydrogen · Hacker News · 13 小时前 · ▲514 · [原文](<https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/>)
+Anthropic upgrades Claude Code Projects to run parallel AI workers · Hacker News · 7 小时前 · ▲80 · [原文](<https://claude.com/resources/articles/projects-redesigned>)
 
-**2. Gemini 4 Hydrogen 和 Orchestrator**
+**2. Claude 会议**
 
-Gemini 4 Hydrogen and Orchestrator · Hacker News · 13 小时前 · ▲394 · [原文](<https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/>)
+Claude Meetings · Hacker News · 9 小时前 · ▲89 · [原文](<https://claude.com/resources/articles/claude-meetings>)
 
-**3. Gemini 4 Hydrogen隆重登场**
+**3. Shield 帮助技术人员使用 OpenAI 交接旧版门户的工作**
 
-Introducing Gemini 4 Hydrogen · Google DeepMind · 13 小时前 · [原文](<https://deepmind.google/blog/introducing-gemini-4-hydrogen/>)
+Shield helps technicians hand off legacy portal work with OpenAI · OpenAI · 23 小时前 · [原文](<https://openai.com/business/customer-stories/shield>)
 
-**4. llm-gemini 0.37**
+_Shield 使用 OpenAI 来帮助 IT 技术人员在旧版门户中移交工作。其 Forge 代理负责浏览系统，以便技术人员能够专注于需要他们判断的问题。_
 
-Simon Willison · 9 小时前 · [原文](<https://simonwillison.net/2026/Nov/12/llm-gemini/>)
+**4. OpenAI解散机器人团队！GPT-6 Astra证明：通用大模型已可直接用于“物理AI”，无需专用模型 - 华尔街见闻**
 
-_发布：llm-gemini 0.37 Google今天推出了Gemini 4 Hydrogen——Gemini 4系列中最便宜的成员。实际上，它的价格与体型大得多的“兄弟”Carbon和Argon相差不大。我正在寻找Gemini…_
+Google 新闻中文 · 6 小时前 · [原文](<https://news.google.com/rss/articles/CBMiU0FVX3lxTFBlejBZS09GaUdDQU9xZGpDZ3A5WW5oQmJyZC1QMHlDVDZTdGNlcFNGcFVGZS1taU9CRnI1aW45cjIyRFZaWWQ4Mllaakd1bGt1QUhB?oc=5>)
 
-**5. 谷歌推出 Gemini 4 Hydrogen，终于取代了 3.8 Flash**
+_OpenAI解散机器人团队！GPT-6 Astra证明：通用大模型已可直接用于“物理AI”，无需专用模型 华尔街见闻_
 
-Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash · Ars Technica AI · 12 小时前 · [原文](<https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/>)
+**5. ChatGPT 钱包简介**
 
-_Gemini 4 氢气不像碳和氩气那样以缓慢、注重安全的方式释放。_
+Introducing ChatGPT Wallet · OpenAI · 16 小时前 · [原文](<https://openai.com/index/introducing-chatgpt-wallet>)
 
-## 🔬 研究前沿
+_隆重推出ChatGPT钱包，这是ChatGPT Work、Codex和dots的代理在获得用户批准并使用现有银行卡保护措施完成购买的安全方式。_
 
-**1. 支持有关人工智能和儿童安全的研究**
+**6. llama.cpp v1.0.0：为本地人工智能生态系统奠定更坚实的基础**
 
-Supporting research on AI and children’s safety · OpenAI · 31 小时前 · [原文](<https://openai.com/index/children-first-declaration>)
-
-_OpenAI投入200万美元用于人工智能与儿童安全方面的研究。这项工作支持使用共享工具来衡量年轻人面临的风险和机遇。_
-
-**2. 研究模型揭示人工智能如何引发机构事实核查的不可逆崩溃-Bioengineer.org**
-
-Study Models How Artificial Intelligence Triggers Irreversible Breakdown in Institutional Fact Checking - Bioengineer.org · Google News · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMixwFBVV95cUxNUkJCVlRRRGYyX3lndVRIZ2M2Nk52STJuOVh1TUVHUXNrbWpmTWh2ZUxqMHFEVmRNSTlnSHg2Mk1pZjg4bW1ROVRhV1ZDR29xTkhNU1Yzc2J2UG1PZ1ZrZkhYUm0yWG1tOHZEVVlLSGFtR3lCcXZjd2NHZE8zVlpYUm5PMndyOTl0VjNmRnl2UklFM1hUUkd3ZVlucGRuVUowWkMxd2tOMUV6RE1Gc1dVU0ducFpxSElWekg2bGJhMm9KTGZJRndJ?oc=5>)
-
-_研究模型揭示人工智能如何引发不可逆转的机构事实核查崩溃 Bioengineer.org_
+llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem · Hugging Face · 17 小时前 · [原文](<https://huggingface.co/blog/ggml-org/llama-cpp-v1>)
 
 ## 🏢 公司与行业动向
 
-**1. Gondola 的团队使用 Codex 构建更多内容，其收入翻了一番**
+**1. 据称，英伟达通过资助人工智能初创公司购买其GPU来人为制造稀缺性**
 
-Gondola doubles revenue as its team builds more with Codex · OpenAI · 19 小时前 · [原文](<https://openai.com/business/customer-stories/gondola>)
+Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs · Hacker News · 4 小时前 · ▲362 · [原文](<https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus>)
 
-_Gondola 帮助创意人士获得认可并赢得工作机会，Codex 让其首席工程师的产出提高了 50%，ChatGPT 则简化了日常工作。_
+**2. 在特朗普访问之前，Nvidia丑闻加剧了美国与中国的AI竞争-ABC News-最新消息、最新新闻和视频**
 
-**2. 民主党人发起对Nvidia的调查，就黄仁勋与特朗普的“阴谋”撰写措辞严厉的信函**
+The Nvidia scandal is heightening America's AI rivalry with China ahead of Trump's visit - ABC News - Breaking News, Latest News and Videos · Google News · 1 小时前 · [原文](<https://news.google.com/rss/articles/CBMiowFBVV95cUxPRTdIb1dVWXp1MFVRQmJfY3lVelBQN0RDZzJoQnI4V19GQVAyZ0Fkdk9JdU5LenRnY3lYejRzdy1UYVRjVXh4SmVrb09rbjFxLU96d0pGN0NYdmJQT3BwaVNLdjVJSjNBUzFwcUhXVDZYNU9QYWdMWURzQWNfd3dUbnZORGlROFFWaENQTjNOcE9vdmtPanRQWEpzUTdmV1dMSy1j0gGoAUFVX3lxTFBIdGZpRWxLclBvWlBpQkt0OURmdXdSYklEZHp6bVhORWFkMDQ3NDFuUzVoQkRrRks4ZW8ydF83UmhJOFdrTV9GN1d4UWtjYlRmX3owYXRpaW9OZEl5VDZWdUwybUdZLXlHNWpsNWFLMzNwRTgtRG1RUXFLdUYyVHBmcGNkdF95Q3o4Tm1SN1laeFdZQmwwY1BVRncyMjIzblRfaTE3OGgtOQ?oc=5>)
 
-Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/>)
+_在特朗普访华前，英伟达丑闻加剧了美国与中国的人工智能竞争。ABC新闻-最新新闻、头条新闻和视频_
 
-_这是自所谓间谍事件的消息传出以来，迄今为止对英伟达在中国销售情况及其与特朗普的往来进行的第二次国会调查。_
+**3. 借助 ChatGPT 加速慈善机构的发展 - OpenAI**
 
-**3. 谷歌最新的搜索升级承诺为您最复杂的问题提供更好的答案**
+Google 新闻中文 · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMidkFVX3lxTE1INmNoNnl0TG1DZndrWGJaeXh5QmFJWXF2RGt5Y2JRa2NxM3o2VHRyWFlpV0JCNkJIVWNoQmItcHNRNHZwVjg5aHJ6RWljLURKNmdzVHNrWnBkY1UydTIwRHRPNVhPSHBrVWxibVFBZmR0Vzd3Vmc?oc=5>)
 
-Google’s latest Search upgrade promises better answers to your most complicated questions · TechCrunch AI · 12 小时前 · [原文](<https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/>)
+_借助 ChatGPT 加速慈善机构的发展 OpenAI_
 
-_得益于Gemini 4 Hydrogen，Google的AI模式在理解复杂查询、显示相关链接和提供更丰富的视觉响应方面正变得越来越出色。_
+**4. 被禁止出口的英伟达芯片是支撑中国最强大人工智能模型的基础——哎呀，Jensen！**
 
-**4. Gilbert + Tobin 借助 AI 重新思考法律业务 - OpenAI**
+Export-banned Nvidia chips are behind China’s most powerful AI models - uh-oh, Jensen! · TechCrunch AI · 13 小时前 · [原文](<https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/>)
 
-Google 新闻中文 · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMicEFVX3lxTFBDeXdCOHRBVkh6RWlJajBFc3ZzRUxiZEpvOG9ONnhVSG1XV1BRd1ZPTEJlUFRTaGY5SnlBTW5DNl9HbVVyYnY2VjRidklwT2c0TlpMbGxhRmNabVBkSzRoSXcySGxuYmNONzQ5emotdG4?oc=5>)
+_一项新研究表明，中国最先进的人工智能模型是在被禁用的Nvidia芯片上训练的。_
 
-_Gilbert + Tobin 借助 AI 重新思考法律业务 OpenAI_
+**5. OpenAI董事会成员担心人工智能“接管”社会可能只剩几个月的时间**
 
-**5. 美国联邦航空管理局（FAA）将人工智能建议的适用范围扩展至美国整个领空，以管理空中交通拥堵**
+OpenAI board member worries an AI "takeover" of society could be months away · Ars Technica AI · 14 小时前 · [原文](<https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/>)
 
-FAA expands AI advice to manage air traffic congestion across entire US airspace · Ars Technica AI · 9 小时前 · [原文](<https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/>)
+_研究人员追溯了一条从人工智能奖励操纵到人类可能灭绝的路径。_
 
-_航空公司对该人工智能工具赞不绝口，但空中交通管制员工会并未参与其中。_
+**6. 专利新闻：Anthropic的人工智能系统被指控侵犯神经网络专利-VitalLaw.com**
+
+PATENT NEWS: Anthropic’s artificial intelligence systems accused of infringing neural network patents - VitalLaw.com · Google News · 8 小时前 · [原文](<https://news.google.com/rss/articles/CBMi_AFBVV95cUxQa09ZQllGRFA4eTctdzhDMFk4VmkxeGhZcTNpcWQ5SXhSVU83akhfT3lTMDZoMG00U3NTNHl4amhsTjBTYjhmbi1hZGtVZF8xSTFqZ29aZE02WEZvcXpzbW9Zb2s0azROS25sZHpCUlNGbFQ5WHhBRlpja3ZwcktkREZmMDNFbGVDcnlvdHdkeTNFRVV6N21rc3hlQTJUSUk1WFFiM1FidlRfT2RpWVByR2ZYN2lUVU1EUXB1R0JGQkdWaWRzQXFhaERnaTljZDN3QUN0V05WOWtnbkl2ZElqYTAtcVE5TU5NaGItcEctQ0x0SnhBUnBuU2tUdUw?oc=5>)
+
+_专利新闻：Anthropic的人工智能系统被指控侵犯神经网络专利 VitalLaw.com_
 
 ## 🛠 工程与开源工具
 
-**1. 芝加哥学校对谷歌表示：我们宁愿失去搜索功能，也不愿被迫接受人工智能**
+**1. OpenAI解散了机器人团队，因为其通用模型开始运行机器人**
 
-Chicago schools to Google - we'd rather lose Search than be forced to accept AI · Hacker News · 7 小时前 · ▲73 · [原文](<https://www.techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html>)
+OpenAI disbands its robotics team as its general models start running robots · Hacker News · 13 小时前 · ▲160 · [原文](<https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/>)
 
-**2. 人工智能正将苹果的应用审核流程变成合成器开发者的噩梦**
+**2. 拒绝 AI 垃圾：宣言**
 
-AI is turning Apple's app review process into a nightmare for synth developers · Hacker News · 10 小时前 · ▲155 · [原文](<https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html>)
+No AI Slop: A Manifesto · Hacker News · 11 小时前 · ▲192 · [原文](<https://www.slopmanifesto.com/>)
 
-**3. Edge0-145B：在您自己的电脑上使用前沿人工智能功能**
+**3. Show HN：等距旧金山-旧金山湾区的像素艺术地图**
 
-Edge0-145B: Frontier AI Capabilities on Your Own Computer · Hacker News · 8 小时前 · ▲203 · [原文](<https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer>)
+Show HN: Isometric SF - A pixel-art map of the SF Bay Area · Hacker News · 13 小时前 · ▲192 · [原文](<https://isometricsf.com/>)
 
-**4. 中国尖端人工智能模型带有受出口管制的GPU的印记**
+_技术说明： https://www.justinchavez.com/blog/isometric-sf-how/ 大家好！在此展示这个有趣的বাঙ্গালীদের。我从Google逼真3D图块中选取了旧金山湾区1300平方英里的区域，并将其转换为…_
 
-Chinese frontier AI models carry the fingerprint of export-controlled GPUs · Hacker News · 10 小时前 · ▲273 · [原文](<https://unemploymentlabs.com/checkpoint-forensics>)
+**4. 席卷数学界的雪崩正向人工智能发展袭来**
 
-**5. Show HN：AgentRun-开源、自我改进的托管代理**
+The avalanche that hit math is coming for AI development · Hacker News · 13 小时前 · ▲61 · [原文](<https://www.dwarkesh.com/p/rsi>)
 
-Show HN: AgentRun - open-source, Self-improving Managed Agents · Hacker News · 13 小时前 · ▲93 · [原文](<https://github.com/Parcha-ai/agentrun/blob/main/README.md>)
+**5. 难道我们就这样视而不见，任由书籍被人工智能销毁吗？**
 
-_我们（GREP.AI，YC F26）正在将AgentRun开源，并将其转变为一个全托管代理平台。请阅读这篇文章，了解更多相关信息：https://agentrun.ai/blog/introducing-agentrun-run-smarter-ag……。其中介绍了我们…_
+Are we just going to ignore that books are destroyed for AI? · Hacker News · 13 小时前 · ▲56 · [原文](<https://www.forbes.com/sites/maryroeloffs/2026/08/17/ai-companies-are-buying-and-destroying-antique-books-heres-why/>)
 
-**6. aws-emulator**
+**6. datasette-cluster-map 0.19**
 
-Simon Willison · 34 小时前 · [原文](<https://simonwillison.net/2026/Nov/11/aws-emulator/>)
+Simon Willison · 8 小时前 · [原文](<https://simonwillison.net/2026/Nov/13/datasette-cluster-map/>)
 
-_aws-emulator终于有了AWS的官方模拟器，可以在其众多不同服务的本地克隆上运行测试，而无需为此提供付费API密钥。它由大量代理使用Rust编写。…_
+_发布：datasette-cluster-map 0.19 这是最古老的Datasette插件之一，至今仍是我最喜爱的插件之一。它现在可与 Datasette 1.0a42 一起使用，并依赖于新的 datasette-leaflet 来确保 OpenStreetMap 图块…_
 
 ## 💭 观点与深度
 
-**1. 为什么您应该预见到人工智能泡沫破裂**
+**1. Amplitude 如何借助 OpenAI 在 1-2 天内推出产品改进**
 
-Why You Should Expect an AI Crash · Hacker News · 8 小时前 · ▲90 · [原文](<https://www.economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash>)
+How Amplitude ships product improvements in 1-2 days with OpenAI · OpenAI · 35 小时前 · [原文](<https://openai.com/business/customer-stories/amplitude>)
 
-**2. Amplitude如何借助OpenAI在1-2天内推出产品改进**
+_Amplitude 的主动式产品代理 Wave 主要基于 OpenAI 模型构建，能够识别需要构建的内容，帮助团队通过编码代理交付变更，并衡量其影响。_
 
-How Amplitude ships product improvements in 1-2 days with OpenAI · OpenAI · 11 小时前 · [原文](<https://openai.com/business/customer-stories/amplitude>)
+**2. 菲利普·K·迪克如何在文学作品中预测人工智能的未来-《卫报》在线版**
 
-_Amplitude 的主动式产品代理 Wave 主要基于 OpenAI 模型构建，可识别需要构建的内容，帮助团队通过编码代理交付变更，并衡量其影响。_
+How Philip K. Dick Predicted the Future of Artificial Intelligence in literature - The Guardsman Online · Google News · 6 小时前 · [原文](<https://news.google.com/rss/articles/CBMirgFBVV95cUxPelIxT3FrZ1prNjExUTFTT2F5TGJKdkxBcHlUQTR4ZVc1czJ5cTkwTXFoTXdSODRJZWx0WWN3blFaQzJhUG00MTduRTRLWVlocVdKVmtGVFRFemFobi1EVWVLWjhUcGdjcmFTMGpicDIxaVhwMjJwaGtuYXM0MGxSQmZyaWZ5TkFLSXY1a3lIYldQdUs1bnpxVl9LR2dncUh3RGZFNll2dnZSSEFiM1E?oc=5>)
 
-**3. 人工智能时代，技能人才何为（连线评论员） - 人民日报**
+_菲利普·K·迪克如何在文学作品中预测人工智能的未来《卫士在线》_
 
-Google 新闻中文 · 6 小时前 · [原文](<https://news.google.com/rss/articles/CBMigAFBVV95cUxQakUzNjNkeERKYlhGTmpCSXVpa2FTQVp1YW1xS29ibEdBdktkeVFKWnZmbnNpTmg2UThVYVBGWEFKbGxyVDZfSWs0RFk0eG9IMXQ2SGdYRmtTNGhYYUN3anNrUFhucUNiNjE2UnlJb1BjVUs1SFZFeU5iYjdoeE1oRA?oc=5>)
+**3. 硅谷声称能够预知未来。那么，为什么它对中期选举的预测会如此离谱？**
 
-_人工智能时代，技能人才何为（连线评论员） 人民日报_
+Silicon Valley claims to know the future. So why did it get the midterms so wrong? · MIT Tech Review · 21 小时前 · [原文](<https://www.technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong/>)
 
-**4. 公共卫生机构如何有效且负责任地使用人工智能-皮尤慈善信托基金会**
-
-How Public Health Agencies Can Use Artificial Intelligence Effectively and Responsibly - The Pew Charitable Trusts · Google News · 16 小时前 · [原文](<https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZ3hXd1F3VnVfUTB4cl8yZ1VoMy1VWDVBU1gzUUh2M3JxNnJRQzI2ZmF2YUc2Yk1qa1ZpYWxicnRQZU02OEFYRUxjN0g5MXhEVXFUYWY2QV9wTFNVbnhXVUpEQ0o2OV9fX1VIcFo5RUdVbUdOeDFsSXotTWFoYUFtX3hySXQ0b1FsYjlYSEtxWUdoVVdTcXVHWDk0UXlWWGQ2dkswWlp2b1BDTDdlLTZQelAwLWx2SUZRVXZhUmo1YWtIY3dyMVM1SWpVU3pKa2xZNlk3bk03YjlkMU40bkp4VFVvVEJGUQ?oc=5>)
-
-_公共卫生机构如何有效且负责任地使用人工智能皮尤慈善信托基金会_
+_硅谷的自封“有远见者”，如OpenAI首席执行官萨姆·阿尔特曼和SpaceX老板埃隆·马斯克等领袖人物，凭借声称能预见未来的能力成就了自己的事业。长期愿景是通行货币：Meta的马克·扎克伯格…_

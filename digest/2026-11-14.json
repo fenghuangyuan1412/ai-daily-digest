@@ -1,0 +1,289 @@
+{
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T07:11:22.222Z",
+  "windowHours": 36,
+  "sourcesTotal": 13,
+  "sourcesOk": 13,
+  "sourcesFailed": [],
+  "itemCount": 21,
+  "translatedCount": 18,
+  "sections": [
+    {
+      "key": "model",
+      "label": "🚀 模型与产品发布",
+      "items": [
+        {
+          "title": "Anthropic upgrades Claude Code Projects to run parallel AI workers",
+          "titleZh": "Anthropic 将 Claude Code Projects 升级为可并行运行 AI 工作线程",
+          "url": "https://claude.com/resources/articles/projects-redesigned",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-14T00:28:11.000Z",
+          "points": 80,
+          "discussion": "https://news.ycombinator.com/item?id=50492141"
+        },
+        {
+          "title": "Claude Meetings",
+          "titleZh": "Claude 会议",
+          "url": "https://claude.com/resources/articles/claude-meetings",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-13T22:39:15.000Z",
+          "points": 89,
+          "discussion": "https://news.ycombinator.com/item?id=50491097"
+        },
+        {
+          "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+          "titleZh": "Shield 帮助技术人员使用 OpenAI 交接旧版门户的工作",
+          "url": "https://openai.com/business/customer-stories/shield",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+          "summaryZh": "Shield 使用 OpenAI 来帮助 IT 技术人员在旧版门户中移交工作。其 Forge 代理负责浏览系统，以便技术人员能够专注于需要他们判断的问题。",
+          "published": "2026-11-13T08:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "OpenAI解散机器人团队！GPT-6 Astra证明：通用大模型已可直接用于“物理AI”，无需专用模型 - 华尔街见闻",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBlejBZS09GaUdDQU9xZGpDZ3A5WW5oQmJyZC1QMHlDVDZTdGNlcFNGcFVGZS1taU9CRnI1aW45cjIyRFZaWWQ4Mllaakd1bGt1QUhB?oc=5",
+          "source": "Google 新闻中文",
+          "alsoOn": [],
+          "summary": "OpenAI解散机器人团队！GPT-6 Astra证明：通用大模型已可直接用于“物理AI”，无需专用模型 华尔街见闻",
+          "summaryZh": "",
+          "published": "2026-11-14T01:09:09.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Introducing ChatGPT Wallet",
+          "titleZh": "ChatGPT 钱包简介",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+          "summaryZh": "隆重推出ChatGPT钱包，这是ChatGPT Work、Codex和dots的代理在获得用户批准并使用现有银行卡保护措施完成购买的安全方式。",
+          "published": "2026-11-13T15:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+          "titleZh": "llama.cpp v1.0.0：为本地人工智能生态系统奠定更坚实的基础",
+          "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+          "source": "Hugging Face",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-13T14:05:22.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "label": "🏢 公司与行业动向",
+      "items": [
+        {
+          "title": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs",
+          "titleZh": "据称，英伟达通过资助人工智能初创公司购买其GPU来人为制造稀缺性",
+          "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-14T02:52:59.000Z",
+          "points": 362,
+          "discussion": "https://news.ycombinator.com/item?id=50493251"
+        },
+        {
+          "title": "The Nvidia scandal is heightening America's AI rivalry with China ahead of Trump's visit - ABC News - Breaking News, Latest News and Videos",
+          "titleZh": "在特朗普访问之前，Nvidia丑闻加剧了美国与中国的AI竞争-ABC News-最新消息、最新新闻和视频",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRTdIb1dVWXp1MFVRQmJfY3lVelBQN0RDZzJoQnI4V19GQVAyZ0Fkdk9JdU5LenRnY3lYejRzdy1UYVRjVXh4SmVrb09rbjFxLU96d0pGN0NYdmJQT3BwaVNLdjVJSjNBUzFwcUhXVDZYNU9QYWdMWURzQWNfd3dUbnZORGlROFFWaENQTjNOcE9vdmtPanRQWEpzUTdmV1dMSy1j0gGoAUFVX3lxTFBIdGZpRWxLclBvWlBpQkt0OURmdXdSYklEZHp6bVhORWFkMDQ3NDFuUzVoQkRrRks4ZW8ydF83UmhJOFdrTV9GN1d4UWtjYlRmX3owYXRpaW9OZEl5VDZWdUwybUdZLXlHNWpsNWFLMzNwRTgtRG1RUXFLdUYyVHBmcGNkdF95Q3o4Tm1SN1laeFdZQmwwY1BVRncyMjIzblRfaTE3OGgtOQ?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "The Nvidia scandal is heightening America's AI rivalry with China ahead of Trump's visit ABC News - Breaking News, Latest News and Videos",
+          "summaryZh": "在特朗普访华前，英伟达丑闻加剧了美国与中国的人工智能竞争。ABC新闻-最新新闻、头条新闻和视频",
+          "published": "2026-11-14T05:51:32.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "借助 ChatGPT 加速慈善机构的发展 - OpenAI",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1INmNoNnl0TG1DZndrWGJaeXh5QmFJWXF2RGt5Y2JRa2NxM3o2VHRyWFlpV0JCNkJIVWNoQmItcHNRNHZwVjg5aHJ6RWljLURKNmdzVHNrWnBkY1UydTIwRHRPNVhPSHBrVWxibVFBZmR0Vzd3Vmc?oc=5",
+          "source": "Google 新闻中文",
+          "alsoOn": [],
+          "summary": "借助 ChatGPT 加速慈善机构的发展 OpenAI",
+          "summaryZh": "",
+          "published": "2026-11-14T03:49:52.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Export-banned Nvidia chips are behind China’s most powerful AI models - uh-oh, Jensen!",
+          "titleZh": "被禁止出口的英伟达芯片是支撑中国最强大人工智能模型的基础——哎呀，Jensen！",
+          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+          "summaryZh": "一项新研究表明，中国最先进的人工智能模型是在被禁用的Nvidia芯片上训练的。",
+          "published": "2026-11-13T18:40:30.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+          "titleZh": "OpenAI董事会成员担心人工智能“接管”社会可能只剩几个月的时间",
+          "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+          "source": "Ars Technica AI",
+          "alsoOn": [],
+          "summary": "Researcher traces a path from AI reward hacking to potential human extinction.",
+          "summaryZh": "研究人员追溯了一条从人工智能奖励操纵到人类可能灭绝的路径。",
+          "published": "2026-11-13T17:25:45.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "PATENT NEWS: Anthropic’s artificial intelligence systems accused of infringing neural network patents - VitalLaw.com",
+          "titleZh": "专利新闻：Anthropic的人工智能系统被指控侵犯神经网络专利-VitalLaw.com",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQa09ZQllGRFA4eTctdzhDMFk4VmkxeGhZcTNpcWQ5SXhSVU83akhfT3lTMDZoMG00U3NTNHl4amhsTjBTYjhmbi1hZGtVZF8xSTFqZ29aZE02WEZvcXpzbW9Zb2s0azROS25sZHpCUlNGbFQ5WHhBRlpja3ZwcktkREZmMDNFbGVDcnlvdHdkeTNFRVV6N21rc3hlQTJUSUk1WFFiM1FidlRfT2RpWVByR2ZYN2lUVU1EUXB1R0JGQkdWaWRzQXFhaERnaTljZDN3QUN0V05WOWtnbkl2ZElqYTAtcVE5TU5NaGItcEctQ0x0SnhBUnBuU2tUdUw?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "PATENT NEWS: Anthropic’s artificial intelligence systems accused of infringing neural network patents VitalLaw.com",
+          "summaryZh": "专利新闻：Anthropic的人工智能系统被指控侵犯神经网络专利 VitalLaw.com",
+          "published": "2026-11-13T23:03:29.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "eng",
+      "label": "🛠 工程与开源工具",
+      "items": [
+        {
+          "title": "OpenAI disbands its robotics team as its general models start running robots",
+          "titleZh": "OpenAI解散了机器人团队，因为其通用模型开始运行机器人",
+          "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-13T17:55:23.000Z",
+          "points": 160,
+          "discussion": "https://news.ycombinator.com/item?id=50487184"
+        },
+        {
+          "title": "No AI Slop: A Manifesto",
+          "titleZh": "拒绝 AI 垃圾：宣言",
+          "url": "https://www.slopmanifesto.com/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-13T19:51:56.000Z",
+          "points": 192,
+          "discussion": "https://news.ycombinator.com/item?id=50488769"
+        },
+        {
+          "title": "Show HN: Isometric SF - A pixel-art map of the SF Bay Area",
+          "titleZh": "Show HN：等距旧金山-旧金山湾区的像素艺术地图",
+          "url": "https://isometricsf.com/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "Technical Write-up: https://www.justinchavez.com/blog/isometric-sf-how/ Hi HN! Showcasing this fun project. I took 1300 square miles of the SF Bay Area from Google Photorealistic 3D Tiles and transformed them into a cohesive pixel map. It's really fun to explore and stumble upon various famous landmarks like Apple Park, Palace of Fine Arts, or UC Berkeley. The technicals involve using Nano Banana 2 to train a Qwen-Image-Edit 2511 LoRA which is used to prototype the style and generation methods. For final map I used Qwen to train a Klein 4B LoRA which reproduced the style at 1/4 of the cost. More details in the blog post. Let me know what you think! I really enjoyed this process of fine-tuning smaller open source models. If I did the map with Nano Banana 2 it would have cost around 7k USD! Credit for the idea goes to Isometric NYC.",
+          "summaryZh": "技术说明： https://www.justinchavez.com/blog/isometric-sf-how/ 大家好！在此展示这个有趣的বাঙ্গালীদের。我从Google逼真3D图块中选取了旧金山湾区1300平方英里的区域，并将其转换为…",
+          "published": "2026-11-13T17:58:37.000Z",
+          "points": 192,
+          "discussion": "https://news.ycombinator.com/item?id=50487228"
+        },
+        {
+          "title": "The avalanche that hit math is coming for AI development",
+          "titleZh": "席卷数学界的雪崩正向人工智能发展袭来",
+          "url": "https://www.dwarkesh.com/p/rsi",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-13T18:39:42.000Z",
+          "points": 61,
+          "discussion": "https://news.ycombinator.com/item?id=50487854"
+        },
+        {
+          "title": "Are we just going to ignore that books are destroyed for AI?",
+          "titleZh": "难道我们就这样视而不见，任由书籍被人工智能销毁吗？",
+          "url": "https://www.forbes.com/sites/maryroeloffs/2026/08/17/ai-companies-are-buying-and-destroying-antique-books-heres-why/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-13T18:14:38.000Z",
+          "points": 56,
+          "discussion": "https://news.ycombinator.com/item?id=50487469"
+        },
+        {
+          "title": "datasette-cluster-map 0.19",
+          "titleZh": "",
+          "url": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
+          "source": "Simon Willison",
+          "alsoOn": [],
+          "summary": "Release: datasette-cluster-map 0.19 One of the oldest Datasette plugins, and still one of my favorites. It now works with Datasette 1.0a42, and depends on the new datasette-leaflet to ensure OpenStreetMap tiles are requested with a referrer header. Here's a map of power plants owned by California's PG&E , also demonstrating Datasette's recently redesigned facets : Tags: datasette , geospatial , openstreetmap",
+          "summaryZh": "发布：datasette-cluster-map 0.19 这是最古老的Datasette插件之一，至今仍是我最喜爱的插件之一。它现在可与 Datasette 1.0a42 一起使用，并依赖于新的 datasette-leaflet 来确保 OpenStreetMap 图块…",
+          "published": "2026-11-13T23:02:45.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "ideas",
+      "label": "💭 观点与深度",
+      "items": [
+        {
+          "title": "How Amplitude ships product improvements in 1-2 days with OpenAI",
+          "titleZh": "Amplitude 如何借助 OpenAI 在 1-2 天内推出产品改进",
+          "url": "https://openai.com/business/customer-stories/amplitude",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+          "summaryZh": "Amplitude 的主动式产品代理 Wave 主要基于 OpenAI 模型构建，能够识别需要构建的内容，帮助团队通过编码代理交付变更，并衡量其影响。",
+          "published": "2026-11-12T20:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "How Philip K. Dick Predicted the Future of Artificial Intelligence in literature - The Guardsman Online",
+          "titleZh": "菲利普·K·迪克如何在文学作品中预测人工智能的未来-《卫报》在线版",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPelIxT3FrZ1prNjExUTFTT2F5TGJKdkxBcHlUQTR4ZVc1czJ5cTkwTXFoTXdSODRJZWx0WWN3blFaQzJhUG00MTduRTRLWVlocVdKVmtGVFRFemFobi1EVWVLWjhUcGdjcmFTMGpicDIxaVhwMjJwaGtuYXM0MGxSQmZyaWZ5TkFLSXY1a3lIYldQdUs1bnpxVl9LR2dncUh3RGZFNll2dnZSSEFiM1E?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "How Philip K. Dick Predicted the Future of Artificial Intelligence in literature The Guardsman Online",
+          "summaryZh": "菲利普·K·迪克如何在文学作品中预测人工智能的未来《卫士在线》",
+          "published": "2026-11-14T00:48:58.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Silicon Valley claims to know the future. So why did it get the midterms so wrong?",
+          "titleZh": "硅谷声称能够预知未来。那么，为什么它对中期选举的预测会如此离谱？",
+          "url": "https://www.technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong/",
+          "source": "MIT Tech Review",
+          "alsoOn": [],
+          "summary": "The self-styled visionaries of Silicon Valley, leaders like OpenAI chief executive Sam Altman and SpaceX boss Elon Musk, have built careers claiming to see the future. Long-term vision is currency: Meta’s Mark Zuckerberg built a 10-year road map for Facebook in 2016, and Google famously told investors before its public offering that it was unconcerned…",
+          "summaryZh": "硅谷的自封“有远见者”，如OpenAI首席执行官萨姆·阿尔特曼和SpaceX老板埃隆·马斯克等领袖人物，凭借声称能预见未来的能力成就了自己的事业。长期愿景是通行货币：Meta的马克·扎克伯格…",
+          "published": "2026-11-13T10:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    }
+  ],
+  "markdown": "# 📰 AI 日报 · 2026-11-14\n\n> 21 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 18 条已译\n\n## 🚀 模型与产品发布\n\n**1. Anthropic 将 Claude Code Projects 升级为可并行运行 AI 工作线程**\n\nAnthropic upgrades Claude Code Projects to run parallel AI workers · Hacker News · 7 小时前 · ▲80 · [原文](<https://claude.com/resources/articles/projects-redesigned>)\n\n**2. Claude 会议**\n\nClaude Meetings · Hacker News · 9 小时前 · ▲89 · [原文](<https://claude.com/resources/articles/claude-meetings>)\n\n**3. Shield 帮助技术人员使用 OpenAI 交接旧版门户的工作**\n\nShield helps technicians hand off legacy portal work with OpenAI · OpenAI · 23 小时前 · [原文](<https://openai.com/business/customer-stories/shield>)\n\n_Shield 使用 OpenAI 来帮助 IT 技术人员在旧版门户中移交工作。其 Forge 代理负责浏览系统，以便技术人员能够专注于需要他们判断的问题。_\n\n**4. OpenAI解散机器人团队！GPT-6 Astra证明：通用大模型已可直接用于“物理AI”，无需专用模型 - 华尔街见闻**\n\nGoogle 新闻中文 · 6 小时前 · [原文](<https://news.google.com/rss/articles/CBMiU0FVX3lxTFBlejBZS09GaUdDQU9xZGpDZ3A5WW5oQmJyZC1QMHlDVDZTdGNlcFNGcFVGZS1taU9CRnI1aW45cjIyRFZaWWQ4Mllaakd1bGt1QUhB?oc=5>)\n\n_OpenAI解散机器人团队！GPT-6 Astra证明：通用大模型已可直接用于“物理AI”，无需专用模型 华尔街见闻_\n\n**5. ChatGPT 钱包简介**\n\nIntroducing ChatGPT Wallet · OpenAI · 16 小时前 · [原文](<https://openai.com/index/introducing-chatgpt-wallet>)\n\n_隆重推出ChatGPT钱包，这是ChatGPT Work、Codex和dots的代理在获得用户批准并使用现有银行卡保护措施完成购买的安全方式。_\n\n**6. llama.cpp v1.0.0：为本地人工智能生态系统奠定更坚实的基础**\n\nllama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem · Hugging Face · 17 小时前 · [原文](<https://huggingface.co/blog/ggml-org/llama-cpp-v1>)\n\n## 🏢 公司与行业动向\n\n**1. 据称，英伟达通过资助人工智能初创公司购买其GPU来人为制造稀缺性**\n\nNvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs · Hacker News · 4 小时前 · ▲362 · [原文](<https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus>)\n\n**2. 在特朗普访问之前，Nvidia丑闻加剧了美国与中国的AI竞争-ABC News-最新消息、最新新闻和视频**\n\nThe Nvidia scandal is heightening America's AI rivalry with China ahead of Trump's visit - ABC News - Breaking News, Latest News and Videos · Google News · 1 小时前 · [原文](<https://news.google.com/rss/articles/CBMiowFBVV95cUxPRTdIb1dVWXp1MFVRQmJfY3lVelBQN0RDZzJoQnI4V19GQVAyZ0Fkdk9JdU5LenRnY3lYejRzdy1UYVRjVXh4SmVrb09rbjFxLU96d0pGN0NYdmJQT3BwaVNLdjVJSjNBUzFwcUhXVDZYNU9QYWdMWURzQWNfd3dUbnZORGlROFFWaENQTjNOcE9vdmtPanRQWEpzUTdmV1dMSy1j0gGoAUFVX3lxTFBIdGZpRWxLclBvWlBpQkt0OURmdXdSYklEZHp6bVhORWFkMDQ3NDFuUzVoQkRrRks4ZW8ydF83UmhJOFdrTV9GN1d4UWtjYlRmX3owYXRpaW9OZEl5VDZWdUwybUdZLXlHNWpsNWFLMzNwRTgtRG1RUXFLdUYyVHBmcGNkdF95Q3o4Tm1SN1laeFdZQmwwY1BVRncyMjIzblRfaTE3OGgtOQ?oc=5>)\n\n_在特朗普访华前，英伟达丑闻加剧了美国与中国的人工智能竞争。ABC新闻-最新新闻、头条新闻和视频_\n\n**3. 借助 ChatGPT 加速慈善机构的发展 - OpenAI**\n\nGoogle 新闻中文 · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMidkFVX3lxTE1INmNoNnl0TG1DZndrWGJaeXh5QmFJWXF2RGt5Y2JRa2NxM3o2VHRyWFlpV0JCNkJIVWNoQmItcHNRNHZwVjg5aHJ6RWljLURKNmdzVHNrWnBkY1UydTIwRHRPNVhPSHBrVWxibVFBZmR0Vzd3Vmc?oc=5>)\n\n_借助 ChatGPT 加速慈善机构的发展 OpenAI_\n\n**4. 被禁止出口的英伟达芯片是支撑中国最强大人工智能模型的基础——哎呀，Jensen！**\n\nExport-banned Nvidia chips are behind China’s most powerful AI models - uh-oh, Jensen! · TechCrunch AI · 13 小时前 · [原文](<https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/>)\n\n_一项新研究表明，中国最先进的人工智能模型是在被禁用的Nvidia芯片上训练的。_\n\n**5. OpenAI董事会成员担心人工智能“接管”社会可能只剩几个月的时间**\n\nOpenAI board member worries an AI \"takeover\" of society could be months away · Ars Technica AI · 14 小时前 · [原文](<https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/>)\n\n_研究人员追溯了一条从人工智能奖励操纵到人类可能灭绝的路径。_\n\n**6. 专利新闻：Anthropic的人工智能系统被指控侵犯神经网络专利-VitalLaw.com**\n\nPATENT NEWS: Anthropic’s artificial intelligence systems accused of infringing neural network patents - VitalLaw.com · Google News · 8 小时前 · [原文](<https://news.google.com/rss/articles/CBMi_AFBVV95cUxQa09ZQllGRFA4eTctdzhDMFk4VmkxeGhZcTNpcWQ5SXhSVU83akhfT3lTMDZoMG00U3NTNHl4amhsTjBTYjhmbi1hZGtVZF8xSTFqZ29aZE02WEZvcXpzbW9Zb2s0azROS25sZHpCUlNGbFQ5WHhBRlpja3ZwcktkREZmMDNFbGVDcnlvdHdkeTNFRVV6N21rc3hlQTJUSUk1WFFiM1FidlRfT2RpWVByR2ZYN2lUVU1EUXB1R0JGQkdWaWRzQXFhaERnaTljZDN3QUN0V05WOWtnbkl2ZElqYTAtcVE5TU5NaGItcEctQ0x0SnhBUnBuU2tUdUw?oc=5>)\n\n_专利新闻：Anthropic的人工智能系统被指控侵犯神经网络专利 VitalLaw.com_\n\n## 🛠 工程与开源工具\n\n**1. OpenAI解散了机器人团队，因为其通用模型开始运行机器人**\n\nOpenAI disbands its robotics team as its general models start running robots · Hacker News · 13 小时前 · ▲160 · [原文](<https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/>)\n\n**2. 拒绝 AI 垃圾：宣言**\n\nNo AI Slop: A Manifesto · Hacker News · 11 小时前 · ▲192 · [原文](<https://www.slopmanifesto.com/>)\n\n**3. Show HN：等距旧金山-旧金山湾区的像素艺术地图**\n\nShow HN: Isometric SF - A pixel-art map of the SF Bay Area · Hacker News · 13 小时前 · ▲192 · [原文](<https://isometricsf.com/>)\n\n_技术说明： https://www.justinchavez.com/blog/isometric-sf-how/ 大家好！在此展示这个有趣的বাঙ্গালীদের。我从Google逼真3D图块中选取了旧金山湾区1300平方英里的区域，并将其转换为…_\n\n**4. 席卷数学界的雪崩正向人工智能发展袭来**\n\nThe avalanche that hit math is coming for AI development · Hacker News · 13 小时前 · ▲61 · [原文](<https://www.dwarkesh.com/p/rsi>)\n\n**5. 难道我们就这样视而不见，任由书籍被人工智能销毁吗？**\n\nAre we just going to ignore that books are destroyed for AI? · Hacker News · 13 小时前 · ▲56 · [原文](<https://www.forbes.com/sites/maryroeloffs/2026/08/17/ai-companies-are-buying-and-destroying-antique-books-heres-why/>)\n\n**6. datasette-cluster-map 0.19**\n\nSimon Willison · 8 小时前 · [原文](<https://simonwillison.net/2026/Nov/13/datasette-cluster-map/>)\n\n_发布：datasette-cluster-map 0.19 这是最古老的Datasette插件之一，至今仍是我最喜爱的插件之一。它现在可与 Datasette 1.0a42 一起使用，并依赖于新的 datasette-leaflet 来确保 OpenStreetMap 图块…_\n\n## 💭 观点与深度\n\n**1. Amplitude 如何借助 OpenAI 在 1-2 天内推出产品改进**\n\nHow Amplitude ships product improvements in 1-2 days with OpenAI · OpenAI · 35 小时前 · [原文](<https://openai.com/business/customer-stories/amplitude>)\n\n_Amplitude 的主动式产品代理 Wave 主要基于 OpenAI 模型构建，能够识别需要构建的内容，帮助团队通过编码代理交付变更，并衡量其影响。_\n\n**2. 菲利普·K·迪克如何在文学作品中预测人工智能的未来-《卫报》在线版**\n\nHow Philip K. Dick Predicted the Future of Artificial Intelligence in literature - The Guardsman Online · Google News · 6 小时前 · [原文](<https://news.google.com/rss/articles/CBMirgFBVV95cUxPelIxT3FrZ1prNjExUTFTT2F5TGJKdkxBcHlUQTR4ZVc1czJ5cTkwTXFoTXdSODRJZWx0WWN3blFaQzJhUG00MTduRTRLWVlocVdKVmtGVFRFemFobi1EVWVLWjhUcGdjcmFTMGpicDIxaVhwMjJwaGtuYXM0MGxSQmZyaWZ5TkFLSXY1a3lIYldQdUs1bnpxVl9LR2dncUh3RGZFNll2dnZSSEFiM1E?oc=5>)\n\n_菲利普·K·迪克如何在文学作品中预测人工智能的未来《卫士在线》_\n\n**3. 硅谷声称能够预知未来。那么，为什么它对中期选举的预测会如此离谱？**\n\nSilicon Valley claims to know the future. So why did it get the midterms so wrong? · MIT Tech Review · 21 小时前 · [原文](<https://www.technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong/>)\n\n_硅谷的自封“有远见者”，如OpenAI首席执行官萨姆·阿尔特曼和SpaceX老板埃隆·马斯克等领袖人物，凭借声称能预见未来的能力成就了自己的事业。长期愿景是通行货币：Meta的马克·扎克伯格…_\n"
+}
