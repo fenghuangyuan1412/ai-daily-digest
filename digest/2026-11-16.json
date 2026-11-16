@@ -1,0 +1,280 @@
+{
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T07:28:21.362Z",
+  "windowHours": 36,
+  "sourcesTotal": 13,
+  "sourcesOk": 11,
+  "sourcesFailed": [
+    "Google News",
+    "Google 新闻中文"
+  ],
+  "itemCount": 20,
+  "translatedCount": 0,
+  "sections": [
+    {
+      "key": "model",
+      "label": "🚀 模型与产品发布",
+      "items": [
+        {
+          "title": "A step toward defining the Standard Model on a lattice",
+          "titleZh": "",
+          "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+          "summaryZh": "",
+          "published": "2026-11-15T22:00:01.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Our new blog for science",
+          "titleZh": "",
+          "url": "https://openai.com/index/our-new-blog-for-science",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+          "summaryZh": "",
+          "published": "2026-11-15T22:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "research",
+      "label": "🔬 研究前沿",
+      "items": [
+        {
+          "title": "Apple launches new app to study how people use AI for health",
+          "titleZh": "",
+          "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Apple's new app for a study will answer everyday medical questions",
+          "summaryZh": "",
+          "published": "2026-11-16T01:30:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+          "titleZh": "",
+          "url": "https://arxiv.org/abs/2611.17338",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "LLM memory systems often delete facts classified as stale. We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts. Across three models, a controlled sensitivity intervention moves hard-drop from gains of +0.186 to +0.230 at perfect resolution to losses of -0.176 to -0.181 at the lowest tested reliability. Paired targeted interventions show that false-drop causes significantly greater degradation than false-keep, while a non-deleting baseline can still fail when incorrect labels steer generation. On a frozen 102/102 calibration/test split, a simple deployment-matched gate reaches 0.655 accuracy versus 0.641 for always hard-drop and 0.662 for test-informed oracle selection. Global-accuracy crossovers require gold labels and are model- and task-specific diagnostics, not deployment thresholds. Deletion should instead be treated as cost-sensitive: validate query-critical false-drop risk on matched data, or default to label-free retention when such validation is unavailable.",
+          "summaryZh": "",
+          "published": "2026-11-16T05:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
+          "titleZh": "",
+          "url": "https://arxiv.org/abs/2611.17339",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Hallucination detection for large language models is dominated by methods evaluated on 7B-70B research models with abundant sampling budgets and exact-match or ROUGE correctness labels. The small models practitioners actually ship on-device, Phi-3-mini, Llama-3.2-3B-Instruct, Qwen2.5-3B-Instruct, and Gemma-2-2B-Instruct, typically at 4-bit precision, sit outside this evidence base. We present a reproducible one-GPU audit of four detectors spanning three paradigms: length-normalized token-margin calibration, a lexical n-gram baseline, and two sampling-based consistency methods (semantic entropy and SelfCheckGPT-NLI) on two small open instruction-tuned models (Llama-3.2-3B-Instruct and Qwen2.5-3B-Instruct) loaded at 4-bit NF4 quantization on a single Colab T4 GPU, evaluated on closed-book TriviaQA. Cross-model ranking transfer is poor: Spearman rho is -0.80 and Kendall tau-b is -0.667, meaning the detector ranking actively inverts between the two models, and the cheap lexical baseline is statistically indistinguishable from the sampling-based consistency detectors on both models under bootstrap 95 percent confidence intervals. As a second, methodological contribution, we show that the standard token-overlap-to-multiple-choice correctness labeler for TruthfulQA-Generation produces near-chance AUROC (0.46-0.59) for all four detectors on both models, a labeler failure, not a detector failure, since the same detectors reach 0.69-0.89 AUROC on TriviaQA under the identical pipeline. We release the harness, prompts, and per-item scores and frame the detector choice explicitly as a fairness-of-error-rates allocation problem for practitioners deploying on resource-constrained, on-device hardware.",
+          "summaryZh": "",
+          "published": "2026-11-16T05:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+          "titleZh": "",
+          "url": "https://arxiv.org/abs/2611.17340",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Large language models are expensive to update through full retraining. Parameter-efficient fine-tuning reduces the cost of adaptation, but repeated adaptation creates a growing pool of task-specific LoRA adapters. This pool complicates adapter selection during inference. Existing routing and encoder-based methods often require retraining when new adapters are added, which limits their use in dynamic settings. This paper treats adapter routing as a representation alignment problem in the adapter-output space. The proposed training-free method selects adapters by matching adapter-conditioned query representations against task prototypes using cosine similarity. Experiments with LLaMA-2-7B and LLaMA-2-13B on a 48-task FLAN-v2 benchmark and on out-of-distribution tasks show that the method outperforms training-free baselines in the cross-task setting and approaches a trained retrieval encoder without learning a router. An ablation confirms the benefit of directional alignment in the adapter-output space.",
+          "summaryZh": "",
+          "published": "2026-11-16T05:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction",
+          "titleZh": "",
+          "url": "https://arxiv.org/abs/2611.17341",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Medication prediction from electronic health records is a fixed vocabulary structured prediction problem, yet recent clinical RAG systems often treat it like open ended case based reasoning: retrieve similar patient admissions and ask an LLM to infer a medication set. This retrieval object is indirect the model receives retrieved patient records while the target is a discrete set of medication class labels. We propose a more task aligned retrieval object: a tabular population prior ranked medication class candidates from a sparse condition medication co occurrence table estimated from training admissions. Using PACERAG as a fixed downstream pipeline and replacing only its patient retriever, this drop in swap improves F1 from 0.303 to 0.338 (+11.5% relative) and Jaccard from 0.218 to 0.237 on 1,004 heldout MIMIC IV admissions, with no additional LLM calls and no inference time patient index. A non LLM top k baseline reaches F1=0.248, confirming the prior is predictive before LLM integration. Aggregate population statistics can provide a more task aligned, efficient, and auditable retrieval source than patient level nearest neighbors for fixed vocabulary EHR set prediction.",
+          "summaryZh": "",
+          "published": "2026-11-16T05:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "An Operationalization of Opaque Serial Depth",
+          "titleZh": "",
+          "url": "https://arxiv.org/abs/2611.17495",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Chain-of-thought (CoT) is currently a valuable tool for overseeing AI models, but some architectural shifts could significantly reduce CoT monitorability. We operationalize a measure that serves as a proxy for the amount of unverbalized serial cognition a model can perform, as a specific instantiation of the notion of opaque serial depth: roughly, the length of the longest path through a model's computation that does not pass through an interpretable bottleneck. Our main contribution is a particular standard for what counts as such a bottleneck. We define natural-language-rooted (NL-rooted) nodes as nodes that were initialized from a pre-training prior to produce human-understandable outputs, whose output space has not been expanded beyond that prior, and whose outputs the model has not been modified to interpret as a different type of data. By construction, the resulting measure, NLS depth, can be adjudicated before training from an architecture, training recipe, and deployment configuration alone, and is insensitive to ordinary post-training such as prompting, distillation, and RL. We find that, across open-weight models, NLS depth correlates strongly with layer count, with some exceptions, and has grown slowly over recent years. It would likely grow slowly under continued scaling of standard transformers, while latent-reasoning architectures such as full-bandwidth transformers could increase it by a large amount. We work through how NLS depth applies to a range of existing and proposed architectures, discuss alternative operationalizations, and give a worked example bounding the depth of Gemma3-1B. We argue that AI developers should track and report the NLS depth of their models as a complement to direct measurements of CoT monitorability.",
+          "summaryZh": "",
+          "published": "2026-11-16T05:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "label": "🏢 公司与行业动向",
+      "items": [
+        {
+          "title": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
+          "titleZh": "",
+          "url": "https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "https://wallhop.io/https://www.nytimes.com/2026/11/15/us/pol...",
+          "summaryZh": "",
+          "published": "2026-11-15T11:40:51.000Z",
+          "points": 489,
+          "discussion": "https://news.ycombinator.com/item?id=50506180"
+        },
+        {
+          "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+          "titleZh": "",
+          "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
+          "summaryZh": "",
+          "published": "2026-11-15T23:30:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+          "titleZh": "",
+          "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
+          "summaryZh": "",
+          "published": "2026-11-15T21:56:35.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
+          "titleZh": "",
+          "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.",
+          "summaryZh": "",
+          "published": "2026-11-15T20:20:57.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Where was Nvidia’s security team?",
+          "titleZh": "",
+          "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch.",
+          "summaryZh": "",
+          "published": "2026-11-15T00:08:07.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+          "titleZh": "",
+          "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+          "summaryZh": "",
+          "published": "2026-11-14T21:41:22.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "eng",
+      "label": "🛠 工程与开源工具",
+      "items": [
+        {
+          "title": "All AI-generated code should be Open Source",
+          "titleZh": "",
+          "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-15T14:46:58.000Z",
+          "points": 1139,
+          "discussion": "https://news.ycombinator.com/item?id=50507303"
+        },
+        {
+          "title": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half of all jobs",
+          "titleZh": "",
+          "url": "https://www.hntrends.com/2026/november.html",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-16T01:31:30.000Z",
+          "points": 82,
+          "discussion": "https://news.ycombinator.com/item?id=50512950"
+        },
+        {
+          "title": "Your Agent Will Pick the Hackable One",
+          "titleZh": "",
+          "url": "https://geoffstearns.com/blog/your-agent-will-pick-the-hackable-one/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-15T21:10:39.000Z",
+          "points": 75,
+          "discussion": "https://news.ycombinator.com/item?id=50510799"
+        },
+        {
+          "title": "Parents pay $75k for Alpha's AI school. Half of its students missed math target",
+          "titleZh": "",
+          "url": "https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-15T19:39:46.000Z",
+          "points": 64,
+          "discussion": "https://news.ycombinator.com/item?id=50509953"
+        },
+        {
+          "title": "Show HN: db-branch - database branches in seconds for AI agents and CI, via ZFS",
+          "titleZh": "",
+          "url": "https://github.com/db-branch/db-branch",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-15T13:50:51.000Z",
+          "points": 41,
+          "discussion": "https://news.ycombinator.com/item?id=50506940"
+        },
+        {
+          "title": "datasette-maplibre 0.1a0",
+          "titleZh": "",
+          "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+          "source": "Simon Willison",
+          "alsoOn": [],
+          "summary": "Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub .) I built most of this with a single prompt to Claude Fable 5.2: Look at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at ~/dev/tools/openfreemap-demo.html - then build a brand new Datasette plugin that uses maplibreGL and openfreemap and combines the features of those other two plugins - but be creative and think outside the box for other useful features the plugin might have \"Be creative and think outside the box\" resulted in a few neat ideas - my favorite is that it displays SVG previews of GeoJSON shapes, then loads a WebGL preview only when they scroll into view. I also had Claude build a comprehensive demo which works in the latest Datasette Lite, so you can visit this link to load the plugin and a demo database in your browser via Pyodide and WebAssembly. I like this demo page showing both GeoJSON shapes and lat/lon points on the same map: Tags: visualization , generative-ai , datasette-lite , claude-mythos-fable , ai , llms , geospatial , openstreetmap , datasette",
+          "summaryZh": "",
+          "published": "2026-11-15T23:58:36.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    }
+  ],
+  "markdown": "# 📰 AI 日报 · 2026-11-16\n\n> 20 条 · 11/13 个源正常 · 覆盖最近 36 小时\n\n## 🚀 模型与产品发布\n\n**1. A step toward defining the Standard Model on a lattice**\n\nOpenAI · 9 小时前 · [原文](<https://openai.com/index/step-toward-defining-the-standard-model>)\n\n_Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof._\n\n**2. Our new blog for science**\n\nOpenAI · 9 小时前 · [原文](<https://openai.com/index/our-new-blog-for-science>)\n\n_The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery._\n\n## 🔬 研究前沿\n\n**1. Apple launches new app to study how people use AI for health**\n\nTechCrunch AI · 6 小时前 · [原文](<https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/>)\n\n_Apple's new app for a study will answer everyday medical questions_\n\n**2. When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors**\n\narXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.17338>)\n\n_LLM memory systems often delete facts classified as stale. We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts. Across three models, a controlled…_\n\n**3. Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs**\n\narXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.17339>)\n\n_Hallucination detection for large language models is dominated by methods evaluated on 7B-70B research models with abundant sampling budgets and exact-match or ROUGE correctness labels. The small models practitioners…_\n\n**4. LoRAWeaver: Directional Adapter Routing in LoRA Representation Space**\n\narXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.17340>)\n\n_Large language models are expensive to update through full retraining. Parameter-efficient fine-tuning reduces the cost of adaptation, but repeated adaptation creates a growing pool of task-specific LoRA adapters. This…_\n\n**5. Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction**\n\narXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.17341>)\n\n_Medication prediction from electronic health records is a fixed vocabulary structured prediction problem, yet recent clinical RAG systems often treat it like open ended case based reasoning: retrieve similar patient…_\n\n**6. An Operationalization of Opaque Serial Depth**\n\narXiv cs.AI · 2 小时前 · [原文](<https://arxiv.org/abs/2611.17495>)\n\n_Chain-of-thought (CoT) is currently a valuable tool for overseeing AI models, but some architectural shifts could significantly reduce CoT monitorability. We operationalize a measure that serves as a proxy for the…_\n\n## 🏢 公司与行业动向\n\n**1. Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business**\n\nHacker News · 20 小时前 · ▲489 · [原文](<https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html>)\n\n_https://wallhop.io/https://www.nytimes.com/2026/11/15/us/pol..._\n\n**2. Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market**\n\nTechCrunch AI · 8 小时前 · [原文](<https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/>)\n\n_Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics._\n\n**3. Is bad news for Jensen Huang also bad news for the AI industry?**\n\nTechCrunch AI · 10 小时前 · [原文](<https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/>)\n\n_\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"_\n\n**4. SNL gathers all the tech tycoons for a lesson in dating and spycraft**\n\nTechCrunch AI · 11 小时前 · [原文](<https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/>)\n\n_While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once._\n\n**5. Where was Nvidia’s security team?**\n\nTechCrunch AI · 31 小时前 · [原文](<https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/>)\n\n_Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former…_\n\n**6. Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang**\n\nTechCrunch AI · 34 小时前 · [原文](<https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/>)\n\n_The petition had attracted more than 115,000 signatures as of Saturday afternoon._\n\n## 🛠 工程与开源工具\n\n**1. All AI-generated code should be Open Source**\n\nHacker News · 17 小时前 · ▲1139 · [原文](<https://jakub.jankiewicz.org/blog/ai-code-open-source/>)\n\n**2. \"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half of all jobs**\n\nHacker News · 6 小时前 · ▲82 · [原文](<https://www.hntrends.com/2026/november.html>)\n\n**3. Your Agent Will Pick the Hackable One**\n\nHacker News · 10 小时前 · ▲75 · [原文](<https://geoffstearns.com/blog/your-agent-will-pick-the-hackable-one/>)\n\n**4. Parents pay $75k for Alpha's AI school. Half of its students missed math target**\n\nHacker News · 12 小时前 · ▲64 · [原文](<https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/>)\n\n**5. Show HN: db-branch - database branches in seconds for AI agents and CI, via ZFS**\n\nHacker News · 18 小时前 · ▲41 · [原文](<https://github.com/db-branch/db-branch>)\n\n**6. datasette-maplibre 0.1a0**\n\nSimon Willison · 7 小时前 · [原文](<https://simonwillison.net/2026/Nov/15/datasette-maplibre/>)\n\n_Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you…_\n\n---\n\n⚠️ 拉取失败的源：Google News、Google 新闻中文\n"
+}
