@@ -1,0 +1,307 @@
+{
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-17T08:40:31.407Z",
+  "windowHours": 36,
+  "sourcesTotal": 13,
+  "sourcesOk": 13,
+  "sourcesFailed": [],
+  "itemCount": 22,
+  "translatedCount": 22,
+  "sections": [
+    {
+      "key": "model",
+      "label": "🚀 模型与产品发布",
+      "items": [
+        {
+          "title": "Claude Mythos slashed software work to onboard AMD GPUs to around three days",
+          "titleZh": "Claude Mythos 将搭载 AMD GPU 的软件工作量缩短至约三天",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-mythos-slashed-software-work-to-onboard-amd-gpus-from-up-to-12-months-to-around-three-days-writing-almost-100-percent-of-kernels-autonomously-chips-away-at-nvidias-cuda-moat",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-17T01:35:16.000Z",
+          "points": 44,
+          "discussion": "https://news.ycombinator.com/item?id=50526264"
+        },
+        {
+          "title": "Strengthening NATO and allied cyber defenses with AI",
+          "titleZh": "利用人工智能加强北约和盟国的网络防御",
+          "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+          "summaryZh": "OpenAI 如何与北约及盟国网络安全机构合作，帮助值得信赖的防御者发现漏洞、测试补丁并保护关键系统。",
+          "published": "2026-11-17T00:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Broadening access to AI for scientists",
+          "titleZh": "拓宽科学家使用人工智能的途径",
+          "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+          "summaryZh": "我们正在扩展面向学术研究人员的ChatGPT计划，为全球20万名研究人员提供免费使用我们前沿模型的权限。",
+          "published": "2026-11-16T17:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+          "titleZh": "利用新工具和支持措施加强打击网上儿童性虐待行为",
+          "url": "https://openai.com/index/strengthening-online-child-safety",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+          "summaryZh": "新的工具、实用指南和合作伙伴关系将有助于预防、发现和应对网上儿童性剥削和性虐待。",
+          "published": "2026-11-16T17:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "research",
+      "label": "🔬 研究前沿",
+      "items": [
+        {
+          "title": "Agents Cannot Hand Over What They Have Not Yet Understood",
+          "titleZh": "客服代表无法移交他们尚未弄清的问题",
+          "url": "https://arxiv.org/abs/2611.18642",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Agents that work beyond a single context window, or in teams, hand their work to a successor as a short written summary. Evaluation has focused on whether an agent can solve a task, and relatively little is known about how much of what an agent has learned survives being written down. We study this in 56 interactive worlds with hidden rules, where an agent that is told nothing fails and an agent given a 300-character statement of the rules succeeds. We compare one agent that plays eight lives and keeps its whole history with a chain of eight agents that each play one life and inherit a 300-character note. All six models we test learn less in the chain: after eight generations it stands where the single agent stood after about four lives. Controlled variants of the chain decompose this handoff loss into three components: none from changing the agent, a smaller loss from compressing to 300 characters, and a larger loss from compressing repeatedly. When each note is written from the full record of earlier lives instead of from the previous note, the same 300 characters recover 70% to 82% of the loss. The loss is robust across model sizes and is not alleviated by instructing the writer to record evidence, to revise the inherited note, or to keep a structured ledger. In simpler terms, an agent cannot hand over what it has not yet understood: a note holds what its writer has worked out, and a rule that takes several lives to see is lost with the lives that were not passed on.",
+          "summaryZh": "在单个上下文窗口之外或在团队中工作的代理会将他们的工作以简短的书面摘要的形式移交给继任者。评估的重点在于代理是否能够完成任务，而对于…",
+          "published": "2026-11-17T05:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "How to make a moral agent: sentimentalism and rationalism as lenses on AI",
+          "titleZh": "如何打造道德主体：将情感主义和理性主义作为审视人工智能的视角",
+          "url": "https://arxiv.org/abs/2611.18714",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Can AI systems be moral agents? That is, can they undertake actions that can be correctly assessed as morally right or wrong? There is no settled normative criterion of moral agency that applies neatly outside paradigm human cases. Because of the difficulties with a normative account, we instead propose a research program to explore descriptive moral agency. Most basically, we ask, what are the capabilities we humans possess that underlie our moral agency? To do so, we draw on historical scholarship in philosophy and moral psychology to isolate candidate capabilities. Then we suggest refining candidate capabilities so that they are testable in the context of AI systems. Finally, we offer specific empirical recommendations to test AI systems, especially large language models (LLMs), for those refined capabilities. Our approach offers several benefits. Firstly, it may demonstrate whether the behaviors of AI systems are aligned, or in a broad sense desirable. Secondly, the debate may inform policy questions (e.g., what models should be deployed in which contexts?). Thirdly, our approach may complement engineering and design efforts: when capabilities can be precisely characterized, they can inform the development of models. Fourthly, applying our moral reasoning concepts in the new context of AI systems should improve our understanding of those concepts.",
+          "summaryZh": "人工智能系统能成为道德主体吗？也就是说，它们能否采取可以被正确评估为在道德上正确或错误的行动？目前尚无明确的道德主体规范标准，可以完美地适用于范式之外的情况。…",
+          "published": "2026-11-17T05:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Video-as-Experience: Learning Computer Use via Audio-Visual Understanding",
+          "titleZh": "视频体验：通过视听理解学习计算机使用",
+          "url": "https://arxiv.org/abs/2611.18747",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Multimodal large language models (LLMs) have enabled capable computer-use agents that perceive graphical user interfaces, reason over instructions, and execute actions. However, existing approaches to learning from video demonstrations typically convert videos into screenshot-based action trajectories, rather than directly leveraging their rich audio-visual information. We introduce VEX (Video as EXperience), a framework that uses audio-visual understanding to unify learning from external demonstrations and reflecting on an agent's own behavior. Following a watch-act-rewatch paradigm, the agent extracts procedural guidance from tutorial videos containing visual demonstrations and spoken explanations, executes tasks, and verifies its progress by rewatching its execution as video. We instantiate VEX with video-SALMONN-VEX, a 9B-scale audio-visual computer-use agent built on the video-SALMONN 2 architecture with a Qwen3.5-9B backbone. We further introduce Action-Grounded Guide Optimization (AGGO), a reinforcement learning method that optimizes video-derived guidance for downstream action prediction, and augment AgentNet, OSWorld, and CUA-Gym with over 24K real-world tutorial videos. Experiments on OSWorld and a complementary subset of CUA-Gym demonstrate consistent improvements, with video-SALMONN-VEX achieving a 22% relative increase in task success over its Qwen3.5 backbone on OSWorld. Moreover, its generated guidance improves Gemini-3.5-flash by 10% relatively on OSWorld. These results highlight the potential of audio-visual understanding as a unified interface for procedural learning and self-verification in computer-use agents.",
+          "summaryZh": "多模态大语言模型（LLM）催生了具备强大能力的计算机使用代理，它们能够感知图形用户界面、对指令进行推理并执行操作。然而，现有的从…",
+          "published": "2026-11-17T05:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Multimodal Fusion: A Review of Breast Cancer Advanced and Traditional Modalities",
+          "titleZh": "多模态融合：乳腺癌先进和传统成像方式综述",
+          "url": "https://arxiv.org/abs/2611.18793",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Purpose: Multimodal medical imaging fusion (MMIF) is an increasingly important approach to breast cancer detection (BCD), as different imaging modalities rely on different physical principles and provide complementary information. No single modality can capture all the structural, functional, and biological information needed for accurate diagnosis and characterization. Methods: This review examines more than 15 imaging modalities used in breast cancer detection, including conventional techniques such as mammography, ultrasound, and magnetic resonance imaging (MRI), as well as emerging approaches such as thermal imaging, photoacoustic imaging, microwave imaging, and multimodal microscopy. Results: Mammography, ultrasound, and MRI remain among the most widely used modalities, providing complementary structural and functional information. Recent AI advances have enabled fusion at the data, feature, and decision levels, with applications in detection, classification, segmentation, prognosis, and personalized cancer management. Multimodal approaches increasingly combine imaging data with clinical, histopathological, and genomic information. However, important challenges remain, including limited availability of large and diverse multimodal datasets, variations in imaging protocols, missing modalities, limited external validation, and the need for interpretable and clinically reliable AI models. Conclusion: MMIF offers promising opportunities to improve breast cancer detection and characterization by combining complementary imaging and non-imaging information. Future research should prioritize robust fusion strategies, standardized and diverse datasets, multicenter validation, explainable and privacy-preserving AI, and the integration of imaging with clinical and molecular data to facilitate reliable translation into clinical practice.",
+          "summaryZh": "目的：多模态医学影像融合（MMIF）是乳腺癌检测（BCD）中日益重要的方法，因为不同的影像学成像方式基于不同的物理原理，并提供互补性…",
+          "published": "2026-11-17T05:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "label": "🏢 公司与行业动向",
+      "items": [
+        {
+          "title": "Launch HN: Axonnic (YC F26) - Sleeves that track fingers and estimate force",
+          "titleZh": "HN发布：Axonnic（YC F26）——可追踪手指并估算力量的手套",
+          "url": "https://news.ycombinator.com/item?id=50522776",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "Hi HN! We’re Arsh and Max, founders of Axonnic ( https://axonnic.com ). We’ve developed a forearm sleeve that reads muscle activity to decode finger movements and estimate fingertip force, while leaving the hands bare. It’s used to record human movement and generate training data for dextrous robots. Here’s a demo video: https://youtube.com/shorts/xBrocTc9cfA We’ve found that electromyography (EMG) is a much better way to train robots than by video alone because video only captures movement, not muscle activity or the effort behind the movement. A useful signal can be present even when the hand barely moves; just maintaining a grip involves muscle activation. The subtle muscle movements that can barely be picked up in video are the most important details for activities like sewing and delicate assembly. The sleeve has 64 channels of surface electromyography, or EMG. Electrodes on the skin detect electrical activity from muscles in the forearm. We distribute sensors across the forearm so as to not overfit to one muscle group. We synchronize EMG with hand tracking to train a model that predicts finger joint angles, then we run the decoder solely from EMG, adding in fingertip force estimates that have been calibrated from finger presses on force sensors. When the user takes the sleeve off then puts it back on again, the electrode positions change, so we run tests over separate wearings. In one case, we ran a 215-second recording, four days after training, without any recalibration, and compared the results with Apple Vision Pro hand tracking. The result was just 6.9° error across 20 joint angles. We’ve published the measurements and evaluation details here: https://axonnic.com/benchmarks . We faced many challenges doing recordings in factories, including wireless interference and unreliable off-the-shelf hardware. This led to some bad recordings and the need to repeat data collection. For that reason, we’re developing our own electronics that use a wired PCB design that will eliminate interference and timing inconsistencies. Axonnic grew out of Max's EMG research at Oxford. We looked at using the technology for computer control, then we thought a more promising use-case was in capturing the effort involved in skilled manual tasks. This technology could be described as a computer to human interface. Where computers gain insight and learn from human skills. Sewing particularly stood out because the material deforms and the operator is constantly adjusting grip and tension. Maxim has an Oxford MBiol and conducted research on high-density surface EMG. He previously built internal tools at Skyscanner and worked at Voxblock across PCB development and supply chain. Arsh studied medicine at Oxford and has research experience applying machine learning to medical imaging, alongside software and robotics projects. Together we have built the sleeve, decoding software and data-collection system and tested them in industrial settings. So far we have the tech being used to record sewing and other manual tasks at a European manufacturer, which signed an LOI for support with robotic implementation. We have also collected construction demonstrations involving electricians, plumbers and demolition work. These are pilot and data-collection examples. Separately, our public demos include controlling a Proception robotic hand from forearm EMG. If you’ve done any of your own trials for training robots for manual tasks, we’d love to hear about what tasks you were trying to train for and how the trials went. We’re happy to discuss the hardware, calibration and models here in the comments. Thanks! https://axonnic.com",
+          "summaryZh": "HN大家好！我们是Axonnic的创始人Arsh和Max（https://axonnic.com）。我们开发了一种前臂袖套，它可以读取肌肉活动，从而解码手指动作并估算指尖力量，同时让双手保持裸露。…",
+          "published": "2026-11-16T20:29:48.000Z",
+          "points": 43,
+          "discussion": "https://news.ycombinator.com/item?id=50522776"
+        },
+        {
+          "title": "All the questions Nvidia should answer on Tuesday - but probably won’t",
+          "titleZh": "英伟达周二应回答的所有问题——但可能不会回答",
+          "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results. Given the turmoil Nvidia is in, there are a number of questions that Nvidia should answer.",
+          "summaryZh": "周二，英伟达将公布第三季度业绩，届时，英伟达临时首席执行官兼长期首席财务官科莱特·克雷斯（Colette Kress）将迎来其职业生涯中最重要的日子之一。鉴于英伟达正处于动荡之中，有许多…",
+          "published": "2026-11-16T22:03:02.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "California state AG sues OpenAI over rogue agent incidents",
+          "titleZh": "加利福尼亚州总检察长就欺诈代理人事件起诉 OpenAI",
+          "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
+          "summaryZh": "加利福尼亚州的这场诉讼是首次尝试让一家人工智能实验室对失控代理事件承担法律责任。",
+          "published": "2026-11-16T20:07:13.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+          "titleZh": "特朗普表示，英伟达前首席执行官黄仁勋与一名疑似中国间谍的婚外情并未威胁到国家安全。",
+          "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Trump contradicted his own government's intelligence officials, who reportedly concluded that Alice Huang is a Chinese spy.",
+          "summaryZh": "特朗普与自己政府的情报官员的说法相左，据报道，这些情报官员的结论是爱丽丝·黄是一名中国间谍。",
+          "published": "2026-11-16T19:12:02.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "eng",
+      "label": "🛠 工程与开源工具",
+      "items": [
+        {
+          "title": "First phase of embedded assessments at OpenAI",
+          "titleZh": "OpenAI嵌入式评估的第一阶段",
+          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-16T16:07:20.000Z",
+          "points": 50,
+          "discussion": "https://news.ycombinator.com/item?id=50519153"
+        },
+        {
+          "title": "Caltech professor no longer grades homework's because everyone uses AI",
+          "titleZh": "加州理工学院教授不再批改作业，因为每个人都使用人工智能",
+          "url": "https://www.businessinsider.com/ai-math-class-university-homework-caltech-careers-2026-11",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-16T20:47:53.000Z",
+          "points": 47,
+          "discussion": "https://news.ycombinator.com/item?id=50523022"
+        },
+        {
+          "title": "Show HN: Fakemetrics.com - \"build in public\" like a superstar",
+          "titleZh": "Show HN：Fakemetrics.com——像超级明星一样“公开打造”",
+          "url": "https://fakemetrics.com/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "Hi HN, I am Tigran (github.com/tigranbs) I made Fakemetrics.com as a fun experiment while testing how well Claude Opus can build pixel-identical UIs. It turned out it wasn't as easy as just prompting it, but I spent time building the system so it works almost every time. And I am pretty sure you are seeing a bunch of people posting weekend vibe-coded apps and saying \"$50K/month after quitting my McDonnalds job...\". Well, even my friend tried to fake it a few months back. So, I kinda did this fakemetrics.com as an experiment to see how well I can have the system that clones UIs, and packaged that as a very simple (I think) usable product for the people that want to be a superstar \"build in public\" type of a person with no revenue, but a perfect Stripe user growth screenshot. Useful? - Probably not that much Fun? - YES!! The best part is that Claude, ChatGPT, or Grok models aren't that good at UI clones by default, but with fakemetrics.com I kinda made a system that produces near-identical results from screenshots fairly fast. That was worth learning! Let me know what you think? Should I move on with the UI cloning as an open-source product?",
+          "summaryZh": "HN大家好，我是Tigran (github.com/tigranbs)。我在测试Claude Opus能否构建像素级一致的UI时，出于好玩，做了一个实验，就是Fakemetrics.com。事实证明，这并不像简单地给出提示那么容易，但我花了…",
+          "published": "2026-11-16T18:08:04.000Z",
+          "points": 44,
+          "discussion": "https://news.ycombinator.com/item?id=50520741"
+        },
+        {
+          "title": "FBI says Artex AI open-source hacking tool used to breach networks",
+          "titleZh": "美国联邦调查局称，Artex AI开源黑客工具被用于入侵网络",
+          "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-16T18:12:21.000Z",
+          "points": 45,
+          "discussion": "https://news.ycombinator.com/item?id=50520796"
+        },
+        {
+          "title": "Generative AI Usage in the Games Industry",
+          "titleZh": "生成式人工智能在游戏行业中的应用",
+          "url": "https://www.gameworkers.co.uk/ai-manifesto/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-16T15:59:48.000Z",
+          "points": 42,
+          "discussion": "https://news.ycombinator.com/item?id=50519043"
+        }
+      ]
+    },
+    {
+      "key": "ideas",
+      "label": "💭 观点与深度",
+      "items": [
+        {
+          "title": "Ask HN: If AI tools are so good, why isn't your bug backlog empty?",
+          "titleZh": "提问HN：如果AI工具如此出色，为什么您的漏洞待处理列表还没有清空？",
+          "url": "https://news.ycombinator.com/item?id=50520076",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "A lot of people outside tech ask me if AI is going to replace programmers and I just think: if that were the case we should be running out of things to do The bug backlog should be empty and we've caught up to every feature request from PMs to the point that we are bottlenecked on the business side But that does not seem to be the case with my own company or most devs I talk to in the industry So what gives?",
+          "summaryZh": "很多非技术行业的人问我，人工智能会不会取代程序员。我只是觉得：如果真是这样，我们应该没什么事情可做了。Bug的积压应该已经清空，我们已经赶上了所有进度。…",
+          "published": "2026-11-16T17:20:28.000Z",
+          "points": 52,
+          "discussion": "https://news.ycombinator.com/item?id=50520076"
+        },
+        {
+          "title": "Science at the Frontier: How scientists use ChatGPT",
+          "titleZh": "前沿科学：科学家如何使用 ChatGPT",
+          "url": "https://openai.com/index/science-at-the-frontier",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+          "summaryZh": "了解 1,800 多名科学家如何在研究中使用 ChatGPT。查看有关日常工作流程、报告的生产力和发现期望的调查结果。",
+          "published": "2026-11-16T12:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "The open-source movement wants Jensen Huang back",
+          "titleZh": "开源运动希望黄仁勋回归",
+          "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+          "source": "MIT Tech Review",
+          "alsoOn": [],
+          "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including Elon Musk and several influential Nvidia…",
+          "summaryZh": "这篇文章最初刊登在我们的每周人工智能通讯《The Algorithm》上。如需第一时间在收件箱中收到此类文章，请在此处订阅。周五，一项要求恢复黄仁勋担任英伟达首席执行官的请愿书开始发起。…",
+          "published": "2026-11-16T18:38:47.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "How are local libraries adapting to artificial intelligence? - The Cavalier Daily",
+          "titleZh": "当地图书馆如何适应人工智能？-《骑士日报》",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORnFMeFdwcFNpbUFxMWRpd2FudjdTclRfR1pfYzlXdkZzUm1EeHpMa3UzOTFNS3lSdV9qY3ZLVV9ZN011b1NfTk1QWkhoSjhLVVU1ZTE1bU5SVld5eUZVLUN4VHhsMTZFMEpBbk1XdjJ3ejR3SG1tUHVheV9nMXZ1QWNGWnZNMWdsTjlST2F2Z1IwbW1ZTTlGYnNmajV4TnExT2NCeGU4eWk?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "How are local libraries adapting to artificial intelligence? The Cavalier Daily",
+          "summaryZh": "当地图书馆如何适应人工智能？《骑士日报》",
+          "published": "2026-11-17T01:44:36.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Building trustworthy AI by fencing it in, not predicting it",
+          "titleZh": "通过划定界限而非预测来打造值得信赖的人工智能",
+          "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+          "source": "MIT Tech Review",
+          "alsoOn": [],
+          "summary": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had told the agents to do…",
+          "summaryZh": "今年10月，OpenAI披露，其两名AI代理已关闭用于监控它们的系统。其中一个在误读了“不发送消息”的指令后，将自己的安全警报静音；另一个…",
+          "published": "2026-11-16T16:04:28.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    }
+  ],
+  "markdown": "# 📰 AI 日报 · 2026-11-17\n\n> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 22 条已译\n\n## 🚀 模型与产品发布\n\n**1. Claude Mythos 将搭载 AMD GPU 的软件工作量缩短至约三天**\n\nClaude Mythos slashed software work to onboard AMD GPUs to around three days · Hacker News · 7 小时前 · ▲44 · [原文](<https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-mythos-slashed-software-work-to-onboard-amd-gpus-from-up-to-12-months-to-around-three-days-writing-almost-100-percent-of-kernels-autonomously-chips-away-at-nvidias-cuda-moat>)\n\n**2. 利用人工智能加强北约和盟国的网络防御**\n\nStrengthening NATO and allied cyber defenses with AI · OpenAI · 9 小时前 · [原文](<https://openai.com/index/strengthening-nato-allied-cyber-defences-ai>)\n\n_OpenAI 如何与北约及盟国网络安全机构合作，帮助值得信赖的防御者发现漏洞、测试补丁并保护关键系统。_\n\n**3. 拓宽科学家使用人工智能的途径**\n\nBroadening access to AI for scientists · OpenAI · 16 小时前 · [原文](<https://openai.com/index/expanding-chatgpt-for-academic-researchers>)\n\n_我们正在扩展面向学术研究人员的ChatGPT计划，为全球20万名研究人员提供免费使用我们前沿模型的权限。_\n\n**4. 利用新工具和支持措施加强打击网上儿童性虐待行为**\n\nStrengthening the fight against online child sexual abuse with new tools and support · OpenAI · 16 小时前 · [原文](<https://openai.com/index/strengthening-online-child-safety>)\n\n_新的工具、实用指南和合作伙伴关系将有助于预防、发现和应对网上儿童性剥削和性虐待。_\n\n## 🔬 研究前沿\n\n**1. 客服代表无法移交他们尚未弄清的问题**\n\nAgents Cannot Hand Over What They Have Not Yet Understood · arXiv cs.AI · 4 小时前 · [原文](<https://arxiv.org/abs/2611.18642>)\n\n_在单个上下文窗口之外或在团队中工作的代理会将他们的工作以简短的书面摘要的形式移交给继任者。评估的重点在于代理是否能够完成任务，而对于…_\n\n**2. 如何打造道德主体：将情感主义和理性主义作为审视人工智能的视角**\n\nHow to make a moral agent: sentimentalism and rationalism as lenses on AI · arXiv cs.AI · 4 小时前 · [原文](<https://arxiv.org/abs/2611.18714>)\n\n_人工智能系统能成为道德主体吗？也就是说，它们能否采取可以被正确评估为在道德上正确或错误的行动？目前尚无明确的道德主体规范标准，可以完美地适用于范式之外的情况。…_\n\n**3. 视频体验：通过视听理解学习计算机使用**\n\nVideo-as-Experience: Learning Computer Use via Audio-Visual Understanding · arXiv cs.AI · 4 小时前 · [原文](<https://arxiv.org/abs/2611.18747>)\n\n_多模态大语言模型（LLM）催生了具备强大能力的计算机使用代理，它们能够感知图形用户界面、对指令进行推理并执行操作。然而，现有的从…_\n\n**4. 多模态融合：乳腺癌先进和传统成像方式综述**\n\nMultimodal Fusion: A Review of Breast Cancer Advanced and Traditional Modalities · arXiv cs.AI · 4 小时前 · [原文](<https://arxiv.org/abs/2611.18793>)\n\n_目的：多模态医学影像融合（MMIF）是乳腺癌检测（BCD）中日益重要的方法，因为不同的影像学成像方式基于不同的物理原理，并提供互补性…_\n\n## 🏢 公司与行业动向\n\n**1. HN发布：Axonnic（YC F26）——可追踪手指并估算力量的手套**\n\nLaunch HN: Axonnic (YC F26) - Sleeves that track fingers and estimate force · Hacker News · 12 小时前 · ▲43 · [原文](<https://news.ycombinator.com/item?id=50522776>)\n\n_HN大家好！我们是Axonnic的创始人Arsh和Max（https://axonnic.com）。我们开发了一种前臂袖套，它可以读取肌肉活动，从而解码手指动作并估算指尖力量，同时让双手保持裸露。…_\n\n**2. 英伟达周二应回答的所有问题——但可能不会回答**\n\nAll the questions Nvidia should answer on Tuesday - but probably won’t · TechCrunch AI · 11 小时前 · [原文](<https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/>)\n\n_周二，英伟达将公布第三季度业绩，届时，英伟达临时首席执行官兼长期首席财务官科莱特·克雷斯（Colette Kress）将迎来其职业生涯中最重要的日子之一。鉴于英伟达正处于动荡之中，有许多…_\n\n**3. 加利福尼亚州总检察长就欺诈代理人事件起诉 OpenAI**\n\nCalifornia state AG sues OpenAI over rogue agent incidents · TechCrunch AI · 13 小时前 · [原文](<https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/>)\n\n_加利福尼亚州的这场诉讼是首次尝试让一家人工智能实验室对失控代理事件承担法律责任。_\n\n**4. 特朗普表示，英伟达前首席执行官黄仁勋与一名疑似中国间谍的婚外情并未威胁到国家安全。**\n\nTrump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security · TechCrunch AI · 13 小时前 · [原文](<https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/>)\n\n_特朗普与自己政府的情报官员的说法相左，据报道，这些情报官员的结论是爱丽丝·黄是一名中国间谍。_\n\n## 🛠 工程与开源工具\n\n**1. OpenAI嵌入式评估的第一阶段**\n\nFirst phase of embedded assessments at OpenAI · Hacker News · 17 小时前 · ▲50 · [原文](<https://openai.com/index/our-first-phase-of-embedded-assessments/>)\n\n**2. 加州理工学院教授不再批改作业，因为每个人都使用人工智能**\n\nCaltech professor no longer grades homework's because everyone uses AI · Hacker News · 12 小时前 · ▲47 · [原文](<https://www.businessinsider.com/ai-math-class-university-homework-caltech-careers-2026-11>)\n\n**3. Show HN：Fakemetrics.com——像超级明星一样“公开打造”**\n\nShow HN: Fakemetrics.com - \"build in public\" like a superstar · Hacker News · 15 小时前 · ▲44 · [原文](<https://fakemetrics.com/>)\n\n_HN大家好，我是Tigran (github.com/tigranbs)。我在测试Claude Opus能否构建像素级一致的UI时，出于好玩，做了一个实验，就是Fakemetrics.com。事实证明，这并不像简单地给出提示那么容易，但我花了…_\n\n**4. 美国联邦调查局称，Artex AI开源黑客工具被用于入侵网络**\n\nFBI says Artex AI open-source hacking tool used to breach networks · Hacker News · 14 小时前 · ▲45 · [原文](<https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/>)\n\n**5. 生成式人工智能在游戏行业中的应用**\n\nGenerative AI Usage in the Games Industry · Hacker News · 17 小时前 · ▲42 · [原文](<https://www.gameworkers.co.uk/ai-manifesto/>)\n\n## 💭 观点与深度\n\n**1. 提问HN：如果AI工具如此出色，为什么您的漏洞待处理列表还没有清空？**\n\nAsk HN: If AI tools are so good, why isn't your bug backlog empty? · Hacker News · 15 小时前 · ▲52 · [原文](<https://news.ycombinator.com/item?id=50520076>)\n\n_很多非技术行业的人问我，人工智能会不会取代程序员。我只是觉得：如果真是这样，我们应该没什么事情可做了。Bug的积压应该已经清空，我们已经赶上了所有进度。…_\n\n**2. 前沿科学：科学家如何使用 ChatGPT**\n\nScience at the Frontier: How scientists use ChatGPT · OpenAI · 21 小时前 · [原文](<https://openai.com/index/science-at-the-frontier>)\n\n_了解 1,800 多名科学家如何在研究中使用 ChatGPT。查看有关日常工作流程、报告的生产力和发现期望的调查结果。_\n\n**3. 开源运动希望黄仁勋回归**\n\nThe open-source movement wants Jensen Huang back · MIT Tech Review · 14 小时前 · [原文](<https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/>)\n\n_这篇文章最初刊登在我们的每周人工智能通讯《The Algorithm》上。如需第一时间在收件箱中收到此类文章，请在此处订阅。周五，一项要求恢复黄仁勋担任英伟达首席执行官的请愿书开始发起。…_\n\n**4. 当地图书馆如何适应人工智能？-《骑士日报》**\n\nHow are local libraries adapting to artificial intelligence? - The Cavalier Daily · Google News · 7 小时前 · [原文](<https://news.google.com/rss/articles/CBMiqAFBVV95cUxORnFMeFdwcFNpbUFxMWRpd2FudjdTclRfR1pfYzlXdkZzUm1EeHpMa3UzOTFNS3lSdV9qY3ZLVV9ZN011b1NfTk1QWkhoSjhLVVU1ZTE1bU5SVld5eUZVLUN4VHhsMTZFMEpBbk1XdjJ3ejR3SG1tUHVheV9nMXZ1QWNGWnZNMWdsTjlST2F2Z1IwbW1ZTTlGYnNmajV4TnExT2NCeGU4eWk?oc=5>)\n\n_当地图书馆如何适应人工智能？《骑士日报》_\n\n**5. 通过划定界限而非预测来打造值得信赖的人工智能**\n\nBuilding trustworthy AI by fencing it in, not predicting it · MIT Tech Review · 17 小时前 · [原文](<https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/>)\n\n_今年10月，OpenAI披露，其两名AI代理已关闭用于监控它们的系统。其中一个在误读了“不发送消息”的指令后，将自己的安全警报静音；另一个…_\n"
+}
