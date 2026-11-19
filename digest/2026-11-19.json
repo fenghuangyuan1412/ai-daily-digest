@@ -1,0 +1,307 @@
+{
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T08:09:41.142Z",
+  "windowHours": 36,
+  "sourcesTotal": 13,
+  "sourcesOk": 13,
+  "sourcesFailed": [],
+  "itemCount": 22,
+  "translatedCount": 22,
+  "sections": [
+    {
+      "key": "model",
+      "label": "🚀 模型与产品发布",
+      "items": [
+        {
+          "title": "Gemini 4 Neon",
+          "titleZh": "Gemini 4 霓虹灯",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-18T21:34:07.000Z",
+          "points": 744,
+          "discussion": "https://news.ycombinator.com/item?id=50552424"
+        },
+        {
+          "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+          "titleZh": "Gemini 4 Neon 看起来像是 Opus 5.5 的竞争对手",
+          "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-19T00:29:45.000Z",
+          "points": 214,
+          "discussion": "https://news.ycombinator.com/item?id=50554374"
+        },
+        {
+          "title": "Fable: Written, painted and directed by Claude Fable 5.2",
+          "titleZh": "《寓言》：克劳德·法布尔编剧、绘画和导演 5.2",
+          "url": "https://claudia.gallery/fable/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-19T00:18:18.000Z",
+          "points": 56,
+          "discussion": "https://news.ycombinator.com/item?id=50554269"
+        },
+        {
+          "title": "Introducing Gemini 4 Neon",
+          "titleZh": "隆重推出Gemini 4 Neon",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+          "source": "Google DeepMind",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-18T21:35:43.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "research",
+      "label": "🔬 研究前沿",
+      "items": [
+        {
+          "title": "Research acceleration: The jagged frontier",
+          "titleZh": "研究加速：不规则的前沿",
+          "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+          "summaryZh": "OpenAI 衡量的是编码代理如何加速人工智能研究，它们的表现仍不均衡，以及这对于递归自我改进意味着什么。",
+          "published": "2026-11-18T08:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Human-AI Mutualism Is Unstable under Capability Asymmetry",
+          "titleZh": "能力不对称时，人机互利关系不稳定",
+          "url": "https://arxiv.org/abs/2611.23322",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "One hope for a good human future alongside advanced AI rests on enduring mutualism: humans and AI will need each other, so the relationship will stay good for both. We argue that this hope fails as AI capability grows. Bargaining guarantees each side only what it would get if bargaining failed. For humans, this can be less than they had before AI. In a simple game-theoretic model, humans stay as well off as before AI without alignment only while they have leverage over the AI: either the AI depends on what they supply, or they can impose costs on the AI that are large relative to what the AI can produce. Once humans have neither kind of leverage, they stay as well off as before AI only if the AI is aligned with them. If the AI's goals are insatiable, the alignment required approaches perfect alignment as AI capability grows. Thus, mutualism is not a substitute for alignment. And when AI variants that keep more resources spread faster, alignment lasts only while misaligned variants are reliably sanctioned. In these two senses, human-AI mutualism is unstable.",
+          "summaryZh": "人类与先进人工智能共存的美好未来的一线希望在于持久的互利关系：人类和人工智能将需要彼此，因此双方的关系将保持良好。我们认为，随着人工智能能力的增强，这种希望将落空。…",
+          "published": "2026-11-19T05:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Training Language Models for Introspective Oversight",
+          "titleZh": "训练语言模型以进行内省监督",
+          "url": "https://arxiv.org/abs/2611.23365",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Language models increasingly exhibit behaviors that are difficult to detect in transcripts, such as reward hacking, deception, and sycophancy. Asking the assistant follow-up questions about its actions is unreliable, since models are generally not trained to report their own misbehavior. As a result, approaches to oversight typically involve querying external models. These face limitations: external transcript monitoring operates only on visible model outputs, and activation decoders lack full context and are prone to confabulation. We introduce introspective oversight, which trains a new role in the model to answer arbitrary questions about the assistant, rewarding answers that are verified against the assistant's actual behavior. We implement this by adding a separate, third-person observer role that answers these queries, which we can train solely for accuracy and separately from the assistant. On five held-out oversight evaluations, an observer trained on Qwen3.6-27B obtains a mean AUROC of 0.907, outperforming honesty training (0.864), transcript monitoring (0.828), and activation oracles (0.796). We further find that training an observer makes the assistant itself easier to monitor, with every baseline method improving on average when applied to the fine-tuned assistant. These results suggest that training models to answer verifiable questions about themselves is a tractable approach to overseeing unintended behavior.",
+          "summaryZh": "语言模型日益表现出在文本中难以察觉的行为，例如奖励操纵、欺骗和谄媚。向助手询问有关其行为的后续问题并不可靠，…",
+          "published": "2026-11-19T05:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Where the Tokens Go: Heat, Entropy and Error in Agentic Coding",
+          "titleZh": "代币的去向：智能体编码中的热量、熵和误差",
+          "url": "https://arxiv.org/abs/2611.23375",
+          "source": "arXiv cs.AI",
+          "alsoOn": [],
+          "summary": "Coding agents are billed by the token, yet software engineering says nothing about what a token actually buys. Here we introduce a theory of software thermodynamics. The theory draws analogues from classical and stochastic thermodynamics, extends them, and applies them to modern agentic coding. We count the tokens an agent generates as its cost and divide that cost into work and heat. The test suite acts as a software Maxwell's daemon that judges every coding change. We test the theory with an analogue of the experiments in which a single molecule is pulled open and let fold again: an agent makes a change to a repository (coding) and then undoes it (uncoding), many times over, and we count the tokens of every model call. The cycle returns the requested edits to where they began, with each direction started from a stored reference tree, and the spread of its cost over repeated cycles defines a software temperature, which rose with the sampling temperature of the model. About 80 per cent of the tokens of a successful run are generated in model calls that leave the requested change where it was, and we call these tokens heat. The free energy of a change, which we estimate by analogy with the equality of Jarzynski, is 14 to 22 per cent of the mean cost of a successful coding run. Coding costs 1.1 to 1.5 times as much as uncoding. The daemon is imperfect: the verdict of a test suite varies with its environment, and a suite that accepts a broken change has a cost in tokens. The practical implication of the proposed theory could be new tools for analysing and optimising coding agents through the lens of thermodynamics.",
+          "summaryZh": "编码代理按token计费，但软件工程并未说明一个token实际上能买到什么。在这里，我们介绍一种软件热力学理论。该理论借鉴了经典和…",
+          "published": "2026-11-19T05:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "label": "🏢 公司与行业动向",
+      "items": [
+        {
+          "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
+          "titleZh": "黄仁勋离任后，微软首席执行官萨蒂亚·纳德拉（Satya Nadella）仍对英伟达充满信心",
+          "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Microsoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO.",
+          "summaryZh": "微软首席执行官萨蒂亚·纳德拉（Satya Nadella）对黄仁勋的继任者科莱特·克雷斯（Colette Kress）表示有信心，后者目前担任英伟达的临时首席执行官。",
+          "published": "2026-11-18T23:17:28.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Anthropic prices IPO at $83 a share, above projected range",
+          "titleZh": "Anthropic IPO 定价为每股 83 美元，高于预期区间",
+          "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis.",
+          "summaryZh": "据报道，备受期待的首次公开募股（IPO）将公司按完全摊薄基准的估值定为1.5万亿美元。",
+          "published": "2026-11-18T22:11:15.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
+          "titleZh": "内部聊天记录显示，Muse的隐私侵犯行为让Meta员工感到恐慌",
+          "url": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
+          "source": "Ars Technica AI",
+          "alsoOn": [],
+          "summary": "Erratic Muse outputs sharing random bank, bitcoin balances aren’t real, Meta says.",
+          "summaryZh": "Meta表示，Erratic Muse的输出结果共享随机银行账户，比特币余额并不真实。",
+          "published": "2026-11-18T19:19:33.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Anthropic to debut on Wall Street with a $1.5 trillion valuation in the biggest IPO of all time - AP News",
+          "titleZh": "Anthropic 将以有史以来规模最大的IPO在华尔街上市，估值达1.5万亿美元-美联社新闻",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeVVmSzl3dVBhbDdFbTMtTUl2LWVHU1FRb2hvYzJZNWdFU0ZDTmU3NFBVNDVWQXNXQlk2QmkzblN4MUplLWVGc1NheHNRZVpZTHZ1eG9OME53SUNtOExJQzNFSTJpLUw0cWxnSjR4VWlXLWZhZUZsc0dna1J6bmxZTTNBb0l2LUpq?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "Anthropic to debut on Wall Street with a $1.5 trillion valuation in the biggest IPO of all time AP News",
+          "summaryZh": "Anthropic 将以 1.5 万亿美元的估值在华尔街首次亮相，这将是有史以来规模最大的 IPO 美联社新闻",
+          "published": "2026-11-19T02:23:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "eng",
+      "label": "🛠 工程与开源工具",
+      "items": [
+        {
+          "title": "Anthropic prices initial public offering",
+          "titleZh": "Anthropic首次公开发行价格",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-18T23:30:09.000Z",
+          "points": 176,
+          "discussion": "https://news.ycombinator.com/item?id=50553843"
+        },
+        {
+          "title": "AI will not make you rich (2025)",
+          "titleZh": "人工智能不会让您致富（2025年）",
+          "url": "https://colossus.com/article/ai-will-not-make-you-rich/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-19T01:51:28.000Z",
+          "points": 94,
+          "discussion": "https://news.ycombinator.com/item?id=50555093"
+        },
+        {
+          "title": "LLM assisted reverse engineering",
+          "titleZh": "LLM 辅助逆向工程",
+          "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-18T22:29:13.000Z",
+          "points": 179,
+          "discussion": "https://news.ycombinator.com/item?id=50553225"
+        },
+        {
+          "title": "Black high school students sue after AI mistakes Doritos bag for gun",
+          "titleZh": "人工智能将多力多滋薯片袋误认为枪支，黑人高中生提起诉讼",
+          "url": "https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-19T00:57:20.000Z",
+          "points": 84,
+          "discussion": "https://news.ycombinator.com/item?id=50554641"
+        },
+        {
+          "title": "Previous-Token Prediction Based LLM Inversion for Prompt Reconstruction",
+          "titleZh": "基于前一个标记预测的 LLM 反演，用于提示重建",
+          "url": "https://arxiv.org/abs/2607.29378",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-19T01:27:02.000Z",
+          "points": 45,
+          "discussion": "https://news.ycombinator.com/item?id=50554908"
+        }
+      ]
+    },
+    {
+      "key": "ideas",
+      "label": "💭 观点与深度",
+      "items": [
+        {
+          "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+          "titleZh": "住友生命保险的领导者如何帮助团队采用 ChatGPT Enterprise",
+          "url": "https://openai.com/business/customer-stories/sumitomo-life",
+          "source": "OpenAI",
+          "alsoOn": [],
+          "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+          "summaryZh": "三井住友海上使用 ChatGPT Enterprise 来研究保险公司、编制提案以及起草投资分析代码。高管的早期使用有助于推动采用。",
+          "published": "2026-11-18T08:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+          "titleZh": "微软首席执行官萨蒂亚·纳德拉解释了他为何要求6万名员工离职",
+          "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might expect.",
+          "summaryZh": "微软首席执行官萨蒂亚·纳德拉（Satya Nadella）解释了他为何在10月份向6万名员工提供买断方案，实质上是敦促他们自愿离职，而不是通过另一次大规模裁员来削减员工队伍。…",
+          "published": "2026-11-19T00:42:56.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Why your fine-tuning job takes longer than the FLOPs say",
+          "titleZh": "为什么您的微调任务所需时间比 FLOP 所述的时间更长",
+          "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+          "source": "Hugging Face",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-18T18:53:43.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise - OpenAI",
+          "titleZh": "住友生命保险的领导者如何帮助团队采用ChatGPT Enterprise-OpenAI",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8tZkw1R3BnRHIzRjhnU0FUb3Z6c0tfUzAwSmxZTDdFS0ZaTTg1cU9TNWRDSDZXRzRiYnlhSW95ME51WTBQdXhRSlV0eUdXU0hHWC1fN212d0g4aG1TRE4zb1dvZmhLNzNxSGN3SEJ5dmtDaWNtdUlfY2pR?oc=5",
+          "source": "Google 新闻中文",
+          "alsoOn": [],
+          "summary": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise OpenAI",
+          "summaryZh": "住友人寿的领导者如何帮助团队采用ChatGPT Enterprise OpenAI",
+          "published": "2026-11-19T00:48:30.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "The AI Hype Index: AI is everywhere",
+          "titleZh": "人工智能热度指数：人工智能无处不在",
+          "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+          "source": "MIT Tech Review",
+          "alsoOn": [],
+          "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to the supermarket, and…",
+          "summaryZh": "人工智能就像一种讨厌的皮疹，似乎无处不在。尽管AI概览功能会让公司损失数十亿美元的广告收入，但Google还是强行将它塞进您的视野。走出公寓，你可能会碰到两个人…",
+          "published": "2026-11-18T14:42:44.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    }
+  ],
+  "markdown": "# 📰 AI 日报 · 2026-11-19\n\n> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 22 条已译\n\n## 🚀 模型与产品发布\n\n**1. Gemini 4 霓虹灯**\n\nGemini 4 Neon · Hacker News · 11 小时前 · ▲744 · [原文](<https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/>)\n\n**2. Gemini 4 Neon 看起来像是 Opus 5.5 的竞争对手**\n\nGemini 4 Neon looks like an Opus 5.5 competitor · Hacker News · 8 小时前 · ▲214 · [原文](<https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/>)\n\n**3. 《寓言》：克劳德·法布尔编剧、绘画和导演 5.2**\n\nFable: Written, painted and directed by Claude Fable 5.2 · Hacker News · 8 小时前 · ▲56 · [原文](<https://claudia.gallery/fable/>)\n\n**4. 隆重推出Gemini 4 Neon**\n\nIntroducing Gemini 4 Neon · Google DeepMind · 11 小时前 · [原文](<https://deepmind.google/blog/introducing-gemini-4-neon/>)\n\n## 🔬 研究前沿\n\n**1. 研究加速：不规则的前沿**\n\nResearch acceleration: The jagged frontier · OpenAI · 24 小时前 · [原文](<https://openai.com/index/research-acceleration-jagged-frontier>)\n\n_OpenAI 衡量的是编码代理如何加速人工智能研究，它们的表现仍不均衡，以及这对于递归自我改进意味着什么。_\n\n**2. 能力不对称时，人机互利关系不稳定**\n\nHuman-AI Mutualism Is Unstable under Capability Asymmetry · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.23322>)\n\n_人类与先进人工智能共存的美好未来的一线希望在于持久的互利关系：人类和人工智能将需要彼此，因此双方的关系将保持良好。我们认为，随着人工智能能力的增强，这种希望将落空。…_\n\n**3. 训练语言模型以进行内省监督**\n\nTraining Language Models for Introspective Oversight · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.23365>)\n\n_语言模型日益表现出在文本中难以察觉的行为，例如奖励操纵、欺骗和谄媚。向助手询问有关其行为的后续问题并不可靠，…_\n\n**4. 代币的去向：智能体编码中的热量、熵和误差**\n\nWhere the Tokens Go: Heat, Entropy and Error in Agentic Coding · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.23375>)\n\n_编码代理按token计费，但软件工程并未说明一个token实际上能买到什么。在这里，我们介绍一种软件热力学理论。该理论借鉴了经典和…_\n\n## 🏢 公司与行业动向\n\n**1. 黄仁勋离任后，微软首席执行官萨蒂亚·纳德拉（Satya Nadella）仍对英伟达充满信心**\n\nMicrosoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/>)\n\n_微软首席执行官萨蒂亚·纳德拉（Satya Nadella）对黄仁勋的继任者科莱特·克雷斯（Colette Kress）表示有信心，后者目前担任英伟达的临时首席执行官。_\n\n**2. Anthropic IPO 定价为每股 83 美元，高于预期区间**\n\nAnthropic prices IPO at $83 a share, above projected range · TechCrunch AI · 10 小时前 · [原文](<https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/>)\n\n_据报道，备受期待的首次公开募股（IPO）将公司按完全摊薄基准的估值定为1.5万亿美元。_\n\n**3. 内部聊天记录显示，Muse的隐私侵犯行为让Meta员工感到恐慌**\n\nMuse privacy invasions are freaking out Meta staffers, internal chats show · Ars Technica AI · 13 小时前 · [原文](<https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/>)\n\n_Meta表示，Erratic Muse的输出结果共享随机银行账户，比特币余额并不真实。_\n\n**4. Anthropic 将以有史以来规模最大的IPO在华尔街上市，估值达1.5万亿美元-美联社新闻**\n\nAnthropic to debut on Wall Street with a $1.5 trillion valuation in the biggest IPO of all time - AP News · Google News · 6 小时前 · [原文](<https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeVVmSzl3dVBhbDdFbTMtTUl2LWVHU1FRb2hvYzJZNWdFU0ZDTmU3NFBVNDVWQXNXQlk2QmkzblN4MUplLWVGc1NheHNRZVpZTHZ1eG9OME53SUNtOExJQzNFSTJpLUw0cWxnSjR4VWlXLWZhZUZsc0dna1J6bmxZTTNBb0l2LUpq?oc=5>)\n\n_Anthropic 将以 1.5 万亿美元的估值在华尔街首次亮相，这将是有史以来规模最大的 IPO 美联社新闻_\n\n## 🛠 工程与开源工具\n\n**1. Anthropic首次公开发行价格**\n\nAnthropic prices initial public offering · Hacker News · 9 小时前 · ▲176 · [原文](<https://www.anthropic.com/news/anthropic-prices-initial-public-offering>)\n\n**2. 人工智能不会让您致富（2025年）**\n\nAI will not make you rich (2025) · Hacker News · 6 小时前 · ▲94 · [原文](<https://colossus.com/article/ai-will-not-make-you-rich/>)\n\n**3. LLM 辅助逆向工程**\n\nLLM assisted reverse engineering · Hacker News · 10 小时前 · ▲179 · [原文](<https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering>)\n\n**4. 人工智能将多力多滋薯片袋误认为枪支，黑人高中生提起诉讼**\n\nBlack high school students sue after AI mistakes Doritos bag for gun · Hacker News · 7 小时前 · ▲84 · [原文](<https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/>)\n\n**5. 基于前一个标记预测的 LLM 反演，用于提示重建**\n\nPrevious-Token Prediction Based LLM Inversion for Prompt Reconstruction · Hacker News · 7 小时前 · ▲45 · [原文](<https://arxiv.org/abs/2607.29378>)\n\n## 💭 观点与深度\n\n**1. 住友生命保险的领导者如何帮助团队采用 ChatGPT Enterprise**\n\nHow Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise · OpenAI · 24 小时前 · [原文](<https://openai.com/business/customer-stories/sumitomo-life>)\n\n_三井住友海上使用 ChatGPT Enterprise 来研究保险公司、编制提案以及起草投资分析代码。高管的早期使用有助于推动采用。_\n\n**2. 微软首席执行官萨蒂亚·纳德拉解释了他为何要求6万名员工离职**\n\nMicrosoft CEO Satya Nadella explains why he asked 60K employees to quit · TechCrunch AI · 7 小时前 · [原文](<https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/>)\n\n_微软首席执行官萨蒂亚·纳德拉（Satya Nadella）解释了他为何在10月份向6万名员工提供买断方案，实质上是敦促他们自愿离职，而不是通过另一次大规模裁员来削减员工队伍。…_\n\n**3. 为什么您的微调任务所需时间比 FLOP 所述的时间更长**\n\nWhy your fine-tuning job takes longer than the FLOPs say · Hugging Face · 13 小时前 · [原文](<https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time>)\n\n**4. 住友生命保险的领导者如何帮助团队采用ChatGPT Enterprise-OpenAI**\n\nHow Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise - OpenAI · Google 新闻中文 · 7 小时前 · [原文](<https://news.google.com/rss/articles/CBMiekFVX3lxTE8tZkw1R3BnRHIzRjhnU0FUb3Z6c0tfUzAwSmxZTDdFS0ZaTTg1cU9TNWRDSDZXRzRiYnlhSW95ME51WTBQdXhRSlV0eUdXU0hHWC1fN212d0g4aG1TRE4zb1dvZmhLNzNxSGN3SEJ5dmtDaWNtdUlfY2pR?oc=5>)\n\n_住友人寿的领导者如何帮助团队采用ChatGPT Enterprise OpenAI_\n\n**5. 人工智能热度指数：人工智能无处不在**\n\nThe AI Hype Index: AI is everywhere · MIT Tech Review · 17 小时前 · [原文](<https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/>)\n\n_人工智能就像一种讨厌的皮疹，似乎无处不在。尽管AI概览功能会让公司损失数十亿美元的广告收入，但Google还是强行将它塞进您的视野。走出公寓，你可能会碰到两个人…_\n"
+}
