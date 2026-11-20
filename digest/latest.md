@@ -1,125 +1,125 @@
-# 📰 AI 日报 · 2026-11-19
+# 📰 AI 日报 · 2026-11-20
 
-> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 22 条已译
+> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 21 条已译
 
 ## 🚀 模型与产品发布
 
-**1. Gemini 4 霓虹灯**
+**1. Gemini 4 Neon成为Models Engineering Index的新榜首**
 
-Gemini 4 Neon · Hacker News · 11 小时前 · ▲744 · [原文](<https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/>)
+Gemini 4 Neon is the new #1 on the Models Engineering Index · Hacker News · 8 小时前 · ▲335 · [原文](<https://git-aarvin.github.io/mei/>)
 
-**2. Gemini 4 Neon 看起来像是 Opus 5.5 的竞争对手**
+**2. Claude解决了黑洞物理学中的两个未决问题**
 
-Gemini 4 Neon looks like an Opus 5.5 competitor · Hacker News · 8 小时前 · ▲214 · [原文](<https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/>)
+Claude solves two open problems in the physics of black holes · Hacker News · 14 小时前 · ▲473 · [原文](<https://www.anthropic.com/research/claude-black-hole-physics>)
 
-**3. 《寓言》：克劳德·法布尔编剧、绘画和导演 5.2**
+**3. 隆重推出Gemini 4 Neon**
 
-Fable: Written, painted and directed by Claude Fable 5.2 · Hacker News · 8 小时前 · ▲56 · [原文](<https://claudia.gallery/fable/>)
+Introducing Gemini 4 Neon · Google DeepMind · 34 小时前 · [原文](<https://deepmind.google/blog/introducing-gemini-4-neon/>)
 
-**4. 隆重推出Gemini 4 Neon**
+**4. PostgreSQL 19 发布**
 
-Introducing Gemini 4 Neon · Google DeepMind · 11 小时前 · [原文](<https://deepmind.google/blog/introducing-gemini-4-neon/>)
+PostgreSQL 19 Released · Simon Willison · 11 小时前 · [原文](<https://simonwillison.net/2026/Nov/19/postgresql-19/>)
+
+_PostgreSQL 19 发布大多数年份，PostgreSQL 都会在 9 月份发布新版本，但今年的版本晚了两个月才发布，这主要是因为 PostgreSQL 团队需要解决一系列问题，作为…_
 
 ## 🔬 研究前沿
 
-**1. 研究加速：不规则的前沿**
+**1. 中国工业互联网研究院开启新一轮生成式人工智能备案咨询服务 - 中国工业互联网研究院**
 
-Research acceleration: The jagged frontier · OpenAI · 24 小时前 · [原文](<https://openai.com/index/research-acceleration-jagged-frontier>)
+Google 新闻中文 · 1 小时前 · [原文](<https://news.google.com/rss/articles/CBMiV0FVX3lxTE1VbWRzQzBUeThmd2U3Y3lwYVlxQ1F1cTVrOUJpU0w3R284NWtYR29hUlBiRmMzLXpRbTljalh6RjNTQUF4LVNTY09QcGxWVXRZY2FoeGQ4aw?oc=5>)
 
-_OpenAI 衡量的是编码代理如何加速人工智能研究，它们的表现仍不均衡，以及这对于递归自我改进意味着什么。_
+_中国工业互联网研究院开启新一轮生成式人工智能备案咨询服务 中国工业互联网研究院_
 
-**2. 能力不对称时，人机互利关系不稳定**
+**2. 弥合分析与设计之间的鸿沟：一种受授权约束的代理，用于自动驾驶实验室**
 
-Human-AI Mutualism Is Unstable under Capability Asymmetry · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.23322>)
+Closing the Analyze-to-Design Gap: An Authorization-Bounded Agent for Self-Driving Laboratories · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.25043>)
 
-_人类与先进人工智能共存的美好未来的一线希望在于持久的互利关系：人类和人工智能将需要彼此，因此双方的关系将保持良好。我们认为，随着人工智能能力的增强，这种希望将落空。…_
+_人工智能 (AI) 代理正日益被集成到自动驾驶实验室 (SDL) 中，用于规划实验和解释结果。然而，仅靠分析推理并不能使实验室实现自主：…_
 
-**3. 训练语言模型以进行内省监督**
+**3. 用于工业维护中智能工单管理的 LLM 代理框架**
 
-Training Language Models for Introspective Oversight · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.23365>)
+An LLM-Agentic Framework for Intelligent Work Order Management in Industrial Maintenance · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.25070>)
 
-_语言模型日益表现出在文本中难以察觉的行为，例如奖励操纵、欺骗和谄媚。向助手询问有关其行为的后续问题并不可靠，…_
+_本文介绍了一种由人工智能驱动的框架——CodeReAct 智能体，旨在通过自然语言 (NL) 交互来提升工业设备的维护工作。该框架采用先进的 AI 代理方法来…_
 
-**4. 代币的去向：智能体编码中的热量、熵和误差**
+**4. SailSearch：组合优化中的代理辅助发现**
 
-Where the Tokens Go: Heat, Entropy and Error in Agentic Coding · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.23375>)
+SailSearch: Agent-Assisted Discovery in Combinatorial Optimization · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.25087>)
 
-_编码代理按token计费，但软件工程并未说明一个token实际上能买到什么。在这里，我们介绍一种软件热力学理论。该理论借鉴了经典和…_
+_我们推出了SailSearch，这是一个由人类引导的算法研究工作流，配备两个语言模型代理，并报告了市场分割和最大独立集（MIS）的结果。对于市场分割问题，我们的随机算法…_
+
+**5. BuggyMLE：通过注入缺陷来衡量机器学习工程的难度**
+
+BuggyMLE: Scaling Machine Learning Engineering Difficulty with Bug Injection · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.25088>)
+
+_要使人工智能系统能够自主改进人工智能模型，就需要有能够执行机器学习工程 (MLE) 的代理。在实践中，设计、训练和评估复杂模型需要修改…_
 
 ## 🏢 公司与行业动向
 
-**1. 黄仁勋离任后，微软首席执行官萨蒂亚·纳德拉（Satya Nadella）仍对英伟达充满信心**
+**1. Anthropic IPO 抗议者表示，不应为人工智能泡沫提供纾困**
 
-Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit · TechCrunch AI · 9 小时前 · [原文](<https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/>)
+No Bailout for the AI Bubble, Anthropic IPO Protesters Say · Hacker News · 13 小时前 · ▲44 · [原文](<https://www.techpolicy.press/no-bailout-for-the-ai-bubble-anthropic-ipo-protesters-say/>)
 
-_微软首席执行官萨蒂亚·纳德拉（Satya Nadella）对黄仁勋的继任者科莱特·克雷斯（Colette Kress）表示有信心，后者目前担任英伟达的临时首席执行官。_
+**2. Anthropic 的 7 位创始人通过创纪录的 IPO 变现近 20 亿美元**
 
-**2. Anthropic IPO 定价为每股 83 美元，高于预期区间**
+Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO · TechCrunch AI · 7 小时前 · [原文](<https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/>)
 
-Anthropic prices IPO at $83 a share, above projected range · TechCrunch AI · 10 小时前 · [原文](<https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/>)
+_按上调后的 83 美元/股的 IPO 价格计算，Anthropic 的七位创始人每人赚取了 2.8 亿美元，而该公司则获得了近 1050 亿美元。_
 
-_据报道，备受期待的首次公开募股（IPO）将公司按完全摊薄基准的估值定为1.5万亿美元。_
+**3. Meta 的新款 Muse Charm 设备售价可能为 300 美元**
 
-**3. 内部聊天记录显示，Muse的隐私侵犯行为让Meta员工感到恐慌**
+Meta’s new Muse Charm device may cost $300 · TechCrunch AI · 10 小时前 · [原文](<https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/>)
 
-Muse privacy invasions are freaking out Meta staffers, internal chats show · Ars Technica AI · 13 小时前 · [原文](<https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/>)
+_Meta并未否认The Information的报道，只是表示其即将推出的AI可穿戴设备“很快将有更多信息可以分享”。_
 
-_Meta表示，Erratic Muse的输出结果共享随机银行账户，比特币余额并不真实。_
+**4. Anthropic 股票在上市首日飙升-华盛顿邮报**
 
-**4. Anthropic 将以有史以来规模最大的IPO在华尔街上市，估值达1.5万亿美元-美联社新闻**
+Anthropic shares soar in stock market debut - The Washington Post · Google News · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ3FFS2w1YzZjSk1fZmxUaW1rYktUczg1UWJzVnR0MHlHMzBHVml4NkdkcDB1UDhyZzI1OENvamE2RkdTOTZ4dTd2dndmVlZrWGwwMVc4SG1vNzJzTzZFanJQLXM3T045cFFJVmNnN2NQZGxjUW5CWU9GWVBWeDh3ODR4dDRZQ044clNndFNWcXN1Z29JSzdZMzZZdWVOZTQyQzVzdFdSczl2RlN4dF9weEdHNUp6dw?oc=5>)
 
-Anthropic to debut on Wall Street with a $1.5 trillion valuation in the biggest IPO of all time - AP News · Google News · 6 小时前 · [原文](<https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeVVmSzl3dVBhbDdFbTMtTUl2LWVHU1FRb2hvYzJZNWdFU0ZDTmU3NFBVNDVWQXNXQlk2QmkzblN4MUplLWVGc1NheHNRZVpZTHZ1eG9OME53SUNtOExJQzNFSTJpLUw0cWxnSjR4VWlXLWZhZUZsc0dna1J6bmxZTTNBb0l2LUpq?oc=5>)
+_Anthropic在股市上市首日股价飙升《华盛顿邮报》_
 
-_Anthropic 将以 1.5 万亿美元的估值在华尔街首次亮相，这将是有史以来规模最大的 IPO 美联社新闻_
+**5. Anthropic的IPO可能为慈善事业带来1560亿美元**
+
+Anthropic’s IPO could deliver $156B to charity · TechCrunch AI · 13 小时前 · [原文](<https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/>)
+
+_当股价为95美元时，Frontier Lab的公益基金会、其员工捐款以及公司的配捐总额高达1560亿美元。_
 
 ## 🛠 工程与开源工具
 
-**1. Anthropic首次公开发行价格**
+**1. Anthropic 的纳斯达克首秀**
 
-Anthropic prices initial public offering · Hacker News · 9 小时前 · ▲176 · [原文](<https://www.anthropic.com/news/anthropic-prices-initial-public-offering>)
+Anthropic’s Nasdaq debut · Hacker News · 15 小时前 · ▲1055 · [原文](<https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/>)
 
-**2. 人工智能不会让您致富（2025年）**
+**2. 政府是否应放缓尖端人工智能的发展？Jacob Coxon与Robin Hanson的辩论[视频]**
 
-AI will not make you rich (2025) · Hacker News · 6 小时前 · ▲94 · [原文](<https://colossus.com/article/ai-will-not-make-you-rich/>)
+Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video] · Hacker News · 13 小时前 · ▲101 · [原文](<https://www.youtube.com/watch?v=lwfewYL7X0o>)
 
-**3. LLM 辅助逆向工程**
+**3. Chrome AI 功能占用大量带宽**
 
-LLM assisted reverse engineering · Hacker News · 10 小时前 · ▲179 · [原文](<https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering>)
+Chrome AI features wasting much bandwidth · Hacker News · 15 小时前 · ▲128 · [原文](<https://perishablepress.com/chrome-ai-wasting-much-bandwidth/>)
 
-**4. 人工智能将多力多滋薯片袋误认为枪支，黑人高中生提起诉讼**
+**4. 法院：第四修正案不允许使用人工智能生成的“合理怀疑”**
 
-Black high school students sue after AI mistakes Doritos bag for gun · Hacker News · 7 小时前 · ▲84 · [原文](<https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/>)
+Court: 4th Amendment Disallows Use Of AI-Generated 'Probable Cause' · Hacker News · 9 小时前 · ▲64 · [原文](<https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause/>)
 
-**5. 基于前一个标记预测的 LLM 反演，用于提示重建**
+**5. 代币欺诈已经出现，而且很糟糕（YouTube）**
 
-Previous-Token Prediction Based LLM Inversion for Prompt Reconstruction · Hacker News · 7 小时前 · ▲45 · [原文](<https://arxiv.org/abs/2607.29378>)
+Token fraud is here and it’s BAD (YouTube) · Simon Willison · 5 小时前 · [原文](<https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/>)
+
+_代币欺诈已经出现，而且情况很糟糕（YouTube）Claire Vo运营着ChatPRD，这是一个帮助产品经理“将想法转化为规格”的AI平台。该产品自GPT-4时代以来就已上线，Claire一直在打造它。…_
 
 ## 💭 观点与深度
 
-**1. 住友生命保险的领导者如何帮助团队采用 ChatGPT Enterprise**
+**1. 人工智能来找程序员了。了解原因就能知道下一个是谁**
 
-How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise · OpenAI · 24 小时前 · [原文](<https://openai.com/business/customer-stories/sumitomo-life>)
+AI Came for the Coders. Understanding Why Tells Us Who's Next · Hacker News · 14 小时前 · ▲46 · [原文](<https://www.robertpeake.com/archives/104254-ai-came-for-the-coders-understanding-why-tells-us-whos-next.html>)
 
-_三井住友海上使用 ChatGPT Enterprise 来研究保险公司、编制提案以及起草投资分析代码。高管的早期使用有助于推动采用。_
+**2. OpenAI的Performance Factory如何让ChatGPT保持快速**
 
-**2. 微软首席执行官萨蒂亚·纳德拉解释了他为何要求6万名员工离职**
+How OpenAI’s Performance Factory keeps ChatGPT fast · OpenAI · 24 小时前 · [原文](<https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast>)
 
-Microsoft CEO Satya Nadella explains why he asked 60K employees to quit · TechCrunch AI · 7 小时前 · [原文](<https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/>)
-
-_微软首席执行官萨蒂亚·纳德拉（Satya Nadella）解释了他为何在10月份向6万名员工提供买断方案，实质上是敦促他们自愿离职，而不是通过另一次大规模裁员来削减员工队伍。…_
+_了解OpenAI如何构建Performance Factory，这是一个由Codex驱动的工作流系统，用于发现和解决性能问题，以帮助保持ChatGPT的快速运行。_
 
 **3. 为什么您的微调任务所需时间比 FLOP 所述的时间更长**
 
-Why your fine-tuning job takes longer than the FLOPs say · Hugging Face · 13 小时前 · [原文](<https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time>)
-
-**4. 住友生命保险的领导者如何帮助团队采用ChatGPT Enterprise-OpenAI**
-
-How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise - OpenAI · Google 新闻中文 · 7 小时前 · [原文](<https://news.google.com/rss/articles/CBMiekFVX3lxTE8tZkw1R3BnRHIzRjhnU0FUb3Z6c0tfUzAwSmxZTDdFS0ZaTTg1cU9TNWRDSDZXRzRiYnlhSW95ME51WTBQdXhRSlV0eUdXU0hHWC1fN212d0g4aG1TRE4zb1dvZmhLNzNxSGN3SEJ5dmtDaWNtdUlfY2pR?oc=5>)
-
-_住友人寿的领导者如何帮助团队采用ChatGPT Enterprise OpenAI_
-
-**5. 人工智能热度指数：人工智能无处不在**
-
-The AI Hype Index: AI is everywhere · MIT Tech Review · 17 小时前 · [原文](<https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/>)
-
-_人工智能就像一种讨厌的皮疹，似乎无处不在。尽管AI概览功能会让公司损失数十亿美元的广告收入，但Google还是强行将它塞进您的视野。走出公寓，你可能会碰到两个人…_
+Why your fine-tuning job takes longer than the FLOPs say · Hugging Face · 2 天前 · [原文](<https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time>)
