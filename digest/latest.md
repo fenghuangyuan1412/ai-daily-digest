@@ -1,125 +1,131 @@
-# 📰 AI 日报 · 2026-11-20
+# 📰 AI 日报 · 2026-11-21
 
-> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 21 条已译
+> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 22 条已译
 
 ## 🚀 模型与产品发布
 
-**1. Gemini 4 Neon成为Models Engineering Index的新榜首**
+**1. Hebbia 通过 GPT-6 Astra 实现了财务研究的改进**
 
-Gemini 4 Neon is the new #1 on the Models Engineering Index · Hacker News · 8 小时前 · ▲335 · [原文](<https://git-aarvin.github.io/mei/>)
+Hebbia sees improvements in financial research with GPT-6 Astra · OpenAI · 32 小时前 · [原文](<https://openai.com/business/customer-stories/hebbia>)
 
-**2. Claude解决了黑洞物理学中的两个未决问题**
+_Hebbia 对 GPT-6 Astra 进行了金融研究方面的测试。其预发布评估发现，在来源覆盖面、引用相关性和呈现质量方面均有提升。_
 
-Claude solves two open problems in the physics of black holes · Hacker News · 14 小时前 · ▲473 · [原文](<https://www.anthropic.com/research/claude-black-hole-physics>)
+**2. 对抗对抗性蒸馏**
 
-**3. 隆重推出Gemini 4 Neon**
+Combatting adversarial distillation · OpenAI · 22 小时前 · [原文](<https://openai.com/index/combatting-adversarial-distillation>)
 
-Introducing Gemini 4 Neon · Google DeepMind · 34 小时前 · [原文](<https://deepmind.google/blog/introducing-gemini-4-neon/>)
+_OpenAI 对对抗性蒸馏采取分层方法，将模型训练、防护措施、检测和执行相结合，以防范能力提取。_
 
-**4. PostgreSQL 19 发布**
+**3. 人工智能能否帮助科学家识别有前景的候选药物？**
 
-PostgreSQL 19 Released · Simon Willison · 11 小时前 · [原文](<https://simonwillison.net/2026/Nov/19/postgresql-19/>)
+Can AI help scientists identify promising drug candidates? · OpenAI · 32 小时前 · [原文](<https://openai.com/index/introducing-medchembench>)
 
-_PostgreSQL 19 发布大多数年份，PostgreSQL 都会在 9 月份发布新版本，但今年的版本晚了两个月才发布，这主要是因为 PostgreSQL 团队需要解决一系列问题，作为…_
+_MedChemBench 评估 AI 模型在早期药物发现中解释分子结构、根据实验证据进行推理以及选择化合物的优劣。_
+
+**4. 欢迎使用 Inkling 2 Mini，为您的本地设置提供尖端性能**
+
+Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup · Hugging Face · 32 小时前 · [原文](<https://huggingface.co/blog/inkling2mini>)
+
+**5. 隆重推出安全带适配器：将您喜爱的型号适配到您的安全带上，以提升性能并降低成本**
+
+Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost · Hugging Face · 32 小时前 · [原文](<https://huggingface.co/blog/harness-adapters-at-scale>)
 
 ## 🔬 研究前沿
 
-**1. 中国工业互联网研究院开启新一轮生成式人工智能备案咨询服务 - 中国工业互联网研究院**
+**1. PsyWorld：用于人类行为预测的基于个人资料的世界建模**
 
-Google 新闻中文 · 1 小时前 · [原文](<https://news.google.com/rss/articles/CBMiV0FVX3lxTE1VbWRzQzBUeThmd2U3Y3lwYVlxQ1F1cTVrOUJpU0w3R284NWtYR29hUlBiRmMzLXpRbTljalh6RjNTQUF4LVNTY09QcGxWVXRZY2FoeGQ4aw?oc=5>)
+PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction · arXiv cs.LG · 3 小时前 · [原文](<https://arxiv.org/abs/2611.24999>)
 
-_中国工业互联网研究院开启新一轮生成式人工智能备案咨询服务 中国工业互联网研究院_
+_了解稳定的心理测量特征和随时间变化的状态如何共同影响行为，是计算行为科学中的一个重要问题。现有的个性化代理通常直接对行动进行条件约束，…_
 
-**2. 弥合分析与设计之间的鸿沟：一种受授权约束的代理，用于自动驾驶实验室**
+**2. 注意线性化的位置：预测和校正模型合并干扰**
 
-Closing the Analyze-to-Design Gap: An Authorization-Bounded Agent for Self-Driving Laboratories · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.25043>)
+Watch Where You Linearize: Predicting and Correcting Model-Merging Interference · arXiv cs.LG · 3 小时前 · [原文](<https://arxiv.org/abs/2611.25000>)
 
-_人工智能 (AI) 代理正日益被集成到自动驾驶实验室 (SDL) 中，用于规划实验和解释结果。然而，仅靠分析推理并不能使实验室实现自主：…_
+_模型合并通过将单独微调的模型的任务向量添加到共享主干中，从而将这些模型结合起来。通常只有在构建和评估候选合并之后才会评估干涉，从而使系数…_
 
-**3. 用于工业维护中智能工单管理的 LLM 代理框架**
+**3. 用于生成式稀疏对抗性攻击可迁移性的密度反馈控制**
 
-An LLM-Agentic Framework for Intelligent Work Order Management in Industrial Maintenance · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.25070>)
+Density Feedback Control for Transferability of Generative Sparse Adversarial Attacks · arXiv cs.LG · 3 小时前 · [原文](<https://arxiv.org/abs/2611.25001>)
 
-_本文介绍了一种由人工智能驱动的框架——CodeReAct 智能体，旨在通过自然语言 (NL) 交互来提升工业设备的维护工作。该框架采用先进的 AI 代理方法来…_
+_基于生成器的稀疏对抗性攻击训练编码器-解码器网络，以产生可迁移的稀疏扰动，用于黑盒鲁棒性评估。然而，它们的扰动密度仅通过以下方式间接设定：…_
 
-**4. SailSearch：组合优化中的代理辅助发现**
+**4. 一种语言模型多样性采样模型**
 
-SailSearch: Agent-Assisted Discovery in Combinatorial Optimization · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.25087>)
+A Model of Diverse Sampling from Language Models · arXiv cs.LG · 3 小时前 · [原文](<https://arxiv.org/abs/2611.25003>)
 
-_我们推出了SailSearch，这是一个由人类引导的算法研究工作流，配备两个语言模型代理，并报告了市场分割和最大独立集（MIS）的结果。对于市场分割问题，我们的随机算法…_
+_语言模型通常会生成高质量的单个样本，但生成的样本集质量较差，重复样本往往聚集在相同的语义模式周围。我们将多样性生成形式化为从完整集合中采样一个大小为$K$的子集。…_
 
-**5. BuggyMLE：通过注入缺陷来衡量机器学习工程的难度**
+**5. 特征降维技术对对抗性攻击的影响**
 
-BuggyMLE: Scaling Machine Learning Engineering Difficulty with Bug Injection · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.25088>)
+On the Impact of Feature Reduction Techniques on Adversarial Attacks · arXiv cs.LG · 3 小时前 · [原文](<https://arxiv.org/abs/2611.25004>)
 
-_要使人工智能系统能够自主改进人工智能模型，就需要有能够执行机器学习工程 (MLE) 的代理。在实践中，设计、训练和评估复杂模型需要修改…_
+_对抗性攻击利用机器学习模型固有的漏洞，对其构成了重大威胁。研究人员建立了一个名为对抗性机器学习的跨学科领域，旨在…_
 
 ## 🏢 公司与行业动向
 
-**1. Anthropic IPO 抗议者表示，不应为人工智能泡沫提供纾困**
+**1. Anthropic的IPO破发加剧了华尔街4万亿美元的人工智能市值蒸发**
 
-No Bailout for the AI Bubble, Anthropic IPO Protesters Say · Hacker News · 13 小时前 · ▲44 · [原文](<https://www.techpolicy.press/no-bailout-for-the-ai-bubble-anthropic-ipo-protesters-say/>)
+Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street · Hacker News · 11 小时前 · ▲54 · [原文](<https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90>)
 
-**2. Anthropic 的 7 位创始人通过创纪录的 IPO 变现近 20 亿美元**
+**2. 为推理芯片添加振动编码**
 
-Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO · TechCrunch AI · 7 小时前 · [原文](<https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/>)
+Vibecoding an inference chip · Hacker News · 14 小时前 · ▲139 · [原文](<https://ankitg.me/blog/vibecoding-inference-chip/>)
 
-_按上调后的 83 美元/股的 IPO 价格计算，Anthropic 的七位创始人每人赚取了 2.8 亿美元，而该公司则获得了近 1050 亿美元。_
+**3. 谷歌推出全新搜索主页，包含人工智能聊天记录，但没有搜索按钮**
 
-**3. Meta 的新款 Muse Charm 设备售价可能为 300 美元**
+Google rolls out new search homepage with AI chat history and no search button · Ars Technica AI · 10 小时前 · [原文](<https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/>)
 
-Meta’s new Muse Charm device may cost $300 · TechCrunch AI · 10 小时前 · [原文](<https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/>)
+_Google 搜索让您在搜索页面上访问人工智能工具变得更加轻松。_
 
-_Meta并未否认The Information的报道，只是表示其即将推出的AI可穿戴设备“很快将有更多信息可以分享”。_
+**4. 面对人工智能数据中心创纪录的排放量，Meta正在重新考虑2030年净零排放目标**
 
-**4. Anthropic 股票在上市首日飙升-华盛顿邮报**
+Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers · Ars Technica AI · 10 小时前 · [原文](<https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/>)
 
-Anthropic shares soar in stock market debut - The Washington Post · Google News · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ3FFS2w1YzZjSk1fZmxUaW1rYktUczg1UWJzVnR0MHlHMzBHVml4NkdkcDB1UDhyZzI1OENvamE2RkdTOTZ4dTd2dndmVlZrWGwwMVc4SG1vNzJzTzZFanJQLXM3T045cFFJVmNnN2NQZGxjUW5CWU9GWVBWeDh3ODR4dDRZQ044clNndFNWcXN1Z29JSzdZMzZZdWVOZTQyQzVzdFdSczl2RlN4dF9weEdHNUp6dw?oc=5>)
+_Meta正在“重新评估”2030年可持续发展目标。其他公司会跟进吗？_
 
-_Anthropic在股市上市首日股价飙升《华盛顿邮报》_
+**5. 英伟达黄仁勋丑闻的影响仍在持续**
 
-**5. Anthropic的IPO可能为慈善事业带来1560亿美元**
+The fallout from Nvidia’s Jensen Huang scandal continues · TechCrunch AI · 17 小时前 · [原文](<https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/>)
 
-Anthropic’s IPO could deliver $156B to charity · TechCrunch AI · 13 小时前 · [原文](<https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/>)
-
-_当股价为95美元时，Frontier Lab的公益基金会、其员工捐款以及公司的配捐总额高达1560亿美元。_
+_在应对罢免首席执行官黄仁勋所带来的影响之际，英伟达本周发布了最新的财报，显示出稳健的增长态势，并承诺美好势头将持续下去。与此同时，…_
 
 ## 🛠 工程与开源工具
 
-**1. Anthropic 的纳斯达克首秀**
+**1. 受人工智能板块抛售影响，Anthropic连续第二天走低，纳斯达克指数抹去2026年全部涨幅**
 
-Anthropic’s Nasdaq debut · Hacker News · 15 小时前 · ▲1055 · [原文](<https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/>)
+Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day · Hacker News · 18 小时前 · ▲262 · [原文](<https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off>)
 
-**2. 政府是否应放缓尖端人工智能的发展？Jacob Coxon与Robin Hanson的辩论[视频]**
+**2. 谷歌员工敦促雇主不要惩罚不愿使用人工智能的学校**
 
-Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video] · Hacker News · 13 小时前 · ▲101 · [原文](<https://www.youtube.com/watch?v=lwfewYL7X0o>)
+Google workers tell their employer not to punish schools that don't want AI · Hacker News · 15 小时前 · ▲276 · [原文](<https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/>)
 
-**3. Chrome AI 功能占用大量带宽**
+**3. 问HN：我已经失业2年了。有15年工作经验，在美国。该怎么办？**
 
-Chrome AI features wasting much bandwidth · Hacker News · 15 小时前 · ▲128 · [原文](<https://perishablepress.com/chrome-ai-wasting-much-bandwidth/>)
+Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do? · Hacker News · 9 小时前 · ▲114 · [原文](<https://news.ycombinator.com/item?id=50583761>)
 
-**4. 法院：第四修正案不允许使用人工智能生成的“合理怀疑”**
+_我是一名在美国（华盛顿特区、马里兰州和弗吉尼亚州地区）的高级软件工程师，拥有15年工作经验。曾在《财富》50强公司和多家中型公司工作过。我已经失业2年了，一直找不到工作。在这2年里，我基本上………_
 
-Court: 4th Amendment Disallows Use Of AI-Generated 'Probable Cause' · Hacker News · 9 小时前 · ▲64 · [原文](<https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause/>)
+**4. 几小时前，Google DeepMind 创建了一个 Math Horizon 仓库**
 
-**5. 代币欺诈已经出现，而且很糟糕（YouTube）**
+A few hours ago Google DeepMind created a math horizon repo · Hacker News · 10 小时前 · ▲44 · [原文](<https://github.com/google-deepmind/math-horizon>)
 
-Token fraud is here and it’s BAD (YouTube) · Simon Willison · 5 小时前 · [原文](<https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/>)
+**5. Show HN：OpenComputer——Devin 的开源替代方案**
 
-_代币欺诈已经出现，而且情况很糟糕（YouTube）Claire Vo运营着ChatPRD，这是一个帮助产品经理“将想法转化为规格”的AI平台。该产品自GPT-4时代以来就已上线，Claire一直在打造它。…_
+Show HN: OpenComputer - an open source alternative to Devin · Hacker News · 12 小时前 · ▲103 · [原文](<https://github.com/diggerhq/opencomputer>)
+
+_大家好！我是Utpal，OpenComputer的创始人之一。OpenComputer是一款面向团队的开源云端编码代理，可以在您自己的云账户（AWS、GCP、Azure）中运行。我们运行代理程序框架和沙盒…_
 
 ## 💭 观点与深度
 
-**1. 人工智能来找程序员了。了解原因就能知道下一个是谁**
+**1. 人工智能领域最被误解的图表刚刚进行了重大更新**
 
-AI Came for the Coders. Understanding Why Tells Us Who's Next · Hacker News · 14 小时前 · ▲46 · [原文](<https://www.robertpeake.com/archives/104254-ai-came-for-the-coders-understanding-why-tells-us-whos-next.html>)
+The most misunderstood graph in AI just got a major update · MIT Tech Review · 14 小时前 · [原文](<https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/>)
 
-**2. OpenAI的Performance Factory如何让ChatGPT保持快速**
+_人工智能评估非营利组织METR的一份新报告发现，一些人工智能能力正沿着指数级轨迹持续提升，但报告也指出，在需要…_
 
-How OpenAI’s Performance Factory keeps ChatGPT fast · OpenAI · 24 小时前 · [原文](<https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast>)
+**2. 隐藏在可见光之外：人工智能如何增强多光谱伪装-AIP.ORG**
 
-_了解OpenAI如何构建Performance Factory，这是一个由Codex驱动的工作流系统，用于发现和解决性能问题，以帮助保持ChatGPT的快速运行。_
+Hiding beyond the visible: How artificial intelligence is enhancing multispectral camouflage - AIP.ORG · Google News · 7 小时前 · [原文](<https://news.google.com/rss/articles/CBMivgFBVV95cUxOZF9LMkJwcDBHNlhOZkU3TUQxdkk0S2lmR05Fc2xINGFBSEpzdHZfVXkyWHJvSmFCZ3M1Q3JiSzIyUFhRMkxhNEotdHVCNU1SSmRaUVJHSkZybnFzc2ZUcjJLUDlUdGFFXzd5MklqYmd0X19YWVR1TGFqUVU5NFA3T0h3NDBSZFpfVmhiQ1ZncG5QSlJSVHZlRkFxLWRoSnhORlkyQXVIQnd0bXdSWEYyNHpjRG4zVjJ4bWVpbTd3?oc=5>)
 
-**3. 为什么您的微调任务所需时间比 FLOP 所述的时间更长**
-
-Why your fine-tuning job takes longer than the FLOPs say · Hugging Face · 2 天前 · [原文](<https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time>)
+_隐藏在可见光之外：人工智能如何增强多光谱伪装AIP.ORG_
