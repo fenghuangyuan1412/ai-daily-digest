@@ -1,74 +1,38 @@
 {
-  "date": "2026-11-21",
-  "generatedAt": "2026-11-21T07:51:15.050Z",
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-22T07:38:09.418Z",
   "windowHours": 36,
   "sourcesTotal": 13,
   "sourcesOk": 13,
   "sourcesFailed": [],
-  "itemCount": 22,
-  "translatedCount": 22,
+  "itemCount": 15,
+  "translatedCount": 13,
   "sections": [
     {
       "key": "model",
       "label": "🚀 模型与产品发布",
       "items": [
         {
-          "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-          "titleZh": "Hebbia 通过 GPT-6 Astra 实现了财务研究的改进",
-          "url": "https://openai.com/business/customer-stories/hebbia",
-          "source": "OpenAI",
+          "title": "Anthropic Mathematician Claims to Solve Riemann Hypothesis With Help From Claude - The New York Times",
+          "titleZh": "Anthropic 数学家声称在 Claude 的帮助下解决了黎曼猜想-纽约时报",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMU96R3pxbVo0NDIzSUl5Szd6T0VkZzRUY1F3RE9NUnRPWU1tbnBRZkVPOWNDclpHX3hUTXo1QndXdENHb2Q1cFU2WnVwLWp0eG00dDFWcTBNR042Y3NFdUdtZGY4ODZUSnRTMFZGUnNFNFYyRGdvaHJCdVNra2k0T2NTeDZnbTdHcE83WQ?oc=5",
+          "source": "Google News",
           "alsoOn": [],
-          "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
-          "summaryZh": "Hebbia 对 GPT-6 Astra 进行了金融研究方面的测试。其预发布评估发现，在来源覆盖面、引用相关性和呈现质量方面均有提升。",
-          "published": "2026-11-20T00:00:00.000Z",
+          "summary": "Anthropic Mathematician Claims to Solve Riemann Hypothesis With Help From Claude The New York Times",
+          "summaryZh": "Anthropic 数学家声称在Claude的帮助下解决了黎曼猜想《纽约时报》",
+          "published": "2026-11-21T16:52:00.000Z",
           "points": 0,
           "discussion": ""
         },
         {
-          "title": "Combatting adversarial distillation",
-          "titleZh": "对抗对抗性蒸馏",
-          "url": "https://openai.com/index/combatting-adversarial-distillation",
-          "source": "OpenAI",
+          "title": "Meta ads is now available in AWS Quick - Amazon Web Services",
+          "titleZh": "Meta 广告现已在 AWS Quick 中上线-Amazon Web Services",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRkFtaHMtN1FWSllFbWladFBrVjJkNkRoaTZKTzNraF9taVZPaUxQRXdNMm5ER3Ftb3U3Yy11WU1fT21HS0ZNSFJReGR4ZVdnSTRuS205bmFkcmtzWjF5VVR0T3ExdWZVU2dNSXRmSF9zTkVoV0hCVEptc0VyQnZKYjNBOWxjenhMdEJfdHVB?oc=5",
+          "source": "Google News",
           "alsoOn": [],
-          "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
-          "summaryZh": "OpenAI 对对抗性蒸馏采取分层方法，将模型训练、防护措施、检测和执行相结合，以防范能力提取。",
-          "published": "2026-11-20T10:00:00.000Z",
-          "points": 0,
-          "discussion": ""
-        },
-        {
-          "title": "Can AI help scientists identify promising drug candidates?",
-          "titleZh": "人工智能能否帮助科学家识别有前景的候选药物？",
-          "url": "https://openai.com/index/introducing-medchembench",
-          "source": "OpenAI",
-          "alsoOn": [],
-          "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
-          "summaryZh": "MedChemBench 评估 AI 模型在早期药物发现中解释分子结构、根据实验证据进行推理以及选择化合物的优劣。",
-          "published": "2026-11-20T00:00:00.000Z",
-          "points": 0,
-          "discussion": ""
-        },
-        {
-          "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
-          "titleZh": "欢迎使用 Inkling 2 Mini，为您的本地设置提供尖端性能",
-          "url": "https://huggingface.co/blog/inkling2mini",
-          "source": "Hugging Face",
-          "alsoOn": [],
-          "summary": "",
-          "summaryZh": "",
-          "published": "2026-11-20T00:00:00.000Z",
-          "points": 0,
-          "discussion": ""
-        },
-        {
-          "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
-          "titleZh": "隆重推出安全带适配器：将您喜爱的型号适配到您的安全带上，以提升性能并降低成本",
-          "url": "https://huggingface.co/blog/harness-adapters-at-scale",
-          "source": "Hugging Face",
-          "alsoOn": [],
-          "summary": "",
-          "summaryZh": "",
-          "published": "2026-11-20T00:00:00.000Z",
+          "summary": "Meta ads is now available in AWS Quick Amazon Web Services",
+          "summaryZh": "Meta 广告现已在 AWS Quick Amazon Web Services 中上线",
+          "published": "2026-11-22T01:59:13.000Z",
           "points": 0,
           "discussion": ""
         }
@@ -79,62 +43,14 @@
       "label": "🔬 研究前沿",
       "items": [
         {
-          "title": "PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction",
-          "titleZh": "PsyWorld：用于人类行为预测的基于个人资料的世界建模",
-          "url": "https://arxiv.org/abs/2611.24999",
-          "source": "arXiv cs.LG",
+          "title": "Anthropic研究AI如何忏悔，牧师：你们自己呢？ - 观察者网",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPN2E5VmNGQloyMW5VMDJQa0VjMVpPVWtldlFzRU9vVldpRjdfdkh5dTdoZ2FVR2RZeE00LTFWSVlZVXBjUUxySXQ2RG5ybzlXUW9XZmkta0pHODBuc3RlTU4wNTNNUFVVSU9MOFJ1QVlURXZ0a1NtMTRiWVFHLTVUZHVBSQ?oc=5",
+          "source": "Google 新闻中文",
           "alsoOn": [],
-          "summary": "Understanding how stable psychometric traits and time-varying states jointly inform behavior is an important problem in computational behavioral science. Existing personalized agents commonly condition actions directly on a static profile, leaving realized state transitions unused as an explicit source of supervision. We introduce a profile-conditioned state world model that uses observed environment--behavior state transitions to learn transition-informed representations for behavioral prediction. During training, a posterior encoder quantizes realized transitions, while a prior predicts the resulting codes from the psychometric profile and pre-transition context. The prior code and predicted next state then condition macro-level behavior and simulator-grounded execution. Thus, the world model provides structured transition supervision instead of treating personality as a direct action descriptor. We evaluate the framework in VEET, a controlled behavioral simulator with human trajectories, and in AgentSociety as a structurally different synthetic environment. A participant-disjoint split of 240 training, 25 validation, and 48 test participants evaluates generalization to unseen people. On VEET, the model reaches 0.904 Top-1 accuracy (95\\% CI: [0.895, 0.913]) and 0.0033 Macro KL. Ablations associate continuous next-state modeling with most of the Top-1 gain, while discrete codes and prior alignment mainly improve Top-3 and distributional alignment. These results establish transition-informed world-model supervision as useful for subject-generalized behavior prediction, without implying causal psychological mechanisms or calibrated long-horizon state dynamics.",
-          "summaryZh": "了解稳定的心理测量特征和随时间变化的状态如何共同影响行为，是计算行为科学中的一个重要问题。现有的个性化代理通常直接对行动进行条件约束，…",
-          "published": "2026-11-21T05:00:00.000Z",
-          "points": 0,
-          "discussion": ""
-        },
-        {
-          "title": "Watch Where You Linearize: Predicting and Correcting Model-Merging Interference",
-          "titleZh": "注意线性化的位置：预测和校正模型合并干扰",
-          "url": "https://arxiv.org/abs/2611.25000",
-          "source": "arXiv cs.LG",
-          "alsoOn": [],
-          "summary": "Model merging combines separately fine-tuned models by adding their task vectors to a shared backbone. Interference is typically assessed only after constructing and evaluating a candidate merge, making coefficient search expensive. We show that a first-order directional derivative of task A's outputs along task B's vector can predict interference, but only when evaluated at the appropriate model. At the receiver model, this derivative forecasts nearby merges per task and per example, halves the accuracy error of a no-change baseline, and identifies most examples whose predictions flip. For full multi-task merges, a single evaluation is insufficient; two evaluations along the merge path are needed. At the shared pretrained backbone, however, the derivative is nearly orthogonal to realized changes in our vision experiments and only partly predictive in LoRA language-model pilots. Controls link this failure to displacement along the receiver's own task vector, not simply parameter distance; the mismatch appears within the first few dozen fine-tuning steps. Freezing receiver-local responses produces a surrogate affine in the merge coefficients. We use it to construct LR-Merge, a label-free correction that optimizes coefficients through convex teacher matching on unlabeled probes, without backpropagation through merged networks. LR-Merge improves all tested closed-form, isotropic, and sparsified base mergers, with gains generally increasing as more tasks are merged. Using pretrained rather than receiver-local responses instead degrades the base merge. LR-Merge matches exact teacher matching through a merged network, which takes roughly three times longer to converge and performs similarly at an equal compute budget. Once built, the surrogate answers new coefficient and task-subset queries in seconds.",
-          "summaryZh": "模型合并通过将单独微调的模型的任务向量添加到共享主干中，从而将这些模型结合起来。通常只有在构建和评估候选合并之后才会评估干涉，从而使系数…",
-          "published": "2026-11-21T05:00:00.000Z",
-          "points": 0,
-          "discussion": ""
-        },
-        {
-          "title": "Density Feedback Control for Transferability of Generative Sparse Adversarial Attacks",
-          "titleZh": "用于生成式稀疏对抗性攻击可迁移性的密度反馈控制",
-          "url": "https://arxiv.org/abs/2611.25001",
-          "source": "arXiv cs.LG",
-          "alsoOn": [],
-          "summary": "Generator-based sparse adversarial attacks train encoder--decoder networks to produce transferable sparse perturbations for black-box robustness evaluation. Their perturbation density, however, is set only indirectly by a fixed sparsity coefficient whose mapping to density is unknown and shifts during training, so reaching a target density requires re-tuning; this fixed pressure also yields little transferability gain once density reduction begins. We propose Density Feedback Control (DFC), which tightens or relaxes this coefficient at the end of each epoch according to the gap between the observed hard-mask density and the target, without changing the generator architecture or loss. At a 10\\% target density, DFC brings the mean density of three base attacks within one percentage point of the target in a single run and improves the transfer attack success rate (ASR) of two of them on CNN and Transformer targets, including under per-image $\\ell_0$ budgets, while perturbing fewer pixels. Tracing GPG's training, we observe that as DFC relaxes the coefficient, the transfer ASR recovers with the density and overtakes the fixed-coefficient baseline with fewer pixels. For EGS-TSSA, which restricts perturbations to source-model feature-importance regions, DFC yields no consistent gain; we analyze how this restriction interacts with density feedback.",
-          "summaryZh": "基于生成器的稀疏对抗性攻击训练编码器-解码器网络，以产生可迁移的稀疏扰动，用于黑盒鲁棒性评估。然而，它们的扰动密度仅通过以下方式间接设定：…",
-          "published": "2026-11-21T05:00:00.000Z",
-          "points": 0,
-          "discussion": ""
-        },
-        {
-          "title": "A Model of Diverse Sampling from Language Models",
-          "titleZh": "一种语言模型多样性采样模型",
-          "url": "https://arxiv.org/abs/2611.25003",
-          "source": "arXiv cs.LG",
-          "alsoOn": [],
-          "summary": "Language models often produce high-quality individual samples but poor sets, with repeated samples clustering around the same semantic modes. We formalize diverse generation as sampling a size-$K$ subset of complete strings from a determinantal point process (DPP), where the likelihood encodes item quality, and the embedding geometry encodes repulsion between similar outputs. Exact inference over all strings is intractable, so we propose PoolDPP: draw a finite candidate pool from a tractable proposal, importance-weight the candidates toward the target quality, and run a $K$-DPP sampler on the induced pool kernel; a greedy MAP variant provides deterministic selection. We prove a finite-sample bound with an explicit constant: the KL divergence between the sampler's output and the target $K$-DPP decays as O(1/N) in the pool size. Empirically, PoolDPP extends the quality--diversity frontier on open-ended generation and the precision--recall frontier on ambiguous text-to-SQL (Ambrosia), and on mathematical reasoning (GSM8K), it raises diversity at about the same pass@$K$.",
-          "summaryZh": "语言模型通常会生成高质量的单个样本，但生成的样本集质量较差，重复样本往往聚集在相同的语义模式周围。我们将多样性生成形式化为从完整集合中采样一个大小为$K$的子集。…",
-          "published": "2026-11-21T05:00:00.000Z",
-          "points": 0,
-          "discussion": ""
-        },
-        {
-          "title": "On the Impact of Feature Reduction Techniques on Adversarial Attacks",
-          "titleZh": "特征降维技术对对抗性攻击的影响",
-          "url": "https://arxiv.org/abs/2611.25004",
-          "source": "arXiv cs.LG",
-          "alsoOn": [],
-          "summary": "Adversarial attacks have posed significant threats to machine learning models by exploiting their inherent vulnerabilities. Researchers have established an interdisciplinary field called adversarial machine learning to explore these vulnerabilities and develop corresponding defense strategies. Feature reduction strategies are used to decrease the dimensionality of the data in order to reduce training time, avoid the curse of dimensionality, prevent overfitting, and mitigate redundant features. However, their effect on adversarial robustness across different classifiers and attack scenarios remains insufficiently explored. This study aims to analyze the effect of feature reduction techniques on the adversarial robustness of a diverse set of machine learning models under poisoning, backdoor, and universal adversarial perturbation attacks on the APT dataset. These models include support vector machine, decision tree, random forest, multi-layer perceptron, and k-nearest neighbors. The attained results are compared with scenarios where different feature reduction techniques are applied, including principal component analysis, permutation importance ranking, recursive feature elimination, and univariate mutual information. Metrics such as accuracy, F1-score, and mitigation score are employed to evaluate the effect of these techniques on adversarial robustness. The results demonstrate that permutation importance ranking and univariate mutual information generally provide the most consistent robustness improvements, while other methods exhibit more variable effects depending on the classifier and attack scenario.",
-          "summaryZh": "对抗性攻击利用机器学习模型固有的漏洞，对其构成了重大威胁。研究人员建立了一个名为对抗性机器学习的跨学科领域，旨在…",
-          "published": "2026-11-21T05:00:00.000Z",
+          "summary": "Anthropic研究AI如何忏悔，牧师：你们自己呢？ 观察者网",
+          "summaryZh": "",
+          "published": "2026-11-22T06:02:00.000Z",
           "points": 0,
           "discussion": ""
         }
@@ -153,54 +69,66 @@
           "summary": "",
           "summaryZh": "",
           "published": "2026-11-20T21:18:46.000Z",
-          "points": 54,
+          "points": 66,
           "discussion": "https://news.ycombinator.com/item?id=50582280"
         },
         {
-          "title": "Vibecoding an inference chip",
-          "titleZh": "为推理芯片添加振动编码",
-          "url": "https://ankitg.me/blog/vibecoding-inference-chip/",
-          "source": "Hacker News",
+          "title": "Anthropic stock slides with rest of market after big-ticker IPO - Washington Examiner",
+          "titleZh": "Anthropic 股票在备受瞩目的IPO之后与市场其他股票一同下跌-《华盛顿观察家报》",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNc0o1TFlNT1Y2ZDZDdFBTcHBjX3g3bFRxaDZLdTNvdFlTdTdKbG9fUFBkeUdpMXJJcWRhWkF5dlVraGZIZDlSd2lhWnlKZ09Uckp1ZDRRdllKNnBiR2dvZW9pOWQxd0UtUkVSeDV4Mkg2YjBkNE5TeksyNnpfWHBaVm1Ka0Nnc3RuNkFaQUd0OEo0MnRfRmVweDlZQW95YVYxRFE?oc=5",
+          "source": "Google News",
           "alsoOn": [],
-          "summary": "",
+          "summary": "Anthropic stock slides with rest of market after big-ticker IPO Washington Examiner",
+          "summaryZh": "Anthropic 股票在大型上市公司IPO后与市场其他股票一同下跌《华盛顿观察家报》",
+          "published": "2026-11-22T04:01:03.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "UC signs deal with OpenAI to expand AI access, lower costs - Daily Bruin",
+          "titleZh": "加州大学与OpenAI签署协议，以拓展人工智能的访问权限并降低成本-Daily Bruin",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZFlkXzhsMUxhZ196WUNRNUo4TFNwSDhfTHBYYS1lZ3BodlkyeUFvRF9KbXhmT3QzQ1M0ckRoYUdWNUxRdWVQNEZrbERYUC1rY2JwT3lKZ1ZwOVo2RVhNTHVPaHd3RkJfUkJDS29sSExlZ01xLU5ZT05BY0dTM0UwUmJxS25lMndUZC00NnVTcmdjNkFOSkN3?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "UC signs deal with OpenAI to expand AI access, lower costs Daily Bruin",
+          "summaryZh": "加州大学与OpenAI签署协议，以拓展人工智能的访问权限并降低成本《每日熊报》",
+          "published": "2026-11-21T22:37:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "猜想：AI泡沫破灭和金融市场危机 - 华尔街见闻",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0zckl3TFFwaXpUM2FPdjM4UFczMmxWUTBmMkxYQ0VRWlRIZG0zdGh6NFV2M0t1VzBKY3c3QmswMUsxQ3h5Y3FmN1dlQ2E1S29qcUtr?oc=5",
+          "source": "Google 新闻中文",
+          "alsoOn": [],
+          "summary": "猜想：AI泡沫破灭和金融市场危机 华尔街见闻",
           "summaryZh": "",
-          "published": "2026-11-20T18:15:16.000Z",
-          "points": 139,
-          "discussion": "https://news.ycombinator.com/item?id=50579297"
-        },
-        {
-          "title": "Google rolls out new search homepage with AI chat history and no search button",
-          "titleZh": "谷歌推出全新搜索主页，包含人工智能聊天记录，但没有搜索按钮",
-          "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
-          "source": "Ars Technica AI",
-          "alsoOn": [],
-          "summary": "Google search is making it even easier to access AI tools on the search page.",
-          "summaryZh": "Google 搜索让您在搜索页面上访问人工智能工具变得更加轻松。",
-          "published": "2026-11-20T21:58:29.000Z",
+          "published": "2026-11-22T06:37:56.000Z",
           "points": 0,
           "discussion": ""
         },
         {
-          "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
-          "titleZh": "面对人工智能数据中心创纪录的排放量，Meta正在重新考虑2030年净零排放目标",
-          "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
-          "source": "Ars Technica AI",
-          "alsoOn": [],
-          "summary": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?",
-          "summaryZh": "Meta正在“重新评估”2030年可持续发展目标。其他公司会跟进吗？",
-          "published": "2026-11-20T21:47:10.000Z",
-          "points": 0,
-          "discussion": ""
-        },
-        {
-          "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
-          "titleZh": "英伟达黄仁勋丑闻的影响仍在持续",
-          "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+          "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+          "titleZh": "Signal限制移动端截屏，以应对人工智能监控带来的“生存威胁”",
+          "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
           "source": "TechCrunch AI",
           "alsoOn": [],
-          "summary": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, the chipmaker said it will stop selling its H200 chips in China, and it dismissed calls to […]",
-          "summaryZh": "在应对罢免首席执行官黄仁勋所带来的影响之际，英伟达本周发布了最新的财报，显示出稳健的增长态势，并承诺美好势头将持续下去。与此同时，…",
-          "published": "2026-11-20T14:55:44.000Z",
+          "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+          "summaryZh": "Signal 正在限制用户在其 Android 和 iOS 应用中截屏的能力。",
+          "published": "2026-11-21T21:37:10.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "A tale of two Nvidias",
+          "titleZh": "两个英伟达的故事",
+          "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "We got two very different pictures of Nvidia - the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+          "summaryZh": "我们看到了有关英伟达的两种截然不同的景象：该公司最新的财报，以及科技高管们大声疾呼黄仁勋回归。",
+          "published": "2026-11-21T21:07:42.000Z",
           "points": 0,
           "discussion": ""
         }
@@ -211,28 +139,40 @@
       "label": "🛠 工程与开源工具",
       "items": [
         {
-          "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
-          "titleZh": "受人工智能板块抛售影响，Anthropic连续第二天走低，纳斯达克指数抹去2026年全部涨幅",
-          "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+          "title": "Data Processing Incidents on Inference Providers",
+          "titleZh": "推理提供商的数据处理事件",
+          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
           "source": "Hacker News",
           "alsoOn": [],
           "summary": "",
           "summaryZh": "",
-          "published": "2026-11-20T13:29:59.000Z",
-          "points": 262,
-          "discussion": "https://news.ycombinator.com/item?id=50574383"
+          "published": "2026-11-22T02:14:14.000Z",
+          "points": 110,
+          "discussion": "https://news.ycombinator.com/item?id=50595554"
         },
         {
-          "title": "Google workers tell their employer not to punish schools that don't want AI",
-          "titleZh": "谷歌员工敦促雇主不要惩罚不愿使用人工智能的学校",
-          "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+          "title": "The Mythology of Conscious AI",
+          "titleZh": "有意识人工智能的神话",
+          "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
           "source": "Hacker News",
           "alsoOn": [],
           "summary": "",
           "summaryZh": "",
-          "published": "2026-11-20T16:59:27.000Z",
-          "points": 276,
-          "discussion": "https://news.ycombinator.com/item?id=50577901"
+          "published": "2026-11-22T02:10:02.000Z",
+          "points": 43,
+          "discussion": "https://news.ycombinator.com/item?id=50595537"
+        },
+        {
+          "title": "Pandex - Official European Law for AI Agents, over MCP",
+          "titleZh": "Pandex-针对 AI 代理的欧洲官方法律，通过 MCP",
+          "url": "https://www.pandex.io",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-21T20:47:41.000Z",
+          "points": 71,
+          "discussion": "https://news.ycombinator.com/item?id=50593481"
         },
         {
           "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
@@ -241,10 +181,22 @@
           "source": "Hacker News",
           "alsoOn": [],
           "summary": "I'm Senior software engineer in the US (DMV area), with 15y of experience. Worked for Fortune 50+ company and bunch of mid-size companies. Been unemployed for 2y and can't find a job, within those 2 years, I pretty much spent my savings that I've saved through years, maybe have 4-5 months left to support my household. Currently, I tutor math and probably about to start working as manager in pizzaria. In Jan 2025, I quit from a mid-size insurance tech company(1000+) after working there for almost 4y, because I was tipped off the they were about to start layoffs and they did. Well, since then I have zero luck finding any job in SWE. At this point, I have massive gap in my resume that I can't explain to recruiters, I can still code (C#/.NET/AWS) and learned the AI, but who cares if date of my last employment is Jan2025. What should I do ? If you have an alternative path (something completely different from SWE or SWE adjacent) that pays \"well\", I would like to hear.",
-          "summaryZh": "我是一名在美国（华盛顿特区、马里兰州和弗吉尼亚州地区）的高级软件工程师，拥有15年工作经验。曾在《财富》50强公司和多家中型公司工作过。我已经失业2年了，一直找不到工作。在这2年里，我基本上………",
+          "summaryZh": "我是一名在美国（华盛顿特区、马里兰州和弗吉尼亚州地区）的高级软件工程师，拥有15年工作经验。曾在《财富》50强公司和多家中型公司工作过。我已经失业2年了，一直找不到工作。在这2年里，我基本上…",
           "published": "2026-11-20T23:18:32.000Z",
-          "points": 114,
+          "points": 677,
           "discussion": "https://news.ycombinator.com/item?id=50583761"
+        },
+        {
+          "title": "ClawDOS - An AI coding agent for DOS",
+          "titleZh": "ClawDOS-用于DOS的AI编码代理",
+          "url": "http://ricapar.net/ClawDOS/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-21T05:38:01.000Z",
+          "points": 162,
+          "discussion": "https://news.ycombinator.com/item?id=50586292"
         },
         {
           "title": "A few hours ago Google DeepMind created a math horizon repo",
@@ -255,53 +207,11 @@
           "summary": "",
           "summaryZh": "",
           "published": "2026-11-20T21:42:21.000Z",
-          "points": 44,
+          "points": 46,
           "discussion": "https://news.ycombinator.com/item?id=50582629"
-        },
-        {
-          "title": "Show HN: OpenComputer - an open source alternative to Devin",
-          "titleZh": "Show HN：OpenComputer——Devin 的开源替代方案",
-          "url": "https://github.com/diggerhq/opencomputer",
-          "source": "Hacker News",
-          "alsoOn": [],
-          "summary": "Hi HN! Utpal here, I'm one of the founders of OpenComputer. OpenComputer is an open source cloud coding agent for teams that can run in your own cloud account (AWS, GCP, Azure). We run the agent harness and the sandbox on the same durable VM (architecture in the docs [1]). First commit lands in 24s; the alternatives we benchmarked took 53-72s (benchmarks below [2]). Two other choices: - One VM per team, scalable horizontally. Sessions are isolated in git worktrees. - Session files are backed up to a repo after every turn, so any session can resume on another VM. We noticed that past ~640 session-hours a month, one always-on 4 vCPU VM is cheaper than per-session E2B sandboxes, for example. So at scale, this setup would not only be faster than current SOTA coding agents, but also more cost-efficient. Feel free to try via cloud for free [4] or self host. We would love any and all feedback, and happy to answer any questions! Full demo below [3]. [1]: https://docs.opencomputer.dev/getting-started/architecture [2]: https://opencomputer.dev/blog/cloud-agents-as-fast-as-local/ [3]: https://x.com/IgorZIJ/status/2121309785882591711 [4]: https://app.opencomputer.dev",
-          "summaryZh": "大家好！我是Utpal，OpenComputer的创始人之一。OpenComputer是一款面向团队的开源云端编码代理，可以在您自己的云账户（AWS、GCP、Azure）中运行。我们运行代理程序框架和沙盒…",
-          "published": "2026-11-20T20:19:56.000Z",
-          "points": 103,
-          "discussion": "https://news.ycombinator.com/item?id=50581403"
-        }
-      ]
-    },
-    {
-      "key": "ideas",
-      "label": "💭 观点与深度",
-      "items": [
-        {
-          "title": "The most misunderstood graph in AI just got a major update",
-          "titleZh": "人工智能领域最被误解的图表刚刚进行了重大更新",
-          "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
-          "source": "MIT Tech Review",
-          "alsoOn": [],
-          "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory-but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which was widely…",
-          "summaryZh": "人工智能评估非营利组织METR的一份新报告发现，一些人工智能能力正沿着指数级轨迹持续提升，但报告也指出，在需要…",
-          "published": "2026-11-20T18:15:15.000Z",
-          "points": 0,
-          "discussion": ""
-        },
-        {
-          "title": "Hiding beyond the visible: How artificial intelligence is enhancing multispectral camouflage - AIP.ORG",
-          "titleZh": "隐藏在可见光之外：人工智能如何增强多光谱伪装-AIP.ORG",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZF9LMkJwcDBHNlhOZkU3TUQxdkk0S2lmR05Fc2xINGFBSEpzdHZfVXkyWHJvSmFCZ3M1Q3JiSzIyUFhRMkxhNEotdHVCNU1SSmRaUVJHSkZybnFzc2ZUcjJLUDlUdGFFXzd5MklqYmd0X19YWVR1TGFqUVU5NFA3T0h3NDBSZFpfVmhiQ1ZncG5QSlJSVHZlRkFxLWRoSnhORlkyQXVIQnd0bXdSWEYyNHpjRG4zVjJ4bWVpbTd3?oc=5",
-          "source": "Google News",
-          "alsoOn": [],
-          "summary": "Hiding beyond the visible: How artificial intelligence is enhancing multispectral camouflage AIP.ORG",
-          "summaryZh": "隐藏在可见光之外：人工智能如何增强多光谱伪装AIP.ORG",
-          "published": "2026-11-21T00:43:06.000Z",
-          "points": 0,
-          "discussion": ""
         }
       ]
     }
   ],
-  "markdown": "# 📰 AI 日报 · 2026-11-21\n\n> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 22 条已译\n\n## 🚀 模型与产品发布\n\n**1. Hebbia 通过 GPT-6 Astra 实现了财务研究的改进**\n\nHebbia sees improvements in financial research with GPT-6 Astra · OpenAI · 32 小时前 · [原文](<https://openai.com/business/customer-stories/hebbia>)\n\n_Hebbia 对 GPT-6 Astra 进行了金融研究方面的测试。其预发布评估发现，在来源覆盖面、引用相关性和呈现质量方面均有提升。_\n\n**2. 对抗对抗性蒸馏**\n\nCombatting adversarial distillation · OpenAI · 22 小时前 · [原文](<https://openai.com/index/combatting-adversarial-distillation>)\n\n_OpenAI 对对抗性蒸馏采取分层方法，将模型训练、防护措施、检测和执行相结合，以防范能力提取。_\n\n**3. 人工智能能否帮助科学家识别有前景的候选药物？**\n\nCan AI help scientists identify promising drug candidates? · OpenAI · 32 小时前 · [原文](<https://openai.com/index/introducing-medchembench>)\n\n_MedChemBench 评估 AI 模型在早期药物发现中解释分子结构、根据实验证据进行推理以及选择化合物的优劣。_\n\n**4. 欢迎使用 Inkling 2 Mini，为您的本地设置提供尖端性能**\n\nWelcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup · Hugging Face · 32 小时前 · [原文](<https://huggingface.co/blog/inkling2mini>)\n\n**5. 隆重推出安全带适配器：将您喜爱的型号适配到您的安全带上，以提升性能并降低成本**\n\nIntroducing harness adapters: adapt your favorite model to your harness to improve performance and cost · Hugging Face · 32 小时前 · [原文](<https://huggingface.co/blog/harness-adapters-at-scale>)\n\n## 🔬 研究前沿\n\n**1. PsyWorld：用于人类行为预测的基于个人资料的世界建模**\n\nPsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction · arXiv cs.LG · 3 小时前 · [原文](<https://arxiv.org/abs/2611.24999>)\n\n_了解稳定的心理测量特征和随时间变化的状态如何共同影响行为，是计算行为科学中的一个重要问题。现有的个性化代理通常直接对行动进行条件约束，…_\n\n**2. 注意线性化的位置：预测和校正模型合并干扰**\n\nWatch Where You Linearize: Predicting and Correcting Model-Merging Interference · arXiv cs.LG · 3 小时前 · [原文](<https://arxiv.org/abs/2611.25000>)\n\n_模型合并通过将单独微调的模型的任务向量添加到共享主干中，从而将这些模型结合起来。通常只有在构建和评估候选合并之后才会评估干涉，从而使系数…_\n\n**3. 用于生成式稀疏对抗性攻击可迁移性的密度反馈控制**\n\nDensity Feedback Control for Transferability of Generative Sparse Adversarial Attacks · arXiv cs.LG · 3 小时前 · [原文](<https://arxiv.org/abs/2611.25001>)\n\n_基于生成器的稀疏对抗性攻击训练编码器-解码器网络，以产生可迁移的稀疏扰动，用于黑盒鲁棒性评估。然而，它们的扰动密度仅通过以下方式间接设定：…_\n\n**4. 一种语言模型多样性采样模型**\n\nA Model of Diverse Sampling from Language Models · arXiv cs.LG · 3 小时前 · [原文](<https://arxiv.org/abs/2611.25003>)\n\n_语言模型通常会生成高质量的单个样本，但生成的样本集质量较差，重复样本往往聚集在相同的语义模式周围。我们将多样性生成形式化为从完整集合中采样一个大小为$K$的子集。…_\n\n**5. 特征降维技术对对抗性攻击的影响**\n\nOn the Impact of Feature Reduction Techniques on Adversarial Attacks · arXiv cs.LG · 3 小时前 · [原文](<https://arxiv.org/abs/2611.25004>)\n\n_对抗性攻击利用机器学习模型固有的漏洞，对其构成了重大威胁。研究人员建立了一个名为对抗性机器学习的跨学科领域，旨在…_\n\n## 🏢 公司与行业动向\n\n**1. Anthropic的IPO破发加剧了华尔街4万亿美元的人工智能市值蒸发**\n\nAnthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street · Hacker News · 11 小时前 · ▲54 · [原文](<https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90>)\n\n**2. 为推理芯片添加振动编码**\n\nVibecoding an inference chip · Hacker News · 14 小时前 · ▲139 · [原文](<https://ankitg.me/blog/vibecoding-inference-chip/>)\n\n**3. 谷歌推出全新搜索主页，包含人工智能聊天记录，但没有搜索按钮**\n\nGoogle rolls out new search homepage with AI chat history and no search button · Ars Technica AI · 10 小时前 · [原文](<https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/>)\n\n_Google 搜索让您在搜索页面上访问人工智能工具变得更加轻松。_\n\n**4. 面对人工智能数据中心创纪录的排放量，Meta正在重新考虑2030年净零排放目标**\n\nMeta reconsiders 2030 net-zero goal amid record emissions from AI data centers · Ars Technica AI · 10 小时前 · [原文](<https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/>)\n\n_Meta正在“重新评估”2030年可持续发展目标。其他公司会跟进吗？_\n\n**5. 英伟达黄仁勋丑闻的影响仍在持续**\n\nThe fallout from Nvidia’s Jensen Huang scandal continues · TechCrunch AI · 17 小时前 · [原文](<https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/>)\n\n_在应对罢免首席执行官黄仁勋所带来的影响之际，英伟达本周发布了最新的财报，显示出稳健的增长态势，并承诺美好势头将持续下去。与此同时，…_\n\n## 🛠 工程与开源工具\n\n**1. 受人工智能板块抛售影响，Anthropic连续第二天走低，纳斯达克指数抹去2026年全部涨幅**\n\nNasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day · Hacker News · 18 小时前 · ▲262 · [原文](<https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off>)\n\n**2. 谷歌员工敦促雇主不要惩罚不愿使用人工智能的学校**\n\nGoogle workers tell their employer not to punish schools that don't want AI · Hacker News · 15 小时前 · ▲276 · [原文](<https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/>)\n\n**3. 问HN：我已经失业2年了。有15年工作经验，在美国。该怎么办？**\n\nAsk HN: I have been unemployed for 2y. 15 years of experience, US. What to do? · Hacker News · 9 小时前 · ▲114 · [原文](<https://news.ycombinator.com/item?id=50583761>)\n\n_我是一名在美国（华盛顿特区、马里兰州和弗吉尼亚州地区）的高级软件工程师，拥有15年工作经验。曾在《财富》50强公司和多家中型公司工作过。我已经失业2年了，一直找不到工作。在这2年里，我基本上………_\n\n**4. 几小时前，Google DeepMind 创建了一个 Math Horizon 仓库**\n\nA few hours ago Google DeepMind created a math horizon repo · Hacker News · 10 小时前 · ▲44 · [原文](<https://github.com/google-deepmind/math-horizon>)\n\n**5. Show HN：OpenComputer——Devin 的开源替代方案**\n\nShow HN: OpenComputer - an open source alternative to Devin · Hacker News · 12 小时前 · ▲103 · [原文](<https://github.com/diggerhq/opencomputer>)\n\n_大家好！我是Utpal，OpenComputer的创始人之一。OpenComputer是一款面向团队的开源云端编码代理，可以在您自己的云账户（AWS、GCP、Azure）中运行。我们运行代理程序框架和沙盒…_\n\n## 💭 观点与深度\n\n**1. 人工智能领域最被误解的图表刚刚进行了重大更新**\n\nThe most misunderstood graph in AI just got a major update · MIT Tech Review · 14 小时前 · [原文](<https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/>)\n\n_人工智能评估非营利组织METR的一份新报告发现，一些人工智能能力正沿着指数级轨迹持续提升，但报告也指出，在需要…_\n\n**2. 隐藏在可见光之外：人工智能如何增强多光谱伪装-AIP.ORG**\n\nHiding beyond the visible: How artificial intelligence is enhancing multispectral camouflage - AIP.ORG · Google News · 7 小时前 · [原文](<https://news.google.com/rss/articles/CBMivgFBVV95cUxOZF9LMkJwcDBHNlhOZkU3TUQxdkk0S2lmR05Fc2xINGFBSEpzdHZfVXkyWHJvSmFCZ3M1Q3JiSzIyUFhRMkxhNEotdHVCNU1SSmRaUVJHSkZybnFzc2ZUcjJLUDlUdGFFXzd5MklqYmd0X19YWVR1TGFqUVU5NFA3T0h3NDBSZFpfVmhiQ1ZncG5QSlJSVHZlRkFxLWRoSnhORlkyQXVIQnd0bXdSWEYyNHpjRG4zVjJ4bWVpbTd3?oc=5>)\n\n_隐藏在可见光之外：人工智能如何增强多光谱伪装AIP.ORG_\n"
+  "markdown": "# 📰 AI 日报 · 2026-11-22\n\n> 15 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 13 条已译\n\n## 🚀 模型与产品发布\n\n**1. Anthropic 数学家声称在 Claude 的帮助下解决了黎曼猜想-纽约时报**\n\nAnthropic Mathematician Claims to Solve Riemann Hypothesis With Help From Claude - The New York Times · Google News · 15 小时前 · [原文](<https://news.google.com/rss/articles/CBMijAFBVV95cUxQMU96R3pxbVo0NDIzSUl5Szd6T0VkZzRUY1F3RE9NUnRPWU1tbnBRZkVPOWNDclpHX3hUTXo1QndXdENHb2Q1cFU2WnVwLWp0eG00dDFWcTBNR042Y3NFdUdtZGY4ODZUSnRTMFZGUnNFNFYyRGdvaHJCdVNra2k0T2NTeDZnbTdHcE83WQ?oc=5>)\n\n_Anthropic 数学家声称在Claude的帮助下解决了黎曼猜想《纽约时报》_\n\n**2. Meta 广告现已在 AWS Quick 中上线-Amazon Web Services**\n\nMeta ads is now available in AWS Quick - Amazon Web Services · Google News · 6 小时前 · [原文](<https://news.google.com/rss/articles/CBMijgFBVV95cUxNRkFtaHMtN1FWSllFbWladFBrVjJkNkRoaTZKTzNraF9taVZPaUxQRXdNMm5ER3Ftb3U3Yy11WU1fT21HS0ZNSFJReGR4ZVdnSTRuS205bmFkcmtzWjF5VVR0T3ExdWZVU2dNSXRmSF9zTkVoV0hCVEptc0VyQnZKYjNBOWxjenhMdEJfdHVB?oc=5>)\n\n_Meta 广告现已在 AWS Quick Amazon Web Services 中上线_\n\n## 🔬 研究前沿\n\n**1. Anthropic研究AI如何忏悔，牧师：你们自己呢？ - 观察者网**\n\nGoogle 新闻中文 · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMigwFBVV95cUxPN2E5VmNGQloyMW5VMDJQa0VjMVpPVWtldlFzRU9vVldpRjdfdkh5dTdoZ2FVR2RZeE00LTFWSVlZVXBjUUxySXQ2RG5ybzlXUW9XZmkta0pHODBuc3RlTU4wNTNNUFVVSU9MOFJ1QVlURXZ0a1NtMTRiWVFHLTVUZHVBSQ?oc=5>)\n\n_Anthropic研究AI如何忏悔，牧师：你们自己呢？ 观察者网_\n\n## 🏢 公司与行业动向\n\n**1. Anthropic的IPO破发加剧了华尔街4万亿美元的人工智能市值蒸发**\n\nAnthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street · Hacker News · 34 小时前 · ▲66 · [原文](<https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90>)\n\n**2. Anthropic 股票在备受瞩目的IPO之后与市场其他股票一同下跌-《华盛顿观察家报》**\n\nAnthropic stock slides with rest of market after big-ticker IPO - Washington Examiner · Google News · 4 小时前 · [原文](<https://news.google.com/rss/articles/CBMiogFBVV95cUxNc0o1TFlNT1Y2ZDZDdFBTcHBjX3g3bFRxaDZLdTNvdFlTdTdKbG9fUFBkeUdpMXJJcWRhWkF5dlVraGZIZDlSd2lhWnlKZ09Uckp1ZDRRdllKNnBiR2dvZW9pOWQxd0UtUkVSeDV4Mkg2YjBkNE5TeksyNnpfWHBaVm1Ka0Nnc3RuNkFaQUd0OEo0MnRfRmVweDlZQW95YVYxRFE?oc=5>)\n\n_Anthropic 股票在大型上市公司IPO后与市场其他股票一同下跌《华盛顿观察家报》_\n\n**3. 加州大学与OpenAI签署协议，以拓展人工智能的访问权限并降低成本-Daily Bruin**\n\nUC signs deal with OpenAI to expand AI access, lower costs - Daily Bruin · Google News · 9 小时前 · [原文](<https://news.google.com/rss/articles/CBMilwFBVV95cUxPZFlkXzhsMUxhZ196WUNRNUo4TFNwSDhfTHBYYS1lZ3BodlkyeUFvRF9KbXhmT3QzQ1M0ckRoYUdWNUxRdWVQNEZrbERYUC1rY2JwT3lKZ1ZwOVo2RVhNTHVPaHd3RkJfUkJDS29sSExlZ01xLU5ZT05BY0dTM0UwUmJxS25lMndUZC00NnVTcmdjNkFOSkN3?oc=5>)\n\n_加州大学与OpenAI签署协议，以拓展人工智能的访问权限并降低成本《每日熊报》_\n\n**4. 猜想：AI泡沫破灭和金融市场危机 - 华尔街见闻**\n\nGoogle 新闻中文 · 1 小时前 · [原文](<https://news.google.com/rss/articles/CBMiU0FVX3lxTE0zckl3TFFwaXpUM2FPdjM4UFczMmxWUTBmMkxYQ0VRWlRIZG0zdGh6NFV2M0t1VzBKY3c3QmswMUsxQ3h5Y3FmN1dlQ2E1S29qcUtr?oc=5>)\n\n_猜想：AI泡沫破灭和金融市场危机 华尔街见闻_\n\n**5. Signal限制移动端截屏，以应对人工智能监控带来的“生存威胁”**\n\nSignal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance · TechCrunch AI · 10 小时前 · [原文](<https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/>)\n\n_Signal 正在限制用户在其 Android 和 iOS 应用中截屏的能力。_\n\n**6. 两个英伟达的故事**\n\nA tale of two Nvidias · TechCrunch AI · 11 小时前 · [原文](<https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/>)\n\n_我们看到了有关英伟达的两种截然不同的景象：该公司最新的财报，以及科技高管们大声疾呼黄仁勋回归。_\n\n## 🛠 工程与开源工具\n\n**1. 推理提供商的数据处理事件**\n\nData Processing Incidents on Inference Providers · Hacker News · 5 小时前 · ▲110 · [原文](<https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/>)\n\n**2. 有意识人工智能的神话**\n\nThe Mythology of Conscious AI · Hacker News · 5 小时前 · ▲43 · [原文](<https://www.noemamag.com/the-mythology-of-conscious-ai/>)\n\n**3. Pandex-针对 AI 代理的欧洲官方法律，通过 MCP**\n\nPandex - Official European Law for AI Agents, over MCP · Hacker News · 11 小时前 · ▲71 · [原文](<https://www.pandex.io>)\n\n**4. 问HN：我已经失业2年了。有15年工作经验，在美国。该怎么办？**\n\nAsk HN: I have been unemployed for 2y. 15 years of experience, US. What to do? · Hacker News · 32 小时前 · ▲677 · [原文](<https://news.ycombinator.com/item?id=50583761>)\n\n_我是一名在美国（华盛顿特区、马里兰州和弗吉尼亚州地区）的高级软件工程师，拥有15年工作经验。曾在《财富》50强公司和多家中型公司工作过。我已经失业2年了，一直找不到工作。在这2年里，我基本上…_\n\n**5. ClawDOS-用于DOS的AI编码代理**\n\nClawDOS - An AI coding agent for DOS · Hacker News · 26 小时前 · ▲162 · [原文](<http://ricapar.net/ClawDOS/>)\n\n**6. 几小时前，Google DeepMind 创建了一个 Math Horizon 仓库**\n\nA few hours ago Google DeepMind created a math horizon repo · Hacker News · 34 小时前 · ▲46 · [原文](<https://github.com/google-deepmind/math-horizon>)\n"
 }

@@ -1,0 +1,217 @@
+{
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-22T07:38:09.418Z",
+  "windowHours": 36,
+  "sourcesTotal": 13,
+  "sourcesOk": 13,
+  "sourcesFailed": [],
+  "itemCount": 15,
+  "translatedCount": 13,
+  "sections": [
+    {
+      "key": "model",
+      "label": "🚀 模型与产品发布",
+      "items": [
+        {
+          "title": "Anthropic Mathematician Claims to Solve Riemann Hypothesis With Help From Claude - The New York Times",
+          "titleZh": "Anthropic 数学家声称在 Claude 的帮助下解决了黎曼猜想-纽约时报",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMU96R3pxbVo0NDIzSUl5Szd6T0VkZzRUY1F3RE9NUnRPWU1tbnBRZkVPOWNDclpHX3hUTXo1QndXdENHb2Q1cFU2WnVwLWp0eG00dDFWcTBNR042Y3NFdUdtZGY4ODZUSnRTMFZGUnNFNFYyRGdvaHJCdVNra2k0T2NTeDZnbTdHcE83WQ?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "Anthropic Mathematician Claims to Solve Riemann Hypothesis With Help From Claude The New York Times",
+          "summaryZh": "Anthropic 数学家声称在Claude的帮助下解决了黎曼猜想《纽约时报》",
+          "published": "2026-11-21T16:52:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Meta ads is now available in AWS Quick - Amazon Web Services",
+          "titleZh": "Meta 广告现已在 AWS Quick 中上线-Amazon Web Services",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRkFtaHMtN1FWSllFbWladFBrVjJkNkRoaTZKTzNraF9taVZPaUxQRXdNMm5ER3Ftb3U3Yy11WU1fT21HS0ZNSFJReGR4ZVdnSTRuS205bmFkcmtzWjF5VVR0T3ExdWZVU2dNSXRmSF9zTkVoV0hCVEptc0VyQnZKYjNBOWxjenhMdEJfdHVB?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "Meta ads is now available in AWS Quick Amazon Web Services",
+          "summaryZh": "Meta 广告现已在 AWS Quick Amazon Web Services 中上线",
+          "published": "2026-11-22T01:59:13.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "research",
+      "label": "🔬 研究前沿",
+      "items": [
+        {
+          "title": "Anthropic研究AI如何忏悔，牧师：你们自己呢？ - 观察者网",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPN2E5VmNGQloyMW5VMDJQa0VjMVpPVWtldlFzRU9vVldpRjdfdkh5dTdoZ2FVR2RZeE00LTFWSVlZVXBjUUxySXQ2RG5ybzlXUW9XZmkta0pHODBuc3RlTU4wNTNNUFVVSU9MOFJ1QVlURXZ0a1NtMTRiWVFHLTVUZHVBSQ?oc=5",
+          "source": "Google 新闻中文",
+          "alsoOn": [],
+          "summary": "Anthropic研究AI如何忏悔，牧师：你们自己呢？ 观察者网",
+          "summaryZh": "",
+          "published": "2026-11-22T06:02:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "label": "🏢 公司与行业动向",
+      "items": [
+        {
+          "title": "Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street",
+          "titleZh": "Anthropic的IPO破发加剧了华尔街4万亿美元的人工智能市值蒸发",
+          "url": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-20T21:18:46.000Z",
+          "points": 66,
+          "discussion": "https://news.ycombinator.com/item?id=50582280"
+        },
+        {
+          "title": "Anthropic stock slides with rest of market after big-ticker IPO - Washington Examiner",
+          "titleZh": "Anthropic 股票在备受瞩目的IPO之后与市场其他股票一同下跌-《华盛顿观察家报》",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNc0o1TFlNT1Y2ZDZDdFBTcHBjX3g3bFRxaDZLdTNvdFlTdTdKbG9fUFBkeUdpMXJJcWRhWkF5dlVraGZIZDlSd2lhWnlKZ09Uckp1ZDRRdllKNnBiR2dvZW9pOWQxd0UtUkVSeDV4Mkg2YjBkNE5TeksyNnpfWHBaVm1Ka0Nnc3RuNkFaQUd0OEo0MnRfRmVweDlZQW95YVYxRFE?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "Anthropic stock slides with rest of market after big-ticker IPO Washington Examiner",
+          "summaryZh": "Anthropic 股票在大型上市公司IPO后与市场其他股票一同下跌《华盛顿观察家报》",
+          "published": "2026-11-22T04:01:03.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "UC signs deal with OpenAI to expand AI access, lower costs - Daily Bruin",
+          "titleZh": "加州大学与OpenAI签署协议，以拓展人工智能的访问权限并降低成本-Daily Bruin",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZFlkXzhsMUxhZ196WUNRNUo4TFNwSDhfTHBYYS1lZ3BodlkyeUFvRF9KbXhmT3QzQ1M0ckRoYUdWNUxRdWVQNEZrbERYUC1rY2JwT3lKZ1ZwOVo2RVhNTHVPaHd3RkJfUkJDS29sSExlZ01xLU5ZT05BY0dTM0UwUmJxS25lMndUZC00NnVTcmdjNkFOSkN3?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "UC signs deal with OpenAI to expand AI access, lower costs Daily Bruin",
+          "summaryZh": "加州大学与OpenAI签署协议，以拓展人工智能的访问权限并降低成本《每日熊报》",
+          "published": "2026-11-21T22:37:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "猜想：AI泡沫破灭和金融市场危机 - 华尔街见闻",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0zckl3TFFwaXpUM2FPdjM4UFczMmxWUTBmMkxYQ0VRWlRIZG0zdGh6NFV2M0t1VzBKY3c3QmswMUsxQ3h5Y3FmN1dlQ2E1S29qcUtr?oc=5",
+          "source": "Google 新闻中文",
+          "alsoOn": [],
+          "summary": "猜想：AI泡沫破灭和金融市场危机 华尔街见闻",
+          "summaryZh": "",
+          "published": "2026-11-22T06:37:56.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+          "titleZh": "Signal限制移动端截屏，以应对人工智能监控带来的“生存威胁”",
+          "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+          "summaryZh": "Signal 正在限制用户在其 Android 和 iOS 应用中截屏的能力。",
+          "published": "2026-11-21T21:37:10.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "A tale of two Nvidias",
+          "titleZh": "两个英伟达的故事",
+          "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+          "source": "TechCrunch AI",
+          "alsoOn": [],
+          "summary": "We got two very different pictures of Nvidia - the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+          "summaryZh": "我们看到了有关英伟达的两种截然不同的景象：该公司最新的财报，以及科技高管们大声疾呼黄仁勋回归。",
+          "published": "2026-11-21T21:07:42.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "eng",
+      "label": "🛠 工程与开源工具",
+      "items": [
+        {
+          "title": "Data Processing Incidents on Inference Providers",
+          "titleZh": "推理提供商的数据处理事件",
+          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-22T02:14:14.000Z",
+          "points": 110,
+          "discussion": "https://news.ycombinator.com/item?id=50595554"
+        },
+        {
+          "title": "The Mythology of Conscious AI",
+          "titleZh": "有意识人工智能的神话",
+          "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-22T02:10:02.000Z",
+          "points": 43,
+          "discussion": "https://news.ycombinator.com/item?id=50595537"
+        },
+        {
+          "title": "Pandex - Official European Law for AI Agents, over MCP",
+          "titleZh": "Pandex-针对 AI 代理的欧洲官方法律，通过 MCP",
+          "url": "https://www.pandex.io",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-21T20:47:41.000Z",
+          "points": 71,
+          "discussion": "https://news.ycombinator.com/item?id=50593481"
+        },
+        {
+          "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
+          "titleZh": "问HN：我已经失业2年了。有15年工作经验，在美国。该怎么办？",
+          "url": "https://news.ycombinator.com/item?id=50583761",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "I'm Senior software engineer in the US (DMV area), with 15y of experience. Worked for Fortune 50+ company and bunch of mid-size companies. Been unemployed for 2y and can't find a job, within those 2 years, I pretty much spent my savings that I've saved through years, maybe have 4-5 months left to support my household. Currently, I tutor math and probably about to start working as manager in pizzaria. In Jan 2025, I quit from a mid-size insurance tech company(1000+) after working there for almost 4y, because I was tipped off the they were about to start layoffs and they did. Well, since then I have zero luck finding any job in SWE. At this point, I have massive gap in my resume that I can't explain to recruiters, I can still code (C#/.NET/AWS) and learned the AI, but who cares if date of my last employment is Jan2025. What should I do ? If you have an alternative path (something completely different from SWE or SWE adjacent) that pays \"well\", I would like to hear.",
+          "summaryZh": "我是一名在美国（华盛顿特区、马里兰州和弗吉尼亚州地区）的高级软件工程师，拥有15年工作经验。曾在《财富》50强公司和多家中型公司工作过。我已经失业2年了，一直找不到工作。在这2年里，我基本上…",
+          "published": "2026-11-20T23:18:32.000Z",
+          "points": 677,
+          "discussion": "https://news.ycombinator.com/item?id=50583761"
+        },
+        {
+          "title": "ClawDOS - An AI coding agent for DOS",
+          "titleZh": "ClawDOS-用于DOS的AI编码代理",
+          "url": "http://ricapar.net/ClawDOS/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-21T05:38:01.000Z",
+          "points": 162,
+          "discussion": "https://news.ycombinator.com/item?id=50586292"
+        },
+        {
+          "title": "A few hours ago Google DeepMind created a math horizon repo",
+          "titleZh": "几小时前，Google DeepMind 创建了一个 Math Horizon 仓库",
+          "url": "https://github.com/google-deepmind/math-horizon",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-20T21:42:21.000Z",
+          "points": 46,
+          "discussion": "https://news.ycombinator.com/item?id=50582629"
+        }
+      ]
+    }
+  ],
+  "markdown": "# 📰 AI 日报 · 2026-11-22\n\n> 15 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 13 条已译\n\n## 🚀 模型与产品发布\n\n**1. Anthropic 数学家声称在 Claude 的帮助下解决了黎曼猜想-纽约时报**\n\nAnthropic Mathematician Claims to Solve Riemann Hypothesis With Help From Claude - The New York Times · Google News · 15 小时前 · [原文](<https://news.google.com/rss/articles/CBMijAFBVV95cUxQMU96R3pxbVo0NDIzSUl5Szd6T0VkZzRUY1F3RE9NUnRPWU1tbnBRZkVPOWNDclpHX3hUTXo1QndXdENHb2Q1cFU2WnVwLWp0eG00dDFWcTBNR042Y3NFdUdtZGY4ODZUSnRTMFZGUnNFNFYyRGdvaHJCdVNra2k0T2NTeDZnbTdHcE83WQ?oc=5>)\n\n_Anthropic 数学家声称在Claude的帮助下解决了黎曼猜想《纽约时报》_\n\n**2. Meta 广告现已在 AWS Quick 中上线-Amazon Web Services**\n\nMeta ads is now available in AWS Quick - Amazon Web Services · Google News · 6 小时前 · [原文](<https://news.google.com/rss/articles/CBMijgFBVV95cUxNRkFtaHMtN1FWSllFbWladFBrVjJkNkRoaTZKTzNraF9taVZPaUxQRXdNMm5ER3Ftb3U3Yy11WU1fT21HS0ZNSFJReGR4ZVdnSTRuS205bmFkcmtzWjF5VVR0T3ExdWZVU2dNSXRmSF9zTkVoV0hCVEptc0VyQnZKYjNBOWxjenhMdEJfdHVB?oc=5>)\n\n_Meta 广告现已在 AWS Quick Amazon Web Services 中上线_\n\n## 🔬 研究前沿\n\n**1. Anthropic研究AI如何忏悔，牧师：你们自己呢？ - 观察者网**\n\nGoogle 新闻中文 · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMigwFBVV95cUxPN2E5VmNGQloyMW5VMDJQa0VjMVpPVWtldlFzRU9vVldpRjdfdkh5dTdoZ2FVR2RZeE00LTFWSVlZVXBjUUxySXQ2RG5ybzlXUW9XZmkta0pHODBuc3RlTU4wNTNNUFVVSU9MOFJ1QVlURXZ0a1NtMTRiWVFHLTVUZHVBSQ?oc=5>)\n\n_Anthropic研究AI如何忏悔，牧师：你们自己呢？ 观察者网_\n\n## 🏢 公司与行业动向\n\n**1. Anthropic的IPO破发加剧了华尔街4万亿美元的人工智能市值蒸发**\n\nAnthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street · Hacker News · 34 小时前 · ▲66 · [原文](<https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90>)\n\n**2. Anthropic 股票在备受瞩目的IPO之后与市场其他股票一同下跌-《华盛顿观察家报》**\n\nAnthropic stock slides with rest of market after big-ticker IPO - Washington Examiner · Google News · 4 小时前 · [原文](<https://news.google.com/rss/articles/CBMiogFBVV95cUxNc0o1TFlNT1Y2ZDZDdFBTcHBjX3g3bFRxaDZLdTNvdFlTdTdKbG9fUFBkeUdpMXJJcWRhWkF5dlVraGZIZDlSd2lhWnlKZ09Uckp1ZDRRdllKNnBiR2dvZW9pOWQxd0UtUkVSeDV4Mkg2YjBkNE5TeksyNnpfWHBaVm1Ka0Nnc3RuNkFaQUd0OEo0MnRfRmVweDlZQW95YVYxRFE?oc=5>)\n\n_Anthropic 股票在大型上市公司IPO后与市场其他股票一同下跌《华盛顿观察家报》_\n\n**3. 加州大学与OpenAI签署协议，以拓展人工智能的访问权限并降低成本-Daily Bruin**\n\nUC signs deal with OpenAI to expand AI access, lower costs - Daily Bruin · Google News · 9 小时前 · [原文](<https://news.google.com/rss/articles/CBMilwFBVV95cUxPZFlkXzhsMUxhZ196WUNRNUo4TFNwSDhfTHBYYS1lZ3BodlkyeUFvRF9KbXhmT3QzQ1M0ckRoYUdWNUxRdWVQNEZrbERYUC1rY2JwT3lKZ1ZwOVo2RVhNTHVPaHd3RkJfUkJDS29sSExlZ01xLU5ZT05BY0dTM0UwUmJxS25lMndUZC00NnVTcmdjNkFOSkN3?oc=5>)\n\n_加州大学与OpenAI签署协议，以拓展人工智能的访问权限并降低成本《每日熊报》_\n\n**4. 猜想：AI泡沫破灭和金融市场危机 - 华尔街见闻**\n\nGoogle 新闻中文 · 1 小时前 · [原文](<https://news.google.com/rss/articles/CBMiU0FVX3lxTE0zckl3TFFwaXpUM2FPdjM4UFczMmxWUTBmMkxYQ0VRWlRIZG0zdGh6NFV2M0t1VzBKY3c3QmswMUsxQ3h5Y3FmN1dlQ2E1S29qcUtr?oc=5>)\n\n_猜想：AI泡沫破灭和金融市场危机 华尔街见闻_\n\n**5. Signal限制移动端截屏，以应对人工智能监控带来的“生存威胁”**\n\nSignal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance · TechCrunch AI · 10 小时前 · [原文](<https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/>)\n\n_Signal 正在限制用户在其 Android 和 iOS 应用中截屏的能力。_\n\n**6. 两个英伟达的故事**\n\nA tale of two Nvidias · TechCrunch AI · 11 小时前 · [原文](<https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/>)\n\n_我们看到了有关英伟达的两种截然不同的景象：该公司最新的财报，以及科技高管们大声疾呼黄仁勋回归。_\n\n## 🛠 工程与开源工具\n\n**1. 推理提供商的数据处理事件**\n\nData Processing Incidents on Inference Providers · Hacker News · 5 小时前 · ▲110 · [原文](<https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/>)\n\n**2. 有意识人工智能的神话**\n\nThe Mythology of Conscious AI · Hacker News · 5 小时前 · ▲43 · [原文](<https://www.noemamag.com/the-mythology-of-conscious-ai/>)\n\n**3. Pandex-针对 AI 代理的欧洲官方法律，通过 MCP**\n\nPandex - Official European Law for AI Agents, over MCP · Hacker News · 11 小时前 · ▲71 · [原文](<https://www.pandex.io>)\n\n**4. 问HN：我已经失业2年了。有15年工作经验，在美国。该怎么办？**\n\nAsk HN: I have been unemployed for 2y. 15 years of experience, US. What to do? · Hacker News · 32 小时前 · ▲677 · [原文](<https://news.ycombinator.com/item?id=50583761>)\n\n_我是一名在美国（华盛顿特区、马里兰州和弗吉尼亚州地区）的高级软件工程师，拥有15年工作经验。曾在《财富》50强公司和多家中型公司工作过。我已经失业2年了，一直找不到工作。在这2年里，我基本上…_\n\n**5. ClawDOS-用于DOS的AI编码代理**\n\nClawDOS - An AI coding agent for DOS · Hacker News · 26 小时前 · ▲162 · [原文](<http://ricapar.net/ClawDOS/>)\n\n**6. 几小时前，Google DeepMind 创建了一个 Math Horizon 仓库**\n\nA few hours ago Google DeepMind created a math horizon repo · Hacker News · 34 小时前 · ▲46 · [原文](<https://github.com/google-deepmind/math-horizon>)\n"
+}
