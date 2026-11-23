@@ -1,89 +1,133 @@
-# 📰 AI 日报 · 2026-11-22
+# 📰 AI 日报 · 2026-11-23
 
-> 15 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 13 条已译
+> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 17 条已译
 
 ## 🚀 模型与产品发布
 
-**1. Anthropic 数学家声称在 Claude 的帮助下解决了黎曼猜想-纽约时报**
+**1. Inkling、Qwen 和 Unsloth 本地 AI 新手指南**
 
-Anthropic Mathematician Claims to Solve Riemann Hypothesis With Help From Claude - The New York Times · Google News · 15 小时前 · [原文](<https://news.google.com/rss/articles/CBMijAFBVV95cUxQMU96R3pxbVo0NDIzSUl5Szd6T0VkZzRUY1F3RE9NUnRPWU1tbnBRZkVPOWNDclpHX3hUTXo1QndXdENHb2Q1cFU2WnVwLWp0eG00dDFWcTBNR042Y3NFdUdtZGY4ODZUSnRTMFZGUnNFNFYyRGdvaHJCdVNra2k0T2NTeDZnbTdHcE83WQ?oc=5>)
+A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth · Hacker News · 11 小时前 · ▲461 · [原文](<https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth>)
 
-_Anthropic 数学家声称在Claude的帮助下解决了黎曼猜想《纽约时报》_
+**2. 困惑度和智能**
 
-**2. Meta 广告现已在 AWS Quick 中上线-Amazon Web Services**
+Perplexity and Intelligence · OpenAI · 32 小时前 · [原文](<https://openai.com/index/perplexity-and-intelligence>)
 
-Meta ads is now available in AWS Quick - Amazon Web Services · Google News · 6 小时前 · [原文](<https://news.google.com/rss/articles/CBMijgFBVV95cUxNRkFtaHMtN1FWSllFbWladFBrVjJkNkRoaTZKTzNraF9taVZPaUxQRXdNMm5ER3Ftb3U3Yy11WU1fT21HS0ZNSFJReGR4ZVdnSTRuS205bmFkcmtzWjF5VVR0T3ExdWZVU2dNSXRmSF9zTkVoV0hCVEptc0VyQnZKYjNBOWxjenhMdEJfdHVB?oc=5>)
-
-_Meta 广告现已在 AWS Quick Amazon Web Services 中上线_
+_困惑度如何衡量人工智能模型的进步，以及它为什么能够帮助开发者建立一种评估新兴能力的通用方法。_
 
 ## 🔬 研究前沿
 
-**1. Anthropic研究AI如何忏悔，牧师：你们自己呢？ - 观察者网**
+**1. 第四届人工智能与马克思主义理论学科交叉研究学术研讨会举行 - 西南交通大学新闻网**
 
-Google 新闻中文 · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMigwFBVV95cUxPN2E5VmNGQloyMW5VMDJQa0VjMVpPVWtldlFzRU9vVldpRjdfdkh5dTdoZ2FVR2RZeE00LTFWSVlZVXBjUUxySXQ2RG5ybzlXUW9XZmkta0pHODBuc3RlTU4wNTNNUFVVSU9MOFJ1QVlURXZ0a1NtMTRiWVFHLTVUZHVBSQ?oc=5>)
+Google 新闻中文 · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZTzBnSGpQanhwTEQ2OUhoQUxZczFSbUkyV3NEVTVJY3NFVUwzTkNIVnB3SUZOQ2w0SDdwOWxvNzZ3cnFadm14c2hrNW1nUDVRYkloOWVsalhzQQ?oc=5>)
 
-_Anthropic研究AI如何忏悔，牧师：你们自己呢？ 观察者网_
+_第四届人工智能与马克思主义理论学科交叉研究学术研讨会举行 西南交通大学新闻网_
+
+**2. 再增加一个智能体：AI 团队规模和构成如何影响人类-AI 头脑风暴团队的生产力和多样性**
+
+Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.26663>)
+
+_生成式人工智能提高了个人生产力，但增加多个人工智能伙伴是有益还是有害，仍有待商榷。我们将人工智能伙伴关系（一个与两个）与行为形成（校准到平均水平）交叉分析，…_
+
+**3. 通过构建实现一致性：综合CTI知识图谱和一致性验证的正式限制**
+
+Coherence by Construction: Synthesizing CTI Knowledge Graphs and the Formal Limits of Coherence Validation · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.26717>)
+
+_将知识图谱等关系型训练数据与大型语言模型相结合，通常会一次性输出一个结构化对象，这可以确保每个对象都有效，但会遗漏它们之间的关系。…_
+
+**4. TOUMAII：一个包含 450 万对工具调用偏好的数据集及其源无关生成器**
+
+TOUMAII: A 4.5M-Pair Tool-Calling Preference Dataset and Its Source-Agnostic Generator · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.26722>)
+
+_为了自主执行多步任务，企业代理必须能够可靠地与工具交互、调用 API 或查询数据库，因此工具调用成为 AI 模型的一项基本能力。监督式微调（SFT）…_
+
+**5. ChatAtom：用于分子动力学模拟和可视化的多智能体大语言模型系统**
+
+ChatAtom: A Multi-Agent LLM System for Molecular Dynamics Simulation and Visualization · arXiv cs.AI · 3 小时前 · [原文](<https://arxiv.org/abs/2611.26782>)
+
+_分子动力学（MD）模拟可以解析原子尺度的运动，并预测材料的结构、力学和动力学性质，因此它是材料设计和发现的核心。然而，一项 MD 研究…_
 
 ## 🏢 公司与行业动向
 
-**1. Anthropic的IPO破发加剧了华尔街4万亿美元的人工智能市值蒸发**
+**1. Notable Capital、GIC 和 Baillie Gifford 如何在 Anthropic 上市前对其进行大手笔投资**
 
-Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street · Hacker News · 34 小时前 · ▲66 · [原文](<https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90>)
+How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO · TechCrunch AI · 7 小时前 · [原文](<https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/>)
 
-**2. Anthropic 股票在备受瞩目的IPO之后与市场其他股票一同下跌-《华盛顿观察家报》**
+_三位重要支持者分享了是什么让他们有信心在Anthropic上押注数十亿美元。_
 
-Anthropic stock slides with rest of market after big-ticker IPO - Washington Examiner · Google News · 4 小时前 · [原文](<https://news.google.com/rss/articles/CBMiogFBVV95cUxNc0o1TFlNT1Y2ZDZDdFBTcHBjX3g3bFRxaDZLdTNvdFlTdTdKbG9fUFBkeUdpMXJJcWRhWkF5dlVraGZIZDlSd2lhWnlKZ09Uckp1ZDRRdllKNnBiR2dvZW9pOWQxd0UtUkVSeDV4Mkg2YjBkNE5TeksyNnpfWHBaVm1Ka0Nnc3RuNkFaQUd0OEo0MnRfRmVweDlZQW95YVYxRFE?oc=5>)
+**2. 担心英伟达？不妨买入这只优秀的人工智能（AI）股票-雅虎财经**
 
-_Anthropic 股票在大型上市公司IPO后与市场其他股票一同下跌《华盛顿观察家报》_
+Worried About Nvidia? Buy This Fantastic Artificial Intelligence (AI) Stock Instead - Yahoo Finance · Google News · 5 小时前 · [原文](<https://news.google.com/rss/articles/CBMipgFBVV95cUxOQ2JmN2d4WURiRV94UkdZSjItSlNrOG9UOWNiZVdmNW5tSXpZUEZGR2hNdk1wdmNLTnhJWWc2am8tVUxLV1VtZzdQMDdyMU5jQ29kSk5PYjVJQzMyQ01lcXZWbGZvd3dhZkhXS2t3cV9URTNiUmstUGg4Q1pvcVRMZ1JXN2poSFlsWUtUeVpTOExhZnk1RDctT3ZXNk5aYmEzWDg3UE13?oc=5>)
 
-**3. 加州大学与OpenAI签署协议，以拓展人工智能的访问权限并降低成本-Daily Bruin**
+_担心英伟达？不妨买入这只出色的<em>人工智能（AI）</em>股票 Yahoo财经_
 
-UC signs deal with OpenAI to expand AI access, lower costs - Daily Bruin · Google News · 9 小时前 · [原文](<https://news.google.com/rss/articles/CBMilwFBVV95cUxPZFlkXzhsMUxhZ196WUNRNUo4TFNwSDhfTHBYYS1lZ3BodlkyeUFvRF9KbXhmT3QzQ1M0ckRoYUdWNUxRdWVQNEZrbERYUC1rY2JwT3lKZ1ZwOVo2RVhNTHVPaHd3RkJfUkJDS29sSExlZ01xLU5ZT05BY0dTM0UwUmJxS25lMndUZC00NnVTcmdjNkFOSkN3?oc=5>)
+**3. 海外观察 | 公关行业的人工智能伦理：知行之间的落差，正在损害声誉 - 手机新浪网**
 
-_加州大学与OpenAI签署协议，以拓展人工智能的访问权限并降低成本《每日熊报》_
+Google 新闻中文 · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMickFVX3lxTE9KeUhLa0tXd0RpUktOOGpYc0swaUxFWFFQTGMxNVB5VDFNUHk4ZnUteC1lOVRSY2NYZWszdmlBaDZ1RWlybTREX1pqeTl6aktnSmhEdVBkNkM0UlEtcGtKS0Y5dDhWNGdLVzV4QXRDZmxUUQ?oc=5>)
 
-**4. 猜想：AI泡沫破灭和金融市场危机 - 华尔街见闻**
+_海外观察 | 公关行业的人工智能伦理：知行之间的落差，正在损害声誉 手机新浪网_
 
-Google 新闻中文 · 1 小时前 · [原文](<https://news.google.com/rss/articles/CBMiU0FVX3lxTE0zckl3TFFwaXpUM2FPdjM4UFczMmxWUTBmMkxYQ0VRWlRIZG0zdGh6NFV2M0t1VzBKY3c3QmswMUsxQ3h5Y3FmN1dlQ2E1S29qcUtr?oc=5>)
+**4. 数智教育发展国际大学联盟国际论坛“从人工智能到智能增强”在新加坡举行 - 北京大学新闻网**
 
-_猜想：AI泡沫破灭和金融市场危机 华尔街见闻_
+Google 新闻中文 · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMiWEFVX3lxTE5TemcyMGEtR255eEo0T1lIYzVUQ1RhNkdEZTFiSVRmclBLTlhCRUpmQThhSEl0VFk5MC1pR2phaXNINU9ETDlJbk4tY0VNZkluRzhOWHAza2Q?oc=5>)
 
-**5. Signal限制移动端截屏，以应对人工智能监控带来的“生存威胁”**
+_数智教育发展国际大学联盟国际论坛“从人工智能到智能增强”在新加坡举行 北京大学新闻网_
 
-Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance · TechCrunch AI · 10 小时前 · [原文](<https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/>)
+**5. 第二期南京市人工智能OPC菁英训练营开班 - 南京广播电视台**
 
-_Signal 正在限制用户在其 Android 和 iOS 应用中截屏的能力。_
+Google 新闻中文 · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMiZkFVX3lxTE5mYnZrUThxWVQtcUY2VVkyMUVEZ3QyY3F3emJ5blZnSk1KVzlLRGpCbU1aQnNReVp3aGVyN3ppNjBSazBranowQjlUbnNURTd0WmJSbWxoWl9VZzRHb1VkTHp0ZkpNQQ?oc=5>)
 
-**6. 两个英伟达的故事**
+_第二期南京市人工智能OPC菁英训练营开班 南京广播电视台_
 
-A tale of two Nvidias · TechCrunch AI · 11 小时前 · [原文](<https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/>)
+**6. 2026（第二届）“人工智能+”产业生态大会即将举办 - 新华网**
 
-_我们看到了有关英伟达的两种截然不同的景象：该公司最新的财报，以及科技高管们大声疾呼黄仁勋回归。_
+Google 新闻中文 · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMifEFVX3lxTE1iNldXMHFFM3JTNDAwRjhVQ1FnNHQxYnM0NXZodjNqWVQ5b2ZicXRLNFl3Z2tRZzQ0LVVkUzVFWUM3T05INXh0a25sNF9qYXB0V042U2hQUkRHSU5paV9ZNy13UDQ3QzRCNkJrNkhPbFJ4TkE0ckxkYTF3djU?oc=5>)
+
+_2026（第二届）“人工智能+”产业生态大会即将举办 新华网_
 
 ## 🛠 工程与开源工具
 
-**1. 推理提供商的数据处理事件**
+**1. 试图解决 P 对比 NP 问题的代理集群**
 
-Data Processing Incidents on Inference Providers · Hacker News · 5 小时前 · ▲110 · [原文](<https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/>)
+Agent swarm trying to solve P vs. NP · Hacker News · 11 小时前 · ▲144 · [原文](<https://pequalnp.com/>)
 
-**2. 有意识人工智能的神话**
+**2. Show HN：我开发了一款游戏，在游戏中您是LLM的子代理**
 
-The Mythology of Conscious AI · Hacker News · 5 小时前 · ▲43 · [原文](<https://www.noemamag.com/the-mythology-of-conscious-ai/>)
+Show HN: I built a game where you are an LLM's subagent · Hacker News · 18 小时前 · ▲312 · [原文](<https://github.com/gulivan/worker755>)
 
-**3. Pandex-针对 AI 代理的欧洲官方法律，通过 MCP**
+**3. 0rwx-一种简单的人工智能使用模型，灵感源自 Unix 权限**
 
-Pandex - Official European Law for AI Agents, over MCP · Hacker News · 11 小时前 · ▲71 · [原文](<https://www.pandex.io>)
+0rwx - A simple model of AI usage, inspired by Unix permissions · Hacker News · 9 小时前 · ▲47 · [原文](<https://0rwx.com/>)
 
-**4. 问HN：我已经失业2年了。有15年工作经验，在美国。该怎么办？**
+**4. 人工智能正成为气候的灾难**
 
-Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do? · Hacker News · 32 小时前 · ▲677 · [原文](<https://news.ycombinator.com/item?id=50583761>)
+AI is becoming a disaster for the climate · Hacker News · 20 小时前 · ▲122 · [原文](<https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the>)
 
-_我是一名在美国（华盛顿特区、马里兰州和弗吉尼亚州地区）的高级软件工程师，拥有15年工作经验。曾在《财富》50强公司和多家中型公司工作过。我已经失业2年了，一直找不到工作。在这2年里，我基本上…_
+**5. 哈佛大学 CS 2881R 人工智能安全**
 
-**5. ClawDOS-用于DOS的AI编码代理**
+Harvard CS 2881R AI Safety · Hacker News · 14 小时前 · ▲66 · [原文](<https://boazbk.github.io/mltheoryseminar/>)
 
-ClawDOS - An AI coding agent for DOS · Hacker News · 26 小时前 · ▲162 · [原文](<http://ricapar.net/ClawDOS/>)
+**6. 问HN：从事手艺活是否是一种安全的职业转型？**
 
-**6. 几小时前，Google DeepMind 创建了一个 Math Horizon 仓库**
+Ask HN: Are the trades a safe career transition? · Hacker News · 17 小时前 · ▲42 · [原文](<https://news.ycombinator.com/item?id=50600771>)
 
-A few hours ago Google DeepMind created a math horizon repo · Hacker News · 34 小时前 · ▲46 · [原文](<https://github.com/google-deepmind/math-horizon>)
+_我是一名软件工程师。有工程学位，但不是注册专业工程师。我正在考虑跳槽，因为我觉得这份工作没有太大的前途。人工智能让我有点沮丧，我需要至少有几十年相对稳定的保障才能………_
+
+## 💭 观点与深度
+
+**1. OpenAI的首席科学家对如何限制人工智能的发展有一些想法**
+
+OpenAI’s chief scientist has thoughts on how to limit AI development · TechCrunch AI · 11 小时前 · [原文](<https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/>)
+
+_要对人工智能的发展设定速度限制，您需要就如何衡量速度达成一致。_
+
+**2. 为什么数据中心成为科技巨头遭遇强烈反弹的核心所在**
+
+Why data centers are at the center of the Big Tech backlash · TechCrunch AI · 14 小时前 · [原文](<https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/>)
+
+_记者Paris Marx解读他的新书《超大规模》。_
+
+**3. 人工智能如何让阻止网络攻击变得更加困难-福布斯**
+
+How Artificial Intelligence Is Making It Harder To Stop Cyberattacks - Forbes · Google News · 6 小时前 · [原文](<https://news.google.com/rss/articles/CBMiywFBVV95cUxOb0pTZXpTNGdMSWdXcExGejc0TVZhTm53ZHpSZFpJSTlFNTdhVGE4TWpMVUdBcHFWQzZzY2FLSDAyWkVDTjdNaFkzY3QyUXc1bjRJdXppc2NOTWVxU1dDbklOZHhaWThxbFpUbC1hY2ZJNGdXZ01JR1RycXpKYnU4RnlMV1NMZXZPRnNIQTZfZHBhenZtWDZ2X1RSeWlGWi1WMlh4d3RmZFdMN21PZmU2ZV9xSUdWWkEzbjZwYU8zXzIzUU01NjVYaTRETQ?oc=5>)
+
+_人工智能如何使阻止网络攻击变得更加困难《福布斯》_
