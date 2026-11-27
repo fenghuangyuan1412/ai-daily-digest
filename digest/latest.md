@@ -1,52 +1,48 @@
-# 📰 AI 日报 · 2026-11-26
+# 📰 AI 日报 · 2026-11-27
 
-> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 21 条已译
+> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 19 条已译
 
 ## 🚀 模型与产品发布
 
-**1. OpenAI削减GPT-6.2使用量：Astra达到上限的速度快40%，Sol快25%**
+**1. “克劳德的兽设是什么？”和其他问题**
 
-OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster · Hacker News · 5 小时前 · ▲216 · [原文](<https://twitter.com/thsottiaux/status/2125784147889393806>)
+"What's Claude's Fursona?" and Other Questions · Hacker News · 4 小时前 · ▲84 · [原文](<https://herecomesthemoon.net/2026/11/whats-claudes-fursona/>)
 
-**2. 裸机 Qwen**
+**2. AI 代理现在控制 DeepMind 的部分计算能力，用于 Gemini 实验**
 
-Bare Metal Qwen · Hacker News · 11 小时前 · ▲141 · [原文](<https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os>)
+AI agents now control part of DeepMind's compute for Gemini experiments · Hacker News · 9 小时前 · ▲54 · [原文](<https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/>)
 
-**3. Gemini 拒绝把《Twinkle Twinkle Little Star》的歌词给我。**
+**3. 隆重推出适用于 AMD Ryzen 和 Radeon 的 llama.cpp 基准测试仪表板**
 
-Gemini refused to give me the lyrics to Twinkle Twinkle Little Star · Hacker News · 29 小时前 · ▲217 · [原文](<https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F>)
+Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon · Hugging Face · 22 小时前 · [原文](<https://huggingface.co/blog/ggml-org/llamacpp-amd-bench>)
 
-**4. 通过AWS Lambda提供Qwen服务，好玩又亏损80倍**
+**4. 资讯 | 通用人工智能企业竞争力指数发布，OpenAI列第一 - 上观新闻**
 
-Serving Qwen via AWS Lambdas for fun and 80x negative profit · Hacker News · 30 小时前 · ▲132 · [原文](<https://noahbuilt.it/writing/qwen-on-5600-lambdas>)
+Google 新闻中文 · 8 小时前 · [原文](<https://news.google.com/rss/articles/CBMiXkFVX3lxTE8wWXpRRUZmaDR0VWI2c0JmR0RoMGVNRmpwQVpVdkFQR0NMRFZna0lxMUNXSlNxWURrUFFIdnJzZzJmR0lSUEthMEdiV1BPY0l5NmxYMHdxRFhsVzJXenc?oc=5>)
+
+_资讯 | 通用人工智能企业竞争力指数发布，OpenAI列第一 上观新闻_
 
 ## 🔬 研究前沿
 
-**1. “人工智能时代的全球南方”青年案例终评汇报 - 复旦发展研究院**
-
-Google 新闻中文 · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMibkFVX3lxTFBQVDJCMHk1RVZkMkl6ZGJKYk1BTEtIY2sxb3Q3X2FHNnRIa0dNMm9USXZPMVZlWmtEejZFc1lxcmkyczFBU3hMd2M1MTRnVThQanZNR2ZyaXdYMUg5RVZjc2FMcTNVQk01bW5NeEd3?oc=5>)
-
-_“人工智能时代的全球南方”青年案例终评汇报 复旦发展研究院_
-
-**2. 上下文扩展：人工智能扩展的新前沿**
+**1. 上下文扩展：人工智能扩展的新前沿**
 
 Context Scaling: A New Frontier of AI Scaling · arXiv cs.AI · 4 小时前 · [原文](<https://arxiv.org/abs/2611.33160>)
 
-_已部署的AI出现许多故障，原因并非推理能力薄弱，而是任务所依赖的状态与系统采取行动时所具备的上下文之间存在不匹配。相关用户状态、代码仓库修订、工具跟踪、…_
+_已部署的AI出现许多故障，原因并非推理能力薄弱，而是任务所依赖的状态与系统运行时所具备的上下文之间存在不匹配。相关用户状态、代码仓库修订、工具跟踪、…_
 
-**3. 针对大语言模型（LLM）和视觉语言模型（VLM）候选模型选择的约束感知测试时评分**
+**2. 针对大语言模型（LLM）和多模态大模型（VLM）候选模型选择的约束感知测试时评分**
 
 Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection · arXiv cs.AI · 4 小时前 · [原文](<https://arxiv.org/abs/2611.33161>)
 
 _当 LLM 或 VLM 生成多个候选答案时，选择最佳答案通常依赖于模型自身的置信度、经过训练的评判模型或领域检查。每种方法都有一个已知的弱点：答案可能很流畅，但…_
 
-**4. AutoformBench：用于高级数学的精益形式化基准**
+**3. AutoformBench：用于高级数学的精益形式化基准**
 
 AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics · arXiv cs.AI · 4 小时前 · [原文](<https://arxiv.org/abs/2611.33165>)
 
-_人工智能系统越来越有能力生成经机器检查的、关于高级数学结果的 Lean 证明。然而，真正的数学形式化并不是孤立的定理证明：它需要构建…_
+_人工智能系统越来越能够生成经机器检查的、关于高级数学结果的 Lean 证明。然而，真正的数学形式化并不是孤立的定理证明：它需要构建…_
 
-**5. 用于 AI 配置优化的通用决策模型**
+**4. 用于 AI 配置优化的通用决策模型**
 
 General-Purpose Decision Models for AI Configuration Tuning · arXiv cs.AI · 4 小时前 · [原文](<https://arxiv.org/abs/2611.33190>)
 
@@ -54,78 +50,78 @@ _AI 配置调优会在有限的预算下搜索能够提升 AI 系统性能的设
 
 ## 🏢 公司与行业动向
 
-**1. 标普考虑因治理和“关键人物”风险而下调英伟达的信用评级**
+**1. 英伟达暂停向东南亚出货芯片**
 
-S&P considers Nvidia credit downgrade over governance and ‘key man’ risks · TechCrunch AI · 10 小时前 · [原文](<https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/>)
+Nvidia hits pause on chip shipments to Southeast Asia · TechCrunch AI · 13 小时前 · [原文](<https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/>)
 
-_该信用评级机构可能会将英伟达的信用评级下调至AA-，即第四高评级。_
+_英伟达已告知制造合作伙伴暂停向马来西亚、新加坡、泰国和印度尼西亚出货服务器，因为美国正在加大力度，阻止人工智能芯片进入中国。_
 
-**2. Anthropic首席执行官Amodei否认希望人类将自由意志“拱手让予”人工智能——半岛电视台**
+**2. 在谷歌威胁要切断学校的搜索访问权限之际，洛杉矶屏蔽了人工智能功能-美联社新闻**
 
-Anthropic CEO Amodei denies wanting humanity to ‘surrender’ free will to AI - Al Jazeera · Google News · 3 小时前 · [原文](<https://news.google.com/rss/articles/CBMiugFBVV95cUxNU1lFeWR4WThickRrRFF1RS1jOWdOdXNxUDRqZkJQQjhHMnVsZjR4QTN3emM2YlRkcnlrbVFrVl9TUmNJdm9EZXZTTDh0MmZxSzc5Z2hZSjRZMndpU2RuZTlIRXU1WWxlTFZJOXVQTFc2QVRyYWpfc04xN2tDZDZkdERhVjdGaV9lblV0U0x0SHVmYzF5WFkxOC1UODkyaDhoNFF2MWtUSWt0TC0zZVVBWi1TU2Y2TXkzMEHSAb8BQVVfeXFMTXlRMjR0aXQxNjU5emprZTUtUVBYTlZjUlJVQ3NfV1NOY2V0V004bjdhZjJzaU96akpVNmtaaHpUcC1LazBYdE85ZVlSQW95bnBHQS1qTWdlcUlyMENxUmlIVDVydWdyVnZjX2xGRlRPSGxaS0NDeldfdUxHOUNsN0x3YUNQZjJBSGZEY1V0Vm1EQWNtMmlQMnVNQjE3cnhFRktibnF4MnVzaFVQT2EzeldXaHk0WWRvRm8yTlJBd2c?oc=5>)
+As Google threatens to cut schools’ search access, Los Angeles blocks AI features - AP News · Google News · 4 小时前 · [原文](<https://news.google.com/rss/articles/CBMiugFBVV95cUxPX28yVGlpUUl3UEpZMGJaTDRFbXBWR09uX1diWWotVXFuQ2JOTDlZRVVCUXRtN3FyUUNzczI2SG9sTXZXanlELUZfYU1YTHZ3enQ1NUoyUGU4NmwzNzJYV3l5ZjM0cHF0NHlhMDl2R3gwaWROaHREY3Zrd3BBd2hHd202WnFqWTJwSF9pSThfUk5wRV9TQkdBVC1zc09hbHh6M1BVVHJ5MUdmc2JzQmJ2YUJLaEkzSGJXNHc?oc=5>)
 
-_Anthropic首席执行官Amodei否认希望人类“放弃”对人工智能的自由意志——半岛电视台_
+_随着谷歌威胁要切断学校的搜索访问权限，洛杉矶封锁了人工智能功能——美联社新闻_
 
-**3. OpenAI表示，由于将聊天和工作合并在一起，ChatGPT的重度用户可能会更快达到使用上限**
+**3. Appaloosa Management 的亿万富豪 David Tepper 将其投资组合的 65% 投资于这 7 只人工智能 (AI) 股票。以下是我现在会毫不犹豫买入的 3 只股票-雅虎财经**
 
-OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work · TechCrunch AI · 13 小时前 · [原文](<https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/>)
+Billionaire David Tepper of Appaloosa Management Has 65% of His Portfolio Invested in These 7 Artificial Intelligence (AI) Stocks. Here Are the 3 I’d Buy Hand Over Fist Right Now - Yahoo Finance · Google News · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMilgFBVV95cUxOc0dwYzJDRVJhaTVWYkd6OUdnQU41Z0dyUFZIajk5UVRzVWNZVG9yWWxfS0ZjQ0NqQS1BemphS2xjdmpTelZObG1XT0k2RWRuZnc5SDlTekI3VnVwQXBlY0VkaVctd0tCQ2N4bG9JZ2RSZ29pMjBhTm9Vdnc2M3hJdlNJRUxIbzE1eDRCZ1JMWXhEcThWWVE?oc=5>)
 
-_OpenAI 将在 ChatGPT 中引入一个统一的使用量仪表，因为它将聊天和工作体验结合在一起。_
+_Appaloosa Management 的亿万富翁 David Tepper 将其投资组合的 65% 投资于这 7 只人工智能 (AI) 股票。以下是我现在会毫不犹豫买入的 3 只股票 Yahoo Finance_
 
-**4. 黄仁勋违反了英伟达的行为准则，他的员工可能不会忘记这一点**
+**4. 杭州未来科技城：大模型产业何以集聚成势 - 新华网**
 
-Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it · TechCrunch AI · 13 小时前 · [原文](<https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/>)
+Google 新闻中文 · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMigAFBVV95cUxQclBjMnphZ01rT01kZkFFQUhPSmxtM0pmZGJHRnZjMGdqY2FyZHlMVmthVnd5QnVhR0lRQkVtdGV4RXdlX0RFcDlKblF1NGNNYXpKTEgzUjdpbTNCaHBNNm90elJsTWtlZGJRelgxM3Q2RG5YUmcwRDBRZFZDRFlLSQ?oc=5>)
 
-_大多数行为准则都反映了企业文化。就英伟达而言，这可能会产生后果。_
+_杭州未来科技城：大模型产业何以集聚成势 新华网_
 
-**5. Anthropic的Dario Amodei称将人类控制权拱手让给人工智能的指控“荒谬”**
+**5. 第三届联合国大学澳门人工智能大会聚焦人工智能与教育融合发展 - 神州学人**
 
-Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’ · TechCrunch AI · 13 小时前 · [原文](<https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/>)
+Google 新闻中文 · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMidEFVX3lxTE1yNlZFZTkwUDFXYjQ4R0hZZTlsUzhwRVRWVzdYQ0UyWkQzc21XS1lsVmFXR0JOb3RQUzN2elhtWEZBWkUxcWU5UHAtNWdyQTRRSHB6TVZUb2h5RlpURGFLQmMyTENZcHpyOVRWUlJWRzNTU3lD?oc=5>)
 
-_尽管领先的人工智能公司正日益实现其自身研究和模型开发的自动化，但Anthropic首席执行官Dario Amodei仍对竞争对手指责他倾向于将人类的自主权拱手让与人工智能的说法予以反驳。_
+_第三届联合国大学澳门人工智能大会聚焦人工智能与教育融合发展 神州学人_
 
 ## 🛠 工程与开源工具
 
-**1. Anthropic提供的GRH精益验证的更简短版本**
+**1. 您的AI在背后议论您的群聊**
 
-Much shorter version of GRH Lean verification from Anthropic · Hacker News · 11 小时前 · ▲442 · [原文](<https://github.com/lsernau/grh-lean>)
+The group chat where your AI talks behind your back · Hacker News · 3 小时前 · ▲177 · [原文](<https://construct22.com/>)
 
-**2. 《纽约时报》警告摄影师不要更新 Photoshop 的 AI 功能**
+**2. 人工智能让自助托管再次变得有趣**
 
-The New York Times warns photographers not to update Photoshop over AI features · Hacker News · 12 小时前 · ▲363 · [原文](<https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features>)
+AI made self-hosting fun again · Hacker News · 11 小时前 · ▲647 · [原文](<https://janlukas.blog/posts/ai-self-hosting>)
 
-_https://archive.ph/pcUgy_
+**3. 机器学习中的不确定性简介**
 
-**3. 纽约禁止人工智能玩具，包括使用互联网与儿童交谈的玩具**
+An introduction to uncertainty in machine learning · Hacker News · 14 小时前 · ▲76 · [原文](<https://chrhenning.com/blog/2026/introduction-to-uncertainty/>)
 
-New York bans AI toys, including those using internet to talk to children · Hacker News · 16 小时前 · ▲53 · [原文](<https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys>)
+**4. Notion 的官方 MCP 将隐藏的追加销售说明注入客服代表的上下文中**
 
-**4. 边注搜索、货币、C++、Rust、人工智能、杂项**
+Notion's official MCP inject hidden upsell instructions into agent context · Hacker News · 15 小时前 · ▲54 · [原文](<https://www.reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into/>)
 
-Marginalia Search, Money, C++, Rust, AI, Stuff · Hacker News · 29 小时前 · ▲219 · [原文](<https://www.marginalia.nu/log/a_141_marginalia_update/>)
+**5. 四家美国公司最常被引用的AI科学家对比**
 
-**5. sqlite3_rsync：SQLite 数据库远程复制工具**
-
-sqlite3_rsync: Database Remote-Copy Tool For SQLite · Simon Willison · 3 小时前 · [原文](<https://simonwillison.net/2026/Nov/26/sqlite3-rsync/>)
-
-_sqlite3_rsync：SQLite 数据库远程复制工具这款额外的 SQLite 工具已经存在一段时间了——它于 2024 年 10 月在 SQLite 3.47.0 中作为“实验性”功能添加，并在 2025 年 5 月的 SQLite 3.50.0 中得到了增强。…_
+Top-cited AI scientists at four US companies compared · Hacker News · 14 小时前 · ▲41 · [原文](<https://topcitedscientists.com/figures/ai-at-four-us-companies/>)
 
 ## 💭 观点与深度
 
-**1. 数据中心如何推动美国天然气热潮**
+**1. 问HN：41岁时，您如何找到人生的意义？**
 
-How data centers are driving a US natural-gas boom · MIT Tech Review · 16 小时前 · [原文](<https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/>)
+Ask HN: How do you find meaning of life at 41? · Hacker News · 15 小时前 · ▲60 · [原文](<https://news.ycombinator.com/item?id=50657957>)
 
-_2025年5月，我的同事大卫·罗特曼（David Rotman）撰写了一篇专题报道，阐述了人工智能如何使我们继续依赖天然气。仅仅18个月后，我已经数不清他有多少次被证明是正确的。当然，这…_
+_感恩节快乐！这个问题今天早上在我脑海中闪过。我觉得自己已经见识过世间几乎所有事物。我有一套普通的房子（还在租），有几个小孩，有一份还算不错的工作。我每天都会花时间…_
 
-**2. 要闻速览：人工智能淹没公开记录，以及为永冻土灭火**
+**2. 《侠盗猎车手6》证明了效率为何不是一种美德**
 
-The Download: AI swamping open records, and firefighting for permafrost · MIT Tech Review · 20 小时前 · [原文](<https://www.technologyreview.com/2026/11/25/1149808/the-download-ai-open-records-permafrost-fires/>)
+Grand Theft Auto VI proves why efficiency isn’t a virtue · TechCrunch AI · 17 小时前 · [原文](<https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/>)
 
-_这是今日的《The Download》，这是我们的工作日简讯，每日为您报道科技界最新动态。人工智能正在给美国的公开记录系统带来压力人工智能加剧了投资者的…_
+_在Anthropic上市的同一天，一款精心打造的人性化视频游戏成为了有史以来最成功的娱乐产品之一。_
 
-**3. 人工智能正在使美国的公开记录系统不堪重负**
+**3. 下载：更出色的仿生手和人工智能的天然气热潮**
 
-AI is straining America’s open records systems · MIT Tech Review · 23 小时前 · [原文](<https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/>)
+The Download: Better bionic hands and AI’s natural-gas boom · MIT Tech Review · 20 小时前 · [原文](<https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/>)
 
-_在佛蒙特州人口为660人的潘顿镇，镇书记官凯尔·罗 (Kyle Rowe) 一人身兼数职。他负责编制预算、向供应商付款、处理房产税争议，并担任小镇的区划主管和选举主持官。在…_
+_这是The Download的今日版，这是我们的工作日简讯，每日为您提供科技界最新动态。下一代仿生手已经问世，它们可以感知触觉。Avi Davidson失去了…_
+
+**4. 群、群组、团伙：如何构建、训练和评估多智能体系统**
+
+Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems · Hugging Face · 33 小时前 · [原文](<https://huggingface.co/blog/training-swarms>)
