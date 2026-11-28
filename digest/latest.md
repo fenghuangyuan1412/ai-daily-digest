@@ -1,127 +1,97 @@
-# 📰 AI 日报 · 2026-11-27
+# 📰 AI 日报 · 2026-11-28
 
-> 22 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 19 条已译
+> 16 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 12 条已译
 
 ## 🚀 模型与产品发布
 
-**1. “克劳德的兽设是什么？”和其他问题**
+**1. 将 Trainium3 带上正轨：使用 LTX-2.5 生成视频**
 
-"What's Claude's Fursona?" and Other Questions · Hacker News · 4 小时前 · ▲84 · [原文](<https://herecomesthemoon.net/2026/11/whats-claudes-fursona/>)
-
-**2. AI 代理现在控制 DeepMind 的部分计算能力，用于 Gemini 实验**
-
-AI agents now control part of DeepMind's compute for Gemini experiments · Hacker News · 9 小时前 · ▲54 · [原文](<https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/>)
-
-**3. 隆重推出适用于 AMD Ryzen 和 Radeon 的 llama.cpp 基准测试仪表板**
-
-Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon · Hugging Face · 22 小时前 · [原文](<https://huggingface.co/blog/ggml-org/llamacpp-amd-bench>)
-
-**4. 资讯 | 通用人工智能企业竞争力指数发布，OpenAI列第一 - 上观新闻**
-
-Google 新闻中文 · 8 小时前 · [原文](<https://news.google.com/rss/articles/CBMiXkFVX3lxTE8wWXpRRUZmaDR0VWI2c0JmR0RoMGVNRmpwQVpVdkFQR0NMRFZna0lxMUNXSlNxWURrUFFIdnJzZzJmR0lSUEthMEdiV1BPY0l5NmxYMHdxRFhsVzJXenc?oc=5>)
-
-_资讯 | 通用人工智能企业竞争力指数发布，OpenAI列第一 上观新闻_
+Taking Trainium3 to the Track: Generating Videos with LTX-2.5 · Hugging Face · 33 小时前 · [原文](<https://huggingface.co/blog/video-trainium3>)
 
 ## 🔬 研究前沿
 
-**1. 上下文扩展：人工智能扩展的新前沿**
+**1. 德尔菲研究揭示人工智能如何重塑人类基础能力-Bioengineer.org**
 
-Context Scaling: A New Frontier of AI Scaling · arXiv cs.AI · 4 小时前 · [原文](<https://arxiv.org/abs/2611.33160>)
+Delphi Study Reveals How Artificial Intelligence Reshapes Foundational Human Competencies - Bioengineer.org · Google News · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMitAFBVV95cUxPV2h4OHU4WktjV05EWFd3dnRWc0hjLUdtelhOSWlhVE1qUnZHOXRodjlkallKaEt6d1FaaHh6bEZzOV9Ec3ZzQU41cmRybU1sb1lzQlRGbW1Ub0xncGhDRVNmRHNKVTNNZHEtMFlRMVhQTDRBYVAtSUxlX3pDR3RaS2FnSDJnYVVLOUhRME0yM2pTeUxDUnAyRjFlM1lNRG1Yd1ZNZUxKbkR2ZUpHeGdVTVdNejA?oc=5>)
 
-_已部署的AI出现许多故障，原因并非推理能力薄弱，而是任务所依赖的状态与系统运行时所具备的上下文之间存在不匹配。相关用户状态、代码仓库修订、工具跟踪、…_
+_德尔菲研究揭示人工智能如何重塑人类基础能力Bioengineer.org_
 
-**2. 针对大语言模型（LLM）和多模态大模型（VLM）候选模型选择的约束感知测试时评分**
+**2. 人工智能研究院党支部召开党员大会 - 北京大学新闻网**
 
-Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection · arXiv cs.AI · 4 小时前 · [原文](<https://arxiv.org/abs/2611.33161>)
+Google 新闻中文 · 6 小时前 · [原文](<https://news.google.com/rss/articles/CBMiWEFVX3lxTE9BVGJMMXB1TmhSdlE3NlZfUTl1c1lzY29UX1Z2YnJXaGV0b3hRRjg5S1V6R1Mxd3QwdFU5OExvZGREeWlxYzdoc2NGdVZLOEkyQnZWdzNoaVY?oc=5>)
 
-_当 LLM 或 VLM 生成多个候选答案时，选择最佳答案通常依赖于模型自身的置信度、经过训练的评判模型或领域检查。每种方法都有一个已知的弱点：答案可能很流畅，但…_
-
-**3. AutoformBench：用于高级数学的精益形式化基准**
-
-AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics · arXiv cs.AI · 4 小时前 · [原文](<https://arxiv.org/abs/2611.33165>)
-
-_人工智能系统越来越能够生成经机器检查的、关于高级数学结果的 Lean 证明。然而，真正的数学形式化并不是孤立的定理证明：它需要构建…_
-
-**4. 用于 AI 配置优化的通用决策模型**
-
-General-Purpose Decision Models for AI Configuration Tuning · arXiv cs.AI · 4 小时前 · [原文](<https://arxiv.org/abs/2611.33190>)
-
-_AI 配置调优会在有限的预算下搜索能够提升 AI 系统性能的设置。现有的调优器使用不同的采样和搜索策略，因此决策策略的选择至关重要…_
+_人工智能研究院党支部召开党员大会 北京大学新闻网_
 
 ## 🏢 公司与行业动向
 
-**1. 英伟达暂停向东南亚出货芯片**
+**1. Show HN：bouncemarket——一款关于弹跳球的实时预测市场游戏**
 
-Nvidia hits pause on chip shipments to Southeast Asia · TechCrunch AI · 13 小时前 · [原文](<https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/>)
+Show HN: bouncemarket - a live prediction market game for a bouncing ball · Hacker News · 18 小时前 · ▲369 · [原文](<https://bouncemarket.minhanhday.com/>)
 
-_英伟达已告知制造合作伙伴暂停向马来西亚、新加坡、泰国和印度尼西亚出货服务器，因为美国正在加大力度，阻止人工智能芯片进入中国。_
+_一个球将落下。对它落下的位置进行交易。这款游戏是我做的！一些技术细节：整个落球过程在服务器端进行模拟，然后以服务器推送事件的形式，通过一个小型缓冲区流式传输到每个客户端。每次…_
 
-**2. 在谷歌威胁要切断学校的搜索访问权限之际，洛杉矶屏蔽了人工智能功能-美联社新闻**
+**2. “AI股神”高喊抄底：AI实验室2027年底年化收入或突破万亿美元，Anthropic被严重低估，机器人ChatGPT时刻明年到来！ - 华尔街见闻**
 
-As Google threatens to cut schools’ search access, Los Angeles blocks AI features - AP News · Google News · 4 小时前 · [原文](<https://news.google.com/rss/articles/CBMiugFBVV95cUxPX28yVGlpUUl3UEpZMGJaTDRFbXBWR09uX1diWWotVXFuQ2JOTDlZRVVCUXRtN3FyUUNzczI2SG9sTXZXanlELUZfYU1YTHZ3enQ1NUoyUGU4NmwzNzJYV3l5ZjM0cHF0NHlhMDl2R3gwaWROaHREY3Zrd3BBd2hHd202WnFqWTJwSF9pSThfUk5wRV9TQkdBVC1zc09hbHh6M1BVVHJ5MUdmc2JzQmJ2YUJLaEkzSGJXNHc?oc=5>)
+Google 新闻中文 · 1 小时前 · [原文](<https://news.google.com/rss/articles/CBMiU0FVX3lxTE4tUi1mTXVUYVIzcjRaTnlfME43Z3RJa0VTRzloaERzQ25pMm0xQzFBWDNjRTg1emhBTVR3UDk0c2hWNl9xRE1aY2pDQ3VlZ25QNW1F?oc=5>)
 
-_随着谷歌威胁要切断学校的搜索访问权限，洛杉矶封锁了人工智能功能——美联社新闻_
+_“AI股神”高喊抄底：AI实验室2027年底年化收入或突破万亿美元，Anthropic被严重低估，机器人ChatGPT时刻明年到来！ 华尔街见闻_
 
-**3. Appaloosa Management 的亿万富豪 David Tepper 将其投资组合的 65% 投资于这 7 只人工智能 (AI) 股票。以下是我现在会毫不犹豫买入的 3 只股票-雅虎财经**
+**3. 李隽院士做客南开 纵论“从炼金术到人工智能时代的化学科学” - 南开大学新闻网**
 
-Billionaire David Tepper of Appaloosa Management Has 65% of His Portfolio Invested in These 7 Artificial Intelligence (AI) Stocks. Here Are the 3 I’d Buy Hand Over Fist Right Now - Yahoo Finance · Google News · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMilgFBVV95cUxOc0dwYzJDRVJhaTVWYkd6OUdnQU41Z0dyUFZIajk5UVRzVWNZVG9yWWxfS0ZjQ0NqQS1BemphS2xjdmpTelZObG1XT0k2RWRuZnc5SDlTekI3VnVwQXBlY0VkaVctd0tCQ2N4bG9JZ2RSZ29pMjBhTm9Vdnc2M3hJdlNJRUxIbzE1eDRCZ1JMWXhEcThWWVE?oc=5>)
+Google 新闻中文 · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMic0FVX3lxTE8wV2NPUUZXMDh2NVBkWWhKcTl4cUNvejZmMk5abXdLTGMzaXpER0FfeDJWNWxNU0IxYXlNNWV4aG8zcDVZa1ZSb01OdXZmSEdPWWgzSWhYQll3S1Z1MEJtRjdtUjBhTk9fLVRTNzlQLWhnajQ?oc=5>)
 
-_Appaloosa Management 的亿万富翁 David Tepper 将其投资组合的 65% 投资于这 7 只人工智能 (AI) 股票。以下是我现在会毫不犹豫买入的 3 只股票 Yahoo Finance_
+_李隽院士做客南开 纵论“从炼金术到人工智能时代的化学科学” 南开大学新闻网_
 
-**4. 杭州未来科技城：大模型产业何以集聚成势 - 新华网**
+**4. PSU推出人工智能学位Pathway课程-先锋**
 
-Google 新闻中文 · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMigAFBVV95cUxQclBjMnphZ01rT01kZkFFQUhPSmxtM0pmZGJHRnZjMGdqY2FyZHlMVmthVnd5QnVhR0lRQkVtdGV4RXdlX0RFcDlKblF1NGNNYXpKTEgzUjdpbTNCaHBNNm90elJsTWtlZGJRelgxM3Q2RG5YUmcwRDBRZFZDRFlLSQ?oc=5>)
+PSU Introduces Artificial Intelligence Degree Pathways - Vanguard · Google News · 1 小时前 · [原文](<https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaUxESGJod0lWVDFkWmZuaDEzODdaZ0g0UVZNdzcwQ29RQ09KallGUmpoMzdoMUp3NVd2ejBSYzBWeTA1clBRdk9yb2ZfbjFqbzZZWnRUelhZTUUzYUpVOHdfaGp5M19TN19jS0tYREhGRm4wU2VHeG80MENoNURIaERmOEk5UllCbmxj0gGLAUFVX3lxTE1pTERIYmh3SVZUMWRaZm5oMTM4N1pnSDRRVk13NzBDb1FDT0pqWUZSamgzN2gxSnc1V3Z6MFJjMFZ5MDVyUFF2T3JvZl9uMWpvNlladFR6WFlNRTNhSlU4d19oankzX1M3X2NLS1hESEZGbjBTZUd4bzQwQ2g1REhoRGY4STlSWUJubGM?oc=5>)
 
-_杭州未来科技城：大模型产业何以集聚成势 新华网_
+_PSU推出人工智能学位Pathway先锋课程_
 
-**5. 第三届联合国大学澳门人工智能大会聚焦人工智能与教育融合发展 - 神州学人**
+**5. 随着零售业人工智能影响招聘和排班，美国劳工联合会-产业工会联合会呼吁加强对工人的保护-比特币基金会**
 
-Google 新闻中文 · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMidEFVX3lxTE1yNlZFZTkwUDFXYjQ4R0hZZTlsUzhwRVRWVzdYQ0UyWkQzc21XS1lsVmFXR0JOb3RQUzN2elhtWEZBWkUxcWU5UHAtNWdyQTRRSHB6TVZUb2h5RlpURGFLQmMyTENZcHpyOVRWUlJWRzNTU3lD?oc=5>)
+AFL-CIO Calls for Worker Protections as Retail AI Shapes Hiring and Scheduling - Bitcoin Foundation · Google News · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVWdnVHJ6OVJpSVFORUM3NlFWbDludFA1UG5ua3JwYVh6S01KeHNPa25BeldoWUk1bmxPZ0stc3NZSHp4cGctUndrb2lKS1hQaVhBRDZlWHg5ODJNU2RlV0tsc2pqd1ZYTTAtNTRiQWtiXzRDZ3pSamh2ZkR0WjBSQWNYNjZycGg5M2Q3OGRqYnBpUzA2T2QweHEtbGxtY0MyRXhEM2dFVmN5LXFKUVR3Q01takRqYXUz?oc=5>)
 
-_第三届联合国大学澳门人工智能大会聚焦人工智能与教育融合发展 神州学人_
+_随着零售业人工智能影响招聘和排班，美国劳工联合会-产业工会联合会呼吁加强对劳动者的保护比特币基金会_
+
+**6. Tan Tieniu delivers the first lecture of Core General Course on AI to over ten thousand first-year students - 南京大学**
+
+Google News · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMiWEFVX3lxTE5kbGEtNkV3dHpORnBCN1FTUlUyV3NEVXhxd3VJY3VUOTJ0V3ctVTdxcEk2RjJGV1I3RGNwdWV0QndnMWlwcElBLU1HWXg5X0JjRmtWLTF4SGM?oc=5>)
+
+_Tan Tieniu delivers the first lecture of Core General Course on AI to over ten thousand first-year students 南京大学_
 
 ## 🛠 工程与开源工具
 
-**1. 您的AI在背后议论您的群聊**
+**1. 房东的AI助手告知租户可以延迟支付租金，结果租户被驱逐**
 
-The group chat where your AI talks behind your back · Hacker News · 3 小时前 · ▲177 · [原文](<https://construct22.com/>)
+Woman evicted after landlord's AI assistant told her she could delay rent · Hacker News · 7 小时前 · ▲163 · [原文](<https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai>)
 
-**2. 人工智能让自助托管再次变得有趣**
+**2. 迈克尔·尼尔森（Michael Nielsen）删除了他关于神经网络的书**
 
-AI made self-hosting fun again · Hacker News · 11 小时前 · ▲647 · [原文](<https://janlukas.blog/posts/ai-self-hosting>)
+Michael Nielsen took down his book on neural nets · Hacker News · 13 小时前 · ▲506 · [原文](<https://neuralnetworksanddeeplearning.com/>)
 
-**3. 机器学习中的不确定性简介**
+**3. 我害怕人工智能**
 
-An introduction to uncertainty in machine learning · Hacker News · 14 小时前 · ▲76 · [原文](<https://chrhenning.com/blog/2026/introduction-to-uncertainty/>)
+I'm Scared of AI · Hacker News · 15 小时前 · ▲211 · [原文](<https://thesoapbox.email/archive/3>)
 
-**4. Notion 的官方 MCP 将隐藏的追加销售说明注入客服代表的上下文中**
+**4. Prospero：使用ImGui的无臃肿原生AI编码工具**
 
-Notion's official MCP inject hidden upsell instructions into agent context · Hacker News · 15 小时前 · ▲54 · [原文](<https://www.reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into/>)
+Prospero: Bloat-free, native AI coding harness with ImGui · Hacker News · 12 小时前 · ▲66 · [原文](<https://github.com/skeeto/prospero>)
 
-**5. 四家美国公司最常被引用的AI科学家对比**
+**5. GPT 6.2 Astra解开了历史谜团**
 
-Top-cited AI scientists at four US companies compared · Hacker News · 14 小时前 · ▲41 · [原文](<https://topcitedscientists.com/figures/ai-at-four-us-companies/>)
+GPT 6.2 Astra solves a historical mystery · Hacker News · 18 小时前 · ▲166 · [原文](<https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical>)
+
+**6. 数学家担心人工智能即将使网络安全失去意义**
+
+AI on brink of making online security useless, mathematicians fear · Hacker News · 21 小时前 · ▲119 · [原文](<https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8>)
+
+_https://archive.ph/4hRp8_
 
 ## 💭 观点与深度
 
-**1. 问HN：41岁时，您如何找到人生的意义？**
+**1. 人工智能如何重塑大学评估-Al-Fanar Media**
 
-Ask HN: How do you find meaning of life at 41? · Hacker News · 15 小时前 · ▲60 · [原文](<https://news.ycombinator.com/item?id=50657957>)
+How Artificial Intelligence Is Reshaping University Assessment - Al-Fanar Media · Google News · 1 小时前 · [原文](<https://news.google.com/rss/articles/CBMingFBVV95cUxPdkxBelRJbjMxbWIxbUI0OUhZRkF4WlNnd2xFQmg2anZmZUhnSDQzeFFDNG9kTTZGU1BNXzlyQ2FmQ0VvNUJIcE5BMzhGSHBhV1ZiaEhUN0dlLUZ6cWRjQW5pRHZ2UXRHbXFDakdreXFPSzJIbmZYMjJ1Z1V4ZnhMaGJ5bm42WFd6Y3BwSVJXVEZfdjEtZ2tlMW9HZ2szZw?oc=5>)
 
-_感恩节快乐！这个问题今天早上在我脑海中闪过。我觉得自己已经见识过世间几乎所有事物。我有一套普通的房子（还在租），有几个小孩，有一份还算不错的工作。我每天都会花时间…_
-
-**2. 《侠盗猎车手6》证明了效率为何不是一种美德**
-
-Grand Theft Auto VI proves why efficiency isn’t a virtue · TechCrunch AI · 17 小时前 · [原文](<https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/>)
-
-_在Anthropic上市的同一天，一款精心打造的人性化视频游戏成为了有史以来最成功的娱乐产品之一。_
-
-**3. 下载：更出色的仿生手和人工智能的天然气热潮**
-
-The Download: Better bionic hands and AI’s natural-gas boom · MIT Tech Review · 20 小时前 · [原文](<https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/>)
-
-_这是The Download的今日版，这是我们的工作日简讯，每日为您提供科技界最新动态。下一代仿生手已经问世，它们可以感知触觉。Avi Davidson失去了…_
-
-**4. 群、群组、团伙：如何构建、训练和评估多智能体系统**
-
-Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems · Hugging Face · 33 小时前 · [原文](<https://huggingface.co/blog/training-swarms>)
+_人工智能如何重塑大学评估——Al-Fanar Media_

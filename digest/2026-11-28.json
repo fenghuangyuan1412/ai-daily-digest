@@ -1,0 +1,235 @@
+{
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-28T08:34:21.766Z",
+  "windowHours": 36,
+  "sourcesTotal": 13,
+  "sourcesOk": 13,
+  "sourcesFailed": [],
+  "itemCount": 16,
+  "translatedCount": 12,
+  "sections": [
+    {
+      "key": "model",
+      "label": "🚀 模型与产品发布",
+      "items": [
+        {
+          "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+          "titleZh": "将 Trainium3 带上正轨：使用 LTX-2.5 生成视频",
+          "url": "https://huggingface.co/blog/video-trainium3",
+          "source": "Hugging Face",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-27T00:00:00.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "research",
+      "label": "🔬 研究前沿",
+      "items": [
+        {
+          "title": "Delphi Study Reveals How Artificial Intelligence Reshapes Foundational Human Competencies - Bioengineer.org",
+          "titleZh": "德尔菲研究揭示人工智能如何重塑人类基础能力-Bioengineer.org",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPV2h4OHU4WktjV05EWFd3dnRWc0hjLUdtelhOSWlhVE1qUnZHOXRodjlkallKaEt6d1FaaHh6bEZzOV9Ec3ZzQU41cmRybU1sb1lzQlRGbW1Ub0xncGhDRVNmRHNKVTNNZHEtMFlRMVhQTDRBYVAtSUxlX3pDR3RaS2FnSDJnYVVLOUhRME0yM2pTeUxDUnAyRjFlM1lNRG1Yd1ZNZUxKbkR2ZUpHeGdVTVdNejA?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "Delphi Study Reveals How Artificial Intelligence Reshapes Foundational Human Competencies Bioengineer.org",
+          "summaryZh": "德尔菲研究揭示人工智能如何重塑人类基础能力Bioengineer.org",
+          "published": "2026-11-28T07:48:02.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "人工智能研究院党支部召开党员大会 - 北京大学新闻网",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9BVGJMMXB1TmhSdlE3NlZfUTl1c1lzY29UX1Z2YnJXaGV0b3hRRjg5S1V6R1Mxd3QwdFU5OExvZGREeWlxYzdoc2NGdVZLOEkyQnZWdzNoaVY?oc=5",
+          "source": "Google 新闻中文",
+          "alsoOn": [],
+          "summary": "人工智能研究院党支部召开党员大会 北京大学新闻网",
+          "summaryZh": "",
+          "published": "2026-11-28T03:01:14.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "label": "🏢 公司与行业动向",
+      "items": [
+        {
+          "title": "Show HN: bouncemarket - a live prediction market game for a bouncing ball",
+          "titleZh": "Show HN：bouncemarket——一款关于弹跳球的实时预测市场游戏",
+          "url": "https://bouncemarket.minhanhday.com/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "a ball will fall. trade on where it lands. I made this game! Some technical details: The entire drop of the ball is simulated server-side, then streamed to each client as server-sent events with a small buffer. Every drop is deterministic from its starting position, so rounds can be replayed exactly for later analysis, but tiny variations in starting position can change the ultimate outcome. There's some AI traders to keep the market moving, but they drop out in any round that has more than five people. They operate using a naive set of rules that I wrote for them, so they're not too hard to beat -- it's when the market is full of real people that it gets tricky. Curious to get feedback on anything you would change, and especially whether the mechanics were clear right away or not.",
+          "summaryZh": "一个球将落下。对它落下的位置进行交易。这款游戏是我做的！一些技术细节：整个落球过程在服务器端进行模拟，然后以服务器推送事件的形式，通过一个小型缓冲区流式传输到每个客户端。每次…",
+          "published": "2026-11-27T15:01:50.000Z",
+          "points": 369,
+          "discussion": "https://news.ycombinator.com/item?id=50667726"
+        },
+        {
+          "title": "“AI股神”高喊抄底：AI实验室2027年底年化收入或突破万亿美元，Anthropic被严重低估，机器人ChatGPT时刻明年到来！ - 华尔街见闻",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4tUi1mTXVUYVIzcjRaTnlfME43Z3RJa0VTRzloaERzQ25pMm0xQzFBWDNjRTg1emhBTVR3UDk0c2hWNl9xRE1aY2pDQ3VlZ25QNW1F?oc=5",
+          "source": "Google 新闻中文",
+          "alsoOn": [],
+          "summary": "“AI股神”高喊抄底：AI实验室2027年底年化收入或突破万亿美元，Anthropic被严重低估，机器人ChatGPT时刻明年到来！ 华尔街见闻",
+          "summaryZh": "",
+          "published": "2026-11-28T07:18:48.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "李隽院士做客南开 纵论“从炼金术到人工智能时代的化学科学” - 南开大学新闻网",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8wV2NPUUZXMDh2NVBkWWhKcTl4cUNvejZmMk5abXdLTGMzaXpER0FfeDJWNWxNU0IxYXlNNWV4aG8zcDVZa1ZSb01OdXZmSEdPWWgzSWhYQll3S1Z1MEJtRjdtUjBhTk9fLVRTNzlQLWhnajQ?oc=5",
+          "source": "Google 新闻中文",
+          "alsoOn": [],
+          "summary": "李隽院士做客南开 纵论“从炼金术到人工智能时代的化学科学” 南开大学新闻网",
+          "summaryZh": "",
+          "published": "2026-11-28T07:46:00.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "PSU Introduces Artificial Intelligence Degree Pathways - Vanguard",
+          "titleZh": "PSU推出人工智能学位Pathway课程-先锋",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaUxESGJod0lWVDFkWmZuaDEzODdaZ0g0UVZNdzcwQ29RQ09KallGUmpoMzdoMUp3NVd2ejBSYzBWeTA1clBRdk9yb2ZfbjFqbzZZWnRUelhZTUUzYUpVOHdfaGp5M19TN19jS0tYREhGRm4wU2VHeG80MENoNURIaERmOEk5UllCbmxj0gGLAUFVX3lxTE1pTERIYmh3SVZUMWRaZm5oMTM4N1pnSDRRVk13NzBDb1FDT0pqWUZSamgzN2gxSnc1V3Z6MFJjMFZ5MDVyUFF2T3JvZl9uMWpvNlladFR6WFlNRTNhSlU4d19oankzX1M3X2NLS1hESEZGbjBTZUd4bzQwQ2g1REhoRGY4STlSWUJubGM?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "PSU Introduces Artificial Intelligence Degree Pathways Vanguard",
+          "summaryZh": "PSU推出人工智能学位Pathway先锋课程",
+          "published": "2026-11-28T07:13:01.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "AFL-CIO Calls for Worker Protections as Retail AI Shapes Hiring and Scheduling - Bitcoin Foundation",
+          "titleZh": "随着零售业人工智能影响招聘和排班，美国劳工联合会-产业工会联合会呼吁加强对工人的保护-比特币基金会",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVWdnVHJ6OVJpSVFORUM3NlFWbDludFA1UG5ua3JwYVh6S01KeHNPa25BeldoWUk1bmxPZ0stc3NZSHp4cGctUndrb2lKS1hQaVhBRDZlWHg5ODJNU2RlV0tsc2pqd1ZYTTAtNTRiQWtiXzRDZ3pSamh2ZkR0WjBSQWNYNjZycGg5M2Q3OGRqYnBpUzA2T2QweHEtbGxtY0MyRXhEM2dFVmN5LXFKUVR3Q01takRqYXUz?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "AFL-CIO Calls for Worker Protections as Retail AI Shapes Hiring and Scheduling Bitcoin Foundation",
+          "summaryZh": "随着零售业人工智能影响招聘和排班，美国劳工联合会-产业工会联合会呼吁加强对劳动者的保护比特币基金会",
+          "published": "2026-11-28T06:51:29.000Z",
+          "points": 0,
+          "discussion": ""
+        },
+        {
+          "title": "Tan Tieniu delivers the first lecture of Core General Course on AI to over ten thousand first-year students - 南京大学",
+          "titleZh": "",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5kbGEtNkV3dHpORnBCN1FTUlUyV3NEVXhxd3VJY3VUOTJ0V3ctVTdxcEk2RjJGV1I3RGNwdWV0QndnMWlwcElBLU1HWXg5X0JjRmtWLTF4SGM?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "Tan Tieniu delivers the first lecture of Core General Course on AI to over ten thousand first-year students 南京大学",
+          "summaryZh": "",
+          "published": "2026-11-28T06:08:28.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    },
+    {
+      "key": "eng",
+      "label": "🛠 工程与开源工具",
+      "items": [
+        {
+          "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+          "titleZh": "房东的AI助手告知租户可以延迟支付租金，结果租户被驱逐",
+          "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-28T01:32:56.000Z",
+          "points": 163,
+          "discussion": "https://news.ycombinator.com/item?id=50673521"
+        },
+        {
+          "title": "Michael Nielsen took down his book on neural nets",
+          "titleZh": "迈克尔·尼尔森（Michael Nielsen）删除了他关于神经网络的书",
+          "url": "https://neuralnetworksanddeeplearning.com/",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-27T19:31:01.000Z",
+          "points": 506,
+          "discussion": "https://news.ycombinator.com/item?id=50670757"
+        },
+        {
+          "title": "I'm Scared of AI",
+          "titleZh": "我害怕人工智能",
+          "url": "https://thesoapbox.email/archive/3",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-27T17:45:31.000Z",
+          "points": 211,
+          "discussion": "https://news.ycombinator.com/item?id=50669561"
+        },
+        {
+          "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+          "titleZh": "Prospero：使用ImGui的无臃肿原生AI编码工具",
+          "url": "https://github.com/skeeto/prospero",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-27T20:23:14.000Z",
+          "points": 66,
+          "discussion": "https://news.ycombinator.com/item?id=50671275"
+        },
+        {
+          "title": "GPT 6.2 Astra solves a historical mystery",
+          "titleZh": "GPT 6.2 Astra解开了历史谜团",
+          "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "",
+          "summaryZh": "",
+          "published": "2026-11-27T15:03:17.000Z",
+          "points": 166,
+          "discussion": "https://news.ycombinator.com/item?id=50667744"
+        },
+        {
+          "title": "AI on brink of making online security useless, mathematicians fear",
+          "titleZh": "数学家担心人工智能即将使网络安全失去意义",
+          "url": "https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8",
+          "source": "Hacker News",
+          "alsoOn": [],
+          "summary": "https://archive.ph/4hRp8",
+          "summaryZh": "",
+          "published": "2026-11-27T11:09:04.000Z",
+          "points": 119,
+          "discussion": "https://news.ycombinator.com/item?id=50665488"
+        }
+      ]
+    },
+    {
+      "key": "ideas",
+      "label": "💭 观点与深度",
+      "items": [
+        {
+          "title": "How Artificial Intelligence Is Reshaping University Assessment - Al-Fanar Media",
+          "titleZh": "人工智能如何重塑大学评估-Al-Fanar Media",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdkxBelRJbjMxbWIxbUI0OUhZRkF4WlNnd2xFQmg2anZmZUhnSDQzeFFDNG9kTTZGU1BNXzlyQ2FmQ0VvNUJIcE5BMzhGSHBhV1ZiaEhUN0dlLUZ6cWRjQW5pRHZ2UXRHbXFDakdreXFPSzJIbmZYMjJ1Z1V4ZnhMaGJ5bm42WFd6Y3BwSVJXVEZfdjEtZ2tlMW9HZ2szZw?oc=5",
+          "source": "Google News",
+          "alsoOn": [],
+          "summary": "How Artificial Intelligence Is Reshaping University Assessment Al-Fanar Media",
+          "summaryZh": "人工智能如何重塑大学评估——Al-Fanar Media",
+          "published": "2026-11-28T07:17:54.000Z",
+          "points": 0,
+          "discussion": ""
+        }
+      ]
+    }
+  ],
+  "markdown": "# 📰 AI 日报 · 2026-11-28\n\n> 16 条 · 13/13 个源正常 · 覆盖最近 36 小时 · 12 条已译\n\n## 🚀 模型与产品发布\n\n**1. 将 Trainium3 带上正轨：使用 LTX-2.5 生成视频**\n\nTaking Trainium3 to the Track: Generating Videos with LTX-2.5 · Hugging Face · 33 小时前 · [原文](<https://huggingface.co/blog/video-trainium3>)\n\n## 🔬 研究前沿\n\n**1. 德尔菲研究揭示人工智能如何重塑人类基础能力-Bioengineer.org**\n\nDelphi Study Reveals How Artificial Intelligence Reshapes Foundational Human Competencies - Bioengineer.org · Google News · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMitAFBVV95cUxPV2h4OHU4WktjV05EWFd3dnRWc0hjLUdtelhOSWlhVE1qUnZHOXRodjlkallKaEt6d1FaaHh6bEZzOV9Ec3ZzQU41cmRybU1sb1lzQlRGbW1Ub0xncGhDRVNmRHNKVTNNZHEtMFlRMVhQTDRBYVAtSUxlX3pDR3RaS2FnSDJnYVVLOUhRME0yM2pTeUxDUnAyRjFlM1lNRG1Yd1ZNZUxKbkR2ZUpHeGdVTVdNejA?oc=5>)\n\n_德尔菲研究揭示人工智能如何重塑人类基础能力Bioengineer.org_\n\n**2. 人工智能研究院党支部召开党员大会 - 北京大学新闻网**\n\nGoogle 新闻中文 · 6 小时前 · [原文](<https://news.google.com/rss/articles/CBMiWEFVX3lxTE9BVGJMMXB1TmhSdlE3NlZfUTl1c1lzY29UX1Z2YnJXaGV0b3hRRjg5S1V6R1Mxd3QwdFU5OExvZGREeWlxYzdoc2NGdVZLOEkyQnZWdzNoaVY?oc=5>)\n\n_人工智能研究院党支部召开党员大会 北京大学新闻网_\n\n## 🏢 公司与行业动向\n\n**1. Show HN：bouncemarket——一款关于弹跳球的实时预测市场游戏**\n\nShow HN: bouncemarket - a live prediction market game for a bouncing ball · Hacker News · 18 小时前 · ▲369 · [原文](<https://bouncemarket.minhanhday.com/>)\n\n_一个球将落下。对它落下的位置进行交易。这款游戏是我做的！一些技术细节：整个落球过程在服务器端进行模拟，然后以服务器推送事件的形式，通过一个小型缓冲区流式传输到每个客户端。每次…_\n\n**2. “AI股神”高喊抄底：AI实验室2027年底年化收入或突破万亿美元，Anthropic被严重低估，机器人ChatGPT时刻明年到来！ - 华尔街见闻**\n\nGoogle 新闻中文 · 1 小时前 · [原文](<https://news.google.com/rss/articles/CBMiU0FVX3lxTE4tUi1mTXVUYVIzcjRaTnlfME43Z3RJa0VTRzloaERzQ25pMm0xQzFBWDNjRTg1emhBTVR3UDk0c2hWNl9xRE1aY2pDQ3VlZ25QNW1F?oc=5>)\n\n_“AI股神”高喊抄底：AI实验室2027年底年化收入或突破万亿美元，Anthropic被严重低估，机器人ChatGPT时刻明年到来！ 华尔街见闻_\n\n**3. 李隽院士做客南开 纵论“从炼金术到人工智能时代的化学科学” - 南开大学新闻网**\n\nGoogle 新闻中文 · 刚刚 · [原文](<https://news.google.com/rss/articles/CBMic0FVX3lxTE8wV2NPUUZXMDh2NVBkWWhKcTl4cUNvejZmMk5abXdLTGMzaXpER0FfeDJWNWxNU0IxYXlNNWV4aG8zcDVZa1ZSb01OdXZmSEdPWWgzSWhYQll3S1Z1MEJtRjdtUjBhTk9fLVRTNzlQLWhnajQ?oc=5>)\n\n_李隽院士做客南开 纵论“从炼金术到人工智能时代的化学科学” 南开大学新闻网_\n\n**4. PSU推出人工智能学位Pathway课程-先锋**\n\nPSU Introduces Artificial Intelligence Degree Pathways - Vanguard · Google News · 1 小时前 · [原文](<https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaUxESGJod0lWVDFkWmZuaDEzODdaZ0g0UVZNdzcwQ29RQ09KallGUmpoMzdoMUp3NVd2ejBSYzBWeTA1clBRdk9yb2ZfbjFqbzZZWnRUelhZTUUzYUpVOHdfaGp5M19TN19jS0tYREhGRm4wU2VHeG80MENoNURIaERmOEk5UllCbmxj0gGLAUFVX3lxTE1pTERIYmh3SVZUMWRaZm5oMTM4N1pnSDRRVk13NzBDb1FDT0pqWUZSamgzN2gxSnc1V3Z6MFJjMFZ5MDVyUFF2T3JvZl9uMWpvNlladFR6WFlNRTNhSlU4d19oankzX1M3X2NLS1hESEZGbjBTZUd4bzQwQ2g1REhoRGY4STlSWUJubGM?oc=5>)\n\n_PSU推出人工智能学位Pathway先锋课程_\n\n**5. 随着零售业人工智能影响招聘和排班，美国劳工联合会-产业工会联合会呼吁加强对工人的保护-比特币基金会**\n\nAFL-CIO Calls for Worker Protections as Retail AI Shapes Hiring and Scheduling - Bitcoin Foundation · Google News · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVWdnVHJ6OVJpSVFORUM3NlFWbDludFA1UG5ua3JwYVh6S01KeHNPa25BeldoWUk1bmxPZ0stc3NZSHp4cGctUndrb2lKS1hQaVhBRDZlWHg5ODJNU2RlV0tsc2pqd1ZYTTAtNTRiQWtiXzRDZ3pSamh2ZkR0WjBSQWNYNjZycGg5M2Q3OGRqYnBpUzA2T2QweHEtbGxtY0MyRXhEM2dFVmN5LXFKUVR3Q01takRqYXUz?oc=5>)\n\n_随着零售业人工智能影响招聘和排班，美国劳工联合会-产业工会联合会呼吁加强对劳动者的保护比特币基金会_\n\n**6. Tan Tieniu delivers the first lecture of Core General Course on AI to over ten thousand first-year students - 南京大学**\n\nGoogle News · 2 小时前 · [原文](<https://news.google.com/rss/articles/CBMiWEFVX3lxTE5kbGEtNkV3dHpORnBCN1FTUlUyV3NEVXhxd3VJY3VUOTJ0V3ctVTdxcEk2RjJGV1I3RGNwdWV0QndnMWlwcElBLU1HWXg5X0JjRmtWLTF4SGM?oc=5>)\n\n_Tan Tieniu delivers the first lecture of Core General Course on AI to over ten thousand first-year students 南京大学_\n\n## 🛠 工程与开源工具\n\n**1. 房东的AI助手告知租户可以延迟支付租金，结果租户被驱逐**\n\nWoman evicted after landlord's AI assistant told her she could delay rent · Hacker News · 7 小时前 · ▲163 · [原文](<https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai>)\n\n**2. 迈克尔·尼尔森（Michael Nielsen）删除了他关于神经网络的书**\n\nMichael Nielsen took down his book on neural nets · Hacker News · 13 小时前 · ▲506 · [原文](<https://neuralnetworksanddeeplearning.com/>)\n\n**3. 我害怕人工智能**\n\nI'm Scared of AI · Hacker News · 15 小时前 · ▲211 · [原文](<https://thesoapbox.email/archive/3>)\n\n**4. Prospero：使用ImGui的无臃肿原生AI编码工具**\n\nProspero: Bloat-free, native AI coding harness with ImGui · Hacker News · 12 小时前 · ▲66 · [原文](<https://github.com/skeeto/prospero>)\n\n**5. GPT 6.2 Astra解开了历史谜团**\n\nGPT 6.2 Astra solves a historical mystery · Hacker News · 18 小时前 · ▲166 · [原文](<https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical>)\n\n**6. 数学家担心人工智能即将使网络安全失去意义**\n\nAI on brink of making online security useless, mathematicians fear · Hacker News · 21 小时前 · ▲119 · [原文](<https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8>)\n\n_https://archive.ph/4hRp8_\n\n## 💭 观点与深度\n\n**1. 人工智能如何重塑大学评估-Al-Fanar Media**\n\nHow Artificial Intelligence Is Reshaping University Assessment - Al-Fanar Media · Google News · 1 小时前 · [原文](<https://news.google.com/rss/articles/CBMingFBVV95cUxPdkxBelRJbjMxbWIxbUI0OUhZRkF4WlNnd2xFQmg2anZmZUhnSDQzeFFDNG9kTTZGU1BNXzlyQ2FmQ0VvNUJIcE5BMzhGSHBhV1ZiaEhUN0dlLUZ6cWRjQW5pRHZ2UXRHbXFDakdreXFPSzJIbmZYMjJ1Z1V4ZnhMaGJ5bm42WFd6Y3BwSVJXVEZfdjEtZ2tlMW9HZ2szZw?oc=5>)\n\n_人工智能如何重塑大学评估——Al-Fanar Media_\n"
+}
